@@ -118,8 +118,3 @@ Essential service qualifiers cannot be guessed from a unique catalog match or bi
 
 Confidence attaches to a complete supported opinion. H1 correct-row tiers use 0.95/0.90; sparse error tiers use 0.65 judgment. Reviewed targets use 0.80/0.70, with relevant interpretation or invariant-uncertainty caps. These are not demonstrated target probabilities. Lowering a score cannot replace a missing fact.
 
-
-
-## Technical prompts and historical evidence
-
-[AI assistance](docs/ai_usage.md) and the [prompt index](prompts/README.md) describe acquisition and its revisions. Original technical prompts, hash-bound source reviews, independent audit reports and earlier failures remain unaltered historical evidence. Current reports describe the implemented behavior; archive restoration is optional. [Reproducibility details](docs/reproducibility.md) include PDF rendering and the distinction between replay and fresh extraction.
