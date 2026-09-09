@@ -16,8 +16,7 @@ git -C ../insurance-audit-history log --oneline
 ```
 
 That historical checkout contains full original paths and can run its historical
-author checks. Its README/status language describes the earlier correction
-checkpoint. Do not copy old current-run pointers over newly generated pointers
+author checks. Its README and status records are historical and retain the original wording. Do not copy old current-run pointers over newly generated pointers
 in the submission checkout. No history restoration is required by the normal
 README reproduction commands.
 
@@ -37,10 +36,8 @@ The bundle preserves all original tracked attempts, not only this list. Full
 paths and SHA-256 values are indexed in `../publishing/file_disposition.json`.
 `../publishing/history_verification.json` records actual recovery and hash checks.
 The checkpoint's modified `reports/recovery_latest.json` is saved separately as
-`checkpoint_recovery_latest.json`; it is an older storage note, not current
-publication evidence. Nine incomplete temporary writes were never authoritative
-attempt outputs and are excluded. The original checkpoint archive remains the
-unchanged external baseline identified in `../publishing/baseline.json`.
+`checkpoint_recovery_latest.json`; it is an older storage note, not an execution result. Nine incomplete temporary writes were never authoritative
+attempt outputs and are excluded. The original comparison manifest is preserved at `../audited_baseline/reproduction_baseline.json`.
 
 
 Historical recovery also found that checkpoint file

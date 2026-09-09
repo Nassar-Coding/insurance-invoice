@@ -1,8 +1,8 @@
 # Insurance auditing
 
-**LLM contract-to-schema with deterministic pricing**, implemented against the supplied synthetic five-hospital challenge. The authoring assistant interpreted contracts and reviewed service mappings in ChatGPT Work. Standard-library Python replays saved, reviewed JSON through a fixed interpreter. Prediction execution makes no model calls.
+**LLM contract-to-schema with deterministic pricing**, implemented against the supplied synthetic five-hospital challenge. AI-assisted contract interpretation and source review produced finite schemas and service mappings. Standard-library Python replays saved, reviewed JSON through a fixed interpreter. Prediction execution makes no model calls.
 
-The independent closure verdict is **PASS — BOTH FINDINGS CLOSED, NO MATERIAL REGRESSIONS**. This repository preserves that corrected technical state; publication preparation changes documentation and packaging only. See the unchanged [closure report](governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md) and [current preparation/reproduction report](reports/publishing_preparation_report.md).
+The implementation has 75 tests and independent verification of clean replay and the two corrected defects. See [implementation details](reports/implementation_report.md) and [reproduction results](reports/final_reproduction_result.md).
 
 ## Results and coverage
 
@@ -20,7 +20,7 @@ H1 has **250/250 correct flag-and-exact-amount matches on emitted opinions**, **
 
 ## Install and reproduce
 
-After cloning the submitted repository, enter its root. Use **CPython 3.12.13**, recorded in `.python-version` and included in execution identity. There are **no third-party runtime or test packages**. `requirements.txt` is intentionally comments only. No API credentials, Work connection, GPU, database, network service or archived prediction is needed.
+After cloning the submitted repository, enter its root. Use **CPython 3.12.13**, recorded in `.python-version` and included in execution identity. There are **no third-party runtime or test packages**. `requirements.txt` is intentionally comments only. No API credentials, GPU, database, network service or archived prediction is needed.
 
 Linux/macOS shell:
 
@@ -75,38 +75,38 @@ Use `--project /absolute/project/path` before a subcommand when invoking elsewhe
 
 ## Clean-state verification and generated files
 
-The additional publication check creates a fresh local Git clone and virtual environment, installs the empty dependency set, removes saved predictions and archived history from the clone, executes the documented pipeline and all 75 tests, and compares complete hospital results and input-quality files with the audited hashes. It also compares the CSV, metrics, workload, evaluation report and release manifest. From a committed checkout:
+The clean-clone check creates a fresh local Git clone and virtual environment, installs the empty dependency set, removes saved predictions and archived history from the clone, executes the documented pipeline and all 75 tests, and compares complete hospital results and input-quality files with the recorded reference hashes. It also compares the CSV, metrics, workload, evaluation report and release manifest. From a committed checkout:
 
 ```bash
 python publishing/check_reproduction.py
 ```
 
-Normal reproduction needs neither this helper nor historical restoration. Its output goes to `evidence/publishing/latest_reproduction/`; the supplied final verification is retained separately under `evidence/publishing/final_reproduction/`.
+Normal reproduction needs neither this helper nor historical restoration. Its output goes to `evidence/publishing/latest_reproduction/`; the latest verified result is retained under `evidence/publishing/cleanup_verification/`.
 
 Before ordinary replay you may remove `runs/`, `submission.csv`, and generated `reports/metrics.json`, `reports/workload.json`, `reports/evaluation_*.json`, `reports/evaluation_report.md`, `reports/execution.json` and `reports/release_manifest.json`. **Keep the other review evidence:** accepted bundles require the exact five `reports/H*_source_review.json` files. New attempts live in `runs/attempts/`; `runs/current-H1.json` and `runs/current-H2-H3-H4-H5.json` locate them. Traces record opinions, omissions, services, dated rates, controlling clauses, arithmetic and uncertain context. Export checks full line coverage and policy consistency; failed or stale output cannot be promoted silently.
 
-Prediction/report bytes match the audited baseline. Attempt IDs and timing are intentionally fresh. Each replay retains several hundred MB of detailed JSON; disk use grows with retained attempts. The final report records observed runtime and memory, not a scale guarantee.
+Predictions, metrics, workload and complete hospital traces match the reference. Documentation fingerprints identify the current report templates; attempt IDs and timing are fresh. Each replay retains several hundred MB of detailed JSON; disk use grows with retained attempts. The final report records observed runtime and memory, not a scale guarantee.
 
 ## Project guide
 
 | Path | Purpose |
 |---|---|
 | `data/source/` | Unchanged source CSV, Markdown, H1 labels and template; original challenge README retained |
-| `src/insurance_audit/`, `tests/` | Frozen interpreter, data/uncertainty checks, evaluation/export and 75 tests |
+| `src/insurance_audit/`, `tests/` | Fixed interpreter, data/uncertainty checks, evaluation/export and 75 tests |
 | `contracts/`, `mappings/` | Finite rules, source-bound acceptance bundles, raw candidates and earlier revisions |
 | `evaluation/` | Frozen patient-connected split, confidence policy and development support |
-| `prompts/` | Unchanged extraction, mapping v1/v2, review, implementation and correction instructions |
+| `prompts/` | Original versioned extraction, mapping v1/v2 and source-review prompts |
 | `docs/decision_register.md`, `docs/implementation_changes.md` | Interpretation history, failed expectations and corrections |
-| `docs/ai_usage.md`, `docs/publishing_preparation.md` | Assistance disclosure, current status and packaging decisions |
+| `docs/ai_usage.md`, `docs/reproducibility.md` | Assistance disclosure, reproduction and artifact dependencies |
 | `reports/evaluation_report.md`, `metrics.json`, `workload.json` | Performance, failure examples, abstention workload and limitations |
 | `reports/decision_log.md` / `.pdf` | Current one-page decision summary |
 | `reports/submission_writeup.md` / `.pdf` | Current two-page accompanying write-up |
-| `reports/implementation_report.md` | Corrected report with a separated closure/publication addendum |
-| `reports/corrections/audit_1/` | Counterexamples, before/after evidence and author regression results |
-| `governance/` | Governing workbook, gates, override and unchanged independent audits with evidence |
-| `evidence/audited_baseline/`, `evidence/publishing/` | Reference artifacts, hashes, file dispositions and preparation evidence |
+| `reports/implementation_report.md` | Method, technical corrections, verification and limitations |
+| `reports/corrections/audit_1/` | Counterexamples, before/after evidence and regression results |
+| `governance/audits/` | Unchanged independent technical audits and their execution evidence |
+| `evidence/audited_baseline/`, `evidence/publishing/` | Reference artifacts, checksums and clean-clone evidence |
 | `evidence/history/` | Compact original seven-commit history, including failures and full audited traces; see its README |
-| `publishing/` | Packaging verification and document rendering; not imported by prediction code |
+| `publishing/` | Clean-clone verification and PDF rendering; not imported by prediction code |
 
 The source snapshot is commit `6fee1da60b74512156637a22be15d996a36627e1` of `majedzahrani3/insurance_auditing`. CSV and Markdown are the chosen supplied formats. OCR and a second JSONL loader are not ingestion requirements. All 66,097 source occurrences, including 35 quarantined lines, are accounted for.
 
@@ -118,3 +118,8 @@ Essential service qualifiers cannot be guessed from a unique catalog match or bi
 
 Confidence attaches to a complete supported opinion. H1 correct-row tiers use 0.95/0.90; sparse error tiers use 0.65 judgment. Reviewed targets use 0.80/0.70, with relevant interpretation or invariant-uncertainty caps. These are not demonstrated target probabilities. Lowering a score cannot replace a missing fact.
 
+
+
+## Technical prompts and historical evidence
+
+[AI assistance](docs/ai_usage.md) and the [prompt index](prompts/README.md) describe acquisition and its revisions. Original technical prompts, hash-bound source reviews, independent audit reports and earlier failures remain unaltered historical evidence. Current reports describe the implemented behavior; archive restoration is optional. [Reproducibility details](docs/reproducibility.md) include PDF rendering and the distinction between replay and fresh extraction.

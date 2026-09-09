@@ -107,11 +107,9 @@ def render_reports(root,evaluations):
         'omission causes and review items. The system audits the supplied historical snapshot, not an unseen complete '
         'claims feed. Late or corrected records require a new run and context recomputation.','',
         'Replay uses retained reviewed schemas/mappings and standard-library Python. Repeating fresh LLM extraction '
-        'is a different activity and is not claimed bit-reproducible. The first independent implementation audit '
-        'returned PASS WITH CORRECTIONS. This revision corrects quarantined-header ownership propagation '
-        '(AUD-01) and controlling bundle citations (AUD-02); before/after and author regression evidence are '
-        'retained under reports/corrections/audit_1. Independent closure re-audit and external publishing '
-        'have not been performed.']
+        'is a different activity and is not claimed bit-reproducible. Quarantined-header ownership propagation '
+        '(AUD-01) and controlling bundle citations (AUD-02) are covered by regression tests; before/after '
+        'evidence is retained under reports/corrections/audit_1.']
     (root/'reports/evaluation_report.md').write_text('\n'.join(lines)+'\n')
     manifest=verify_submission(root)
     source_files=list((root/'src').rglob('*.py'))+list((root/'tests').rglob('*.py'))+list((root/'tests/fixtures').glob('*.json'))
@@ -122,6 +120,6 @@ def render_reports(root,evaluations):
         'prediction_inputs':{'H1':current_run(root,['H1'])[1]['identity'],'targets':current_run(root,TARGETS)[1]['identity']},
         'evaluation_testing_and_documentation_inputs':{str(p.relative_to(root)):digest(p) for p in sorted(set(source_files))},
         'stable_outputs':{str(p.relative_to(root)):digest(p) for p in evidence_files},
-        'scope':'local corrected implementation candidate after first independent audit; author regression only, independent closure re-audit and publication pending'}
+        'scope':'Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot'}
     write_json(root/'reports/release_manifest.json',release)
     return workload

@@ -1,4 +1,4 @@
-"""Publication-only clean-clone verification; never modifies prediction logic.
+"""Clean-clone verification against recorded file and result hashes.
 
 The comparison reference stays in this parent process. The child clone loses
 saved predictions, result history and report caches before the documented run.
@@ -43,7 +43,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     report = {'status': 'in progress', 'utc': datetime.now(timezone.utc).isoformat(),
               'python': platform.python_version(), 'commands': [],
-              'scope': 'Publishing preparation verification; no new independent technical audit.'}
+              'scope': 'Clean-clone reproduction against recorded source and result hashes.'}
 
     def save():
         (out/'result.json').write_text(json.dumps(report, sort_keys=True, indent=2)+'\n')

@@ -1,30 +1,16 @@
-# Which report describes which state?
+# Report index
 
-| Files | Interpretation |
+| Files | Purpose |
 |---|---|
-| `publishing_preparation_report.md` | Current preparation outcome, actual final checks and pending external actions |
-| `metrics.json`, `workload.json`, `evaluation_*.json`, `evaluation_report.md`, `release_manifest.json` | Audited deterministic results; README reproduction regenerates equivalent results (fresh attempt provenance varies) |
-| `decision_log.md` / `.pdf`, `submission_writeup.md` / `.pdf`, `document_checks.json` | Current page-limited documents and their verified rendering |
-| `implementation_report.md` | Current status addendum, followed by unchanged corrected author report |
-| `H*_source_review.json`, `H*_candidate_closure.json` | Reviewed package inputs/evidence; preserve original paths and bytes |
-| Acquisition, inventory, viability and mapping-review reports | Dated evidence of source examination and proposal/review history |
-| `corrections/audit_1/` | Unchanged original audit counterexamples, before/after artifacts and author correction verification |
-| `tests_*.json` / `.txt`, regression/provenance/reproduction/guarded/closure/delivery checks | Historical implementation checkpoints with their recorded code/artifact hashes; not new publication checks |
-| `implementation_status.json`, `implementation_completion.json`, `gate_status.json` | Governing implementation ledger at correction checkpoint: 65 verified subtasks, four external BT11 tasks not completed |
+| `implementation_report.md` | Implemented method, audit corrections, observed effects and limitations |
+| `final_reproduction_result.md` | Latest documented-command verification |
+| `metrics.json`, `workload.json`, `evaluation_*.json`, `evaluation_report.md`, `release_manifest.json`, `execution.json` | Regenerated results and their input identities; fresh attempt/timing fields vary |
+| `decision_log.md` / `.pdf`, `submission_writeup.md` / `.pdf`, `document_checks.json` | Current page-limited deliverables and rendering checks |
+| `H*_source_review.json`, `H*_candidate_closure.json` | Original reviewed package inputs/evidence; exact paths and bytes are required by accepted bundles |
+| Acquisition, inventory, viability and mapping-review reports | Historical evidence of source examination, candidate decisions and mapping revisions |
+| `corrections/audit_1/` | Original counterexamples, before/after artifacts and regression results for AUD-01/AUD-02 |
+| Earlier `tests_*.json` / `.txt`, regression, provenance and reproduction checks | Historical verification records, identified by their recorded file hashes and attempts |
 
-Historical checks may reference the old document hashes and original attempt
-paths; those exact documents and attempts remain recoverable in
-`evidence/history/`. The original `document_checks.json` is additionally retained
-under `evidence/audited_baseline/reports/`. A historical hash is not silently
-relabelled as a check of a newly presented document.
+Historical source-review records and technical evidence are retained verbatim. Their model/session descriptions and earlier status wording are not current operational statements. Earlier viability and mapping counts describe their recorded versions. Current coverage comes from `metrics.json` and `workload.json` after reproduction.
 
-`execution.json` at this level describes the original audited attempt IDs and
-timing. The new clean-clone execution is recorded under
-`evidence/publishing/final_reproduction/generated/reports/execution.json`.
-The full result bytes match; attempt IDs and execution duration naturally differ.
-
-Fresh publication execution logs, complete-output comparisons and document
-checks live under `evidence/publishing/`. They are separate from historical
-evidence. The generated evaluation report's final pending-stage sentence is
-preserved as part of the audited release identity; the independent closure
-report establishes the subsequent PASS status.
+Old attempts and documents referenced by historical records are recoverable in a separate checkout using [the history archive](../evidence/history/README.md). Current reproduction uses neither those outputs nor the old test receipts. The clean-clone checks and current comparison manifest are under `evidence/publishing/`; the original pre-cleanup reference is under `evidence/audited_baseline/`.

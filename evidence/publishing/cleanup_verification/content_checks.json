@@ -1,0 +1,1130 @@
+{
+  "status": "passed",
+  "base_commit": "f5221b4a1b41151d927b7ab1249d7a060706d218",
+  "text_files_scanned": [
+    ".gitattributes",
+    ".gitignore",
+    ".python-version",
+    "README.md",
+    "contracts/H1.bundle.json",
+    "contracts/H2.bundle.json",
+    "contracts/H3.bundle.json",
+    "contracts/H4.bundle.json",
+    "contracts/H5.bundle.json",
+    "contracts/archive/schema1/H1.bundle.json",
+    "contracts/archive/schema1/H1_source_review.json",
+    "contracts/archive/schema1/H3.bundle.json",
+    "contracts/archive/schema1/H3_source_review.json",
+    "contracts/archive/schema1/H4.bundle.json",
+    "contracts/archive/schema1/H4_source_review.json",
+    "contracts/archive/schema1/H5.bundle.json",
+    "contracts/archive/schema1/H5_source_review.json",
+    "contracts/archive/schema1/hospital_1.raw.json",
+    "contracts/archive/schema1/hospital_3.raw.json",
+    "contracts/archive/schema1/hospital_4.raw.json",
+    "contracts/archive/schema1/hospital_5.raw.json",
+    "contracts/hospital_1.json",
+    "contracts/hospital_1.raw.json",
+    "contracts/hospital_2.json",
+    "contracts/hospital_2.raw.json",
+    "contracts/hospital_3.json",
+    "contracts/hospital_3.raw.json",
+    "contracts/hospital_4.json",
+    "contracts/hospital_4.raw.json",
+    "contracts/hospital_5.json",
+    "contracts/hospital_5.raw.json",
+    "data/source/README.md",
+    "data/source/contracts/hospital_1/provider_services_agreement.md",
+    "data/source/contracts/hospital_2/master_services_agreement.md",
+    "data/source/contracts/hospital_3/amendment_no_1.md",
+    "data/source/contracts/hospital_3/appendix_b_rate_schedule.md",
+    "data/source/contracts/hospital_3/base_agreement.md",
+    "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md",
+    "data/source/contracts/hospital_5/network_reimbursement_agreement.md",
+    "data/source/invoices/hospital_1_invoices.csv",
+    "data/source/invoices/hospital_1_line_items.csv",
+    "data/source/invoices/hospital_2_invoices.csv",
+    "data/source/invoices/hospital_2_line_items.csv",
+    "data/source/invoices/hospital_3_invoices.csv",
+    "data/source/invoices/hospital_3_line_items.csv",
+    "data/source/invoices/hospital_4_invoices.csv",
+    "data/source/invoices/hospital_4_line_items.csv",
+    "data/source/invoices/hospital_5_invoices.csv",
+    "data/source/invoices/hospital_5_line_items.csv",
+    "data/source/labels/hospital_1_labels.csv",
+    "data/source/submission_template.csv",
+    "docs/ai_usage.md",
+    "docs/architecture.md",
+    "docs/cli_contract.md",
+    "docs/contract_review_protocol.md",
+    "docs/contract_schema.md",
+    "docs/decision_register.md",
+    "docs/implementation_changes.md",
+    "docs/input_contract.md",
+    "docs/reproducibility.md",
+    "docs/scope.md",
+    "docs/snapshot_revisions.md",
+    "docs/source_manifest.json",
+    "docs/work_log.md",
+    "evaluation/confidence_policy.json",
+    "evaluation/development_policy_evidence.json",
+    "evaluation/split_manifest.json",
+    "evidence/audited_baseline/README.md",
+    "evidence/audited_baseline/original_README.md",
+    "evidence/audited_baseline/reports/decision_log.md",
+    "evidence/audited_baseline/reports/document_checks.json",
+    "evidence/audited_baseline/reports/implementation_report.md",
+    "evidence/audited_baseline/reports/metrics.json",
+    "evidence/audited_baseline/reports/release_manifest.json",
+    "evidence/audited_baseline/reports/submission_writeup.md",
+    "evidence/audited_baseline/reports/workload.json",
+    "evidence/audited_baseline/reproduction_baseline.json",
+    "evidence/audited_baseline/submission.csv",
+    "evidence/history/README.md",
+    "evidence/history/checkpoint_recovery_latest.json",
+    "evidence/history/reproduction/README.md",
+    "evidence/history/reproduction/reproduction_check.json",
+    "evidence/history/reproduction/reproduction_commands.txt",
+    "evidence/publishing/README.md",
+    "evidence/publishing/baseline.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/clone.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/clone_commit.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/dependency_check.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/dependency_install.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/dependency_list.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/evaluate_check.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/evaluate_development.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/evaluate_full.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/evaluation_report.md",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/execution.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/metrics.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/release_manifest.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/tests_local.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/tests_local.txt",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/reports/workload.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/generated/submission.csv",
+    "evidence/publishing/cleanup_verification/clean_reproduction/reproduce.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/result.json",
+    "evidence/publishing/cleanup_verification/clean_reproduction/source_commit.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/tests.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/venv.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/verify_submission.log",
+    "evidence/publishing/cleanup_verification/clean_reproduction/version.log",
+    "evidence/publishing/cleanup_verification/technical_preservation.json",
+    "evidence/publishing/cleanup_verification/tests_local.json",
+    "evidence/publishing/cleanup_verification/tests_local.txt",
+    "evidence/publishing/document_checks.json",
+    "evidence/publishing/file_disposition.json",
+    "evidence/publishing/final_reproduction/clone.log",
+    "evidence/publishing/final_reproduction/clone_commit.log",
+    "evidence/publishing/final_reproduction/dependency_check.log",
+    "evidence/publishing/final_reproduction/dependency_install.log",
+    "evidence/publishing/final_reproduction/dependency_list.log",
+    "evidence/publishing/final_reproduction/evaluate_check.log",
+    "evidence/publishing/final_reproduction/evaluate_development.log",
+    "evidence/publishing/final_reproduction/evaluate_full.log",
+    "evidence/publishing/final_reproduction/generated/reports/evaluation_report.md",
+    "evidence/publishing/final_reproduction/generated/reports/execution.json",
+    "evidence/publishing/final_reproduction/generated/reports/metrics.json",
+    "evidence/publishing/final_reproduction/generated/reports/release_manifest.json",
+    "evidence/publishing/final_reproduction/generated/reports/tests_local.json",
+    "evidence/publishing/final_reproduction/generated/reports/tests_local.txt",
+    "evidence/publishing/final_reproduction/generated/reports/workload.json",
+    "evidence/publishing/final_reproduction/generated/submission.csv",
+    "evidence/publishing/final_reproduction/reproduce.log",
+    "evidence/publishing/final_reproduction/result.json",
+    "evidence/publishing/final_reproduction/source_commit.log",
+    "evidence/publishing/final_reproduction/tests.log",
+    "evidence/publishing/final_reproduction/venv.log",
+    "evidence/publishing/final_reproduction/verify_submission.log",
+    "evidence/publishing/final_reproduction/version.log",
+    "evidence/publishing/history_verification.json",
+    "governance/audits/README.md",
+    "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md",
+    "governance/audits/independent_closure/package/AUDIT_PACKAGE_MANIFEST.json",
+    "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md",
+    "governance/audits/independent_closure/package/closure_reaudit/attachment_hashes.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_commands.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_reproduce.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_start.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_tests.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_verify.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/clean_version.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/original_aud01_probe.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/owner_correction_checks.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/working_commands.json",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/working_tests.log",
+    "governance/audits/independent_closure/package/closure_reaudit/execution/working_version.log",
+    "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md",
+    "mappings/H1.candidates.raw.json",
+    "mappings/H2.candidates.raw.json",
+    "mappings/H3.candidates.raw.json",
+    "mappings/H4.candidates.raw.json",
+    "mappings/H5.candidates.raw.json",
+    "mappings/archive/H1.accepted.v1.json",
+    "mappings/archive/H1.bundle.v1.json",
+    "mappings/archive/H1.raw.v1.json",
+    "mappings/archive/H1.source_review.v1.json",
+    "mappings/archive/H3.before_suffix2.H3.candidates.raw.json",
+    "mappings/archive/H3.before_suffix2.hospital_3.raw.json",
+    "mappings/archive/H4.before_suffix2.H4.candidates.raw.json",
+    "mappings/archive/H4.before_suffix2.hospital_4.raw.json",
+    "mappings/archive/H5.before_suffix2.H5.candidates.raw.json",
+    "mappings/archive/H5.before_suffix2.hospital_5.raw.json",
+    "mappings/hospital_1.json",
+    "mappings/hospital_1.raw.json",
+    "mappings/hospital_2.json",
+    "mappings/hospital_2.raw.json",
+    "mappings/hospital_3.json",
+    "mappings/hospital_3.raw.json",
+    "mappings/hospital_4.json",
+    "mappings/hospital_4.raw.json",
+    "mappings/hospital_5.json",
+    "mappings/hospital_5.raw.json",
+    "mappings/lexicon_v1.json",
+    "prompts/README.md",
+    "prompts/extract_v1.md",
+    "prompts/map_v1.md",
+    "prompts/map_v2.md",
+    "prompts/review_v1.md",
+    "publishing/check_reproduction.py",
+    "publishing/render_delivery_documents.py",
+    "reports/H1_candidate_closure.json",
+    "reports/H1_mapping_change_v2.json",
+    "reports/H1_source_review.json",
+    "reports/H2_acquisition_manifest.json",
+    "reports/H2_candidate_closure.json",
+    "reports/H2_mapping_review.md",
+    "reports/H2_reading_index.json",
+    "reports/H2_reading_remaining.txt",
+    "reports/H2_source_review.json",
+    "reports/H3_acquisition_manifest.json",
+    "reports/H3_candidate_closure.json",
+    "reports/H3_mapping_review.md",
+    "reports/H3_source_review.json",
+    "reports/H4_acquisition_manifest.json",
+    "reports/H4_candidate_closure.json",
+    "reports/H4_mapping_review.md",
+    "reports/H4_source_review.json",
+    "reports/H5_acquisition_manifest.json",
+    "reports/H5_candidate_closure.json",
+    "reports/H5_mapping_review.md",
+    "reports/H5_source_review.json",
+    "reports/README.md",
+    "reports/baseline_h1.json",
+    "reports/corrections/audit_1/README.md",
+    "reports/corrections/audit_1/after/aud01_malformed_conflict.json",
+    "reports/corrections/audit_1/after/aud01_valid_conflict.json",
+    "reports/corrections/audit_1/after/aud02_H4_example.json",
+    "reports/corrections/audit_1/after/auditor_aud01_reproduction.txt",
+    "reports/corrections/audit_1/after/bundle_trace_inventory.json",
+    "reports/corrections/audit_1/before/auditor_aud01_reproduction.py",
+    "reports/corrections/audit_1/before/auditor_aud01_reproduction.txt",
+    "reports/corrections/audit_1/before/baseline_manifest.json",
+    "reports/corrections/audit_1/before/bundle_trace_inventory.json",
+    "reports/corrections/audit_1/before/current_candidate_closure.json",
+    "reports/corrections/audit_1/before/decision_log.md",
+    "reports/corrections/audit_1/before/document_checks.json",
+    "reports/corrections/audit_1/before/final_regression.json",
+    "reports/corrections/audit_1/before/gate_status.json",
+    "reports/corrections/audit_1/before/guarded_reproduction.json",
+    "reports/corrections/audit_1/before/implementation_completion.json",
+    "reports/corrections/audit_1/before/implementation_report.md",
+    "reports/corrections/audit_1/before/implementation_status.json",
+    "reports/corrections/audit_1/before/metrics.json",
+    "reports/corrections/audit_1/before/release_manifest.json",
+    "reports/corrections/audit_1/before/reproduction_check.json",
+    "reports/corrections/audit_1/before/submission.csv",
+    "reports/corrections/audit_1/before/submission_writeup.md",
+    "reports/corrections/audit_1/before/tests_final.json",
+    "reports/corrections/audit_1/before/tests_final.txt",
+    "reports/corrections/audit_1/before/workload.json",
+    "reports/corrections/audit_1/correction_verification.json",
+    "reports/corrections/audit_1/report_consistency.json",
+    "reports/current_candidate_closure.json",
+    "reports/decision_log.md",
+    "reports/document_checks.json",
+    "reports/evaluation_check.json",
+    "reports/evaluation_development.json",
+    "reports/evaluation_full.json",
+    "reports/evaluation_report.md",
+    "reports/execution.json",
+    "reports/final_regression.json",
+    "reports/final_reproduction_result.md",
+    "reports/guarded_reproduction.json",
+    "reports/h1_acquisition_manifest.json",
+    "reports/implementation_report.md",
+    "reports/input_quality.json",
+    "reports/inventory_H1.json",
+    "reports/inventory_H2.json",
+    "reports/inventory_H3.json",
+    "reports/inventory_H4.json",
+    "reports/inventory_H5.json",
+    "reports/metrics.json",
+    "reports/provenance_check.json",
+    "reports/regression_initial_failure.json",
+    "reports/release_manifest.json",
+    "reports/submission_writeup.md",
+    "reports/tests_all_hospitals_initial.json",
+    "reports/tests_all_hospitals_initial.txt",
+    "reports/tests_audit_corrections_first.json",
+    "reports/tests_audit_corrections_first.txt",
+    "reports/tests_batch.json",
+    "reports/tests_batch.txt",
+    "reports/tests_final.json",
+    "reports/tests_final.txt",
+    "reports/tests_h1_freeze.json",
+    "reports/tests_h1_freeze.txt",
+    "reports/tests_inputs.json",
+    "reports/tests_inputs.txt",
+    "reports/tests_inputs_initial_failure.json",
+    "reports/tests_pre_release.json",
+    "reports/tests_pre_release.txt",
+    "reports/tests_pricing_first.json",
+    "reports/tests_pricing_first.txt",
+    "reports/tests_schema.json",
+    "reports/tests_schema.txt",
+    "reports/viability_H1.json",
+    "reports/viability_H3.json",
+    "reports/workload.json",
+    "requirements-docs.txt",
+    "requirements.txt",
+    "runs/README.md",
+    "src/insurance_audit/__init__.py",
+    "src/insurance_audit/__main__.py",
+    "src/insurance_audit/audit.py",
+    "src/insurance_audit/batch.py",
+    "src/insurance_audit/checks.py",
+    "src/insurance_audit/confidence.py",
+    "src/insurance_audit/context.py",
+    "src/insurance_audit/evaluation.py",
+    "src/insurance_audit/inventory.py",
+    "src/insurance_audit/io.py",
+    "src/insurance_audit/pipeline.py",
+    "src/insurance_audit/pricing.py",
+    "src/insurance_audit/reporting.py",
+    "src/insurance_audit/resolve.py",
+    "src/insurance_audit/schema.py",
+    "src/insurance_audit/submission.py",
+    "submission.csv",
+    "tests/fixtures/h1_contract_examples.json",
+    "tests/test_audit_corrections.py",
+    "tests/test_batch.py",
+    "tests/test_confidence.py",
+    "tests/test_evaluation.py",
+    "tests/test_h2.py",
+    "tests/test_inputs.py",
+    "tests/test_pricing.py",
+    "tests/test_schema.py",
+    "tests/test_submission.py",
+    "tests/test_targets.py",
+    "tools/README.md",
+    "tools/accept_bundle.py",
+    "tools/acquire_h1.py",
+    "tools/acquire_h2.py",
+    "tools/acquire_targets.py",
+    "tools/check_clean_reproduction.py",
+    "tools/freeze_confidence.py",
+    "tools/inspect_bundle_traces.py",
+    "tools/mapping_policy.py",
+    "tools/prepare_inventory.py",
+    "tools/record_target_reviews.py",
+    "tools/reproduce_with_evidence.py",
+    "tools/review_h1_mapping_v2.py",
+    "tools/run_checks.py",
+    "tools/verify_audit_corrections.py",
+    "tools/verify_current_evidence.py"
+  ],
+  "current_document_links": [
+    {
+      "file": "README.md",
+      "target": "reports/implementation_report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "reports/final_reproduction_result.md"
+    },
+    {
+      "file": "README.md",
+      "target": "reports/evaluation_report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/cli_contract.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/ai_usage.md"
+    },
+    {
+      "file": "README.md",
+      "target": "prompts/README.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/reproducibility.md"
+    },
+    {
+      "file": "docs/ai_usage.md",
+      "target": "../prompts/README.md"
+    },
+    {
+      "file": "docs/ai_usage.md",
+      "target": "../governance/audits/README.md"
+    },
+    {
+      "file": "docs/ai_usage.md",
+      "target": "../reports/implementation_report.md"
+    },
+    {
+      "file": "docs/architecture.md",
+      "target": "reproducibility.md"
+    },
+    {
+      "file": "docs/decision_register.md",
+      "target": "implementation_changes.md"
+    },
+    {
+      "file": "docs/implementation_changes.md",
+      "target": "cli_contract.md"
+    },
+    {
+      "file": "docs/implementation_changes.md",
+      "target": "../evidence/history/README.md"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "target": "../README.md"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "target": "../reports/final_reproduction_result.md"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "target": "../governance/audits/README.md"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "target": "../reports/README.md"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "target": "../evidence/history/README.md"
+    },
+    {
+      "file": "docs/scope.md",
+      "target": "../reports/decision_log.md"
+    },
+    {
+      "file": "docs/scope.md",
+      "target": "../README.md"
+    },
+    {
+      "file": "docs/work_log.md",
+      "target": "../reports/final_reproduction_result.md"
+    },
+    {
+      "file": "docs/work_log.md",
+      "target": "../evidence/history/README.md"
+    },
+    {
+      "file": "evidence/history/reproduction/README.md",
+      "target": "../../../reports/final_reproduction_result.md"
+    },
+    {
+      "file": "evidence/history/reproduction/README.md",
+      "target": "../README.md"
+    },
+    {
+      "file": "evidence/publishing/README.md",
+      "target": "../../reports/final_reproduction_result.md"
+    },
+    {
+      "file": "governance/audits/README.md",
+      "target": "../../reports/implementation_report.md"
+    },
+    {
+      "file": "governance/audits/README.md",
+      "target": "../../reports/final_reproduction_result.md"
+    },
+    {
+      "file": "governance/audits/README.md",
+      "target": "independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+    },
+    {
+      "file": "governance/audits/README.md",
+      "target": "independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "extract_v1.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "review_v1.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "map_v1.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "map_v2.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "../docs/ai_usage.md"
+    },
+    {
+      "file": "prompts/README.md",
+      "target": "../docs/implementation_changes.md"
+    },
+    {
+      "file": "reports/README.md",
+      "target": "../evidence/history/README.md"
+    },
+    {
+      "file": "reports/corrections/audit_1/README.md",
+      "target": "../../implementation_report.md"
+    },
+    {
+      "file": "reports/corrections/audit_1/README.md",
+      "target": "../../../evidence/history/README.md"
+    },
+    {
+      "file": "reports/final_reproduction_result.md",
+      "target": "../evidence/publishing/cleanup_verification/technical_preservation.json"
+    },
+    {
+      "file": "reports/final_reproduction_result.md",
+      "target": "../evidence/publishing/cleanup_verification/clean_reproduction/result.json"
+    },
+    {
+      "file": "reports/implementation_report.md",
+      "target": "../governance/audits/README.md"
+    },
+    {
+      "file": "reports/implementation_report.md",
+      "target": "final_reproduction_result.md"
+    },
+    {
+      "file": "reports/implementation_report.md",
+      "target": "evaluation_report.md"
+    },
+    {
+      "file": "reports/implementation_report.md",
+      "target": "final_reproduction_result.md"
+    },
+    {
+      "file": "tools/README.md",
+      "target": "../evidence/history/README.md"
+    }
+  ],
+  "broken_current_links": [],
+  "remaining_wording": [
+    {
+      "path": "contracts/archive/schema1/H1_source_review.json",
+      "matching_lines": [
+        133
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "contracts/archive/schema1/H3_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "contracts/archive/schema1/H4_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "contracts/archive/schema1/H5_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "evidence/audited_baseline/original_README.md",
+      "matching_lines": [
+        3,
+        63
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "evidence/audited_baseline/reports/decision_log.md",
+      "matching_lines": [
+        5
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "evidence/audited_baseline/reports/implementation_report.md",
+      "matching_lines": [
+        3,
+        5,
+        84,
+        92
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "evidence/audited_baseline/reports/submission_writeup.md",
+      "matching_lines": [
+        5,
+        38
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "evidence/history/reproduction/reproduction_check.json",
+      "matching_lines": [
+        153
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "evidence/publishing/final_reproduction/result.json",
+      "matching_lines": [
+        1713
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md",
+      "matching_lines": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        180
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md",
+      "matching_lines": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        180
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md",
+      "matching_lines": [
+        9,
+        15,
+        23,
+        36,
+        88,
+        104,
+        116,
+        268,
+        276,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        305,
+        436
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "mappings/archive/H1.source_review.v1.json",
+      "matching_lines": [
+        130
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "prompts/extract_v1.md",
+      "matching_lines": [
+        3
+      ],
+      "retention_reason": "Original technical extraction prompt; retained verbatim for prompt history."
+    },
+    {
+      "path": "reports/H1_source_review.json",
+      "matching_lines": [
+        133
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/H2_acquisition_manifest.json",
+      "matching_lines": [
+        7
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/H2_source_review.json",
+      "matching_lines": [
+        7
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/H3_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/H4_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/H5_source_review.json",
+      "matching_lines": [
+        6
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/decision_log.md",
+      "matching_lines": [
+        5,
+        20
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/gate_status.json",
+      "matching_lines": [
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13,
+        17,
+        18,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        32,
+        33,
+        35,
+        38,
+        39,
+        40,
+        41,
+        42,
+        46,
+        47,
+        49,
+        52,
+        53,
+        54,
+        55,
+        56,
+        60,
+        61,
+        63,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        76,
+        77,
+        79,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        91,
+        92,
+        94,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        106,
+        107,
+        109,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        129,
+        130,
+        132,
+        135,
+        136,
+        137,
+        138,
+        139,
+        143,
+        144,
+        146,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        159,
+        160,
+        162,
+        163,
+        165,
+        166,
+        167,
+        168,
+        181,
+        182,
+        193,
+        194,
+        205,
+        206,
+        218,
+        219,
+        230,
+        231,
+        243,
+        244,
+        255,
+        256,
+        268,
+        269,
+        281,
+        282,
+        295,
+        296,
+        308,
+        309,
+        320,
+        321,
+        332,
+        333,
+        344,
+        345,
+        356,
+        357,
+        368,
+        369,
+        380,
+        381,
+        391,
+        392,
+        394,
+        403,
+        404,
+        406,
+        415,
+        416,
+        418,
+        426,
+        427,
+        429,
+        438,
+        439,
+        441,
+        446,
+        447,
+        450,
+        453,
+        456,
+        457,
+        460,
+        463,
+        466,
+        467,
+        470,
+        473,
+        476
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/implementation_completion.json",
+      "matching_lines": [
+        13,
+        20
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/implementation_report.md",
+      "matching_lines": [
+        5,
+        48,
+        57,
+        67
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/implementation_status.json",
+      "matching_lines": [
+        3,
+        9,
+        11,
+        13,
+        16,
+        26,
+        29,
+        39,
+        42,
+        53,
+        56,
+        66,
+        69,
+        81,
+        84,
+        95,
+        98,
+        109,
+        112,
+        122,
+        126,
+        129,
+        135,
+        139,
+        142,
+        151,
+        154,
+        165,
+        168,
+        179,
+        182,
+        190,
+        194,
+        197,
+        206,
+        209,
+        215,
+        218,
+        221,
+        231,
+        234,
+        244,
+        247,
+        256,
+        259,
+        269,
+        272,
+        279,
+        283,
+        286,
+        297,
+        300,
+        312,
+        315,
+        326,
+        329,
+        341,
+        344,
+        355,
+        358,
+        370,
+        373,
+        383,
+        386,
+        395,
+        398,
+        409,
+        412,
+        423,
+        426,
+        437,
+        440,
+        449,
+        452,
+        461,
+        464,
+        474,
+        477,
+        487,
+        490,
+        499,
+        502,
+        512,
+        515,
+        522,
+        526,
+        529,
+        536,
+        538,
+        541,
+        550,
+        553,
+        563,
+        566,
+        575,
+        578,
+        585,
+        589,
+        592,
+        601,
+        604,
+        614,
+        617,
+        626,
+        629,
+        636,
+        640,
+        643,
+        654,
+        657,
+        667,
+        670,
+        679,
+        682,
+        689,
+        693,
+        696,
+        706,
+        709,
+        720,
+        723,
+        733,
+        736,
+        746,
+        749,
+        760,
+        763,
+        773,
+        776,
+        781,
+        785,
+        788,
+        798,
+        801,
+        811,
+        814,
+        829,
+        832,
+        844,
+        847,
+        856,
+        859,
+        867,
+        869,
+        872,
+        879,
+        880,
+        883,
+        890,
+        891,
+        894,
+        898,
+        901,
+        902,
+        905,
+        912,
+        913
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/reproduction_check.json",
+      "matching_lines": [
+        113
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/corrections/audit_1/before/submission_writeup.md",
+      "matching_lines": [
+        5,
+        38
+      ],
+      "retention_reason": "Unchanged original historical evidence; identified by directory indexes and original hashes."
+    },
+    {
+      "path": "reports/h1_acquisition_manifest.json",
+      "matching_lines": [
+        3
+      ],
+      "retention_reason": "Original acquisition/source-review record; exact bytes retained for artifact binding or revision provenance."
+    },
+    {
+      "path": "tools/acquire_h1.py",
+      "matching_lines": [
+        106
+      ],
+      "retention_reason": "Historical acquisition utility retaining its original review/provenance strings; not run by reproduction."
+    },
+    {
+      "path": "tools/acquire_h2.py",
+      "matching_lines": [
+        72
+      ],
+      "retention_reason": "Historical acquisition utility retaining its original review/provenance strings; not run by reproduction."
+    },
+    {
+      "path": "tools/record_target_reviews.py",
+      "matching_lines": [
+        43
+      ],
+      "retention_reason": "Historical acquisition utility retaining its original review/provenance strings; not run by reproduction."
+    }
+  ],
+  "current_assessor_documents_with_unresolved_internal_wording": [],
+  "binary_content_review": "Current PDFs regenerated and inspected. Original PDF/audit/history archive content retained as historical evidence; source data unchanged."
+}

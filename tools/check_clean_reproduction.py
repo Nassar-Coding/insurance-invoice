@@ -39,7 +39,7 @@ with tempfile.TemporaryDirectory(prefix='insurance-clean-') as temp:
     for pattern in ('submission.csv','reports/metrics.json','reports/workload.json','reports/evaluation_*.json',
                     'reports/evaluation_report.md','reports/execution.json','reports/release_manifest.json'):
         for path in clone.glob(pattern):removed.append(str(path.relative_to(clone)));path.unlink()
-    # No Work-session environment, credentials, model key, hidden saved predictions,
+    # No inherited credentials, model key, saved predictions,
     # system user site packages, or inherited PYTHONPATH are supplied.
     env={'PATH':str(Path(sys.executable).parent)+':/usr/bin:/bin','PYTHONPATH':'src',
          'PYTHONNOUSERSITE':'1','PYTHONDONTWRITEBYTECODE':'1','PYTHONHASHSEED':'54321','LANG':'C.UTF-8'}
@@ -74,7 +74,7 @@ with tempfile.TemporaryDirectory(prefix='insurance-clean-') as temp:
         'release_manifest_sha256':digest(clone/'reports/release_manifest.json'),
         'full_hospital_outputs_equal':full_output_matches,'full_hospital_output_hashes':full_output_hashes,
         'tests':tests,'commands':commands,'elapsed_seconds':round(time.perf_counter()-start,6),
-        'scope':'Actual isolated local clone; no remote publishing or assessor-access claim.'}
+        'scope':'Isolated local-clone reproduction with cached predictions removed.'}
     write_json(ROOT/'reports/reproduction_check.json',report)
     (ROOT/'reports/reproduction_commands.txt').write_text('\n\n'.join('COMMAND '+repr(c['argv'])+'\nEXIT '+str(c['returncode'])+'\n'+c['stdout']+c['stderr'] for c in commands))
 print(json.dumps({'status':'passed','tested_commit':head,'checksums_equal':matches,'tests_passed':tests['tests_run']},indent=2))

@@ -5831,13 +5831,13 @@
   "population": 291,
   "provenance": {
     "abstention_policy": "Not treated as correct negatives. Included as missed positives in all-population recall; excluded from conditional accuracy.",
-    "attempt": "a1ee1b9f209f4f41913349e165fe8a26",
+    "attempt": "33c1faf0f2ac403fbe055112703e1d42",
     "category_policy": "Families use the explicit many-to-one crosswalk in evaluation.py; original-label table reports detection, not invented category-specific precision.",
     "confidence_scope": "H1 is development data; target transfer accuracy is not established.",
     "group": "check",
     "labels_sha256": "79e7918337b7836d810b1164ec955684454dd7dcdd805ee7e0a7a980d14302b6",
     "role": "regression after reserved-check exposure; not a fresh holdout",
-    "run_id": "bdbdacb0da2df2bfe3ecf34be1ea195ce722c7bdb9cd04ff01af865c288280cf",
+    "run_id": "32fe22a5f6818f171da5dfe8e1b4b62c31279c23c9429a83963e4610777f17d9",
     "split_sha256": "1b3fa0cba11ec7b653b2096dda9dcd6b974aeea321f9cd2eda4ee17ba8e1c428",
     "whole_row_event": "Correct binary flag AND exact expected cents. Billed cents/identity validated separately; free-text category correctness is reported by family, not included in this event."
   },

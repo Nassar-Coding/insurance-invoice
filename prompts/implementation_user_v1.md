@@ -1,5 +1,0 @@
-# Visible implementation instruction — retained summary
-
-User authorized implementation of “LLM contract-to-schema with deterministic pricing” using the actual repository and `Insurance_Auditing_Implementation_Ready.xlsx`, after PASS — READY FOR IMPLEMENTATION. This file is an explicit summary, not a claimed verbatim full transcript; the governing workbook is copied unchanged in `governance/`.
-
-Actually create/execute/test/verify a coherent repository-ready project. Preserve plan → implementation → evidence → result. Record deviations with what was expected, what happened, evidence, decision and reason. Retain contract/mapping ambiguities and version actual prompts. Respect the total 6–8-hour cap and incomplete coverage allowance. H1 is labelled development data. No Colab, GPU or programmatic LLM API is required unless execution disproves feasibility. Use statuses Completed and verified / Completed but not yet verified / In progress / Not started / Blocked with actual evidence. Return at a meaningful executed checkpoint, genuine user blocker or time constraint. Do not enter independent challenging or publishing.

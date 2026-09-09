@@ -1,20 +1,28 @@
 {
-  "decision_log": {
-    "file": "reports/decision_log.pdf",
-    "limit": 1,
-    "markdown_sha256": "0d6610e8f88e3d1143a7f4dc5c71ef023e0b1e11cfa91f36f98d85086fdd21e2",
-    "pages": 1,
-    "sha256": "b4ef0fc0c7fc126224c80a9ea18ede26b778bc7cb46e7ca38ae1fb50daefe466",
-    "text_characters": 3529
+  "dependencies": {
+    "charset-normalizer": "3.4.4",
+    "pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "reportlab": "4.4.9"
   },
-  "stage": "Publication document rendering; prior document check retained under evidence/audited_baseline/reports/",
-  "submission_writeup": {
-    "file": "reports/submission_writeup.pdf",
-    "limit": 2,
-    "markdown_sha256": "c7a484e9666ec6a6b122549eb98918878fee2b3c3e8c133c7aedb77c1a707017",
-    "pages": 2,
-    "sha256": "746f68291284bdb36bd77524c9f4e3bd20745a56b3dc384e21499b4da57853ad",
-    "text_characters": 7041
+  "documents": {
+    "decision_log": {
+      "extracted_text_characters": 3435,
+      "markdown_sha256": "088a490d732a2dc548267db49785b25880a6fcb610bdf379fca36a7527244345",
+      "page_limit": 1,
+      "pages": 1,
+      "path": "reports/decision_log.pdf",
+      "sha256": "31c4a217d3642244f1f2882f6ae1d8128cd5bb92282db352bb9098c8304627de"
+    },
+    "submission_writeup": {
+      "extracted_text_characters": 6894,
+      "markdown_sha256": "5afb4255326b4d743e27febec2fa81ab9470bbcc8b2c384238a801502beca298",
+      "page_limit": 2,
+      "pages": 2,
+      "path": "reports/submission_writeup.pdf",
+      "sha256": "b2860303b1390e76bbe1c47df66908f918264b2ce4a3efe59c798bf555320f5f"
+    }
   },
-  "visual_inspection": "Passed: all three rendered pages inspected; no clipping, overlap, missing text or broken layout."
+  "status": "page-count and text checks passed",
+  "visual_inspection": "Passed: all three rendered pages inspected, including the final-page footer and text; no clipping, overlap or missing text."
 }

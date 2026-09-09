@@ -1,0 +1,335 @@
+{
+  "base_commit": "f5221b4a1b41151d927b7ab1249d7a060706d218",
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ai_usage.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/architecture.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/budget.json",
+      "change": "removed"
+    },
+    {
+      "path": "docs/cli_contract.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/contract_review_protocol.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/decision_register.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/external_readiness.md",
+      "change": "removed"
+    },
+    {
+      "path": "docs/git_handoff.md",
+      "change": "removed"
+    },
+    {
+      "path": "docs/implementation_changes.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/publishing_instructions_v1.md",
+      "change": "removed"
+    },
+    {
+      "path": "docs/publishing_preparation.md",
+      "change": "removed"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "change": "added"
+    },
+    {
+      "path": "docs/scope.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "change": "modified"
+    },
+    {
+      "path": "docs/work_log.md",
+      "change": "modified"
+    },
+    {
+      "path": "evidence/audited_baseline/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "evidence/audited_baseline/original_README.md",
+      "change": "added"
+    },
+    {
+      "path": "evidence/audited_baseline/reproduction_baseline.json",
+      "change": "added"
+    },
+    {
+      "path": "evidence/history/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "evidence/history/reproduction/README.md",
+      "change": "added"
+    },
+    {
+      "path": "evidence/history/reproduction/reproduction_check.json",
+      "change": "added"
+    },
+    {
+      "path": "evidence/history/reproduction/reproduction_commands.txt",
+      "change": "added"
+    },
+    {
+      "path": "evidence/publishing/README.md",
+      "change": "added"
+    },
+    {
+      "path": "evidence/publishing/baseline.json",
+      "change": "modified"
+    },
+    {
+      "path": "evidence/publishing/content_review.json",
+      "change": "removed"
+    },
+    {
+      "path": "evidence/publishing/final_content_checks.json",
+      "change": "removed"
+    },
+    {
+      "path": "evidence/publishing/preparation_status.json",
+      "change": "removed"
+    },
+    {
+      "path": "governance/Insurance_Auditing_Implementation_Ready.xlsx",
+      "change": "removed"
+    },
+    {
+      "path": "governance/audits/README.md",
+      "change": "added"
+    },
+    {
+      "path": "governance/gates.json",
+      "change": "removed"
+    },
+    {
+      "path": "governance/overrides.md",
+      "change": "removed"
+    },
+    {
+      "path": "governance/plan.json",
+      "change": "removed"
+    },
+    {
+      "path": "prompts/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "prompts/audit_correction_user_v1.md",
+      "change": "removed"
+    },
+    {
+      "path": "prompts/implementation_user_v1.md",
+      "change": "removed"
+    },
+    {
+      "path": "prompts/implementation_user_v2.md",
+      "change": "removed"
+    },
+    {
+      "path": "publishing/check_reproduction.py",
+      "change": "modified"
+    },
+    {
+      "path": "publishing/render_delivery_documents.py",
+      "change": "modified"
+    },
+    {
+      "path": "reports/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/corrections/audit_1/README.md",
+      "change": "added"
+    },
+    {
+      "path": "reports/decision_log.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/decision_log.pdf",
+      "change": "modified"
+    },
+    {
+      "path": "reports/document_checks.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/evaluation_check.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/evaluation_development.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/evaluation_full.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/evaluation_report.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/execution.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/final_delivery_check.json",
+      "change": "removed"
+    },
+    {
+      "path": "reports/final_reproduction_result.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/gate_status.json",
+      "change": "removed"
+    },
+    {
+      "path": "reports/implementation_completion.json",
+      "change": "removed"
+    },
+    {
+      "path": "reports/implementation_report.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/implementation_status.json",
+      "change": "removed"
+    },
+    {
+      "path": "reports/publishing_preparation_report.md",
+      "change": "removed"
+    },
+    {
+      "path": "reports/release_manifest.json",
+      "change": "modified"
+    },
+    {
+      "path": "reports/reproduction_check.json",
+      "change": "removed"
+    },
+    {
+      "path": "reports/reproduction_commands.txt",
+      "change": "removed"
+    },
+    {
+      "path": "reports/submission_writeup.md",
+      "change": "modified"
+    },
+    {
+      "path": "reports/submission_writeup.pdf",
+      "change": "modified"
+    },
+    {
+      "path": "src/insurance_audit/reporting.py",
+      "change": "modified"
+    },
+    {
+      "path": "tools/README.md",
+      "change": "added"
+    },
+    {
+      "path": "tools/check_clean_reproduction.py",
+      "change": "modified"
+    },
+    {
+      "path": "tools/checkpoint.py",
+      "change": "removed"
+    },
+    {
+      "path": "tools/render_documents.py",
+      "change": "removed"
+    },
+    {
+      "path": "tools/render_implementation_report.py",
+      "change": "removed"
+    },
+    {
+      "path": "tools/reproduce_with_evidence.py",
+      "change": "modified"
+    },
+    {
+      "path": "tools/update_implementation_status.py",
+      "change": "removed"
+    },
+    {
+      "path": "tools/verify_correction_delivery.py",
+      "change": "removed"
+    }
+  ],
+  "verification_evidence_added": "evidence/publishing/cleanup_verification/",
+  "removed_internal_only_files": [
+    "docs/budget.json",
+    "docs/external_readiness.md",
+    "docs/git_handoff.md",
+    "docs/publishing_instructions_v1.md",
+    "docs/publishing_preparation.md",
+    "governance/Insurance_Auditing_Implementation_Ready.xlsx",
+    "governance/plan.json",
+    "governance/gates.json",
+    "governance/overrides.md",
+    "prompts/implementation_user_v1.md",
+    "prompts/implementation_user_v2.md",
+    "prompts/audit_correction_user_v1.md",
+    "reports/implementation_status.json",
+    "reports/implementation_completion.json",
+    "reports/gate_status.json",
+    "reports/final_delivery_check.json",
+    "reports/publishing_preparation_report.md",
+    "evidence/publishing/preparation_status.json",
+    "evidence/publishing/content_review.json",
+    "evidence/publishing/final_content_checks.json",
+    "tools/checkpoint.py",
+    "tools/update_implementation_status.py",
+    "tools/render_documents.py",
+    "tools/render_implementation_report.py",
+    "tools/verify_correction_delivery.py"
+  ],
+  "moved_unchanged": {
+    "reports/reproduction_check.json": "evidence/history/reproduction/reproduction_check.json",
+    "reports/reproduction_commands.txt": "evidence/history/reproduction/reproduction_commands.txt",
+    "evidence/audited_baseline/README.md": "evidence/audited_baseline/original_README.md"
+  },
+  "intentionally_retained": [
+    "All source data and the source challenge README",
+    "All contracts, mappings, confidence/split policies and tests",
+    "Four original technical prompt versions",
+    "Exact hash-bound source/candidate review records",
+    "Independent audits and before/after correction evidence",
+    "Original history bundle, recovery supplement and negative results"
+  ],
+  "additional_findings_beyond_seed_paths": [
+    "docs/budget.json and docs/git_handoff.md",
+    "Private-workbook hash in docs/source_manifest.json",
+    "Obsolete document/status/delivery generators and checkpoint packager",
+    "Old preparation status/content receipts",
+    "PDF author metadata",
+    "Generated evaluation/report-scope strings"
+  ],
+  "checks": "75 tests and all documented clean-clone commands passed; 10 full hospital/input-quality files, CSV, metrics and workload equal original hashes. Only presentation and corresponding identity metadata changed."
+}

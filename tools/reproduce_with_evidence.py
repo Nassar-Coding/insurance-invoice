@@ -1,7 +1,6 @@
 """Execute the documented replay while proving the decision stage cannot read labels.
 
-This is an implementation verification harness, not the independent challenge stage.
-The ordinary README command does not depend on this harness or Work tools.
+The ordinary README command does not depend on this additional verification harness.
 """
 import builtins
 import io

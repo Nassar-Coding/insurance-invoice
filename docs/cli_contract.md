@@ -1,6 +1,6 @@
 # Executed command interface
 
-Use Python 3.12.13 with `PYTHONPATH=src` from the project root. The global `--project PATH` precedes the command. The initial interface sketch used different flags; this document records the actual tested interface, not aliases that were never implemented.
+Use Python 3.12.13 with `PYTHONPATH=src` from the project root. The global `--project PATH` precedes the command. The commands below describe the implemented interface.
 
 | Command | Actual behavior |
 |---|---|

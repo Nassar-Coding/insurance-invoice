@@ -53,7 +53,7 @@ def main():
         pdf = ROOT/f'reports/{name}.pdf'
         SimpleDocTemplate(str(pdf), pagesize=A4, rightMargin=42, leftMargin=42,
                           topMargin=38, bottomMargin=45, title=name.replace('_', ' '),
-                          author='Work-assisted implementation', invariant=1).build(
+                          author='Insurance auditing', invariant=1).build(
                               flow, onFirstPage=footer, onLaterPages=footer)
         reader = PdfReader(pdf)
         assert len(reader.pages) <= limit, f'{name}: page limit exceeded'

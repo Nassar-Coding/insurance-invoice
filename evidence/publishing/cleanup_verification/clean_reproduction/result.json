@@ -1,0 +1,1773 @@
+{
+  "clone_commit": "ec26e2560cb75850e56e49f2bb4fb4ffa904836d",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "elapsed_seconds": 0.014512,
+      "log": "source_commit.log",
+      "name": "source_commit",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "git",
+        "clone",
+        "--quiet",
+        "--no-local",
+        "/workspace/scratch/43a4aea2353c/insurance-invoice",
+        "/tmp/insurance-publication-3yzvtng5/project"
+      ],
+      "elapsed_seconds": 0.94467,
+      "log": "clone.log",
+      "name": "clone",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "elapsed_seconds": 0.002615,
+      "log": "clone_commit.log",
+      "name": "clone_commit",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/43a4aea2353c/verify-env/bin/python",
+        "-m",
+        "venv",
+        "/tmp/insurance-publication-3yzvtng5/venv"
+      ],
+      "elapsed_seconds": 2.536564,
+      "log": "venv.log",
+      "name": "venv",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "--version"
+      ],
+      "elapsed_seconds": 0.003304,
+      "log": "version.log",
+      "name": "version",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "-r",
+        "requirements.txt"
+      ],
+      "elapsed_seconds": 0.559945,
+      "log": "dependency_install.log",
+      "name": "dependency_install",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "elapsed_seconds": 0.476227,
+      "log": "dependency_check.log",
+      "name": "dependency_check",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "pip",
+        "list",
+        "--format=json"
+      ],
+      "elapsed_seconds": 0.219335,
+      "log": "dependency_list.log",
+      "name": "dependency_list",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "insurance_audit",
+        "reproduce"
+      ],
+      "elapsed_seconds": 50.956188,
+      "log": "reproduce.log",
+      "name": "reproduce",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "insurance_audit",
+        "verify-submission"
+      ],
+      "elapsed_seconds": 3.838925,
+      "log": "verify_submission.log",
+      "name": "verify_submission",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "tools/run_checks.py",
+        "local"
+      ],
+      "elapsed_seconds": 16.057837,
+      "log": "tests.log",
+      "name": "tests",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "insurance_audit",
+        "evaluate",
+        "--partition",
+        "development"
+      ],
+      "elapsed_seconds": 0.609444,
+      "log": "evaluate_development.log",
+      "name": "evaluate_development",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "insurance_audit",
+        "evaluate",
+        "--partition",
+        "check"
+      ],
+      "elapsed_seconds": 0.735206,
+      "log": "evaluate_check.log",
+      "name": "evaluate_check",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "-m",
+        "insurance_audit",
+        "evaluate",
+        "--partition",
+        "full"
+      ],
+      "elapsed_seconds": 0.850938,
+      "log": "evaluate_full.log",
+      "name": "evaluate_full",
+      "returncode": 0
+    }
+  ],
+  "detailed_evaluation_matches_except_attempt": {
+    "check": true,
+    "development": true,
+    "full": true
+  },
+  "elapsed_seconds": 82.022123,
+  "execution": {
+    "elapsed_seconds": 50.833728,
+    "h1_attempt": "010fc7c877e7422988617213a6c66f05",
+    "hospital_opinions": {
+      "H1": 250,
+      "H2": 0,
+      "H3": 148,
+      "H4": 64,
+      "H5": 128
+    },
+    "model_calls": 0,
+    "network_calls": 0,
+    "python": "3.12.13",
+    "scope": "prediction replay plus H1 evaluation; not fresh LLM extraction",
+    "status": "success",
+    "submission_rows": 340,
+    "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "target_attempt": "090e72e7510c48e2881231dfc148bf12"
+  },
+  "frozen_file_matches": {
+    ".python-version": true,
+    "contracts/H1.bundle.json": true,
+    "contracts/H2.bundle.json": true,
+    "contracts/H3.bundle.json": true,
+    "contracts/H4.bundle.json": true,
+    "contracts/H5.bundle.json": true,
+    "contracts/archive/schema1/H1.bundle.json": true,
+    "contracts/archive/schema1/H1_source_review.json": true,
+    "contracts/archive/schema1/H3.bundle.json": true,
+    "contracts/archive/schema1/H3_source_review.json": true,
+    "contracts/archive/schema1/H4.bundle.json": true,
+    "contracts/archive/schema1/H4_source_review.json": true,
+    "contracts/archive/schema1/H5.bundle.json": true,
+    "contracts/archive/schema1/H5_source_review.json": true,
+    "contracts/archive/schema1/hospital_1.raw.json": true,
+    "contracts/archive/schema1/hospital_3.raw.json": true,
+    "contracts/archive/schema1/hospital_4.raw.json": true,
+    "contracts/archive/schema1/hospital_5.raw.json": true,
+    "contracts/hospital_1.json": true,
+    "contracts/hospital_1.raw.json": true,
+    "contracts/hospital_2.json": true,
+    "contracts/hospital_2.raw.json": true,
+    "contracts/hospital_3.json": true,
+    "contracts/hospital_3.raw.json": true,
+    "contracts/hospital_4.json": true,
+    "contracts/hospital_4.raw.json": true,
+    "contracts/hospital_5.json": true,
+    "contracts/hospital_5.raw.json": true,
+    "data/source/README.md": true,
+    "data/source/contracts/hospital_1/provider_services_agreement.md": true,
+    "data/source/contracts/hospital_2/master_services_agreement.md": true,
+    "data/source/contracts/hospital_3/amendment_no_1.md": true,
+    "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": true,
+    "data/source/contracts/hospital_3/base_agreement.md": true,
+    "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md": true,
+    "data/source/contracts/hospital_5/network_reimbursement_agreement.md": true,
+    "data/source/invoices/hospital_1_invoices.csv": true,
+    "data/source/invoices/hospital_1_line_items.csv": true,
+    "data/source/invoices/hospital_2_invoices.csv": true,
+    "data/source/invoices/hospital_2_line_items.csv": true,
+    "data/source/invoices/hospital_3_invoices.csv": true,
+    "data/source/invoices/hospital_3_line_items.csv": true,
+    "data/source/invoices/hospital_4_invoices.csv": true,
+    "data/source/invoices/hospital_4_line_items.csv": true,
+    "data/source/invoices/hospital_5_invoices.csv": true,
+    "data/source/invoices/hospital_5_line_items.csv": true,
+    "data/source/labels/hospital_1_labels.csv": true,
+    "data/source/submission_template.csv": true,
+    "docs/source_manifest.json": true,
+    "evaluation/confidence_policy.json": true,
+    "evaluation/development_policy_evidence.json": true,
+    "evaluation/split_manifest.json": true,
+    "mappings/H1.candidates.raw.json": true,
+    "mappings/H2.candidates.raw.json": true,
+    "mappings/H3.candidates.raw.json": true,
+    "mappings/H4.candidates.raw.json": true,
+    "mappings/H5.candidates.raw.json": true,
+    "mappings/archive/H1.accepted.v1.json": true,
+    "mappings/archive/H1.bundle.v1.json": true,
+    "mappings/archive/H1.raw.v1.json": true,
+    "mappings/archive/H1.source_review.v1.json": true,
+    "mappings/archive/H3.before_suffix2.H3.candidates.raw.json": true,
+    "mappings/archive/H3.before_suffix2.hospital_3.raw.json": true,
+    "mappings/archive/H4.before_suffix2.H4.candidates.raw.json": true,
+    "mappings/archive/H4.before_suffix2.hospital_4.raw.json": true,
+    "mappings/archive/H5.before_suffix2.H5.candidates.raw.json": true,
+    "mappings/archive/H5.before_suffix2.hospital_5.raw.json": true,
+    "mappings/hospital_1.json": true,
+    "mappings/hospital_1.raw.json": true,
+    "mappings/hospital_2.json": true,
+    "mappings/hospital_2.raw.json": true,
+    "mappings/hospital_3.json": true,
+    "mappings/hospital_3.raw.json": true,
+    "mappings/hospital_4.json": true,
+    "mappings/hospital_4.raw.json": true,
+    "mappings/hospital_5.json": true,
+    "mappings/hospital_5.raw.json": true,
+    "mappings/lexicon_v1.json": true,
+    "prompts/README.md": true,
+    "prompts/extract_v1.md": true,
+    "prompts/map_v1.md": true,
+    "prompts/map_v2.md": true,
+    "prompts/review_v1.md": true,
+    "reports/H1_candidate_closure.json": true,
+    "reports/H1_source_review.json": true,
+    "reports/H2_candidate_closure.json": true,
+    "reports/H2_source_review.json": true,
+    "reports/H3_candidate_closure.json": true,
+    "reports/H3_source_review.json": true,
+    "reports/H4_candidate_closure.json": true,
+    "reports/H4_source_review.json": true,
+    "reports/H5_candidate_closure.json": true,
+    "reports/H5_source_review.json": true,
+    "requirements-docs.txt": true,
+    "requirements.txt": true,
+    "src/insurance_audit/__init__.py": true,
+    "src/insurance_audit/__main__.py": true,
+    "src/insurance_audit/audit.py": true,
+    "src/insurance_audit/batch.py": true,
+    "src/insurance_audit/checks.py": true,
+    "src/insurance_audit/confidence.py": true,
+    "src/insurance_audit/context.py": true,
+    "src/insurance_audit/evaluation.py": true,
+    "src/insurance_audit/inventory.py": true,
+    "src/insurance_audit/io.py": true,
+    "src/insurance_audit/pipeline.py": true,
+    "src/insurance_audit/pricing.py": true,
+    "src/insurance_audit/reporting.py": true,
+    "src/insurance_audit/resolve.py": true,
+    "src/insurance_audit/schema.py": true,
+    "src/insurance_audit/submission.py": true,
+    "tests/fixtures/h1_contract_examples.json": true,
+    "tests/test_audit_corrections.py": true,
+    "tests/test_batch.py": true,
+    "tests/test_confidence.py": true,
+    "tests/test_evaluation.py": true,
+    "tests/test_h2.py": true,
+    "tests/test_inputs.py": true,
+    "tests/test_pricing.py": true,
+    "tests/test_schema.py": true,
+    "tests/test_submission.py": true,
+    "tests/test_targets.py": true,
+    "tools/accept_bundle.py": true,
+    "tools/acquire_h1.py": true,
+    "tools/acquire_h2.py": true,
+    "tools/acquire_targets.py": true,
+    "tools/check_clean_reproduction.py": true,
+    "tools/freeze_confidence.py": true,
+    "tools/inspect_bundle_traces.py": true,
+    "tools/mapping_policy.py": true,
+    "tools/prepare_inventory.py": true,
+    "tools/record_target_reviews.py": true,
+    "tools/reproduce_with_evidence.py": true,
+    "tools/review_h1_mapping_v2.py": true,
+    "tools/run_checks.py": true,
+    "tools/verify_audit_corrections.py": true,
+    "tools/verify_current_evidence.py": true
+  },
+  "generated_run_disk_bytes": 266033447,
+  "hospital_output_hashes": {
+    "H1": {
+      "H1.input_quality.json": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089",
+      "H1.json": "3c01ab7f295ee6bfc73c362b60e90509d8f39d8fc0366b33a2bcd811f872aa02"
+    },
+    "H2-H3-H4-H5": {
+      "H2.input_quality.json": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f",
+      "H2.json": "0fdf96982a5a7fb57287704abd393a3e24e78b4569fd97b2efed09e5b2105ac1",
+      "H3.input_quality.json": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37",
+      "H3.json": "0d05535d8f7369d717861956802f330250f4365208b2e9b2fee730da6aae6484",
+      "H4.input_quality.json": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca",
+      "H4.json": "c084a1a8dfa7d74979deb76f101d4314a9a248ffaaab7c8997c26c08248fa36e",
+      "H5.input_quality.json": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8",
+      "H5.json": "7d5759d59fc0557838118edc7e5d93df6bbcd88f68749ba9cfa71263cf95d119"
+    }
+  },
+  "hospital_output_matches": {
+    "H1": true,
+    "H2-H3-H4-H5": true
+  },
+  "hospital_results": {
+    "H1": {
+      "abstentions": 663,
+      "accepted_invoice_records": 918,
+      "accepted_line_records": 11409,
+      "confidence_counts": {
+        "0.65": 5,
+        "0.9": 77,
+        "0.95": 168
+      },
+      "context_records": 11415,
+      "flagged": 5,
+      "opinions": 250,
+      "orphan_line_count": 0,
+      "quarantined_records": 6,
+      "raw_records": 12333,
+      "unique_invoice_ids": 913
+    },
+    "H2": {
+      "abstentions": 1125,
+      "accepted_invoice_records": 1132,
+      "accepted_line_records": 14352,
+      "confidence_counts": {},
+      "context_records": 14360,
+      "flagged": 0,
+      "opinions": 0,
+      "orphan_line_count": 0,
+      "quarantined_records": 8,
+      "raw_records": 15492,
+      "unique_invoice_ids": 1125
+    },
+    "H3": {
+      "abstentions": 784,
+      "accepted_invoice_records": 939,
+      "accepted_line_records": 11648,
+      "confidence_counts": {
+        "0.7": 27,
+        "0.8": 121
+      },
+      "context_records": 11655,
+      "flagged": 5,
+      "opinions": 148,
+      "orphan_line_count": 0,
+      "quarantined_records": 7,
+      "raw_records": 12594,
+      "unique_invoice_ids": 932
+    },
+    "H4": {
+      "abstentions": 771,
+      "accepted_invoice_records": 840,
+      "accepted_line_records": 10554,
+      "confidence_counts": {
+        "0.7": 14,
+        "0.8": 50
+      },
+      "context_records": 10560,
+      "flagged": 1,
+      "opinions": 64,
+      "orphan_line_count": 0,
+      "quarantined_records": 6,
+      "raw_records": 11400,
+      "unique_invoice_ids": 835
+    },
+    "H5": {
+      "abstentions": 922,
+      "accepted_invoice_records": 1057,
+      "accepted_line_records": 13213,
+      "confidence_counts": {
+        "0.65": 128
+      },
+      "context_records": 13221,
+      "flagged": 0,
+      "opinions": 128,
+      "orphan_line_count": 0,
+      "quarantined_records": 8,
+      "raw_records": 14278,
+      "unique_invoice_ids": 1050
+    }
+  },
+  "inherited_credentials_or_work_environment": false,
+  "installed_packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    }
+  ],
+  "memory_measurement_scope": "Maximum child-process RSS across clone, install, replay, tests and partition evaluations; Linux KiB.",
+  "metrics": {
+    "check": {
+      "abstained": 210,
+      "ambiguity_sensitive_support": 0,
+      "amount_accuracy_covered": 1.0,
+      "amount_mae_cents_covered": 0.0,
+      "confidence_groups": {
+        "h1_supported:elided:0": {
+          "brier_score": 0.009999999999999995,
+          "mean_confidence": 0.9,
+          "n": 34,
+          "successes": 34,
+          "whole_row_accuracy": 1.0
+        },
+        "h1_supported:explicit:0": {
+          "brier_score": 0.0025000000000000044,
+          "mean_confidence": 0.95,
+          "n": 46,
+          "successes": 46,
+          "whole_row_accuracy": 1.0
+        },
+        "sparse:elided:1": {
+          "brier_score": 0.12249999999999998,
+          "mean_confidence": 0.65,
+          "n": 1,
+          "successes": 1,
+          "whole_row_accuracy": 1.0
+        }
+      },
+      "coverage": 0.27835051546391754,
+      "covered": 81,
+      "flag_accuracy_covered": 1.0,
+      "flag_metrics_all": {
+        "f1": 0.11764705882352941,
+        "fn_including_abstentions": 15,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "support": 16,
+        "tn_emitted": 80,
+        "tp": 1
+      },
+      "flag_metrics_covered": {
+        "f1": 1.0,
+        "fn_including_abstentions": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 1,
+        "tn_emitted": 80,
+        "tp": 1
+      },
+      "per_category_family": {
+        "date": {
+          "f1": 0.0,
+          "fn_including_abstentions": 3,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 3,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "duplicate": {
+          "f1": 0.0,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 2,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "eligibility": {
+          "f1": 0.0,
+          "fn_including_abstentions": 1,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 1,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "identity": {
+          "f1": 0.0,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 2,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "invoice_arithmetic": {
+          "f1": 0.0,
+          "fn_including_abstentions": 1,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 1,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "line_arithmetic": {
+          "f1": 0.0,
+          "fn_including_abstentions": 3,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 3,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "mapping": {
+          "f1": 0.0,
+          "fn_including_abstentions": 3,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 3,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "pricing": {
+          "f1": 0.0,
+          "fn_including_abstentions": 6,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 6,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "quantity": {
+          "f1": 0.0,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 2,
+          "tn_emitted": 81,
+          "tp": 0
+        },
+        "unit": {
+          "f1": 0.3333333333333333,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.2,
+          "support": 5,
+          "tn_emitted": 80,
+          "tp": 1
+        }
+      },
+      "per_original_label_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        }
+      },
+      "population": 291,
+      "unmapped_truth_categories": [],
+      "whole_row_accuracy_covered": 1.0,
+      "whole_row_success_count": 81
+    },
+    "development": {
+      "abstained": 453,
+      "ambiguity_sensitive_support": 0,
+      "amount_accuracy_covered": 1.0,
+      "amount_mae_cents_covered": 0.0,
+      "confidence_groups": {
+        "h1_supported:elided:0": {
+          "brier_score": 0.009999999999999995,
+          "mean_confidence": 0.9,
+          "n": 43,
+          "successes": 43,
+          "whole_row_accuracy": 1.0
+        },
+        "h1_supported:explicit:0": {
+          "brier_score": 0.0025000000000000044,
+          "mean_confidence": 0.95,
+          "n": 122,
+          "successes": 122,
+          "whole_row_accuracy": 1.0
+        },
+        "sparse:explicit:1": {
+          "brier_score": 0.12249999999999998,
+          "mean_confidence": 0.65,
+          "n": 4,
+          "successes": 4,
+          "whole_row_accuracy": 1.0
+        }
+      },
+      "coverage": 0.2717041800643087,
+      "covered": 169,
+      "flag_accuracy_covered": 1.0,
+      "flag_metrics_all": {
+        "f1": 0.17391304347826086,
+        "fn_including_abstentions": 38,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.09523809523809523,
+        "support": 42,
+        "tn_emitted": 165,
+        "tp": 4
+      },
+      "flag_metrics_covered": {
+        "f1": 1.0,
+        "fn_including_abstentions": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 4,
+        "tn_emitted": 165,
+        "tp": 4
+      },
+      "per_category_family": {
+        "date": {
+          "f1": 0.0,
+          "fn_including_abstentions": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 12,
+          "tn_emitted": 169,
+          "tp": 0
+        },
+        "duplicate": {
+          "f1": 0.0,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 2,
+          "tn_emitted": 169,
+          "tp": 0
+        },
+        "eligibility": {
+          "f1": 0.0,
+          "fn_including_abstentions": 3,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 3,
+          "tn_emitted": 169,
+          "tp": 0
+        },
+        "identity": {
+          "f1": 0.25,
+          "fn_including_abstentions": 6,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.14285714285714285,
+          "support": 7,
+          "tn_emitted": 168,
+          "tp": 1
+        },
+        "invoice_arithmetic": {
+          "f1": 0.3333333333333333,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.2,
+          "support": 5,
+          "tn_emitted": 168,
+          "tp": 1
+        },
+        "line_arithmetic": {
+          "f1": 0.5,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "support": 3,
+          "tn_emitted": 168,
+          "tp": 1
+        },
+        "mapping": {
+          "f1": 0.0,
+          "fn_including_abstentions": 9,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 9,
+          "tn_emitted": 169,
+          "tp": 0
+        },
+        "pricing": {
+          "f1": 0.17391304347826086,
+          "fn_including_abstentions": 19,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.09523809523809523,
+          "support": 21,
+          "tn_emitted": 167,
+          "tp": 2
+        },
+        "quantity": {
+          "f1": 0.0,
+          "fn_including_abstentions": 2,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 2,
+          "tn_emitted": 169,
+          "tp": 0
+        },
+        "unit": {
+          "f1": 0.5,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "support": 6,
+          "tn_emitted": 167,
+          "tp": 2
+        }
+      },
+      "per_original_label_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.25,
+          "flagged": 1,
+          "support": 4,
+          "whole_row_success": 1
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.3333333333333333,
+          "flagged": 1,
+          "support": 3,
+          "whole_row_success": 1
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "premium_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "service_date_after_invoice_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.14285714285714285,
+          "flagged": 1,
+          "support": 7,
+          "whole_row_success": 1
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 9,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 2,
+          "covered": 2,
+          "detection_recall_all": 0.3333333333333333,
+          "flagged": 2,
+          "support": 6,
+          "whole_row_success": 2
+        }
+      },
+      "population": 622,
+      "unmapped_truth_categories": [],
+      "whole_row_accuracy_covered": 1.0,
+      "whole_row_success_count": 169
+    },
+    "full": {
+      "abstained": 663,
+      "ambiguity_sensitive_support": 0,
+      "amount_accuracy_covered": 1.0,
+      "amount_mae_cents_covered": 0.0,
+      "confidence_groups": {
+        "h1_supported:elided:0": {
+          "brier_score": 0.009999999999999995,
+          "mean_confidence": 0.8999999999999999,
+          "n": 77,
+          "successes": 77,
+          "whole_row_accuracy": 1.0
+        },
+        "h1_supported:explicit:0": {
+          "brier_score": 0.0025000000000000044,
+          "mean_confidence": 0.95,
+          "n": 168,
+          "successes": 168,
+          "whole_row_accuracy": 1.0
+        },
+        "sparse:elided:1": {
+          "brier_score": 0.12249999999999998,
+          "mean_confidence": 0.65,
+          "n": 1,
+          "successes": 1,
+          "whole_row_accuracy": 1.0
+        },
+        "sparse:explicit:1": {
+          "brier_score": 0.12249999999999998,
+          "mean_confidence": 0.65,
+          "n": 4,
+          "successes": 4,
+          "whole_row_accuracy": 1.0
+        }
+      },
+      "coverage": 0.2738225629791895,
+      "covered": 250,
+      "flag_accuracy_covered": 1.0,
+      "flag_metrics_all": {
+        "f1": 0.15873015873015872,
+        "fn_including_abstentions": 53,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.08620689655172414,
+        "support": 58,
+        "tn_emitted": 245,
+        "tp": 5
+      },
+      "flag_metrics_covered": {
+        "f1": 1.0,
+        "fn_including_abstentions": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 5,
+        "tn_emitted": 245,
+        "tp": 5
+      },
+      "per_category_family": {
+        "date": {
+          "f1": 0.0,
+          "fn_including_abstentions": 15,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 15,
+          "tn_emitted": 250,
+          "tp": 0
+        },
+        "duplicate": {
+          "f1": 0.0,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 4,
+          "tn_emitted": 250,
+          "tp": 0
+        },
+        "eligibility": {
+          "f1": 0.0,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 4,
+          "tn_emitted": 250,
+          "tp": 0
+        },
+        "identity": {
+          "f1": 0.2,
+          "fn_including_abstentions": 8,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.1111111111111111,
+          "support": 9,
+          "tn_emitted": 249,
+          "tp": 1
+        },
+        "invoice_arithmetic": {
+          "f1": 0.2857142857142857,
+          "fn_including_abstentions": 5,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "support": 6,
+          "tn_emitted": 249,
+          "tp": 1
+        },
+        "line_arithmetic": {
+          "f1": 0.2857142857142857,
+          "fn_including_abstentions": 5,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "support": 6,
+          "tn_emitted": 249,
+          "tp": 1
+        },
+        "mapping": {
+          "f1": 0.0,
+          "fn_including_abstentions": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 12,
+          "tn_emitted": 250,
+          "tp": 0
+        },
+        "pricing": {
+          "f1": 0.13793103448275862,
+          "fn_including_abstentions": 25,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.07407407407407407,
+          "support": 27,
+          "tn_emitted": 248,
+          "tp": 2
+        },
+        "quantity": {
+          "f1": 0.0,
+          "fn_including_abstentions": 4,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "support": 4,
+          "tn_emitted": 250,
+          "tp": 0
+        },
+        "unit": {
+          "f1": 0.42857142857142855,
+          "fn_including_abstentions": 8,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "support": 11,
+          "tn_emitted": 247,
+          "tp": 3
+        }
+      },
+      "per_original_label_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 6,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "premium_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "service_date_after_invoice_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.1,
+          "flagged": 1,
+          "support": 10,
+          "whole_row_success": 1
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 12,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 3,
+          "covered": 3,
+          "detection_recall_all": 0.2727272727272727,
+          "flagged": 3,
+          "support": 11,
+          "whole_row_success": 3
+        }
+      },
+      "population": 913,
+      "unmapped_truth_categories": [],
+      "whole_row_accuracy_covered": 1.0,
+      "whole_row_success_count": 250
+    }
+  },
+  "new_attempt_status": {
+    "H1": {
+      "attempt": "010fc7c877e7422988617213a6c66f05",
+      "elapsed_seconds": 5.191755,
+      "finished_utc": "2026-09-09T17:45:51.423170+00:00",
+      "hospitals": [
+        "H1"
+      ],
+      "identity": {
+        "files": {
+          "contracts/H1.bundle.json": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56",
+          "contracts/hospital_1.json": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb",
+          "data/source/contracts/hospital_1/provider_services_agreement.md": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853",
+          "data/source/invoices/hospital_1_invoices.csv": "2943c887c5f4c1e81c01893ff54f0cbac770451259d180040fec45924ee37b5f",
+          "data/source/invoices/hospital_1_line_items.csv": "ca3a1b8b14a3d8541aa3941563750a4f9447ffb972b730e3dd2e55c2523904cb",
+          "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+          "mappings/hospital_1.json": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1",
+          "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+          "reports/H1_source_review.json": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
+          "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+          "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+          "src/insurance_audit/audit.py": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+          "src/insurance_audit/batch.py": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+          "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+          "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+          "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+          "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+          "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+          "src/insurance_audit/io.py": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+          "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+          "src/insurance_audit/pricing.py": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+          "src/insurance_audit/reporting.py": "4c141bab4702349c924f9bc1df106824d581c48d276f87f13ff109cf1ad76efe",
+          "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+          "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+          "src/insurance_audit/submission.py": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485"
+        },
+        "hospitals": [
+          "H1"
+        ],
+        "python": "3.12.13"
+      },
+      "outputs": {
+        "H1.input_quality.json": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089",
+        "H1.json": "3c01ab7f295ee6bfc73c362b60e90509d8f39d8fc0366b33a2bcd811f872aa02"
+      },
+      "results": {
+        "H1": {
+          "accounting": {
+            "abstentions": 663,
+            "accepted_invoice_records": 918,
+            "accepted_line_records": 11409,
+            "context_records": 11415,
+            "opinions": 250,
+            "orphan_line_count": 0,
+            "quarantined_records": 6,
+            "raw_records": 12333,
+            "unique_invoice_ids": 913
+          },
+          "hospital": "H1"
+        }
+      },
+      "run_id": "32fe22a5f6818f171da5dfe8e1b4b62c31279c23c9429a83963e4610777f17d9",
+      "started_utc": "2026-09-09T17:45:46.231406+00:00",
+      "status": "success"
+    },
+    "H2-H3-H4-H5": {
+      "attempt": "090e72e7510c48e2881231dfc148bf12",
+      "elapsed_seconds": 24.741539,
+      "finished_utc": "2026-09-09T17:46:16.279548+00:00",
+      "hospitals": [
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "identity": {
+        "files": {
+          "contracts/H2.bundle.json": "f90bc694381c2d393dea242c44f0c0e4f353a9f5781d4edbc457b2ec56590295",
+          "contracts/H3.bundle.json": "d91a266777e2957490dfbf40adaf06a1b0cd7d7e3fe25d6d5eb02ae8f7617baa",
+          "contracts/H4.bundle.json": "5cc23a0245e1ec48b9bbd5b8236c2d811f6bc80bc992977ad561b6ce39082ea9",
+          "contracts/H5.bundle.json": "f3781fece3eba15064413e8f46e2fb1cb0252d3093318e5267d2ac6d6535b417",
+          "contracts/hospital_2.json": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578",
+          "contracts/hospital_3.json": "b7b7041fb9bd909d85cfa2ee0b06f710028e21e8e3c9a4a1752ee4647994a259",
+          "contracts/hospital_4.json": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688",
+          "contracts/hospital_5.json": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246",
+          "data/source/contracts/hospital_2/master_services_agreement.md": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4",
+          "data/source/contracts/hospital_3/amendment_no_1.md": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+          "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+          "data/source/contracts/hospital_3/base_agreement.md": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264",
+          "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3",
+          "data/source/contracts/hospital_5/network_reimbursement_agreement.md": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa",
+          "data/source/invoices/hospital_2_invoices.csv": "a9e85c63af5e029817c7c812100049027509d17c5143d4b30328662a59afcbc4",
+          "data/source/invoices/hospital_2_line_items.csv": "52af82b2b21c47308f0f8b28a229fc479c5b1e3b6c617795125eb301d6c026aa",
+          "data/source/invoices/hospital_3_invoices.csv": "6db01aac3097839d3670e6f0afec9d57f9fcce555de9e9664fe78c0c02581f73",
+          "data/source/invoices/hospital_3_line_items.csv": "87d467cc96af406ad1636c76e426bf7d8bf7e99c098d59adeb139e2ec2d2bb90",
+          "data/source/invoices/hospital_4_invoices.csv": "94697b99a6788c87dd80f63aae339fe330d58ad4fdf0aa5ead10591668024fda",
+          "data/source/invoices/hospital_4_line_items.csv": "c17a6b131bccb5885815ba8e61c110196a849bc49d154ace2d1d8acf6c43c18b",
+          "data/source/invoices/hospital_5_invoices.csv": "f7c5dc3afb2c4a0e922cf9f4cbff7849427eb9cce5212c58ea3231d9e1a310dc",
+          "data/source/invoices/hospital_5_line_items.csv": "0fcdf6f2238e4700d4c600a5f465248ea2a35719e0835d50ff512614604dc6d0",
+          "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+          "mappings/hospital_2.json": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb",
+          "mappings/hospital_3.json": "a9d418d873c43df617191b9e6d9334cb7f30d034fe37eb7438d445714c732ab6",
+          "mappings/hospital_4.json": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d",
+          "mappings/hospital_5.json": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34",
+          "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+          "reports/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae",
+          "reports/H3_source_review.json": "46ddb510cbde4f3384447b370bbb8e98679762f42c5c949f79e97f1db31da47a",
+          "reports/H4_source_review.json": "a0b3440da192b8be601780adcd828d42003f1fdff3d4edac43584bc35bf4e112",
+          "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7",
+          "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+          "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+          "src/insurance_audit/audit.py": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+          "src/insurance_audit/batch.py": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+          "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+          "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+          "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+          "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+          "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+          "src/insurance_audit/io.py": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+          "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+          "src/insurance_audit/pricing.py": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+          "src/insurance_audit/reporting.py": "4c141bab4702349c924f9bc1df106824d581c48d276f87f13ff109cf1ad76efe",
+          "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+          "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+          "src/insurance_audit/submission.py": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485"
+        },
+        "hospitals": [
+          "H2",
+          "H3",
+          "H4",
+          "H5"
+        ],
+        "python": "3.12.13"
+      },
+      "outputs": {
+        "H2.input_quality.json": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f",
+        "H2.json": "0fdf96982a5a7fb57287704abd393a3e24e78b4569fd97b2efed09e5b2105ac1",
+        "H3.input_quality.json": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37",
+        "H3.json": "0d05535d8f7369d717861956802f330250f4365208b2e9b2fee730da6aae6484",
+        "H4.input_quality.json": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca",
+        "H4.json": "c084a1a8dfa7d74979deb76f101d4314a9a248ffaaab7c8997c26c08248fa36e",
+        "H5.input_quality.json": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8",
+        "H5.json": "7d5759d59fc0557838118edc7e5d93df6bbcd88f68749ba9cfa71263cf95d119"
+      },
+      "results": {
+        "H2": {
+          "accounting": {
+            "abstentions": 1125,
+            "accepted_invoice_records": 1132,
+            "accepted_line_records": 14352,
+            "context_records": 14360,
+            "opinions": 0,
+            "orphan_line_count": 0,
+            "quarantined_records": 8,
+            "raw_records": 15492,
+            "unique_invoice_ids": 1125
+          },
+          "hospital": "H2"
+        },
+        "H3": {
+          "accounting": {
+            "abstentions": 784,
+            "accepted_invoice_records": 939,
+            "accepted_line_records": 11648,
+            "context_records": 11655,
+            "opinions": 148,
+            "orphan_line_count": 0,
+            "quarantined_records": 7,
+            "raw_records": 12594,
+            "unique_invoice_ids": 932
+          },
+          "hospital": "H3"
+        },
+        "H4": {
+          "accounting": {
+            "abstentions": 771,
+            "accepted_invoice_records": 840,
+            "accepted_line_records": 10554,
+            "context_records": 10560,
+            "opinions": 64,
+            "orphan_line_count": 0,
+            "quarantined_records": 6,
+            "raw_records": 11400,
+            "unique_invoice_ids": 835
+          },
+          "hospital": "H4"
+        },
+        "H5": {
+          "accounting": {
+            "abstentions": 922,
+            "accepted_invoice_records": 1057,
+            "accepted_line_records": 13213,
+            "context_records": 13221,
+            "opinions": 128,
+            "orphan_line_count": 0,
+            "quarantined_records": 8,
+            "raw_records": 14278,
+            "unique_invoice_ids": 1050
+          },
+          "hospital": "H5"
+        }
+      },
+      "run_id": "0f1f089974462951e0bd40af8aa6b87519a05fb9e2c97744933b4d782596bc1e",
+      "started_utc": "2026-09-09T17:45:51.538001+00:00",
+      "status": "success"
+    }
+  },
+  "peak_child_process_rss_kib": 480244,
+  "python": "3.12.13",
+  "release_bound_file_matches": {
+    ".python-version": true,
+    "data/source/labels/hospital_1_labels.csv": true,
+    "evaluation/confidence_policy.json": true,
+    "evaluation/split_manifest.json": true,
+    "prompts/README.md": true,
+    "prompts/extract_v1.md": true,
+    "prompts/map_v1.md": true,
+    "prompts/map_v2.md": true,
+    "prompts/review_v1.md": true,
+    "requirements.txt": true,
+    "src/insurance_audit/__init__.py": true,
+    "src/insurance_audit/__main__.py": true,
+    "src/insurance_audit/audit.py": true,
+    "src/insurance_audit/batch.py": true,
+    "src/insurance_audit/checks.py": true,
+    "src/insurance_audit/confidence.py": true,
+    "src/insurance_audit/context.py": true,
+    "src/insurance_audit/evaluation.py": true,
+    "src/insurance_audit/inventory.py": true,
+    "src/insurance_audit/io.py": true,
+    "src/insurance_audit/pipeline.py": true,
+    "src/insurance_audit/pricing.py": true,
+    "src/insurance_audit/reporting.py": true,
+    "src/insurance_audit/resolve.py": true,
+    "src/insurance_audit/schema.py": true,
+    "src/insurance_audit/submission.py": true,
+    "tests/fixtures/h1_contract_examples.json": true,
+    "tests/test_audit_corrections.py": true,
+    "tests/test_batch.py": true,
+    "tests/test_confidence.py": true,
+    "tests/test_evaluation.py": true,
+    "tests/test_h2.py": true,
+    "tests/test_inputs.py": true,
+    "tests/test_pricing.py": true,
+    "tests/test_schema.py": true,
+    "tests/test_submission.py": true,
+    "tests/test_targets.py": true
+  },
+  "release_manifest_sha256": "f6b518360ac350e3e023b9479a77a221565629c436b482ac175c5df1a22c6d78",
+  "removed_before_execution": [
+    ".git/",
+    "evidence/",
+    "governance/audits/",
+    "reports/H1_mapping_change_v2.json",
+    "reports/H2_acquisition_manifest.json",
+    "reports/H2_mapping_review.md",
+    "reports/H2_reading_index.json",
+    "reports/H2_reading_remaining.txt",
+    "reports/H3_acquisition_manifest.json",
+    "reports/H3_mapping_review.md",
+    "reports/H4_acquisition_manifest.json",
+    "reports/H4_mapping_review.md",
+    "reports/H5_acquisition_manifest.json",
+    "reports/H5_mapping_review.md",
+    "reports/README.md",
+    "reports/baseline_h1.json",
+    "reports/corrections",
+    "reports/current_candidate_closure.json",
+    "reports/decision_log.md",
+    "reports/decision_log.pdf",
+    "reports/document_checks.json",
+    "reports/evaluation_check.json",
+    "reports/evaluation_development.json",
+    "reports/evaluation_full.json",
+    "reports/evaluation_report.md",
+    "reports/execution.json",
+    "reports/final_regression.json",
+    "reports/final_reproduction_result.md",
+    "reports/guarded_reproduction.json",
+    "reports/h1_acquisition_manifest.json",
+    "reports/implementation_report.md",
+    "reports/input_quality.json",
+    "reports/inventory_H1.json",
+    "reports/inventory_H2.json",
+    "reports/inventory_H3.json",
+    "reports/inventory_H4.json",
+    "reports/inventory_H5.json",
+    "reports/metrics.json",
+    "reports/provenance_check.json",
+    "reports/regression_initial_failure.json",
+    "reports/release_manifest.json",
+    "reports/submission_writeup.md",
+    "reports/submission_writeup.pdf",
+    "reports/tests_all_hospitals_initial.json",
+    "reports/tests_all_hospitals_initial.txt",
+    "reports/tests_audit_corrections_first.json",
+    "reports/tests_audit_corrections_first.txt",
+    "reports/tests_batch.json",
+    "reports/tests_batch.txt",
+    "reports/tests_final.json",
+    "reports/tests_final.txt",
+    "reports/tests_h1_freeze.json",
+    "reports/tests_h1_freeze.txt",
+    "reports/tests_inputs.json",
+    "reports/tests_inputs.txt",
+    "reports/tests_inputs_initial_failure.json",
+    "reports/tests_pre_release.json",
+    "reports/tests_pre_release.txt",
+    "reports/tests_pricing_first.json",
+    "reports/tests_pricing_first.txt",
+    "reports/tests_schema.json",
+    "reports/tests_schema.txt",
+    "reports/viability_H1.json",
+    "reports/viability_H3.json",
+    "reports/workload.json",
+    "runs/",
+    "submission.csv"
+  ],
+  "retained_report_inputs": [
+    "H1_candidate_closure.json",
+    "H1_source_review.json",
+    "H2_candidate_closure.json",
+    "H2_source_review.json",
+    "H3_candidate_closure.json",
+    "H3_source_review.json",
+    "H4_candidate_closure.json",
+    "H4_source_review.json",
+    "H5_candidate_closure.json",
+    "H5_source_review.json"
+  ],
+  "sanitized_environment_names": [
+    "GIT_CONFIG_GLOBAL",
+    "GIT_CONFIG_NOSYSTEM",
+    "LANG",
+    "PATH",
+    "PIP_DISABLE_PIP_VERSION_CHECK",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONHASHSEED",
+    "PYTHONNOUSERSITE"
+  ],
+  "saved_predictions_available_to_pipeline": false,
+  "scope": "Clean-clone reproduction against recorded source and result hashes.",
+  "stable_output_hashes": {
+    "reports/evaluation_report.md": "1a0580f9b7b6b89847c604e48d69273bc1ee71277b43c1e8acee964e692d7ea4",
+    "reports/metrics.json": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+    "reports/workload.json": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+    "submission.csv": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  "stable_output_matches": {
+    "reports/evaluation_report.md": true,
+    "reports/metrics.json": true,
+    "reports/workload.json": true,
+    "submission.csv": true
+  },
+  "status": "passed",
+  "submission": {
+    "bytes_and_order_equal_attached_reference": true,
+    "columns": [
+      "invoice_id",
+      "flagged",
+      "error_category",
+      "expected_total_cents",
+      "billed_total_cents",
+      "confidence"
+    ],
+    "flagged": 6,
+    "hospital_counts": {
+      "H3": 148,
+      "H4": 64,
+      "H5": 128
+    },
+    "predicted_correct": 334,
+    "rows": 340,
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "unique_ids": 340
+  },
+  "tested_commit": "ec26e2560cb75850e56e49f2bb4fb4ffa904836d",
+  "tests": {
+    "elapsed_seconds": 15.93975,
+    "errors": 0,
+    "failures": 0,
+    "python": "3.12.13",
+    "skipped": 0,
+    "success": true,
+    "tested_files": {
+      "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+      "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+      "src/insurance_audit/audit.py": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+      "src/insurance_audit/batch.py": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+      "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+      "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+      "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+      "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+      "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+      "src/insurance_audit/io.py": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+      "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+      "src/insurance_audit/pricing.py": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+      "src/insurance_audit/reporting.py": "4c141bab4702349c924f9bc1df106824d581c48d276f87f13ff109cf1ad76efe",
+      "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+      "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+      "src/insurance_audit/submission.py": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485",
+      "tests/test_audit_corrections.py": "125426cd6a9c5444810fa497fdf4f5dcd531e41acdf8a994a04f113c6774c5f8",
+      "tests/test_batch.py": "5cdb7ae04e53a3a349d27838b42810def56f661c657166d661643820628f7593",
+      "tests/test_confidence.py": "b80e97deff2205fb171693e2a4672a7794a324f006b78d4d32569003d952f675",
+      "tests/test_evaluation.py": "d79733cae90c52f63e23701aba47bb5bc9ce0267e8272d3597f64d8393426c9e",
+      "tests/test_h2.py": "186f6de400acdbb93b9c378dc6ba5f28aaf25ea205ea9b53038b861a4165996e",
+      "tests/test_inputs.py": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134",
+      "tests/test_pricing.py": "484a6de121be430a88d6cd3382c35195a204b68f387258074951917a66df8370",
+      "tests/test_schema.py": "7f3132dc193c10eee154115fd601c293cd6cf49024d28552f3c0972ebf113e82",
+      "tests/test_submission.py": "59a581482afc6a6ae399854ecc0aaaeade85f7bafb1604a78c842ce68bb61e54",
+      "tests/test_targets.py": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
+    },
+    "tests_run": 75,
+    "utc": "2026-09-09T17:46:56.950461+00:00"
+  },
+  "utc": "2026-09-09T17:45:41.304083+00:00"
+}
