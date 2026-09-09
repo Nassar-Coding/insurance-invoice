@@ -1,0 +1,153 @@
+{
+  "cached_predictions_available": false,
+  "checksums": {
+    "actual": {
+      "reports/evaluation_report.md": "73a3a2584723b050abdbce7ee2155ba7ae2052001037930766b4fd24b87bcad7",
+      "reports/metrics.json": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "reports/workload.json": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "submission.csv": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+    },
+    "expected": {
+      "reports/evaluation_report.md": "73a3a2584723b050abdbce7ee2155ba7ae2052001037930766b4fd24b87bcad7",
+      "reports/metrics.json": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "reports/workload.json": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "submission.csv": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+    }
+  },
+  "clone_commit": "55f5b5f49af8bd0549b7fb11188570b18fbb5e03",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "clone",
+        "--quiet",
+        "--no-local",
+        "/workspace/scratch/43a4aea2353c/insurance_audit_project",
+        "/tmp/insurance-clean-3vddsvpu/project"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "insurance_audit",
+        "reproduce"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"status\": \"success\",\n  \"python\": \"3.12.13\",\n  \"elapsed_seconds\": 27.821063,\n  \"h1_attempt\": \"6daf7c1422084a328a49f001a02db866\",\n  \"target_attempt\": \"df3f84c8e988466199d03fb42e2b3371\",\n  \"hospital_opinions\": {\n    \"H1\": 250,\n    \"H2\": 0,\n    \"H3\": 148,\n    \"H4\": 64,\n    \"H5\": 128\n  },\n  \"submission_rows\": 340,\n  \"submission_sha256\": \"2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c\",\n  \"network_calls\": 0,\n  \"model_calls\": 0,\n  \"scope\": \"prediction replay plus H1 evaluation; not fresh LLM extraction\"\n}\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "insurance_audit",
+        "verify-submission"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"release_id\": \"269eb3e02e89a06cb35538f705a2559cc8dac39c8b8dbeefea42571fb0f1108c\",\n  \"rows\": 340,\n  \"submission_sha256\": \"2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c\"\n}\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/run_checks.py",
+        "clean_clone"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "test_success_failure_and_repeatability (test_batch.BatchTests.test_success_failure_and_repeatability) ... ok\ntest_nonfinite_or_invalid_confidence_fails (test_confidence.ConfidenceTests.test_nonfinite_or_invalid_confidence_fails) ... ok\ntest_supported_sparse_novel_and_unresolved_are_distinct (test_confidence.ConfidenceTests.test_supported_sparse_novel_and_unresolved_are_distinct) ... ok\ntest_free_text_category_crosswalk_is_explicit (test_evaluation.EvaluationTests.test_free_text_category_crosswalk_is_explicit) ... ok\ntest_known_answer_and_abstention_denominators (test_evaluation.EvaluationTests.test_known_answer_and_abstention_denominators) ... ok\ntest_whole_row_requires_flag_and_amount (test_evaluation.EvaluationTests.test_whole_row_requires_flag_and_amount) ... ok\ntest_bundles_preserve_unknown_day_coincidence (test_h2.H2Tests.test_bundles_preserve_unknown_day_coincidence) ... ok\ntest_day_cap_missing_allocation_is_not_clipped_by_assumption (test_h2.H2Tests.test_day_cap_missing_allocation_is_not_clipped_by_assumption) ... ok\ntest_day_uncertainty_only_blocks_outcome_relevant_premium (test_h2.H2Tests.test_day_uncertainty_only_blocks_outcome_relevant_premium) ... ok\ntest_exclusion_uses_explicit_service_date_in_both_directions (test_h2.H2Tests.test_exclusion_uses_explicit_service_date_in_both_directions) ... ok\ntest_h2_does_not_inherit_other_hospitals_prohibitions (test_h2.H2Tests.test_h2_does_not_inherit_other_hospitals_prohibitions) ... ok\ntest_missing_submission_evidence_blocks_even_exact_pricing (test_h2.H2Tests.test_missing_submission_evidence_blocks_even_exact_pricing) ... ok\ntest_observable_base_and_strict_prior_volume_are_diagnostic (test_h2.H2Tests.test_observable_base_and_strict_prior_volume_are_diagnostic) ... ok\ntest_service_date_does_not_prove_07_hour_service_day (test_h2.H2Tests.test_service_date_does_not_prove_07_hour_service_day) ... ok\ntest_headers_are_named_and_order_independent (test_inputs.InputContractTests.test_headers_are_named_and_order_independent) ... ok\ntest_hospital_scope_cannot_be_a_path (test_inputs.InputContractTests.test_hospital_scope_cannot_be_a_path) ... ok\ntest_missing_duplicate_unknown_headers_fatal (test_inputs.InputContractTests.test_missing_duplicate_unknown_headers_fatal) ... ok\ntest_no_label_access_and_split_identity (test_inputs.InputContractTests.test_no_label_access_and_split_identity) ... ok\ntest_numeric_range_and_non_finite (test_inputs.InputContractTests.test_numeric_range_and_non_finite) ... ok\ntest_parseable_billing_fault_is_retained (test_inputs.InputContractTests.test_parseable_billing_fault_is_retained) ... ok\ntest_values_quarantined_without_silent_drop (test_inputs.InputContractTests.test_values_quarantined_without_silent_drop) ... ok\ntest_bundle_across_invoices_same_patient_day (test_pricing.PricingTests.test_bundle_across_invoices_same_patient_day) ... ok\ntest_complete_correct_and_wrong_unit_unchanged_total (test_pricing.PricingTests.test_complete_correct_and_wrong_unit_unchanged_total) ... ok\ntest_conflicting_header_trace_order_is_canonical (test_pricing.PricingTests.test_conflicting_header_trace_order_is_canonical) ... ok\ntest_conflicting_identity_does_not_multiply_history (test_pricing.PricingTests.test_conflicting_identity_does_not_multiply_history) ... ok\ntest_cross_invoice_daily_context_and_duplicate_allocation_fail_closed (test_pricing.PricingTests.test_cross_invoice_daily_context_and_duplicate_allocation_fail_closed) ... ok\ntest_exact_halves_and_each_step_rounding (test_pricing.PricingTests.test_exact_halves_and_each_step_rounding) ... ok\ntest_exclusion_past_future_interior_and_equality (test_pricing.PricingTests.test_exclusion_past_future_interior_and_equality) ... ok\ntest_h1_source_thresholds_and_weekend (test_pricing.PricingTests.test_h1_source_thresholds_and_weekend) ... ok\ntest_header_arithmetic_mismatch (test_pricing.PricingTests.test_header_arithmetic_mismatch) ... ok\ntest_invalid_date_and_nonpositive_quantity_abstain (test_pricing.PricingTests.test_invalid_date_and_nonpositive_quantity_abstain) ... ok\ntest_irrelevant_unknown_and_saturated_interval (test_pricing.PricingTests.test_irrelevant_unknown_and_saturated_interval) ... ok\ntest_later_revision_of_prior_claim_changes_subsequent_price (test_pricing.PricingTests.test_later_revision_of_prior_claim_changes_subsequent_price) ... ok\ntest_malformed_date_preserves_possible_dependency (test_pricing.PricingTests.test_malformed_date_preserves_possible_dependency) ... ok\ntest_partial_invoice_never_emits_partial_total (test_pricing.PricingTests.test_partial_invoice_never_emits_partial_total) ... ok\ntest_prior_all_patients_strict_date_id_and_order_independent (test_pricing.PricingTests.test_prior_all_patients_strict_date_id_and_order_independent) ... ok\ntest_single_line_cap (test_pricing.PricingTests.test_single_line_cap) ... ok\ntest_declared_raw_packages_validate (test_schema.SchemaTests.test_declared_raw_packages_validate) ... ok\ntest_h3_before_on_after_and_added_service (test_schema.SchemaTests.test_h3_before_on_after_and_added_service) ... ok\ntest_instruction_bearing_operator_rejected (test_schema.SchemaTests.test_instruction_bearing_operator_rejected) ... ok\ntest_invalid_types_and_references (test_schema.SchemaTests.test_invalid_types_and_references) ... ok\ntest_mapping_collision_ambiguity_and_cross_hospital (test_schema.SchemaTests.test_mapping_collision_ambiguity_and_cross_hospital) ... ok\ntest_mapping_key_and_clause_provenance_cannot_drift (test_schema.SchemaTests.test_mapping_key_and_clause_provenance_cannot_drift) ... ok\ntest_missing_essential_qualifier_is_not_unique_catalog_proof (test_schema.SchemaTests.test_missing_essential_qualifier_is_not_unique_catalog_proof) ... ok\ntest_normalizer_keeps_meaningful_qualifier (test_schema.SchemaTests.test_normalizer_keeps_meaningful_qualifier) ... ok\ntest_runtime_accepted_bundle_binding (test_schema.SchemaTests.test_runtime_accepted_bundle_binding) ... ok\ntest_unexplained_overlap_rejected_authorized_overlap_supported (test_schema.SchemaTests.test_unexplained_overlap_rejected_authorized_overlap_supported) ... ok\ntest_unknown_field_rejected (test_schema.SchemaTests.test_unknown_field_rejected) ... ok\ntest_exact_format_and_unchanged_amount_error (test_submission.SubmissionTests.test_exact_format_and_unchanged_amount_error) ... ok\ntest_failure_before_promotion_and_stale_release (test_submission.SubmissionTests.test_failure_before_promotion_and_stale_release) ... ok\ntest_invalid_numbers_identity_partial_and_columns_rejected (test_submission.SubmissionTests.test_invalid_numbers_identity_partial_and_columns_rejected) ... ok\ntest_compound_units_never_invent_second_dimension (test_targets.TargetTests.test_compound_units_never_invent_second_dimension) ... ok\ntest_h3_amendment_rate_and_added_service_before_on_after (test_targets.TargetTests.test_h3_amendment_rate_and_added_service_before_on_after) ... ok\ntest_h3_direction_is_not_copied_from_h1 (test_targets.TargetTests.test_h3_direction_is_not_copied_from_h1) ... ok\ntest_h3_inherited_weekend_and_cap (test_targets.TargetTests.test_h3_inherited_weekend_and_cap) ... ok\ntest_h4_instance_unit_and_scope_envelope (test_targets.TargetTests.test_h4_instance_unit_and_scope_envelope) ... ok\ntest_h4_premium_and_bundle (test_targets.TargetTests.test_h4_premium_and_bundle) ... ok\ntest_h5_bundle_before_multipliers (test_targets.TargetTests.test_h5_bundle_before_multipliers) ... ok\ntest_h5_facility_tier_round_at_each_step (test_targets.TargetTests.test_h5_facility_tier_round_at_each_step) ... ok\ntest_h5_usage_does_not_reset_by_patient_facility_or_tier (test_targets.TargetTests.test_h5_usage_does_not_reset_by_patient_facility_or_tier) ... ok\ntest_hospital_source_system_suffixes_and_qualifiers (test_targets.TargetTests.test_hospital_source_system_suffixes_and_qualifiers) ... ok\n\n----------------------------------------------------------------------\nRan 61 tests in 7.265s\n\nOK\n\n{\"utc\": \"2026-09-07T09:01:07.128015+00:00\", \"python\": \"3.12.13\", \"tests_run\": 61, \"failures\": 0, \"errors\": 0, \"skipped\": 0, \"success\": true, \"elapsed_seconds\": 7.356464}\n"
+    }
+  ],
+  "elapsed_seconds": 62.768968,
+  "inherited_credentials": false,
+  "matches": {
+    "reports/evaluation_report.md": true,
+    "reports/metrics.json": true,
+    "reports/workload.json": true,
+    "submission.csv": true
+  },
+  "new_replay_attempts": {
+    "elapsed_seconds": 27.821063,
+    "h1_attempt": "6daf7c1422084a328a49f001a02db866",
+    "hospital_opinions": {
+      "H1": 250,
+      "H2": 0,
+      "H3": 148,
+      "H4": 64,
+      "H5": 128
+    },
+    "model_calls": 0,
+    "network_calls": 0,
+    "python": "3.12.13",
+    "scope": "prediction replay plus H1 evaluation; not fresh LLM extraction",
+    "status": "success",
+    "submission_rows": 340,
+    "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "target_attempt": "df3f84c8e988466199d03fb42e2b3371"
+  },
+  "release_manifest_equal": true,
+  "removed_outputs_before_execution": [
+    "runs/ (every historical/current result and release)",
+    "submission.csv",
+    "reports/metrics.json",
+    "reports/workload.json",
+    "reports/evaluation_development.json",
+    "reports/evaluation_check.json",
+    "reports/evaluation_full.json",
+    "reports/evaluation_report.md",
+    "reports/execution.json",
+    "reports/release_manifest.json"
+  ],
+  "sanitized_environment_names": [
+    "LANG",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONHASHSEED",
+    "PYTHONNOUSERSITE",
+    "PYTHONPATH"
+  ],
+  "scope": "Actual isolated local clone; no remote publishing or assessor-access claim.",
+  "status": "passed",
+  "tested_commit": "55f5b5f49af8bd0549b7fb11188570b18fbb5e03",
+  "tests": {
+    "elapsed_seconds": 7.356464,
+    "errors": 0,
+    "failures": 0,
+    "python": "3.12.13",
+    "skipped": 0,
+    "success": true,
+    "tested_files": {
+      "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+      "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+      "src/insurance_audit/audit.py": "287ad24915b8320d52fcb01a158601752d90544f279480de098c9e4ba8ff56ae",
+      "src/insurance_audit/batch.py": "7970e4abd6c03ca0edc7b5fa37ec7c90d51a8e436a61816db631c4b513ee7b4f",
+      "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+      "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+      "src/insurance_audit/context.py": "1312a8c08f0212fc1bc7ea041ac95501aa48942d27d0a7b3de81843e381d71a7",
+      "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+      "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+      "src/insurance_audit/io.py": "41b17b52318cfdc5885a6b13e6b328ffb534e7c1ac5af3b1959f9e8afbe66c5d",
+      "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+      "src/insurance_audit/pricing.py": "134974bdb86216c55c9026e5a52627cf3fba0994f2e63fb5249205febe3bc7ac",
+      "src/insurance_audit/reporting.py": "e88c1085178e393804bbb761a0526e61040828a2f425e17a1707cf9d31f8ec22",
+      "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+      "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+      "src/insurance_audit/submission.py": "4722edcf973bca607f8e00efb47b582159d0f651521b2a7035954bf41784e1cd",
+      "tests/test_batch.py": "5cdb7ae04e53a3a349d27838b42810def56f661c657166d661643820628f7593",
+      "tests/test_confidence.py": "b80e97deff2205fb171693e2a4672a7794a324f006b78d4d32569003d952f675",
+      "tests/test_evaluation.py": "d79733cae90c52f63e23701aba47bb5bc9ce0267e8272d3597f64d8393426c9e",
+      "tests/test_h2.py": "186f6de400acdbb93b9c378dc6ba5f28aaf25ea205ea9b53038b861a4165996e",
+      "tests/test_inputs.py": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134",
+      "tests/test_pricing.py": "484a6de121be430a88d6cd3382c35195a204b68f387258074951917a66df8370",
+      "tests/test_schema.py": "7f3132dc193c10eee154115fd601c293cd6cf49024d28552f3c0972ebf113e82",
+      "tests/test_submission.py": "59a581482afc6a6ae399854ecc0aaaeade85f7bafb1604a78c842ce68bb61e54",
+      "tests/test_targets.py": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
+    },
+    "tests_run": 61,
+    "utc": "2026-09-07T09:01:07.128015+00:00"
+  }
+}

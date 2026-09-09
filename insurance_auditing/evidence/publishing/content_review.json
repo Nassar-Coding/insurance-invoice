@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "text_files_scanned": 297,
+  "credential_signature_matches": [],
+  "scope": "High-specificity private-key, GitHub-token, AWS-access-key and OpenAI-key signatures in included text, plus file inventory review; not a universal secret guarantee. Original synthetic data and relevant supplied contact/author attribution retained."
+}

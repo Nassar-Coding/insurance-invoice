@@ -1,0 +1,765 @@
+{
+  "hospital": "H4",
+  "invoice_id": "INV-H4-000583",
+  "lines": [
+    {
+      "billed_line_total_cents": 60100,
+      "billed_unit": "per_item",
+      "billed_unit_price_cents": 15025,
+      "description": "FOCUSED metab BIOP proc /CW-3728",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-28",
+          "excluding_line_id": "H4-L00583-01",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S045"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-01",
+      "mapping_grade": "explicit",
+      "possible_service_ids": [
+        "H4-S045"
+      ],
+      "pricing": {
+        "context": [],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 15025,
+        "stages": [
+          {
+            "after": [
+              15025
+            ],
+            "base_rate": {
+              "cents": 15025,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+              "start": "2024-01-01"
+            },
+            "before": [
+              15025
+            ],
+            "operation": "bundle",
+            "rules": [],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83"
+            ]
+          },
+          {
+            "after": [
+              15025
+            ],
+            "before": [
+              15025
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L194"
+            ]
+          },
+          {
+            "after": [
+              15025
+            ],
+            "before": [
+              15025
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L194"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 15025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 4,
+      "result": {
+        "billable_quantity": 4,
+        "error_categories": [],
+        "expected_total_cents": 60100,
+        "expected_unit_rate_cents": 15025
+      },
+      "service_id": "H4-S045",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L194"
+      ],
+      "source_row": 7297,
+      "status": "supported"
+    },
+    {
+      "billed_line_total_cents": 126750,
+      "billed_unit": "per_item",
+      "billed_unit_price_cents": 25350,
+      "description": "intens - VASC steril SVC /CW-4993",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-30",
+          "excluding_line_id": "H4-L00583-02",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S055"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-02",
+      "mapping_grade": "explicit",
+      "possible_service_ids": [
+        "H4-S055"
+      ],
+      "pricing": {
+        "context": [],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 25350,
+        "stages": [
+          {
+            "after": [
+              25350
+            ],
+            "base_rate": {
+              "cents": 25350,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93",
+              "start": "2024-01-01"
+            },
+            "before": [
+              25350
+            ],
+            "operation": "bundle",
+            "rules": [],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93"
+            ]
+          },
+          {
+            "after": [
+              25350
+            ],
+            "before": [
+              25350
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93"
+            ]
+          },
+          {
+            "after": [
+              25350
+            ],
+            "before": [
+              25350
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 25350,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 5,
+      "result": {
+        "billable_quantity": 5,
+        "error_categories": [],
+        "expected_total_cents": 126750,
+        "expected_unit_rate_cents": 25350
+      },
+      "service_id": "H4-S055",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93"
+      ],
+      "source_row": 7298,
+      "status": "supported"
+    },
+    {
+      "billed_line_total_cents": 4275,
+      "billed_unit": "per_unit_dispensed",
+      "billed_unit_price_cents": 1425,
+      "description": "elect  OBSTETRIC transf SVC /CW-6472",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-30",
+          "excluding_line_id": "H4-L00583-03",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S033"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-03",
+      "mapping_grade": "explicit",
+      "possible_service_ids": [
+        "H4-S033"
+      ],
+      "pricing": {
+        "context": [
+          {
+            "certain_records": 1,
+            "kind": "patient_service_day",
+            "lower": 1,
+            "member_digest": "38e07fdf48204da92c95b6ef53fd957c50c5893da1812221b1ad4e10119d03c9",
+            "possible_examples": [],
+            "possible_records": 0,
+            "query": {
+              "day": "2025-05-30",
+              "patient": "PT-H4-000065",
+              "service_id": "H4-S060"
+            },
+            "upper": 1
+          }
+        ],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 1250,
+        "stages": [
+          {
+            "after": [
+              1250
+            ],
+            "base_rate": {
+              "cents": 1425,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71",
+              "start": "2024-01-01"
+            },
+            "before": [
+              1425
+            ],
+            "operation": "bundle",
+            "rules": [
+              {
+                "context_index": 0,
+                "partner_service_id": "H4-S060",
+                "presence": true,
+                "rule_index": 4,
+                "service_id": "H4-S033",
+                "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+                "substituted_cents": 1250
+              }
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216"
+            ]
+          },
+          {
+            "after": [
+              1250
+            ],
+            "before": [
+              1250
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71"
+            ]
+          },
+          {
+            "after": [
+              1250
+            ],
+            "before": [
+              1250
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 1425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 3,
+      "result": {
+        "billable_quantity": 3,
+        "error_categories": [
+          "effective_rate_mismatch",
+          "line_amount_mismatch"
+        ],
+        "expected_total_cents": 3750,
+        "expected_unit_rate_cents": 1250
+      },
+      "service_id": "H4-S033",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71"
+      ],
+      "source_row": 7299,
+      "status": "supported"
+    },
+    {
+      "billed_line_total_cents": 126900,
+      "billed_unit": "per_procedure",
+      "billed_unit_price_cents": 126900,
+      "description": "INTERM  - rheum DIAL sess /CW-1055",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-30",
+          "excluding_line_id": "H4-L00583-04",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S060"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-04",
+      "mapping_grade": "explicit",
+      "possible_service_ids": [
+        "H4-S060"
+      ],
+      "pricing": {
+        "context": [
+          {
+            "certain_records": 1,
+            "kind": "patient_service_day",
+            "lower": 3,
+            "member_digest": "20dd618d3c4a1d7affbe34917cd8b86720f98d868803b9c5b1bb26715638b597",
+            "possible_examples": [],
+            "possible_records": 0,
+            "query": {
+              "day": "2025-05-30",
+              "patient": "PT-H4-000065",
+              "service_id": "H4-S033"
+            },
+            "upper": 3
+          }
+        ],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 111675,
+        "stages": [
+          {
+            "after": [
+              111675
+            ],
+            "base_rate": {
+              "cents": 126900,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98",
+              "start": "2024-01-01"
+            },
+            "before": [
+              126900
+            ],
+            "operation": "bundle",
+            "rules": [
+              {
+                "context_index": 0,
+                "partner_service_id": "H4-S033",
+                "presence": true,
+                "rule_index": 4,
+                "service_id": "H4-S060",
+                "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+                "substituted_cents": 111675
+              }
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216"
+            ]
+          },
+          {
+            "after": [
+              111675
+            ],
+            "before": [
+              111675
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98"
+            ]
+          },
+          {
+            "after": [
+              111675
+            ],
+            "before": [
+              111675
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 126900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 1,
+      "result": {
+        "billable_quantity": 1,
+        "error_categories": [
+          "effective_rate_mismatch",
+          "line_amount_mismatch"
+        ],
+        "expected_total_cents": 111675,
+        "expected_unit_rate_cents": 111675
+      },
+      "service_id": "H4-S060",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98"
+      ],
+      "source_row": 7300,
+      "status": "supported"
+    },
+    {
+      "billed_line_total_cents": 261450,
+      "billed_unit": "per_day",
+      "billed_unit_price_cents": 130725,
+      "description": "amb - IMMUN ward BD occupancy /CW-2184",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-28",
+          "excluding_line_id": "H4-L00583-05",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S009"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-05",
+      "mapping_grade": "explicit",
+      "possible_service_ids": [
+        "H4-S009"
+      ],
+      "pricing": {
+        "context": [],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 74700,
+        "stages": [
+          {
+            "after": [
+              74700
+            ],
+            "base_rate": {
+              "cents": 74700,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+              "start": "2024-01-01"
+            },
+            "before": [
+              74700
+            ],
+            "operation": "bundle",
+            "rules": [],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47"
+            ]
+          },
+          {
+            "after": [
+              74700
+            ],
+            "before": [
+              74700
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L187"
+            ]
+          },
+          {
+            "after": [
+              74700
+            ],
+            "before": [
+              74700
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L187"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 74700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 2,
+      "result": {
+        "billable_quantity": 2,
+        "error_categories": [
+          "effective_rate_mismatch",
+          "line_amount_mismatch"
+        ],
+        "expected_total_cents": 149400,
+        "expected_unit_rate_cents": 74700
+      },
+      "service_id": "H4-S009",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L187"
+      ],
+      "source_row": 7301,
+      "status": "supported"
+    },
+    {
+      "billed_line_total_cents": 367900,
+      "billed_unit": "per_procedure",
+      "billed_unit_price_cents": 367900,
+      "description": "OUTPT - obst DIAL /CW-3474",
+      "duplicate_check": {
+        "certain_records": 0,
+        "kind": "same_service_day_other_billing",
+        "lower": 0,
+        "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "possible_examples": [],
+        "possible_records": 0,
+        "query": {
+          "day": "2025-05-29",
+          "excluding_line_id": "H4-L00583-06",
+          "patient": "PT-H4-000065",
+          "service_id": "H4-S064"
+        },
+        "upper": 0
+      },
+      "line_id": "H4-L00583-06",
+      "mapping_grade": "elided",
+      "possible_service_ids": [
+        "H4-S064"
+      ],
+      "pricing": {
+        "context": [],
+        "excluded": false,
+        "outcome_invariant_uncertainty": false,
+        "qualifications": [],
+        "rate": 367900,
+        "stages": [
+          {
+            "after": [
+              367900
+            ],
+            "base_rate": {
+              "cents": 367900,
+              "end": "2025-12-31",
+              "priority": 0,
+              "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102",
+              "start": "2024-01-01"
+            },
+            "before": [
+              367900
+            ],
+            "operation": "bundle",
+            "rules": [],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102"
+            ]
+          },
+          {
+            "after": [
+              367900
+            ],
+            "before": [
+              367900
+            ],
+            "operation": "facility",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102"
+            ]
+          },
+          {
+            "after": [
+              367900
+            ],
+            "before": [
+              367900
+            ],
+            "operation": "tier",
+            "ratios": [
+              [
+                1,
+                1
+              ]
+            ],
+            "source": [
+              "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102"
+            ]
+          }
+        ],
+        "version": {
+          "cents": 367900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102",
+          "start": "2024-01-01"
+        }
+      },
+      "quantity": 1,
+      "result": {
+        "billable_quantity": 1,
+        "error_categories": [],
+        "expected_total_cents": 367900,
+        "expected_unit_rate_cents": 367900
+      },
+      "service_id": "H4-S064",
+      "source": "hospital_4_line_items.csv",
+      "source_refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102"
+      ],
+      "source_row": 7302,
+      "status": "supported"
+    }
+  ],
+  "opinion": {
+    "billed_total_cents": 947375,
+    "confidence": 0.7,
+    "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+    "confidence_tier": "novel_reviewed:elided",
+    "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+    "expected_total_cents": 819575,
+    "flagged": 1,
+    "hospital": "H4",
+    "interpretation_qualifications": [],
+    "invoice_id": "INV-H4-000583",
+    "mapping_evidence": "elided",
+    "outcome_invariant_uncertainty": false,
+    "trace_key": "INV-H4-000583"
+  },
+  "source_headers": [
+    {
+      "row": 584,
+      "source": "hospital_4_invoices.csv"
+    }
+  ],
+  "status": "supported"
+}

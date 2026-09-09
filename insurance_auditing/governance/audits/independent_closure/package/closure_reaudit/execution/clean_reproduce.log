@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "python": "3.12.13",
+  "elapsed_seconds": 48.437133,
+  "h1_attempt": "0a8f51db2ceb43cda476e2d9c930de6c",
+  "target_attempt": "2de35f67b8814669bb41ebc537820187",
+  "hospital_opinions": {
+    "H1": 250,
+    "H2": 0,
+    "H3": 148,
+    "H4": 64,
+    "H5": 128
+  },
+  "submission_rows": 340,
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "network_calls": 0,
+  "model_calls": 0,
+  "scope": "prediction replay plus H1 evaluation; not fresh LLM extraction"
+}

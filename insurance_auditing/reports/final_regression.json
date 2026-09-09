@@ -1,0 +1,133 @@
+{
+  "changed_decision_inputs": {
+    "contracts/H1.bundle.json": {
+      "after": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56",
+      "before": "1f3e3413d5b1f8912d070f262260fee443b5fd4991dccf0cb1e772555c9321d1"
+    },
+    "contracts/hospital_1.json": {
+      "after": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb",
+      "before": "7abcde5514047c03b748aed63eafca1e6220d3de79289f8e9886b0460a5516cd"
+    },
+    "evaluation/confidence_policy.json": {
+      "after": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+      "before": "dce24c47cb90af243150fac280c19dea39dc70508ab3d309f3e91930959d6927"
+    },
+    "mappings/hospital_1.json": {
+      "after": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1",
+      "before": "3da0db4cb3bb60a864588011b19ee9bf3152f08440c69b0ab34ba5ffbcb39014"
+    },
+    "reports/H1_source_review.json": {
+      "after": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
+      "before": "ac208f3b84dd08594f4c605f4a5da8021c78ffedb36b600d5ea3031855882d3d"
+    },
+    "src/insurance_audit/__main__.py": {
+      "after": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+      "before": "fa858487e4667137d874d815bd94db8746ba9d1123687d61382516073e91c6e9"
+    },
+    "src/insurance_audit/audit.py": {
+      "after": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+      "before": "bce6299b0c6bd1e25d1c980d8fd52f50aff418b6c9e5460da2d6a10dcb0777bd"
+    },
+    "src/insurance_audit/batch.py": {
+      "after": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+      "before": "7970e4abd6c03ca0edc7b5fa37ec7c90d51a8e436a61816db631c4b513ee7b4f"
+    },
+    "src/insurance_audit/checks.py": {
+      "after": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+      "before": "f273bee7676ecbba8050c51633c8c9d20ed7e8ddd9c764f3e8b9cb2ac14922de"
+    },
+    "src/insurance_audit/confidence.py": {
+      "after": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+      "before": "a0ebf7535acc83a8003d0a79032326724b442af2474206ea821e1780956c385b"
+    },
+    "src/insurance_audit/context.py": {
+      "after": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+      "before": "e0000d5e3d973f066038c610d2a3ea1ed8198e93dc154b3242866695c8c8f178"
+    },
+    "src/insurance_audit/evaluation.py": {
+      "after": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+      "before": "ec39bf3532e91a3aea99b7d9fe4fdf243f761699616d7bd3b64580f0ffe32521"
+    },
+    "src/insurance_audit/io.py": {
+      "after": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+      "before": "41b17b52318cfdc5885a6b13e6b328ffb534e7c1ac5af3b1959f9e8afbe66c5d"
+    },
+    "src/insurance_audit/pipeline.py": {
+      "after": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+      "before": null
+    },
+    "src/insurance_audit/pricing.py": {
+      "after": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+      "before": "aab8306f903bb3e232dc6a5f7ad6c3d3aa7d6d07457f096d08c762fd49a36853"
+    },
+    "src/insurance_audit/reporting.py": {
+      "after": "e9e6070565007506499624bdeff09a0f4ed7f943546baafec4776457caeee725",
+      "before": null
+    },
+    "src/insurance_audit/resolve.py": {
+      "after": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+      "before": "8380b097b208f617c04ef8f448a1481b9272eeab2fd5709b54c4e7b410041745"
+    },
+    "src/insurance_audit/schema.py": {
+      "after": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+      "before": "a042f1b0b689e8bae1f8d5f62dd6bd1822e3167c38da61756ed3678310882cb9"
+    },
+    "src/insurance_audit/submission.py": {
+      "after": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485",
+      "before": null
+    }
+  },
+  "check_role": "Regression after previous reserved-check exposure, no refit or fresh holdout claim.",
+  "confidence_impact": "H1 scores/support unchanged. Explicit .65 interpretation cap formalizes H5 D012; target scores remain judgment-based.",
+  "elapsed_seconds": 27.91537,
+  "h1_metrics_equal": {
+    "check": true,
+    "development": true,
+    "full": true
+  },
+  "h1_six_fields_unchanged": true,
+  "shuffle_checks": {
+    "H1": {
+      "all_result_fields_equal": true,
+      "opinions_checked": 250,
+      "result_sha256_canonical": "3b8e601ff0f1f80ef04086ce8b1b20c532a30e48d06e13b067ff474e66ddc0ed",
+      "status": "passed",
+      "supported_lines_checked": 2499,
+      "traces_checked": 913
+    },
+    "H2": {
+      "all_result_fields_equal": true,
+      "opinions_checked": 0,
+      "result_sha256_canonical": "f7df9edf8a345721eb652a9efe5b6f6c408f55db8f6cbe710d6fa4f124497c83",
+      "status": "passed",
+      "supported_lines_checked": 0,
+      "traces_checked": 1125
+    },
+    "H3": {
+      "all_result_fields_equal": true,
+      "opinions_checked": 148,
+      "result_sha256_canonical": "23f7d2397987c0894bac15e84fdf872cfed448aa29e620f82662fa3cfc85e371",
+      "status": "passed",
+      "supported_lines_checked": 1383,
+      "traces_checked": 932
+    },
+    "H4": {
+      "all_result_fields_equal": true,
+      "opinions_checked": 64,
+      "result_sha256_canonical": "bb98f88acb86f406eb818c03074be5e04bbcf6f1abd9339b005606196c1da19c",
+      "status": "passed",
+      "supported_lines_checked": 543,
+      "traces_checked": 835
+    },
+    "H5": {
+      "all_result_fields_equal": true,
+      "opinions_checked": 128,
+      "result_sha256_canonical": "26e9442b6ffc52cc90d4d1890d269c1cb90611c7add65641fa50e1ef111d0106",
+      "status": "passed",
+      "supported_lines_checked": 1180,
+      "traces_checked": 1050
+    }
+  },
+  "status": "passed",
+  "submission": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+}

@@ -1,0 +1,214 @@
+{
+  "independent_of_runtime_evaluator": true,
+  "submission_issues": [],
+  "h1_independent_metrics": {
+    "development": {
+      "population": 622,
+      "opinions": 169,
+      "joint_matches": 169,
+      "coverage": 0.2717041800643087,
+      "labelled_errors": 42,
+      "detected_errors": 4,
+      "missed_errors": 38,
+      "error_recall": 0.09523809523809523,
+      "error_precision": 1.0,
+      "abstained_errors": 38,
+      "covered_label_correct": 165,
+      "joint_mismatch_ids": [],
+      "detected_error_ids": [
+        "INV-H1-000352",
+        "INV-H1-000629",
+        "INV-H1-000635",
+        "INV-H1-000703"
+      ]
+    },
+    "check": {
+      "population": 291,
+      "opinions": 81,
+      "joint_matches": 81,
+      "coverage": 0.27835051546391754,
+      "labelled_errors": 16,
+      "detected_errors": 1,
+      "missed_errors": 15,
+      "error_recall": 0.0625,
+      "error_precision": 1.0,
+      "abstained_errors": 15,
+      "covered_label_correct": 80,
+      "joint_mismatch_ids": [],
+      "detected_error_ids": [
+        "INV-H1-000717"
+      ]
+    },
+    "full": {
+      "population": 913,
+      "opinions": 250,
+      "joint_matches": 250,
+      "coverage": 0.2738225629791895,
+      "labelled_errors": 58,
+      "detected_errors": 5,
+      "missed_errors": 53,
+      "error_recall": 0.08620689655172414,
+      "error_precision": 1.0,
+      "abstained_errors": 53,
+      "covered_label_correct": 245,
+      "joint_mismatch_ids": [],
+      "detected_error_ids": [
+        "INV-H1-000352",
+        "INV-H1-000629",
+        "INV-H1-000635",
+        "INV-H1-000703",
+        "INV-H1-000717"
+      ]
+    }
+  },
+  "submission": {
+    "fields": [
+      "invoice_id",
+      "flagged",
+      "error_category",
+      "expected_total_cents",
+      "billed_total_cents",
+      "confidence"
+    ],
+    "rows": 340,
+    "duplicates": 0,
+    "flagged_rows": [
+      {
+        "invoice_id": "INV-H3-000029",
+        "flagged": "1",
+        "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch;unit_basis_mismatch",
+        "expected_total_cents": "794425",
+        "billed_total_cents": "801990",
+        "confidence": "0.8"
+      },
+      {
+        "invoice_id": "INV-H3-000067",
+        "flagged": "1",
+        "error_category": "daily_quantity_cap;effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+        "expected_total_cents": "2118775",
+        "billed_total_cents": "2127583",
+        "confidence": "0.8"
+      },
+      {
+        "invoice_id": "INV-H3-000344",
+        "flagged": "1",
+        "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+        "expected_total_cents": "3052251",
+        "billed_total_cents": "3057951",
+        "confidence": "0.8"
+      },
+      {
+        "invoice_id": "INV-H3-000676",
+        "flagged": "1",
+        "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+        "expected_total_cents": "3815132",
+        "billed_total_cents": "3978332",
+        "confidence": "0.8"
+      },
+      {
+        "invoice_id": "INV-H3-000716",
+        "flagged": "1",
+        "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+        "expected_total_cents": "1446155",
+        "billed_total_cents": "1461455",
+        "confidence": "0.8"
+      },
+      {
+        "invoice_id": "INV-H4-000583",
+        "flagged": "1",
+        "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch",
+        "expected_total_cents": "819575",
+        "billed_total_cents": "947375",
+        "confidence": "0.7"
+      }
+    ],
+    "all_fields_match_current_opinions": true,
+    "all_billed_totals_match_unique_source_headers": true,
+    "all_source_lines_in_emitted_traces": true
+  },
+  "raw_input_totals": {
+    "headers": 4886,
+    "lines": 61211,
+    "unique_ids": 4855
+  },
+  "evaluation_file_differences": {
+    "development": [
+      "/provenance/attempt"
+    ],
+    "check": [
+      "/provenance/attempt"
+    ],
+    "full": [
+      "/provenance/attempt"
+    ]
+  }
+}
+Hospitals: {
+  "H1": {
+    "header_records": 918,
+    "line_records": 11415,
+    "unique_invoice_ids": 913,
+    "opinions": 250,
+    "flagged": 5,
+    "abstentions": 663,
+    "confidence_values": {
+      "0.9": 77,
+      "0.95": 168,
+      "0.65": 5
+    },
+    "admission_dates_present": 918,
+    "discharge_dates_present": 918
+  },
+  "H2": {
+    "header_records": 1132,
+    "line_records": 14360,
+    "unique_invoice_ids": 1125,
+    "opinions": 0,
+    "flagged": 0,
+    "abstentions": 1125,
+    "confidence_values": {},
+    "admission_dates_present": 1132,
+    "discharge_dates_present": 1132
+  },
+  "H3": {
+    "header_records": 939,
+    "line_records": 11655,
+    "unique_invoice_ids": 932,
+    "opinions": 148,
+    "flagged": 5,
+    "abstentions": 784,
+    "confidence_values": {
+      "0.8": 121,
+      "0.7": 27
+    },
+    "admission_dates_present": 939,
+    "discharge_dates_present": 939
+  },
+  "H4": {
+    "header_records": 840,
+    "line_records": 10560,
+    "unique_invoice_ids": 835,
+    "opinions": 64,
+    "flagged": 1,
+    "abstentions": 771,
+    "confidence_values": {
+      "0.8": 50,
+      "0.7": 14
+    },
+    "admission_dates_present": 840,
+    "discharge_dates_present": 840
+  },
+  "H5": {
+    "header_records": 1057,
+    "line_records": 13221,
+    "unique_invoice_ids": 1050,
+    "opinions": 128,
+    "flagged": 0,
+    "abstentions": 922,
+    "confidence_values": {
+      "0.65": 128
+    },
+    "admission_dates_present": 1057,
+    "discharge_dates_present": 1057
+  }
+}

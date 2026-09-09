@@ -1,0 +1,55 @@
+{
+  "git_head": "d468718711de952be5300906ee09a85d3d35ec2c",
+  "audit_sha256": "d5c869c8e76003f108230bfd6377a59387b10b794e3ea7a057ff9ab2580047f4",
+  "current_pointers": {
+    "H1": {
+      "attempt": "21de44a39e574fcab93b00230f9ffdc5",
+      "path": "attempts/21de44a39e574fcab93b00230f9ffdc5",
+      "run_id": "2ff5d86cd1c5ae7c3e6a76240249da62a72b72cc17bf4ef51e711a75ab6f843b",
+      "status": "success"
+    },
+    "H2-H3-H4-H5": {
+      "attempt": "521a93eae8af41ad94469b9968c36633",
+      "path": "attempts/521a93eae8af41ad94469b9968c36633",
+      "run_id": "97b78ab65cede115b62ef508480d2251f3365951690d0f207e08b26f6db7b79d",
+      "status": "success"
+    }
+  },
+  "retained_files": {
+    "reports/corrections/audit_1/before/current_candidate_closure.json": "64bb5bc6c222ddbc5d044c217ea1bc4623a5cf7510e6a64628acbf31934969e2",
+    "reports/corrections/audit_1/before/decision_log.md": "3c5d9e3b4b9f2fd5caf155bafc50aec02f7634ad94eae712c9471b215c9c7ff4",
+    "reports/corrections/audit_1/before/document_checks.json": "3a0341dd5e739c45d2ca8669d427d5bb0ca72105be1d5806906362f42240a080",
+    "reports/corrections/audit_1/before/final_regression.json": "d7a2f944db269dd6e93b89c07c3ad04210bcbe6741b1412e115705746dce5ea2",
+    "reports/corrections/audit_1/before/gate_status.json": "27e9a4b99fa05a7fe782351f3d2dc1c5f57b0c3c26f7cdc8afd0be033b1fb628",
+    "reports/corrections/audit_1/before/guarded_reproduction.json": "213a0e9e477e2ab0c547c0ad29e98c00792027a95dcda1a0d34f79c989b60de3",
+    "reports/corrections/audit_1/before/implementation_completion.json": "0d69522d4730ffa6124769145f16ffa23b3da1e81e29617882f841caf3e63f48",
+    "reports/corrections/audit_1/before/implementation_report.md": "3febf8eb9b0084f13ae4532f42b97caaf9fbe6b2922f1d695e739c24f592b63d",
+    "reports/corrections/audit_1/before/implementation_status.json": "0f99282d40a1e61fab92774ee151529a350215680bc63d2280e5dd096bba17ff",
+    "reports/corrections/audit_1/before/metrics.json": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+    "reports/corrections/audit_1/before/release_manifest.json": "47d11c03384edff6f18455f46b0ee91bd7fb14ee045ad25b69afb1f621a7504f",
+    "reports/corrections/audit_1/before/reproduction_check.json": "f8d9a07ff4c6f687555644c6d9d85c872867695191bf112d3dde8abbd7d40d8e",
+    "reports/corrections/audit_1/before/submission.csv": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "reports/corrections/audit_1/before/submission_writeup.md": "1d1ce292a3d73487aa620ba7f8645e54b765dab952cf9d83d749c03066a353ae",
+    "reports/corrections/audit_1/before/tests_final.json": "805f4f2f9af5c75e31b85af039a330f6387bdc97a7637c92f657c9695c985b8a",
+    "reports/corrections/audit_1/before/tests_final.txt": "ff2b5a53d1909b60e52e9c327bf361ee8fc113846987abad4e721e86009c9057",
+    "reports/corrections/audit_1/before/workload.json": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c"
+  },
+  "runtime_files": {
+    "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+    "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+    "src/insurance_audit/audit.py": "287ad24915b8320d52fcb01a158601752d90544f279480de098c9e4ba8ff56ae",
+    "src/insurance_audit/batch.py": "7970e4abd6c03ca0edc7b5fa37ec7c90d51a8e436a61816db631c4b513ee7b4f",
+    "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+    "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+    "src/insurance_audit/context.py": "1312a8c08f0212fc1bc7ea041ac95501aa48942d27d0a7b3de81843e381d71a7",
+    "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+    "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+    "src/insurance_audit/io.py": "41b17b52318cfdc5885a6b13e6b328ffb534e7c1ac5af3b1959f9e8afbe66c5d",
+    "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+    "src/insurance_audit/pricing.py": "134974bdb86216c55c9026e5a52627cf3fba0994f2e63fb5249205febe3bc7ac",
+    "src/insurance_audit/reporting.py": "e88c1085178e393804bbb761a0526e61040828a2f425e17a1707cf9d31f8ec22",
+    "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+    "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+    "src/insurance_audit/submission.py": "4722edcf973bca607f8e00efb47b582159d0f651521b2a7035954bf41784e1cd"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "interpretation": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved.",
+  "mode": "Work model source interpretation and deterministic table transcription, no programmatic model calls",
+  "prompts": {
+    "prompts/extract_v1.md": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "prompts/map_v2.md": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b",
+    "prompts/review_v1.md": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  "raw_contract_sha256": "270ef6b39ac500097ecd05d19c027f245a228224f6e0439abeb0f19278fc6ee2",
+  "raw_mapping_sha256": "0a1383b65aa6c74f0551f85c3787d9175dfc49a2bd3cf6316cdd5de09d563ce4",
+  "source_review_state": "candidate, not accepted",
+  "sources": {
+    "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3"
+  }
+}

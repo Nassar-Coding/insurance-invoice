@@ -1,0 +1,20 @@
+{
+  "decision_log": {
+    "file": "reports/decision_log.pdf",
+    "limit": 1,
+    "markdown_sha256": "0d6610e8f88e3d1143a7f4dc5c71ef023e0b1e11cfa91f36f98d85086fdd21e2",
+    "pages": 1,
+    "sha256": "b4ef0fc0c7fc126224c80a9ea18ede26b778bc7cb46e7ca38ae1fb50daefe466",
+    "text_characters": 3529
+  },
+  "stage": "Publication document rendering; prior document check retained under evidence/audited_baseline/reports/",
+  "submission_writeup": {
+    "file": "reports/submission_writeup.pdf",
+    "limit": 2,
+    "markdown_sha256": "c7a484e9666ec6a6b122549eb98918878fee2b3c3e8c133c7aedb77c1a707017",
+    "pages": 2,
+    "sha256": "746f68291284bdb36bd77524c9f4e3bd20745a56b3dc384e21499b4da57853ad",
+    "text_characters": 7041
+  },
+  "visual_inspection": "Passed: all three rendered pages inspected; no clipping, overlap, missing text or broken layout."
+}

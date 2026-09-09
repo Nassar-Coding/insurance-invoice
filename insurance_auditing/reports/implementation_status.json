@@ -1,0 +1,951 @@
+[
+  {
+    "big_task_id": "BT01",
+    "evidence": [
+      "governance/overrides.md",
+      "docs/budget.json",
+      "docs/work_log.md"
+    ],
+    "governing_completion_condition": "Prior effort or an explicit conservative allowance is recorded; the remaining cap and viable scoped core are established before coding. Protect 75 minutes for BT09–BT11; stop/report if no credible core fits.",
+    "name": "Set the remaining time allowance",
+    "notes": "Original effort control is superseded by the explicit user override OVR-001; verified closure records the override, not compliance with an inactive limit.",
+    "status": "Completed and verified",
+    "subtask_id": "ST01.01"
+  },
+  {
+    "big_task_id": "BT01",
+    "evidence": [
+      "docs/source_manifest.json",
+      "docs/architecture.md",
+      "governance/Insurance_Auditing_Implementation_Ready.xlsx"
+    ],
+    "governing_completion_condition": "Source commit, input identities and architecture boundary are recorded; universal schema coverage is explicitly unproven.",
+    "name": "Carry forward the source and solution definition",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST01.02"
+  },
+  {
+    "big_task_id": "BT01",
+    "evidence": [
+      "docs/scope.md",
+      "docs/external_readiness.md",
+      "reports/current_candidate_closure.json"
+    ],
+    "governing_completion_condition": "Provisional scope, whole-row acceptance and all deliverables are recorded; inventory/closure checkpoints are assigned. External actions have owners and explicit ready/pending states; unresolved account actions do not block local setup.",
+    "name": "Define provisional scope and early external readiness",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST01.03"
+  },
+  {
+    "big_task_id": "BT01",
+    "evidence": [
+      "docs/decision_register.md",
+      "docs/implementation_changes.md",
+      "docs/ai_usage.md",
+      "prompts/README.md"
+    ],
+    "governing_completion_condition": "Record formats and ownership exist, with source, decision, uncertainty, affected scope and prompt/output links; initial assumptions are entered.",
+    "name": "Start the decision and assistance records",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST01.04"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      "reports/recovery_initial.json",
+      "reports/recovery_latest.json",
+      "docs/source_manifest.json"
+    ],
+    "governing_completion_condition": "Project isolation and source identity are verified; a durable copy outside scratch includes the required tree and inputs, with one compact restore/hash check. Local Git alone is not the durable copy.",
+    "name": "Create the isolated project and source snapshot",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.01"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      ".python-version",
+      "requirements.txt",
+      "src/insurance_audit/__main__.py",
+      "docs/cli_contract.md",
+      "reports/guarded_reproduction.json"
+    ],
+    "governing_completion_condition": "Runtime version and command arguments are explicit; no third-party runtime dependency or hidden Work API is required.",
+    "name": "Fix the runtime and command interface",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.02"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      "src/insurance_audit/io.py",
+      "tests/test_inputs.py",
+      "reports/input_quality.json",
+      "reports/tests_final.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Valid and compact invalid-header/ragged/numeric/date fixtures produce explicit dispositions; all raw occurrences reconcile. No silent coercion or non-finite value enters arithmetic. Parseable contractual billing faults remain auditable records; missing relevant context is propagated.",
+    "name": "Load and normalize without losing source records",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.03"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      "docs/input_contract.md",
+      "reports/input_quality.json",
+      "src/insurance_audit/context.py",
+      "reports/workload.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Duplicate/conflicting records have an explicit treatment; joins avoid unintended multiplication; every unresolved data issue has affected scope recorded.",
+    "name": "Resolve data identity and observability issues",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.04"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      "reports/inventory_H1.json",
+      "reports/inventory_H2.json",
+      "reports/inventory_H3.json",
+      "reports/inventory_H4.json",
+      "reports/inventory_H5.json",
+      "reports/viability_H1.json",
+      "reports/viability_H3.json"
+    ],
+    "governing_completion_condition": "Distinct descriptions retain counts/source links; plausible complete candidate IDs and dependency reach are recorded without labels as an answer key. Scope is revised/shrunk or stopped if review work cannot fit; the recheck precedes BT03/BT04 commitment.",
+    "name": "Build inventories and recheck complete-invoice scope",
+    "notes": "Original inventory/viability evidence is historical pre-engine evidence; final complete closures are separate. No effort-based scope limit remains.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.05"
+  },
+  {
+    "big_task_id": "BT02",
+    "evidence": [
+      "evaluation/split_manifest.json",
+      "tests/test_inputs.py",
+      "reports/guarded_reproduction.json"
+    ],
+    "governing_completion_condition": "Group assignments are saved; no group crosses the split; target audit commands cannot read labels; the check subset is reserved until ST06.05.",
+    "name": "Separate label access and fix H1 evaluation groups",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST02.06"
+  },
+  {
+    "big_task_id": "BT03",
+    "evidence": [
+      "docs/contract_schema.md",
+      "src/insurance_audit/schema.py"
+    ],
+    "governing_completion_condition": "The supported field/operator set is finite and documented; each intended rule family has a representation; unknown semantics cannot be executed as arbitrary code.",
+    "name": "Specify the declarative contract model",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST03.01"
+  },
+  {
+    "big_task_id": "BT03",
+    "evidence": [
+      "src/insurance_audit/schema.py",
+      "tests/test_schema.py",
+      "reports/tests_final.json",
+      "reports/provenance_check.json"
+    ],
+    "governing_completion_condition": "Valid records/bundles pass; invalid types/references, unknown operations, unreviewed or mismatched bundles and incompatible semantics fail clearly. Declared H3 precedence overlap is accepted correctly. Invoice-batch revision creates a new run identity rather than automatically invalidating unchanged contract review.",
+    "name": "Implement strict structural validation",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST03.02"
+  },
+  {
+    "big_task_id": "BT03",
+    "evidence": [
+      "src/insurance_audit/resolve.py",
+      "mappings/lexicon_v1.json",
+      "tests/test_schema.py",
+      "reports/H1_mapping_change_v2.json"
+    ],
+    "governing_completion_condition": "Mapping records validate and have a deterministic lookup contract; ambiguous descriptions cannot be coerced into a single service through confidence alone.",
+    "name": "Define service-mapping records and resolution rules",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST03.03"
+  },
+  {
+    "big_task_id": "BT03",
+    "evidence": [
+      "prompts/extract_v1.md",
+      "prompts/review_v1.md",
+      "prompts/map_v1.md",
+      "prompts/map_v2.md",
+      "tests/test_schema.py"
+    ],
+    "governing_completion_condition": "Versioned prompts specify schema, evidence, missing-data treatment and prohibited invented values; each future extraction can be tied to its input and output files. One compact instruction-bearing/unknown-operation output case is rejected using ST03.02 validation; no arbitrary generated command reaches replay.",
+    "name": "Write and retain the extraction instructions",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST03.04"
+  },
+  {
+    "big_task_id": "BT03",
+    "evidence": [
+      "docs/contract_review_protocol.md",
+      "reports/provenance_check.json"
+    ],
+    "governing_completion_condition": "A reviewer can trace each accepted rule to its controlling clause and identify unrepresented clauses; unresolved dependencies block affected complete-row opinions.",
+    "name": "Create the clause coverage and review protocol",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST03.05"
+  },
+  {
+    "big_task_id": "BT04",
+    "evidence": [
+      "contracts/hospital_1.raw.json",
+      "reports/h1_acquisition_manifest.json"
+    ],
+    "governing_completion_condition": "Every in-scope clause has a candidate record or explicit unresolved status; extraction inputs, prompt version and raw output are retained.",
+    "name": "Extract H1 records with the Work-session LLM",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST04.01"
+  },
+  {
+    "big_task_id": "BT04",
+    "evidence": [
+      "contracts/hospital_1.json",
+      "reports/H1_source_review.json",
+      "reports/provenance_check.json"
+    ],
+    "governing_completion_condition": "Accepted records pass structural checks and documented source review; unsupported/ambiguous provisions and affected services are recorded.",
+    "name": "Review H1 semantics and completeness",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST04.02"
+  },
+  {
+    "big_task_id": "BT04",
+    "evidence": [
+      "mappings/hospital_1.json",
+      "reports/H1_mapping_change_v2.json",
+      "mappings/archive/H1.accepted.v1.json"
+    ],
+    "governing_completion_condition": "All descriptions used by accepted H1 opinions resolve unambiguously or block those opinions; evidence and mapping decisions are saved.",
+    "name": "Create and review H1 service mappings",
+    "notes": "Initial mapping v1 is retained; v2 withdrew 39 missing-essential-qualifier keys after one observed development error. Final accepted keys=407; unresolved=63.",
+    "status": "Completed and verified",
+    "subtask_id": "ST04.03"
+  },
+  {
+    "big_task_id": "BT04",
+    "evidence": [
+      "tests/fixtures/h1_contract_examples.json",
+      "tests/test_pricing.py"
+    ],
+    "governing_completion_condition": "Each example identifies its clause, input facts and independently reasoned result; it is not copied from the interpreter output. The examples distinguish a wrong flag from a wrong total and do not define errors solely by amount difference.",
+    "name": "Specify H1 contract examples independently",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST04.04"
+  },
+  {
+    "big_task_id": "BT04",
+    "evidence": [
+      "contracts/H1.bundle.json",
+      "reports/H1_candidate_closure.json",
+      "reports/current_candidate_closure.json"
+    ],
+    "governing_completion_condition": "The versioned H1 package is coherent and has a nonempty plausible complete-opinion candidate set, or scope is revised/stopped before expanding engine work. Valid isolated records alone do not pass this gate.",
+    "name": "Freeze the initial H1 onboarding package",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST04.05"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/resolve.py",
+      "src/insurance_audit/schema.py",
+      "tests/test_schema.py",
+      "tests/test_targets.py"
+    ],
+    "governing_completion_condition": "Mappings and version selection reproduce fixtures, including H3 effective-date boundaries; unsupported cases return explicit uncertainty. A stale-source, unreviewed mapping or incompatible bundle is blocked before use. Reuse the minimal H3 before/on/after 2025-01-01 and added-service fixture; full H3 onboarding is still BT07.",
+    "name": "Resolve services and applicable contract versions",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.01"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/context.py",
+      "tests/test_pricing.py",
+      "reports/final_regression.json",
+      "docs/snapshot_revisions.md",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Daily and cumulative fixtures pass, including cross-invoice aggregation and strictly prior usage; input-file order does not alter the canonical result. One changed-prior/unknown-history fixture shows dependent results recomputed or blocked, and a proven-irrelevant unknown does not blanket-block other services. Build episode indexes only for activated rules.",
+    "name": "Compute contract-scoped history and grouping",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.02"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/pricing.py",
+      "tests/test_pricing.py",
+      "tests/test_targets.py",
+      "tests/test_h2.py",
+      "reports/tests_final.json"
+    ],
+    "governing_completion_condition": "Source-derived rate examples pass exactly in cents; quantity multiplication occurs at the contractual stage; no binary float controls a monetary result. A supported numeric-boundary example and all required intermediate stages pass under the explicit arithmetic policy.",
+    "name": "Implement exact rate and adjustment execution",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.03"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/checks.py",
+      "tests/test_pricing.py",
+      "tests/test_targets.py",
+      "tests/test_h2.py"
+    ],
+    "governing_completion_condition": "Each in-scope check has a source-derived fixture and clear correction logic; unresolved allocation or eligibility blocks a claimed total.",
+    "name": "Implement limits and non-price audit checks",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.04"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/audit.py",
+      "src/insurance_audit/submission.py",
+      "reports/current_candidate_closure.json",
+      "runs/current-H1.json",
+      "runs/current-H2-H3-H4-H5.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Supported totals reconcile to their components; every claimed result has a trace; any unresolved necessary dependency prevents an unsupported complete-row opinion.",
+    "name": "Assemble invoice opinions and uncertainty traces",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.05"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "reports/tests_final.json",
+      "reports/tests_final.txt",
+      "reports/regression_initial_failure.json",
+      "docs/implementation_changes.md",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "All tests for the declared supported subset pass; failures are corrected or the affected scope is explicitly removed with dependent opinions blocked.",
+    "name": "Run the contract and integration checks",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.06"
+  },
+  {
+    "big_task_id": "BT05",
+    "evidence": [
+      "src/insurance_audit/batch.py",
+      "tests/test_batch.py",
+      "tests/test_submission.py",
+      "reports/final_regression.json",
+      "reports/tests_final.txt",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Repeated/shuffled successful runs agree. A controlled input/runtime failure is visible, cannot promote partial output, and cannot identify an older valid release as the failed attempt’s current result. Every raw record is accounted for.",
+    "name": "Demonstrate deterministic batch execution",
+    "notes": "Initial full permutation failure affected only duplicate-header trace order. D015 and a targeted test retain the cause; all five full results now agree after permutation. AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST05.07"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "src/insurance_audit/evaluation.py",
+      "tests/test_evaluation.py",
+      "reports/evaluation_report.md"
+    ],
+    "governing_completion_condition": "Metric definitions, denominators, absent-category handling and treatment of abstentions are explicit; simple known-answer metric examples pass.",
+    "name": "Define and implement the evaluation measures",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.01"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.evaluation.development.json",
+      "reports/evaluation_development.json"
+    ],
+    "governing_completion_condition": "Label joins reconcile; reported numbers can be regenerated from saved predictions, labels and the fixed split; check-group labels remain unused.",
+    "name": "Measure the development groups",
+    "notes": "First development result and final development result are both preserved. Later regression does not retroactively claim that the check is unexposed.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.02"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "reports/H1_mapping_change_v2.json",
+      "docs/implementation_changes.md",
+      "reports/evaluation_report.md",
+      "tests/test_schema.py"
+    ],
+    "governing_completion_condition": "Each correction has cause, clause, changed artifact and regression evidence; remaining failures have representative examples and scope consequences.",
+    "name": "Diagnose systematic failures and make bounded fixes",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.03"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "evaluation/confidence_policy.json",
+      "evaluation/development_policy_evidence.json",
+      "src/insurance_audit/confidence.py",
+      "tests/test_confidence.py"
+    ],
+    "governing_completion_condition": "Every eligible row maps to a finite 0–1 value under a frozen policy or is withheld. Supported/sparse/novel/unresolved worked cases pass; no unseen tier inherits empirical calibration by default and no H2–5 calibration is claimed.",
+    "name": "Set confidence and abstention for complete rows",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.04"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "reports/baseline_h1.json",
+      "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.check.json",
+      "reports/evaluation_check.json",
+      "reports/evaluation_full.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Check results are saved without using them for further tuning; full-H1 results are explicitly development-inclusive; category counts and uncertainty limits are visible.",
+    "name": "Run the reserved check and full H1 report",
+    "notes": "First check followed policy/mapping freeze. The current check is explicitly a regression after exposure; full H1 is development-inclusive. AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.05"
+  },
+  {
+    "big_task_id": "BT06",
+    "evidence": [
+      "reports/baseline_h1.json",
+      "reports/final_regression.json"
+    ],
+    "governing_completion_condition": "The evaluated version is identifiable; remaining known failures and supported scope are fixed; later changes can be detected and reverified.",
+    "name": "Freeze the evaluated baseline",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST06.06"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "contracts/hospital_3.raw.json",
+      "reports/H3_acquisition_manifest.json"
+    ],
+    "governing_completion_condition": "Every selected service/rule references its source document and applicable version; inherited terms and overrides are represented explicitly.",
+    "name": "Extract the complete H3 document hierarchy",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.01"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "contracts/hospital_3.json",
+      "reports/H3_source_review.json",
+      "docs/implementation_changes.md"
+    ],
+    "governing_completion_condition": "Rates, additions and precedence pass source review; missing settlement information has an explicit interpretation and effect on eligible opinions. Outcome-relevant unknown settlement effects are recorded and withheld where necessary; an irrelevant missing fact does not block an otherwise supported row.",
+    "name": "Review amendment and unchanged-term semantics",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.02"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "contracts/H3.bundle.json",
+      "reports/H3_source_review.json",
+      "reports/provenance_check.json"
+    ],
+    "governing_completion_condition": "All accepted H3 records validate; every required dependency is represented or the affected opinion scope is withheld. Any reused exclusion operator has a documented H3-specific interpretation and appropriate uncertainty treatment.",
+    "name": "Review H3 rules and dependency closure",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.03"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "mappings/hospital_3.json",
+      "reports/H3_mapping_review.md"
+    ],
+    "governing_completion_condition": "All mappings supporting target opinions have evidence and validate; unknowns propagate to affected daily/term context.",
+    "name": "Create reviewed H3 service mappings",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.04"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "tests/test_targets.py",
+      "reports/tests_final.json",
+      "reports/final_regression.json"
+    ],
+    "governing_completion_condition": "Accepted H3 cases pass exact-cent and applicability checks; there is no generated contract-specific program; common changes have regression evidence.",
+    "name": "Verify H3 behavior and shared-engine reuse",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.05"
+  },
+  {
+    "big_task_id": "BT07",
+    "evidence": [
+      "contracts/H3.bundle.json",
+      "reports/H3_candidate_closure.json",
+      "reports/current_candidate_closure.json",
+      "reports/workload.json"
+    ],
+    "governing_completion_condition": "A nonempty H3 candidate scope is justified by reviewed records/mappings and tests; unresolved scope is documented and no target accuracy is claimed. Every accepted candidate has a supported or explicitly judgment-based confidence-policy state under ST06.04, not an assumed transferred H1 calibration.",
+    "name": "Freeze H3 support and readiness",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST07.06"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "governance/overrides.md",
+      "docs/scope.md"
+    ],
+    "governing_completion_condition": "The expansion allowance is recorded as 0–80 min; activation requires remaining cap, a stable baseline and protected finishing time. Protect the revised 75-minute finishing reserve and remaining 20-minute contingency; zero expansion remains valid.",
+    "name": "Gate and allocate optional expansion",
+    "notes": "All additional hospitals activated by OVR-001; no timing or effort condition limits work.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.01"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_5.raw.json",
+      "reports/H5_acquisition_manifest.json"
+    ],
+    "governing_completion_condition": "If activated, candidate records and raw outputs cover the chosen dependency-complete subset; otherwise a specific time/scope deferral is recorded.",
+    "name": "Extract H5 if expansion is activated",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.02"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_5.json",
+      "reports/H5_source_review.json",
+      "docs/implementation_changes.md"
+    ],
+    "governing_completion_condition": "If activated, records validate and source review resolves or bounds these issues; otherwise or if unsupported, affected scope is explicitly deferred.",
+    "name": "Review H5 semantics and coverage",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.03"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "mappings/hospital_5.json",
+      "reports/H5_mapping_review.md"
+    ],
+    "governing_completion_condition": "If activated, required mappings validate and unresolved dependencies block affected opinions; otherwise deferral is recorded.",
+    "name": "Review H5 description mappings",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.04"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/H5.bundle.json",
+      "tests/test_targets.py",
+      "reports/current_candidate_closure.json",
+      "reports/workload.json"
+    ],
+    "governing_completion_condition": "H5 is either accepted with passing relevant tests and a supported scope, or explicitly deferred; partial extraction alone is not acceptance. An accepted H5 package must have complete candidate-invoice evidence, compatible reviewed records/mappings and an explicit ST06.04 confidence-policy state; otherwise it remains inactive.",
+    "name": "Accept or defer H5 execution scope",
+    "notes": "H5 accepted subset=128 complete opinions. All 128 have outcome-relevant invoice-facility projection and disclosed .65 policy confidence; no target accuracy claim.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.05"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_4.raw.json",
+      "reports/H4_acquisition_manifest.json"
+    ],
+    "governing_completion_condition": "If activated, candidate records and raw outputs cover the selected dependencies; otherwise a specific deferral is recorded.",
+    "name": "Extract H4 if time remains",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.06"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_4.json",
+      "reports/H4_source_review.json",
+      "docs/implementation_changes.md"
+    ],
+    "governing_completion_condition": "If activated, accepted records validate and source review accounts for unit/condition observability; unsupported corrections are excluded or deferred.",
+    "name": "Review H4 units and conditional semantics",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.07"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "mappings/hospital_4.json",
+      "reports/H4_mapping_review.md"
+    ],
+    "governing_completion_condition": "If activated, accepted mappings validate with evidence; every unresolved mapping has its affected scope recorded; otherwise deferral is recorded.",
+    "name": "Review H4 description mappings",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.08"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/H4.bundle.json",
+      "tests/test_targets.py",
+      "reports/current_candidate_closure.json",
+      "reports/workload.json"
+    ],
+    "governing_completion_condition": "H4 is accepted only with reviewed dependencies and passing relevant tests; otherwise its remaining scope is explicitly deferred. An accepted H4 package must have complete candidate-invoice evidence, compatible reviewed records/mappings and an explicit ST06.04 confidence-policy state; otherwise it remains inactive.",
+    "name": "Accept or defer H4 execution scope",
+    "notes": "H4 accepted subset=64 complete opinions; patient-scope ambiguity is bounded, and outcome-dependent cases are omitted.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.09"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_2.raw.json",
+      "reports/H2_acquisition_manifest.json",
+      "reports/H2_reading_index.json",
+      "reports/H2_reading_remaining.txt"
+    ],
+    "governing_completion_condition": "If activated, candidate records include the selected clauses and governing definitions; otherwise a specific time/complexity deferral is recorded.",
+    "name": "Extract H2 if time remains",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.10"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/hospital_2.json",
+      "reports/H2_source_review.json",
+      "docs/implementation_changes.md"
+    ],
+    "governing_completion_condition": "If activated, source review identifies facts the CSV cannot establish and limits accepted opinions accordingly; unsupported scope is deferred.",
+    "name": "Review H2 definitions and missing facts",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.11"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "mappings/hospital_2.json",
+      "reports/H2_mapping_review.md"
+    ],
+    "governing_completion_condition": "If activated, all accepted mappings have evidence and pass validation; otherwise the affected scope or hospital is explicitly deferred.",
+    "name": "Review H2 description mappings",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.12"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "contracts/H2.bundle.json",
+      "tests/test_h2.py",
+      "reports/H2_candidate_closure.json",
+      "reports/current_candidate_closure.json"
+    ],
+    "governing_completion_condition": "H2 is accepted with reviewed records/mappings and passing relevant tests, or explicitly deferred with missing facts and next work recorded. An accepted H2 package must have complete candidate-invoice evidence, compatible reviewed records/mappings and an explicit ST06.04 confidence-policy state; otherwise it remains inactive.",
+    "name": "Accept or defer H2 execution scope",
+    "notes": "Scope-disposition task completed: H2 diagnostic rules/mappings are implemented and tested, but no complete payable scope is accepted. Admission/discharge dates are present; missing actual submission, detailed episode/leave and possible exception evidence enforce 1,125 omissions. This does not claim full H2 pricing coverage or require user action for the implemented omission route.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.13"
+  },
+  {
+    "big_task_id": "BT08",
+    "evidence": [
+      "docs/scope.md",
+      "reports/workload.json",
+      "reports/current_candidate_closure.json"
+    ],
+    "governing_completion_condition": "Every target hospital has an explicit disposition; deferred records cannot enter the final batch; finishing time remains protected.",
+    "name": "Close all hospital coverage decisions",
+    "notes": "H2 is processed for diagnostics/omissions but inactive for submission; H3/H4/H5 accepted subsets supply 340 rows. D014 explains this precise batch/scope distinction.",
+    "status": "Completed and verified",
+    "subtask_id": "ST08.14"
+  },
+  {
+    "big_task_id": "BT09",
+    "evidence": [
+      "reports/final_regression.json",
+      "reports/provenance_check.json",
+      "reports/metrics.json",
+      "evaluation/confidence_policy.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Current results, accepted target packages and confidence support match final behavior. Revise invalidated confidence using development evidence or withhold the affected tier; disclose reserved-check reuse. Pure documentation changes do not trigger unrelated tests.",
+    "name": "Verify the final version against the evaluated baseline",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST09.01"
+  },
+  {
+    "big_task_id": "BT09",
+    "evidence": [
+      "runs/current-H2-H3-H4-H5.json",
+      "reports/workload.json",
+      "reports/execution.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "All candidate target records are accounted for; supported complete rows have traces; deferred/uncertain cases are separated; no H1 output enters submission. One successful process manifest binds opinions, omissions and record counts; a failed attempt cannot leave a publishable current-looking result.",
+    "name": "Run the frozen target pipeline",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST09.02"
+  },
+  {
+    "big_task_id": "BT09",
+    "evidence": [
+      "submission.csv",
+      "src/insurance_audit/submission.py",
+      "runs/current-submission.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "The nonempty staged candidate has exactly six columns, integer money, 0/1 flags and finite 0–1 confidence; identities and billed amounts follow the reviewed source policy. Independent parsing agrees with finalized internal opinions.",
+    "name": "Write the exact submission format",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST09.03"
+  },
+  {
+    "big_task_id": "BT09",
+    "evidence": [
+      "runs/current-submission.json",
+      "tests/test_submission.py",
+      "reports/guarded_reproduction.json",
+      "reports/final_regression.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "All structural, provenance and run-status checks pass; candidate rows trace to raw billed data, approved contract computation and the frozen confidence policy. Counts reconcile and only the validated successful run is promoted as current submission.csv.",
+    "name": "Validate output integrity and evidence",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST09.04"
+  },
+  {
+    "big_task_id": "BT09",
+    "evidence": [
+      "reports/release_manifest.json",
+      "reports/workload.json",
+      "reports/current_candidate_closure.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "The final manifest identifies exactly the inputs and versions used for each output and gives honest coverage totals. The manifest does not hash its own changing bytes recursively; declared file hashes/counts reproduce and identify the validated successful release.",
+    "name": "Close the final coverage and artifact manifest",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST09.05"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "reports/evaluation_report.md",
+      "reports/metrics.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Every reported number traces to ST09.01/ST09.05; observed failures and untested risks are distinguished; target accuracy is not claimed.",
+    "name": "Write the evaluation and failure report",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.01"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "reports/decision_log.md",
+      "reports/decision_log.pdf",
+      "reports/document_checks.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "The rendered log is at most one page, identifies unresolved issues and chosen treatments, and agrees with the executed records and scope.",
+    "name": "Finalize the one-page decision log",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.02"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "reports/submission_writeup.md",
+      "reports/submission_writeup.pdf",
+      "reports/document_checks.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "The rendered write-up is at most two pages and consistent with metrics, actual scope, AI use and the decision log.",
+    "name": "Write the two-page submission write-up",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.03"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "prompts/README.md",
+      "docs/ai_usage.md",
+      "reports/provenance_check.json",
+      "reports/h1_acquisition_manifest.json",
+      "reports/H2_acquisition_manifest.json",
+      "reports/H3_acquisition_manifest.json",
+      "reports/H4_acquisition_manifest.json",
+      "reports/H5_acquisition_manifest.json",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Prompt history and AI disclosure match the work actually performed; all schemas/mappings required for replay are committed; no hidden session state is required.",
+    "name": "Audit prompt and extraction provenance",
+    "notes": "Authentic retained instruction files, historical raw outputs and author review are disclosed. No fabricated external model transcript, independent review, exact proprietary endpoint or hidden-session replay dependency. AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.04"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "README.md",
+      "docs/cli_contract.md",
+      ".python-version",
+      "requirements.txt",
+      "requirements-docs.txt"
+    ],
+    "governing_completion_condition": "A reader can follow clone → README → regenerated submission; the README distinguishes deterministic replay from fresh LLM onboarding. A reader can distinguish a successful run with omissions from an unsuccessful command or an older retained release.",
+    "name": "Write the reproduction README",
+    "notes": "Completed against the cited source, executed artifacts and current verification evidence. Provisional evidence filenames are mapped to actual project paths.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.05"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "reports/reproduction_check.json",
+      "reports/reproduction_commands.txt",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "Recomputed submission.csv matches the release checksum exactly; evaluation results reproduce; the command actually audits inputs rather than copying the committed CSV.",
+    "name": "Verify a clean local reproduction",
+    "notes": " AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.06"
+  },
+  {
+    "big_task_id": "BT10",
+    "evidence": [
+      "reports/release_manifest.json",
+      "reports/implementation_completion.json",
+      "governance/overrides.md",
+      "tests/test_audit_corrections.py",
+      "reports/corrections/audit_1/correction_verification.json"
+    ],
+    "governing_completion_condition": "All required artifacts pass their own checks, hashes identify the tested release and no unimplemented scope is presented as finished. Behavior-affecting post-test changes are reverified; harmless evidence/history differences are recorded without a false identical-commit claim.",
+    "name": "Complete the deliverable and time gate",
+    "notes": "The first independent implementation audit is retained. Its two findings are corrected and author regression-verified; independent closure re-audit and BT11 external publication/delivery remain pending. No original-effort compliance claim. AUD-01/AUD-02 reopened this task. Closure is bound to corrected tests, current-run before/after evidence and affected regression checks, not the historical pass.",
+    "status": "Completed and verified",
+    "subtask_id": "ST10.07"
+  },
+  {
+    "big_task_id": "BT11",
+    "evidence": [
+      "docs/external_readiness.md"
+    ],
+    "governing_completion_condition": "Before publication, the destination URL, user authorization and usable write access are evidenced. A pending destination earlier in the plan did not block local development or Work-bundle checkpoints.",
+    "name": "Resolve the submission repository destination",
+    "notes": "Later publishing/delivery action; outside this authorized implementation stage and not a local blocker.",
+    "status": "Not started",
+    "subtask_id": "ST11.01"
+  },
+  {
+    "big_task_id": "BT11",
+    "evidence": [
+      "docs/external_readiness.md"
+    ],
+    "governing_completion_condition": "The remote repository contains the tested artifacts and README; remote content/commit verification agrees with the local release. Remote code, decision inputs and deliverables match the tested content hashes/tree; record the actual remote commit even when connector-created history differs.",
+    "name": "Publish the tested release and verify it",
+    "notes": "Later publishing/delivery action; outside this authorized implementation stage and not a local blocker.",
+    "status": "Not started",
+    "subtask_id": "ST11.02"
+  },
+  {
+    "big_task_id": "BT11",
+    "evidence": [
+      "docs/external_readiness.md"
+    ],
+    "governing_completion_condition": "Actual public readability or private assessor access is evidenced. A correctly issued but unaccepted invitation remains pending and does not close this access task. Timely email may proceed with that pending status disclosed; BT11 access completion remains open.",
+    "name": "Verify assessor repository access",
+    "notes": "Later publishing/delivery action; outside this authorized implementation stage and not a local blocker.",
+    "status": "Not started",
+    "subtask_id": "ST11.03"
+  },
+  {
+    "big_task_id": "BT11",
+    "evidence": [
+      "docs/external_readiness.md"
+    ],
+    "governing_completion_condition": "A real sent-message record matches the tested attachments and published link, records actual send time, and states access status accurately. Timeliness is supported by a confirmed timezone or a documented conservative early-send basis; unresolved timing near the deadline is escalated before sending.",
+    "name": "Send and record the final submission",
+    "notes": "Later publishing/delivery action; outside this authorized implementation stage and not a local blocker.",
+    "status": "Not started",
+    "subtask_id": "ST11.04"
+  }
+]

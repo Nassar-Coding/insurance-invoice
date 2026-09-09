@@ -1,0 +1,102 @@
+# H4 grouped mapping review evidence
+
+The implementing Work model inspected every accepted alias below against the full source catalog. This is author review, not the later independent auditing stage. No billed amount or unit selected an identity. Unresolved keys remain in the mapping JSON.
+
+- H4-S001 Advanced Oncology Ward Bed Occupancy: ADVANCED - onc WARD bd OCC; OCC adv ONC ward BD /CW-1103; OCC adv ONC wd BD /CW-8074; OCCUPANCY adv ONC wd BD; OCCUPANCY - advanced ONC wd BD /CW-2874; ONC wd BD occ ADV
+- H4-S002 Advanced Orthopaedic Ward Bed Occupancy: ADV - ortho WD bd OCC; ADV ortho WD bd OCCUPANCY; ADVANCED - ortho WD bd OCCUPANCY /CW-3359; OCCUPANCY - adv ORTHO wd BD /CW-5531
+- H4-S003 Advanced Paediatric Theatre Time: adv  - PAED thtr TM; adv PAED thtr TM; advanced PAED thtr TM /CW-5259; paed THTR tm adv
+- H4-S004 Advanced Palliative Home Visit: adv - PALL hm VST /CW-2046; adv - PALL hm VST /CW-4754; adv PALL hm VST /CW-7657; adv - PALLIATIVE hm VISIT /CW-4841; hm - ADV palliative
+- H4-S005 Advanced Vascular Endoscopic Procedure: adv  VASC endosc PROC /CW-5904; adv VASC endosc PROC /CW-8230; adv - VASC endosc PROCEDURE /CW-2084; advanced VASC endosc PROC /CW-6163; proc ADV vasc ENDOSC /CW-8189
+- H4-S006 Ambulatory Cardiac Ward Bed Occupancy: occ  - AMB card WARD bed /CW-8690; occ  - AMB card WD bd; occ AMB cardiac WD bd; occupancy  - AMBULATORY card WD bd
+- H4-S007 Ambulatory Gastrointestinal Nutritional Support: AMB - gastrointestinal NUTR supp /CW-3413; AMB gi NUTR supp; AMB  - gi NUTRITIONAL support /CW-3607; SUPP  ambulatory GI nutr /CW-8509
+- H4-S008 Ambulatory Haematology Transfusion Service: amb  - HAEM transfusion SVC /CW-5631; amb - HAEMATOLOGY transf SVC /CW-5136; svc AMB haem TRANSFUSION /CW-4630
+- H4-S009 Ambulatory Immunologic Ward Bed Occupancy: amb IMMUN ward BD occ; amb - IMMUN ward BD occupancy /CW-2184; amb IMMUN wd BD occ /CW-7522; IMMUN wd BD occ AMB; occ - AMBULATORY immun WD bd
+- H4-S010 Ambulatory Musculoskeletal Specimen Analysis: amb - MSK spcm ANLY; amb MSK spcm ANLY; amb MSK spcm ANLY /CW-5350
+- H4-S011 Ambulatory Musculoskeletal Ventilation Support: AMB  msk VENT supp; AMB musculoskeletal VENT supp /CW-8775; SUPP - amb MSK vent /CW-6725; SUPP amb MSK vent /CW-8558; SUPPORT - amb MSK vent
+- H4-S012 Ambulatory Obstetric Case Conference: AMB obst CS conf; AMBULATORY - obst CS conf; AMBULATORY obst CS conf /CW-4745; AMBULATORY obst CS conf /CW-8021; OBST cs CONF AMB
+- H4-S013 Ambulatory Paediatric Critical Care Occupancy: AMB - paed CRIT cr OCC /CW-3496; AMB paed CRIT cr OCCUPANCY /CW-5795; AMBULATORY - paed CRITICAL cr OCC; OCC amb PAED crit CARE /CW-9108; OCC  - amb PAED crit CR; OCC  - ambulatory PAEDIATRIC critical CR
+- H4-S014 Ambulatory Rheumatologic Rehabilitation Programme: AMB - rheum REHAB prog /CW-9454; AMB - rheum REHAB programme /CW-8508; AMB - rheumatologic REHAB prog; PROG - amb RHEUM rehabilitation /CW-6302; rheum REHAB prog amb
+- H4-S015 Assisted Cardiac Ventilation Support: ASSISTED card VENTILATION supp /CW-6226; ASST  card VENT supp /CW-7623; ASST - card VENT supp; card VENT supp asst
+- H4-S016 Assisted Gastrointestinal Anaesthesia Administration: ASSISTED gi ANAES admin /CW-1036; ASST - gastrointestinal ANAES admin /CW-6527; ASST - gi ANAES admin; ASST - gi ANAES administration
+- H4-S017 Assisted Obstetric Specimen Analysis: ANLY assisted OBST spcm; ASST - obst SPCM anly /CW-7565; ASST obst SPCM anly
+- H4-S018 Assisted Paediatric Physiotherapy Session: assisted - PAED physio SESS /CW-5564; asst - PAED physio SESS; asst - PAEDIATRIC physio SESS /CW-1557; sess ASSISTED paed PHYSIO /CW-7619
+- H4-S019 Assisted Paediatric Theatre Time: ASSISTED  - paed THTR tm /CW-7552; ASST - paediatric THEATRE tm /CW-7535; paed THTR tm asst; TM asst PAEDIATRIC thtr /CW-4279
+- H4-S020 Assisted Renal Nutritional Support: assisted - REN nutr SUPP /CW-6761; asst REN nutr SUPP /CW-3943; asst RENAL nutr /CW-4158; asst - RENAL nutritional SUPP; supp - ASSISTED renal NUTR /CW-6071
+- H4-S021 Assisted Urologic Nursing Observation: ASSISTED urol NURS obs /CW-3340; ASST - urol NURS obs /CW-2623; ASST urol NURS obs /CW-5982
+- H4-S022 Bedside Cardiac Home Visit: beds CARD hm /CW-4363; beds CARD hm VST; CARD hm VST BEDS; visit BEDS cardiac HM; visit - BEDSIDE card HM; vst BEDS card HM
+- H4-S023 Bedside Gastrointestinal Biopsy Procedure: BEDS  gi BIOPSY proc /CW-1241; BEDSIDE - gi BIOP proc /CW-7056; PROC - beds GASTROINTESTINAL biop /CW-9191; PROCEDURE - beds GI biopsy /CW-5425
+- H4-S024 Bedside Obstetric Imaging Interpretation: beds - OBST img INTERP; beds - OBST img INTERPRETATION; interp - BEDS obst IMG /CW-9860; interp - BEDSIDE obst IMG; interp BEDSIDE obst IMG /CW-4098
+- H4-S025 Comprehensive Neurological Endoscopic Procedure: COMPR neuro ENDOSCOPIC proc; COMPR neurological ENDOSC proc /CW-4675; PROC compr NEURO endoscopic /CW-6452; PROCEDURE - comprehensive NEURO endosc
+- H4-S026 Comprehensive Ophthalmic Laboratory Panel: compr - OPHTH lab PANEL /CW-3670; compr - OPHTH lab PNL; compr - OPHTH laboratory PNL /CW-7966; comprehensive - OPHTH lab PNL /CW-3198; ophth LAB pnl compr
+- H4-S027 Comprehensive Urologic Imaging Interpretation: compr - UROL img INTERP; compr UROL img INTERPRETATION; interp - COMPR urol IMG /CW-7467
+- H4-S028 Continuous Gastrointestinal Transfusion Service: CONT - gi TRANSFUSION svc; CONTINUOUS gi TRANSF svc; SVC cont GI transfusion /CW-1126; TRANSF - cont GI
+- H4-S029 Continuous Infectious Critical Care Occupancy: CONT  infect CRIT care OCC; CONT infectious CRIT cr OCCUPANCY; OCC cont INFECTIOUS crit CR /CW-4807
+- H4-S030 Continuous Psychiatric Rehabilitation Programme: cont PSYCHIATRIC rehabilitation PROG; prog CONT psych REHAB /CW-9206; prog  - CONT psych REHABILITATION /CW-5824; PSYCH rehab PROG CONT
+- H4-S031 Elective Gastrointestinal Nursing Observation: ELECTIVE gi NURS obs /CW-7280; gi NURS obs elect; NURS - elect GASTROINTESTINAL /CW-1281
+- H4-S032 Elective Neurological Ward Bed Occupancy: elective - NEURO ward BED occ; elective - NEURO wd BD occ; elective - NEURO wd BED occ; occ - ELECT neuro WD bd /CW-3182; occ - ELECT neuro WD bd /CW-9688; occ ELECTIVE neuro WARD bd
+- H4-S033 Elective Obstetric Transfusion Service: elect OBST transf SVC /CW-1798; elect  OBSTETRIC transf SVC /CW-6472; elect OBSTETRIC transf SVC /CW-6737; elective - OBST transf SERVICE /CW-5652
+- H4-S034 Elective Ophthalmic Radiotherapy Fraction: ELECT - ophth RADIOTHER /CW-6461; ELECT ophth RADIOTHER fract /CW-4480; ELECT - ophthalmic RADIOTHER fract /CW-9522; ELECT - ophthalmic RADIOTHERAPY fract /CW-3532; FRACT - elect OPHTH radiother /CW-4974; FRACT - elect OPHTH radiotherapy /CW-2057
+- H4-S035 Emergency Cardiac Physiotherapy Session: CARD physio SESS EMER; EMER - card PHYSIO sess /CW-1742; EMERGENCY - card PHYSIOTHERAPY sess; SESS - emergency CARD physio /CW-9661; SESS - emergency CARDIAC physio
+- H4-S036 Emergency Metabolic Radiotherapy Fraction: emer  - METAB radiother; emer METAB radiother FRACT; emer METABOLIC radiotherapy FRACTION /CW-3320; fract EMER metabolic RADIOTHER
+- H4-S037 Emergency Rheumatologic Rehabilitation Programme: emergency - RHEUM rehabilitation PROG /CW-2482; prog - EMER rheum REHAB /CW-5035; prog EMER rheum REHABILITATION /CW-3222; rheum REHAB prog emer
+- H4-S038 Extended Hepatic Discharge Planning: ext - HEP disch PLANNING; ext - HEP disch PLANNING /CW-9770; ext  HEP disch PLNG /CW-1975; ext HEPATIC disch PLNG; hep DISCH plng ext
+- H4-S039 Extended Hepatic Transfusion Service: ext - HEP transf SVC /CW-5339; ext - HEP transf SVC /CW-9407; ext - HEPATIC transfusion SVC /CW-2178; ext HEPATIC transfusion SVC /CW-8250; extended  HEP transfusion SVC; svc - EXT hep TRANSF
+- H4-S040 Extended Obstetric Case Conference: conf  - EXT obst CS /CW-8663; conf - EXT obstetric CS; ext - OBST cs CONFERENCE /CW-3448; OBST cs CONF EXT
+- H4-S041 Extended Psychiatric Endoscopic Procedure: ENDOSC - ext PSYCHIATRIC /CW-9075; EXT  - psych ENDOSC proc /CW-4756; EXT psych ENDOSC proc; EXT - psychiatric ENDOSC procedure
+- H4-S042 Extended Renal Ward Bed Occupancy: EXT renal WD bed OCC
+- H4-S043 Extended Rheumatologic Nursing Observation: ext RHEUM nurs OBS; obs - EXT rheum NURS /CW-3692; rheum NURS obs ext
+- H4-S044 Extended Urologic Telemetry Monitoring: ext - UROL telem MONIT /CW-1191; monit - EXT urol TELEM /CW-7204; monit EXT urol TELEM; urol TELEM monit ext
+- H4-S045 Focused Metabolic Biopsy Procedure: FOC - metab BIOP procedure /CW-1579; FOC - metab BIOPSY proc /CW-9462; FOCUSED metab BIOP proc /CW-3728; FOCUSED metabolic BIOP proc /CW-3860; PROC - foc METABOLIC biopsy /CW-1566
+- H4-S046 Focused Urologic Case Conference: foc - UROL cs CONF; foc UROL cs CONF /CW-2324; foc UROL cs CONF /CW-7956; foc UROLOGIC cs CONFERENCE; focused UROL cs CONFERENCE
+- H4-S047 Focused Vascular Infusion Therapy: foc - VASC inf THERAPY /CW-8936; foc VASC infusion THER; ther - FOC vasc INF /CW-4721; therapy  - FOC vasc INFUSION /CW-1063
+- H4-S048 Focused Vascular Transport Service: foc - VASC transp SVC; foc - VASC transport SERVICE; foc  - VASC transport SVC /CW-9116; foc VASCULAR transp SERVICE /CW-7821; foc VASCULAR transport SVC; svc FOC vasc TRANSPORT
+- H4-S049 Inpatient Orthopaedic Anaesthesia Administration: admin - INPATIENT ortho ANAES; inpatient - ORTHOPAEDIC anaes ADMIN /CW-3173; inpt - ORTHO anaes ADMINISTRATION
+- H4-S050 Inpatient Psychiatric Home Visit: INPATIENT - psych HM vst /CW-9305; INPATIENT psychiatric HM visit /CW-6666; INPT - psych HM visit /CW-4170; INPT  psych HM vst /CW-4923; INPT - psych HOME vst; INPT psych HOME vst /CW-1371
+- H4-S051 Intensive Geriatric Case Conference: CONF  intens GER case; CONF intens GER cs /CW-3922; GER cs CONF INTENS; INTENS - ger CASE conf; INTENS - geriatric CS conference /CW-7622
+- H4-S052 Intensive Paediatric Consultation: CONSULT intens PAED /CW-3137; INTENS - paed CONSULT; INTENS  - paed CONSULTATION /CW-2377; INTENSIVE  - paediatric CONSULT /CW-8569
+- H4-S053 Intensive Rheumatologic Radiotherapy Fraction: fract - INTENS rheum RADIOTHER /CW-1555; fract - INTENSIVE rheum RADIOTHERAPY /CW-4214; intens - RHEUM radiotherapy /CW-4273
+- H4-S054 Intensive Urologic Specimen Analysis: intens - UROL spcm ANALYSIS /CW-2272; intens - UROL specimen ANLY /CW-8319; intens  UROLOGIC spcm ANALYSIS /CW-5532
+- H4-S055 Intensive Vascular Sterilisation Service: intens - VASC steril SVC /CW-4993; intens - VASCULAR steril SVC /CW-7067; intensive  - VASCULAR steril SVC /CW-1594; svc - INTENS vasc STERILISATION
+- H4-S056 Intermittent Neurological Laboratory Panel: interm NEURO lab PNL; interm - NEUROLOGICAL lab PNL /CW-3443; intermittent  NEURO lab PNL /CW-9905; intermittent - NEURO laboratory PNL; panel  INTERM neuro LAB; pnl - INTERM neuro LABORATORY /CW-8821
+- H4-S057 Intermittent Oncology Home Visit: interm - ONC hm VST; interm ONC home VST /CW-1380; interm - ONCOLOGY hm VST /CW-7658; vst - INTERM onc HM
+- H4-S058 Intermittent Psychiatric Rehabilitation Programme: INTERM  psych REHAB prog /CW-7902; INTERM - psych REHAB prog; INTERMITTENT psych REHAB prog; PROG - interm PSYCH rehabilitation /CW-1715; PROG - intermittent PSYCH rehab /CW-3340; PSYCH rehab PROG INTERM
+- H4-S059 Intermittent Renal Anaesthesia Administration: admin - INTERM ren ANAES /CW-9520; administration INTERM ren ANAES /CW-3269; intermittent - REN anaes
+- H4-S060 Intermittent Rheumatologic Dialysis Session: INTERM  - rheum DIAL sess /CW-1055; INTERMITTENT - rheum DIAL sess /CW-4841; INTERMITTENT rheum DIALYSIS session /CW-3359; RHEUM dial SESS INTERM; SESS interm RHEUM dial /CW-5468; SESS intermittent RHEUM dial
+- H4-S061 Intermittent Urologic Telemetry Monitoring: INTERM  - urol TELEM monit /CW-1964; INTERM - urol TELEM monit; INTERM urol TELEM monit; INTERM urologic TELEM monit /CW-6015; MONIT  interm UROLOGIC telemetry /CW-1251; urol TELEM monit interm
+- H4-S062 Outpatient Cardiac Physiotherapy Session: CARD physio SESS OUTPT; outpt CARD physio SESSION /CW-1340; outpt - CARDIAC physio; outpt CARDIAC physiotherapy SESS /CW-3911
+- H4-S063 Outpatient Geriatric Diagnostic Imaging: GER diag IMG OUTPT; imaging  OUTPT ger DIAG /CW-9918; outpt GER diag IMG /CW-6232; outpt - GER diagnostic IMG; outpt - GERIATRIC diagnostic IMG /CW-5122
+- H4-S064 Outpatient Obstetric Dialysis Session: OUTPATIENT - obst DIAL sess; OUTPT - obst DIAL /CW-3474; OUTPT - obst DIAL sess /CW-7015; OUTPT - obst DIAL sess /CW-9914; OUTPT - obst DIALYSIS sess; SESS  outpt OBST dial /CW-7039
+- H4-S065 Outpatient Orthopaedic Recovery Room Occupancy: OCC  - outpt ORTHO recov ROOM /CW-6062; OCC  - outpt ORTHOPAEDIC recov ROOM; OCCUPANCY - outpt ORTHO recov ROOM /CW-9263
+- H4-S066 Outpatient Rheumatologic Anaesthesia Administration: ADMIN - outpt RHEUM anaes; ADMIN - outpt RHEUM anaes /CW-8338; OUTPT rheum ANAES admin /CW-4096
+- H4-S067 Outpatient Urologic Endoscopic Procedure: ENDOSC - outpatient UROLOGIC /CW-5618; OUTPT urol ENDOSC proc /CW-9583; OUTPT  urol ENDOSCOPIC proc; OUTPT - urologic ENDOSC proc; PROC - outpt UROL endosc /CW-2734; PROCEDURE  - outpt UROL endosc /CW-5587
+- H4-S068 Outpatient Urologic Theatre Time: tm - OUTPT urol THEATRE /CW-3657; tm - OUTPT urol THTR /CW-8902; tm OUTPT urol THTR
+- H4-S069 Postoperative Cardiac Wound Care: CARE - postop CARDIAC wnd /CW-2116; CARE postop CARDIAC wnd; POSTOP - card WND care /CW-5796
+- H4-S070 Postoperative Geriatric Case Conference: conference - POSTOPERATIVE ger CS /CW-6353; GER cs CONF POSTOP; postop GERIATRIC cs CONF /CW-2720
+- H4-S071 Postoperative Geriatric Imaging Interpretation: POSTOP ger IMAGING interp; POSTOP - ger IMG interp; POSTOP ger IMG interp /CW-1229; POSTOP - ger IMG interpretation /CW-5101; POSTOP ger IMG interpretation
+- H4-S072 Postoperative Oncology Diagnostic Imaging: img - POSTOP onc DIAG; onc DIAG img postop; postop ONC diagnostic IMG
+- H4-S073 Postoperative Otolaryngologic Telemetry Monitoring: monit  - POSTOP otolaryngologic TELEM /CW-5715; monit POSTOP otolaryngologic TELEM /CW-4406; monit  POSTOPERATIVE otolaryngologic TELEMETRY; postoperative - ENT telem MONIT /CW-9058
+- H4-S074 Postoperative Paediatric Imaging Interpretation: INTERP - postop PAEDIATRIC img /CW-8778; INTERPRETATION - postop PAED imaging /CW-8171; POSTOP  paed IMG interp; POSTOP paed IMG interp /CW-2275; POSTOP paed IMG interpretation /CW-2645; POSTOP - paediatric IMAGING interp
+- H4-S075 Postoperative Paediatric Sterilisation Service: postop PAED steril SVC; postop PAED steril SVC /CW-1683; postop  PAED sterilisation SVC; service - POSTOP paed STERIL; service POSTOP paediatric STERIL
+- H4-S076 Postoperative Palliative Recovery Room Occupancy: occ - POSTOP pall RECOVERY rm; postop - PALL recovery RM occupancy; postop - PALLIATIVE recov RM occ /CW-4182; postop  - PALLIATIVE recov ROOM occupancy /CW-6043; postoperative - PALL recov ROOM occupancy
+- H4-S077 Postoperative Rheumatologic Nursing Observation: OBS postop RHEUMATOLOGIC nurs; OBSERVATION  postop RHEUM nurs; POSTOP - rheum NURS obs; POSTOP  - rheumatologic NURSING observation /CW-6924; POSTOPERATIVE rheum NURS obs /CW-2573; rheum NURS obs postop
+- H4-S078 Preoperative Geriatric Diagnostic Imaging: GER diag IMG PREOP; IMG - preop GER diag /CW-8799; PREOP ger DIAGNOSTIC img; PREOPERATIVE ger DIAG img /CW-7580
+- H4-S079 Preoperative Haematology Imaging Interpretation: INTERP preoperative HAEM img; PREOP - haem IMG interp /CW-1749; PREOP - haem IMG interpretation /CW-4475; PREOPERATIVE - haematology IMG interp /CW-7886
+- H4-S080 Preoperative Musculoskeletal Recovery Room Occupancy: PREOP msk RECOV rm OCC; PREOP - msk RECOVERY rm OCCUPANCY /CW-6079; PREOP - msk RECOVERY room OCCUPANCY /CW-7703; PREOP - musculoskeletal RECOV rm OCC
+- H4-S081 Preoperative Oncology Diagnostic Imaging: IMG - preop ONC diag /CW-7126; onc DIAG img preop; PREOP - onc DIAGNOSTIC img /CW-1315
+- H4-S082 Routine Cardiac Home Visit: CARD hm VST RTN; RTN - card HM visit; RTN - card HM vst /CW-5145; RTN card HM vst /CW-6536; RTN cardiac HM visit
+- H4-S083 Specialist Cardiac Ventilation Support: card VENT supp spclst; spclst  - CARD vent SUPP; spclst - CARD ventilation SUPP /CW-4904; spclst - CARDIAC vent SUPPORT /CW-5757; supp SPCLST card VENT /CW-2599; supp  SPCLST cardiac VENT /CW-8694
+- H4-S084 Specialist Gastrointestinal Imaging Interpretation: spclst - GI img INTERP /CW-7861; spclst GI img INTERP /CW-5639; specialist - GI imaging INTERPRETATION /CW-3195
+- H4-S085 Specialist Hepatic Discharge Planning: hep DISCH plng spclst; PLANNING spclst HEP disch; SPCLST  - hep DISCH planning /CW-7438; SPCLST - hep DISCH planning; SPCLST - hep DISCHARGE plng
+- H4-S086 Specialist Immunologic Consultation: SPCLST - immunologic CONSULT; SPCLST - immunologic CONSULTATION /CW-3950; SPECIALIST immunologic CONSULT /CW-1309
+- H4-S087 Standard Hepatic Infusion Therapy: STD - hep INF ther /CW-6477; THER - standard HEP inf /CW-8309; THER std HEP inf; THER std HEP inf /CW-1052
+- H4-S088 Standard Oncology Ward Bed Occupancy: ONC wd BD occ STD; standard - ONC ward BD occ /CW-4538; std - ONC wd BED occ /CW-1173
+- H4-S089 Standard Ophthalmic Laboratory Panel: ophth LAB pnl std; STD - ophth LAB pnl; STD - ophth LAB pnl /CW-2452; STD - ophth LAB pnl /CW-8684; STD - ophthalmic LAB pnl; STD ophthalmic LAB pnl
+- H4-S090 Standard Orthopaedic Critical Care Occupancy: CR std ORTHOPAEDIC crit; OCCUPANCY - std ORTHOPAEDIC crit CR /CW-7040; STD - orthopaedic CRIT care OCC /CW-2102; STD - orthopaedic CRIT cr OCC /CW-7769
+- H4-S091 Standard Paediatric Dialysis Session: sess STANDARD paed DIAL; sess  - STD paediatric DIAL /CW-3203; std - PAED dial SESS /CW-6582
+- H4-S092 Standard Vascular Home Visit: standard - VASC home VST /CW-2287; std - VASC hm VST /CW-7377; vst STD vasc HM /CW-9701
+- H4-S093 Supervised Gastrointestinal Nursing Observation: gi NURS obs supv; obs SUPERVISED gi NURSING /CW-4223; supv  - GASTROINTESTINAL nurs OBS; supv - GI nurs OBS /CW-9063
+- H4-S094 Supervised Immunologic Ward Bed Occupancy: IMMUN wd BD occ SUPV; OCC - supv IMMUN wd BED /CW-6089; OCC supv IMMUN wd BED /CW-7552; OCCUPANCY - supv IMMUN wd BD /CW-8876; SUPV - immun WARD bd OCC; SUPV immun WD bd OCC /CW-1811
+- H4-S095 Supervised Pulmonary Anaesthesia Administration: admin - SUPV pulm ANAES; supervised PULM anaes ADMIN; supervised  PULMONARY anaes ADMIN; supv PULM anaes ADMINISTRATION
+- H4-S096 Supervised Pulmonary Home Visit: SUPERVISED pulm HM vst /CW-7359; SUPERVISED pulmonary HM visit /CW-7640; SUPERVISED - pulmonary HM vst /CW-3719; VST - supv PULMONARY hm /CW-6997; VST supv PULMONARY home /CW-3675
+- H4-S097 Supervised Rheumatologic Dialysis Session: RHEUM dial SESS SUPV; sess - SUPV rheum DIALYSIS; supervised RHEUM dial SESS; supervised  RHEUM dial SESSION /CW-9091
+- H4-S098 Supervised Vascular Radiotherapy Fraction: SUPERVISED  - vasc RADIOTHER; SUPV - vascular RADIOTHER fract /CW-4865; SUPV vascular RADIOTHER fract /CW-1727; SUPV - vascular RADIOTHERAPY fract

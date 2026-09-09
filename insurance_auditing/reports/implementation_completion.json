@@ -1,0 +1,34 @@
+{
+  "author_correction_evidence": "reports/corrections/audit_1/correction_verification.json",
+  "clean_reproduction_tested_commit": "e5efadf4af7fe58ca1b75d904aac9c426093109d",
+  "coverage_limits": [
+    "H2 admission/discharge dates are present; complete opinions withheld for unobserved actual submission, detailed episode/leave and possible exception facts.",
+    "Other necessary service/context/correction uncertainties are explicit omissions.",
+    "Target accuracy/calibration is not established."
+  ],
+  "current_local_commit_at_recording": "e5efadf4af7fe58ca1b75d904aac9c426093109d",
+  "history_note": "Evidence/status/report-only commits after the replay do not imply the same commit ID. Decision-input and stable-output hashes are verified separately.",
+  "implementation_blockers_requiring_user_action": [],
+  "independent_audit": {
+    "report": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md",
+    "verdict": "PASS WITH CORRECTIONS"
+  },
+  "not_started": [
+    "Independent closure re-audit",
+    "BT11 repository publication, assessor access, actual sending"
+  ],
+  "remaining_audit_findings": [],
+  "state": "CORRECTIONS COMPLETE - READY FOR INDEPENDENT CLOSURE RE-AUDIT",
+  "submission_rows": 340,
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "subtask_counts": {
+    "Completed and verified": 65,
+    "Not started": 4
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 75,
+    "skips": 0
+  }
+}

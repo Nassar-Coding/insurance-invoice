@@ -1,0 +1,4052 @@
+{
+  "hospitals": {
+    "H1": {
+      "fresh_results_and_input_quality_match": {
+        "H1.json": true,
+        "H1.input_quality.json": true
+      },
+      "all_opinion_fields_identical_to_prior_audit": true,
+      "accounting_identical": true,
+      "all_result_fields_identical_except_bundle_metadata": true,
+      "changed_trace_invoices": 900,
+      "changed_abstention_details": 119,
+      "base_or_bundle_stages_checked": 2499,
+      "applied_bundle_lines": 100,
+      "applied_bundle_invoices": 48,
+      "fresh_run_id": "bdbdacb0da2df2bfe3ecf34be1ea195ce722c7bdb9cd04ff01af865c288280cf",
+      "fresh_attempt": "0a8f51db2ceb43cda476e2d9c930de6c",
+      "confidence_counts": {
+        "0.9": 77,
+        "0.95": 168,
+        "0.65": 5
+      }
+    },
+    "H2": {
+      "fresh_results_and_input_quality_match": {
+        "H2.json": true,
+        "H2.input_quality.json": true
+      },
+      "all_opinion_fields_identical_to_prior_audit": true,
+      "accounting_identical": true,
+      "all_result_fields_identical_except_bundle_metadata": true,
+      "changed_trace_invoices": 1110,
+      "changed_abstention_details": 953,
+      "base_or_bundle_stages_checked": 0,
+      "applied_bundle_lines": 0,
+      "applied_bundle_invoices": 0,
+      "fresh_run_id": "c7962cbc08d9ee5b23029aa19e45d2ef2d899b4c62607ecbac59379436c0e86d",
+      "fresh_attempt": "2de35f67b8814669bb41ebc537820187",
+      "confidence_counts": {}
+    },
+    "H3": {
+      "fresh_results_and_input_quality_match": {
+        "H3.json": true,
+        "H3.input_quality.json": true
+      },
+      "all_opinion_fields_identical_to_prior_audit": true,
+      "accounting_identical": true,
+      "all_result_fields_identical_except_bundle_metadata": true,
+      "changed_trace_invoices": 918,
+      "changed_abstention_details": 196,
+      "base_or_bundle_stages_checked": 1383,
+      "applied_bundle_lines": 76,
+      "applied_bundle_invoices": 33,
+      "fresh_run_id": "c7962cbc08d9ee5b23029aa19e45d2ef2d899b4c62607ecbac59379436c0e86d",
+      "fresh_attempt": "2de35f67b8814669bb41ebc537820187",
+      "confidence_counts": {
+        "0.8": 121,
+        "0.7": 27
+      }
+    },
+    "H4": {
+      "fresh_results_and_input_quality_match": {
+        "H4.json": true,
+        "H4.input_quality.json": true
+      },
+      "all_opinion_fields_identical_to_prior_audit": true,
+      "accounting_identical": true,
+      "all_result_fields_identical_except_bundle_metadata": true,
+      "changed_trace_invoices": 822,
+      "changed_abstention_details": 312,
+      "base_or_bundle_stages_checked": 543,
+      "applied_bundle_lines": 84,
+      "applied_bundle_invoices": 28,
+      "fresh_run_id": "c7962cbc08d9ee5b23029aa19e45d2ef2d899b4c62607ecbac59379436c0e86d",
+      "fresh_attempt": "2de35f67b8814669bb41ebc537820187",
+      "confidence_counts": {
+        "0.8": 50,
+        "0.7": 14
+      }
+    },
+    "H5": {
+      "fresh_results_and_input_quality_match": {
+        "H5.json": true,
+        "H5.input_quality.json": true
+      },
+      "all_opinion_fields_identical_to_prior_audit": true,
+      "accounting_identical": true,
+      "all_result_fields_identical_except_bundle_metadata": true,
+      "changed_trace_invoices": 1034,
+      "changed_abstention_details": 318,
+      "base_or_bundle_stages_checked": 1180,
+      "applied_bundle_lines": 92,
+      "applied_bundle_invoices": 42,
+      "fresh_run_id": "c7962cbc08d9ee5b23029aa19e45d2ef2d899b4c62607ecbac59379436c0e86d",
+      "fresh_attempt": "2de35f67b8814669bb41ebc537820187",
+      "confidence_counts": {
+        "0.65": 128
+      }
+    }
+  },
+  "stable_artifacts": {
+    "submission.csv": {
+      "old": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "corrected": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "clean": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+    },
+    "reports/metrics.json": {
+      "old": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "corrected": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "clean": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808"
+    },
+    "reports/workload.json": {
+      "old": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "corrected": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "clean": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c"
+    },
+    "reports/evaluation_report.md": {
+      "old": "73a3a2584723b050abdbce7ee2155ba7ae2052001037930766b4fd24b87bcad7",
+      "corrected": "849ac2f02bd063335694859ba2471ed4561438cbaab2ee10e00dd85b4ff54ddb",
+      "clean": "849ac2f02bd063335694859ba2471ed4561438cbaab2ee10e00dd85b4ff54ddb"
+    },
+    "reports/release_manifest.json": {
+      "old": "47d11c03384edff6f18455f46b0ee91bd7fb14ee045ad25b69afb1f621a7504f",
+      "corrected": "b6a52c763c3964fc105241f9993d352c4d0b5bb102897d1f5882eb399c4868c0",
+      "clean": "b6a52c763c3964fc105241f9993d352c4d0b5bb102897d1f5882eb399c4868c0"
+    }
+  },
+  "bundle_examples": [
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000010",
+      "line_id": "H1-L00010-02",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00010-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000010",
+      "line_id": "H1-L00010-03",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00010-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000019",
+      "line_id": "H1-L00019-09",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00019-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000019",
+      "line_id": "H1-L00019-10",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00019-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000060",
+      "line_id": "H1-L00060-18",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00060-19"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000060",
+      "line_id": "H1-L00060-19",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00060-18"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000066",
+      "line_id": "H1-L00066-09",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00066-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000066",
+      "line_id": "H1-L00066-10",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00066-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000091",
+      "line_id": "H1-L00091-01",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00091-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000091",
+      "line_id": "H1-L00091-02",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00091-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000098",
+      "line_id": "H1-L00098-05",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00098-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000098",
+      "line_id": "H1-L00098-06",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00098-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000103",
+      "line_id": "H1-L00103-01",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00103-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000103",
+      "line_id": "H1-L00103-02",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00103-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000111",
+      "line_id": "H1-L00111-01",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00111-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000111",
+      "line_id": "H1-L00111-02",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00111-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000162",
+      "line_id": "H1-L00162-05",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00162-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000162",
+      "line_id": "H1-L00162-06",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00162-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000168",
+      "line_id": "H1-L00168-06",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00168-07"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000168",
+      "line_id": "H1-L00168-07",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00168-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000174",
+      "line_id": "H1-L00174-04",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00174-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000174",
+      "line_id": "H1-L00174-05",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00174-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000194",
+      "line_id": "H1-L00194-18",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00194-19"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000194",
+      "line_id": "H1-L00194-19",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00194-18"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000232",
+      "line_id": "H1-L00232-05",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00232-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000232",
+      "line_id": "H1-L00232-06",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00232-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000238",
+      "line_id": "H1-L00238-11",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00238-12"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000238",
+      "line_id": "H1-L00238-12",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00238-11"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000239",
+      "line_id": "H1-L00239-05",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00239-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000239",
+      "line_id": "H1-L00239-06",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00239-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000241",
+      "line_id": "H1-L00241-05",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00241-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000241",
+      "line_id": "H1-L00241-06",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00241-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000242",
+      "line_id": "H1-L00242-12",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00242-13"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000242",
+      "line_id": "H1-L00242-13",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00242-12"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000242",
+      "line_id": "H1-L00242-15",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00242-16"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000242",
+      "line_id": "H1-L00242-16",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00242-15"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000255",
+      "line_id": "H1-L00255-01",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00255-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000255",
+      "line_id": "H1-L00255-02",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00255-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000277",
+      "line_id": "H1-L00277-01",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00277-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000277",
+      "line_id": "H1-L00277-02",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00277-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000318",
+      "line_id": "H1-L00318-15",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00318-16"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000318",
+      "line_id": "H1-L00318-16",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00318-15"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000319",
+      "line_id": "H1-L00319-06",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00319-07"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000319",
+      "line_id": "H1-L00319-07",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00319-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000321",
+      "line_id": "H1-L00321-01",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00321-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000321",
+      "line_id": "H1-L00321-02",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00321-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000326",
+      "line_id": "H1-L00326-13",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00326-14"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000326",
+      "line_id": "H1-L00326-14",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00326-13"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000331",
+      "line_id": "H1-L00331-01",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00331-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000331",
+      "line_id": "H1-L00331-02",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00331-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000382",
+      "line_id": "H1-L00382-03",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00382-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000382",
+      "line_id": "H1-L00382-04",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00382-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000389",
+      "line_id": "H1-L00389-04",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00389-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000389",
+      "line_id": "H1-L00389-05",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00389-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000427",
+      "line_id": "H1-L00427-10",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00427-11"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000427",
+      "line_id": "H1-L00427-11",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00427-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000434",
+      "line_id": "H1-L00434-06",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00434-07"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000434",
+      "line_id": "H1-L00434-07",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00434-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000465",
+      "line_id": "H1-L00465-08",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00465-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000465",
+      "line_id": "H1-L00465-09",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00465-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000488",
+      "line_id": "H1-L00488-09",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00488-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000488",
+      "line_id": "H1-L00488-10",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00488-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000490",
+      "line_id": "H1-L00490-05",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00490-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000490",
+      "line_id": "H1-L00490-06",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00490-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000498",
+      "line_id": "H1-L00498-08",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00498-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000498",
+      "line_id": "H1-L00498-09",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00498-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000526",
+      "line_id": "H1-L00526-04",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00526-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000526",
+      "line_id": "H1-L00526-05",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00526-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000561",
+      "line_id": "H1-L00561-09",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00561-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000561",
+      "line_id": "H1-L00561-10",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00561-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000581",
+      "line_id": "H1-L00581-01",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00581-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000581",
+      "line_id": "H1-L00581-02",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00581-01"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000588",
+      "line_id": "H1-L00588-03",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00588-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000588",
+      "line_id": "H1-L00588-04",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00588-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000620",
+      "line_id": "H1-L00620-09",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00620-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000620",
+      "line_id": "H1-L00620-10",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00620-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000635",
+      "line_id": "H1-L00635-08",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00635-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000635",
+      "line_id": "H1-L00635-09",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00635-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000695",
+      "line_id": "H1-L00695-08",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00695-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000695",
+      "line_id": "H1-L00695-09",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00695-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000698",
+      "line_id": "H1-L00698-08",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00698-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000698",
+      "line_id": "H1-L00698-09",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00698-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000713",
+      "line_id": "H1-L00713-03",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00713-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000713",
+      "line_id": "H1-L00713-04",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00713-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000716",
+      "line_id": "H1-L00716-03",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00716-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000716",
+      "line_id": "H1-L00716-08",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00716-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000717",
+      "line_id": "H1-L00717-12",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00717-13"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000717",
+      "line_id": "H1-L00717-13",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00717-12"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000741",
+      "line_id": "H1-L00741-02",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00741-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000741",
+      "line_id": "H1-L00741-03",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00741-02"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000769",
+      "line_id": "H1-L00769-10",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00769-11"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000769",
+      "line_id": "H1-L00769-11",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00769-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000777",
+      "line_id": "H1-L00777-08",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00777-09"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000777",
+      "line_id": "H1-L00777-09",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00777-08"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000782",
+      "line_id": "H1-L00782-03",
+      "cents": 37500,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00782-04"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000782",
+      "line_id": "H1-L00782-04",
+      "cents": 7050,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L221",
+      "known_partner_lines": [
+        "H1-L00782-03"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000790",
+      "line_id": "H1-L00790-05",
+      "cents": 15175,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00790-06"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000790",
+      "line_id": "H1-L00790-06",
+      "cents": 21500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L220",
+      "known_partner_lines": [
+        "H1-L00790-05"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000790",
+      "line_id": "H1-L00790-09",
+      "cents": 19150,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00790-10"
+      ]
+    },
+    {
+      "hospital": "H1",
+      "invoice_id": "INV-H1-000790",
+      "line_id": "H1-L00790-10",
+      "cents": 16400,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md#L219",
+      "known_partner_lines": [
+        "H1-L00790-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000072",
+      "line_id": "H3-L00072-05",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00072-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000072",
+      "line_id": "H3-L00072-06",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00072-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000087",
+      "line_id": "H3-L00087-14",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00087-15"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000087",
+      "line_id": "H3-L00087-15",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00087-14"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000111",
+      "line_id": "H3-L00111-11",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00111-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000111",
+      "line_id": "H3-L00111-12",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00111-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000151",
+      "line_id": "H3-L00151-07",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00151-08"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000151",
+      "line_id": "H3-L00151-08",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00151-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000151",
+      "line_id": "H3-L00151-12",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00151-13"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000151",
+      "line_id": "H3-L00151-13",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00151-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000227",
+      "line_id": "H3-L00227-15",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00227-16"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000227",
+      "line_id": "H3-L00227-16",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00227-15"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000233",
+      "line_id": "H3-L00233-05",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00233-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000233",
+      "line_id": "H3-L00233-06",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00233-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000259",
+      "line_id": "H3-L00259-09",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00259-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000259",
+      "line_id": "H3-L00259-10",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00259-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000264",
+      "line_id": "H3-L00264-09",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00264-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000264",
+      "line_id": "H3-L00264-10",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00264-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000264",
+      "line_id": "H3-L00264-13",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00264-14"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000264",
+      "line_id": "H3-L00264-14",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00264-13"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000331",
+      "line_id": "H3-L00331-01",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00331-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000331",
+      "line_id": "H3-L00331-02",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00331-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000344",
+      "line_id": "H3-L00344-01",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00344-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000344",
+      "line_id": "H3-L00344-02",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00344-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000361",
+      "line_id": "H3-L00361-04",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00361-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000361",
+      "line_id": "H3-L00361-05",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00361-04"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000380",
+      "line_id": "H3-L00380-04",
+      "cents": 235000,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L128",
+      "known_partner_lines": [
+        "H3-L00380-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000380",
+      "line_id": "H3-L00380-05",
+      "cents": 12025,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L128",
+      "known_partner_lines": [
+        "H3-L00380-04"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000437",
+      "line_id": "H3-L00437-10",
+      "cents": 363250,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00437-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000437",
+      "line_id": "H3-L00437-11",
+      "cents": 5675,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00437-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000446",
+      "line_id": "H3-L00446-10",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00446-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000446",
+      "line_id": "H3-L00446-11",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00446-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000484",
+      "line_id": "H3-L00484-07",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00484-08"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000484",
+      "line_id": "H3-L00484-08",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00484-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000503",
+      "line_id": "H3-L00503-01",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00503-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000503",
+      "line_id": "H3-L00503-02",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00503-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000505",
+      "line_id": "H3-L00505-01",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00505-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000505",
+      "line_id": "H3-L00505-02",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00505-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000509",
+      "line_id": "H3-L00509-07",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00509-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000509",
+      "line_id": "H3-L00509-08",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00509-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000509",
+      "line_id": "H3-L00509-09",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00509-08"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000509",
+      "line_id": "H3-L00509-11",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00509-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000534",
+      "line_id": "H3-L00534-04",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00534-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000534",
+      "line_id": "H3-L00534-05",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00534-04"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000557",
+      "line_id": "H3-L00557-02",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00557-03"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000557",
+      "line_id": "H3-L00557-03",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00557-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000563",
+      "line_id": "H3-L00563-06",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00563-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000563",
+      "line_id": "H3-L00563-07",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00563-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000576",
+      "line_id": "H3-L00576-06",
+      "cents": 5675,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00576-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000576",
+      "line_id": "H3-L00576-07",
+      "cents": 363250,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00576-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000593",
+      "line_id": "H3-L00593-11",
+      "cents": 363250,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00593-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000593",
+      "line_id": "H3-L00593-12",
+      "cents": 5675,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00593-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000658",
+      "line_id": "H3-L00658-06",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00658-07"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000658",
+      "line_id": "H3-L00658-07",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00658-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000661",
+      "line_id": "H3-L00661-01",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00661-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000661",
+      "line_id": "H3-L00661-02",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00661-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000664",
+      "line_id": "H3-L00664-04",
+      "cents": 235000,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L128",
+      "known_partner_lines": [
+        "H3-L00664-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000664",
+      "line_id": "H3-L00664-05",
+      "cents": 12025,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L128",
+      "known_partner_lines": [
+        "H3-L00664-04"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000676",
+      "line_id": "H3-L00676-11",
+      "cents": 5675,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00676-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000676",
+      "line_id": "H3-L00676-12",
+      "cents": 363250,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131",
+      "known_partner_lines": [
+        "H3-L00676-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000772",
+      "line_id": "H3-L00772-10",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00772-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000772",
+      "line_id": "H3-L00772-11",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00772-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000772",
+      "line_id": "H3-L00772-12",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00772-13"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000772",
+      "line_id": "H3-L00772-13",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00772-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000780",
+      "line_id": "H3-L00780-09",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00780-10"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000780",
+      "line_id": "H3-L00780-10",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00780-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000819",
+      "line_id": "H3-L00819-01",
+      "cents": 351150,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00819-02"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000819",
+      "line_id": "H3-L00819-02",
+      "cents": 9800,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130",
+      "known_partner_lines": [
+        "H3-L00819-01"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000858",
+      "line_id": "H3-L00858-05",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00858-06"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000858",
+      "line_id": "H3-L00858-06",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00858-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000881",
+      "line_id": "H3-L00881-08",
+      "cents": 2925,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00881-09"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000881",
+      "line_id": "H3-L00881-09",
+      "cents": 42275,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132",
+      "known_partner_lines": [
+        "H3-L00881-08"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000881",
+      "line_id": "H3-L00881-11",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00881-12"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000881",
+      "line_id": "H3-L00881-12",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00881-11"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000909",
+      "line_id": "H3-L00909-04",
+      "cents": 15550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00909-05"
+      ]
+    },
+    {
+      "hospital": "H3",
+      "invoice_id": "INV-H3-000909",
+      "line_id": "H3-L00909-05",
+      "cents": 24350,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129",
+      "known_partner_lines": [
+        "H3-L00909-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000005",
+      "line_id": "H4-L00005-04",
+      "cents": 91600,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00005-05"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000005",
+      "line_id": "H4-L00005-05",
+      "cents": 13900,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00005-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000013",
+      "line_id": "H4-L00013-01",
+      "cents": 8400,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00013-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000013",
+      "line_id": "H4-L00013-02",
+      "cents": 35200,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00013-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000013",
+      "line_id": "H4-L00013-07",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00013-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000013",
+      "line_id": "H4-L00013-08",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00013-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000015",
+      "line_id": "H4-L00015-01",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00015-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000015",
+      "line_id": "H4-L00015-02",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00015-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000015",
+      "line_id": "H4-L00015-03",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00015-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000015",
+      "line_id": "H4-L00015-04",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00015-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000046",
+      "line_id": "H4-L00046-06",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00046-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000046",
+      "line_id": "H4-L00046-07",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00046-06"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-01",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00057-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-02",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00057-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-04",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00057-05"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-05",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00057-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-06",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00057-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000057",
+      "line_id": "H4-L00057-07",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00057-06"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000116",
+      "line_id": "H4-L00116-09",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00116-10"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000116",
+      "line_id": "H4-L00116-10",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00116-09"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000152",
+      "line_id": "H4-L00152-03",
+      "cents": 91600,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00152-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000152",
+      "line_id": "H4-L00152-04",
+      "cents": 13900,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00152-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000156",
+      "line_id": "H4-L00156-01",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00156-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000156",
+      "line_id": "H4-L00156-02",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00156-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000156",
+      "line_id": "H4-L00156-07",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00156-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000156",
+      "line_id": "H4-L00156-08",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00156-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000215",
+      "line_id": "H4-L00215-02",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00215-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000215",
+      "line_id": "H4-L00215-03",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00215-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000314",
+      "line_id": "H4-L00314-05",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00314-06"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000314",
+      "line_id": "H4-L00314-06",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00314-05"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000404",
+      "line_id": "H4-L00404-01",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00404-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000404",
+      "line_id": "H4-L00404-02",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00404-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000427",
+      "line_id": "H4-L00427-02",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00427-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000427",
+      "line_id": "H4-L00427-03",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00427-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000486",
+      "line_id": "H4-L00486-03",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00486-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000486",
+      "line_id": "H4-L00486-04",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00486-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000521",
+      "line_id": "H4-L00521-03",
+      "cents": 35200,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00521-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000521",
+      "line_id": "H4-L00521-04",
+      "cents": 8400,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00521-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000521",
+      "line_id": "H4-L00521-16",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00521-17"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000521",
+      "line_id": "H4-L00521-17",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00521-16"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000525",
+      "line_id": "H4-L00525-02",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00525-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000525",
+      "line_id": "H4-L00525-03",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00525-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000525",
+      "line_id": "H4-L00525-08",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00525-09"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000525",
+      "line_id": "H4-L00525-09",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00525-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000535",
+      "line_id": "H4-L00535-03",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00535-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000535",
+      "line_id": "H4-L00535-04",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00535-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000583",
+      "line_id": "H4-L00583-03",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00583-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000583",
+      "line_id": "H4-L00583-04",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00583-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000604",
+      "line_id": "H4-L00604-03",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00604-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000604",
+      "line_id": "H4-L00604-04",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00604-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000617",
+      "line_id": "H4-L00617-08",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00617-09"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000617",
+      "line_id": "H4-L00617-09",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00617-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000634",
+      "line_id": "H4-L00634-03",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00634-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000634",
+      "line_id": "H4-L00634-04",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00634-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000650",
+      "line_id": "H4-L00650-05",
+      "cents": 35200,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00650-06"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000650",
+      "line_id": "H4-L00650-06",
+      "cents": 8400,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00650-05"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000685",
+      "line_id": "H4-L00685-02",
+      "cents": 2675,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00685-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000685",
+      "line_id": "H4-L00685-03",
+      "cents": 9375,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214",
+      "known_partner_lines": [
+        "H4-L00685-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000685",
+      "line_id": "H4-L00685-07",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00685-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000685",
+      "line_id": "H4-L00685-08",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00685-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000687",
+      "line_id": "H4-L00687-02",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00687-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000687",
+      "line_id": "H4-L00687-03",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00687-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000689",
+      "line_id": "H4-L00689-01",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00689-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000689",
+      "line_id": "H4-L00689-02",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00689-01"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000689",
+      "line_id": "H4-L00689-04",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00689-05"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000689",
+      "line_id": "H4-L00689-05",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00689-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-07",
+      "cents": 3550,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00721-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-08",
+      "cents": 28750,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213",
+      "known_partner_lines": [
+        "H4-L00721-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-10",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00721-11"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-11",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00721-10"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-15",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00721-16"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000721",
+      "line_id": "H4-L00721-16",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00721-15"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000748",
+      "line_id": "H4-L00748-03",
+      "cents": 91600,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00748-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000748",
+      "line_id": "H4-L00748-04",
+      "cents": 13900,
+      "bundle_index": 6,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218",
+      "known_partner_lines": [
+        "H4-L00748-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-02",
+      "cents": 4900,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00812-04"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-04",
+      "cents": 11875,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212",
+      "known_partner_lines": [
+        "H4-L00812-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-06",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00812-07"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-07",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00812-06"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-11",
+      "cents": 111675,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00812-12"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000812",
+      "line_id": "H4-L00812-12",
+      "cents": 1250,
+      "bundle_index": 4,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216",
+      "known_partner_lines": [
+        "H4-L00812-11"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000821",
+      "line_id": "H4-L00821-02",
+      "cents": 35200,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00821-03"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000821",
+      "line_id": "H4-L00821-03",
+      "cents": 8400,
+      "bundle_index": 5,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217",
+      "known_partner_lines": [
+        "H4-L00821-02"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000821",
+      "line_id": "H4-L00821-07",
+      "cents": 28625,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00821-08"
+      ]
+    },
+    {
+      "hospital": "H4",
+      "invoice_id": "INV-H4-000821",
+      "line_id": "H4-L00821-08",
+      "cents": 70975,
+      "bundle_index": 3,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215",
+      "known_partner_lines": [
+        "H4-L00821-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000044",
+      "line_id": "H5-L00044-09",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00044-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000044",
+      "line_id": "H5-L00044-10",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00044-09"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000048",
+      "line_id": "H5-L00048-05",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00048-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000048",
+      "line_id": "H5-L00048-06",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00048-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000048",
+      "line_id": "H5-L00048-08",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00048-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000048",
+      "line_id": "H5-L00048-10",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00048-08"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000063",
+      "line_id": "H5-L00063-12",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00063-13"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000063",
+      "line_id": "H5-L00063-13",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00063-12"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000087",
+      "line_id": "H5-L00087-04",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00087-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000087",
+      "line_id": "H5-L00087-05",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00087-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000103",
+      "line_id": "H5-L00103-07",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00103-08"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000103",
+      "line_id": "H5-L00103-08",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00103-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000206",
+      "line_id": "H5-L00206-06",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00206-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000206",
+      "line_id": "H5-L00206-07",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00206-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000284",
+      "line_id": "H5-L00284-01",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00284-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000284",
+      "line_id": "H5-L00284-02",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00284-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000310",
+      "line_id": "H5-L00310-01",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00310-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000310",
+      "line_id": "H5-L00310-02",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00310-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000325",
+      "line_id": "H5-L00325-02",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00325-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000325",
+      "line_id": "H5-L00325-03",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00325-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000326",
+      "line_id": "H5-L00326-03",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00326-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000326",
+      "line_id": "H5-L00326-04",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00326-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000391",
+      "line_id": "H5-L00391-12",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00391-13"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000391",
+      "line_id": "H5-L00391-13",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00391-12"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000392",
+      "line_id": "H5-L00392-05",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00392-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000392",
+      "line_id": "H5-L00392-06",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00392-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000393",
+      "line_id": "H5-L00393-01",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00393-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000393",
+      "line_id": "H5-L00393-02",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00393-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000440",
+      "line_id": "H5-L00440-04",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00440-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000440",
+      "line_id": "H5-L00440-05",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00440-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000440",
+      "line_id": "H5-L00440-13",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00440-14"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000440",
+      "line_id": "H5-L00440-14",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00440-13"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000508",
+      "line_id": "H5-L00508-01",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00508-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000508",
+      "line_id": "H5-L00508-02",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00508-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000513",
+      "line_id": "H5-L00513-03",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00513-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000513",
+      "line_id": "H5-L00513-06",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00513-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000517",
+      "line_id": "H5-L00517-03",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00517-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000517",
+      "line_id": "H5-L00517-04",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00517-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000552",
+      "line_id": "H5-L00552-06",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00552-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000552",
+      "line_id": "H5-L00552-07",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00552-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000553",
+      "line_id": "H5-L00553-03",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00553-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000553",
+      "line_id": "H5-L00553-04",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00553-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000586",
+      "line_id": "H5-L00586-05",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00586-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000586",
+      "line_id": "H5-L00586-06",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00586-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000613",
+      "line_id": "H5-L00613-02",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00613-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000613",
+      "line_id": "H5-L00613-03",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00613-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000618",
+      "line_id": "H5-L00618-02",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00618-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000618",
+      "line_id": "H5-L00618-03",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00618-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000633",
+      "line_id": "H5-L00633-03",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00633-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000633",
+      "line_id": "H5-L00633-04",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00633-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000633",
+      "line_id": "H5-L00633-09",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00633-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000633",
+      "line_id": "H5-L00633-10",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00633-09"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000658",
+      "line_id": "H5-L00658-07",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00658-08"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000658",
+      "line_id": "H5-L00658-08",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00658-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000658",
+      "line_id": "H5-L00658-09",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00658-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000658",
+      "line_id": "H5-L00658-10",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00658-09"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000664",
+      "line_id": "H5-L00664-09",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00664-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000664",
+      "line_id": "H5-L00664-10",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00664-09"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000693",
+      "line_id": "H5-L00693-09",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00693-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000693",
+      "line_id": "H5-L00693-10",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00693-09"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000745",
+      "line_id": "H5-L00745-02",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00745-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000745",
+      "line_id": "H5-L00745-03",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00745-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000776",
+      "line_id": "H5-L00776-02",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00776-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000776",
+      "line_id": "H5-L00776-03",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00776-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000810",
+      "line_id": "H5-L00810-04",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00810-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000810",
+      "line_id": "H5-L00810-05",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00810-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000811",
+      "line_id": "H5-L00811-02",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00811-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000811",
+      "line_id": "H5-L00811-03",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L00811-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000816",
+      "line_id": "H5-L00816-03",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00816-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000816",
+      "line_id": "H5-L00816-04",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00816-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000844",
+      "line_id": "H5-L00844-06",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00844-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000844",
+      "line_id": "H5-L00844-07",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00844-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000860",
+      "line_id": "H5-L00860-03",
+      "cents": 172450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00860-04"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000860",
+      "line_id": "H5-L00860-04",
+      "cents": 388450,
+      "bundle_index": 0,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357",
+      "known_partner_lines": [
+        "H5-L00860-03"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000873",
+      "line_id": "H5-L00873-11",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00873-12"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000873",
+      "line_id": "H5-L00873-12",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00873-11"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000905",
+      "line_id": "H5-L00905-15",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00905-16"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000905",
+      "line_id": "H5-L00905-16",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00905-15"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000946",
+      "line_id": "H5-L00946-07",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00946-08"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-000946",
+      "line_id": "H5-L00946-08",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L00946-07"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001004",
+      "line_id": "H5-L01004-01",
+      "cents": 17500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L01004-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001004",
+      "line_id": "H5-L01004-02",
+      "cents": 3500,
+      "bundle_index": 1,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358",
+      "known_partner_lines": [
+        "H5-L01004-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001011",
+      "line_id": "H5-L01011-01",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01011-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001011",
+      "line_id": "H5-L01011-02",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01011-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001012",
+      "line_id": "H5-L01012-01",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01012-02"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001012",
+      "line_id": "H5-L01012-02",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01012-01"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001029",
+      "line_id": "H5-L01029-05",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01029-06"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001029",
+      "line_id": "H5-L01029-06",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01029-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001050",
+      "line_id": "H5-L01050-10",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01050-11"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001050",
+      "line_id": "H5-L01050-11",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01050-10"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001055",
+      "line_id": "H5-L01055-04",
+      "cents": 94325,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01055-05"
+      ]
+    },
+    {
+      "hospital": "H5",
+      "invoice_id": "INV-H5-001055",
+      "line_id": "H5-L01055-05",
+      "cents": 5925,
+      "bundle_index": 2,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359",
+      "known_partner_lines": [
+        "H5-L01055-04"
+      ]
+    }
+  ],
+  "base_or_bundle_stages_checked": 5605,
+  "bundle_lines_checked": 352,
+  "bundle_invoices_checked": 151,
+  "protected_source_rule_mapping_policy_evaluator_paths_unchanged": [
+    "data/source",
+    "contracts",
+    "mappings",
+    "evaluation",
+    "src/insurance_audit/confidence.py",
+    "src/insurance_audit/evaluation.py"
+  ],
+  "original_test_modules_byte_identical": [
+    "tests/test_batch.py",
+    "tests/test_confidence.py",
+    "tests/test_evaluation.py",
+    "tests/test_h2.py",
+    "tests/test_inputs.py",
+    "tests/test_pricing.py",
+    "tests/test_schema.py",
+    "tests/test_submission.py",
+    "tests/test_targets.py"
+  ],
+  "fresh_test_runs": [
+    {
+      "elapsed_seconds": 13.453851,
+      "errors": 0,
+      "failures": 0,
+      "python": "3.12.13",
+      "skipped": 0,
+      "success": true,
+      "tests_run": 75,
+      "utc": "2026-09-08T07:02:58.145509+00:00"
+    },
+    {
+      "elapsed_seconds": 12.340369,
+      "errors": 0,
+      "failures": 0,
+      "python": "3.12.13",
+      "skipped": 0,
+      "success": true,
+      "tests_run": 75,
+      "utc": "2026-09-08T07:03:48.103814+00:00"
+    }
+  ],
+  "release_bound_paths_verified": 82,
+  "attachment_matches": {
+    "submission(2).csv": true,
+    "implementation_report(2).md": true,
+    "Insurance_Auditing_Independent_Implementation_Audit(1).md": true
+  }
+}

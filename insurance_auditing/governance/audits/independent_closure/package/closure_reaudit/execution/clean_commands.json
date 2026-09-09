@@ -1,0 +1,47 @@
+[
+  {
+    "name": "clean_version",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "--version"
+    ],
+    "cwd": "/workspace/scratch/bc04058a15b0/closure_reaudit/clean",
+    "exit_code": 0,
+    "elapsed_seconds": 0.002
+  },
+  {
+    "name": "clean_reproduce",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "insurance_audit",
+      "reproduce"
+    ],
+    "cwd": "/workspace/scratch/bc04058a15b0/closure_reaudit/clean",
+    "exit_code": 0,
+    "elapsed_seconds": 48.534
+  },
+  {
+    "name": "clean_verify",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "insurance_audit",
+      "verify-submission"
+    ],
+    "cwd": "/workspace/scratch/bc04058a15b0/closure_reaudit/clean",
+    "exit_code": 0,
+    "elapsed_seconds": 2.482
+  },
+  {
+    "name": "clean_tests",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "tools/run_checks.py",
+      "independent_closure_clean"
+    ],
+    "cwd": "/workspace/scratch/bc04058a15b0/closure_reaudit/clean",
+    "exit_code": 0,
+    "elapsed_seconds": 12.443
+  }
+]

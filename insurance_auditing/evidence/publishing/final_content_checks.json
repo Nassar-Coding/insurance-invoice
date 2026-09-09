@@ -1,0 +1,58 @@
+{
+  "broken_links": [],
+  "configured_remotes": [],
+  "documents_page_limits_verified": true,
+  "executable_differences_after_tested_commit": [],
+  "independent_closure_report_unchanged": true,
+  "original_implementation_report_body_unchanged": true,
+  "protected_files_unchanged": 145,
+  "readme_links_checked": [
+    {
+      "file": "README.md",
+      "target": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+    },
+    {
+      "file": "README.md",
+      "target": "reports/publishing_preparation_report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "reports/evaluation_report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/cli_contract.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/external_readiness.md"
+    }
+  ],
+  "release_bound_entries_unchanged": 40,
+  "required_deliverables": [
+    "README.md",
+    "requirements.txt",
+    "requirements-docs.txt",
+    ".python-version",
+    "submission.csv",
+    "reports/evaluation_report.md",
+    "reports/decision_log.md",
+    "reports/decision_log.pdf",
+    "reports/submission_writeup.md",
+    "reports/submission_writeup.pdf",
+    "reports/implementation_report.md",
+    "reports/publishing_preparation_report.md",
+    "reports/final_reproduction_result.md",
+    "docs/decision_register.md",
+    "docs/ai_usage.md",
+    "prompts/README.md",
+    "prompts/extract_v1.md",
+    "prompts/map_v1.md",
+    "prompts/map_v2.md",
+    "prompts/review_v1.md",
+    "evidence/history/audited_implementation.bundle",
+    "evidence/history/checkpoint_differences.zip",
+    "evidence/publishing/final_reproduction/result.json"
+  ],
+  "status": "passed"
+}

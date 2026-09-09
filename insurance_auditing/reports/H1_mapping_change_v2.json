@@ -1,0 +1,246 @@
+{
+  "changes": [
+    {
+      "candidate_name": "Advanced Infectious Critical Care Occupancy",
+      "key": "advanced critical cr occupancy",
+      "previous_service_id": "H1-S003",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Ambulatory Infectious Home Visit",
+      "key": "amb infectious visit",
+      "previous_service_id": "H1-S011",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Ambulatory Immunologic Endoscopic Procedure",
+      "key": "ambulatory endosc procedure",
+      "previous_service_id": "H1-S009",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Bedside Psychiatric Dialysis Session",
+      "key": "beds psych session",
+      "previous_service_id": "H1-S024",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Advanced Neurological Consultation",
+      "key": "consultation adv",
+      "previous_service_id": "H1-S006",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Continuous Vascular Pharmaceutical Dispensing",
+      "key": "cont pharmaceutical disp",
+      "previous_service_id": "H1-S039",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Elective Cardiac Nutritional Support",
+      "key": "elect card supp",
+      "previous_service_id": "H1-S040",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Extended Palliative Laboratory Panel",
+      "key": "ext pall panel",
+      "previous_service_id": "H1-S048",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Focused Otolaryngologic Wound Care",
+      "key": "focused ent cr",
+      "previous_service_id": "H1-S053",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Outpatient Metabolic Radiotherapy Fraction",
+      "key": "fract outpatient radiotherapy",
+      "previous_service_id": "H1-S071",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Standard Otolaryngologic Radiotherapy Fraction",
+      "key": "fract std ent",
+      "previous_service_id": "H1-S102",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Inpatient Vascular Diagnostic Imaging",
+      "key": "img inpatient diag",
+      "previous_service_id": "H1-S062",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Outpatient Immunologic Consultation",
+      "key": "immun consult",
+      "previous_service_id": "H1-S070",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Inpatient Endocrine Dialysis Session",
+      "key": "inpt endo session",
+      "previous_service_id": "H1-S054",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Inpatient Hepatic Physiotherapy Session",
+      "key": "inpt hepatic session",
+      "previous_service_id": "H1-S055",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Intensive Geriatric Nutritional Support",
+      "key": "intens nutr support",
+      "previous_service_id": "H1-S064",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Intermittent Rheumatologic Diagnostic Imaging",
+      "key": "interm diag img",
+      "previous_service_id": "H1-S069",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Intermittent Pulmonary Rehabilitation Programme",
+      "key": "interm rehab programme",
+      "previous_service_id": "H1-S068",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Supervised Musculoskeletal Dialysis Session",
+      "key": "msk dial sess",
+      "previous_service_id": "H1-S106",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Intermittent Neurological Nutritional Support",
+      "key": "neuro nutr supp",
+      "previous_service_id": "H1-S067",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Advanced Metabolic Nursing Observation",
+      "key": "obs metab nursing",
+      "previous_service_id": "H1-S005",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Continuous Cardiac Nursing Observation",
+      "key": "observation cont nurs",
+      "previous_service_id": "H1-S032",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Inpatient Palliative Isolation Room Occupancy",
+      "key": "occ inpt isol rm",
+      "previous_service_id": "H1-S059",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Focused Orthopaedic Transport Service",
+      "key": "ortho transp svc",
+      "previous_service_id": "H1-S052",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Outpatient Metabolic Radiotherapy Fraction",
+      "key": "outpt radiother fraction",
+      "previous_service_id": "H1-S071",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Postoperative Metabolic Critical Care Occupancy",
+      "key": "postop critical cr occupancy",
+      "previous_service_id": "H1-S072",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Bedside Pulmonary Biopsy Procedure",
+      "key": "pulmonary biopsy proc",
+      "previous_service_id": "H1-S025",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Routine Urologic Biopsy Procedure",
+      "key": "routine biop procedure",
+      "previous_service_id": "H1-S092",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Routine Oncology Discharge Planning",
+      "key": "routine oncology disch",
+      "previous_service_id": "H1-S089",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Routine Urologic Biopsy Procedure",
+      "key": "rtn biop proc",
+      "previous_service_id": "H1-S092",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Routine Cardiac Specimen Analysis",
+      "key": "rtn cardiac specimen",
+      "previous_service_id": "H1-S083",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Routine Gastrointestinal Transfusion Service",
+      "key": "rtn gi svc",
+      "previous_service_id": "H1-S085",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Standard Paediatric Biopsy Procedure",
+      "key": "std biop proc",
+      "previous_service_id": "H1-S103",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Standard Geriatric Nutritional Support",
+      "key": "std nutritional supp",
+      "previous_service_id": "H1-S101",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Standard Paediatric Biopsy Procedure",
+      "key": "std paediatric proc",
+      "previous_service_id": "H1-S103",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Preoperative Geriatric Ventilation Support",
+      "key": "supp geriatric vent",
+      "previous_service_id": "H1-S077",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Supervised Renal Isolation Room Occupancy",
+      "key": "supv isol rm occupancy",
+      "previous_service_id": "H1-S108",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Intermittent Dermatologic Transfusion Service",
+      "key": "svc interm transf",
+      "previous_service_id": "H1-S066",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    },
+    {
+      "candidate_name": "Ambulatory Cardiac Home Visit",
+      "key": "visit cardiac hm",
+      "previous_service_id": "H1-S008",
+      "reason": "Essential name concepts are missing or conflated; catalog uniqueness does not establish identity."
+    }
+  ],
+  "check_exposure": false,
+  "decision": "D007",
+  "development_exposure": true,
+  "new_raw_sha256": "4267bd00daa29d21635d2010e0c4d9c0ba131e2a39ea1ea18931b37ae887873a",
+  "observation": "INV-H1-000236 mapped Fract Outpatient Radiotherapy to Outpatient Metabolic Radiotherapy Fraction without evidence for Metabolic. H1 development label says unknown_service; corrected total differed by 43650 cents.",
+  "previous_expectation": "Unique in-catalog lexical candidates with elided qualifiers were accepted.",
+  "resolution": "Apply the stricter semantic policy to all H1 mappings and every subsequent hospital; no invoice-specific price correction or target labels.",
+  "source_evidence": "README: descriptions must be mapped; no assertion that every service is contracted. H1 rate table has a qualified name, not a generic outpatient radiotherapy rate."
+}

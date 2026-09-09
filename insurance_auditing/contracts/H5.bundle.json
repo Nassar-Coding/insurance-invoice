@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "contracts/hospital_5.json": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246",
+    "mappings/hospital_5.json": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34",
+    "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+    "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7"
+  },
+  "contract_path": "contracts/hospital_5.json",
+  "hospital": "H5",
+  "mapping_path": "mappings/hospital_5.json",
+  "review_evidence": [
+    "reports/H5_source_review.json",
+    "reports/H5_candidate_closure.json",
+    "docs/decision_register.md"
+  ],
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics_version": "2",
+  "source_hashes": {
+    "data/source/contracts/hospital_5/network_reimbursement_agreement.md": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa"
+  }
+}

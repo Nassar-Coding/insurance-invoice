@@ -1,0 +1,27 @@
+{
+  "elapsed_seconds": 8.096699,
+  "errors": 0,
+  "failures": 0,
+  "python": "3.12.13",
+  "skipped": 0,
+  "success": true,
+  "tested_files": {
+    "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+    "src/insurance_audit/__main__.py": "4c962f3f14228b90b9d438f18c2c1d4e10e273f0e199182f6eae3f58d0b5f66a",
+    "src/insurance_audit/audit.py": "bce6299b0c6bd1e25d1c980d8fd52f50aff418b6c9e5460da2d6a10dcb0777bd",
+    "src/insurance_audit/batch.py": "7970e4abd6c03ca0edc7b5fa37ec7c90d51a8e436a61816db631c4b513ee7b4f",
+    "src/insurance_audit/checks.py": "f273bee7676ecbba8050c51633c8c9d20ed7e8ddd9c764f3e8b9cb2ac14922de",
+    "src/insurance_audit/context.py": "e0000d5e3d973f066038c610d2a3ea1ed8198e93dc154b3242866695c8c8f178",
+    "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+    "src/insurance_audit/io.py": "41b17b52318cfdc5885a6b13e6b328ffb534e7c1ac5af3b1959f9e8afbe66c5d",
+    "src/insurance_audit/pricing.py": "aab8306f903bb3e232dc6a5f7ad6c3d3aa7d6d07457f096d08c762fd49a36853",
+    "src/insurance_audit/resolve.py": "8380b097b208f617c04ef8f448a1481b9272eeab2fd5709b54c4e7b410041745",
+    "src/insurance_audit/schema.py": "a042f1b0b689e8bae1f8d5f62dd6bd1822e3167c38da61756ed3678310882cb9",
+    "tests/test_batch.py": "5cdb7ae04e53a3a349d27838b42810def56f661c657166d661643820628f7593",
+    "tests/test_inputs.py": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134",
+    "tests/test_pricing.py": "691298110111f81f0e4aacf1066615d33ab0127a747b27d5ced4d4f8e488c391",
+    "tests/test_schema.py": "c03939305c280ef809f5db30ab96b96c5bd4199a53a1cff2e0b50cc265e49e15"
+  },
+  "tests_run": 31,
+  "utc": "2026-09-07T03:37:49.079736+00:00"
+}

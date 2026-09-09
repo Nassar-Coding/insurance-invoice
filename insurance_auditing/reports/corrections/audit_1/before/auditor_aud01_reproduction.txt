@@ -1,0 +1,32 @@
+{
+  "malformed_header": false,
+  "I1_opinion": null,
+  "validation": {
+    "opinions_checked": 0,
+    "traces_checked": 2,
+    "supported_lines_checked": 0
+  }
+}
+{
+  "malformed_header": true,
+  "I1_opinion": {
+    "invoice_id": "I1",
+    "hospital": "H1",
+    "flagged": 1,
+    "error_category": "effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch;nonbillable_service",
+    "expected_total_cents": 0,
+    "billed_total_cents": 9200,
+    "confidence": 0.65,
+    "mapping_evidence": "explicit",
+    "outcome_invariant_uncertainty": false,
+    "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+    "interpretation_qualifications": [],
+    "trace_key": "I1",
+    "confidence_tier": "sparse:explicit:1"
+  },
+  "validation": {
+    "opinions_checked": 1,
+    "traces_checked": 2,
+    "supported_lines_checked": 1
+  }
+}

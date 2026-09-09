@@ -1,0 +1,30 @@
+{
+  "decision_log": {
+    "file": "reports/decision_log.pdf",
+    "pages": 1,
+    "limit": 1,
+    "sha256": "d259d2379aa557736693cc6579f4ba53c3e2c5716fb15b4475dff25fcee6a64f",
+    "text_characters": 3520,
+    "markdown_sha256": "8c3264c37f3709859aa3f38fac3296a53dd8a54e1315ccb20701fb2425109878"
+  },
+  "submission_writeup": {
+    "file": "reports/submission_writeup.pdf",
+    "pages": 2,
+    "limit": 2,
+    "sha256": "28a0840ca13aa5f0322110ae83b95a69260ca4bceb82bc6473ebaac2e6d25506",
+    "text_characters": 6964,
+    "markdown_sha256": "12bfa78061b573b17362e70a738cccebb7985d25e2487ad7a85514f6bfdeb41a"
+  },
+  "visual_inspection": {
+    "status": "passed",
+    "pages_inspected": 3,
+    "method": "Author viewed all three freshly rendered PNG pages after factual correction updates. No clipping, overlap, missing glyphs or pagination defects observed.",
+    "role": "author verification, not independent closure re-audit",
+    "render": "pdftoppm -r 110 -png",
+    "page_images_sha256": {
+      "reports/corrections/audit_1/after/document_pages/submission_writeup-2.png": "03de92d6d7c4c7b0f38808d0e823d7f1661b6093c64f1ebe4ef180cdf749ae54",
+      "reports/corrections/audit_1/after/document_pages/submission_writeup-1.png": "c69967b6ef33a818edc97e0ec332997cb4772eff38436f1abc72225a243764cd",
+      "reports/corrections/audit_1/after/document_pages/decision_log-1.png": "44c66c0f3a7bd12a1f045876c4d73a66aa08b0d1393bf7c2cec9924775d0a11a"
+    }
+  }
+}

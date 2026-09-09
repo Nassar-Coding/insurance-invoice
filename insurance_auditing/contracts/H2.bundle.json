@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "contracts/hospital_2.json": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578",
+    "mappings/hospital_2.json": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb",
+    "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+    "reports/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae"
+  },
+  "contract_path": "contracts/hospital_2.json",
+  "hospital": "H2",
+  "mapping_path": "mappings/hospital_2.json",
+  "review_evidence": [
+    "reports/H2_source_review.json",
+    "reports/H2_candidate_closure.json",
+    "docs/decision_register.md"
+  ],
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics_version": "2",
+  "source_hashes": {
+    "data/source/contracts/hospital_2/master_services_agreement.md": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4"
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "check": {
+    "abstained": 210,
+    "ambiguity_sensitive_support": 0,
+    "amount_accuracy_covered": 1.0,
+    "amount_mae_cents_covered": 0.0,
+    "confidence_groups": {
+      "h1_supported:elided:0": {
+        "brier_score": 0.009999999999999995,
+        "mean_confidence": 0.9,
+        "n": 34,
+        "successes": 34,
+        "whole_row_accuracy": 1.0
+      },
+      "h1_supported:explicit:0": {
+        "brier_score": 0.0025000000000000044,
+        "mean_confidence": 0.95,
+        "n": 46,
+        "successes": 46,
+        "whole_row_accuracy": 1.0
+      },
+      "sparse:elided:1": {
+        "brier_score": 0.12249999999999998,
+        "mean_confidence": 0.65,
+        "n": 1,
+        "successes": 1,
+        "whole_row_accuracy": 1.0
+      }
+    },
+    "coverage": 0.27835051546391754,
+    "covered": 81,
+    "flag_accuracy_covered": 1.0,
+    "flag_metrics_all": {
+      "f1": 0.11764705882352941,
+      "fn_including_abstentions": 15,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.0625,
+      "support": 16,
+      "tn_emitted": 80,
+      "tp": 1
+    },
+    "flag_metrics_covered": {
+      "f1": 1.0,
+      "fn_including_abstentions": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 1,
+      "tn_emitted": 80,
+      "tp": 1
+    },
+    "per_category_family": {
+      "date": {
+        "f1": 0.0,
+        "fn_including_abstentions": 3,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 3,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "duplicate": {
+        "f1": 0.0,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 2,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "eligibility": {
+        "f1": 0.0,
+        "fn_including_abstentions": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 1,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "identity": {
+        "f1": 0.0,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 2,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "invoice_arithmetic": {
+        "f1": 0.0,
+        "fn_including_abstentions": 1,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 1,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "line_arithmetic": {
+        "f1": 0.0,
+        "fn_including_abstentions": 3,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 3,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "mapping": {
+        "f1": 0.0,
+        "fn_including_abstentions": 3,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 3,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "pricing": {
+        "f1": 0.0,
+        "fn_including_abstentions": 6,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 6,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "quantity": {
+        "f1": 0.0,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 2,
+        "tn_emitted": 81,
+        "tp": 0
+      },
+      "unit": {
+        "f1": 0.3333333333333333,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.2,
+        "support": 5,
+        "tn_emitted": 80,
+        "tp": 1
+      }
+    },
+    "per_original_label_detection": {
+      "bundle_not_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "contract_number_mismatch": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "cross_invoice_duplicate": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "daily_cap_exceeded": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "duplicate_invoice_id": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "exclusion_window_violation": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "invoice_total_mismatch": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "line_total_arithmetic": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "malformed_service_date": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "premium_incorrectly_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "service_date_out_of_window": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "unit_price_mismatch": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "unknown_service": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "volume_discount_incorrectly_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "volume_discount_omitted": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 1,
+        "whole_row_success": 0
+      },
+      "wrong_unit_basis": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.2,
+        "flagged": 1,
+        "support": 5,
+        "whole_row_success": 1
+      }
+    },
+    "population": 291,
+    "unmapped_truth_categories": [],
+    "whole_row_accuracy_covered": 1.0,
+    "whole_row_success_count": 81
+  },
+  "development": {
+    "abstained": 453,
+    "ambiguity_sensitive_support": 0,
+    "amount_accuracy_covered": 1.0,
+    "amount_mae_cents_covered": 0.0,
+    "confidence_groups": {
+      "h1_supported:elided:0": {
+        "brier_score": 0.009999999999999995,
+        "mean_confidence": 0.9,
+        "n": 43,
+        "successes": 43,
+        "whole_row_accuracy": 1.0
+      },
+      "h1_supported:explicit:0": {
+        "brier_score": 0.0025000000000000044,
+        "mean_confidence": 0.95,
+        "n": 122,
+        "successes": 122,
+        "whole_row_accuracy": 1.0
+      },
+      "sparse:explicit:1": {
+        "brier_score": 0.12249999999999998,
+        "mean_confidence": 0.65,
+        "n": 4,
+        "successes": 4,
+        "whole_row_accuracy": 1.0
+      }
+    },
+    "coverage": 0.2717041800643087,
+    "covered": 169,
+    "flag_accuracy_covered": 1.0,
+    "flag_metrics_all": {
+      "f1": 0.17391304347826086,
+      "fn_including_abstentions": 38,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.09523809523809523,
+      "support": 42,
+      "tn_emitted": 165,
+      "tp": 4
+    },
+    "flag_metrics_covered": {
+      "f1": 1.0,
+      "fn_including_abstentions": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 4,
+      "tn_emitted": 165,
+      "tp": 4
+    },
+    "per_category_family": {
+      "date": {
+        "f1": 0.0,
+        "fn_including_abstentions": 12,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 12,
+        "tn_emitted": 169,
+        "tp": 0
+      },
+      "duplicate": {
+        "f1": 0.0,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 2,
+        "tn_emitted": 169,
+        "tp": 0
+      },
+      "eligibility": {
+        "f1": 0.0,
+        "fn_including_abstentions": 3,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 3,
+        "tn_emitted": 169,
+        "tp": 0
+      },
+      "identity": {
+        "f1": 0.25,
+        "fn_including_abstentions": 6,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.14285714285714285,
+        "support": 7,
+        "tn_emitted": 168,
+        "tp": 1
+      },
+      "invoice_arithmetic": {
+        "f1": 0.3333333333333333,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.2,
+        "support": 5,
+        "tn_emitted": 168,
+        "tp": 1
+      },
+      "line_arithmetic": {
+        "f1": 0.5,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "support": 3,
+        "tn_emitted": 168,
+        "tp": 1
+      },
+      "mapping": {
+        "f1": 0.0,
+        "fn_including_abstentions": 9,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 9,
+        "tn_emitted": 169,
+        "tp": 0
+      },
+      "pricing": {
+        "f1": 0.17391304347826086,
+        "fn_including_abstentions": 19,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.09523809523809523,
+        "support": 21,
+        "tn_emitted": 167,
+        "tp": 2
+      },
+      "quantity": {
+        "f1": 0.0,
+        "fn_including_abstentions": 2,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 2,
+        "tn_emitted": 169,
+        "tp": 0
+      },
+      "unit": {
+        "f1": 0.5,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "support": 6,
+        "tn_emitted": 167,
+        "tp": 2
+      }
+    },
+    "per_original_label_detection": {
+      "bundle_not_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "contract_number_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.25,
+        "flagged": 1,
+        "support": 4,
+        "whole_row_success": 1
+      },
+      "cross_invoice_duplicate": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "daily_cap_exceeded": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 2,
+        "whole_row_success": 0
+      },
+      "duplicate_invoice_id": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "exclusion_window_violation": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "invoice_total_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.2,
+        "flagged": 1,
+        "support": 5,
+        "whole_row_success": 1
+      },
+      "line_total_arithmetic": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.3333333333333333,
+        "flagged": 1,
+        "support": 3,
+        "whole_row_success": 1
+      },
+      "malformed_service_date": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "premium_incorrectly_applied": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.2,
+        "flagged": 1,
+        "support": 5,
+        "whole_row_success": 1
+      },
+      "premium_omitted": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "service_date_after_invoice_date": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 5,
+        "whole_row_success": 0
+      },
+      "service_date_out_of_window": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "unit_price_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.14285714285714285,
+        "flagged": 1,
+        "support": 7,
+        "whole_row_success": 1
+      },
+      "unknown_service": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 9,
+        "whole_row_success": 0
+      },
+      "volume_discount_incorrectly_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "volume_discount_omitted": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "wrong_unit_basis": {
+        "amount_exact": 2,
+        "covered": 2,
+        "detection_recall_all": 0.3333333333333333,
+        "flagged": 2,
+        "support": 6,
+        "whole_row_success": 2
+      }
+    },
+    "population": 622,
+    "unmapped_truth_categories": [],
+    "whole_row_accuracy_covered": 1.0,
+    "whole_row_success_count": 169
+  },
+  "full": {
+    "abstained": 663,
+    "ambiguity_sensitive_support": 0,
+    "amount_accuracy_covered": 1.0,
+    "amount_mae_cents_covered": 0.0,
+    "confidence_groups": {
+      "h1_supported:elided:0": {
+        "brier_score": 0.009999999999999995,
+        "mean_confidence": 0.8999999999999999,
+        "n": 77,
+        "successes": 77,
+        "whole_row_accuracy": 1.0
+      },
+      "h1_supported:explicit:0": {
+        "brier_score": 0.0025000000000000044,
+        "mean_confidence": 0.95,
+        "n": 168,
+        "successes": 168,
+        "whole_row_accuracy": 1.0
+      },
+      "sparse:elided:1": {
+        "brier_score": 0.12249999999999998,
+        "mean_confidence": 0.65,
+        "n": 1,
+        "successes": 1,
+        "whole_row_accuracy": 1.0
+      },
+      "sparse:explicit:1": {
+        "brier_score": 0.12249999999999998,
+        "mean_confidence": 0.65,
+        "n": 4,
+        "successes": 4,
+        "whole_row_accuracy": 1.0
+      }
+    },
+    "coverage": 0.2738225629791895,
+    "covered": 250,
+    "flag_accuracy_covered": 1.0,
+    "flag_metrics_all": {
+      "f1": 0.15873015873015872,
+      "fn_including_abstentions": 53,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.08620689655172414,
+      "support": 58,
+      "tn_emitted": 245,
+      "tp": 5
+    },
+    "flag_metrics_covered": {
+      "f1": 1.0,
+      "fn_including_abstentions": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 5,
+      "tn_emitted": 245,
+      "tp": 5
+    },
+    "per_category_family": {
+      "date": {
+        "f1": 0.0,
+        "fn_including_abstentions": 15,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 15,
+        "tn_emitted": 250,
+        "tp": 0
+      },
+      "duplicate": {
+        "f1": 0.0,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 4,
+        "tn_emitted": 250,
+        "tp": 0
+      },
+      "eligibility": {
+        "f1": 0.0,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 4,
+        "tn_emitted": 250,
+        "tp": 0
+      },
+      "identity": {
+        "f1": 0.2,
+        "fn_including_abstentions": 8,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.1111111111111111,
+        "support": 9,
+        "tn_emitted": 249,
+        "tp": 1
+      },
+      "invoice_arithmetic": {
+        "f1": 0.2857142857142857,
+        "fn_including_abstentions": 5,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "support": 6,
+        "tn_emitted": 249,
+        "tp": 1
+      },
+      "line_arithmetic": {
+        "f1": 0.2857142857142857,
+        "fn_including_abstentions": 5,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "support": 6,
+        "tn_emitted": 249,
+        "tp": 1
+      },
+      "mapping": {
+        "f1": 0.0,
+        "fn_including_abstentions": 12,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 12,
+        "tn_emitted": 250,
+        "tp": 0
+      },
+      "pricing": {
+        "f1": 0.13793103448275862,
+        "fn_including_abstentions": 25,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.07407407407407407,
+        "support": 27,
+        "tn_emitted": 248,
+        "tp": 2
+      },
+      "quantity": {
+        "f1": 0.0,
+        "fn_including_abstentions": 4,
+        "fp": 0,
+        "precision": null,
+        "recall": 0.0,
+        "support": 4,
+        "tn_emitted": 250,
+        "tp": 0
+      },
+      "unit": {
+        "f1": 0.42857142857142855,
+        "fn_including_abstentions": 8,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 0.2727272727272727,
+        "support": 11,
+        "tn_emitted": 247,
+        "tp": 3
+      }
+    },
+    "per_original_label_detection": {
+      "bundle_not_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 5,
+        "whole_row_success": 0
+      },
+      "contract_number_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.2,
+        "flagged": 1,
+        "support": 5,
+        "whole_row_success": 1
+      },
+      "cross_invoice_duplicate": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "daily_cap_exceeded": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "duplicate_invoice_id": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 5,
+        "whole_row_success": 0
+      },
+      "exclusion_window_violation": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "invoice_total_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.16666666666666666,
+        "flagged": 1,
+        "support": 6,
+        "whole_row_success": 1
+      },
+      "line_total_arithmetic": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.16666666666666666,
+        "flagged": 1,
+        "support": 6,
+        "whole_row_success": 1
+      },
+      "malformed_service_date": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 6,
+        "whole_row_success": 0
+      },
+      "premium_incorrectly_applied": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.16666666666666666,
+        "flagged": 1,
+        "support": 6,
+        "whole_row_success": 1
+      },
+      "premium_omitted": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 3,
+        "whole_row_success": 0
+      },
+      "service_date_after_invoice_date": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 5,
+        "whole_row_success": 0
+      },
+      "service_date_out_of_window": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 5,
+        "whole_row_success": 0
+      },
+      "unit_price_mismatch": {
+        "amount_exact": 1,
+        "covered": 1,
+        "detection_recall_all": 0.1,
+        "flagged": 1,
+        "support": 10,
+        "whole_row_success": 1
+      },
+      "unknown_service": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 12,
+        "whole_row_success": 0
+      },
+      "volume_discount_incorrectly_applied": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "volume_discount_omitted": {
+        "amount_exact": 0,
+        "covered": 0,
+        "detection_recall_all": 0.0,
+        "flagged": 0,
+        "support": 4,
+        "whole_row_success": 0
+      },
+      "wrong_unit_basis": {
+        "amount_exact": 3,
+        "covered": 3,
+        "detection_recall_all": 0.2727272727272727,
+        "flagged": 3,
+        "support": 11,
+        "whole_row_success": 3
+      }
+    },
+    "population": 913,
+    "unmapped_truth_categories": [],
+    "whole_row_accuracy_covered": 1.0,
+    "whole_row_success_count": 250
+  }
+}

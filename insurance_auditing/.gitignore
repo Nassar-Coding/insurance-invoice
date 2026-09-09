@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.coverage
+reports/runs/*/staging/
+
+# Audited attempt history is retained in a bundle; new runs are regenerated.
+/runs/*
+!/runs/README.md
+/reports/tests_local.*
+/reports/tests_clean_clone.*
+/evidence/publishing/latest_reproduction/
+/evidence/publishing/document_checks_latest.json
+/tmp/

@@ -1,0 +1,396 @@
+{
+  "audit_sha256": "d5c869c8e76003f108230bfd6377a59387b10b794e3ea7a057ff9ab2580047f4",
+  "before_git_commit": "d468718711de952be5300906ee09a85d3d35ec2c",
+  "bundle_stage_checks": {
+    "H1": {
+      "applied_bundle_clauses_checked": 100,
+      "base_or_bundle_stages_checked": 2499
+    },
+    "H2": {
+      "applied_bundle_clauses_checked": 0,
+      "base_or_bundle_stages_checked": 0
+    },
+    "H3": {
+      "applied_bundle_clauses_checked": 76,
+      "base_or_bundle_stages_checked": 1383
+    },
+    "H4": {
+      "applied_bundle_clauses_checked": 84,
+      "base_or_bundle_stages_checked": 543
+    },
+    "H5": {
+      "applied_bundle_clauses_checked": 92,
+      "base_or_bundle_stages_checked": 1180
+    }
+  },
+  "current_runs": {
+    "H1": {
+      "attempt": "a1ee1b9f209f4f41913349e165fe8a26",
+      "identity": {
+        "files": {
+          "contracts/H1.bundle.json": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56",
+          "contracts/hospital_1.json": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb",
+          "data/source/contracts/hospital_1/provider_services_agreement.md": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853",
+          "data/source/invoices/hospital_1_invoices.csv": "2943c887c5f4c1e81c01893ff54f0cbac770451259d180040fec45924ee37b5f",
+          "data/source/invoices/hospital_1_line_items.csv": "ca3a1b8b14a3d8541aa3941563750a4f9447ffb972b730e3dd2e55c2523904cb",
+          "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+          "mappings/hospital_1.json": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1",
+          "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+          "reports/H1_source_review.json": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
+          "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+          "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+          "src/insurance_audit/audit.py": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+          "src/insurance_audit/batch.py": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+          "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+          "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+          "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+          "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+          "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+          "src/insurance_audit/io.py": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+          "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+          "src/insurance_audit/pricing.py": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+          "src/insurance_audit/reporting.py": "e9e6070565007506499624bdeff09a0f4ed7f943546baafec4776457caeee725",
+          "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+          "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+          "src/insurance_audit/submission.py": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485"
+        },
+        "hospitals": [
+          "H1"
+        ],
+        "python": "3.12.13"
+      },
+      "outputs": {
+        "H1.input_quality.json": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089",
+        "H1.json": "3c01ab7f295ee6bfc73c362b60e90509d8f39d8fc0366b33a2bcd811f872aa02"
+      },
+      "run_id": "bdbdacb0da2df2bfe3ecf34be1ea195ce722c7bdb9cd04ff01af865c288280cf"
+    },
+    "H2-H3-H4-H5": {
+      "attempt": "4d449a6fc6fc49399da2cd567bdb1b51",
+      "identity": {
+        "files": {
+          "contracts/H2.bundle.json": "f90bc694381c2d393dea242c44f0c0e4f353a9f5781d4edbc457b2ec56590295",
+          "contracts/H3.bundle.json": "d91a266777e2957490dfbf40adaf06a1b0cd7d7e3fe25d6d5eb02ae8f7617baa",
+          "contracts/H4.bundle.json": "5cc23a0245e1ec48b9bbd5b8236c2d811f6bc80bc992977ad561b6ce39082ea9",
+          "contracts/H5.bundle.json": "f3781fece3eba15064413e8f46e2fb1cb0252d3093318e5267d2ac6d6535b417",
+          "contracts/hospital_2.json": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578",
+          "contracts/hospital_3.json": "b7b7041fb9bd909d85cfa2ee0b06f710028e21e8e3c9a4a1752ee4647994a259",
+          "contracts/hospital_4.json": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688",
+          "contracts/hospital_5.json": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246",
+          "data/source/contracts/hospital_2/master_services_agreement.md": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4",
+          "data/source/contracts/hospital_3/amendment_no_1.md": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+          "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+          "data/source/contracts/hospital_3/base_agreement.md": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264",
+          "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3",
+          "data/source/contracts/hospital_5/network_reimbursement_agreement.md": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa",
+          "data/source/invoices/hospital_2_invoices.csv": "a9e85c63af5e029817c7c812100049027509d17c5143d4b30328662a59afcbc4",
+          "data/source/invoices/hospital_2_line_items.csv": "52af82b2b21c47308f0f8b28a229fc479c5b1e3b6c617795125eb301d6c026aa",
+          "data/source/invoices/hospital_3_invoices.csv": "6db01aac3097839d3670e6f0afec9d57f9fcce555de9e9664fe78c0c02581f73",
+          "data/source/invoices/hospital_3_line_items.csv": "87d467cc96af406ad1636c76e426bf7d8bf7e99c098d59adeb139e2ec2d2bb90",
+          "data/source/invoices/hospital_4_invoices.csv": "94697b99a6788c87dd80f63aae339fe330d58ad4fdf0aa5ead10591668024fda",
+          "data/source/invoices/hospital_4_line_items.csv": "c17a6b131bccb5885815ba8e61c110196a849bc49d154ace2d1d8acf6c43c18b",
+          "data/source/invoices/hospital_5_invoices.csv": "f7c5dc3afb2c4a0e922cf9f4cbff7849427eb9cce5212c58ea3231d9e1a310dc",
+          "data/source/invoices/hospital_5_line_items.csv": "0fcdf6f2238e4700d4c600a5f465248ea2a35719e0835d50ff512614604dc6d0",
+          "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+          "mappings/hospital_2.json": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb",
+          "mappings/hospital_3.json": "a9d418d873c43df617191b9e6d9334cb7f30d034fe37eb7438d445714c732ab6",
+          "mappings/hospital_4.json": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d",
+          "mappings/hospital_5.json": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34",
+          "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+          "reports/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae",
+          "reports/H3_source_review.json": "46ddb510cbde4f3384447b370bbb8e98679762f42c5c949f79e97f1db31da47a",
+          "reports/H4_source_review.json": "a0b3440da192b8be601780adcd828d42003f1fdff3d4edac43584bc35bf4e112",
+          "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7",
+          "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+          "src/insurance_audit/__main__.py": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+          "src/insurance_audit/audit.py": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+          "src/insurance_audit/batch.py": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+          "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+          "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+          "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+          "src/insurance_audit/evaluation.py": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+          "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+          "src/insurance_audit/io.py": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+          "src/insurance_audit/pipeline.py": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+          "src/insurance_audit/pricing.py": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+          "src/insurance_audit/reporting.py": "e9e6070565007506499624bdeff09a0f4ed7f943546baafec4776457caeee725",
+          "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+          "src/insurance_audit/schema.py": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+          "src/insurance_audit/submission.py": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485"
+        },
+        "hospitals": [
+          "H2",
+          "H3",
+          "H4",
+          "H5"
+        ],
+        "python": "3.12.13"
+      },
+      "outputs": {
+        "H2.input_quality.json": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f",
+        "H2.json": "0fdf96982a5a7fb57287704abd393a3e24e78b4569fd97b2efed09e5b2105ac1",
+        "H3.input_quality.json": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37",
+        "H3.json": "0d05535d8f7369d717861956802f330250f4365208b2e9b2fee730da6aae6484",
+        "H4.input_quality.json": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca",
+        "H4.json": "c084a1a8dfa7d74979deb76f101d4314a9a248ffaaab7c8997c26c08248fa36e",
+        "H5.input_quality.json": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8",
+        "H5.json": "7d5759d59fc0557838118edc7e5d93df6bbcd88f68749ba9cfa71263cf95d119"
+      },
+      "run_id": "c7962cbc08d9ee5b23029aa19e45d2ef2d899b4c62607ecbac59379436c0e86d"
+    }
+  },
+  "evaluation_report_change": "H2 admission/discharge dates clarified; independent audit/correction stage history refreshed. Metrics unchanged.",
+  "findings": {
+    "AUD-01": {
+      "counterexamples": [
+        {
+          "I1_opinion": null,
+          "I1_reason": "unresolved_exclusion",
+          "I2_disposition": "abstained",
+          "malformed_header": false,
+          "validation": {
+            "opinions_checked": 0,
+            "supported_lines_checked": 0,
+            "traces_checked": 2
+          }
+        },
+        {
+          "I1_opinion": null,
+          "I1_reason": "unresolved_exclusion",
+          "I2_disposition": "abstained",
+          "malformed_header": true,
+          "validation": {
+            "opinions_checked": 0,
+            "supported_lines_checked": 0,
+            "traces_checked": 2
+          }
+        }
+      ],
+      "decision": "Accept",
+      "status": "corrected and regression verified"
+    },
+    "AUD-02": {
+      "counts": {
+        "H1": {
+          "invoices": 48,
+          "lines": 100
+        },
+        "H2": {
+          "invoices": 0,
+          "lines": 0
+        },
+        "H3": {
+          "invoices": 33,
+          "lines": 76
+        },
+        "H4": {
+          "invoices": 28,
+          "lines": 84
+        },
+        "H5": {
+          "invoices": 42,
+          "lines": 92
+        }
+      },
+      "decision": "Accept",
+      "invoices": 151,
+      "lines": 352,
+      "status": "corrected and source/context verified",
+      "target_invoices": 103,
+      "target_lines": 252
+    }
+  },
+  "hospital_comparisons": {
+    "H1": {
+      "accounting_identical": true,
+      "after_attempt": "a1ee1b9f209f4f41913349e165fe8a26",
+      "all_result_fields_except_declared_bundle_metadata_identical": true,
+      "before_attempt": "21de44a39e574fcab93b00230f9ffdc5",
+      "bundle_stage_occurrences_with_new_metadata": 10239,
+      "changed_abstention_detail_records": 119,
+      "changed_trace_invoices": 900,
+      "confidence_counts": {
+        "0.65": 5,
+        "0.9": 77,
+        "0.95": 168
+      },
+      "counts": {
+        "abstentions": 663,
+        "accepted_invoice_records": 918,
+        "accepted_line_records": 11409,
+        "context_records": 11415,
+        "opinions": 250,
+        "orphan_line_count": 0,
+        "quarantined_records": 6,
+        "raw_records": 12333,
+        "unique_invoice_ids": 913
+      },
+      "occurrence_note": "Counts include nested stages in uncertain diagnostics; the same diagnostic can appear in trace and abstention records.",
+      "omitted_ids_and_reason_categories_identical": true,
+      "opinion_records_identical": true,
+      "opinion_records_sha256": "c444a73208a8d15ae07a35bccfa37794cf175516f23e7b9916da02355516ce07",
+      "quarantined_invoice_headers": 0,
+      "semantic_result_sha256": "e9f17339a6f3789aeb1ae1f203c23d3adb4ce641ab79d464065e79be1e0d6c43"
+    },
+    "H2": {
+      "accounting_identical": true,
+      "after_attempt": "4d449a6fc6fc49399da2cd567bdb1b51",
+      "all_result_fields_except_declared_bundle_metadata_identical": true,
+      "before_attempt": "521a93eae8af41ad94469b9968c36633",
+      "bundle_stage_occurrences_with_new_metadata": 15413,
+      "changed_abstention_detail_records": 953,
+      "changed_trace_invoices": 1110,
+      "confidence_counts": {},
+      "counts": {
+        "abstentions": 1125,
+        "accepted_invoice_records": 1132,
+        "accepted_line_records": 14352,
+        "context_records": 14360,
+        "opinions": 0,
+        "orphan_line_count": 0,
+        "quarantined_records": 8,
+        "raw_records": 15492,
+        "unique_invoice_ids": 1125
+      },
+      "occurrence_note": "Counts include nested stages in uncertain diagnostics; the same diagnostic can appear in trace and abstention records.",
+      "omitted_ids_and_reason_categories_identical": true,
+      "opinion_records_identical": true,
+      "opinion_records_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "quarantined_invoice_headers": 0,
+      "semantic_result_sha256": "215d2d424a15df2aa6bb21e8185aabce31d127b7cb3dc66beceaf5cd8f820a8e"
+    },
+    "H3": {
+      "accounting_identical": true,
+      "after_attempt": "4d449a6fc6fc49399da2cd567bdb1b51",
+      "all_result_fields_except_declared_bundle_metadata_identical": true,
+      "before_attempt": "521a93eae8af41ad94469b9968c36633",
+      "bundle_stage_occurrences_with_new_metadata": 10137,
+      "changed_abstention_detail_records": 196,
+      "changed_trace_invoices": 918,
+      "confidence_counts": {
+        "0.7": 27,
+        "0.8": 121
+      },
+      "counts": {
+        "abstentions": 784,
+        "accepted_invoice_records": 939,
+        "accepted_line_records": 11648,
+        "context_records": 11655,
+        "opinions": 148,
+        "orphan_line_count": 0,
+        "quarantined_records": 7,
+        "raw_records": 12594,
+        "unique_invoice_ids": 932
+      },
+      "occurrence_note": "Counts include nested stages in uncertain diagnostics; the same diagnostic can appear in trace and abstention records.",
+      "omitted_ids_and_reason_categories_identical": true,
+      "opinion_records_identical": true,
+      "opinion_records_sha256": "9d61a79e027a344e69205cacfde343cb0b8515b8560d6f7f7867f3b1d4fb5f7e",
+      "quarantined_invoice_headers": 0,
+      "semantic_result_sha256": "3e5723ac63683295947a7d31d0fd2d2bc7b0ca9448c8f52793b99fccea644b0c"
+    },
+    "H4": {
+      "accounting_identical": true,
+      "after_attempt": "4d449a6fc6fc49399da2cd567bdb1b51",
+      "all_result_fields_except_declared_bundle_metadata_identical": true,
+      "before_attempt": "521a93eae8af41ad94469b9968c36633",
+      "bundle_stage_occurrences_with_new_metadata": 9005,
+      "changed_abstention_detail_records": 312,
+      "changed_trace_invoices": 822,
+      "confidence_counts": {
+        "0.7": 14,
+        "0.8": 50
+      },
+      "counts": {
+        "abstentions": 771,
+        "accepted_invoice_records": 840,
+        "accepted_line_records": 10554,
+        "context_records": 10560,
+        "opinions": 64,
+        "orphan_line_count": 0,
+        "quarantined_records": 6,
+        "raw_records": 11400,
+        "unique_invoice_ids": 835
+      },
+      "occurrence_note": "Counts include nested stages in uncertain diagnostics; the same diagnostic can appear in trace and abstention records.",
+      "omitted_ids_and_reason_categories_identical": true,
+      "opinion_records_identical": true,
+      "opinion_records_sha256": "a8269f03c855be793eb4c8b12e4f5a4742baa25463dcd5692c3450fc6651c93f",
+      "quarantined_invoice_headers": 0,
+      "semantic_result_sha256": "79ba9289624f9a6073d24d33ac547f3265021474572f5cdb00db6aa129707a26"
+    },
+    "H5": {
+      "accounting_identical": true,
+      "after_attempt": "4d449a6fc6fc49399da2cd567bdb1b51",
+      "all_result_fields_except_declared_bundle_metadata_identical": true,
+      "before_attempt": "521a93eae8af41ad94469b9968c36633",
+      "bundle_stage_occurrences_with_new_metadata": 11717,
+      "changed_abstention_detail_records": 318,
+      "changed_trace_invoices": 1034,
+      "confidence_counts": {
+        "0.65": 128
+      },
+      "counts": {
+        "abstentions": 922,
+        "accepted_invoice_records": 1057,
+        "accepted_line_records": 13213,
+        "context_records": 13221,
+        "opinions": 128,
+        "orphan_line_count": 0,
+        "quarantined_records": 8,
+        "raw_records": 14278,
+        "unique_invoice_ids": 1050
+      },
+      "occurrence_note": "Counts include nested stages in uncertain diagnostics; the same diagnostic can appear in trace and abstention records.",
+      "omitted_ids_and_reason_categories_identical": true,
+      "opinion_records_identical": true,
+      "opinion_records_sha256": "24c085a7dd186a4e8158c927d2799c9c300e38addf1d126e39805ccfe6ddfeaf",
+      "quarantined_invoice_headers": 0,
+      "semantic_result_sha256": "c3ae9cd11b995c2c2b491dd0e08e0d926391005d1ef533c5ec6fc17c61ce8c2e"
+    }
+  },
+  "remaining_limitations": [
+    "No target labels or target accuracy claim.",
+    "No quarantined headers in supplied snapshot: AUD-01 behavior change is demonstrated with source-rule fixtures.",
+    "Focused regressions are not proof for every arbitrary malformed input or rule combination.",
+    "Source/context checks are author verification and do not replace independent closure re-audit."
+  ],
+  "role": "author correction and regression verification; not independent closure re-audit",
+  "stable_outputs": {
+    "metrics.json": {
+      "after": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "before": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "byte_identical": true
+    },
+    "submission.csv": {
+      "after": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "before": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "byte_identical": true
+    },
+    "workload.json": {
+      "after": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "before": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "byte_identical": true
+    }
+  },
+  "status": "passed",
+  "submission_rows": 340,
+  "trace_tamper_checks": [
+    {
+      "mutation": "wrong_source",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_context",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_bundle_cents",
+      "rejected": true
+    }
+  ],
+  "verified_tool_hashes": {
+    "tools/inspect_bundle_traces.py": "e8a1d724d972f0008c31b48fcd947f8141fa8989f2387d65aa80da46aaaef3db",
+    "tools/verify_audit_corrections.py": "1901a8f596a3d8362a8b3a067d0c5cbd97b9ef873c593b513a5927faf1661755"
+  }
+}

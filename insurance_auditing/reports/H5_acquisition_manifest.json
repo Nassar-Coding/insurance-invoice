@@ -1,0 +1,15 @@
+{
+  "interpretation": "§1.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and §10.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. §9 direction/equality unresolved. §8 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved.",
+  "mode": "Work model source interpretation and deterministic table transcription, no programmatic model calls",
+  "prompts": {
+    "prompts/extract_v1.md": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "prompts/map_v2.md": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b",
+    "prompts/review_v1.md": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  "raw_contract_sha256": "329e281ef6e0319c11a77f8176dde1af90990cfab66d0d3ff3ec32720902688e",
+  "raw_mapping_sha256": "5398b0631535e4e8556d93f1adb513ddf3ecc5f3503bbe97d0c4e8d04b674a7e",
+  "source_review_state": "candidate, not accepted",
+  "sources": {
+    "data/source/contracts/hospital_5/network_reimbursement_agreement.md": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa"
+  }
+}

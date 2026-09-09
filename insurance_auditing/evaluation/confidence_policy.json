@@ -1,0 +1,50 @@
+{
+  "check_labels_used": false,
+  "development_report_sha256": "11d6b8d78eafc90c46e452bfbc8062e0ebd616cc40e183405dd8b104e919cfdc",
+  "development_run_id": "f45f7f6a283ebdf6128bba41a7b453728078daf45fa904b952c732b7929fd8b5",
+  "event": "flag correct and expected cents exact, with separately verified source billed total and traceable free-text diagnostics",
+  "h1_groups": {
+    "elided:0": {
+      "basis": "conservative lower-bound score, not a proven probability calibration",
+      "confidence": 0.9,
+      "n": 43,
+      "successes": 43,
+      "wilson_95_lower": 0.9179874299767727
+    },
+    "elided:1": {
+      "basis": "sparse policy judgment, not empirically calibrated",
+      "confidence": 0.65,
+      "n": 0,
+      "successes": 0,
+      "wilson_95_lower": null
+    },
+    "explicit:0": {
+      "basis": "conservative lower-bound score, not a proven probability calibration",
+      "confidence": 0.95,
+      "n": 122,
+      "successes": 122,
+      "wilson_95_lower": 0.9694727339766817
+    },
+    "explicit:1": {
+      "basis": "sparse policy judgment, not empirically calibrated",
+      "confidence": 0.65,
+      "n": 4,
+      "successes": 4,
+      "wilson_95_lower": 0.5100999795960008
+    }
+  },
+  "limitations": [
+    "No H2–5 labels exist; novel confidence values are policy judgments, never transferred empirical accuracy.",
+    "H1 patient groups share legitimate global utilisation; the check is not an independent external test.",
+    "Rare errors and explicit ambiguity are weakly supported even when emitted-row accuracy is high."
+  ],
+  "minimum_empirical_n": 30,
+  "outcome_invariant_cap": 0.65,
+  "interpretation_cap": 0.65,
+  "target_judgment": {
+    "elided": 0.7,
+    "explicit": 0.8
+  },
+  "unresolved": "omit entire row",
+  "version": "1"
+}

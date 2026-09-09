@@ -1,0 +1,18 @@
+{
+  "malformed_header": false,
+  "I1_opinion": null,
+  "validation": {
+    "opinions_checked": 0,
+    "traces_checked": 2,
+    "supported_lines_checked": 0
+  }
+}
+{
+  "malformed_header": true,
+  "I1_opinion": null,
+  "validation": {
+    "opinions_checked": 0,
+    "traces_checked": 2,
+    "supported_lines_checked": 0
+  }
+}

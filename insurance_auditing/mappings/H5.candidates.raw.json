@@ -1,0 +1,1497 @@
+{
+  "catalog": [
+    "Advanced Cardiac Ventilation Support",
+    "Advanced Dermatologic Pharmaceutical Dispensing",
+    "Ambulatory Hepatic Case Conference",
+    "Ambulatory Metabolic Imaging Interpretation",
+    "Ambulatory Oncology Imaging Interpretation",
+    "Ambulatory Paediatric Isolation Room Occupancy",
+    "Assisted Cardiac Ventilation Support",
+    "Assisted Hepatic Physiotherapy Session",
+    "Assisted Immunologic Sterilisation Service",
+    "Assisted Metabolic Endoscopic Procedure",
+    "Assisted Renal Imaging Interpretation",
+    "Bedside Oncology Transfusion Service",
+    "Bedside Paediatric Consultation",
+    "Comprehensive Gastrointestinal Endoscopic Procedure",
+    "Comprehensive Geriatric Wound Care",
+    "Comprehensive Metabolic Ventilation Support",
+    "Comprehensive Oncology Transfusion Service",
+    "Comprehensive Ophthalmic Isolation Room Occupancy",
+    "Comprehensive Palliative Consultation",
+    "Continuous Immunologic Laboratory Panel",
+    "Continuous Metabolic Endoscopic Procedure",
+    "Continuous Otolaryngologic Transport Service",
+    "Continuous Pulmonary Case Conference",
+    "Elective Metabolic Pharmaceutical Dispensing",
+    "Elective Ophthalmic Nutritional Support",
+    "Elective Ophthalmic Recovery Room Occupancy",
+    "Elective Pulmonary Radiotherapy Fraction",
+    "Elective Vascular Diagnostic Imaging",
+    "Emergency Gastrointestinal Endoscopic Procedure",
+    "Emergency Metabolic Discharge Planning",
+    "Emergency Neurological Biopsy Procedure",
+    "Emergency Oncology Imaging Interpretation",
+    "Emergency Pulmonary Radiotherapy Fraction",
+    "Emergency Urologic Home Visit",
+    "Extended Dermatologic Transport Service",
+    "Extended Endocrine Theatre Time",
+    "Extended Neurological Consultation",
+    "Extended Ophthalmic Transport Service",
+    "Extended Psychiatric Endoscopic Procedure",
+    "Extended Urologic Infusion Therapy",
+    "Focused Endocrine Theatre Time",
+    "Focused Neurological Radiotherapy Fraction",
+    "Focused Urologic Nutritional Support",
+    "Inpatient Dermatologic Nursing Observation",
+    "Inpatient Immunologic Recovery Room Occupancy",
+    "Inpatient Psychiatric Case Conference",
+    "Inpatient Pulmonary Critical Care Occupancy",
+    "Intensive Hepatic Case Conference",
+    "Intensive Oncology Sterilisation Service",
+    "Intermittent Orthopaedic Discharge Planning",
+    "Intermittent Urologic Discharge Planning",
+    "Intermittent Vascular Telemetry Monitoring",
+    "Outpatient Dermatologic Home Visit",
+    "Outpatient Haematology Laboratory Panel",
+    "Outpatient Metabolic Physiotherapy Session",
+    "Outpatient Neurological Recovery Room Occupancy",
+    "Outpatient Psychiatric Discharge Planning",
+    "Postoperative Musculoskeletal Imaging Interpretation",
+    "Preoperative Endocrine Rehabilitation Programme",
+    "Preoperative Gastrointestinal Nutritional Support",
+    "Preoperative Immunologic Recovery Room Occupancy",
+    "Preoperative Musculoskeletal Nutritional Support",
+    "Preoperative Ophthalmic Transport Service",
+    "Preoperative Paediatric Biopsy Procedure",
+    "Routine Dermatologic Home Visit",
+    "Routine Geriatric Telemetry Monitoring",
+    "Routine Infectious Infusion Therapy",
+    "Routine Neurological Biopsy Procedure",
+    "Routine Psychiatric Physiotherapy Session",
+    "Routine Psychiatric Telemetry Monitoring",
+    "Routine Urologic Radiotherapy Fraction",
+    "Routine Urologic Transport Service",
+    "Specialist Dermatologic Nursing Observation",
+    "Specialist Gastrointestinal Pharmaceutical Dispensing",
+    "Specialist Metabolic Sterilisation Service",
+    "Standard Infectious Ventilation Support",
+    "Standard Paediatric Radiotherapy Fraction",
+    "Standard Psychiatric Discharge Planning",
+    "Supervised Immunologic Sterilisation Service",
+    "Supervised Metabolic Discharge Planning",
+    "Supervised Otolaryngologic Specimen Analysis",
+    "Supervised Palliative Consultation",
+    "Supervised Vascular Consultation",
+    "Supervised Vascular Diagnostic Imaging"
+  ],
+  "hospital": "H5",
+  "proposals": {
+    "ADV  CARD VENT SUPP": [
+      "Advanced Cardiac Ventilation Support"
+    ],
+    "ADV  CARDIAC VENTILATION SUPPORT": [
+      "Advanced Cardiac Ventilation Support"
+    ],
+    "ADV - DERM DISPENSING": [
+      "Advanced Dermatologic Pharmaceutical Dispensing"
+    ],
+    "ADV - PHARM DISP": [
+      "Advanced Dermatologic Pharmaceutical Dispensing"
+    ],
+    "ADV CARDIAC VENT SUPPORT": [
+      "Advanced Cardiac Ventilation Support"
+    ],
+    "ADV DERM PHARM /PH-3728": [
+      "Advanced Dermatologic Pharmaceutical Dispensing"
+    ],
+    "ADV DERM PHARM DISP": [
+      "Advanced Dermatologic Pharmaceutical Dispensing"
+    ],
+    "ADV DERMATOLOGIC PHARM DISPENSING": [
+      "Advanced Dermatologic Pharmaceutical Dispensing"
+    ],
+    "AMB  - METAB IMG INTERP": [
+      "Ambulatory Metabolic Imaging Interpretation"
+    ],
+    "AMB  - ONC IMG INTERP": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "AMB  METABOLIC IMAGING /PH-2931": [
+      "Ambulatory Metabolic Imaging Interpretation"
+    ],
+    "AMB  METABOLIC IMG INTERP": [
+      "Ambulatory Metabolic Imaging Interpretation"
+    ],
+    "AMB  PAED ISOL RM OCC": [
+      "Ambulatory Paediatric Isolation Room Occupancy"
+    ],
+    "AMB - HEP CS": [
+      "Ambulatory Hepatic Case Conference"
+    ],
+    "AMB HEP CASE CONF": [
+      "Ambulatory Hepatic Case Conference"
+    ],
+    "AMB HEPATIC CS CONFERENCE /PH-2286": [
+      "Ambulatory Hepatic Case Conference"
+    ],
+    "AMB ONC IMG INTERPRETATION /PH-1018": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "AMB ONCOLOGY IMG INTERP /PH-9222": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "AMB PAED ISOL RM OCCUPANCY": [
+      "Ambulatory Paediatric Isolation Room Occupancy"
+    ],
+    "AMBULATORY  - ONCOLOGY IMG INTERP": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "AMBULATORY  HEP ENDOSC PROC /PH-2434": [],
+    "AMBULATORY  ONC IMG INTERP /PH-7671": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "AMBULATORY PAED ISOL RM OCC /PH-1574": [
+      "Ambulatory Paediatric Isolation Room Occupancy"
+    ],
+    "ANALYSIS SUPV ENT SPCM": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "ASSISTED  - STERIL SVC /PH-6091": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASSISTED CARD VENTILATION SUPP /PH-7856": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASSISTED GERIATRIC LAB PNL /PH-5880": [],
+    "ASSISTED IMMUN STERIL SVC /PH-9770": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASSISTED METAB ENDOSC PROCEDURE": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "ASSISTED METAB ENDOSCOPIC PROC /PH-2115": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "ASST  - CARDIAC VENT SUPPORT": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASST  - HEP PHYSIO SESS /PH-3958": [
+      "Assisted Hepatic Physiotherapy Session"
+    ],
+    "ASST  METAB ENDOSC PROC /PH-4234": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "ASST  METAB PROCEDURE /PH-3748": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "ASST  PSYCH PHARM DISP /PH-6086": [],
+    "ASST  REN IMAGING INTERP /PH-4396": [
+      "Assisted Renal Imaging Interpretation"
+    ],
+    "ASST  RENAL IMG INTERP": [
+      "Assisted Renal Imaging Interpretation"
+    ],
+    "ASST - HEPATIC PHYSIO SESS /PH-8096": [
+      "Assisted Hepatic Physiotherapy Session"
+    ],
+    "ASST - METAB ENDOSC PROCEDURE /PH-8137": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "ASST CARD VENT SUPP /PH-3696": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASST CARDIAC VENT SUPP": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASST CARDIAC VENT SUPP /PH-2315": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASST HEP PHYSIO SESS": [
+      "Assisted Hepatic Physiotherapy Session"
+    ],
+    "ASST HEP PHYSIO SESS /PH-9888": [
+      "Assisted Hepatic Physiotherapy Session"
+    ],
+    "ASST HEP PHYSIO SESSION": [
+      "Assisted Hepatic Physiotherapy Session"
+    ],
+    "ASST IMMUN STERIL /PH-1150": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASST IMMUN STERIL SVC": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASST IMMUN STERIL SVC /PH-5225": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASST REN IMAGING INTERP /PH-6649": [
+      "Assisted Renal Imaging Interpretation"
+    ],
+    "ASST STERIL SERVICE /PH-7778": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "ASST VENT SUPP": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "BEDS ONC TRANSF SERVICE /PH-2481": [
+      "Bedside Oncology Transfusion Service"
+    ],
+    "BEDS ONC TRANSF SVC": [
+      "Bedside Oncology Transfusion Service"
+    ],
+    "BEDS PAED CONSULT": [
+      "Bedside Paediatric Consultation"
+    ],
+    "BEDS PAEDIATRIC CONSULT /PH-8451": [
+      "Bedside Paediatric Consultation"
+    ],
+    "BEDS PAEDIATRIC CONSULT /PH-9421": [
+      "Bedside Paediatric Consultation"
+    ],
+    "BEDSIDE  ONC SVC": [
+      "Bedside Oncology Transfusion Service"
+    ],
+    "BEDSIDE ONC TRANSF SERVICE /PH-3200": [
+      "Bedside Oncology Transfusion Service"
+    ],
+    "BEDSIDE PAED CONSULTATION": [
+      "Bedside Paediatric Consultation"
+    ],
+    "CARD VENT SUPP ADV": [
+      "Advanced Cardiac Ventilation Support"
+    ],
+    "CARD VENT SUPP ASST": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "COMPR  - CONSULT": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "COMPR  - ONC TRANSFUSION SVC": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPR  GER WOUND CR": [
+      "Comprehensive Geriatric Wound Care"
+    ],
+    "COMPR  ONC TRANSF SVC": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPR  ONC TRANSF SVC /PH-6526": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPR  ONC TRANSFUSION SVC /PH-7950": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPR  PALLIATIVE CONSULT": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "COMPR  VENT SUPP /PH-7497": [
+      "Comprehensive Metabolic Ventilation Support"
+    ],
+    "COMPR ENDOSC PROC": [
+      "Comprehensive Gastrointestinal Endoscopic Procedure"
+    ],
+    "COMPR GER WND CARE": [
+      "Comprehensive Geriatric Wound Care"
+    ],
+    "COMPR GER WOUND CR /PH-7691": [
+      "Comprehensive Geriatric Wound Care"
+    ],
+    "COMPR GI ENDOSC PROC": [
+      "Comprehensive Gastrointestinal Endoscopic Procedure"
+    ],
+    "COMPR METAB VENT SUPPORT": [
+      "Comprehensive Metabolic Ventilation Support"
+    ],
+    "COMPR METABOLIC VENT SUPP": [
+      "Comprehensive Metabolic Ventilation Support"
+    ],
+    "COMPR OPHTH ISOL ROOM OCCUPANCY": [
+      "Comprehensive Ophthalmic Isolation Room Occupancy"
+    ],
+    "COMPR PALL CONSULT": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "COMPR PALL CONSULT /PH-5729": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "COMPR WND CARE /PH-1784": [
+      "Comprehensive Geriatric Wound Care"
+    ],
+    "COMPREHENSIVE  ONC TRANSFUSION SVC": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPREHENSIVE  OPHTH ISOL RM OCCUPANCY /PH-6957": [
+      "Comprehensive Ophthalmic Isolation Room Occupancy"
+    ],
+    "COMPREHENSIVE - METAB VENT SUPPORT": [
+      "Comprehensive Metabolic Ventilation Support"
+    ],
+    "COMPREHENSIVE GER WND CARE": [
+      "Comprehensive Geriatric Wound Care"
+    ],
+    "COMPREHENSIVE ONC TRANSF SERVICE": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "COMPREHENSIVE PALL CONSULT": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "CONF  AMB CS": [
+      "Ambulatory Hepatic Case Conference"
+    ],
+    "CONFERENCE  - CONT PULMONARY CS": [
+      "Continuous Pulmonary Case Conference"
+    ],
+    "CONFERENCE CONT PULMONARY CS": [
+      "Continuous Pulmonary Case Conference"
+    ],
+    "CONSULT  - SUPV VASC /PH-5450": [
+      "Supervised Vascular Consultation"
+    ],
+    "CONSULT BEDSIDE PAED": [
+      "Bedside Paediatric Consultation"
+    ],
+    "CONSULT BEDSIDE PAED /PH-7802": [
+      "Bedside Paediatric Consultation"
+    ],
+    "CONT  ENT TRANSP SVC": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "CONT  IMMUNOLOGIC LAB PANEL": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "CONT - CS CONF": [
+      "Continuous Pulmonary Case Conference"
+    ],
+    "CONT - ENT TRANSP SVC /PH-3583": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "CONT - OTOLARYNGOLOGIC TRANSP SVC": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "CONT GASTROINTESTINAL ISOL RM OCC": [],
+    "CONT METAB ENDOSC PROC": [
+      "Continuous Metabolic Endoscopic Procedure"
+    ],
+    "CONT OTOLARYNGOLOGIC TRANSP SVC": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "CONT PULM CS CONFERENCE /PH-7640": [
+      "Continuous Pulmonary Case Conference"
+    ],
+    "CONTINUOUS  IMMUN LAB PNL": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "CONTINUOUS  PULMONARY CS CONFERENCE": [
+      "Continuous Pulmonary Case Conference"
+    ],
+    "CONTINUOUS - IMMUN LAB PANEL": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "CONTINUOUS METAB ENDOSC PROC /PH-6106": [
+      "Continuous Metabolic Endoscopic Procedure"
+    ],
+    "CONTINUOUS METAB ENDOSC PROCEDURE /PH-2824": [
+      "Continuous Metabolic Endoscopic Procedure"
+    ],
+    "CR  INPATIENT PULM CRIT /PH-5924": [
+      "Inpatient Pulmonary Critical Care Occupancy"
+    ],
+    "DERM - NURS OBSERVATION": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "DERM HM VST OUTPT": [
+      "Outpatient Dermatologic Home Visit"
+    ],
+    "DERM HM VST RTN": [
+      "Routine Dermatologic Home Visit"
+    ],
+    "DERM NURS OBS INPT": [
+      "Inpatient Dermatologic Nursing Observation"
+    ],
+    "DERM NURS OBS SPCLST": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "DIAGNOSTIC - ELECT VASCULAR /PH-3569": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "DISP  - ELECT METAB /PH-6137": [
+      "Elective Metabolic Pharmaceutical Dispensing"
+    ],
+    "DISP  ELECTIVE METAB PHARM /PH-9640": [
+      "Elective Metabolic Pharmaceutical Dispensing"
+    ],
+    "DISP INPT REN PHARM": [],
+    "ELECT  - INFECT WARD BD OCC": [],
+    "ELECT  - VASC DIAG IMG /PH-8719": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "ELECT  PULM RADIOTHER FRACT": [
+      "Elective Pulmonary Radiotherapy Fraction"
+    ],
+    "ELECT - OPHTH RECOV RM OCC": [
+      "Elective Ophthalmic Recovery Room Occupancy"
+    ],
+    "ELECT - PULM RADIOTHER FRACT": [
+      "Elective Pulmonary Radiotherapy Fraction"
+    ],
+    "ELECT - PULM RADIOTHER FRACT /PH-7464": [
+      "Elective Pulmonary Radiotherapy Fraction"
+    ],
+    "ELECT - VASCULAR DIAGNOSTIC IMG": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "ELECT METAB DISP": [
+      "Elective Metabolic Pharmaceutical Dispensing"
+    ],
+    "ELECT METABOLIC PHARM DISP": [
+      "Elective Metabolic Pharmaceutical Dispensing"
+    ],
+    "ELECT OPHTH RECOV ROOM OCC /PH-7656": [
+      "Elective Ophthalmic Recovery Room Occupancy"
+    ],
+    "ELECT OPHTHALMIC NUTR SUPP /PH-9806": [
+      "Elective Ophthalmic Nutritional Support"
+    ],
+    "ELECT PULM RADIOTHER FRACTION /PH-2542": [
+      "Elective Pulmonary Radiotherapy Fraction"
+    ],
+    "ELECT VASC DIAG IMAGING": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "ELECT VASCULAR DIAG IMG": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "ELECTIVE  OPHTH RECOVERY OCC /PH-7463": [
+      "Elective Ophthalmic Recovery Room Occupancy"
+    ],
+    "ELECTIVE  PHARM DISP /PH-2792": [
+      "Elective Metabolic Pharmaceutical Dispensing"
+    ],
+    "ELECTIVE OPHTH RECOV OCC": [
+      "Elective Ophthalmic Recovery Room Occupancy"
+    ],
+    "EMER  - METAB DISCHARGE PLNG": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER  BIOP PROC": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "EMER  GI ENDOSC PROC /PH-9383": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "EMER  METAB DISCH /PH-9998": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER  NEURO BIOPSY PROCEDURE /PH-5562": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "EMER  ONC IMG INTERPRETATION": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "EMER  UROL HM VST": [
+      "Emergency Urologic Home Visit"
+    ],
+    "EMER - METAB PLNG /PH-9105": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER - ONC IMG INTERP": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "EMER - PALL STERIL SVC": [],
+    "EMER GI ENDOSC PROC /PH-7768": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "EMER GI ENDOSC PROC /PH-8326": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "EMER METAB DISCH PLNG": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER METAB DISCHARGE PLANNING": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER METAB DISCHARGE PLNG": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "EMER NEURO BIOPSY PROC /PH-1059": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "EMER ONC IMAGING INTERP /PH-5810": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "EMER ONCOLOGY IMG INTERP /PH-5517": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "EMER PULM RADIOTHER FRACT /PH-2351": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "EMER UROL VISIT /PH-9513": [
+      "Emergency Urologic Home Visit"
+    ],
+    "EMERGENCY  - GI ENDOSC PROC /PH-3138": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "EMERGENCY  NEURO BIOP PROC": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "EMERGENCY - GI ENDOSC PROC": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "EMERGENCY NEUROLOGICAL BIOP PROC /PH-7800": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "EMERGENCY PULM FRACT": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "EMERGENCY PULM RADIOTHER FRACTION": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "EMERGENCY PULM RADIOTHERAPY FRACT /PH-7558": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "ENDO THTR TM EXT": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "ENDO THTR TM FOC": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "EXT  DERMATOLOGIC TRANSP SERVICE": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "EXT  ENDO THEATRE TM": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT  ENDO THTR TM /PH-3856": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT  NEUROLOGICAL CONSULT": [
+      "Extended Neurological Consultation"
+    ],
+    "EXT  NEUROLOGICAL CONSULT /PH-7491": [
+      "Extended Neurological Consultation"
+    ],
+    "EXT - ENDO THTR TM": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT DERM TRANSP SERVICE /PH-1568": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "EXT ENDO THTR TIME /PH-7392": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT ENDO THTR TM": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT ENDO THTR TM /PH-7393": [
+      "Extended Endocrine Theatre Time"
+    ],
+    "EXT INF THER": [
+      "Extended Urologic Infusion Therapy"
+    ],
+    "EXT NEURO CONSULT /PH-3973": [
+      "Extended Neurological Consultation"
+    ],
+    "EXT OPHTH TRANSP SERVICE": [
+      "Extended Ophthalmic Transport Service"
+    ],
+    "EXT OPHTH TRANSP SERVICE /PH-7295": [
+      "Extended Ophthalmic Transport Service"
+    ],
+    "EXT OPHTH TRANSP SVC": [
+      "Extended Ophthalmic Transport Service"
+    ],
+    "EXT PSYCH ENDOSC PROC": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "EXT PSYCH ENDOSC PROC /PH-6105": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "EXT PSYCH ENDOSC PROCEDURE": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "EXT UROL INFUSION THER /PH-7222": [
+      "Extended Urologic Infusion Therapy"
+    ],
+    "EXT UROLOGIC INF THER": [
+      "Extended Urologic Infusion Therapy"
+    ],
+    "EXTENDED  DERM TRANSP SERVICE /PH-9532": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "EXTENDED  NEURO CONSULT": [
+      "Extended Neurological Consultation"
+    ],
+    "EXTENDED PSYCH ENDOSC PROCEDURE": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "FOC  ENDO THTR TIME": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "FOC  ENDO THTR TM /PH-5137": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "FOC - NEURO RADIOTHER FRACT": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FOC - NEUROLOGICAL RADIOTHER FRACT": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FOC - NUTR SUPP": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "FOC ENDOCRINE THTR TM /PH-7354": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "FOC UROL NUTR": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "FOC UROL NUTR /PH-6864": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "FOC UROLOGIC NUTR SUPP": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "FOCUSED  - NEURO RADIOTHER FRACT": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FOCUSED  - UROL NUTR SUPP": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "FOCUSED NEURO RADIOTHER FRACT": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FOCUSED NEURO RADIOTHERAPY FRACT /PH-2860": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FRACT - EMER PULM RADIOTHER": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "FRACT FOC NEUROLOGICAL RADIOTHER /PH-3421": [
+      "Focused Neurological Radiotherapy Fraction"
+    ],
+    "FRACT ROUTINE UROL RADIOTHER /PH-4232": [
+      "Routine Urologic Radiotherapy Fraction"
+    ],
+    "FRACT STD PAEDIATRIC RADIOTHER": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "FRACT UROL RADIOTHER": [
+      "Routine Urologic Radiotherapy Fraction"
+    ],
+    "FRACTION STD PAED RADIOTHERAPY /PH-2327": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "GER  - RECOV ROOM OCC": [],
+    "GI ENDOSC PROC COMPR": [
+      "Comprehensive Gastrointestinal Endoscopic Procedure"
+    ],
+    "GI ENDOSC PROC EMER": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "HAEM - LABORATORY PNL": [
+      "Outpatient Haematology Laboratory Panel"
+    ],
+    "HEP CS CONF /PH-8928": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "HEP CS CONF AMB": [
+      "Ambulatory Hepatic Case Conference"
+    ],
+    "HEP CS CONF INTENS": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "IMAGING  - ELECTIVE VASCULAR DIAG /PH-2728": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "IMMUN RECOV RM OCC INPT": [
+      "Inpatient Immunologic Recovery Room Occupancy"
+    ],
+    "IMMUN RECOV RM OCC PREOP": [
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "IMMUN STERIL SVC ASST": [
+      "Assisted Immunologic Sterilisation Service"
+    ],
+    "IMMUN STERIL SVC SUPV": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "IMMUNOLOGIC  RECOV RM OCC /PH-9870": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "INFECT  - VENT SUPP /PH-8261": [
+      "Standard Infectious Ventilation Support"
+    ],
+    "INPATIENT  - PULM CRITICAL CR OCC": [
+      "Inpatient Pulmonary Critical Care Occupancy"
+    ],
+    "INPATIENT  DERM NURSING OBS /PH-8521": [
+      "Inpatient Dermatologic Nursing Observation"
+    ],
+    "INPATIENT - PSYCH CS CONF /PH-8216": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "INPT  - PSYCHIATRIC CS CONF /PH-3922": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "INPT  IMMUN RECOV RM": [
+      "Inpatient Immunologic Recovery Room Occupancy"
+    ],
+    "INPT  IMMUN RECOV RM OCCUPANCY /PH-6667": [
+      "Inpatient Immunologic Recovery Room Occupancy"
+    ],
+    "INPT  IMMUNOLOGIC RECOV RM OCC": [
+      "Inpatient Immunologic Recovery Room Occupancy"
+    ],
+    "INPT - IMMUN RECOV RM OCC": [
+      "Inpatient Immunologic Recovery Room Occupancy"
+    ],
+    "INPT - PULM CRITICAL CR OCC /PH-2338": [
+      "Inpatient Pulmonary Critical Care Occupancy"
+    ],
+    "INPT PSYCH CONFERENCE /PH-2719": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "INPT PSYCHIATRIC CASE CONF": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "INPT PSYCHIATRIC CS CONF /PH-7007": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "INPT PULM CRITICAL CR OCC /PH-1009": [
+      "Inpatient Pulmonary Critical Care Occupancy"
+    ],
+    "INPT PULMONARY CRIT CR OCCUPANCY": [
+      "Inpatient Pulmonary Critical Care Occupancy"
+    ],
+    "INTENS  - ONCOLOGY STERIL SVC": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "INTENS  - ONCOLOGY STERIL SVC /PH-1663": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "INTENS - HEP CS CONF": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "INTENS HEP CASE CONF /PH-1923": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "INTENS HEP CS CONF": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "INTENS HEP CS CONF /PH-3124": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "INTENS ONC STERILISATION SVC": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "INTENSIVE  ONC STERIL SERVICE /PH-3836": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "INTENSIVE HEP CS CONF": [
+      "Intensive Hepatic Case Conference"
+    ],
+    "INTERM  REN STERIL SVC": [],
+    "INTERM  VASC TELEMETRY MONITORING": [
+      "Intermittent Vascular Telemetry Monitoring"
+    ],
+    "INTERM  VASCULAR TELEM": [
+      "Intermittent Vascular Telemetry Monitoring"
+    ],
+    "INTERM - UROL DISCH PLNG": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "INTERM ENDO NURS OBS": [],
+    "INTERM ORTHO DISCHARGE PLNG": [
+      "Intermittent Orthopaedic Discharge Planning"
+    ],
+    "INTERM UROL DISCH PLNG": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "INTERM VASC TELEM MONITORING /PH-6473": [
+      "Intermittent Vascular Telemetry Monitoring"
+    ],
+    "INTERMITTENT  ORTHO PLNG": [
+      "Intermittent Orthopaedic Discharge Planning"
+    ],
+    "INTERMITTENT - ORTHOPAEDIC DISCH PLNG": [
+      "Intermittent Orthopaedic Discharge Planning"
+    ],
+    "INTERMITTENT - VASC MONIT": [
+      "Intermittent Vascular Telemetry Monitoring"
+    ],
+    "INTERMITTENT ORTHO DISCH PLANNING": [
+      "Intermittent Orthopaedic Discharge Planning"
+    ],
+    "INTERMITTENT UROL DISCH PLNG": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "INTERMITTENT UROLOGIC DISCH PLANNING /PH-9665": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "INTERP - POSTOP MSK IMG": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "INTERP EMER ONC IMAGING /PH-7410": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "INTERP EMER ONC IMAGING /PH-9034": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "INTERPRETATION  AMB METAB IMG": [
+      "Ambulatory Metabolic Imaging Interpretation"
+    ],
+    "INTERPRETATION ASST REN IMG": [
+      "Assisted Renal Imaging Interpretation"
+    ],
+    "INTERPRETATION POSTOPERATIVE MSK IMG /PH-1032": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "LAB CONT IMMUN": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "METAB DISCH PLNG EMER": [
+      "Emergency Metabolic Discharge Planning"
+    ],
+    "METAB DISCH PLNG SUPV": [
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "METAB ENDOSC PROC ASST": [
+      "Assisted Metabolic Endoscopic Procedure"
+    ],
+    "METAB ENDOSC PROC CONT": [
+      "Continuous Metabolic Endoscopic Procedure"
+    ],
+    "METABOLIC  DISCH PLNG": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "MONIT - ROUTINE GER TELEM": [
+      "Routine Geriatric Telemetry Monitoring"
+    ],
+    "MONIT RTN PSYCH TELEMETRY": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "MONITORING  RTN GERIATRIC TELEM": [
+      "Routine Geriatric Telemetry Monitoring"
+    ],
+    "MONITORING  RTN PSYCH TELEM /PH-9117": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "MONITORING - INTERM VASC TELEMETRY": [
+      "Intermittent Vascular Telemetry Monitoring"
+    ],
+    "MSK NUTR SUPP /PH-5455": [
+      "Preoperative Musculoskeletal Nutritional Support"
+    ],
+    "NEURO BIOP PROC EMER": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "NEURO BIOP PROC RTN": [
+      "Routine Neurological Biopsy Procedure"
+    ],
+    "OBS  - INPT DERM NURS": [
+      "Inpatient Dermatologic Nursing Observation"
+    ],
+    "OBS  DERM NURSING /PH-3348": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "OBS - INPT DERM NURS /PH-5270": [
+      "Inpatient Dermatologic Nursing Observation"
+    ],
+    "OBS INPT DERMATOLOGIC NURS /PH-5222": [
+      "Inpatient Dermatologic Nursing Observation"
+    ],
+    "OBS SPCLST DERMATOLOGIC NURSING": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "OBSERVATION  SPCLST DERM NURS": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "OCC - ELECTIVE OPHTH RECOV RM": [
+      "Elective Ophthalmic Recovery Room Occupancy"
+    ],
+    "OCC AMB PAED RM": [
+      "Ambulatory Paediatric Isolation Room Occupancy"
+    ],
+    "OCC COMPREHENSIVE OPHTHALMIC ISOL RM": [
+      "Comprehensive Ophthalmic Isolation Room Occupancy"
+    ],
+    "OCC OPHTHALMIC ISOL ROOM": [
+      "Comprehensive Ophthalmic Isolation Room Occupancy"
+    ],
+    "OCC OUTPT RECOV RM /PH-1028": [
+      "Outpatient Neurological Recovery Room Occupancy"
+    ],
+    "OCC PREOPERATIVE IMMUN RECOV ROOM": [
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "OCCUPANCY  COMPR OPHTHALMIC ISOL RM /PH-4881": [
+      "Comprehensive Ophthalmic Isolation Room Occupancy"
+    ],
+    "OCCUPANCY PREOP IMMUN RECOV ROOM": [
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "ONC IMG INTERP AMB": [
+      "Ambulatory Oncology Imaging Interpretation"
+    ],
+    "ONC IMG INTERP EMER": [
+      "Emergency Oncology Imaging Interpretation"
+    ],
+    "ONC TRANSF SVC BEDS": [
+      "Bedside Oncology Transfusion Service"
+    ],
+    "ONC TRANSF SVC COMPR": [
+      "Comprehensive Oncology Transfusion Service"
+    ],
+    "OPHTH  NUTR SUPP": [
+      "Elective Ophthalmic Nutritional Support"
+    ],
+    "OPHTH NUTRITIONAL SUPP /PH-3490": [
+      "Elective Ophthalmic Nutritional Support"
+    ],
+    "OPHTH TRANSP SVC EXT": [
+      "Extended Ophthalmic Transport Service"
+    ],
+    "OPHTH TRANSP SVC PREOP": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "OUTPATIENT  HAEM LAB PNL /PH-5094": [
+      "Outpatient Haematology Laboratory Panel"
+    ],
+    "OUTPATIENT  NEURO RECOV RM OCCUPANCY": [
+      "Outpatient Neurological Recovery Room Occupancy"
+    ],
+    "OUTPATIENT - NEURO RECOV RM OCC": [
+      "Outpatient Neurological Recovery Room Occupancy"
+    ],
+    "OUTPATIENT DERM HM": [
+      "Outpatient Dermatologic Home Visit"
+    ],
+    "OUTPATIENT HAEM LAB PNL /PH-5820": [
+      "Outpatient Haematology Laboratory Panel"
+    ],
+    "OUTPATIENT METABOLIC PHYSIO SESSION": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT  - DERM VISIT /PH-3323": [
+      "Outpatient Dermatologic Home Visit"
+    ],
+    "OUTPT  - DERMATOLOGIC VST": [
+      "Outpatient Dermatologic Home Visit"
+    ],
+    "OUTPT  DERM HOME VST": [
+      "Outpatient Dermatologic Home Visit"
+    ],
+    "OUTPT  HAEM LAB PNL": [
+      "Outpatient Haematology Laboratory Panel"
+    ],
+    "OUTPT  METAB PHYSIO SESS /PH-1346": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT  METABOLIC PHYSIOTHERAPY SESS": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT  NEUROLOGICAL RECOV ROOM OCC /PH-5702": [
+      "Outpatient Neurological Recovery Room Occupancy"
+    ],
+    "OUTPT  PHYSIO SESSION": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT  PSYCH DISCH PLNG /PH-4218": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "OUTPT  PSYCHIATRIC DISCHARGE PLNG /PH-6789": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "OUTPT METAB PHYSIO SESS": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT METABOLIC PHYSIO SESSION": [
+      "Outpatient Metabolic Physiotherapy Session"
+    ],
+    "OUTPT NEURO RECOV RM OCC": [
+      "Outpatient Neurological Recovery Room Occupancy"
+    ],
+    "PALL CONSULT": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "PALL CONSULT COMPR": [
+      "Comprehensive Palliative Consultation"
+    ],
+    "PALL CONSULT SUPV": [
+      "Supervised Palliative Consultation"
+    ],
+    "PALL CONSULTATION": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "PLANNING  - OUTPT PSYCH DISCH /PH-6487": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "PLANNING  - SUPV METAB DISCH /PH-3065": [
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "PLANNING INTERM UROLOGIC DISCHARGE /PH-4571": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "PLNG  OUTPATIENT DISCH": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "PLNG  STD PSYCHIATRIC DISCHARGE /PH-4685": [
+      "Standard Psychiatric Discharge Planning"
+    ],
+    "PLNG - SUPV METAB DISCH": [
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "PLNG INTERM UROLOGIC DISCHARGE": [
+      "Intermittent Urologic Discharge Planning"
+    ],
+    "PLNG OUTPT PSYCH DISCH /PH-1726": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "PLNG STD PSYCH DISCH": [
+      "Standard Psychiatric Discharge Planning"
+    ],
+    "PNL  CONTINUOUS IMMUN LABORATORY /PH-6674": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "PNL - CONT IMMUN LAB /PH-7790": [
+      "Continuous Immunologic Laboratory Panel"
+    ],
+    "POSTOP  MSK IMG INTERP /PH-8079": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "POSTOP - MUSCULOSKELETAL IMG INTERP": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "POSTOP MSK IMG INTERP /PH-8595": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "POSTOPERATIVE  OTOLARYNGOLOGIC DIAG IMG /PH-6206": [],
+    "POSTOPERATIVE MSK IMAGING INTERP": [
+      "Postoperative Musculoskeletal Imaging Interpretation"
+    ],
+    "PREOP  - MSK NUTR SUPP /PH-3539": [
+      "Preoperative Musculoskeletal Nutritional Support"
+    ],
+    "PREOP  - MUSCULOSKELETAL NUTR SUPP": [
+      "Preoperative Musculoskeletal Nutritional Support"
+    ],
+    "PREOP  ENDO REHAB PROGRAMME /PH-2386": [
+      "Preoperative Endocrine Rehabilitation Programme"
+    ],
+    "PREOP  ENDOCRINE REHAB PROG /PH-1561": [
+      "Preoperative Endocrine Rehabilitation Programme"
+    ],
+    "PREOP  OPHTHALMIC TRANSP SVC": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "PREOP - GI NUTR SUPP": [
+      "Preoperative Gastrointestinal Nutritional Support"
+    ],
+    "PREOP - IMMUN RECOVERY RM OCCUPANCY": [
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "PREOP ENDO REHAB PROGRAMME /PH-6136": [
+      "Preoperative Endocrine Rehabilitation Programme"
+    ],
+    "PREOP GASTROINTESTINAL NUTR SUPP": [
+      "Preoperative Gastrointestinal Nutritional Support"
+    ],
+    "PREOP GI NUTRITIONAL SUPP": [
+      "Preoperative Gastrointestinal Nutritional Support"
+    ],
+    "PREOP MSK NUTR SUPP /PH-5426": [
+      "Preoperative Musculoskeletal Nutritional Support"
+    ],
+    "PREOP OPHTH TRANSP SERVICE": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "PREOP OPHTH TRANSP SERVICE /PH-6454": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "PREOP PAED BIOP": [
+      "Preoperative Paediatric Biopsy Procedure"
+    ],
+    "PREOP PAED BIOP PROCEDURE": [
+      "Preoperative Paediatric Biopsy Procedure"
+    ],
+    "PREOP PAEDIATRIC BIOP PROCEDURE /PH-3256": [
+      "Preoperative Paediatric Biopsy Procedure"
+    ],
+    "PREOP PAEDIATRIC BIOPSY PROC": [
+      "Preoperative Paediatric Biopsy Procedure"
+    ],
+    "PREOPERATIVE  OPHTHALMIC TRANSP SVC": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "PREOPERATIVE GI NUTR SUPP /PH-7619": [
+      "Preoperative Gastrointestinal Nutritional Support"
+    ],
+    "PREOPERATIVE IMMUN RECOV RM OCCUPANCY /PH-1117": [
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "PREOPERATIVE OPHTH TRANSP SVC /PH-6669": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "PREOPERATIVE PAED BIOP PROCEDURE": [
+      "Preoperative Paediatric Biopsy Procedure"
+    ],
+    "PROC - COMPREHENSIVE GI ENDOSC /PH-2540": [
+      "Comprehensive Gastrointestinal Endoscopic Procedure"
+    ],
+    "PROC EMER GI ENDOSC /PH-2135": [
+      "Emergency Gastrointestinal Endoscopic Procedure"
+    ],
+    "PROC EXT PSYCH ENDOSC /PH-7478": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "PROCEDURE  - CONT METAB ENDOSC /PH-8537": [
+      "Continuous Metabolic Endoscopic Procedure"
+    ],
+    "PROCEDURE  - EMER NEURO BIOP": [
+      "Emergency Neurological Biopsy Procedure"
+    ],
+    "PROCEDURE  COMPR GI ENDOSCOPIC /PH-8431": [
+      "Comprehensive Gastrointestinal Endoscopic Procedure"
+    ],
+    "PROG PREOP ENDOCRINE REHABILITATION": [
+      "Preoperative Endocrine Rehabilitation Programme"
+    ],
+    "PSYCH  TELEM MONITORING": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "PSYCH DISCH PLNG OUTPT": [
+      "Outpatient Psychiatric Discharge Planning"
+    ],
+    "PSYCH DISCH PLNG STD": [
+      "Standard Psychiatric Discharge Planning"
+    ],
+    "PSYCHIATRIC CS CONFERENCE /PH-3349": [
+      "Inpatient Psychiatric Case Conference"
+    ],
+    "PULM RADIOTHER FRACT ELECT": [
+      "Elective Pulmonary Radiotherapy Fraction"
+    ],
+    "PULM RADIOTHER FRACT EMER": [
+      "Emergency Pulmonary Radiotherapy Fraction"
+    ],
+    "ROUTINE  DERM HM VST": [
+      "Routine Dermatologic Home Visit"
+    ],
+    "ROUTINE  NEURO BIOP PROCEDURE /PH-5595": [
+      "Routine Neurological Biopsy Procedure"
+    ],
+    "ROUTINE  PSYCH TELEM MONITORING": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "ROUTINE  UROL TRANSP SVC /PH-4926": [
+      "Routine Urologic Transport Service"
+    ],
+    "ROUTINE - PSYCH PHYSIO SESS /PH-3410": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "ROUTINE - UROLOGIC TRANSP SVC /PH-1731": [
+      "Routine Urologic Transport Service"
+    ],
+    "ROUTINE PSYCH MONITORING": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "ROUTINE PSYCH PHYSIO SESSION": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "ROUTINE PSYCH TELEM MONIT /PH-9954": [
+      "Routine Psychiatric Telemetry Monitoring"
+    ],
+    "RTN  - DERMATOLOGIC HM VST": [
+      "Routine Dermatologic Home Visit"
+    ],
+    "RTN  GER TELEM MONIT": [
+      "Routine Geriatric Telemetry Monitoring"
+    ],
+    "RTN  GER TELEMETRY": [
+      "Routine Geriatric Telemetry Monitoring"
+    ],
+    "RTN  INFECT INF THER": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "RTN  NEURO BIOPSY PROC": [
+      "Routine Neurological Biopsy Procedure"
+    ],
+    "RTN  PHYSIOTHERAPY SESS": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "RTN - INFECT INF THER /PH-5248": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "RTN - NEURO BIOPSY PROC": [
+      "Routine Neurological Biopsy Procedure"
+    ],
+    "RTN - PSYCH PHYSIO SESSION": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "RTN - UROL TRANSP SERVICE": [
+      "Routine Urologic Transport Service"
+    ],
+    "RTN INFECTIOUS INF THER": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "RTN NEUROLOGICAL BIOP PROC": [
+      "Routine Neurological Biopsy Procedure"
+    ],
+    "RTN PSYCHIATRIC PHYSIO SESS /PH-3991": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "RTN PSYCHIATRIC PHYSIOTHERAPY SESS": [
+      "Routine Psychiatric Physiotherapy Session"
+    ],
+    "RTN UROL TRANSPORT SERVICE /PH-3522": [
+      "Routine Urologic Transport Service"
+    ],
+    "RTN UROLOGIC RADIOTHER FRACT": [
+      "Routine Urologic Radiotherapy Fraction"
+    ],
+    "RTN UROLOGIC RADIOTHER FRACT /PH-5813": [
+      "Routine Urologic Radiotherapy Fraction"
+    ],
+    "RTN UROLOGIC RADIOTHER FRACTION /PH-6893": [
+      "Routine Urologic Radiotherapy Fraction"
+    ],
+    "SERVICE CONT ENT TRANSP /PH-9101": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "SERVICE EXT DERM TRANSP": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "SERVICE INTENSIVE ONCOLOGY STERIL": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "SPCLST  - GI PHARM DISP": [
+      "Specialist Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "SPCLST  - METAB STERIL SVC": [
+      "Specialist Metabolic Sterilisation Service"
+    ],
+    "SPCLST  - METABOLIC STERIL SERVICE": [
+      "Specialist Metabolic Sterilisation Service"
+    ],
+    "SPCLST  DERM NURSING OBS": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "SPCLST  GASTROINTESTINAL PHARM DISP": [
+      "Specialist Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "SPCLST  METAB STERILISATION SVC /PH-4155": [
+      "Specialist Metabolic Sterilisation Service"
+    ],
+    "SPCLST - DERMATOLOGIC NURS OBS": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "SPCLST GI PHARM DISP /PH-8561": [
+      "Specialist Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "SPCLST METAB STERIL SVC": [
+      "Specialist Metabolic Sterilisation Service"
+    ],
+    "SPCM  STD PULMONARY /PH-7123": [],
+    "SPECIALIST  DERMATOLOGIC NURS OBS /PH-4333": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "SPECIALIST - GI PHARM DISPENSING /PH-4317": [
+      "Specialist Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "SPECIALIST DERM NURS OBS /PH-3531": [
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "SPECIALIST GI PHARM DISP": [
+      "Specialist Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "STANDARD  PAED RADIOTHERAPY FRACT /PH-9499": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "STANDARD PAED RADIOTHERAPY FRACT": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "STD  INFECT VENTILATION SUPP /PH-3964": [
+      "Standard Infectious Ventilation Support"
+    ],
+    "STD  PAED RADIOTHER FRACT /PH-5422": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "STD INFECT VENT SUPPORT": [
+      "Standard Infectious Ventilation Support"
+    ],
+    "STD PAED RADIOTHER FRACT": [
+      "Standard Paediatric Radiotherapy Fraction"
+    ],
+    "STD PSYCH DISCH PLANNING": [
+      "Standard Psychiatric Discharge Planning"
+    ],
+    "STD PSYCH DISCH PLNG": [
+      "Standard Psychiatric Discharge Planning"
+    ],
+    "SUPERVISED  IMMUN STERIL SERVICE": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SUPERVISED - PALLIATIVE CONSULT /PH-8045": [
+      "Supervised Palliative Consultation"
+    ],
+    "SUPERVISED METAB DISCH PLNG /PH-5892": [
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "SUPERVISED SPCM ANLY /PH-7244": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "SUPERVISED VASC CONSULT": [
+      "Supervised Vascular Consultation"
+    ],
+    "SUPP  ELECT OPHTH NUTR": [
+      "Elective Ophthalmic Nutritional Support"
+    ],
+    "SUPP  FOCUSED UROL NUTRITIONAL": [
+      "Focused Urologic Nutritional Support"
+    ],
+    "SUPP - PREOP MSK NUTR /PH-2761": [
+      "Preoperative Musculoskeletal Nutritional Support"
+    ],
+    "SUPP ELECTIVE OPHTH NUTR /PH-2997": [
+      "Elective Ophthalmic Nutritional Support"
+    ],
+    "SUPP STD INFECTIOUS VENT": [
+      "Standard Infectious Ventilation Support"
+    ],
+    "SUPPORT - ADV CARD": [
+      "Advanced Cardiac Ventilation Support"
+    ],
+    "SUPPORT PREOPERATIVE GI NUTR /PH-8764": [
+      "Preoperative Gastrointestinal Nutritional Support"
+    ],
+    "SUPV  - OTOLARYNGOLOGIC SPCM ANLY": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "SUPV  - PALL CONSULT": [
+      "Supervised Palliative Consultation"
+    ],
+    "SUPV  - STERIL SVC": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SUPV  - VASC DIAG IMG /PH-5142": [
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "SUPV  ENT SPCM ANALYSIS /PH-4343": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "SUPV  IMMUNOLOGIC STERIL /PH-7453": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SUPV  METAB DISCH PLNG /PH-3947": [
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "SUPV  VASC CONSULT /PH-4632": [
+      "Supervised Vascular Consultation"
+    ],
+    "SUPV DIAG IMG /PH-4513": [
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "SUPV DIAG IMG /PH-9633": [
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "SUPV ENT SPCM ANLY": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "SUPV ENT SPECIMEN ANLY": [
+      "Supervised Otolaryngologic Specimen Analysis"
+    ],
+    "SUPV IMMUN STERIL SVC /PH-6429": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SUPV IMMUNOLOGIC STERIL SVC /PH-9100": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SUPV PALLIATIVE CONSULTATION": [
+      "Supervised Palliative Consultation"
+    ],
+    "SUPV VASCULAR CONSULT": [
+      "Supervised Vascular Consultation"
+    ],
+    "SVC  PREOP OPHTHALMIC TRANSP": [
+      "Preoperative Ophthalmic Transport Service"
+    ],
+    "SVC  SUPERVISED IMMUN STERIL /PH-1907": [
+      "Supervised Immunologic Sterilisation Service"
+    ],
+    "SVC - EXT DERMATOLOGIC TRANSP /PH-7506": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "SVC EXT DERM TRANSPORT": [
+      "Extended Dermatologic Transport Service"
+    ],
+    "SVC EXT OPHTH TRANSP": [
+      "Extended Ophthalmic Transport Service"
+    ],
+    "SVC INTENSIVE ONC STERILISATION": [
+      "Intensive Oncology Sterilisation Service"
+    ],
+    "SVC SPCLST METAB STERIL /PH-1083": [
+      "Specialist Metabolic Sterilisation Service"
+    ],
+    "THEATRE FOC ENDO": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "THER  - ROUTINE INFECT INF": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "THER - EXTENDED UROL INF": [
+      "Extended Urologic Infusion Therapy"
+    ],
+    "THER EXTENDED UROLOGIC INF": [
+      "Extended Urologic Infusion Therapy"
+    ],
+    "THERAPY ROUTINE INFECTIOUS INF": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "THERAPY RTN INFECT INF /PH-5866": [
+      "Routine Infectious Infusion Therapy"
+    ],
+    "TM FOC ENDOCRINE THEATRE": [
+      "Focused Endocrine Theatre Time"
+    ],
+    "TRANSP  CONT ENT /PH-1091": [
+      "Continuous Otolaryngologic Transport Service"
+    ],
+    "UROL HM VST /PH-1437": [
+      "Emergency Urologic Home Visit"
+    ],
+    "VASC  - DIAGNOSTIC IMG": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "VASC DIAG IMG ELECT": [
+      "Elective Vascular Diagnostic Imaging"
+    ],
+    "VASC DIAG IMG SUPV": [
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "VISIT  EMER UROLOGIC HM": [
+      "Emergency Urologic Home Visit"
+    ],
+    "VST  EMERGENCY UROL HM /PH-9730": [
+      "Emergency Urologic Home Visit"
+    ],
+    "VST  ROUTINE DERM HOME /PH-6678": [
+      "Routine Dermatologic Home Visit"
+    ],
+    "VST EMER UROL HOME": [
+      "Emergency Urologic Home Visit"
+    ],
+    "VST RTN DERM /PH-7550": [
+      "Routine Dermatologic Home Visit"
+    ]
+  }
+}

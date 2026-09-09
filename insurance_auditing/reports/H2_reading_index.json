@@ -1,0 +1,3630 @@
+{
+  "source": "data/source/contracts/hospital_2/master_services_agreement.md",
+  "method": "Only six exact repeated sentences already read at clauses 4.1\u20138.6 are collapsed; service-specific final identity assertion must exactly name the rate-clause service. All other text is retained below.",
+  "lines": [
+    {
+      "line": 1,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 2,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 3,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 4,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 5,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 6,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 7,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 8,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 9,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 10,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 11,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 12,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 13,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 14,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 15,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 16,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 17,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 18,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 19,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 20,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 21,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 22,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 23,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 24,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 25,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 26,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 27,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 28,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 29,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 30,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 31,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 32,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 33,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 34,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 35,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 36,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 37,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 38,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 39,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 40,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 41,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 42,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 43,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 44,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 45,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 46,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 47,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 48,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 49,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 50,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 51,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 52,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 53,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 54,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 55,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 56,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 57,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Advanced Infectious Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 58,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 59,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Assisted Infectious Telemetry Monitoring, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 60,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 61,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Comprehensive Otolaryngologic Case Conference, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 62,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 63,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Emergency Renal Infusion Therapy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 64,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 65,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Focused Palliative Recovery Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 66,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 67,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intensive Otolaryngologic Rehabilitation Programme, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 68,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 69,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 70,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 71,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 72,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 73,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 74,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 75,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 76,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 77,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 78,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 79,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 80,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 81,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 82,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 83,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 84,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 85,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 86,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 87,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 88,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 89,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 90,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 91,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 92,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 93,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 94,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 95,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 96,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 97,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 98,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 99,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 100,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 101,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 102,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 103,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intermittent Ophthalmic Anaesthesia Administration, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 104,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 105,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Orthopaedic Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 106,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 107,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Vascular Imaging Interpretation, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 108,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 109,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Specialist Psychiatric Sterilisation Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 110,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 111,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Haematology Biopsy Procedure, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 112,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 113,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Advanced Dermatologic Specimen Analysis, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 114,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 115,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 116,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 117,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 118,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 119,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 120,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 121,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 122,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 123,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 124,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 125,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 126,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 127,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 128,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 129,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 130,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 131,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 132,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 133,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 134,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 135,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 136,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 137,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 138,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 139,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 140,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 141,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 142,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 143,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 144,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 145,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 146,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 147,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 148,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 149,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Assisted Musculoskeletal Diagnostic Imaging, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 150,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 151,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Continuous Renal Ventilation Support, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 152,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 153,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Emergency Haematology Transport Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 154,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 155,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Focused Cardiac Dialysis Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 156,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 157,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intensive Palliative Ward Bed Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 158,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 159,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intermittent Psychiatric Laboratory Panel, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 160,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 161,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 162,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 163,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 164,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 165,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 166,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 167,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 168,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 169,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 170,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 171,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 172,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 173,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 174,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 175,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 176,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 177,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 178,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 179,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 180,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 181,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 182,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 183,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 184,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 185,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 186,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 187,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 188,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 189,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 190,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 191,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 192,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 193,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 194,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 195,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Pulmonary Infusion Therapy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 196,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 197,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Obstetric Home Visit, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 198,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 199,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Neurological Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 200,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 201,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Metabolic Laboratory Panel, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 202,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 203,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Advanced Rheumatologic Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 204,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 205,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Assisted Gastrointestinal Biopsy Procedure, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 206,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 207,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 208,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 209,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 210,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 211,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 212,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 213,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 214,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 215,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 216,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 217,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 218,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 219,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 220,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 221,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 222,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 223,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 224,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 225,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 226,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 227,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 228,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 229,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 230,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 231,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 232,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 233,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 234,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 235,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 236,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 237,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 238,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 239,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 240,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 241,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Continuous Otolaryngologic Discharge Planning, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 242,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 243,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Extended Orthopaedic Radiotherapy Fraction, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 244,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 245,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Focused Vascular Transfusion Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 246,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 247,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intensive Paediatric Infusion Therapy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 248,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 249,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intermittent Otolaryngologic Rehabilitation Programme, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 250,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 251,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Cardiac Physiotherapy Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 252,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 253,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 254,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 255,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 256,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 257,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 258,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 259,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 260,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 261,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 262,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 263,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 264,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 265,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 266,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 267,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 268,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 269,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 270,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 271,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 272,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 273,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 274,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 275,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 276,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 277,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 278,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 279,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 280,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 281,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 282,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 283,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 284,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 285,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 286,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 287,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Obstetric Physiotherapy Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 288,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 289,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Orthopaedic Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 290,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 291,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Rheumatologic Critical Care Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 292,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 293,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Advanced Gastrointestinal Endoscopic Procedure, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 294,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 295,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Bedside Obstetric Physiotherapy Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 296,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 297,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Elective Cardiac Nursing Observation, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 298,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 299,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 300,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 301,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 302,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 303,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 304,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 305,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 306,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 307,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 308,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 309,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 310,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 311,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 312,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 313,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 314,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 315,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 316,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 317,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 318,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 319,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 320,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 321,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 322,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 323,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 324,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 325,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 326,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 327,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 328,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 329,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 330,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 331,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 332,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 333,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Extended Otolaryngologic Nutritional Support, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 334,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 335,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Focused Ophthalmic Laboratory Panel, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 336,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 337,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intensive Infectious Physiotherapy Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 338,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 339,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Outpatient Haematology Biopsy Procedure, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 340,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 341,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Vascular Transport Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 342,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 343,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Routine Geriatric Physiotherapy Session, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 344,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 345,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 346,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 347,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 348,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 349,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 350,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 351,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 352,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 353,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 354,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 355,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 356,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 357,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 358,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 359,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 360,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 361,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 362,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 363,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 364,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 365,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 366,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 367,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 368,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 369,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 370,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 371,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 372,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 373,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 374,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 375,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 376,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 377,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 378,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 379,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Metabolic Telemetry Monitoring, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 380,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 381,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Hepatic Endoscopic Procedure, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 382,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 383,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Advanced Endocrine Case Conference, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 384,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 385,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Bedside Ophthalmic Radiotherapy Fraction, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 386,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 387,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Elective Cardiac Transport Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 388,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 389,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Extended Dermatologic Specimen Analysis, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 390,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 391,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 392,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 393,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 394,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 395,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 396,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 397,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 398,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 399,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 400,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 401,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 402,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 403,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 404,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 405,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 406,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 407,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 408,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 409,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 410,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 411,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 412,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 413,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 414,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 415,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 416,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 417,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 418,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 419,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 420,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 421,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 422,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 423,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 424,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 425,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Inpatient Ophthalmic Recovery Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 426,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 427,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intensive Neurological Rehabilitation Programme, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 428,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 429,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Neurological Rehabilitation Programme, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 430,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 431,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Neurological Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 432,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 433,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Routine Ophthalmic Laboratory Panel, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 434,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 435,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Paediatric Infusion Therapy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 436,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 437,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 438,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 439,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 440,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 441,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 442,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 443,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 444,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 445,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 446,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 447,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 448,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 449,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 450,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 451,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 452,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 453,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 454,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 455,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 456,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 457,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 458,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 459,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 460,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 461,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 462,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 463,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 464,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 465,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 466,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 467,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 468,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 469,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 470,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 471,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Musculoskeletal Diagnostic Imaging, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 472,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 473,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Ambulatory Vascular Infusion Therapy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 474,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 475,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Bedside Pulmonary Pharmaceutical Dispensing, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 476,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 477,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Emergency Pulmonary Ventilation Support, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 478,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 479,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Extended Vascular Home Visit, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 480,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 481,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Inpatient Orthopaedic Recovery Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 482,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 483,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 484,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 485,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 486,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 487,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 488,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 489,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 490,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 491,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 492,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 493,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 494,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 495,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 496,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 497,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 498,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 499,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 500,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 501,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 502,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 503,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 504,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 505,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 506,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 507,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 508,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 509,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 510,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 511,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 512,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 513,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 514,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 515,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 516,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 517,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intermittent Orthopaedic Recovery Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 518,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 519,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Ophthalmic Anaesthesia Administration, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 520,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 521,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Orthopaedic Ventilation Support, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 522,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 523,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Routine Infectious Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 524,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 525,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Musculoskeletal Recovery Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 526,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 527,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Supervised Neurological Imaging Interpretation, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 528,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 529,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 530,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 531,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 532,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 533,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 534,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 535,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 536,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 537,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 538,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 539,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 540,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 541,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 542,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 543,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 544,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 545,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 546,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 547,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 548,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 549,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 550,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 551,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 552,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 553,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 554,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 555,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 556,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 557,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 558,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 559,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 560,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 561,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 562,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 563,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Ambulatory Haematology Nutritional Support, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 564,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 565,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Comprehensive Haematology Transport Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 566,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 567,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Emergency Paediatric Theatre Time, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 568,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 569,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Focused Pulmonary Pharmaceutical Dispensing, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 570,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 571,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Inpatient Paediatric Isolation Room Occupancy, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 572,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 573,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Intermittent Cardiac Specimen Analysis, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 574,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 575,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 576,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 577,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 578,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 579,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 580,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 581,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 582,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 583,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 584,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 585,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 586,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 587,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 588,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 589,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 590,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 591,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 592,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 593,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 594,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 595,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 596,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 597,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 598,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 599,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 600,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 601,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 602,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 603,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 604,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 605,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 606,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 607,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 608,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 609,
+      "exact_repeated_sentences_collapsed": [
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Postoperative Paediatric Theatre Time, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 610,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 611,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Preoperative Cardiac Specimen Analysis, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 612,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 613,
+      "exact_repeated_sentences_collapsed": [
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day.",
+        "Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Routine Neurological Imaging Interpretation, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 614,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 615,
+      "exact_repeated_sentences_collapsed": [
+        "The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered.",
+        "Any quantity billed for this Service must be expressed on the unit basis stated in this clause and on no other basis.",
+        "The rate stated in this clause is inclusive of all consumables, staffing and overhead attributable to the Service, and no separate charge shall be raised in respect of them.",
+        "The Provider shall present this Service on its invoices under a description sufficient to identify it as Standard Psychiatric Transfusion Service, and shall not present it under a description that identifies a different contracted Service."
+      ]
+    },
+    {
+      "line": 616,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 617,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 618,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 619,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 620,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 621,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 622,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 623,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 624,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 625,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 626,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 627,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 628,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 629,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 630,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 631,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 632,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 633,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 634,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 635,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 636,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 637,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 638,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 639,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 640,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 641,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 642,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 643,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 644,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 645,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 646,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 647,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 648,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 649,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 650,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 651,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 652,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 653,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 654,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 655,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 656,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 657,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 658,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 659,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 660,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 661,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 662,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 663,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 664,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 665,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 666,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 667,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 668,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 669,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 670,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 671,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 672,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 673,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 674,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 675,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 676,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 677,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 678,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 679,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 680,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 681,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 682,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 683,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 684,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 685,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 686,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 687,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 688,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 689,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 690,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 691,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 692,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 693,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 694,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 695,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 696,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 697,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 698,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 699,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 700,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 701,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 702,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 703,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 704,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 705,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 706,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 707,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 708,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 709,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 710,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 711,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 712,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 713,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 714,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 715,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 716,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 717,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 718,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 719,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 720,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 721,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 722,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 723,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 724,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 725,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 726,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 727,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 728,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 729,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 730,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 731,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 732,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 733,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 734,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 735,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 736,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 737,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 738,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 739,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 740,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 741,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 742,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 743,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 744,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 745,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 746,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 747,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 748,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 749,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 750,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 751,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 752,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 753,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 754,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 755,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 756,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 757,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 758,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 759,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 760,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 761,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 762,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 763,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 764,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 765,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 766,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 767,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 768,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 769,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 770,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 771,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 772,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 773,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 774,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 775,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 776,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 777,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 778,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 779,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 780,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 781,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 782,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 783,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 784,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 785,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 786,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 787,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 788,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 789,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 790,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 791,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 792,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 793,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 794,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 795,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 796,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 797,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 798,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 799,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 800,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 801,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 802,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 803,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 804,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 805,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 806,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 807,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 808,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 809,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 810,
+      "exact_repeated_sentences_collapsed": []
+    },
+    {
+      "line": 811,
+      "exact_repeated_sentences_collapsed": []
+    }
+  ]
+}

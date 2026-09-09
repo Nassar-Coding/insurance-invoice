@@ -1,0 +1,338 @@
+{
+  "input_quality": {
+    "accepted_invoice_records": 2,
+    "accepted_line_records": 2,
+    "disposition_counts": {
+      "accepted": 4,
+      "quarantined": 1
+    },
+    "duplicate_invoice_ids": [],
+    "duplicate_line_ids": {},
+    "hospital": "H1",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "I2",
+        "kind": "invoices",
+        "line_id": null,
+        "raw": [
+          "I2",
+          "H1",
+          "INS-H1-2024-0417",
+          "2024-02-30",
+          "P2",
+          "F-MAIN",
+          "BRONZE",
+          "2024-01-01",
+          "2024-01-02",
+          "124450"
+        ],
+        "raw_named": {
+          "admission_date": "2024-01-01",
+          "contract_number": "INS-H1-2024-0417",
+          "discharge_date": "2024-01-02",
+          "facility_code": "F-MAIN",
+          "hospital_id": "H1",
+          "invoice_date": "2024-02-30",
+          "invoice_id": "I2",
+          "invoice_total_cents": "124450",
+          "patient_id": "P2",
+          "plan_tier": "BRONZE"
+        },
+        "reason": "day is out of range for month",
+        "source": "hospital_1_invoices.csv",
+        "source_row": 4,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 5,
+    "unique_invoice_ids": 2,
+    "unique_line_ids": 2,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  },
+  "malformed_header": true,
+  "result": {
+    "abstentions": [
+      {
+        "definite_error_categories": [],
+        "hospital": "H1",
+        "invoice_id": "I1",
+        "reasons": [
+          {
+            "detail": {
+              "certain_records": 0,
+              "header_ownership_evidence": [
+                {
+                  "candidate_patients": [
+                    "P1",
+                    "P2"
+                  ],
+                  "headers": [
+                    {
+                      "patient_id": "P1",
+                      "row": 3,
+                      "source": "hospital_1_invoices.csv",
+                      "status": "accepted"
+                    },
+                    {
+                      "patient_id": "P2",
+                      "reason": "day is out of range for month",
+                      "row": 4,
+                      "source": "hospital_1_invoices.csv",
+                      "status": "quarantined"
+                    }
+                  ],
+                  "invoice_id": "I2",
+                  "line_id": "L2",
+                  "line_source": "hospital_1_line_items.csv:3",
+                  "unbounded_patient_identity": false,
+                  "unlinked_headers": []
+                }
+              ],
+              "kind": "exclusion_window",
+              "lower": 0,
+              "member_digest": "52d3a8f6785a23c593cdcbb39ebdc11dea1ecb12a96bf73cb2bb47852b86d5f4",
+              "possible_examples": [
+                "L2"
+              ],
+              "possible_records": 1,
+              "query": {
+                "anchor": "H1-S100",
+                "day": "2024-01-02",
+                "days": 7,
+                "direction": "both",
+                "patient": "P1"
+              },
+              "upper": 1
+            },
+            "line_id": "L1",
+            "reason": "unresolved_exclusion"
+          }
+        ]
+      },
+      {
+        "hospital": "H1",
+        "invoice_id": "I2",
+        "reasons": [
+          {
+            "reason": "quarantined_required_source_record"
+          }
+        ]
+      }
+    ],
+    "accounting": {
+      "abstentions": 2,
+      "accepted_invoice_records": 2,
+      "accepted_line_records": 2,
+      "context_records": 2,
+      "opinions": 0,
+      "orphan_line_count": 0,
+      "quarantined_records": 1,
+      "raw_records": 5,
+      "unique_invoice_ids": 2
+    },
+    "hospital": "H1",
+    "opinions": [],
+    "traces": [
+      {
+        "definite_error_categories": [],
+        "hospital": "H1",
+        "invoice_id": "I1",
+        "lines": [
+          {
+            "billed_line_total_cents": 9200,
+            "billed_unit": "per_hour",
+            "billed_unit_price_cents": 9200,
+            "description": "Admin Advanced Metabolic Anaes /NG-1114",
+            "duplicate_check": {
+              "certain_records": 0,
+              "kind": "same_service_day_other_billing",
+              "lower": 0,
+              "member_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "possible_examples": [],
+              "possible_records": 0,
+              "query": {
+                "day": "2024-01-02",
+                "excluding_line_id": "L1",
+                "patient": "P1",
+                "service_id": "H1-S004"
+              },
+              "upper": 0
+            },
+            "line_id": "L1",
+            "mapping_grade": "explicit",
+            "possible_service_ids": [
+              "H1-S004"
+            ],
+            "quantity": 1,
+            "reason": {
+              "detail": {
+                "certain_records": 0,
+                "header_ownership_evidence": [
+                  {
+                    "candidate_patients": [
+                      "P1",
+                      "P2"
+                    ],
+                    "headers": [
+                      {
+                        "patient_id": "P1",
+                        "row": 3,
+                        "source": "hospital_1_invoices.csv",
+                        "status": "accepted"
+                      },
+                      {
+                        "patient_id": "P2",
+                        "reason": "day is out of range for month",
+                        "row": 4,
+                        "source": "hospital_1_invoices.csv",
+                        "status": "quarantined"
+                      }
+                    ],
+                    "invoice_id": "I2",
+                    "line_id": "L2",
+                    "line_source": "hospital_1_line_items.csv:3",
+                    "unbounded_patient_identity": false,
+                    "unlinked_headers": []
+                  }
+                ],
+                "kind": "exclusion_window",
+                "lower": 0,
+                "member_digest": "52d3a8f6785a23c593cdcbb39ebdc11dea1ecb12a96bf73cb2bb47852b86d5f4",
+                "possible_examples": [
+                  "L2"
+                ],
+                "possible_records": 1,
+                "query": {
+                  "anchor": "H1-S100",
+                  "day": "2024-01-02",
+                  "days": 7,
+                  "direction": "both",
+                  "patient": "P1"
+                },
+                "upper": 1
+              },
+              "line_id": "L1",
+              "reason": "unresolved_exclusion"
+            },
+            "service_id": "H1-S004",
+            "source": "hospital_1_line_items.csv",
+            "source_refs": [
+              "data/source/contracts/hospital_1/provider_services_agreement.md#L50"
+            ],
+            "source_row": 2,
+            "status": "uncertain"
+          }
+        ],
+        "reasons": [
+          {
+            "detail": {
+              "certain_records": 0,
+              "header_ownership_evidence": [
+                {
+                  "candidate_patients": [
+                    "P1",
+                    "P2"
+                  ],
+                  "headers": [
+                    {
+                      "patient_id": "P1",
+                      "row": 3,
+                      "source": "hospital_1_invoices.csv",
+                      "status": "accepted"
+                    },
+                    {
+                      "patient_id": "P2",
+                      "reason": "day is out of range for month",
+                      "row": 4,
+                      "source": "hospital_1_invoices.csv",
+                      "status": "quarantined"
+                    }
+                  ],
+                  "invoice_id": "I2",
+                  "line_id": "L2",
+                  "line_source": "hospital_1_line_items.csv:3",
+                  "unbounded_patient_identity": false,
+                  "unlinked_headers": []
+                }
+              ],
+              "kind": "exclusion_window",
+              "lower": 0,
+              "member_digest": "52d3a8f6785a23c593cdcbb39ebdc11dea1ecb12a96bf73cb2bb47852b86d5f4",
+              "possible_examples": [
+                "L2"
+              ],
+              "possible_records": 1,
+              "query": {
+                "anchor": "H1-S100",
+                "day": "2024-01-02",
+                "days": 7,
+                "direction": "both",
+                "patient": "P1"
+              },
+              "upper": 1
+            },
+            "line_id": "L1",
+            "reason": "unresolved_exclusion"
+          }
+        ],
+        "source_headers": [
+          {
+            "row": 2,
+            "source": "hospital_1_invoices.csv"
+          }
+        ],
+        "status": "abstained"
+      },
+      {
+        "header_ownership_evidence": [
+          {
+            "patient_id": "P1",
+            "row": 3,
+            "source": "hospital_1_invoices.csv",
+            "status": "accepted"
+          },
+          {
+            "patient_id": "P2",
+            "reason": "day is out of range for month",
+            "row": 4,
+            "source": "hospital_1_invoices.csv",
+            "status": "quarantined"
+          }
+        ],
+        "hospital": "H1",
+        "invoice_id": "I2",
+        "lines": [],
+        "reasons": [
+          {
+            "reason": "quarantined_required_source_record"
+          }
+        ],
+        "source_headers": [
+          {
+            "row": 3,
+            "source": "hospital_1_invoices.csv"
+          },
+          {
+            "row": 4,
+            "source": "hospital_1_invoices.csv"
+          }
+        ],
+        "status": "abstained"
+      }
+    ]
+  },
+  "validation": {
+    "opinions_checked": 0,
+    "supported_lines_checked": 0,
+    "traces_checked": 2
+  }
+}

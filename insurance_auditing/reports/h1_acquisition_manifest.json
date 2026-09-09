@@ -1,0 +1,15 @@
+{
+  "mapping_review_input": "mappings/H1.candidates.raw.json",
+  "mode": "Work-session model-authored interpretation with deterministic table transcription aid; not a model API call",
+  "prompts": {
+    "prompts/extract_v1.md": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "prompts/map_v1.md": "4529b354b762d858d69fbf1a6edd688070172b492f16d04349185b1ec5726029",
+    "prompts/review_v1.md": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  "raw_contract_sha256": "bf05bd85e10bb5ee83be2a4c6035765bab66750a45e33cd89370e297e5e545b8",
+  "raw_mapping_sha256": "ea357310909a03ff2daedf51cf1fecef97c2c6776818f98fd53bda608d513ca6",
+  "semantics_authoring": "tools/acquire_h1.py contains the visible finite data interpretation, not generated per-contract pricing functions.",
+  "sources": {
+    "data/source/contracts/hospital_1/provider_services_agreement.md": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853"
+  }
+}

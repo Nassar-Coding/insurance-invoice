@@ -1,0 +1,11 @@
+{
+  "run": "first input test execution",
+  "tests_run": 7,
+  "failures": 1,
+  "errors": 0,
+  "failed_test": "test_no_label_access_and_split_identity",
+  "assertion": "11409 != 11415",
+  "cause": "Test incorrectly equated accepted H1 line records with the 11415 raw lines; six deliberately malformed service dates were correctly quarantined.",
+  "resolution": "Assert accepted plus quarantined equals all raw lines; preserve quarantined raw fields and dependency effects. Source data is unchanged.",
+  "evidence": "reports/input_quality.json H1.quarantined; corrected tests/test_inputs.py; subsequent executable test log"
+}

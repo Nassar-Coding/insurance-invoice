@@ -1,0 +1,12 @@
+test_headers_are_named_and_order_independent (test_inputs.InputContractTests.test_headers_are_named_and_order_independent) ... ok
+test_hospital_scope_cannot_be_a_path (test_inputs.InputContractTests.test_hospital_scope_cannot_be_a_path) ... ok
+test_missing_duplicate_unknown_headers_fatal (test_inputs.InputContractTests.test_missing_duplicate_unknown_headers_fatal) ... ok
+test_no_label_access_and_split_identity (test_inputs.InputContractTests.test_no_label_access_and_split_identity) ... ok
+test_numeric_range_and_non_finite (test_inputs.InputContractTests.test_numeric_range_and_non_finite) ... ok
+test_parseable_billing_fault_is_retained (test_inputs.InputContractTests.test_parseable_billing_fault_is_retained) ... ok
+test_values_quarantined_without_silent_drop (test_inputs.InputContractTests.test_values_quarantined_without_silent_drop) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.105s
+
+OK

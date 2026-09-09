@@ -1,0 +1,27 @@
+{
+  "eligibility": "No final H2 opinion without actual submission/exception facts; diagnostic package only.",
+  "full_reading_evidence": [
+    "reports/H2_reading_index.json",
+    "reports/H2_reading_remaining.txt"
+  ],
+  "mode": "Work-session model interpretation with deterministic prose transcription, no model API",
+  "numeric_rule_counts": {
+    "bundles": 3,
+    "caps": 8,
+    "discount_tiers": 12,
+    "exclusions": 6,
+    "premiums": 9,
+    "weekend": 8
+  },
+  "prompts": {
+    "prompts/extract_v1.md": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "prompts/map_v2.md": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b",
+    "prompts/review_v1.md": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  "rate_clause_count": 76,
+  "raw_contract_sha256": "bbf65f5af568a093be520b441897604a1bf463b173bc3fd64d55bd2b54bf9803",
+  "raw_mapping_sha256": "34640beb878ab86ef3d7568024d8ca5d61c0800a49ca2aac2d4fd772ddbd00f6",
+  "sources": {
+    "data/source/contracts/hospital_2/master_services_agreement.md": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4"
+  }
+}

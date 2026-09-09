@@ -1,0 +1,24 @@
+{
+  "decision_log": {
+    "file": "reports/decision_log.pdf",
+    "pages": 1,
+    "limit": 1,
+    "sha256": "f3e87ecb2f6b59c5791e215a11ed86518bb39a064d24cc7238c6ed47d3a3ddce",
+    "text_characters": 3401,
+    "markdown_sha256": "3c5d9e3b4b9f2fd5caf155bafc50aec02f7634ad94eae712c9471b215c9c7ff4"
+  },
+  "submission_writeup": {
+    "file": "reports/submission_writeup.pdf",
+    "pages": 2,
+    "limit": 2,
+    "sha256": "d09245c0d69e09b312946a3c2aff8ef2bdb39cf360928bb2042eef55700fd02b",
+    "text_characters": 6791,
+    "markdown_sha256": "1d1ce292a3d73487aa620ba7f8645e54b765dab952cf9d83d749c03066a353ae"
+  },
+  "visual_inspection": {
+    "status": "passed",
+    "pages_inspected": 3,
+    "method": "Author viewed PNG renders of both final PDFs after embedding fonts. No clipping, overlap, missing glyphs or pagination defects observed.",
+    "initial_correction": "First rendering used substituted base fonts with poor spacing; switched to embedded ReportLab Vera fonts and inspected all final pages."
+  }
+}

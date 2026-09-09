@@ -1,0 +1,24 @@
+{
+  "removed": [
+    "runs/",
+    "reports/corrections/",
+    "submission.csv",
+    "reports/metrics.json",
+    "reports/workload.json",
+    "reports/evaluation_development.json",
+    "reports/evaluation_check.json",
+    "reports/evaluation_full.json",
+    "reports/evaluation_report.md",
+    "reports/execution.json",
+    "reports/release_manifest.json"
+  ],
+  "environment": {
+    "PATH": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/usr/bin:/bin",
+    "PYTHONPATH": "src",
+    "PYTHONNOUSERSITE": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "7831",
+    "LANG": "C.UTF-8"
+  },
+  "fresh_clone_commit": "ebc3f05fd42bd84584cc5455dc7c0b74a2c8bc8c"
+}

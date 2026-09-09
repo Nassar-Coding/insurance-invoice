@@ -1,0 +1,1333 @@
+{
+  "H1": {
+    "accepted_invoice_records": 918,
+    "accepted_line_records": 11409,
+    "disposition_counts": {
+      "accepted": 12327,
+      "quarantined": 6
+    },
+    "duplicate_invoice_ids": [
+      {
+        "billed_totals": [
+          2123825,
+          2182165
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H1-000068",
+        "patients": [
+          "PT-H1-000021",
+          "PT-H1-000054"
+        ],
+        "source_rows": [
+          69,
+          156
+        ]
+      },
+      {
+        "billed_totals": [
+          1322245,
+          3899160
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H1-000152",
+        "patients": [
+          "PT-H1-000106",
+          "PT-H1-000118"
+        ],
+        "source_rows": [
+          153,
+          190
+        ]
+      },
+      {
+        "billed_totals": [
+          4112388,
+          5458136
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H1-000429",
+        "patients": [
+          "PT-H1-000006",
+          "PT-H1-000095"
+        ],
+        "source_rows": [
+          430,
+          526
+        ]
+      },
+      {
+        "billed_totals": [
+          1922972,
+          3516982
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H1-000457",
+        "patients": [
+          "PT-H1-000023",
+          "PT-H1-000104"
+        ],
+        "source_rows": [
+          458,
+          484
+        ]
+      },
+      {
+        "billed_totals": [
+          2115965,
+          3621405
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H1-000548",
+        "patients": [
+          "PT-H1-000025",
+          "PT-H1-000138"
+        ],
+        "source_rows": [
+          549,
+          602
+        ]
+      }
+    ],
+    "duplicate_line_ids": {},
+    "hospital": "H1",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "INV-H1-000036",
+        "kind": "line_items",
+        "line_id": "H1-L00036-17",
+        "raw": [
+          "H1-L00036-17",
+          "INV-H1-000036",
+          "17",
+          "2025-06-31",
+          "Preop Otolaryngologic Steril Svc",
+          "1",
+          "per_procedure",
+          "134725",
+          "134725"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 396,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H1-000069",
+        "kind": "line_items",
+        "line_id": "H1-L00069-02",
+        "raw": [
+          "H1-L00069-02",
+          "INV-H1-000069",
+          "2",
+          "not-a-date",
+          "Occupancy Inpatient Palliative Isol Room",
+          "1",
+          "per_night",
+          "179600",
+          "179600"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 832,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H1-000219",
+        "kind": "line_items",
+        "line_id": "H1-L00219-09",
+        "raw": [
+          "H1-L00219-09",
+          "INV-H1-000219",
+          "9",
+          "2024-00-17",
+          "Consult Outpt Immun /NG-3689",
+          "2",
+          "per_procedure",
+          "279225",
+          "558450"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 2656,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H1-000281",
+        "kind": "line_items",
+        "line_id": "H1-L00281-10",
+        "raw": [
+          "H1-L00281-10",
+          "INV-H1-000281",
+          "10",
+          "31/02/2024",
+          "Occupancy Bedside Ent Recovery Room",
+          "2",
+          "per_night",
+          "150450",
+          "300900"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 3459,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H1-000552",
+        "kind": "line_items",
+        "line_id": "H1-L00552-12",
+        "raw": [
+          "H1-L00552-12",
+          "INV-H1-000552",
+          "12",
+          "2025-02-30",
+          "Occupancy Postop Obstetric Isol Room",
+          "1",
+          "per_day",
+          "43525",
+          "43525"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 6878,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H1-000650",
+        "kind": "line_items",
+        "line_id": "H1-L00650-07",
+        "raw": [
+          "H1-L00650-07",
+          "INV-H1-000650",
+          "7",
+          "2025-06-31",
+          "Inpatient Ophth Transp Svc",
+          "10",
+          "per_item",
+          "4800",
+          "48000"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_1_line_items.csv",
+        "source_row": 8114,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 12333,
+    "unique_invoice_ids": 913,
+    "unique_line_ids": 11409,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  },
+  "H2": {
+    "accepted_invoice_records": 1132,
+    "accepted_line_records": 14352,
+    "disposition_counts": {
+      "accepted": 15484,
+      "quarantined": 8
+    },
+    "duplicate_invoice_ids": [
+      {
+        "billed_totals": [
+          1893669,
+          2044169
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000054",
+        "patients": [
+          "PT-H2-000091",
+          "PT-H2-000128"
+        ],
+        "source_rows": [
+          55,
+          99
+        ]
+      },
+      {
+        "billed_totals": [
+          1481960,
+          2181731
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000078",
+        "patients": [
+          "PT-H2-000180",
+          "PT-H2-000238"
+        ],
+        "source_rows": [
+          79,
+          573
+        ]
+      },
+      {
+        "billed_totals": [
+          1886279,
+          2338025
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000104",
+        "patients": [
+          "PT-H2-000052",
+          "PT-H2-000072"
+        ],
+        "source_rows": [
+          105,
+          498
+        ]
+      },
+      {
+        "billed_totals": [
+          1388770,
+          4149703
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000147",
+        "patients": [
+          "PT-H2-000060",
+          "PT-H2-000106"
+        ],
+        "source_rows": [
+          148,
+          613
+        ]
+      },
+      {
+        "billed_totals": [
+          1835952,
+          3522408
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000197",
+        "patients": [
+          "PT-H2-000229",
+          "PT-H2-000249"
+        ],
+        "source_rows": [
+          198,
+          1036
+        ]
+      },
+      {
+        "billed_totals": [
+          1309252,
+          2219418
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000290",
+        "patients": [
+          "PT-H2-000010",
+          "PT-H2-000156"
+        ],
+        "source_rows": [
+          291,
+          637
+        ]
+      },
+      {
+        "billed_totals": [
+          1605618,
+          4038649
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H2-000549",
+        "patients": [
+          "PT-H2-000151",
+          "PT-H2-000177"
+        ],
+        "source_rows": [
+          550,
+          771
+        ]
+      }
+    ],
+    "duplicate_line_ids": {},
+    "hospital": "H2",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "INV-H2-000007",
+        "kind": "line_items",
+        "line_id": "H2-L00007-08",
+        "raw": [
+          "H2-L00007-08",
+          "INV-H2-000007",
+          "8",
+          "2024-13-05",
+          "ADV  ENDO CASE CONFERENCE",
+          "1",
+          "per_visit",
+          "17400",
+          "17400"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 81,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000150",
+        "kind": "line_items",
+        "line_id": "H2-L00150-01",
+        "raw": [
+          "H2-L00150-01",
+          "INV-H2-000150",
+          "1",
+          "not-a-date",
+          "FRACT  BEDSIDE OPHTH RADIOTHER",
+          "2",
+          "per_procedure",
+          "123550",
+          "247100"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 1967,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000422",
+        "kind": "line_items",
+        "line_id": "H2-L00422-06",
+        "raw": [
+          "H2-L00422-06",
+          "INV-H2-000422",
+          "6",
+          "2024-13-05",
+          "PROG  INTENS ENT REHAB",
+          "3",
+          "per_day",
+          "97200",
+          "291600"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 5399,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000519",
+        "kind": "line_items",
+        "line_id": "H2-L00519-01",
+        "raw": [
+          "H2-L00519-01",
+          "INV-H2-000519",
+          "1",
+          "2025-06-31",
+          "MSK  DIAG IMG",
+          "2",
+          "per_procedure",
+          "424475",
+          "848950"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 6588,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000561",
+        "kind": "line_items",
+        "line_id": "H2-L00561-13",
+        "raw": [
+          "H2-L00561-13",
+          "INV-H2-000561",
+          "13",
+          "31/02/2024",
+          "ASST - INFECT TELEM MONIT",
+          "15",
+          "per_hour_per_item",
+          "10625",
+          "159375"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 7132,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000684",
+        "kind": "line_items",
+        "line_id": "H2-L00684-02",
+        "raw": [
+          "H2-L00684-02",
+          "INV-H2-000684",
+          "2",
+          "not-a-date",
+          "SUPV MSK DIAG IMG",
+          "2",
+          "per_procedure",
+          "424475",
+          "848950"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 8730,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000752",
+        "kind": "line_items",
+        "line_id": "H2-L00752-09",
+        "raw": [
+          "H2-L00752-09",
+          "INV-H2-000752",
+          "9",
+          "2024-13-05",
+          "ENT CS CONF /SA-6459",
+          "2",
+          "per_visit",
+          "16525",
+          "33050"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 9605,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H2-000955",
+        "kind": "line_items",
+        "line_id": "H2-L00955-01",
+        "raw": [
+          "H2-L00955-01",
+          "INV-H2-000955",
+          "1",
+          "2025-02-30",
+          "PROCEDURE SUPV HEP ENDOSC",
+          "2",
+          "per_procedure",
+          "249825",
+          "499650"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_2_line_items.csv",
+        "source_row": 12206,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 15492,
+    "unique_invoice_ids": 1125,
+    "unique_line_ids": 14352,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  },
+  "H3": {
+    "accepted_invoice_records": 939,
+    "accepted_line_records": 11648,
+    "disposition_counts": {
+      "accepted": 12587,
+      "quarantined": 7
+    },
+    "duplicate_invoice_ids": [
+      {
+        "billed_totals": [
+          2736005,
+          2862448
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000021",
+        "patients": [
+          "PT-H3-000060",
+          "PT-H3-000209"
+        ],
+        "source_rows": [
+          22,
+          72
+        ]
+      },
+      {
+        "billed_totals": [
+          1367319,
+          4117353
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000085",
+        "patients": [
+          "PT-H3-000063",
+          "PT-H3-000143"
+        ],
+        "source_rows": [
+          86,
+          102
+        ]
+      },
+      {
+        "billed_totals": [
+          1367695,
+          3271321
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000148",
+        "patients": [
+          "PT-H3-000065",
+          "PT-H3-000232"
+        ],
+        "source_rows": [
+          149,
+          346
+        ]
+      },
+      {
+        "billed_totals": [
+          1266846,
+          3158141
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000324",
+        "patients": [
+          "PT-H3-000005",
+          "PT-H3-000174"
+        ],
+        "source_rows": [
+          325,
+          705
+        ]
+      },
+      {
+        "billed_totals": [
+          2722333,
+          3368965
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000334",
+        "patients": [
+          "PT-H3-000088",
+          "PT-H3-000148"
+        ],
+        "source_rows": [
+          335,
+          445
+        ]
+      },
+      {
+        "billed_totals": [
+          1619358,
+          1962471
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000352",
+        "patients": [
+          "PT-H3-000125",
+          "PT-H3-000227"
+        ],
+        "source_rows": [
+          353,
+          654
+        ]
+      },
+      {
+        "billed_totals": [
+          1876500,
+          3105971
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H3-000381",
+        "patients": [
+          "PT-H3-000152",
+          "PT-H3-000195"
+        ],
+        "source_rows": [
+          382,
+          452
+        ]
+      }
+    ],
+    "duplicate_line_ids": {},
+    "hospital": "H3",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "INV-H3-000017",
+        "kind": "line_items",
+        "line_id": "H3-L00017-10",
+        "raw": [
+          "H3-L00017-10",
+          "INV-H3-000017",
+          "10",
+          "2025-02-30",
+          "emer - ren room occ /RM-9004",
+          "6",
+          "per_night",
+          "49050",
+          "294300"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 204,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000064",
+        "kind": "line_items",
+        "line_id": "H3-L00064-01",
+        "raw": [
+          "H3-L00064-01",
+          "INV-H3-000064",
+          "1",
+          "31/02/2024",
+          "outpatient  gastrointestinal isol rm occ /RM-4839",
+          "6",
+          "per_day",
+          "57050",
+          "342300"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 763,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000332",
+        "kind": "line_items",
+        "line_id": "H3-L00332-07",
+        "raw": [
+          "H3-L00332-07",
+          "INV-H3-000332",
+          "7",
+          "2024-13-05",
+          "adv musculoskeletal radiother fract /RM-5856",
+          "2",
+          "per_procedure",
+          "348975",
+          "697950"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 4158,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000351",
+        "kind": "line_items",
+        "line_id": "H3-L00351-04",
+        "raw": [
+          "H3-L00351-04",
+          "INV-H3-000351",
+          "4",
+          "not-a-date",
+          "monit  bedside ger telem",
+          "2",
+          "per_day",
+          "131100",
+          "262200"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 4410,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000334",
+        "kind": "line_items",
+        "line_id": "H3-L00444-08",
+        "raw": [
+          "H3-L00444-08",
+          "INV-H3-000334",
+          "8",
+          "2024-00-17",
+          "compr pall img /RM-7888",
+          "2",
+          "per_procedure",
+          "163525",
+          "327050"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 5484,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000837",
+        "kind": "line_items",
+        "line_id": "H3-L00837-02",
+        "raw": [
+          "H3-L00837-02",
+          "INV-H3-000837",
+          "2",
+          "31/02/2024",
+          "monit - foc telemetry",
+          "4",
+          "per_hour_per_item",
+          "5225",
+          "20900"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 10352,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H3-000935",
+        "kind": "line_items",
+        "line_id": "H3-L00935-02",
+        "raw": [
+          "H3-L00935-02",
+          "INV-H3-000935",
+          "2",
+          "31/02/2024",
+          "admin outpt infect anaes /RM-4440",
+          "21",
+          "per_hour",
+          "11950",
+          "250950"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_3_line_items.csv",
+        "source_row": 11595,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 12594,
+    "unique_invoice_ids": 932,
+    "unique_line_ids": 11648,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  },
+  "H4": {
+    "accepted_invoice_records": 840,
+    "accepted_line_records": 10554,
+    "disposition_counts": {
+      "accepted": 11394,
+      "quarantined": 6
+    },
+    "duplicate_invoice_ids": [
+      {
+        "billed_totals": [
+          1575625,
+          1732300
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H4-000073",
+        "patients": [
+          "PT-H4-000078",
+          "PT-H4-000110"
+        ],
+        "source_rows": [
+          74,
+          518
+        ]
+      },
+      {
+        "billed_totals": [
+          233850,
+          1486726
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H4-000079",
+        "patients": [
+          "PT-H4-000040",
+          "PT-H4-000161"
+        ],
+        "source_rows": [
+          80,
+          304
+        ]
+      },
+      {
+        "billed_totals": [
+          2802450,
+          4696974
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H4-000264",
+        "patients": [
+          "PT-H4-000160",
+          "PT-H4-000210"
+        ],
+        "source_rows": [
+          265,
+          419
+        ]
+      },
+      {
+        "billed_totals": [
+          824750,
+          1837700
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H4-000431",
+        "patients": [
+          "PT-H4-000125",
+          "PT-H4-000152"
+        ],
+        "source_rows": [
+          432,
+          840
+        ]
+      },
+      {
+        "billed_totals": [
+          1108400,
+          2023725
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H4-000607",
+        "patients": [
+          "PT-H4-000092",
+          "PT-H4-000176"
+        ],
+        "source_rows": [
+          608,
+          788
+        ]
+      }
+    ],
+    "duplicate_line_ids": {},
+    "hospital": "H4",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "INV-H4-000153",
+        "kind": "line_items",
+        "line_id": "H4-L00153-12",
+        "raw": [
+          "H4-L00153-12",
+          "INV-H4-000153",
+          "12",
+          "31/02/2024",
+          "std - DIAL sess /CW-2606",
+          "2",
+          "per_procedure",
+          "368050",
+          "736100"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 1879,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H4-000164",
+        "kind": "line_items",
+        "line_id": "H4-L00164-11",
+        "raw": [
+          "H4-L00164-11",
+          "INV-H4-000164",
+          "11",
+          "2024-00-17",
+          "tm OUTPATIENT urol /CW-9136",
+          "15",
+          "per_hour",
+          "7650",
+          "114750"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 1988,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H4-000528",
+        "kind": "line_items",
+        "line_id": "H4-L00528-13",
+        "raw": [
+          "H4-L00528-13",
+          "INV-H4-000528",
+          "13",
+          "2024-00-17",
+          "interm ONC home VST /CW-1380",
+          "2",
+          "per_visit",
+          "22050",
+          "44100"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 6545,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H4-000576",
+        "kind": "line_items",
+        "line_id": "H4-L00576-05",
+        "raw": [
+          "H4-L00576-05",
+          "INV-H4-000576",
+          "5",
+          "2024-13-05",
+          "spclst GI img INTERP /CW-5639",
+          "2",
+          "per_procedure",
+          "83625",
+          "167250"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 7202,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H4-000678",
+        "kind": "line_items",
+        "line_id": "H4-L00678-08",
+        "raw": [
+          "H4-L00678-08",
+          "INV-H4-000678",
+          "8",
+          "2025-02-30",
+          "PREOP - musculoskeletal RECOV rm OCC",
+          "3",
+          "per_night",
+          "162775",
+          "488325"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 8516,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H4-000700",
+        "kind": "line_items",
+        "line_id": "H4-L00700-06",
+        "raw": [
+          "H4-L00700-06",
+          "INV-H4-000700",
+          "6",
+          "31/02/2024",
+          "std - DIAL sess /CW-2606",
+          "2",
+          "per_procedure",
+          "368050",
+          "736100"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_4_line_items.csv",
+        "source_row": 8792,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 11400,
+    "unique_invoice_ids": 835,
+    "unique_line_ids": 10554,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  },
+  "H5": {
+    "accepted_invoice_records": 1057,
+    "accepted_line_records": 13213,
+    "disposition_counts": {
+      "accepted": 14270,
+      "quarantined": 8
+    },
+    "duplicate_invoice_ids": [
+      {
+        "billed_totals": [
+          741664,
+          1790346
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000001",
+        "patients": [
+          "PT-H5-000004",
+          "PT-H5-000108"
+        ],
+        "source_rows": [
+          2,
+          233
+        ]
+      },
+      {
+        "billed_totals": [
+          3046447,
+          4199619
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000074",
+        "patients": [
+          "PT-H5-000171",
+          "PT-H5-000233"
+        ],
+        "source_rows": [
+          75,
+          830
+        ]
+      },
+      {
+        "billed_totals": [
+          2451775,
+          3061300
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000076",
+        "patients": [
+          "PT-H5-000091",
+          "PT-H5-000241"
+        ],
+        "source_rows": [
+          77,
+          105
+        ]
+      },
+      {
+        "billed_totals": [
+          2575249,
+          3389664
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000170",
+        "patients": [
+          "PT-H5-000164",
+          "PT-H5-000216"
+        ],
+        "source_rows": [
+          171,
+          264
+        ]
+      },
+      {
+        "billed_totals": [
+          1013445,
+          3972024
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000260",
+        "patients": [
+          "PT-H5-000126",
+          "PT-H5-000189"
+        ],
+        "source_rows": [
+          261,
+          909
+        ]
+      },
+      {
+        "billed_totals": [
+          3119824,
+          3624200
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000311",
+        "patients": [
+          "PT-H5-000013",
+          "PT-H5-000247"
+        ],
+        "source_rows": [
+          312,
+          364
+        ]
+      },
+      {
+        "billed_totals": [
+          2696113,
+          3306190
+        ],
+        "identical_headers": false,
+        "invoice_id": "INV-H5-000375",
+        "patients": [
+          "PT-H5-000044",
+          "PT-H5-000142"
+        ],
+        "source_rows": [
+          376,
+          651
+        ]
+      }
+    ],
+    "duplicate_line_ids": {},
+    "hospital": "H5",
+    "hospital_field_mismatches": [],
+    "invoices_without_lines": [],
+    "note": "Raw occurrences are not deduplicated or multiplied through joins. Unknowns remain context dependencies.",
+    "orphan_lines": [],
+    "quarantined": [
+      {
+        "invoice_id": "INV-H5-000034",
+        "kind": "line_items",
+        "line_id": "H5-L00034-09",
+        "raw": [
+          "H5-L00034-09",
+          "INV-H5-000034",
+          "9",
+          "2025-06-31",
+          "CONT  IMMUNOLOGIC LAB PANEL",
+          "4",
+          "per_item",
+          "7025",
+          "28100"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 403,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000117",
+        "kind": "line_items",
+        "line_id": "H5-L00117-06",
+        "raw": [
+          "H5-L00117-06",
+          "INV-H5-000117",
+          "6",
+          "31/02/2024",
+          "COMPREHENSIVE - METAB VENT SUPPORT",
+          "6",
+          "per_day",
+          "47650",
+          "285900"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 1410,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000190",
+        "kind": "line_items",
+        "line_id": "H5-L00190-03",
+        "raw": [
+          "H5-L00190-03",
+          "INV-H5-000190",
+          "3",
+          "31/02/2024",
+          "PREOP PAED BIOP PROCEDURE",
+          "12",
+          "per_item",
+          "15675",
+          "188100"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 2333,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000224",
+        "kind": "line_items",
+        "line_id": "H5-L00224-06",
+        "raw": [
+          "H5-L00224-06",
+          "INV-H5-000224",
+          "6",
+          "31/02/2024",
+          "INFECT  - VENT SUPP /PH-8261",
+          "17",
+          "per_hour",
+          "19225",
+          "326825"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 2758,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000388",
+        "kind": "line_items",
+        "line_id": "H5-L00388-08",
+        "raw": [
+          "H5-L00388-08",
+          "INV-H5-000388",
+          "8",
+          "2024-13-05",
+          "CONFERENCE  - CONT PULMONARY CS",
+          "24",
+          "per_hour",
+          "4300",
+          "103200"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 4829,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000429",
+        "kind": "line_items",
+        "line_id": "H5-L00429-05",
+        "raw": [
+          "H5-L00429-05",
+          "INV-H5-000429",
+          "5",
+          "31/02/2024",
+          "STD  INFECT VENTILATION SUPP /PH-3964",
+          "9",
+          "per_hour",
+          "19225",
+          "173025"
+        ],
+        "reason": "service_date: expected YYYY-MM-DD",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 5291,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000489",
+        "kind": "line_items",
+        "line_id": "H5-L00489-03",
+        "raw": [
+          "H5-L00489-03",
+          "INV-H5-000489",
+          "3",
+          "2024-13-05",
+          "CONSULT  - SUPV VASC /PH-5450",
+          "1",
+          "per_procedure",
+          "156100",
+          "156100"
+        ],
+        "reason": "month must be in 1..12",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 6039,
+        "status": "quarantined"
+      },
+      {
+        "invoice_id": "INV-H5-000751",
+        "kind": "line_items",
+        "line_id": "H5-L00751-09",
+        "raw": [
+          "H5-L00751-09",
+          "INV-H5-000751",
+          "9",
+          "2025-06-31",
+          "FRACT UROL RADIOTHER",
+          "6",
+          "per_item",
+          "5100",
+          "30600"
+        ],
+        "reason": "day is out of range for month",
+        "source": "hospital_5_line_items.csv",
+        "source_row": 9316,
+        "status": "quarantined"
+      }
+    ],
+    "raw_record_count": 14278,
+    "unique_invoice_ids": 1050,
+    "unique_line_ids": 13213,
+    "unobserved_facts": [
+      "service timestamps",
+      "leave intervals",
+      "settlement status",
+      "independent unit dimensions"
+    ]
+  }
+}

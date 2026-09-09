@@ -1,0 +1,25 @@
+{
+  "evidence": [
+    "baseline.json",
+    "history_verification.json",
+    "file_disposition.json",
+    "document_checks.json",
+    "content_review.json",
+    "final_reproduction/result.json"
+  ],
+  "independent_closure": "PASS \u2014 BOTH FINDINGS CLOSED, NO MATERIAL REGRESSIONS",
+  "later_external_tasks": {
+    "ST11.01": "Not started: destination/write authorization",
+    "ST11.02": "Not started: actual publication and remote verification",
+    "ST11.03": "Not started: actual assessor access",
+    "ST11.04": "Not started: actual send and timing evidence"
+  },
+  "local_blockers": [],
+  "stage": "publishing preparation",
+  "status": "Completed and verified",
+  "submission_rows": 340,
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "technical_baseline_unchanged": true,
+  "tested_commit": "2cb44034ee47d7070ea9032aed552f2e6b681474",
+  "tests_passed": 75
+}

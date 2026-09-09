@@ -1,0 +1,2 @@
+# Preserve audited source, schemas, prompts and CSV bytes across checkouts.
+* -text

@@ -1,0 +1,47 @@
+{
+  "first_differences": [
+    {
+      "after": 156,
+      "before": 69,
+      "path": "/traces/67/source_headers/0/row"
+    },
+    {
+      "after": 69,
+      "before": 156,
+      "path": "/traces/67/source_headers/1/row"
+    },
+    {
+      "after": 190,
+      "before": 153,
+      "path": "/traces/151/source_headers/0/row"
+    },
+    {
+      "after": 153,
+      "before": 190,
+      "path": "/traces/151/source_headers/1/row"
+    },
+    {
+      "after": 484,
+      "before": 458,
+      "path": "/traces/454/source_headers/0/row"
+    },
+    {
+      "after": 458,
+      "before": 484,
+      "path": "/traces/454/source_headers/1/row"
+    },
+    {
+      "after": 602,
+      "before": 549,
+      "path": "/traces/543/source_headers/0/row"
+    },
+    {
+      "after": 549,
+      "before": 602,
+      "path": "/traces/543/source_headers/1/row"
+    }
+  ],
+  "hospital": "H1",
+  "six_opinion_fields_equal": true,
+  "status": "failed"
+}

@@ -1,0 +1,612 @@
+{
+  "candidate_count": 38,
+  "candidates": {
+    "INV-H1-000034": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S014",
+        "H1-S081",
+        "H1-S024",
+        "H1-S036",
+        "H1-S069",
+        "H1-S077",
+        "H1-S035",
+        "H1-S042",
+        "H1-S101",
+        "H1-S072",
+        "H1-S079",
+        "H1-S037",
+        "H1-S082",
+        "H1-S094"
+      ]
+    },
+    "INV-H1-000055": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S099",
+        "H1-S072",
+        "H1-S060",
+        "H1-S006",
+        "H1-S021",
+        "H1-S014",
+        "H1-S099",
+        "H1-S031",
+        "H1-S042",
+        "H1-S054",
+        "H1-S041",
+        "H1-S029"
+      ]
+    },
+    "INV-H1-000101": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S100",
+        "H1-S043",
+        "H1-S106",
+        "H1-S017",
+        "H1-S084"
+      ]
+    },
+    "INV-H1-000122": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S091",
+        "H1-S085",
+        "H1-S009",
+        "H1-S017",
+        "H1-S013"
+      ]
+    },
+    "INV-H1-000157": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S009",
+        "H1-S075",
+        "H1-S014",
+        "H1-S084",
+        "H1-S029",
+        "H1-S061"
+      ]
+    },
+    "INV-H1-000195": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S061",
+        "H1-S084",
+        "H1-S094",
+        "H1-S071",
+        "H1-S040",
+        "H1-S035",
+        "H1-S084",
+        "H1-S022",
+        "H1-S006"
+      ]
+    },
+    "INV-H1-000236": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S053",
+        "H1-S099",
+        "H1-S071",
+        "H1-S061",
+        "H1-S081",
+        "H1-S056",
+        "H1-S030",
+        "H1-S049",
+        "H1-S105",
+        "H1-S045",
+        "H1-S060"
+      ]
+    },
+    "INV-H1-000280": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S067",
+        "H1-S080",
+        "H1-S012",
+        "H1-S031",
+        "H1-S027",
+        "H1-S011"
+      ]
+    },
+    "INV-H1-000290": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S098",
+        "H1-S084",
+        "H1-S096",
+        "H1-S014",
+        "H1-S052",
+        "H1-S094",
+        "H1-S077",
+        "H1-S061",
+        "H1-S060",
+        "H1-S013",
+        "H1-S028"
+      ]
+    },
+    "INV-H1-000293": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S029",
+        "H1-S027",
+        "H1-S017",
+        "H1-S022",
+        "H1-S009",
+        "H1-S034",
+        "H1-S013"
+      ]
+    },
+    "INV-H1-000296": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S066",
+        "H1-S072",
+        "H1-S035",
+        "H1-S094",
+        "H1-S008",
+        "H1-S028",
+        "H1-S099"
+      ]
+    },
+    "INV-H1-000302": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S009",
+        "H1-S090",
+        "H1-S018",
+        "H1-S086",
+        "H1-S002",
+        "H1-S079",
+        "H1-S094"
+      ]
+    },
+    "INV-H1-000316": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S050",
+        "H1-S005",
+        "H1-S009",
+        "H1-S059",
+        "H1-S080",
+        "H1-S100",
+        "H1-S099",
+        "H1-S008",
+        "H1-S079",
+        "H1-S038",
+        "H1-S018",
+        "H1-S039",
+        "H1-S025",
+        "H1-S002",
+        "H1-S089",
+        "H1-S071",
+        "H1-S006"
+      ]
+    },
+    "INV-H1-000333": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S080",
+        "H1-S070",
+        "H1-S082",
+        "H1-S008",
+        "H1-S017"
+      ]
+    },
+    "INV-H1-000352": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S098",
+        "H1-S085",
+        "H1-S032",
+        "H1-S005",
+        "H1-S096",
+        "H1-S014"
+      ]
+    },
+    "INV-H1-000355": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S050",
+        "H1-S108",
+        "H1-S067",
+        "H1-S005",
+        "H1-S021",
+        "H1-S047",
+        "H1-S017",
+        "H1-S061"
+      ]
+    },
+    "INV-H1-000378": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S050",
+        "H1-S006",
+        "H1-S022",
+        "H1-S023",
+        "H1-S094",
+        "H1-S069",
+        "H1-S073",
+        "H1-S101",
+        "H1-S007",
+        "H1-S104",
+        "H1-S030",
+        "H1-S105",
+        "H1-S015",
+        "H1-S029"
+      ]
+    },
+    "INV-H1-000391": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S013",
+        "H1-S040",
+        "H1-S076",
+        "H1-S034",
+        "H1-S080"
+      ]
+    },
+    "INV-H1-000432": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S010",
+        "H1-S086",
+        "H1-S070",
+        "H1-S108",
+        "H1-S005"
+      ]
+    },
+    "INV-H1-000500": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S085",
+        "H1-S061",
+        "H1-S060",
+        "H1-S096",
+        "H1-S077"
+      ]
+    },
+    "INV-H1-000578": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S072",
+        "H1-S023",
+        "H1-S067",
+        "H1-S098",
+        "H1-S075"
+      ]
+    },
+    "INV-H1-000587": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S056",
+        "H1-S028",
+        "H1-S014",
+        "H1-S072",
+        "H1-S018",
+        "H1-S022",
+        "H1-S045"
+      ]
+    },
+    "INV-H1-000609": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S092",
+        "H1-S066",
+        "H1-S014",
+        "H1-S099",
+        "H1-S006"
+      ]
+    },
+    "INV-H1-000636": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S030",
+        "H1-S036",
+        "H1-S030",
+        "H1-S051",
+        "H1-S027",
+        "H1-S086",
+        "H1-S081",
+        "H1-S098"
+      ]
+    },
+    "INV-H1-000642": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S023",
+        "H1-S009",
+        "H1-S092",
+        "H1-S104",
+        "H1-S095",
+        "H1-S049",
+        "H1-S015",
+        "H1-S105",
+        "H1-S002",
+        "H1-S058",
+        "H1-S096",
+        "H1-S050",
+        "H1-S012"
+      ]
+    },
+    "INV-H1-000672": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S047",
+        "H1-S056",
+        "H1-S036",
+        "H1-S080",
+        "H1-S091",
+        "H1-S084",
+        "H1-S076",
+        "H1-S091",
+        "H1-S070",
+        "H1-S008",
+        "H1-S100",
+        "H1-S030"
+      ]
+    },
+    "INV-H1-000688": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S005",
+        "H1-S081",
+        "H1-S107",
+        "H1-S041",
+        "H1-S054",
+        "H1-S088",
+        "H1-S054",
+        "H1-S019",
+        "H1-S101",
+        "H1-S091",
+        "H1-S059",
+        "H1-S019"
+      ]
+    },
+    "INV-H1-000691": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S066",
+        "H1-S014",
+        "H1-S062",
+        "H1-S070",
+        "H1-S059",
+        "H1-S043",
+        "H1-S075",
+        "H1-S015",
+        "H1-S098"
+      ]
+    },
+    "INV-H1-000699": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S042",
+        "H1-S059",
+        "H1-S104",
+        "H1-S061",
+        "H1-S014",
+        "H1-S029"
+      ]
+    },
+    "INV-H1-000783": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S081",
+        "H1-S052",
+        "H1-S099",
+        "H1-S089",
+        "H1-S095",
+        "H1-S067",
+        "H1-S041"
+      ]
+    },
+    "INV-H1-000785": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S100",
+        "H1-S002",
+        "H1-S025",
+        "H1-S049",
+        "H1-S070",
+        "H1-S008",
+        "H1-S084",
+        "H1-S079"
+      ]
+    },
+    "INV-H1-000810": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S071",
+        "H1-S052",
+        "H1-S056",
+        "H1-S034",
+        "H1-S108",
+        "H1-S070",
+        "H1-S005"
+      ]
+    },
+    "INV-H1-000812": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S093",
+        "H1-S077",
+        "H1-S086",
+        "H1-S098",
+        "H1-S010",
+        "H1-S020"
+      ]
+    },
+    "INV-H1-000833": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S010",
+        "H1-S107",
+        "H1-S101",
+        "H1-S038",
+        "H1-S070"
+      ]
+    },
+    "INV-H1-000859": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S053",
+        "H1-S104",
+        "H1-S034",
+        "H1-S105",
+        "H1-S053",
+        "H1-S084"
+      ]
+    },
+    "INV-H1-000887": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S006",
+        "H1-S017",
+        "H1-S090",
+        "H1-S052",
+        "H1-S075"
+      ]
+    },
+    "INV-H1-000892": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S070",
+        "H1-S104",
+        "H1-S093",
+        "H1-S037",
+        "H1-S059",
+        "H1-S081"
+      ]
+    },
+    "INV-H1-000897": {
+      "clauses": [
+        "H1 §§1–4,5/6/8 where applicable,11"
+      ],
+      "dependency_check": "No cumulative, bundle or excluded-service branch; no possible same-service/patient/day competitor; unique parent and valid supplied dates.",
+      "service_ids": [
+        "H1-S105",
+        "H1-S014",
+        "H1-S099",
+        "H1-S066",
+        "H1-S101",
+        "H1-S104",
+        "H1-S017",
+        "H1-S060",
+        "H1-S098"
+      ]
+    }
+  },
+  "qualification": "This strict subset proves nonempty viability. The full engine may retain additional invariant supported outcomes; unresolved facts remain blocked.",
+  "status": "pre-engine source/mapping/dependency closure; not predictions"
+}

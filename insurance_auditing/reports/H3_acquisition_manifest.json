@@ -1,0 +1,17 @@
+{
+  "interpretation": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact.",
+  "mode": "Work model source interpretation and deterministic table transcription, no programmatic model calls",
+  "prompts": {
+    "prompts/extract_v1.md": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "prompts/map_v2.md": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b",
+    "prompts/review_v1.md": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  "raw_contract_sha256": "a52a33478478b1aab63e22199c3d6a903a1fdbcb37f2d6a97d3b4643e9d46b02",
+  "raw_mapping_sha256": "67c247a6c7c24a8f43791d7f62ccb0de7bf984e378b730059ca76121cc668717",
+  "source_review_state": "candidate, not accepted",
+  "sources": {
+    "data/source/contracts/hospital_3/amendment_no_1.md": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+    "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+    "data/source/contracts/hospital_3/base_agreement.md": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264"
+  }
+}

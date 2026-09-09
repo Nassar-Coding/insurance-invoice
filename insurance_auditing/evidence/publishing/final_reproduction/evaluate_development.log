@@ -1,0 +1,39 @@
+{
+  "population": 622,
+  "covered": 169,
+  "coverage": 0.2717041800643087,
+  "flag_metrics_all": {
+    "tp": 4,
+    "fp": 0,
+    "fn_including_abstentions": 38,
+    "tn_emitted": 165,
+    "support": 42,
+    "precision": 1.0,
+    "recall": 0.09523809523809523,
+    "f1": 0.17391304347826086
+  },
+  "whole_row_accuracy_covered": 1.0,
+  "confidence_groups": {
+    "h1_supported:elided:0": {
+      "n": 43,
+      "successes": 43,
+      "whole_row_accuracy": 1.0,
+      "mean_confidence": 0.9,
+      "brier_score": 0.009999999999999995
+    },
+    "h1_supported:explicit:0": {
+      "n": 122,
+      "successes": 122,
+      "whole_row_accuracy": 1.0,
+      "mean_confidence": 0.95,
+      "brier_score": 0.0025000000000000044
+    },
+    "sparse:explicit:1": {
+      "n": 4,
+      "successes": 4,
+      "whole_row_accuracy": 1.0,
+      "mean_confidence": 0.65,
+      "brier_score": 0.12249999999999998
+    }
+  }
+}

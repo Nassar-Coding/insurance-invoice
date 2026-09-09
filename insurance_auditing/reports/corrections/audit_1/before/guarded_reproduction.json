@@ -1,0 +1,36 @@
+{
+  "distinct_guarded_paths": 78,
+  "elapsed_seconds": 29.495542,
+  "evaluation_label_access": "Only outside the guard, after all prediction decisions and export.",
+  "execution": {
+    "elapsed_seconds": 29.492024,
+    "h1_attempt": "21de44a39e574fcab93b00230f9ffdc5",
+    "hospital_opinions": {
+      "H1": 250,
+      "H2": 0,
+      "H3": 148,
+      "H4": 64,
+      "H5": 128
+    },
+    "model_calls": 0,
+    "network_calls": 0,
+    "python": "3.12.13",
+    "scope": "prediction replay plus H1 evaluation; not fresh LLM extraction",
+    "status": "success",
+    "submission_rows": 340,
+    "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "target_attempt": "521a93eae8af41ad94469b9968c36633"
+  },
+  "guarded_file_opens": 467,
+  "guarded_stages": [
+    "H1 pricing",
+    "H2-H5 pricing",
+    "submission export"
+  ],
+  "label_file_opens_during_guard": 0,
+  "network_attempts": 0,
+  "network_guard": "socket creation and connections rejected for entire replay",
+  "process_peak_rss_mib_linux": 421.78,
+  "status": "passed",
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+}

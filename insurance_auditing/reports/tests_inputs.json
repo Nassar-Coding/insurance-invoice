@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 0.141664,
+  "errors": 0,
+  "failures": 0,
+  "python": "3.12.13",
+  "skipped": 0,
+  "success": true,
+  "tested_files": {
+    "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+    "src/insurance_audit/inventory.py": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+    "src/insurance_audit/io.py": "2c0f997bbf30d743775df927b6ae38d68e63a56fbee84241be54abdc46d86f10",
+    "tests/test_inputs.py": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134"
+  },
+  "tests_run": 7,
+  "utc": "2026-09-06T22:02:07.960453+00:00"
+}

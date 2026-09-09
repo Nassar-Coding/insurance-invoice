@@ -1,0 +1,13 @@
+{
+  "clean_replay_commit": "e5efadf4af7fe58ca1b75d904aac9c426093109d",
+  "h2_header_records_with_both_episode_dates": 1132,
+  "release_manifest_sha256": "b6a52c763c3964fc105241f9993d352c4d0b5bb102897d1f5882eb399c4868c0",
+  "report_generator_sha256": "cd0e059392cdfd5b0fd9beade7a2007245ff43289233697347bdbd1136050ae4",
+  "report_sha256": "950da8b3322ae0cd1b9ea2b6038341d12336fed981d9b0f93402dae4213b9b20",
+  "status": "passed",
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "unchanged_noncode_decision_input_counts": {
+    "H1": 9,
+    "targets": 32
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Insurance_Auditing_Implementation_Checkpoint(2).zip": {
+    "bytes": 130960798,
+    "sha256": "c3b49e516b335d9a2cd424279df3b983e66d6f23946a87fda6bbace61ade891e"
+  },
+  "implementation_report(2).md": {
+    "bytes": 14393,
+    "sha256": "950da8b3322ae0cd1b9ea2b6038341d12336fed981d9b0f93402dae4213b9b20"
+  },
+  "submission(2).csv": {
+    "bytes": 13130,
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  "Insurance_Auditing_Independent_Implementation_Audit(1).md": {
+    "bytes": 55644,
+    "sha256": "d5c869c8e76003f108230bfd6377a59387b10b794e3ea7a057ff9ab2580047f4"
+  }
+}

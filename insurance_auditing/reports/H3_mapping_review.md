@@ -1,0 +1,124 @@
+# H3 grouped mapping review evidence
+
+The implementing Work model inspected every accepted alias below against the full source catalog. This is author review, not the later independent auditing stage. No billed amount or unit selected an identity. Unresolved keys remain in the mapping JSON.
+
+- H3-S001 Advanced Gastrointestinal Telemetry Monitoring: adv gastrointestinal telem monit /RM-6600; adv - gi telem monitoring; adv gi telem monitoring /RM-5162; adv gi telemetry monit
+- H3-S002 Advanced Geriatric Nutritional Support: adv geriatric nutr support /RM-3476; adv - geriatric nutritional supp /RM-9294; ger nutr supp adv; support adv ger nutr /RM-4444
+- H3-S003 Advanced Metabolic Discharge Planning: adv metab disch planning; adv - metab discharge plng; plng advanced metabolic disch /RM-9001
+- H3-S004 Advanced Musculoskeletal Radiotherapy Fraction: adv - msk radiother; adv musculoskeletal radiother fract /RM-5856; adv - musculoskeletal radiother fraction /RM-2833; advanced - msk radiother fract /RM-9976; advanced msk radiother fract /RM-4972
+- H3-S005 Advanced Paediatric Telemetry Monitoring: adv paediatric telem monit /RM-1506; advanced  - paed telem monit /RM-2176; advanced - paed telem monit; advanced  paediatric telem monitoring /RM-4581
+- H3-S006 Advanced Rheumatologic Pharmaceutical Dispensing: disp - adv rheumatologic pharm /RM-5520; disp  advanced rheum pharm /RM-4765; disp - advanced rheum pharm; dispensing - adv rheum pharmaceutical /RM-6524; rheum pharm disp adv
+- H3-S007 Ambulatory Metabolic Isolation Room Occupancy: amb metab isol rm occ /RM-5812; amb metab isolation rm occ; amb - metabolic isol room occ /RM-9073; room - amb metab isol
+- H3-S008 Ambulatory Ophthalmic Imaging Interpretation: amb ophth imaging interp; ambulatory - ophth img interp /RM-5201; interp - ambulatory ophth img /RM-7217; ophth img interp amb
+- H3-S009 Ambulatory Otolaryngologic Imaging Interpretation: amb - ent img interp /RM-4132; amb ent img interp; amb otolaryngologic img interp /RM-1387; ambulatory otolaryngologic img interp /RM-6883; interp amb ent img
+- H3-S010 Ambulatory Renal Case Conference: amb ren cs conf /RM-5619; ambulatory - ren cs conf /RM-6484
+- H3-S011 Assisted Ophthalmic Recovery Room Occupancy: assisted - ophthalmic recov rm occ; asst - ophth recov room occ /RM-6321; asst - ophth recov room occ /RM-9070; occ - assisted ophthalmic recov rm /RM-1000; occ asst ophthalmic recovery rm /RM-9815
+- H3-S012 Assisted Paediatric Dialysis Session: assisted paed dial sess /RM-8098; assisted  paed dialysis sess /RM-7695; asst - paed dial sess /RM-6430
+- H3-S013 Assisted Urologic Endoscopic Procedure: asst - urol endosc procedure; asst urol endoscopic proc; asst urologic endoscopic proc
+- H3-S014 Bedside Cardiac Recovery Room Occupancy: beds  - card recov rm occupancy; beds - card recov room occupancy /RM-3081; beds card recovery room occupancy /RM-2538; occ - beds card recovery room /RM-5894; occupancy beds cardiac recov rm
+- H3-S015 Bedside Geriatric Telemetry Monitoring: beds - geriatric telem monit; beds  geriatric telem monitoring; monit  bedside ger telem
+- H3-S016 Bedside Metabolic Infusion Therapy: beds metab inf ther /RM-4788; beds metabolic inf therapy; metab inf ther beds
+- H3-S017 Bedside Neurological Pharmaceutical Dispensing: beds - neuro pharm dispensing; beds neurological pharmaceutical dispensing; bedside - neuro pharmaceutical disp /RM-5321
+- H3-S018 Bedside Neurological Radiotherapy Fraction: beds - neuro radiother fraction; beds neuro radiother fraction; bedside - neuro radiother fract; fraction bedside neuro radiother; radiother beds neuro /RM-9011
+- H3-S019 Bedside Oncology Case Conference: beds oncology case conf; beds oncology cs conf; bedside onc cs conf; bedside oncology cs conf
+- H3-S020 Bedside Palliative Wound Care: beds pall wnd cr; beds  - pall wound cr; cr beds pall wnd
+- H3-S021 Bedside Pulmonary Sterilisation Service: beds - pulm steril /RM-3745; beds - pulm sterilisation svc /RM-6248; bedside pulm steril svc /RM-1543
+- H3-S022 Bedside Renal Imaging Interpretation: beds - renal imaging interp; bedside ren img interpretation; interpretation beds ren imaging
+- H3-S023 Bedside Urologic Laboratory Panel: beds urologic lab pnl /RM-4923; bedside - urol lab panel; bedside urologic laboratory pnl
+- H3-S024 Bedside Urologic Ventilation Support: beds  urol vent supp; beds urol ventilation supp /RM-2947; bedside  urol vent supp /RM-7062; bedside  urol vent support /RM-4017; bedside - urol ventilation support /RM-2302
+- H3-S025 Bedside Vascular Critical Care Occupancy: beds vascular crit cr occ; bedside - vasc crit care occ /RM-4097; bedside - vasc critical cr occ; bedside vasc critical cr occ /RM-5031
+- H3-S026 Comprehensive Haematology Radiotherapy Fraction: compr haem radiother fraction; compr haem radiother fraction /RM-6441; fract compr haematology radiother /RM-9731; fraction compr haem radiother /RM-9837; haem radiother fract compr
+- H3-S027 Comprehensive Orthopaedic Wound Care: care - compr orthopaedic wnd /RM-4641; comprehensive ortho wnd cr
+- H3-S028 Comprehensive Palliative Diagnostic Imaging: compr pall diagnostic img /RM-6310; comprehensive - pall diag img /RM-8883
+- H3-S029 Continuous Gastrointestinal Laboratory Panel: cont gastrointestinal lab panel; cont gastrointestinal lab pnl; pnl cont gi lab
+- H3-S030 Continuous Immunologic Critical Care Occupancy: cont  immunologic crit care occupancy /RM-9793; cont immunologic critical care occ
+- H3-S031 Continuous Immunologic Isolation Room Occupancy: cont - immunologic isol rm occ; immun isol rm occ cont; occ - cont immun isol rm /RM-8194
+- H3-S032 Continuous Pulmonary Wound Care: cont - pulm wnd care; cont pulm wnd cr; cont - pulm wound cr /RM-5579; continuous  - pulmonary wnd cr
+- H3-S033 Continuous Renal Isolation Room Occupancy: cont - ren isolation room occ; cont - renal isol room occupancy /RM-4639; occ - cont renal isol room; ren isol rm occ cont
+- H3-S034 Elective Palliative Physiotherapy Session: elect - pall physiotherapy sess; elect palliative physio sess /RM-2050; elective pall physio sess /RM-4993; sess elect pall physio; session - elective pall physio /RM-2982
+- H3-S035 Elective Pulmonary Consultation: consult  - elect pulm /RM-9705; consultation elect pulm /RM-9046; elect - pulmonary consult /RM-1017; elective - pulm consult /RM-7049; pulm consult elect
+- H3-S036 Emergency Dermatologic Sterilisation Service: derm steril svc emer; emer - derm steril /RM-6305; emer - derm steril service; service emer dermatologic steril
+- H3-S037 Emergency Oncology Biopsy Procedure: emer onc biop proc /RM-2100; emergency  onc biop proc /RM-3148; proc emer onc biop; procedure - emer oncology biopsy
+- H3-S038 Emergency Pulmonary Biopsy Procedure: emer - pulm biopsy proc /RM-3811; emer pulm biopsy proc; emergency pulm biop proc /RM-6522; proc - emergency pulm biop; pulm biop proc emer
+- H3-S039 Emergency Renal Isolation Room Occupancy: emer ren isol rm occ /RM-3800; emer - ren isolation rm occupancy; emer - renal isol rm occupancy /RM-9791; emergency - ren isol rm occ; ren isol rm occ emer
+- H3-S040 Emergency Vascular Biopsy Procedure: emer vasc biop procedure /RM-4693; emer vasc biopsy procedure /RM-9358; procedure emer vasc biop /RM-5984
+- H3-S041 Extended Dermatologic Infusion Therapy: derm inf ther ext; extended  derm inf ther /RM-2122; ther ext derm inf /RM-2306; therapy ext derm inf /RM-6254
+- H3-S042 Extended Dermatologic Sterilisation Service: derm steril svc ext; service - ext derm steril; svc - ext dermatologic steril /RM-8168; svc ext dermatologic steril /RM-5564; svc - extended derm steril /RM-6515
+- H3-S043 Extended Geriatric Infusion Therapy: ext - ger inf ther /RM-8934; ext ger inf ther; ther extended ger infusion
+- H3-S044 Extended Haematology Radiotherapy Fraction: ext haem radiother fraction; ext - haem radiotherapy fract; extended haem radiother fract /RM-4727; extended haematology radiother fract /RM-4826; fraction - ext haem radiother; haem radiother fract ext
+- H3-S045 Extended Infectious Telemetry Monitoring: ext infect telem monitoring; ext - infectious telemetry monitoring
+- H3-S046 Extended Musculoskeletal Endoscopic Procedure: ext - msk endosc proc; proc - ext musculoskeletal endoscopic
+- H3-S047 Extended Neurological Theatre Time: extended neuro thtr time; tm - ext neuro theatre /RM-2741; tm - ext neuro thtr /RM-3527; tm - ext neurological theatre; tm extended neuro theatre
+- H3-S048 Focused Metabolic Theatre Time: foc metabolic theatre time /RM-1948; foc metabolic thtr tm; focused metab thtr time /RM-9055; metab thtr tm foc
+- H3-S049 Focused Neurological Physiotherapy Session: foc neuro physio sess /RM-5481; focused neuro physiotherapy sess /RM-7015; sess - foc neurological physio /RM-5693; session focused neuro physiotherapy /RM-5282
+- H3-S050 Focused Obstetric Nutritional Support: foc - obst nutr supp /RM-5370; foc - obstetric nutr supp /RM-1215; foc - obstetric nutritional support /RM-9352; focused obstetric nutritional supp /RM-1566
+- H3-S051 Focused Urologic Telemetry Monitoring: foc urol telem monit /RM-2847; foc urol telem monit /RM-4291; foc urol telemetry monitoring /RM-1810; monit - foc urol telemetry
+- H3-S052 Inpatient Gastrointestinal Pharmaceutical Dispensing: inpatient - gi pharm disp; inpt gastrointestinal pharm disp /RM-8161
+- H3-S053 Inpatient Haematology Imaging Interpretation: inpt - haem imaging interp /RM-1583; inpt haem imaging interp /RM-8352; inpt haem img interpretation; interp inpt haem img
+- H3-S054 Inpatient Hepatic Biopsy Procedure: inpatient hepatic biop proc /RM-8856; inpt - hepatic biop procedure /RM-8381; proc - inpatient hep biop
+- H3-S055 Inpatient Infectious Specimen Analysis: analysis - inpatient infect spcm /RM-2183; inpatient  infect spcm analysis /RM-2724; inpt infect spcm analysis /RM-1777
+- H3-S056 Inpatient Metabolic Infusion Therapy: inpt  metab inf ther /RM-9992; inpt - metab inf ther; inpt - metab infusion ther; inpt - metab infusion therapy /RM-6761; inpt - metabolic inf therapy /RM-9755; metab inf ther inpt
+- H3-S057 Inpatient Metabolic Theatre Time: inpatient - metab theatre tm; inpatient metab thtr time /RM-2722; inpatient - metab thtr tm /RM-7070; inpt - metab theatre tm /RM-7245; inpt metabolic thtr tm; metab thtr tm inpt
+- H3-S058 Inpatient Musculoskeletal Theatre Time: inpatient - musculoskeletal thtr tm /RM-5356; inpt msk theatre tm /RM-8470; inpt musculoskeletal theatre tm /RM-4552; time inpt msk theatre /RM-4594
+- H3-S059 Inpatient Obstetric Diagnostic Imaging: inpt  obst diagnostic img; inpt - obstetric diag img /RM-1111; obst diag img inpt
+- H3-S060 Inpatient Obstetric Wound Care: care - inpatient obst wound /RM-4163; inpt - obstetric wnd care /RM-9635; inpt - obstetric wound care
+- H3-S061 Intensive Immunologic Wound Care: cr intens immun wnd /RM-2044; intens - immun wnd care; intens - immun wound cr /RM-7855
+- H3-S062 Intensive Infectious Anaesthesia Administration: admin - intensive infect anaes; administration intens infectious anaes; infect anaes admin intens; intensive - infectious anaes admin
+- H3-S063 Intensive Oncology Nutritional Support: intens - onc nutr supp; intens - onc nutr supp /RM-4038; intens onc nutr support /RM-7166; supp  - intens onc nutr /RM-3710
+- H3-S064 Intensive Ophthalmic Laboratory Panel: intens - ophth lab pnl /RM-6200; intens ophth lab pnl /RM-4675; intensive - ophth laboratory panel; pnl intensive ophthalmic lab
+- H3-S065 Intensive Otolaryngologic Anaesthesia Administration: admin - intens otolaryngologic anaesthesia /RM-6575; intens - ent anaes admin /RM-7561; intens otolaryngologic anaesthesia admin /RM-6836
+- H3-S066 Intensive Paediatric Biopsy Procedure: intens  paed biop proc; intens paed biop proc /RM-7128; intens  paed biop procedure; intensive paed biop procedure /RM-5129; paed biop proc intens
+- H3-S067 Intermittent Dermatologic Physiotherapy Session: derm physio sess interm; interm derm physio /RM-4730; interm - derm physio sess /RM-8971; interm derm physio sess /RM-3176; sess intermittent dermatologic physio
+- H3-S068 Intermittent Gastrointestinal Endoscopic Procedure: intermittent - gi endosc proc; intermittent - gi endosc proc /RM-4870
+- H3-S069 Intermittent Immunologic Isolation Room Occupancy: immun isol rm occ interm; interm - immun isol rm occ; interm immun isol rm occ; interm immun isol rm occ /RM-3506; occupancy - interm immunologic isol rm /RM-4830
+- H3-S070 Intermittent Infectious Theatre Time: interm  - infectious theatre time /RM-2343; intermittent  infect thtr tm /RM-6496; intermittent - infect thtr tm; tm - interm infect thtr /RM-6706
+- H3-S071 Intermittent Otolaryngologic Wound Care: cr - intermittent ent wound; ent wnd cr interm; interm - ent wnd cr /RM-9924; interm otolaryngologic wnd cr /RM-8687
+- H3-S072 Outpatient Gastrointestinal Isolation Room Occupancy: outpatient  gastrointestinal isol rm occ /RM-4839; outpatient  - gi isol rm occ; outpatient gi isol rm occ /RM-2429
+- H3-S073 Outpatient Haematology Transport Service: outpt  - haem transp svc /RM-2980; outpt  haem transp svc; outpt haem transport svc; outpt haematology transp service /RM-6818
+- H3-S074 Outpatient Infectious Anaesthesia Administration: admin outpt infect anaes /RM-4440; admin - outpt infectious anaesthesia /RM-9929; anaesthesia  outpatient infect /RM-6395; infect anaes admin outpt; outpt infect anaes admin
+- H3-S075 Outpatient Metabolic Rehabilitation Programme: outpt - metab rehab programme; outpt metab rehab programme /RM-2803; outpt metab rehabilitation prog /RM-6180; outpt - metabolic rehab prog; prog outpt metab rehab /RM-2764
+- H3-S076 Outpatient Pulmonary Transport Service: outpatient pulm transport svc /RM-2790; outpt - pulm transport /RM-4112; outpt - pulmonary transp svc /RM-9113; service  - outpt pulm transport
+- H3-S077 Outpatient Renal Specimen Analysis: anly - outpatient ren spcm /RM-1650; outpatient ren spcm anly /RM-2741; outpt - ren spcm analysis /RM-8203; outpt - renal spcm anly /RM-8837
+- H3-S078 Outpatient Rheumatologic Pharmaceutical Dispensing: disp outpt rheum pharmaceutical; disp outpt rheumatologic pharmaceutical /RM-6582; outpt rheum pharm dispensing /RM-4051; rheum pharm disp outpt
+- H3-S079 Postoperative Cardiac Ward Bed Occupancy: occ - postoperative card wd bd; occ - postoperative cardiac wd bd /RM-6316; postoperative cardiac ward bd occ /RM-7848
+- H3-S080 Postoperative Dermatologic Physiotherapy Session: derm physio sess postop; postop - derm physio session /RM-3024; postop - derm physio session /RM-3052; postop derm physio session; postoperative - derm physio sess
+- H3-S081 Postoperative Geriatric Nutritional Support: ger nutr supp postop; postop ger nutr supp /RM-3180; postop - geriatric nutr supp /RM-2358; postoperative - geriatric nutritional supp /RM-8934; supp postop ger nutritional /RM-2705
+- H3-S082 Postoperative Haematology Nursing Observation: obs postoperative haem nurs /RM-1861; postop - haem nursing obs /RM-9788; postoperative haem nurs obs
+- H3-S083 Postoperative Neurological Diagnostic Imaging: img  - postop neuro diag /RM-6337; postop - neuro diagnostic img /RM-6108; postop - neurological diagnostic img /RM-3157
+- H3-S084 Postoperative Otolaryngologic Laboratory Panel: panel postoperative ent laboratory; postop ent lab pnl /RM-3650; postoperative ent laboratory pnl
+- H3-S085 Postoperative Otolaryngologic Rehabilitation Programme: postop ent rehab; postop ent rehab prog; postop otolaryngologic rehab prog /RM-8020; prog postop ent rehab /RM-9036
+- H3-S086 Postoperative Psychiatric Endoscopic Procedure: postop psych endosc proc /RM-5173; postop - psych endosc procedure /RM-5030; postop psych endosc procedure; postoperative - psych endosc proc
+- H3-S087 Postoperative Pulmonary Consultation: postop pulm consult; postop - pulm consultation /RM-8223; postop - pulmonary consultation; pulm consult postop
+- H3-S088 Postoperative Rheumatologic Anaesthesia Administration: admin  - postoperative rheum anaes; postop - rheum anaes administration /RM-2939; postop  rheumatologic anaes administration; postop - rheumatologic anaesthesia admin
+- H3-S089 Preoperative Cardiac Discharge Planning: plng preop card disch /RM-4078; preop card disch plng; preop card disch plng /RM-2885
+- H3-S090 Preoperative Dermatologic Dialysis Session: preop derm dial sess /RM-5322; preop derm dialysis sess /RM-5623; preop - dermatologic dial sess /RM-4276; preoperative derm dialysis sess /RM-9688; preoperative dermatologic dial sess
+- H3-S091 Preoperative Endocrine Dialysis Session: preop - endo dial sess; preop endo dial session; preop endocrine dial sess
+- H3-S092 Preoperative Gastrointestinal Radiotherapy Fraction: preop - gi radiother fraction; preoperative - gi radiother fraction /RM-6541
+- H3-S093 Preoperative Ophthalmic Imaging Interpretation: interp - preop ophth img /RM-9185; interp  - preoperative ophth img; ophth img interp preop; preop - ophth img interp /RM-1493; preop ophthalmic img interp; preoperative - ophth imaging interp /RM-5132
+- H3-S094 Preoperative Paediatric Laboratory Panel: preop - paed lab panel; preop - paed lab pnl /RM-6230; preoperative paed laboratory pnl
+- H3-S095 Preoperative Psychiatric Home Visit: preop psych hm vst; visit preop psychiatric hm; vst  - preop psych hm; vst - preop psych home /RM-5529
+- H3-S096 Preoperative Psychiatric Radiotherapy Fraction: preop  - psych radiother fract /RM-5688; preop - psych radiotherapy fract /RM-3260; preoperative  - psych radiother fract
+- H3-S097 Preoperative Rheumatologic Transport Service: preop - rheum transp service /RM-2873; preop - rheum transp svc /RM-1270; preop - rheumatologic transport svc; preoperative - rheum transp svc /RM-4064
+- H3-S098 Routine Endocrine Specimen Analysis: analysis - rtn endo spcm /RM-1395; rtn endo spcm analysis /RM-8343; rtn endo spcm anly /RM-3340
+- H3-S099 Routine Obstetric Diagnostic Imaging: img  - rtn obst diagnostic; obst diag img rtn; rtn - obst diag img /RM-6616; rtn - obst diagnostic imaging /RM-3292; rtn - obst diagnostic img /RM-4754
+- H3-S100 Routine Psychiatric Consultation: consult routine psychiatric; routine  psych consult /RM-6049; rtn psychiatric consult /RM-4665
+- H3-S101 Routine Vascular Rehabilitation Programme: prog - rtn vasc rehab /RM-6319; programme  rtn vasc rehab; routine - vascular rehab prog; rtn - vasc rehab prog /RM-2327; rtn vasc rehab prog /RM-7540
+- H3-S102 Specialist Dermatologic Infusion Therapy: derm inf ther spclst; spclst derm inf ther; spclst - derm inf therapy; specialist derm infusion ther /RM-3880; ther - specialist derm inf /RM-1951
+- H3-S103 Specialist Gastrointestinal Specimen Analysis: spclst gastrointestinal specimen analysis; spclst - gi spcm anly; spclst - gi specimen anly /RM-3384
+- H3-S104 Specialist Haematology Endoscopic Procedure: procedure specialist haem endosc; spclst haematology endosc proc; spclst haematology endosc proc /RM-6838
+- H3-S105 Specialist Hepatic Case Conference: conf spclst hep cs /RM-6883; conference - spclst hep cs; specialist hep case conference /RM-8911
+- H3-S106 Specialist Obstetric Dialysis Session: sess - specialist obst dial; spclst obst dialysis sess /RM-6355; spclst obstetric dial sess; spclst obstetric dialysis session; specialist obst dial sess /RM-3060
+- H3-S107 Specialist Ophthalmic Nutritional Support: ophth nutr supp spclst; spclst - ophth nutr support; spclst ophth nutritional supp; specialist ophthalmic nutritional supp /RM-9241
+- H3-S108 Specialist Paediatric Biopsy Procedure: paed biop proc spclst; proc spclst paediatric biop /RM-4661; procedure specialist paed biop /RM-7208; spclst - paed biop procedure
+- H3-S109 Specialist Psychiatric Discharge Planning: spclst - psych discharge plng; spclst psych discharge plng /RM-3782; spclst psychiatric disch plng; specialist psych disch planning
+- H3-S110 Specialist Pulmonary Biopsy Procedure: proc spclst pulmonary biop; pulm biop proc spclst; spclst pulm biop /RM-1381; spclst pulmonary biop proc; specialist - pulm biop proc
+- H3-S111 Specialist Pulmonary Physiotherapy Session: session spclst pulm physio /RM-2478
+- H3-S112 Standard Orthopaedic Theatre Time: std ortho theatre tm /RM-8947; std orthopaedic thtr time /RM-2069; time  standard orthopaedic thtr /RM-7653; time std orthopaedic thtr; tm standard ortho thtr /RM-4366
+- H3-S113 Standard Otolaryngologic Discharge Planning: std - ent disch plng; std ent disch plng /RM-8711; std otolaryngologic discharge plng
+- H3-S114 Standard Rheumatologic Imaging Interpretation: interp std rheum imaging /RM-5766; std  rheum img interpretation
+- H3-S115 Supervised Hepatic Sterilisation Service: supv hep steril service; supv - hep steril svc /RM-4469; svc supv hep steril
+- H3-S116 Supervised Neurological Laboratory Panel: supv - neuro lab /RM-9260; supv neuro lab pnl; supv neuro laboratory pnl /RM-9437; supv neurological lab pnl /RM-6081
+- H3-S117 Supervised Ophthalmic Nutritional Support: ophth nutr supp supv; supv - ophth nutr supp; supv ophth nutr supp; supv ophth nutr supp /RM-8781; supv ophth nutr support /RM-2635; supv ophthalmic nutr supp /RM-7732
+- H3-S118 Supervised Otolaryngologic Wound Care: care supv ent wound /RM-2463; ent wnd cr supv; supv ent wnd care; supv - ent wound care /RM-4788; supv otolaryngologic wnd cr
+- H3-S119 Advanced Dermatologic Nutritional Support: adv derm nutr supp; adv dermatologic nutritional supp; advanced dermatologic nutr supp /RM-9491; support adv derm nutr
+- H3-S120 Elective Pulmonary Imaging Interpretation: elect - pulm img interpretation; elective pulm img interpretation /RM-7746

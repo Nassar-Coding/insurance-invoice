@@ -1,0 +1,1738 @@
+{
+  "catalog": [
+    "Advanced Dermatologic Nutritional Support",
+    "Advanced Gastrointestinal Telemetry Monitoring",
+    "Advanced Geriatric Nutritional Support",
+    "Advanced Metabolic Discharge Planning",
+    "Advanced Musculoskeletal Radiotherapy Fraction",
+    "Advanced Paediatric Telemetry Monitoring",
+    "Advanced Rheumatologic Pharmaceutical Dispensing",
+    "Ambulatory Metabolic Isolation Room Occupancy",
+    "Ambulatory Ophthalmic Imaging Interpretation",
+    "Ambulatory Otolaryngologic Imaging Interpretation",
+    "Ambulatory Renal Case Conference",
+    "Assisted Ophthalmic Recovery Room Occupancy",
+    "Assisted Paediatric Dialysis Session",
+    "Assisted Urologic Endoscopic Procedure",
+    "Bedside Cardiac Recovery Room Occupancy",
+    "Bedside Geriatric Telemetry Monitoring",
+    "Bedside Metabolic Infusion Therapy",
+    "Bedside Neurological Pharmaceutical Dispensing",
+    "Bedside Neurological Radiotherapy Fraction",
+    "Bedside Oncology Case Conference",
+    "Bedside Palliative Wound Care",
+    "Bedside Pulmonary Sterilisation Service",
+    "Bedside Renal Imaging Interpretation",
+    "Bedside Urologic Laboratory Panel",
+    "Bedside Urologic Ventilation Support",
+    "Bedside Vascular Critical Care Occupancy",
+    "Comprehensive Haematology Radiotherapy Fraction",
+    "Comprehensive Orthopaedic Wound Care",
+    "Comprehensive Palliative Diagnostic Imaging",
+    "Continuous Gastrointestinal Laboratory Panel",
+    "Continuous Immunologic Critical Care Occupancy",
+    "Continuous Immunologic Isolation Room Occupancy",
+    "Continuous Pulmonary Wound Care",
+    "Continuous Renal Isolation Room Occupancy",
+    "Elective Palliative Physiotherapy Session",
+    "Elective Pulmonary Consultation",
+    "Elective Pulmonary Imaging Interpretation",
+    "Emergency Dermatologic Sterilisation Service",
+    "Emergency Oncology Biopsy Procedure",
+    "Emergency Pulmonary Biopsy Procedure",
+    "Emergency Renal Isolation Room Occupancy",
+    "Emergency Vascular Biopsy Procedure",
+    "Extended Dermatologic Infusion Therapy",
+    "Extended Dermatologic Sterilisation Service",
+    "Extended Geriatric Infusion Therapy",
+    "Extended Haematology Radiotherapy Fraction",
+    "Extended Infectious Telemetry Monitoring",
+    "Extended Musculoskeletal Endoscopic Procedure",
+    "Extended Neurological Theatre Time",
+    "Focused Metabolic Theatre Time",
+    "Focused Neurological Physiotherapy Session",
+    "Focused Obstetric Nutritional Support",
+    "Focused Urologic Telemetry Monitoring",
+    "Inpatient Gastrointestinal Pharmaceutical Dispensing",
+    "Inpatient Haematology Imaging Interpretation",
+    "Inpatient Hepatic Biopsy Procedure",
+    "Inpatient Infectious Specimen Analysis",
+    "Inpatient Metabolic Infusion Therapy",
+    "Inpatient Metabolic Theatre Time",
+    "Inpatient Musculoskeletal Theatre Time",
+    "Inpatient Obstetric Diagnostic Imaging",
+    "Inpatient Obstetric Wound Care",
+    "Intensive Immunologic Wound Care",
+    "Intensive Infectious Anaesthesia Administration",
+    "Intensive Oncology Nutritional Support",
+    "Intensive Ophthalmic Laboratory Panel",
+    "Intensive Otolaryngologic Anaesthesia Administration",
+    "Intensive Paediatric Biopsy Procedure",
+    "Intermittent Dermatologic Physiotherapy Session",
+    "Intermittent Gastrointestinal Endoscopic Procedure",
+    "Intermittent Immunologic Isolation Room Occupancy",
+    "Intermittent Infectious Theatre Time",
+    "Intermittent Otolaryngologic Wound Care",
+    "Outpatient Gastrointestinal Isolation Room Occupancy",
+    "Outpatient Haematology Transport Service",
+    "Outpatient Infectious Anaesthesia Administration",
+    "Outpatient Metabolic Rehabilitation Programme",
+    "Outpatient Pulmonary Transport Service",
+    "Outpatient Renal Specimen Analysis",
+    "Outpatient Rheumatologic Pharmaceutical Dispensing",
+    "Postoperative Cardiac Ward Bed Occupancy",
+    "Postoperative Dermatologic Physiotherapy Session",
+    "Postoperative Geriatric Nutritional Support",
+    "Postoperative Haematology Nursing Observation",
+    "Postoperative Neurological Diagnostic Imaging",
+    "Postoperative Otolaryngologic Laboratory Panel",
+    "Postoperative Otolaryngologic Rehabilitation Programme",
+    "Postoperative Psychiatric Endoscopic Procedure",
+    "Postoperative Pulmonary Consultation",
+    "Postoperative Rheumatologic Anaesthesia Administration",
+    "Preoperative Cardiac Discharge Planning",
+    "Preoperative Dermatologic Dialysis Session",
+    "Preoperative Endocrine Dialysis Session",
+    "Preoperative Gastrointestinal Radiotherapy Fraction",
+    "Preoperative Ophthalmic Imaging Interpretation",
+    "Preoperative Paediatric Laboratory Panel",
+    "Preoperative Psychiatric Home Visit",
+    "Preoperative Psychiatric Radiotherapy Fraction",
+    "Preoperative Rheumatologic Transport Service",
+    "Routine Endocrine Specimen Analysis",
+    "Routine Obstetric Diagnostic Imaging",
+    "Routine Psychiatric Consultation",
+    "Routine Vascular Rehabilitation Programme",
+    "Specialist Dermatologic Infusion Therapy",
+    "Specialist Gastrointestinal Specimen Analysis",
+    "Specialist Haematology Endoscopic Procedure",
+    "Specialist Hepatic Case Conference",
+    "Specialist Obstetric Dialysis Session",
+    "Specialist Ophthalmic Nutritional Support",
+    "Specialist Paediatric Biopsy Procedure",
+    "Specialist Psychiatric Discharge Planning",
+    "Specialist Pulmonary Biopsy Procedure",
+    "Specialist Pulmonary Physiotherapy Session",
+    "Standard Orthopaedic Theatre Time",
+    "Standard Otolaryngologic Discharge Planning",
+    "Standard Rheumatologic Imaging Interpretation",
+    "Supervised Hepatic Sterilisation Service",
+    "Supervised Neurological Laboratory Panel",
+    "Supervised Ophthalmic Nutritional Support",
+    "Supervised Otolaryngologic Wound Care"
+  ],
+  "hospital": "H3",
+  "proposals": {
+    "admin  - postoperative rheum anaes": [
+      "Postoperative Rheumatologic Anaesthesia Administration"
+    ],
+    "admin - intens otolaryngologic anaesthesia /RM-6575": [
+      "Intensive Otolaryngologic Anaesthesia Administration"
+    ],
+    "admin - intensive infect anaes": [
+      "Intensive Infectious Anaesthesia Administration"
+    ],
+    "admin - outpt infectious anaesthesia /RM-9929": [
+      "Outpatient Infectious Anaesthesia Administration"
+    ],
+    "admin - rheumatologic anaes /RM-8208": [
+      "Postoperative Rheumatologic Anaesthesia Administration"
+    ],
+    "admin outpt infect anaes /RM-4440": [
+      "Outpatient Infectious Anaesthesia Administration"
+    ],
+    "administration - inpt hepatic anaes /RM-1221": [],
+    "administration intens infectious anaes": [
+      "Intensive Infectious Anaesthesia Administration"
+    ],
+    "adv - geriatric nutritional supp /RM-9294": [
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "adv - gi telem monitoring": [
+      "Advanced Gastrointestinal Telemetry Monitoring"
+    ],
+    "adv - gi telemetry /RM-2615": [
+      "Advanced Gastrointestinal Telemetry Monitoring"
+    ],
+    "adv - metab disch": [
+      "Advanced Metabolic Discharge Planning"
+    ],
+    "adv - metab discharge plng": [
+      "Advanced Metabolic Discharge Planning"
+    ],
+    "adv - msk radiother": [
+      "Advanced Musculoskeletal Radiotherapy Fraction"
+    ],
+    "adv - musculoskeletal radiother fraction /RM-2833": [
+      "Advanced Musculoskeletal Radiotherapy Fraction"
+    ],
+    "adv - telemetry monit /RM-3459": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "adv derm nutr supp": [
+      "Advanced Dermatologic Nutritional Support"
+    ],
+    "adv dermatologic nutritional supp": [
+      "Advanced Dermatologic Nutritional Support"
+    ],
+    "adv gastrointestinal telem monit /RM-6600": [
+      "Advanced Gastrointestinal Telemetry Monitoring"
+    ],
+    "adv geriatric nutr support /RM-3476": [
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "adv gi telem monitoring /RM-5162": [
+      "Advanced Gastrointestinal Telemetry Monitoring"
+    ],
+    "adv gi telemetry monit": [
+      "Advanced Gastrointestinal Telemetry Monitoring"
+    ],
+    "adv metab disch planning": [
+      "Advanced Metabolic Discharge Planning"
+    ],
+    "adv metab discharge": [
+      "Advanced Metabolic Discharge Planning"
+    ],
+    "adv musculoskeletal radiother fract /RM-5856": [
+      "Advanced Musculoskeletal Radiotherapy Fraction"
+    ],
+    "adv paediatric telem monit /RM-1506": [
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "advanced  - paed telem monit /RM-2176": [
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "advanced  paediatric telem monitoring /RM-4581": [
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "advanced - msk radiother fract /RM-9976": [
+      "Advanced Musculoskeletal Radiotherapy Fraction"
+    ],
+    "advanced - paed telem monit": [
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "advanced dermatologic nutr supp /RM-9491": [
+      "Advanced Dermatologic Nutritional Support"
+    ],
+    "advanced msk radiother fract /RM-4972": [
+      "Advanced Musculoskeletal Radiotherapy Fraction"
+    ],
+    "amb - ent img interp /RM-4132": [
+      "Ambulatory Otolaryngologic Imaging Interpretation"
+    ],
+    "amb - metabolic isol room occ /RM-9073": [
+      "Ambulatory Metabolic Isolation Room Occupancy"
+    ],
+    "amb cs conf /RM-3664": [
+      "Ambulatory Renal Case Conference"
+    ],
+    "amb ent img interp": [
+      "Ambulatory Otolaryngologic Imaging Interpretation"
+    ],
+    "amb metab isol rm occ /RM-5812": [
+      "Ambulatory Metabolic Isolation Room Occupancy"
+    ],
+    "amb metab isolation rm occ": [
+      "Ambulatory Metabolic Isolation Room Occupancy"
+    ],
+    "amb msk disch planning /RM-1463": [],
+    "amb ophth imaging interp": [
+      "Ambulatory Ophthalmic Imaging Interpretation"
+    ],
+    "amb otolaryngologic img interp /RM-1387": [
+      "Ambulatory Otolaryngologic Imaging Interpretation"
+    ],
+    "amb ren cs conf /RM-5619": [
+      "Ambulatory Renal Case Conference"
+    ],
+    "ambulatory - ophth img interp /RM-5201": [
+      "Ambulatory Ophthalmic Imaging Interpretation"
+    ],
+    "ambulatory - ren cs conf /RM-6484": [
+      "Ambulatory Renal Case Conference"
+    ],
+    "ambulatory otolaryngologic img interp /RM-6883": [
+      "Ambulatory Otolaryngologic Imaging Interpretation"
+    ],
+    "anaesthesia  outpatient infect /RM-6395": [
+      "Outpatient Infectious Anaesthesia Administration"
+    ],
+    "analysis - inpatient infect spcm /RM-2183": [
+      "Inpatient Infectious Specimen Analysis"
+    ],
+    "analysis - rtn endo spcm /RM-1395": [
+      "Routine Endocrine Specimen Analysis"
+    ],
+    "anly - outpatient ren spcm /RM-1650": [
+      "Outpatient Renal Specimen Analysis"
+    ],
+    "assisted  paed dialysis sess /RM-7695": [
+      "Assisted Paediatric Dialysis Session"
+    ],
+    "assisted - ophthalmic recov rm occ": [
+      "Assisted Ophthalmic Recovery Room Occupancy"
+    ],
+    "assisted paed dial sess /RM-8098": [
+      "Assisted Paediatric Dialysis Session"
+    ],
+    "asst - ophth recov room occ /RM-6321": [
+      "Assisted Ophthalmic Recovery Room Occupancy"
+    ],
+    "asst - ophth recov room occ /RM-9070": [
+      "Assisted Ophthalmic Recovery Room Occupancy"
+    ],
+    "asst - paed dial sess /RM-6430": [
+      "Assisted Paediatric Dialysis Session"
+    ],
+    "asst - urol endosc procedure": [
+      "Assisted Urologic Endoscopic Procedure"
+    ],
+    "asst urol endoscopic proc": [
+      "Assisted Urologic Endoscopic Procedure"
+    ],
+    "asst urologic endoscopic proc": [
+      "Assisted Urologic Endoscopic Procedure"
+    ],
+    "beds  - card recov rm occupancy": [
+      "Bedside Cardiac Recovery Room Occupancy"
+    ],
+    "beds  - geriatric telem": [
+      "Bedside Geriatric Telemetry Monitoring"
+    ],
+    "beds  - pall wound cr": [
+      "Bedside Palliative Wound Care"
+    ],
+    "beds  geriatric telem monitoring": [
+      "Bedside Geriatric Telemetry Monitoring"
+    ],
+    "beds  urol vent supp": [
+      "Bedside Urologic Ventilation Support"
+    ],
+    "beds - card recov room occupancy /RM-3081": [
+      "Bedside Cardiac Recovery Room Occupancy"
+    ],
+    "beds - geriatric telem monit": [
+      "Bedside Geriatric Telemetry Monitoring"
+    ],
+    "beds - imaging interpretation /RM-1489": [
+      "Bedside Renal Imaging Interpretation"
+    ],
+    "beds - neuro pharm dispensing": [
+      "Bedside Neurological Pharmaceutical Dispensing"
+    ],
+    "beds - neuro radiother fraction": [
+      "Bedside Neurological Radiotherapy Fraction"
+    ],
+    "beds - pall care": [
+      "Bedside Palliative Wound Care"
+    ],
+    "beds - pulm steril /RM-3745": [
+      "Bedside Pulmonary Sterilisation Service"
+    ],
+    "beds - pulm sterilisation svc /RM-6248": [
+      "Bedside Pulmonary Sterilisation Service"
+    ],
+    "beds - pulm svc /RM-4889": [
+      "Bedside Pulmonary Sterilisation Service"
+    ],
+    "beds - renal imaging interp": [
+      "Bedside Renal Imaging Interpretation"
+    ],
+    "beds card recovery room occupancy /RM-2538": [
+      "Bedside Cardiac Recovery Room Occupancy"
+    ],
+    "beds laboratory pnl": [
+      "Bedside Urologic Laboratory Panel"
+    ],
+    "beds metab inf ther /RM-4788": [
+      "Bedside Metabolic Infusion Therapy"
+    ],
+    "beds metabolic inf therapy": [
+      "Bedside Metabolic Infusion Therapy"
+    ],
+    "beds neuro radiother fraction": [
+      "Bedside Neurological Radiotherapy Fraction"
+    ],
+    "beds neurological pharmaceutical dispensing": [
+      "Bedside Neurological Pharmaceutical Dispensing"
+    ],
+    "beds oncology case conf": [
+      "Bedside Oncology Case Conference"
+    ],
+    "beds oncology cs conf": [
+      "Bedside Oncology Case Conference"
+    ],
+    "beds pall wnd cr": [
+      "Bedside Palliative Wound Care"
+    ],
+    "beds urol ventilation supp /RM-2947": [
+      "Bedside Urologic Ventilation Support"
+    ],
+    "beds urologic lab pnl /RM-4923": [
+      "Bedside Urologic Laboratory Panel"
+    ],
+    "beds vascular crit cr occ": [
+      "Bedside Vascular Critical Care Occupancy"
+    ],
+    "bedside  urol vent supp /RM-7062": [
+      "Bedside Urologic Ventilation Support"
+    ],
+    "bedside  urol vent support /RM-4017": [
+      "Bedside Urologic Ventilation Support"
+    ],
+    "bedside - metab infusion": [
+      "Bedside Metabolic Infusion Therapy"
+    ],
+    "bedside - neuro pharmaceutical disp /RM-5321": [
+      "Bedside Neurological Pharmaceutical Dispensing"
+    ],
+    "bedside - neuro radiother fract": [
+      "Bedside Neurological Radiotherapy Fraction"
+    ],
+    "bedside - urol lab panel": [
+      "Bedside Urologic Laboratory Panel"
+    ],
+    "bedside - urol ventilation support /RM-2302": [
+      "Bedside Urologic Ventilation Support"
+    ],
+    "bedside - vasc crit care occ /RM-4097": [
+      "Bedside Vascular Critical Care Occupancy"
+    ],
+    "bedside - vasc critical cr occ": [
+      "Bedside Vascular Critical Care Occupancy"
+    ],
+    "bedside onc cs conf": [
+      "Bedside Oncology Case Conference"
+    ],
+    "bedside oncology cs conf": [
+      "Bedside Oncology Case Conference"
+    ],
+    "bedside pulm steril svc /RM-1543": [
+      "Bedside Pulmonary Sterilisation Service"
+    ],
+    "bedside ren img interpretation": [
+      "Bedside Renal Imaging Interpretation"
+    ],
+    "bedside urologic laboratory pnl": [
+      "Bedside Urologic Laboratory Panel"
+    ],
+    "bedside vasc critical cr occ /RM-5031": [
+      "Bedside Vascular Critical Care Occupancy"
+    ],
+    "card disch plng /RM-1761": [
+      "Preoperative Cardiac Discharge Planning"
+    ],
+    "care - compr orthopaedic wnd /RM-4641": [
+      "Comprehensive Orthopaedic Wound Care"
+    ],
+    "care - inpatient obst wound /RM-4163": [
+      "Inpatient Obstetric Wound Care"
+    ],
+    "care bedside pall": [
+      "Bedside Palliative Wound Care"
+    ],
+    "care supv ent wound /RM-2463": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "compr - ortho cr": [
+      "Comprehensive Orthopaedic Wound Care"
+    ],
+    "compr haem radiother fraction": [
+      "Comprehensive Haematology Radiotherapy Fraction"
+    ],
+    "compr haem radiother fraction /RM-6441": [
+      "Comprehensive Haematology Radiotherapy Fraction"
+    ],
+    "compr oncology wnd cr /RM-4911": [],
+    "compr pall diagnostic img /RM-6310": [
+      "Comprehensive Palliative Diagnostic Imaging"
+    ],
+    "compr pall img /RM-7888": [
+      "Comprehensive Palliative Diagnostic Imaging"
+    ],
+    "comprehensive - pall diag img /RM-8883": [
+      "Comprehensive Palliative Diagnostic Imaging"
+    ],
+    "comprehensive ortho wnd cr": [
+      "Comprehensive Orthopaedic Wound Care"
+    ],
+    "conf  preop paed": [],
+    "conf - amb ren /RM-2011": [
+      "Ambulatory Renal Case Conference"
+    ],
+    "conf spclst hep cs /RM-6883": [
+      "Specialist Hepatic Case Conference"
+    ],
+    "conference - onc cs /RM-3304": [
+      "Bedside Oncology Case Conference"
+    ],
+    "conference - spclst hep cs": [
+      "Specialist Hepatic Case Conference"
+    ],
+    "consult  - elect pulm /RM-9705": [
+      "Elective Pulmonary Consultation"
+    ],
+    "consult routine psychiatric": [
+      "Routine Psychiatric Consultation"
+    ],
+    "consultation elect pulm /RM-9046": [
+      "Elective Pulmonary Consultation"
+    ],
+    "cont  immunologic crit care occupancy /RM-9793": [
+      "Continuous Immunologic Critical Care Occupancy"
+    ],
+    "cont - immunologic isol rm occ": [
+      "Continuous Immunologic Isolation Room Occupancy"
+    ],
+    "cont - pulm wnd care": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "cont - pulm wound cr /RM-5579": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "cont - ren isol occ /RM-7098": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "cont - ren isolation room occ": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "cont - renal isol room occupancy /RM-4639": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "cont - rheum critical cr occ": [],
+    "cont crit cr occ /RM-2927": [
+      "Continuous Immunologic Critical Care Occupancy"
+    ],
+    "cont gastrointestinal lab panel": [
+      "Continuous Gastrointestinal Laboratory Panel"
+    ],
+    "cont gastrointestinal lab pnl": [
+      "Continuous Gastrointestinal Laboratory Panel"
+    ],
+    "cont immunologic critical care occ": [
+      "Continuous Immunologic Critical Care Occupancy"
+    ],
+    "cont lab panel /RM-6683": [
+      "Continuous Gastrointestinal Laboratory Panel"
+    ],
+    "cont pulm wnd cr": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "cont ren isolation occupancy /RM-8586": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "continuous  - pulmonary wnd cr": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "cr - intermittent ent wound": [
+      "Intermittent Otolaryngologic Wound Care"
+    ],
+    "cr beds pall wnd": [
+      "Bedside Palliative Wound Care"
+    ],
+    "cr intens immun wnd /RM-2044": [
+      "Intensive Immunologic Wound Care"
+    ],
+    "derm inf ther ext": [
+      "Extended Dermatologic Infusion Therapy"
+    ],
+    "derm inf ther spclst": [
+      "Specialist Dermatologic Infusion Therapy"
+    ],
+    "derm physio sess interm": [
+      "Intermittent Dermatologic Physiotherapy Session"
+    ],
+    "derm physio sess postop": [
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "derm physiotherapy sess /RM-1399": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "derm steril svc emer": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "derm steril svc ext": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "disp  advanced rheum pharm /RM-4765": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "disp - adv rheumatologic pharm /RM-5520": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "disp - advanced rheum pharm": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "disp outpt rheum pharmaceutical": [
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "disp outpt rheumatologic pharmaceutical /RM-6582": [
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "dispensing - adv rheum pharmaceutical /RM-6524": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "dispensing inpt pharm /RM-6838": [
+      "Inpatient Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "elect - gastrointestinal disch plng /RM-9438": [],
+    "elect - pall physiotherapy sess": [
+      "Elective Palliative Physiotherapy Session"
+    ],
+    "elect - pulm img interpretation": [
+      "Elective Pulmonary Imaging Interpretation"
+    ],
+    "elect - pulmonary consult /RM-1017": [
+      "Elective Pulmonary Consultation"
+    ],
+    "elect palliative physio sess /RM-2050": [
+      "Elective Palliative Physiotherapy Session"
+    ],
+    "elect vascular physio sess /RM-8458": [],
+    "elective - pulm consult /RM-7049": [
+      "Elective Pulmonary Consultation"
+    ],
+    "elective pall physio sess /RM-4993": [
+      "Elective Palliative Physiotherapy Session"
+    ],
+    "elective pulm img interpretation /RM-7746": [
+      "Elective Pulmonary Imaging Interpretation"
+    ],
+    "emer  - msk inf therapy": [],
+    "emer - derm steril /RM-6305": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "emer - derm steril service": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "emer - pulm biopsy proc /RM-3811": [
+      "Emergency Pulmonary Biopsy Procedure"
+    ],
+    "emer - ren isolation rm occupancy": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "emer - ren room occ /RM-9004": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "emer - renal isol rm occupancy /RM-9791": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "emer onc biop proc /RM-2100": [
+      "Emergency Oncology Biopsy Procedure"
+    ],
+    "emer pulm biopsy proc": [
+      "Emergency Pulmonary Biopsy Procedure"
+    ],
+    "emer ren isol rm occ /RM-3800": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "emer vasc biop procedure /RM-4693": [
+      "Emergency Vascular Biopsy Procedure"
+    ],
+    "emer vasc biopsy procedure /RM-9358": [
+      "Emergency Vascular Biopsy Procedure"
+    ],
+    "emergency  onc biop proc /RM-3148": [
+      "Emergency Oncology Biopsy Procedure"
+    ],
+    "emergency - ren isol rm occ": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "emergency - steril service /RM-6059": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "emergency pulm biop proc /RM-6522": [
+      "Emergency Pulmonary Biopsy Procedure"
+    ],
+    "emergency steril service /RM-4697": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "ent wnd cr interm": [
+      "Intermittent Otolaryngologic Wound Care"
+    ],
+    "ent wnd cr supv": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "ext - ger inf ther /RM-8934": [
+      "Extended Geriatric Infusion Therapy"
+    ],
+    "ext - haem radiotherapy fract": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "ext - infectious telemetry monitoring": [
+      "Extended Infectious Telemetry Monitoring"
+    ],
+    "ext - msk endosc proc": [
+      "Extended Musculoskeletal Endoscopic Procedure"
+    ],
+    "ext derm svc": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "ext endoscopic proc": [
+      "Extended Musculoskeletal Endoscopic Procedure"
+    ],
+    "ext ger inf ther": [
+      "Extended Geriatric Infusion Therapy"
+    ],
+    "ext haem radiother fraction": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "ext infect telem monitoring": [
+      "Extended Infectious Telemetry Monitoring"
+    ],
+    "extended  derm inf ther /RM-2122": [
+      "Extended Dermatologic Infusion Therapy"
+    ],
+    "extended haem radiother fract /RM-4727": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "extended haematology radiother fract /RM-4826": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "extended neuro thtr time": [
+      "Extended Neurological Theatre Time"
+    ],
+    "foc - metab theatre /RM-4359": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "foc - obst nutr supp /RM-5370": [
+      "Focused Obstetric Nutritional Support"
+    ],
+    "foc - obstetric nutr supp /RM-1215": [
+      "Focused Obstetric Nutritional Support"
+    ],
+    "foc - obstetric nutritional support /RM-9352": [
+      "Focused Obstetric Nutritional Support"
+    ],
+    "foc - rheum consult /RM-2110": [],
+    "foc metabolic theatre time /RM-1948": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "foc metabolic thtr tm": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "foc neuro physio sess /RM-5481": [
+      "Focused Neurological Physiotherapy Session"
+    ],
+    "foc nutr supp /RM-8954": [
+      "Focused Obstetric Nutritional Support"
+    ],
+    "foc urol telem monit /RM-2847": [
+      "Focused Urologic Telemetry Monitoring"
+    ],
+    "foc urol telem monit /RM-4291": [
+      "Focused Urologic Telemetry Monitoring"
+    ],
+    "foc urol telemetry monitoring /RM-1810": [
+      "Focused Urologic Telemetry Monitoring"
+    ],
+    "focused - metab time /RM-1678": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "focused metab thtr time /RM-9055": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "focused neuro physiotherapy sess /RM-7015": [
+      "Focused Neurological Physiotherapy Session"
+    ],
+    "focused obstetric nutritional supp /RM-1566": [
+      "Focused Obstetric Nutritional Support"
+    ],
+    "fract compr haematology radiother /RM-9731": [
+      "Comprehensive Haematology Radiotherapy Fraction"
+    ],
+    "fract gastrointestinal radiotherapy": [
+      "Preoperative Gastrointestinal Radiotherapy Fraction"
+    ],
+    "fract psych radiotherapy": [
+      "Preoperative Psychiatric Radiotherapy Fraction"
+    ],
+    "fraction - ext haem radiother": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "fraction bedside neuro radiother": [
+      "Bedside Neurological Radiotherapy Fraction"
+    ],
+    "fraction compr haem radiother /RM-9837": [
+      "Comprehensive Haematology Radiotherapy Fraction"
+    ],
+    "ger nutr supp adv": [
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "ger nutr supp postop": [
+      "Postoperative Geriatric Nutritional Support"
+    ],
+    "gi - endosc proc": [
+      "Intermittent Gastrointestinal Endoscopic Procedure"
+    ],
+    "haem radiother fract compr": [
+      "Comprehensive Haematology Radiotherapy Fraction"
+    ],
+    "haem radiother fract ext": [
+      "Extended Haematology Radiotherapy Fraction"
+    ],
+    "imaging inpt obstetric /RM-6043": [
+      "Inpatient Obstetric Diagnostic Imaging"
+    ],
+    "img  - postop neuro diag /RM-6337": [
+      "Postoperative Neurological Diagnostic Imaging"
+    ],
+    "img  - rtn obst diagnostic": [
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "immun isol rm occ cont": [
+      "Continuous Immunologic Isolation Room Occupancy"
+    ],
+    "immun isol rm occ interm": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "infect  telemetry monit": [
+      "Extended Infectious Telemetry Monitoring"
+    ],
+    "infect anaes admin intens": [
+      "Intensive Infectious Anaesthesia Administration"
+    ],
+    "infect anaes admin outpt": [
+      "Outpatient Infectious Anaesthesia Administration"
+    ],
+    "inpatient  infect spcm analysis /RM-2724": [
+      "Inpatient Infectious Specimen Analysis"
+    ],
+    "inpatient - gi pharm disp": [
+      "Inpatient Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "inpatient - metab theatre tm": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "inpatient - metab thtr tm /RM-7070": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "inpatient - musculoskeletal thtr tm /RM-5356": [
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "inpatient hepatic biop proc /RM-8856": [
+      "Inpatient Hepatic Biopsy Procedure"
+    ],
+    "inpatient metab thtr time /RM-2722": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "inpt  metab inf ther /RM-9992": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "inpt  obst diagnostic img": [
+      "Inpatient Obstetric Diagnostic Imaging"
+    ],
+    "inpt - haem imaging interp /RM-1583": [
+      "Inpatient Haematology Imaging Interpretation"
+    ],
+    "inpt - hepatic biop procedure /RM-8381": [
+      "Inpatient Hepatic Biopsy Procedure"
+    ],
+    "inpt - metab inf ther": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "inpt - metab infusion ther": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "inpt - metab infusion therapy /RM-6761": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "inpt - metab theatre tm /RM-7245": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "inpt - metabolic inf therapy /RM-9755": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "inpt - obstetric diag img /RM-1111": [
+      "Inpatient Obstetric Diagnostic Imaging"
+    ],
+    "inpt - obstetric wnd care /RM-9635": [
+      "Inpatient Obstetric Wound Care"
+    ],
+    "inpt - obstetric wound care": [
+      "Inpatient Obstetric Wound Care"
+    ],
+    "inpt gastrointestinal pharm disp /RM-8161": [
+      "Inpatient Gastrointestinal Pharmaceutical Dispensing"
+    ],
+    "inpt haem imaging interp /RM-8352": [
+      "Inpatient Haematology Imaging Interpretation"
+    ],
+    "inpt haem img interpretation": [
+      "Inpatient Haematology Imaging Interpretation"
+    ],
+    "inpt infect spcm /RM-2707": [
+      "Inpatient Infectious Specimen Analysis"
+    ],
+    "inpt infect spcm analysis /RM-1777": [
+      "Inpatient Infectious Specimen Analysis"
+    ],
+    "inpt metabolic thtr tm": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "inpt msk theatre tm /RM-8470": [
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "inpt musculoskeletal theatre tm /RM-4552": [
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "inpt thtr tm": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "inpt wnd care /RM-7406": [
+      "Inpatient Obstetric Wound Care"
+    ],
+    "intens  paed biop proc": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "intens  paed biop procedure": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "intens - ent anaes admin /RM-7561": [
+      "Intensive Otolaryngologic Anaesthesia Administration"
+    ],
+    "intens - immun wnd care": [
+      "Intensive Immunologic Wound Care"
+    ],
+    "intens - immun wound cr /RM-7855": [
+      "Intensive Immunologic Wound Care"
+    ],
+    "intens - nutr supp": [
+      "Intensive Oncology Nutritional Support"
+    ],
+    "intens - onc nutr supp": [
+      "Intensive Oncology Nutritional Support"
+    ],
+    "intens - onc nutr supp /RM-4038": [
+      "Intensive Oncology Nutritional Support"
+    ],
+    "intens - ophth lab pnl /RM-6200": [
+      "Intensive Ophthalmic Laboratory Panel"
+    ],
+    "intens - steril svc": [],
+    "intens onc nutr support /RM-7166": [
+      "Intensive Oncology Nutritional Support"
+    ],
+    "intens ophth lab pnl /RM-4675": [
+      "Intensive Ophthalmic Laboratory Panel"
+    ],
+    "intens otolaryngologic anaesthesia admin /RM-6836": [
+      "Intensive Otolaryngologic Anaesthesia Administration"
+    ],
+    "intens paed biop proc /RM-7128": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "intensive - infectious anaes admin": [
+      "Intensive Infectious Anaesthesia Administration"
+    ],
+    "intensive - laboratory pnl /RM-3168": [
+      "Intensive Ophthalmic Laboratory Panel"
+    ],
+    "intensive - ophth laboratory panel": [
+      "Intensive Ophthalmic Laboratory Panel"
+    ],
+    "intensive paed biop procedure /RM-5129": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "interm  - infectious theatre time /RM-2343": [
+      "Intermittent Infectious Theatre Time"
+    ],
+    "interm - derm physio sess /RM-8971": [
+      "Intermittent Dermatologic Physiotherapy Session"
+    ],
+    "interm - endosc proc /RM-8678": [
+      "Intermittent Gastrointestinal Endoscopic Procedure"
+    ],
+    "interm - ent wnd cr /RM-9924": [
+      "Intermittent Otolaryngologic Wound Care"
+    ],
+    "interm - immun isol rm occ": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "interm derm physio /RM-4730": [
+      "Intermittent Dermatologic Physiotherapy Session"
+    ],
+    "interm derm physio sess /RM-3176": [
+      "Intermittent Dermatologic Physiotherapy Session"
+    ],
+    "interm immun isol rm occ": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "interm immun isol rm occ /RM-3506": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "interm otolaryngologic wnd cr /RM-8687": [
+      "Intermittent Otolaryngologic Wound Care"
+    ],
+    "intermittent  infect thtr tm /RM-6496": [
+      "Intermittent Infectious Theatre Time"
+    ],
+    "intermittent - ent cr /RM-1347": [
+      "Intermittent Otolaryngologic Wound Care"
+    ],
+    "intermittent - gi endosc proc": [
+      "Intermittent Gastrointestinal Endoscopic Procedure"
+    ],
+    "intermittent - gi endosc proc /RM-4870": [
+      "Intermittent Gastrointestinal Endoscopic Procedure"
+    ],
+    "intermittent - infect thtr tm": [
+      "Intermittent Infectious Theatre Time"
+    ],
+    "intermittent - isolation rm occ /RM-6947": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "intermittent infect cs conf /RM-4829": [],
+    "interp  - preoperative ophth img": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "interp - ambulatory ophth img /RM-7217": [
+      "Ambulatory Ophthalmic Imaging Interpretation"
+    ],
+    "interp - elect img": [
+      "Elective Pulmonary Imaging Interpretation"
+    ],
+    "interp - preop ophth img /RM-9185": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "interp amb ent img": [
+      "Ambulatory Otolaryngologic Imaging Interpretation"
+    ],
+    "interp inpt haem img": [
+      "Inpatient Haematology Imaging Interpretation"
+    ],
+    "interp std rheum imaging /RM-5766": [
+      "Standard Rheumatologic Imaging Interpretation"
+    ],
+    "interpretation beds ren imaging": [
+      "Bedside Renal Imaging Interpretation"
+    ],
+    "metab diagnostic img /RM-3735": [],
+    "metab inf ther beds": [
+      "Bedside Metabolic Infusion Therapy"
+    ],
+    "metab inf ther inpt": [
+      "Inpatient Metabolic Infusion Therapy"
+    ],
+    "metab thtr tm foc": [
+      "Focused Metabolic Theatre Time"
+    ],
+    "metab thtr tm inpt": [
+      "Inpatient Metabolic Theatre Time"
+    ],
+    "monit  bedside ger telem": [
+      "Bedside Geriatric Telemetry Monitoring"
+    ],
+    "monit - foc telemetry": [
+      "Focused Urologic Telemetry Monitoring"
+    ],
+    "monit - foc urol telemetry": [
+      "Focused Urologic Telemetry Monitoring"
+    ],
+    "monitoring - outpt metabolic telem": [],
+    "neuro - pharm dispensing /RM-3736": [
+      "Bedside Neurological Pharmaceutical Dispensing"
+    ],
+    "obs postoperative haem nurs /RM-1861": [
+      "Postoperative Haematology Nursing Observation"
+    ],
+    "obst - diag img": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "obst diag img inpt": [
+      "Inpatient Obstetric Diagnostic Imaging"
+    ],
+    "obst diag img rtn": [
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "occ - assisted ophthalmic recov rm /RM-1000": [
+      "Assisted Ophthalmic Recovery Room Occupancy"
+    ],
+    "occ - beds card recovery room /RM-5894": [
+      "Bedside Cardiac Recovery Room Occupancy"
+    ],
+    "occ - cont immun isol rm /RM-8194": [
+      "Continuous Immunologic Isolation Room Occupancy"
+    ],
+    "occ - cont renal isol room": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "occ - postoperative card wd bd": [
+      "Postoperative Cardiac Ward Bed Occupancy"
+    ],
+    "occ - postoperative cardiac wd bd /RM-6316": [
+      "Postoperative Cardiac Ward Bed Occupancy"
+    ],
+    "occ asst ophthalmic recovery rm /RM-9815": [
+      "Assisted Ophthalmic Recovery Room Occupancy"
+    ],
+    "occupancy - interm immunologic isol rm /RM-4830": [
+      "Intermittent Immunologic Isolation Room Occupancy"
+    ],
+    "occupancy beds cardiac recov rm": [
+      "Bedside Cardiac Recovery Room Occupancy"
+    ],
+    "occupancy continuous isol room /RM-3671": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "onc biop proc": [
+      "Emergency Oncology Biopsy Procedure"
+    ],
+    "ophth img interp amb": [
+      "Ambulatory Ophthalmic Imaging Interpretation"
+    ],
+    "ophth img interp preop": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "ophth nutr supp spclst": [
+      "Specialist Ophthalmic Nutritional Support"
+    ],
+    "ophth nutr supp supv": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "outpatient  - gi isol rm occ": [
+      "Outpatient Gastrointestinal Isolation Room Occupancy"
+    ],
+    "outpatient  gastrointestinal isol rm occ /RM-4839": [
+      "Outpatient Gastrointestinal Isolation Room Occupancy"
+    ],
+    "outpatient gi isol rm occ /RM-2429": [
+      "Outpatient Gastrointestinal Isolation Room Occupancy"
+    ],
+    "outpatient pulm transport svc /RM-2790": [
+      "Outpatient Pulmonary Transport Service"
+    ],
+    "outpatient ren spcm anly /RM-2741": [
+      "Outpatient Renal Specimen Analysis"
+    ],
+    "outpt  - haem transp svc /RM-2980": [
+      "Outpatient Haematology Transport Service"
+    ],
+    "outpt  haem transp svc": [
+      "Outpatient Haematology Transport Service"
+    ],
+    "outpt - metab rehab programme": [
+      "Outpatient Metabolic Rehabilitation Programme"
+    ],
+    "outpt - metabolic rehab prog": [
+      "Outpatient Metabolic Rehabilitation Programme"
+    ],
+    "outpt - pulm transport /RM-4112": [
+      "Outpatient Pulmonary Transport Service"
+    ],
+    "outpt - pulmonary transp svc /RM-9113": [
+      "Outpatient Pulmonary Transport Service"
+    ],
+    "outpt - ren spcm analysis /RM-8203": [
+      "Outpatient Renal Specimen Analysis"
+    ],
+    "outpt - renal spcm anly /RM-8837": [
+      "Outpatient Renal Specimen Analysis"
+    ],
+    "outpt haem transport svc": [
+      "Outpatient Haematology Transport Service"
+    ],
+    "outpt haematology transp service /RM-6818": [
+      "Outpatient Haematology Transport Service"
+    ],
+    "outpt infect anaes admin": [
+      "Outpatient Infectious Anaesthesia Administration"
+    ],
+    "outpt metab rehab programme /RM-2803": [
+      "Outpatient Metabolic Rehabilitation Programme"
+    ],
+    "outpt metab rehabilitation prog /RM-6180": [
+      "Outpatient Metabolic Rehabilitation Programme"
+    ],
+    "outpt pharm disp": [
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "outpt rheum pharm dispensing /RM-4051": [
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "paed biop proc intens": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "paed biop proc spclst": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "panel postoperative ent laboratory": [
+      "Postoperative Otolaryngologic Laboratory Panel"
+    ],
+    "plng advanced metabolic disch /RM-9001": [
+      "Advanced Metabolic Discharge Planning"
+    ],
+    "plng preop card disch /RM-4078": [
+      "Preoperative Cardiac Discharge Planning"
+    ],
+    "pnl - supv lab": [
+      "Supervised Neurological Laboratory Panel"
+    ],
+    "pnl cont gi lab": [
+      "Continuous Gastrointestinal Laboratory Panel"
+    ],
+    "pnl intensive ophthalmic lab": [
+      "Intensive Ophthalmic Laboratory Panel"
+    ],
+    "postop  rheumatologic anaes administration": [
+      "Postoperative Rheumatologic Anaesthesia Administration"
+    ],
+    "postop - derm physio session /RM-3024": [
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "postop - derm physio session /RM-3052": [
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "postop - endoscopic proc": [
+      "Postoperative Psychiatric Endoscopic Procedure"
+    ],
+    "postop - geriatric nutr supp /RM-2358": [
+      "Postoperative Geriatric Nutritional Support"
+    ],
+    "postop - haem nursing obs /RM-9788": [
+      "Postoperative Haematology Nursing Observation"
+    ],
+    "postop - neuro diagnostic img /RM-6108": [
+      "Postoperative Neurological Diagnostic Imaging"
+    ],
+    "postop - neurological diagnostic img /RM-3157": [
+      "Postoperative Neurological Diagnostic Imaging"
+    ],
+    "postop - psych endosc procedure /RM-5030": [
+      "Postoperative Psychiatric Endoscopic Procedure"
+    ],
+    "postop - pulm": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "postop - pulm consultation /RM-8223": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "postop - pulmonary consultation": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "postop - rheum anaes administration /RM-2939": [
+      "Postoperative Rheumatologic Anaesthesia Administration"
+    ],
+    "postop - rheumatologic anaesthesia admin": [
+      "Postoperative Rheumatologic Anaesthesia Administration"
+    ],
+    "postop derm physio session": [
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "postop ent lab pnl /RM-3650": [
+      "Postoperative Otolaryngologic Laboratory Panel"
+    ],
+    "postop ent rehab": [
+      "Postoperative Otolaryngologic Rehabilitation Programme"
+    ],
+    "postop ent rehab prog": [
+      "Postoperative Otolaryngologic Rehabilitation Programme"
+    ],
+    "postop ger nutr supp /RM-3180": [
+      "Postoperative Geriatric Nutritional Support"
+    ],
+    "postop otolaryngologic rehab prog /RM-8020": [
+      "Postoperative Otolaryngologic Rehabilitation Programme"
+    ],
+    "postop psych endosc proc /RM-5173": [
+      "Postoperative Psychiatric Endoscopic Procedure"
+    ],
+    "postop psych endosc procedure": [
+      "Postoperative Psychiatric Endoscopic Procedure"
+    ],
+    "postop pulm consult": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "postoperative - derm physio sess": [
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "postoperative - geriatric nutritional supp /RM-8934": [
+      "Postoperative Geriatric Nutritional Support"
+    ],
+    "postoperative - psych endosc proc": [
+      "Postoperative Psychiatric Endoscopic Procedure"
+    ],
+    "postoperative card wd occ /RM-8367": [
+      "Postoperative Cardiac Ward Bed Occupancy"
+    ],
+    "postoperative cardiac ward bd occ /RM-7848": [
+      "Postoperative Cardiac Ward Bed Occupancy"
+    ],
+    "postoperative ent laboratory pnl": [
+      "Postoperative Otolaryngologic Laboratory Panel"
+    ],
+    "postoperative haem nurs obs": [
+      "Postoperative Haematology Nursing Observation"
+    ],
+    "postoperative neuro diagnostic /RM-6927": [
+      "Postoperative Neurological Diagnostic Imaging"
+    ],
+    "preop  - psych radiother fract /RM-5688": [
+      "Preoperative Psychiatric Radiotherapy Fraction"
+    ],
+    "preop - dermatologic dial sess /RM-4276": [
+      "Preoperative Dermatologic Dialysis Session"
+    ],
+    "preop - endo dial sess": [
+      "Preoperative Endocrine Dialysis Session"
+    ],
+    "preop - gi radiother fraction": [
+      "Preoperative Gastrointestinal Radiotherapy Fraction"
+    ],
+    "preop - ophth img interp /RM-1493": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "preop - paed lab panel": [
+      "Preoperative Paediatric Laboratory Panel"
+    ],
+    "preop - paed lab pnl /RM-6230": [
+      "Preoperative Paediatric Laboratory Panel"
+    ],
+    "preop - psych radiotherapy fract /RM-3260": [
+      "Preoperative Psychiatric Radiotherapy Fraction"
+    ],
+    "preop - rheum transp service /RM-2873": [
+      "Preoperative Rheumatologic Transport Service"
+    ],
+    "preop - rheum transp svc /RM-1270": [
+      "Preoperative Rheumatologic Transport Service"
+    ],
+    "preop - rheumatologic transport svc": [
+      "Preoperative Rheumatologic Transport Service"
+    ],
+    "preop card disch plng": [
+      "Preoperative Cardiac Discharge Planning"
+    ],
+    "preop card disch plng /RM-2885": [
+      "Preoperative Cardiac Discharge Planning"
+    ],
+    "preop derm dial sess /RM-5322": [
+      "Preoperative Dermatologic Dialysis Session"
+    ],
+    "preop derm dialysis sess /RM-5623": [
+      "Preoperative Dermatologic Dialysis Session"
+    ],
+    "preop endo dial session": [
+      "Preoperative Endocrine Dialysis Session"
+    ],
+    "preop endocrine dial sess": [
+      "Preoperative Endocrine Dialysis Session"
+    ],
+    "preop ophthalmic img interp": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "preop psych hm vst": [
+      "Preoperative Psychiatric Home Visit"
+    ],
+    "preoperative  - psych radiother fract": [
+      "Preoperative Psychiatric Radiotherapy Fraction"
+    ],
+    "preoperative - gi radiother fraction /RM-6541": [
+      "Preoperative Gastrointestinal Radiotherapy Fraction"
+    ],
+    "preoperative - ophth imaging interp /RM-5132": [
+      "Preoperative Ophthalmic Imaging Interpretation"
+    ],
+    "preoperative - rheum transp svc /RM-4064": [
+      "Preoperative Rheumatologic Transport Service"
+    ],
+    "preoperative derm dialysis sess /RM-9688": [
+      "Preoperative Dermatologic Dialysis Session"
+    ],
+    "preoperative dermatologic dial sess": [
+      "Preoperative Dermatologic Dialysis Session"
+    ],
+    "preoperative paed laboratory pnl": [
+      "Preoperative Paediatric Laboratory Panel"
+    ],
+    "proc - emergency pulm biop": [
+      "Emergency Pulmonary Biopsy Procedure"
+    ],
+    "proc - ext musculoskeletal endoscopic": [
+      "Extended Musculoskeletal Endoscopic Procedure"
+    ],
+    "proc - inpatient hep biop": [
+      "Inpatient Hepatic Biopsy Procedure"
+    ],
+    "proc emer onc biop": [
+      "Emergency Oncology Biopsy Procedure"
+    ],
+    "proc spclst paediatric biop /RM-4661": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "proc spclst pulmonary biop": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "proc urologic endosc": [
+      "Assisted Urologic Endoscopic Procedure"
+    ],
+    "procedure - emer oncology biopsy": [
+      "Emergency Oncology Biopsy Procedure"
+    ],
+    "procedure - spclst pulmonary /RM-4002": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "procedure emer vasc biop /RM-5984": [
+      "Emergency Vascular Biopsy Procedure"
+    ],
+    "procedure intens paed /RM-3709": [
+      "Intensive Paediatric Biopsy Procedure"
+    ],
+    "procedure specialist haem endosc": [
+      "Specialist Haematology Endoscopic Procedure"
+    ],
+    "procedure specialist paed biop /RM-7208": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "prog - rtn vasc rehab /RM-6319": [
+      "Routine Vascular Rehabilitation Programme"
+    ],
+    "prog outpt metab rehab /RM-2764": [
+      "Outpatient Metabolic Rehabilitation Programme"
+    ],
+    "prog postop ent rehab /RM-9036": [
+      "Postoperative Otolaryngologic Rehabilitation Programme"
+    ],
+    "programme  rtn vasc rehab": [
+      "Routine Vascular Rehabilitation Programme"
+    ],
+    "psych rtn /RM-8308": [
+      "Routine Psychiatric Consultation"
+    ],
+    "pulm - postoperative": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "pulm biop proc emer": [
+      "Emergency Pulmonary Biopsy Procedure"
+    ],
+    "pulm biop proc spclst": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "pulm consult elect": [
+      "Elective Pulmonary Consultation"
+    ],
+    "pulm consult postop": [
+      "Postoperative Pulmonary Consultation"
+    ],
+    "radiother beds neuro /RM-9011": [
+      "Bedside Neurological Radiotherapy Fraction"
+    ],
+    "ren isol rm occ cont": [
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "ren isol rm occ emer": [
+      "Emergency Renal Isolation Room Occupancy"
+    ],
+    "rheum - pharm disp /RM-5213": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "rheum img interp": [
+      "Standard Rheumatologic Imaging Interpretation"
+    ],
+    "rheum pharm disp adv": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "rheum pharm disp outpt": [
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "room - amb metab isol": [
+      "Ambulatory Metabolic Isolation Room Occupancy"
+    ],
+    "routine  psych consult /RM-6049": [
+      "Routine Psychiatric Consultation"
+    ],
+    "routine - vascular rehab prog": [
+      "Routine Vascular Rehabilitation Programme"
+    ],
+    "rtn - obst diag img /RM-6616": [
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "rtn - obst diagnostic imaging /RM-3292": [
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "rtn - obst diagnostic img /RM-4754": [
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "rtn - vasc rehab prog /RM-2327": [
+      "Routine Vascular Rehabilitation Programme"
+    ],
+    "rtn endo spcm analysis /RM-8343": [
+      "Routine Endocrine Specimen Analysis"
+    ],
+    "rtn endo spcm anly /RM-3340": [
+      "Routine Endocrine Specimen Analysis"
+    ],
+    "rtn endo specimen": [
+      "Routine Endocrine Specimen Analysis"
+    ],
+    "rtn psychiatric consult /RM-4665": [
+      "Routine Psychiatric Consultation"
+    ],
+    "rtn vasc rehab prog /RM-7540": [
+      "Routine Vascular Rehabilitation Programme"
+    ],
+    "service  - outpt pulm transport": [
+      "Outpatient Pulmonary Transport Service"
+    ],
+    "service - ext derm steril": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "service emer dermatologic steril": [
+      "Emergency Dermatologic Sterilisation Service"
+    ],
+    "sess - foc neurological physio /RM-5693": [
+      "Focused Neurological Physiotherapy Session"
+    ],
+    "sess - specialist obst dial": [
+      "Specialist Obstetric Dialysis Session"
+    ],
+    "sess assisted paed /RM-2967": [
+      "Assisted Paediatric Dialysis Session"
+    ],
+    "sess elect pall physio": [
+      "Elective Palliative Physiotherapy Session"
+    ],
+    "sess intermittent dermatologic physio": [
+      "Intermittent Dermatologic Physiotherapy Session"
+    ],
+    "session - elective pall physio /RM-2982": [
+      "Elective Palliative Physiotherapy Session"
+    ],
+    "session focused neuro physiotherapy /RM-5282": [
+      "Focused Neurological Physiotherapy Session"
+    ],
+    "session spclst pulm physio /RM-2478": [
+      "Specialist Pulmonary Physiotherapy Session"
+    ],
+    "spclst - derm inf therapy": [
+      "Specialist Dermatologic Infusion Therapy"
+    ],
+    "spclst - gi spcm anly": [
+      "Specialist Gastrointestinal Specimen Analysis"
+    ],
+    "spclst - gi specimen anly /RM-3384": [
+      "Specialist Gastrointestinal Specimen Analysis"
+    ],
+    "spclst - ophth nutr support": [
+      "Specialist Ophthalmic Nutritional Support"
+    ],
+    "spclst - paed biop procedure": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "spclst - psych discharge plng": [
+      "Specialist Psychiatric Discharge Planning"
+    ],
+    "spclst derm inf ther": [
+      "Specialist Dermatologic Infusion Therapy"
+    ],
+    "spclst gastrointestinal specimen analysis": [
+      "Specialist Gastrointestinal Specimen Analysis"
+    ],
+    "spclst haematology endosc proc": [
+      "Specialist Haematology Endoscopic Procedure"
+    ],
+    "spclst haematology endosc proc /RM-6838": [
+      "Specialist Haematology Endoscopic Procedure"
+    ],
+    "spclst obst dialysis sess /RM-6355": [
+      "Specialist Obstetric Dialysis Session"
+    ],
+    "spclst obstetric dial sess": [
+      "Specialist Obstetric Dialysis Session"
+    ],
+    "spclst obstetric dialysis session": [
+      "Specialist Obstetric Dialysis Session"
+    ],
+    "spclst ophth nutritional supp": [
+      "Specialist Ophthalmic Nutritional Support"
+    ],
+    "spclst psych discharge plng /RM-3782": [
+      "Specialist Psychiatric Discharge Planning"
+    ],
+    "spclst psychiatric disch plng": [
+      "Specialist Psychiatric Discharge Planning"
+    ],
+    "spclst pulm biop /RM-1381": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "spclst pulm sess /RM-7065": [
+      "Specialist Pulmonary Physiotherapy Session"
+    ],
+    "spclst pulmonary biop proc": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "specialist - physio sess /RM-7734": [
+      "Specialist Pulmonary Physiotherapy Session"
+    ],
+    "specialist - pulm biop proc": [
+      "Specialist Pulmonary Biopsy Procedure"
+    ],
+    "specialist derm infusion ther /RM-3880": [
+      "Specialist Dermatologic Infusion Therapy"
+    ],
+    "specialist hep case conference /RM-8911": [
+      "Specialist Hepatic Case Conference"
+    ],
+    "specialist obst dial sess /RM-3060": [
+      "Specialist Obstetric Dialysis Session"
+    ],
+    "specialist ophthalmic nutritional supp /RM-9241": [
+      "Specialist Ophthalmic Nutritional Support"
+    ],
+    "specialist psych disch planning": [
+      "Specialist Psychiatric Discharge Planning"
+    ],
+    "std  rheum img interpretation": [
+      "Standard Rheumatologic Imaging Interpretation"
+    ],
+    "std - ent disch plng": [
+      "Standard Otolaryngologic Discharge Planning"
+    ],
+    "std ent disch plng /RM-8711": [
+      "Standard Otolaryngologic Discharge Planning"
+    ],
+    "std ortho theatre tm /RM-8947": [
+      "Standard Orthopaedic Theatre Time"
+    ],
+    "std orthopaedic thtr time /RM-2069": [
+      "Standard Orthopaedic Theatre Time"
+    ],
+    "std otolaryngologic discharge plng": [
+      "Standard Otolaryngologic Discharge Planning"
+    ],
+    "supp  - intens onc nutr /RM-3710": [
+      "Intensive Oncology Nutritional Support"
+    ],
+    "supp adv nutr": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "supp postop ger nutritional /RM-2705": [
+      "Postoperative Geriatric Nutritional Support"
+    ],
+    "support adv derm nutr": [
+      "Advanced Dermatologic Nutritional Support"
+    ],
+    "support adv ger nutr /RM-4444": [
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "supv - ent wound care /RM-4788": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "supv - hep steril svc /RM-4469": [
+      "Supervised Hepatic Sterilisation Service"
+    ],
+    "supv - neuro lab /RM-9260": [
+      "Supervised Neurological Laboratory Panel"
+    ],
+    "supv - ophth nutr supp": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "supv ent wnd /RM-5245": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "supv ent wnd care": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "supv hep steril service": [
+      "Supervised Hepatic Sterilisation Service"
+    ],
+    "supv neuro lab pnl": [
+      "Supervised Neurological Laboratory Panel"
+    ],
+    "supv neuro laboratory pnl /RM-9437": [
+      "Supervised Neurological Laboratory Panel"
+    ],
+    "supv neurological lab pnl /RM-6081": [
+      "Supervised Neurological Laboratory Panel"
+    ],
+    "supv ophth nutr supp": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "supv ophth nutr supp /RM-8781": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "supv ophth nutr support /RM-2635": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "supv ophthalmic nutr supp /RM-7732": [
+      "Supervised Ophthalmic Nutritional Support"
+    ],
+    "supv otolaryngologic wnd cr": [
+      "Supervised Otolaryngologic Wound Care"
+    ],
+    "svc - ext dermatologic steril /RM-8168": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "svc - extended derm steril /RM-6515": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "svc ext dermatologic steril /RM-5564": [
+      "Extended Dermatologic Sterilisation Service"
+    ],
+    "svc supv hep steril": [
+      "Supervised Hepatic Sterilisation Service"
+    ],
+    "ther - specialist derm inf /RM-1951": [
+      "Specialist Dermatologic Infusion Therapy"
+    ],
+    "ther beds metab": [
+      "Bedside Metabolic Infusion Therapy"
+    ],
+    "ther ext derm inf /RM-2306": [
+      "Extended Dermatologic Infusion Therapy"
+    ],
+    "ther extended ger infusion": [
+      "Extended Geriatric Infusion Therapy"
+    ],
+    "therapy ext derm inf /RM-6254": [
+      "Extended Dermatologic Infusion Therapy"
+    ],
+    "time  standard orthopaedic thtr /RM-7653": [
+      "Standard Orthopaedic Theatre Time"
+    ],
+    "time inpt msk theatre /RM-4594": [
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "time std orthopaedic thtr": [
+      "Standard Orthopaedic Theatre Time"
+    ],
+    "tm - ext neuro theatre /RM-2741": [
+      "Extended Neurological Theatre Time"
+    ],
+    "tm - ext neuro thtr /RM-3527": [
+      "Extended Neurological Theatre Time"
+    ],
+    "tm - ext neurological theatre": [
+      "Extended Neurological Theatre Time"
+    ],
+    "tm - interm infect thtr /RM-6706": [
+      "Intermittent Infectious Theatre Time"
+    ],
+    "tm extended neuro theatre": [
+      "Extended Neurological Theatre Time"
+    ],
+    "tm standard ortho thtr /RM-4366": [
+      "Standard Orthopaedic Theatre Time"
+    ],
+    "visit preop psychiatric hm": [
+      "Preoperative Psychiatric Home Visit"
+    ],
+    "vst  - preop psych hm": [
+      "Preoperative Psychiatric Home Visit"
+    ],
+    "vst - intens infectious home": [],
+    "vst - preop psych home /RM-5529": [
+      "Preoperative Psychiatric Home Visit"
+    ],
+    "wound - cont pulm": [
+      "Continuous Pulmonary Wound Care"
+    ]
+  }
+}

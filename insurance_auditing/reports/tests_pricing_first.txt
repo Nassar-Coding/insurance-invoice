@@ -1,0 +1,35 @@
+test_headers_are_named_and_order_independent (test_inputs.InputContractTests.test_headers_are_named_and_order_independent) ... ok
+test_hospital_scope_cannot_be_a_path (test_inputs.InputContractTests.test_hospital_scope_cannot_be_a_path) ... ok
+test_missing_duplicate_unknown_headers_fatal (test_inputs.InputContractTests.test_missing_duplicate_unknown_headers_fatal) ... ok
+test_no_label_access_and_split_identity (test_inputs.InputContractTests.test_no_label_access_and_split_identity) ... ok
+test_numeric_range_and_non_finite (test_inputs.InputContractTests.test_numeric_range_and_non_finite) ... ok
+test_parseable_billing_fault_is_retained (test_inputs.InputContractTests.test_parseable_billing_fault_is_retained) ... ok
+test_values_quarantined_without_silent_drop (test_inputs.InputContractTests.test_values_quarantined_without_silent_drop) ... ok
+test_bundle_across_invoices_same_patient_day (test_pricing.PricingTests.test_bundle_across_invoices_same_patient_day) ... ok
+test_complete_correct_and_wrong_unit_unchanged_total (test_pricing.PricingTests.test_complete_correct_and_wrong_unit_unchanged_total) ... ok
+test_conflicting_identity_does_not_multiply_history (test_pricing.PricingTests.test_conflicting_identity_does_not_multiply_history) ... ok
+test_cross_invoice_daily_context_and_duplicate_allocation_fail_closed (test_pricing.PricingTests.test_cross_invoice_daily_context_and_duplicate_allocation_fail_closed) ... ok
+test_exact_halves_and_each_step_rounding (test_pricing.PricingTests.test_exact_halves_and_each_step_rounding) ... ok
+test_exclusion_past_future_interior_and_equality (test_pricing.PricingTests.test_exclusion_past_future_interior_and_equality) ... ok
+test_h1_source_thresholds_and_weekend (test_pricing.PricingTests.test_h1_source_thresholds_and_weekend) ... ok
+test_header_arithmetic_mismatch (test_pricing.PricingTests.test_header_arithmetic_mismatch) ... ok
+test_invalid_date_and_nonpositive_quantity_abstain (test_pricing.PricingTests.test_invalid_date_and_nonpositive_quantity_abstain) ... ok
+test_irrelevant_unknown_and_saturated_interval (test_pricing.PricingTests.test_irrelevant_unknown_and_saturated_interval) ... ok
+test_malformed_date_preserves_possible_dependency (test_pricing.PricingTests.test_malformed_date_preserves_possible_dependency) ... ok
+test_partial_invoice_never_emits_partial_total (test_pricing.PricingTests.test_partial_invoice_never_emits_partial_total) ... ok
+test_prior_all_patients_strict_date_id_and_order_independent (test_pricing.PricingTests.test_prior_all_patients_strict_date_id_and_order_independent) ... ok
+test_single_line_cap (test_pricing.PricingTests.test_single_line_cap) ... ok
+test_declared_raw_packages_validate (test_schema.SchemaTests.test_declared_raw_packages_validate) ... ok
+test_h3_before_on_after_and_added_service (test_schema.SchemaTests.test_h3_before_on_after_and_added_service) ... ok
+test_instruction_bearing_operator_rejected (test_schema.SchemaTests.test_instruction_bearing_operator_rejected) ... ok
+test_invalid_types_and_references (test_schema.SchemaTests.test_invalid_types_and_references) ... ok
+test_mapping_collision_ambiguity_and_cross_hospital (test_schema.SchemaTests.test_mapping_collision_ambiguity_and_cross_hospital) ... ok
+test_normalizer_keeps_meaningful_qualifier (test_schema.SchemaTests.test_normalizer_keeps_meaningful_qualifier) ... ok
+test_runtime_accepted_bundle_binding (test_schema.SchemaTests.test_runtime_accepted_bundle_binding) ... ok
+test_unexplained_overlap_rejected_authorized_overlap_supported (test_schema.SchemaTests.test_unexplained_overlap_rejected_authorized_overlap_supported) ... ok
+test_unknown_field_rejected (test_schema.SchemaTests.test_unknown_field_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.160s
+
+OK

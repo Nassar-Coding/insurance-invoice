@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "findings": {
+    "AUD-01": {
+      "decision": "Accept",
+      "status": "corrected and regression verified",
+      "counterexamples": [
+        {
+          "malformed_header": false,
+          "I1_opinion": null,
+          "I1_reason": "unresolved_exclusion",
+          "I2_disposition": "abstained",
+          "validation": {
+            "opinions_checked": 0,
+            "traces_checked": 2,
+            "supported_lines_checked": 0
+          }
+        },
+        {
+          "malformed_header": true,
+          "I1_opinion": null,
+          "I1_reason": "unresolved_exclusion",
+          "I2_disposition": "abstained",
+          "validation": {
+            "opinions_checked": 0,
+            "traces_checked": 2,
+            "supported_lines_checked": 0
+          }
+        }
+      ]
+    },
+    "AUD-02": {
+      "decision": "Accept",
+      "status": "corrected and source/context verified",
+      "counts": {
+        "H1": {
+          "lines": 100,
+          "invoices": 48
+        },
+        "H2": {
+          "lines": 0,
+          "invoices": 0
+        },
+        "H3": {
+          "lines": 76,
+          "invoices": 33
+        },
+        "H4": {
+          "lines": 84,
+          "invoices": 28
+        },
+        "H5": {
+          "lines": 92,
+          "invoices": 42
+        }
+      },
+      "lines": 352,
+      "invoices": 151,
+      "target_lines": 252,
+      "target_invoices": 103
+    }
+  },
+  "byte_identical_outputs": {
+    "submission.csv": {
+      "before": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "after": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+      "byte_identical": true
+    },
+    "metrics.json": {
+      "before": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "after": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+      "byte_identical": true
+    },
+    "workload.json": {
+      "before": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "after": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+      "byte_identical": true
+    }
+  },
+  "bundle_stage_checks": {
+    "H1": {
+      "base_or_bundle_stages_checked": 2499,
+      "applied_bundle_clauses_checked": 100
+    },
+    "H2": {
+      "base_or_bundle_stages_checked": 0,
+      "applied_bundle_clauses_checked": 0
+    },
+    "H3": {
+      "base_or_bundle_stages_checked": 1383,
+      "applied_bundle_clauses_checked": 76
+    },
+    "H4": {
+      "base_or_bundle_stages_checked": 543,
+      "applied_bundle_clauses_checked": 84
+    },
+    "H5": {
+      "base_or_bundle_stages_checked": 1180,
+      "applied_bundle_clauses_checked": 92
+    }
+  },
+  "trace_tamper_checks": [
+    {
+      "mutation": "wrong_source",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_context",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_bundle_cents",
+      "rejected": true
+    }
+  ]
+}

@@ -1,0 +1,1571 @@
+{
+  "catalog": [
+    "Advanced Cardiac Recovery Room Occupancy",
+    "Advanced Haematology Physiotherapy Session",
+    "Advanced Infectious Critical Care Occupancy",
+    "Advanced Metabolic Anaesthesia Administration",
+    "Advanced Metabolic Nursing Observation",
+    "Advanced Neurological Consultation",
+    "Advanced Rheumatologic Laboratory Panel",
+    "Ambulatory Cardiac Home Visit",
+    "Ambulatory Immunologic Endoscopic Procedure",
+    "Ambulatory Immunologic Ward Bed Occupancy",
+    "Ambulatory Infectious Home Visit",
+    "Ambulatory Musculoskeletal Ward Bed Occupancy",
+    "Ambulatory Ophthalmic Case Conference",
+    "Ambulatory Ophthalmic Dialysis Session",
+    "Ambulatory Psychiatric Dialysis Session",
+    "Ambulatory Pulmonary Recovery Room Occupancy",
+    "Ambulatory Urologic Imaging Interpretation",
+    "Assisted Gastrointestinal Infusion Therapy",
+    "Assisted Geriatric Infusion Therapy",
+    "Assisted Infectious Discharge Planning",
+    "Assisted Pulmonary Theatre Time",
+    "Assisted Urologic Home Visit",
+    "Bedside Otolaryngologic Recovery Room Occupancy",
+    "Bedside Psychiatric Dialysis Session",
+    "Bedside Pulmonary Biopsy Procedure",
+    "Comprehensive Infectious Nursing Observation",
+    "Comprehensive Oncology Nursing Observation",
+    "Comprehensive Otolaryngologic Rehabilitation Programme",
+    "Comprehensive Otolaryngologic Theatre Time",
+    "Comprehensive Psychiatric Transfusion Service",
+    "Comprehensive Urologic Transport Service",
+    "Continuous Cardiac Nursing Observation",
+    "Continuous Immunologic Theatre Time",
+    "Continuous Musculoskeletal Wound Care",
+    "Continuous Obstetric Rehabilitation Programme",
+    "Continuous Otolaryngologic Telemetry Monitoring",
+    "Continuous Psychiatric Rehabilitation Programme",
+    "Continuous Pulmonary Wound Care",
+    "Continuous Vascular Pharmaceutical Dispensing",
+    "Elective Cardiac Nutritional Support",
+    "Elective Pulmonary Nutritional Support",
+    "Emergency Dermatologic Case Conference",
+    "Emergency Orthopaedic Consultation",
+    "Emergency Orthopaedic Rehabilitation Programme",
+    "Emergency Renal Radiotherapy Fraction",
+    "Extended Geriatric Wound Care",
+    "Extended Metabolic Isolation Room Occupancy",
+    "Extended Palliative Laboratory Panel",
+    "Extended Renal Transport Service",
+    "Extended Vascular Rehabilitation Programme",
+    "Focused Immunologic Physiotherapy Session",
+    "Focused Orthopaedic Transport Service",
+    "Focused Otolaryngologic Wound Care",
+    "Inpatient Endocrine Dialysis Session",
+    "Inpatient Hepatic Physiotherapy Session",
+    "Inpatient Musculoskeletal Ward Bed Occupancy",
+    "Inpatient Ophthalmic Radiotherapy Fraction",
+    "Inpatient Ophthalmic Transport Service",
+    "Inpatient Palliative Isolation Room Occupancy",
+    "Inpatient Palliative Specimen Analysis",
+    "Inpatient Renal Radiotherapy Fraction",
+    "Inpatient Vascular Diagnostic Imaging",
+    "Intensive Gastrointestinal Isolation Room Occupancy",
+    "Intensive Geriatric Nutritional Support",
+    "Intensive Ophthalmic Case Conference",
+    "Intermittent Dermatologic Transfusion Service",
+    "Intermittent Neurological Nutritional Support",
+    "Intermittent Pulmonary Rehabilitation Programme",
+    "Intermittent Rheumatologic Diagnostic Imaging",
+    "Outpatient Immunologic Consultation",
+    "Outpatient Metabolic Radiotherapy Fraction",
+    "Postoperative Metabolic Critical Care Occupancy",
+    "Postoperative Obstetric Isolation Room Occupancy",
+    "Postoperative Ophthalmic Radiotherapy Fraction",
+    "Postoperative Pulmonary Wound Care",
+    "Preoperative Endocrine Physiotherapy Session",
+    "Preoperative Geriatric Ventilation Support",
+    "Preoperative Immunologic Endoscopic Procedure",
+    "Preoperative Oncology Consultation",
+    "Preoperative Otolaryngologic Sterilisation Service",
+    "Preoperative Renal Wound Care",
+    "Preoperative Vascular Diagnostic Imaging",
+    "Routine Cardiac Specimen Analysis",
+    "Routine Dermatologic Transfusion Service",
+    "Routine Gastrointestinal Transfusion Service",
+    "Routine Haematology Infusion Therapy",
+    "Routine Immunologic Ward Bed Occupancy",
+    "Routine Infectious Critical Care Occupancy",
+    "Routine Oncology Discharge Planning",
+    "Routine Palliative Critical Care Occupancy",
+    "Routine Psychiatric Rehabilitation Programme",
+    "Routine Urologic Biopsy Procedure",
+    "Specialist Dermatologic Transport Service",
+    "Specialist Hepatic Physiotherapy Session",
+    "Specialist Neurological Recovery Room Occupancy",
+    "Specialist Otolaryngologic Pharmaceutical Dispensing",
+    "Specialist Otolaryngologic Theatre Time",
+    "Specialist Paediatric Biopsy Procedure",
+    "Standard Endocrine Dialysis Session",
+    "Standard Endocrine Endoscopic Procedure",
+    "Standard Geriatric Nutritional Support",
+    "Standard Otolaryngologic Radiotherapy Fraction",
+    "Standard Paediatric Biopsy Procedure",
+    "Standard Psychiatric Endoscopic Procedure",
+    "Standard Pulmonary Dialysis Session",
+    "Supervised Musculoskeletal Dialysis Session",
+    "Supervised Otolaryngologic Sterilisation Service",
+    "Supervised Renal Isolation Room Occupancy"
+  ],
+  "hospital": "H1",
+  "lexicon": "lexicon_v1.json",
+  "proposals": {
+    "Admin Advanced Metabolic Anaes /NG-1114": [
+      "Advanced Metabolic Anaesthesia Administration"
+    ],
+    "Adv  Renal Consultation": [],
+    "Adv Card Recov Rm": [
+      "Advanced Cardiac Recovery Room Occupancy"
+    ],
+    "Adv Haem Physiotherapy Sess": [
+      "Advanced Haematology Physiotherapy Session"
+    ],
+    "Adv Infect Critical Care Occ /NG-2548": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Adv Infect Critical Cr Occ /NG-1530": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Adv Metab Nursing Observation /NG-7035": [
+      "Advanced Metabolic Nursing Observation"
+    ],
+    "Adv Metabolic Anaes Administration": [
+      "Advanced Metabolic Anaesthesia Administration"
+    ],
+    "Adv Metabolic Anaesthesia Admin": [
+      "Advanced Metabolic Anaesthesia Administration"
+    ],
+    "Adv Neuro Consultation /NG-3672": [
+      "Advanced Neurological Consultation"
+    ],
+    "Adv Rheumatologic Lab Panel": [
+      "Advanced Rheumatologic Laboratory Panel"
+    ],
+    "Advanced  Infect Crit Cr": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Advanced - Metab Nurs Obs": [
+      "Advanced Metabolic Nursing Observation"
+    ],
+    "Advanced Card Recov Rm Occ": [
+      "Advanced Cardiac Recovery Room Occupancy"
+    ],
+    "Advanced Critical Cr Occupancy": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Advanced Haem Physio Session": [
+      "Advanced Haematology Physiotherapy Session"
+    ],
+    "Advanced Haem Physiotherapy Session": [
+      "Advanced Haematology Physiotherapy Session"
+    ],
+    "Advanced Infectious Crit Care Occ /NG-3293": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Advanced Metab Anaes": [
+      "Advanced Metabolic Anaesthesia Administration"
+    ],
+    "Advanced Metabolic Anaes Admin": [
+      "Advanced Metabolic Anaesthesia Administration"
+    ],
+    "Advanced Neuro Consult": [
+      "Advanced Neurological Consultation"
+    ],
+    "Advanced Neuro Consultation": [
+      "Advanced Neurological Consultation"
+    ],
+    "Advanced Rheum Lab Pnl": [
+      "Advanced Rheumatologic Laboratory Panel"
+    ],
+    "Advanced Rheum Laboratory Pnl /NG-2701": [
+      "Advanced Rheumatologic Laboratory Panel"
+    ],
+    "Amb - Ophthalmic Cs Conf": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Amb - Urol Img Interp": [
+      "Ambulatory Urologic Imaging Interpretation"
+    ],
+    "Amb Card Home Vst": [
+      "Ambulatory Cardiac Home Visit"
+    ],
+    "Amb Gastrointestinal Discharge Plng": [],
+    "Amb Immun Endosc Proc": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Amb Infectious Hm Visit": [
+      "Ambulatory Infectious Home Visit"
+    ],
+    "Amb Infectious Visit": [
+      "Ambulatory Infectious Home Visit"
+    ],
+    "Amb Msk Wd Bd Occupancy /NG-3394": [
+      "Ambulatory Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Amb Ophthalmic Dial Sess": [
+      "Ambulatory Ophthalmic Dialysis Session"
+    ],
+    "Amb Psych Dial Session": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Amb Psychiatric Dialysis Sess": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Amb Pulm Recov Rm Occupancy": [
+      "Ambulatory Pulmonary Recovery Room Occupancy"
+    ],
+    "Amb Urol Imaging Interpretation": [
+      "Ambulatory Urologic Imaging Interpretation"
+    ],
+    "Amb Urologic Img Interp": [
+      "Ambulatory Urologic Imaging Interpretation"
+    ],
+    "Ambulatory  Immunologic Wd Bd Occupancy": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "Ambulatory  Pulm Recov Rm Occupancy /NG-9869": [
+      "Ambulatory Pulmonary Recovery Room Occupancy"
+    ],
+    "Ambulatory  Pulm Recovery Room Occupancy": [
+      "Ambulatory Pulmonary Recovery Room Occupancy"
+    ],
+    "Ambulatory - Card Home Vst": [
+      "Ambulatory Cardiac Home Visit"
+    ],
+    "Ambulatory - Immun Endosc Proc /NG-1182": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Ambulatory - Immunologic Wd Bed Occ /NG-8463": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "Ambulatory Card Hm Visit /NG-9268": [
+      "Ambulatory Cardiac Home Visit"
+    ],
+    "Ambulatory Card Home Vst": [
+      "Ambulatory Cardiac Home Visit"
+    ],
+    "Ambulatory Endosc Procedure /NG-8034": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Ambulatory Immunologic Wd Bd Occ": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "Ambulatory Msk Ward Bd Occ /NG-7929": [
+      "Ambulatory Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Ambulatory Musculoskeletal Wd Bd Occ": [
+      "Ambulatory Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Ambulatory Ophth Dial Sess": [
+      "Ambulatory Ophthalmic Dialysis Session"
+    ],
+    "Ambulatory Ophthalmic Dial Session": [
+      "Ambulatory Ophthalmic Dialysis Session"
+    ],
+    "Ambulatory Psych Dial Session": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Ambulatory Urol Imaging Interpretation": [
+      "Ambulatory Urologic Imaging Interpretation"
+    ],
+    "Anly Inpatient Palliative Specimen": [
+      "Inpatient Palliative Specimen Analysis"
+    ],
+    "Assisted  Urol Hm Vst": [
+      "Assisted Urologic Home Visit"
+    ],
+    "Assisted - Infect Disch Planning /NG-6257": [
+      "Assisted Infectious Discharge Planning"
+    ],
+    "Assisted - Pulm Thtr Tm /NG-9868": [
+      "Assisted Pulmonary Theatre Time"
+    ],
+    "Assisted Gi Inf Ther /NG-8862": [
+      "Assisted Gastrointestinal Infusion Therapy"
+    ],
+    "Assisted Infect Disch Planning /NG-1542": [
+      "Assisted Infectious Discharge Planning"
+    ],
+    "Assisted Pulm Theatre Tm /NG-8055": [
+      "Assisted Pulmonary Theatre Time"
+    ],
+    "Asst  Pulmonary Theatre Time": [
+      "Assisted Pulmonary Theatre Time"
+    ],
+    "Asst - Gi Inf Therapy /NG-1139": [
+      "Assisted Gastrointestinal Infusion Therapy"
+    ],
+    "Asst Gastrointestinal Infusion Therapy": [
+      "Assisted Gastrointestinal Infusion Therapy"
+    ],
+    "Asst Infectious Discharge Plng": [
+      "Assisted Infectious Discharge Planning"
+    ],
+    "Asst Pulmonary Theatre Time /NG-2448": [
+      "Assisted Pulmonary Theatre Time"
+    ],
+    "Asst Specimen Anly": [],
+    "Asst Urologic Home Vst": [
+      "Assisted Urologic Home Visit"
+    ],
+    "Beds Otolaryngologic Recovery Room Occ": [
+      "Bedside Otolaryngologic Recovery Room Occupancy"
+    ],
+    "Beds Psych Dialysis Sess": [
+      "Bedside Psychiatric Dialysis Session"
+    ],
+    "Beds Psych Session": [
+      "Bedside Psychiatric Dialysis Session"
+    ],
+    "Beds Pulmonary Biop Proc": [
+      "Bedside Pulmonary Biopsy Procedure"
+    ],
+    "Beds Pulmonary Biop Proc /NG-6360": [
+      "Bedside Pulmonary Biopsy Procedure"
+    ],
+    "Bedside Pulm Biopsy Proc": [
+      "Bedside Pulmonary Biopsy Procedure"
+    ],
+    "Bedside Pulmonary Biop Proc": [
+      "Bedside Pulmonary Biopsy Procedure"
+    ],
+    "Care Cont Musculoskeletal Wnd /NG-8330": [
+      "Continuous Musculoskeletal Wound Care"
+    ],
+    "Care Cont Musculoskeletal Wnd /NG-8990": [
+      "Continuous Musculoskeletal Wound Care"
+    ],
+    "Care Extended Ger Wound": [
+      "Extended Geriatric Wound Care"
+    ],
+    "Care Focused Ent Wnd": [
+      "Focused Otolaryngologic Wound Care"
+    ],
+    "Care Preop Ren Wound": [
+      "Preoperative Renal Wound Care"
+    ],
+    "Case - Intensive Ophth /NG-3641": [
+      "Intensive Ophthalmic Case Conference"
+    ],
+    "Compr - Otolaryngologic Rehab Prog": [
+      "Comprehensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "Compr - Psych Transf Svc": [
+      "Comprehensive Psychiatric Transfusion Service"
+    ],
+    "Compr - Urol Transp Svc": [
+      "Comprehensive Urologic Transport Service"
+    ],
+    "Compr - Urologic Transport Service": [
+      "Comprehensive Urologic Transport Service"
+    ],
+    "Compr Ent Thtr Time": [
+      "Comprehensive Otolaryngologic Theatre Time"
+    ],
+    "Compr Infectious Nurs": [
+      "Comprehensive Infectious Nursing Observation"
+    ],
+    "Compr Infectious Nursing": [
+      "Comprehensive Infectious Nursing Observation"
+    ],
+    "Compr Infectious Nursing Observation": [
+      "Comprehensive Infectious Nursing Observation"
+    ],
+    "Compr Onc Nurs Observation": [
+      "Comprehensive Oncology Nursing Observation"
+    ],
+    "Compr Oncology Nurs Obs": [
+      "Comprehensive Oncology Nursing Observation"
+    ],
+    "Compr Otolaryngologic Rehab /NG-4700": [
+      "Comprehensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "Compr Otolaryngologic Rehab Prog /NG-9048": [
+      "Comprehensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "Compr Otolaryngologic Theatre Tm": [
+      "Comprehensive Otolaryngologic Theatre Time"
+    ],
+    "Compr Psychiatric Transf Service /NG-8081": [
+      "Comprehensive Psychiatric Transfusion Service"
+    ],
+    "Compr Psychiatric Transfusion Svc": [
+      "Comprehensive Psychiatric Transfusion Service"
+    ],
+    "Compr Urologic Transp Service": [
+      "Comprehensive Urologic Transport Service"
+    ],
+    "Compr Urologic Transport Svc": [
+      "Comprehensive Urologic Transport Service"
+    ],
+    "Comprehensive - Onc Nurs Obs": [
+      "Comprehensive Oncology Nursing Observation"
+    ],
+    "Comprehensive Ent Thtr Time /NG-2399": [
+      "Comprehensive Otolaryngologic Theatre Time"
+    ],
+    "Comprehensive Infect Nursing": [
+      "Comprehensive Infectious Nursing Observation"
+    ],
+    "Comprehensive Onc Nurs Observation": [
+      "Comprehensive Oncology Nursing Observation"
+    ],
+    "Comprehensive Oncology Nurs Obs": [
+      "Comprehensive Oncology Nursing Observation"
+    ],
+    "Comprehensive Otolaryngologic Thtr Time": [
+      "Comprehensive Otolaryngologic Theatre Time"
+    ],
+    "Conf Amb Ophth Cs /NG-4640": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Conf Emergency Derm Cs": [
+      "Emergency Dermatologic Case Conference"
+    ],
+    "Conference Amb Ophth Case": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Conference Amb Ophth Cs /NG-9862": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Conference Emer Dermatologic Cs": [
+      "Emergency Dermatologic Case Conference"
+    ],
+    "Conference Intens Ophth Cs": [
+      "Intensive Ophthalmic Case Conference"
+    ],
+    "Consult Advanced Neuro /NG-5114": [
+      "Advanced Neurological Consultation"
+    ],
+    "Consult Outpt Immun /NG-3689": [
+      "Outpatient Immunologic Consultation"
+    ],
+    "Consultation Adv": [
+      "Advanced Neurological Consultation"
+    ],
+    "Cont - Immunologic Thtr Tm": [
+      "Continuous Immunologic Theatre Time"
+    ],
+    "Cont - Psychiatric Rehab Prog /NG-1498": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "Cont - Pulmonary Wnd Cr": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Cont - Pulmonary Wnd Cr /NG-2407": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Cont Ent Telem Monit": [
+      "Continuous Otolaryngologic Telemetry Monitoring"
+    ],
+    "Cont Immun Theatre Time /NG-9315": [
+      "Continuous Immunologic Theatre Time"
+    ],
+    "Cont Msk Wound Cr": [
+      "Continuous Musculoskeletal Wound Care"
+    ],
+    "Cont Musculoskeletal Wound Care": [
+      "Continuous Musculoskeletal Wound Care"
+    ],
+    "Cont Obst Rehab Prog": [
+      "Continuous Obstetric Rehabilitation Programme"
+    ],
+    "Cont Obst Rehab Prog /NG-1357": [
+      "Continuous Obstetric Rehabilitation Programme"
+    ],
+    "Cont Obstetric Rehab Programme /NG-9792": [
+      "Continuous Obstetric Rehabilitation Programme"
+    ],
+    "Cont Pharmaceutical Disp": [
+      "Continuous Vascular Pharmaceutical Dispensing"
+    ],
+    "Cont Psych Rehab Programme": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "Cont Psychiatric Rehabilitation Programme": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "Cont Pulm Spcm Analysis": [],
+    "Cont Pulmonary Wnd Cr": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Cont Vasc Pharmaceutical Disp": [
+      "Continuous Vascular Pharmaceutical Dispensing"
+    ],
+    "Cont Vasc Pharmaceutical Dispensing": [
+      "Continuous Vascular Pharmaceutical Dispensing"
+    ],
+    "Continuous - Card Nursing Observation": [
+      "Continuous Cardiac Nursing Observation"
+    ],
+    "Continuous - Ent Telemetry Monit /NG-9499": [
+      "Continuous Otolaryngologic Telemetry Monitoring"
+    ],
+    "Continuous - Obst Rehab Programme": [
+      "Continuous Obstetric Rehabilitation Programme"
+    ],
+    "Continuous Ent Telem Monit": [
+      "Continuous Otolaryngologic Telemetry Monitoring"
+    ],
+    "Continuous Immun Theatre Time /NG-4759": [
+      "Continuous Immunologic Theatre Time"
+    ],
+    "Continuous Otolaryngologic Telemetry Monit /NG-7391": [
+      "Continuous Otolaryngologic Telemetry Monitoring"
+    ],
+    "Continuous Psych Rehabilitation Prog": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "Continuous Wnd Care": [
+      "Continuous Musculoskeletal Wound Care",
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Cr Cont Wnd": [
+      "Continuous Musculoskeletal Wound Care",
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Cr Foc Otolaryngologic Wound": [
+      "Focused Otolaryngologic Wound Care"
+    ],
+    "Cr Focused Ent Wound": [
+      "Focused Otolaryngologic Wound Care"
+    ],
+    "Cs Amb Ophthalmic /NG-7838": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Derm Transf Svc Interm": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Derm Transf Svc Rtn": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Disp Specialist Otolaryngologic Pharmaceutical": [
+      "Specialist Otolaryngologic Pharmaceutical Dispensing"
+    ],
+    "Elect  Card Nutritional Supp": [
+      "Elective Cardiac Nutritional Support"
+    ],
+    "Elect - Card Supp": [
+      "Elective Cardiac Nutritional Support"
+    ],
+    "Elect Cardiac Nutr Supp": [
+      "Elective Cardiac Nutritional Support"
+    ],
+    "Elect Cardiac Nutritional Supp /NG-3162": [
+      "Elective Cardiac Nutritional Support"
+    ],
+    "Elective - Pulm Nutritional Supp": [
+      "Elective Pulmonary Nutritional Support"
+    ],
+    "Elective Pulm Nutr Support": [
+      "Elective Pulmonary Nutritional Support"
+    ],
+    "Elective Pulmonary Nutr Supp": [
+      "Elective Pulmonary Nutritional Support"
+    ],
+    "Elective Pulmonary Nutr Support": [
+      "Elective Pulmonary Nutritional Support"
+    ],
+    "Emer - Ortho Consultation": [
+      "Emergency Orthopaedic Consultation"
+    ],
+    "Emer Ortho": [
+      "Emergency Orthopaedic Consultation",
+      "Emergency Orthopaedic Rehabilitation Programme"
+    ],
+    "Emer Ortho Consult": [
+      "Emergency Orthopaedic Consultation"
+    ],
+    "Emer Ortho Rehabilitation Prog": [
+      "Emergency Orthopaedic Rehabilitation Programme"
+    ],
+    "Emer Orthopaedic Consultation": [
+      "Emergency Orthopaedic Consultation"
+    ],
+    "Emer Orthopaedic Rehabilitation Prog": [
+      "Emergency Orthopaedic Rehabilitation Programme"
+    ],
+    "Emergency - Orthopaedic Rehab Prog": [
+      "Emergency Orthopaedic Rehabilitation Programme"
+    ],
+    "Emergency Dermatologic Cs Conference": [
+      "Emergency Dermatologic Case Conference"
+    ],
+    "Emergency Ren Radiotherapy Fract": [
+      "Emergency Renal Radiotherapy Fraction"
+    ],
+    "Endo Dial Sess Inpt": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Endo Dial Sess Std": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Ent Steril Svc Preop": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Ent Steril Svc Supv": [
+      "Supervised Otolaryngologic Sterilisation Service"
+    ],
+    "Ent Thtr Tm Compr": [
+      "Comprehensive Otolaryngologic Theatre Time"
+    ],
+    "Ent Thtr Tm Spclst": [
+      "Specialist Otolaryngologic Theatre Time"
+    ],
+    "Ext - Geriatric Wound Care /NG-2898": [
+      "Extended Geriatric Wound Care"
+    ],
+    "Ext - Pall Panel": [
+      "Extended Palliative Laboratory Panel"
+    ],
+    "Ext - Vascular Rehabilitation Prog": [
+      "Extended Vascular Rehabilitation Programme"
+    ],
+    "Ext Ger Wnd Cr": [
+      "Extended Geriatric Wound Care"
+    ],
+    "Ext Geriatric Wnd Cr /NG-7617": [
+      "Extended Geriatric Wound Care"
+    ],
+    "Ext Pall Lab Panel": [
+      "Extended Palliative Laboratory Panel"
+    ],
+    "Ext Pall Lab Panel /NG-9077": [
+      "Extended Palliative Laboratory Panel"
+    ],
+    "Ext Palliative Laboratory Pnl": [
+      "Extended Palliative Laboratory Panel"
+    ],
+    "Ext Vasc Rehabilitation Prog": [
+      "Extended Vascular Rehabilitation Programme"
+    ],
+    "Extended Haem Anaes Admin": [],
+    "Extended Metab Isolation Room Occupancy": [
+      "Extended Metabolic Isolation Room Occupancy"
+    ],
+    "Extended Metabolic Isol Rm Occupancy /NG-9372": [
+      "Extended Metabolic Isolation Room Occupancy"
+    ],
+    "Extended Ortho Ventilation Support": [],
+    "Extended Pall Laboratory Pnl": [
+      "Extended Palliative Laboratory Panel"
+    ],
+    "Extended Ren Transp": [
+      "Extended Renal Transport Service"
+    ],
+    "Extended Ren Transport Service": [
+      "Extended Renal Transport Service"
+    ],
+    "Extended Vasc Rehab Prog": [
+      "Extended Vascular Rehabilitation Programme"
+    ],
+    "Foc - Immunologic Physio": [
+      "Focused Immunologic Physiotherapy Session"
+    ],
+    "Foc - Ortho Transp Service": [
+      "Focused Orthopaedic Transport Service"
+    ],
+    "Foc Immunologic Physio Sess": [
+      "Focused Immunologic Physiotherapy Session"
+    ],
+    "Focused - Orthopaedic Transp Svc": [
+      "Focused Orthopaedic Transport Service"
+    ],
+    "Focused Ent Cr /NG-9962": [
+      "Focused Otolaryngologic Wound Care"
+    ],
+    "Focused Immun Physiotherapy Sess": [
+      "Focused Immunologic Physiotherapy Session"
+    ],
+    "Focused Orthopaedic Transp Svc": [
+      "Focused Orthopaedic Transport Service"
+    ],
+    "Focused Otolaryngologic Wound Cr": [
+      "Focused Otolaryngologic Wound Care"
+    ],
+    "Fract Emergency Ren Radiother": [
+      "Emergency Renal Radiotherapy Fraction"
+    ],
+    "Fract Inpt Ophthalmic Radiotherapy /NG-8037": [
+      "Inpatient Ophthalmic Radiotherapy Fraction"
+    ],
+    "Fract Outpatient Radiotherapy": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Fract Std Ent": [
+      "Standard Otolaryngologic Radiotherapy Fraction"
+    ],
+    "Fract Std Otolaryngologic Radiotherapy": [
+      "Standard Otolaryngologic Radiotherapy Fraction"
+    ],
+    "Fraction  Std Ent Radiotherapy": [
+      "Standard Otolaryngologic Radiotherapy Fraction"
+    ],
+    "Fraction Emergency Ren Radiotherapy": [
+      "Emergency Renal Radiotherapy Fraction"
+    ],
+    "Fraction Inpatient Ren Radiother": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Fraction Outpatient Metab Radiotherapy /NG-5514": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Fraction Std Otolaryngologic Radiother": [
+      "Standard Otolaryngologic Radiotherapy Fraction"
+    ],
+    "Ger Nutr Supp Intens": [
+      "Intensive Geriatric Nutritional Support"
+    ],
+    "Ger Nutr Supp Std": [
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Ger Nutr Support /NG-2366": [
+      "Intensive Geriatric Nutritional Support",
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Hep Physio Sess Inpt": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Hep Physio Sess Spclst": [
+      "Specialist Hepatic Physiotherapy Session"
+    ],
+    "Imaging Interm Rheum Diagnostic": [
+      "Intermittent Rheumatologic Diagnostic Imaging"
+    ],
+    "Img Inpatient Diag": [
+      "Inpatient Vascular Diagnostic Imaging"
+    ],
+    "Img Inpatient Vascular Diagnostic": [
+      "Inpatient Vascular Diagnostic Imaging"
+    ],
+    "Img Preop Vasc Diagnostic": [
+      "Preoperative Vascular Diagnostic Imaging"
+    ],
+    "Img Preop Vascular Diag": [
+      "Preoperative Vascular Diagnostic Imaging"
+    ],
+    "Img Vasc Diagnostic": [
+      "Inpatient Vascular Diagnostic Imaging",
+      "Preoperative Vascular Diagnostic Imaging"
+    ],
+    "Immun Consult": [
+      "Outpatient Immunologic Consultation"
+    ],
+    "Immun Endosc Proc Amb": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Immun Endosc Proc Preop": [
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Immun Wd Bd Occ Amb": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "Immun Wd Bd Occ Rtn": [
+      "Routine Immunologic Ward Bed Occupancy"
+    ],
+    "Infect Crit Cr Occ Adv": [
+      "Advanced Infectious Critical Care Occupancy"
+    ],
+    "Infect Crit Cr Occ Rtn": [
+      "Routine Infectious Critical Care Occupancy"
+    ],
+    "Inpatient  Ophth Radiother Fraction": [
+      "Inpatient Ophthalmic Radiotherapy Fraction"
+    ],
+    "Inpatient - Ophth Transport": [
+      "Inpatient Ophthalmic Transport Service"
+    ],
+    "Inpatient - Vasc Diagnostic Img": [
+      "Inpatient Vascular Diagnostic Imaging"
+    ],
+    "Inpatient Endo Dial Sess": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Inpatient Hepatic Physio Sess": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Inpatient Ophth Transp Svc": [
+      "Inpatient Ophthalmic Transport Service"
+    ],
+    "Inpatient Ophth Transport Svc": [
+      "Inpatient Ophthalmic Transport Service"
+    ],
+    "Inpatient Pall Specimen Analysis /NG-4820": [
+      "Inpatient Palliative Specimen Analysis"
+    ],
+    "Inpatient Ren Radiother Fraction": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Inpatient Ren Radiotherapy Fraction /NG-3532": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Inpatient Vascular Diag Imaging": [
+      "Inpatient Vascular Diagnostic Imaging"
+    ],
+    "Inpt - Hep Physio Sess /NG-1999": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Inpt - Ophth Radiother Fract": [
+      "Inpatient Ophthalmic Radiotherapy Fraction"
+    ],
+    "Inpt - Ophth Radiother Fract /NG-2420": [
+      "Inpatient Ophthalmic Radiotherapy Fraction"
+    ],
+    "Inpt - Pall Specimen Analysis /NG-1173": [
+      "Inpatient Palliative Specimen Analysis"
+    ],
+    "Inpt - Ren Radiotherapy Fract": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Inpt - Ren Radiotherapy Fraction": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Inpt Endo Session": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Inpt Hep Physiotherapy Session": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Inpt Hepatic Physio Session /NG-3220": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Inpt Hepatic Session": [
+      "Inpatient Hepatic Physiotherapy Session"
+    ],
+    "Inpt Msk Wd Bed Occ": [
+      "Inpatient Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Inpt Musculoskeletal Wd Bed Occupancy /NG-8170": [
+      "Inpatient Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Inpt Ophth Transport Svc": [
+      "Inpatient Ophthalmic Transport Service"
+    ],
+    "Inpt Ophthalmic Transport Svc": [
+      "Inpatient Ophthalmic Transport Service"
+    ],
+    "Inpt Palliative Isol Room Occupancy": [
+      "Inpatient Palliative Isolation Room Occupancy"
+    ],
+    "Inpt Palliative Isolation Rm Occupancy": [
+      "Inpatient Palliative Isolation Room Occupancy"
+    ],
+    "Intens - Nutr Support": [
+      "Intensive Geriatric Nutritional Support"
+    ],
+    "Intens - Ophthalmic Cs Conference /NG-6174": [
+      "Intensive Ophthalmic Case Conference"
+    ],
+    "Intens Gastrointestinal Isolation Rm Occupancy": [
+      "Intensive Gastrointestinal Isolation Room Occupancy"
+    ],
+    "Intens Ger Nutr Support": [
+      "Intensive Geriatric Nutritional Support"
+    ],
+    "Intens Gi Isolation Room Occupancy /NG-9835": [
+      "Intensive Gastrointestinal Isolation Room Occupancy"
+    ],
+    "Intensive Ger Nutr Supp /NG-4079": [
+      "Intensive Geriatric Nutritional Support"
+    ],
+    "Intensive Gi Isolation Rm Occ": [
+      "Intensive Gastrointestinal Isolation Room Occupancy"
+    ],
+    "Interm - Derm Transf Svc": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Interm - Diag Img /NG-6221": [
+      "Intermittent Rheumatologic Diagnostic Imaging"
+    ],
+    "Interm Derm Transfusion Service /NG-8116": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Interm Neuro Nutr Supp /NG-9593": [
+      "Intermittent Neurological Nutritional Support"
+    ],
+    "Interm Pulm Rehab Prog": [
+      "Intermittent Pulmonary Rehabilitation Programme"
+    ],
+    "Interm Pulm Rehab Prog /NG-4176": [
+      "Intermittent Pulmonary Rehabilitation Programme"
+    ],
+    "Interm Rehab Programme": [
+      "Intermittent Pulmonary Rehabilitation Programme"
+    ],
+    "Interm Rheum Diagnostic Img /NG-6790": [
+      "Intermittent Rheumatologic Diagnostic Imaging"
+    ],
+    "Interm Rheumatologic Diag Img": [
+      "Intermittent Rheumatologic Diagnostic Imaging"
+    ],
+    "Intermittent - Derm Transf Svc": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Intermittent Neurological Nutr Supp": [
+      "Intermittent Neurological Nutritional Support"
+    ],
+    "Metabolic - Lab Pnl": [],
+    "Monit Cont Ent Telemetry /NG-2024": [
+      "Continuous Otolaryngologic Telemetry Monitoring"
+    ],
+    "Msk Dial Sess": [
+      "Supervised Musculoskeletal Dialysis Session"
+    ],
+    "Msk Wd Bd Occ Amb": [
+      "Ambulatory Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Msk Wd Bd Occ Inpt": [
+      "Inpatient Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Neuro - Nutr Supp": [
+      "Intermittent Neurological Nutritional Support"
+    ],
+    "Obs Cont Card Nursing": [
+      "Continuous Cardiac Nursing Observation"
+    ],
+    "Obs Continuous Card Nurs": [
+      "Continuous Cardiac Nursing Observation"
+    ],
+    "Obs Continuous Card Nursing /NG-8292": [
+      "Continuous Cardiac Nursing Observation"
+    ],
+    "Obs Metab Nursing": [
+      "Advanced Metabolic Nursing Observation"
+    ],
+    "Observation Compr Infectious Nurs": [
+      "Comprehensive Infectious Nursing Observation"
+    ],
+    "Observation Cont Nurs": [
+      "Continuous Cardiac Nursing Observation"
+    ],
+    "Occ  - Postoperative Obstetric Isol Rm": [
+      "Postoperative Obstetric Isolation Room Occupancy"
+    ],
+    "Occ - Inpt Isol Rm /NG-2747": [
+      "Inpatient Palliative Isolation Room Occupancy"
+    ],
+    "Occ - Postoperative Metabolic Critical Care": [
+      "Postoperative Metabolic Critical Care Occupancy"
+    ],
+    "Occ Advanced Orthopaedic Recovery Rm /NG-2920": [],
+    "Occ Beds Otolaryngologic Recov Room": [
+      "Bedside Otolaryngologic Recovery Room Occupancy"
+    ],
+    "Occ Beds Otolaryngologic Recovery Room /NG-2212": [
+      "Bedside Otolaryngologic Recovery Room Occupancy"
+    ],
+    "Occ Inpatient Palliative Isolation Rm": [
+      "Inpatient Palliative Isolation Room Occupancy"
+    ],
+    "Occ Inpt Msk Wd Bd": [
+      "Inpatient Musculoskeletal Ward Bed Occupancy"
+    ],
+    "Occ Routine Infectious Critical Cr": [
+      "Routine Infectious Critical Care Occupancy"
+    ],
+    "Occ Supervised Ren Isolation Rm": [
+      "Supervised Renal Isolation Room Occupancy"
+    ],
+    "Occupancy  Extended Metabolic Isol Rm /NG-3709": [
+      "Extended Metabolic Isolation Room Occupancy"
+    ],
+    "Occupancy - Beds Otolaryngologic Recov Room": [
+      "Bedside Otolaryngologic Recovery Room Occupancy"
+    ],
+    "Occupancy - Spclst Neurological Recovery Rm /NG-4948": [
+      "Specialist Neurological Recovery Room Occupancy"
+    ],
+    "Occupancy Advanced Card Recov Rm": [
+      "Advanced Cardiac Recovery Room Occupancy"
+    ],
+    "Occupancy Bedside Ent Recovery Room": [
+      "Bedside Otolaryngologic Recovery Room Occupancy"
+    ],
+    "Occupancy Inpatient Palliative Isol Room": [
+      "Inpatient Palliative Isolation Room Occupancy"
+    ],
+    "Occupancy Postop Metabolic Crit Cr": [
+      "Postoperative Metabolic Critical Care Occupancy"
+    ],
+    "Occupancy Postop Obstetric Isol Room": [
+      "Postoperative Obstetric Isolation Room Occupancy"
+    ],
+    "Occupancy Postoperative Obstetric Isol Rm": [
+      "Postoperative Obstetric Isolation Room Occupancy"
+    ],
+    "Occupancy Rtn Pall Crit Cr": [
+      "Routine Palliative Critical Care Occupancy"
+    ],
+    "Ophth Cs Conf Amb": [
+      "Ambulatory Ophthalmic Case Conference"
+    ],
+    "Ophth Cs Conf Intens": [
+      "Intensive Ophthalmic Case Conference"
+    ],
+    "Ophth Radiother Fract Inpt": [
+      "Inpatient Ophthalmic Radiotherapy Fraction"
+    ],
+    "Ophth Radiother Fract Postop": [
+      "Postoperative Ophthalmic Radiotherapy Fraction"
+    ],
+    "Ortho Transp Svc": [
+      "Focused Orthopaedic Transport Service"
+    ],
+    "Outpatient - Metabolic Radiother Fract /NG-9469": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Outpatient Metab Radiother Fraction": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Outpatient Orthopaedic Pharm Dispensing /NG-2825": [],
+    "Outpt - Immun Consultation /NG-3299": [
+      "Outpatient Immunologic Consultation"
+    ],
+    "Outpt Immun Consult /NG-9519": [
+      "Outpatient Immunologic Consultation"
+    ],
+    "Outpt Immun Consultation": [
+      "Outpatient Immunologic Consultation"
+    ],
+    "Outpt Metab Radiother Fract": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Outpt Radiother Fraction": [
+      "Outpatient Metabolic Radiotherapy Fraction"
+    ],
+    "Paed Biop Proc Spclst": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "Paed Biop Proc Std": [
+      "Standard Paediatric Biopsy Procedure"
+    ],
+    "Plng Rtn Oncology Discharge": [
+      "Routine Oncology Discharge Planning"
+    ],
+    "Postop Critical Cr Occupancy": [
+      "Postoperative Metabolic Critical Care Occupancy"
+    ],
+    "Postop Metabolic Critical Cr Occ": [
+      "Postoperative Metabolic Critical Care Occupancy"
+    ],
+    "Postop Ophthalmic Radiotherapy Fract": [
+      "Postoperative Ophthalmic Radiotherapy Fraction"
+    ],
+    "Postop Pulmonary Wnd Care /NG-1729": [
+      "Postoperative Pulmonary Wound Care"
+    ],
+    "Postoperative - Metab Crit Cr Occupancy": [
+      "Postoperative Metabolic Critical Care Occupancy"
+    ],
+    "Postoperative - Ophth Radiother Fract /NG-1408": [
+      "Postoperative Ophthalmic Radiotherapy Fraction"
+    ],
+    "Postoperative Ophth Radiother Fract": [
+      "Postoperative Ophthalmic Radiotherapy Fraction"
+    ],
+    "Postoperative Ophthalmic Radiother Fract /NG-5937": [
+      "Postoperative Ophthalmic Radiotherapy Fraction"
+    ],
+    "Postoperative Pulm Wnd Cr": [
+      "Postoperative Pulmonary Wound Care"
+    ],
+    "Postoperative Pulmonary Wnd Cr /NG-8823": [
+      "Postoperative Pulmonary Wound Care"
+    ],
+    "Preop - Geriatric Ventilation Supp": [
+      "Preoperative Geriatric Ventilation Support"
+    ],
+    "Preop - Immun Endoscopic Procedure /NG-3497": [
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Preop Endo Physio Sess": [
+      "Preoperative Endocrine Physiotherapy Session"
+    ],
+    "Preop Endo Physiotherapy Sess": [
+      "Preoperative Endocrine Physiotherapy Session"
+    ],
+    "Preop Endocrine Physio Session": [
+      "Preoperative Endocrine Physiotherapy Session"
+    ],
+    "Preop Ent Sterilisation Svc /NG-3994": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Preop Geriatric Vent Supp": [
+      "Preoperative Geriatric Ventilation Support"
+    ],
+    "Preop Geriatric Ventilation Support /NG-1168": [
+      "Preoperative Geriatric Ventilation Support"
+    ],
+    "Preop Immun Endosc Proc": [
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Preop Onc Consultation": [
+      "Preoperative Oncology Consultation"
+    ],
+    "Preop Oncology Consult /NG-2424": [
+      "Preoperative Oncology Consultation"
+    ],
+    "Preop Oncology Consult /NG-5826": [
+      "Preoperative Oncology Consultation"
+    ],
+    "Preop Oncology Consult /NG-7321": [
+      "Preoperative Oncology Consultation"
+    ],
+    "Preop Otolaryngologic Steril Svc": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Preop Renal Wnd Cr": [
+      "Preoperative Renal Wound Care"
+    ],
+    "Preoperative - Ger Vent Support /NG-6364": [
+      "Preoperative Geriatric Ventilation Support"
+    ],
+    "Preoperative - Immun Endoscopic Procedure": [
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Preoperative - Ren Wnd Cr": [
+      "Preoperative Renal Wound Care"
+    ],
+    "Preoperative Endocrine Physio Sess": [
+      "Preoperative Endocrine Physiotherapy Session"
+    ],
+    "Preoperative Ent Steril Svc": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Preoperative Onc Consultation": [
+      "Preoperative Oncology Consultation"
+    ],
+    "Preoperative Otolaryngologic Steril Service": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Proc - Amb Immun Endoscopic /NG-3634": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Proc Preoperative Immunologic Endoscopic /NG-1751": [
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Proc Std Psychiatric Endosc /NG-2345": [
+      "Standard Psychiatric Endoscopic Procedure"
+    ],
+    "Procedure Amb Immunologic Endoscopic": [
+      "Ambulatory Immunologic Endoscopic Procedure"
+    ],
+    "Procedure Immun Endosc": [
+      "Ambulatory Immunologic Endoscopic Procedure",
+      "Preoperative Immunologic Endoscopic Procedure"
+    ],
+    "Procedure Routine Urol Biopsy": [
+      "Routine Urologic Biopsy Procedure"
+    ],
+    "Procedure Routine Urologic Biop /NG-3022": [
+      "Routine Urologic Biopsy Procedure"
+    ],
+    "Procedure Standard Endocrine Endosc": [
+      "Standard Endocrine Endoscopic Procedure"
+    ],
+    "Prog Comprehensive Otolaryngologic Rehab": [
+      "Comprehensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "Prog Emergency Ortho Rehabilitation /NG-5611": [
+      "Emergency Orthopaedic Rehabilitation Programme"
+    ],
+    "Programme  Rtn Psych Rehab /NG-3241": [
+      "Routine Psychiatric Rehabilitation Programme"
+    ],
+    "Programme Continuous Obst Rehab": [
+      "Continuous Obstetric Rehabilitation Programme"
+    ],
+    "Programme Extended Vascular Rehab": [
+      "Extended Vascular Rehabilitation Programme"
+    ],
+    "Programme Interm Pulmonary Rehab": [
+      "Intermittent Pulmonary Rehabilitation Programme"
+    ],
+    "Psych Dial Sess Amb": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Psych Dial Sess Beds": [
+      "Bedside Psychiatric Dialysis Session"
+    ],
+    "Psych Rehab Prog Cont": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "Psych Rehab Prog Rtn": [
+      "Routine Psychiatric Rehabilitation Programme"
+    ],
+    "Psych Rehab Programme": [
+      "Continuous Psychiatric Rehabilitation Programme",
+      "Routine Psychiatric Rehabilitation Programme"
+    ],
+    "Psychiatric Rehab Programme /NG-8199": [
+      "Continuous Psychiatric Rehabilitation Programme",
+      "Routine Psychiatric Rehabilitation Programme"
+    ],
+    "Pulm Wnd Cr Cont": [
+      "Continuous Pulmonary Wound Care"
+    ],
+    "Pulm Wnd Cr Postop": [
+      "Postoperative Pulmonary Wound Care"
+    ],
+    "Pulmonary - Biopsy Proc": [
+      "Bedside Pulmonary Biopsy Procedure"
+    ],
+    "Ren Radiother Fract Emer": [
+      "Emergency Renal Radiotherapy Fraction"
+    ],
+    "Ren Radiother Fract Inpt": [
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Ren Radiotherapy Fract": [
+      "Emergency Renal Radiotherapy Fraction",
+      "Inpatient Renal Radiotherapy Fraction"
+    ],
+    "Routine  Biop Procedure": [
+      "Routine Urologic Biopsy Procedure"
+    ],
+    "Routine - Gastrointestinal Transfusion Svc": [
+      "Routine Gastrointestinal Transfusion Service"
+    ],
+    "Routine - Onc Discharge Plng": [
+      "Routine Oncology Discharge Planning"
+    ],
+    "Routine - Oncology Disch": [
+      "Routine Oncology Discharge Planning"
+    ],
+    "Routine Card Specimen Analysis": [
+      "Routine Cardiac Specimen Analysis"
+    ],
+    "Routine Pall Critical Care Occupancy /NG-1990": [
+      "Routine Palliative Critical Care Occupancy"
+    ],
+    "Rtn  - Derm Transf Svc": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Rtn - Onc Discharge Plng": [
+      "Routine Oncology Discharge Planning"
+    ],
+    "Rtn - Psychiatric Rehabilitation Prog": [
+      "Routine Psychiatric Rehabilitation Programme"
+    ],
+    "Rtn - Transf Svc": [
+      "Routine Dermatologic Transfusion Service",
+      "Routine Gastrointestinal Transfusion Service"
+    ],
+    "Rtn - Urol Biop Procedure": [
+      "Routine Urologic Biopsy Procedure"
+    ],
+    "Rtn Biop Proc /NG-7762": [
+      "Routine Urologic Biopsy Procedure"
+    ],
+    "Rtn Cardiac Spcm Anly /NG-6683": [
+      "Routine Cardiac Specimen Analysis"
+    ],
+    "Rtn Cardiac Specimen": [
+      "Routine Cardiac Specimen Analysis"
+    ],
+    "Rtn Derm Transfusion Service": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Rtn Derm Transfusion Service /NG-2088": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Rtn Dermatologic Transfusion Svc": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Rtn Gi Svc /NG-4995": [
+      "Routine Gastrointestinal Transfusion Service"
+    ],
+    "Rtn Haem Inf Therapy": [
+      "Routine Haematology Infusion Therapy"
+    ],
+    "Rtn Immun Ward Bed Occupancy": [
+      "Routine Immunologic Ward Bed Occupancy"
+    ],
+    "Rtn Immunologic Ward Bd Occ": [
+      "Routine Immunologic Ward Bed Occupancy"
+    ],
+    "Rtn Immunologic Wd Bed Occupancy": [
+      "Routine Immunologic Ward Bed Occupancy"
+    ],
+    "Rtn Infect Crit Cr Occupancy": [
+      "Routine Infectious Critical Care Occupancy"
+    ],
+    "Rtn Infect Critical Care Occ": [
+      "Routine Infectious Critical Care Occupancy"
+    ],
+    "Rtn Pall Crit Cr Occupancy": [
+      "Routine Palliative Critical Care Occupancy"
+    ],
+    "Rtn Palliative Critical Cr Occ": [
+      "Routine Palliative Critical Care Occupancy"
+    ],
+    "Rtn Palliative Critical Cr Occupancy": [
+      "Routine Palliative Critical Care Occupancy"
+    ],
+    "Service - Foc Ortho Transp": [
+      "Focused Orthopaedic Transport Service"
+    ],
+    "Sess Amb Psych Dial": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Sess Ambulatory Ophth Dialysis": [
+      "Ambulatory Ophthalmic Dialysis Session"
+    ],
+    "Sess Ambulatory Psych Dialysis /NG-7178": [
+      "Ambulatory Psychiatric Dialysis Session"
+    ],
+    "Sess Inpatient Endo Dialysis": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Sess Standard Endo Dialysis": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Session  Interm Hep Dial": [],
+    "Session - Std Pulmonary Dial": [
+      "Standard Pulmonary Dialysis Session"
+    ],
+    "Session Beds Psychiatric Dialysis": [
+      "Bedside Psychiatric Dialysis Session"
+    ],
+    "Session Inpatient Endo Dial": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Session Inpt Endo Dial": [
+      "Inpatient Endocrine Dialysis Session"
+    ],
+    "Session Specialist Hep Physiotherapy": [
+      "Specialist Hepatic Physiotherapy Session"
+    ],
+    "Session Std Endocrine Dialysis": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Session Std Pulmonary Dialysis": [
+      "Standard Pulmonary Dialysis Session"
+    ],
+    "Spclst  Derm Transp Svc /NG-4716": [
+      "Specialist Dermatologic Transport Service"
+    ],
+    "Spclst - Ent Pharmaceutical Dispensing /NG-9066": [
+      "Specialist Otolaryngologic Pharmaceutical Dispensing"
+    ],
+    "Spclst - Ent Thtr Tm /NG-7710": [
+      "Specialist Otolaryngologic Theatre Time"
+    ],
+    "Spclst Derm Transport Service": [
+      "Specialist Dermatologic Transport Service"
+    ],
+    "Spclst Ent Theatre Tm": [
+      "Specialist Otolaryngologic Theatre Time"
+    ],
+    "Spclst Ent Thtr Time": [
+      "Specialist Otolaryngologic Theatre Time"
+    ],
+    "Spclst Hep Physio Session": [
+      "Specialist Hepatic Physiotherapy Session"
+    ],
+    "Spclst Hepatic Physiotherapy Sess": [
+      "Specialist Hepatic Physiotherapy Session"
+    ],
+    "Spclst Otolaryngologic Pharm Disp": [
+      "Specialist Otolaryngologic Pharmaceutical Dispensing"
+    ],
+    "Spclst Otolaryngologic Thtr Tm": [
+      "Specialist Otolaryngologic Theatre Time"
+    ],
+    "Specialist  Neurological Recovery Rm Occ": [
+      "Specialist Neurological Recovery Room Occupancy"
+    ],
+    "Specialist - Neuro Recov Rm Occ": [
+      "Specialist Neurological Recovery Room Occupancy"
+    ],
+    "Specialist - Otolaryngologic Pharm Disp /NG-4235": [
+      "Specialist Otolaryngologic Pharmaceutical Dispensing"
+    ],
+    "Specialist Derm Transp": [
+      "Specialist Dermatologic Transport Service"
+    ],
+    "Specialist Ent Pharmaceutical Dispensing": [
+      "Specialist Otolaryngologic Pharmaceutical Dispensing"
+    ],
+    "Specialist Neuro Recovery Room Occ": [
+      "Specialist Neurological Recovery Room Occupancy"
+    ],
+    "Specialist Neurological Recovery Rm /NG-7294": [
+      "Specialist Neurological Recovery Room Occupancy"
+    ],
+    "Specialist Paed Biop Proc": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "Specialist Paediatric Biop Proc /NG-5601": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "Specialist Paediatric Biop Procedure /NG-2447": [
+      "Specialist Paediatric Biopsy Procedure"
+    ],
+    "Standard Endo Dial Sess": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Standard Ent Radiotherapy Fract": [
+      "Standard Otolaryngologic Radiotherapy Fraction"
+    ],
+    "Standard Ger Nutr Support /NG-7257": [
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Standard Paed Biop Proc /NG-2120": [
+      "Standard Paediatric Biopsy Procedure"
+    ],
+    "Standard Paed Biopsy Procedure": [
+      "Standard Paediatric Biopsy Procedure"
+    ],
+    "Standard Pulm Dial Sess": [
+      "Standard Pulmonary Dialysis Session"
+    ],
+    "Std - Biop Proc": [
+      "Standard Paediatric Biopsy Procedure"
+    ],
+    "Std Endo Dial Session /NG-7220": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Std Endo Endoscopic Procedure": [
+      "Standard Endocrine Endoscopic Procedure",
+      "Standard Psychiatric Endoscopic Procedure"
+    ],
+    "Std Endocrine Dialysis Sess /NG-9032": [
+      "Standard Endocrine Dialysis Session"
+    ],
+    "Std Endocrine Endosc Proc": [
+      "Standard Endocrine Endoscopic Procedure"
+    ],
+    "Std Endocrine Endosc Procedure /NG-7684": [
+      "Standard Endocrine Endoscopic Procedure"
+    ],
+    "Std Geriatric Nutritional Supp": [
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Std Geriatric Nutritional Support": [
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Std Nutritional Supp": [
+      "Standard Geriatric Nutritional Support"
+    ],
+    "Std Paediatric Proc": [
+      "Standard Paediatric Biopsy Procedure"
+    ],
+    "Std Psychiatric Endosc Procedure /NG-5963": [
+      "Standard Psychiatric Endoscopic Procedure"
+    ],
+    "Std Psychiatric Endoscopic Procedure /NG-6086": [
+      "Standard Psychiatric Endoscopic Procedure"
+    ],
+    "Std Pulmonary Dial Sess": [
+      "Standard Pulmonary Dialysis Session"
+    ],
+    "Supervised  Ren Isol Room Occ": [
+      "Supervised Renal Isolation Room Occupancy"
+    ],
+    "Supervised - Ent Steril Svc /NG-7318": [
+      "Supervised Otolaryngologic Sterilisation Service"
+    ],
+    "Supervised - Ren Isolation Room Occupancy": [
+      "Supervised Renal Isolation Room Occupancy"
+    ],
+    "Supervised Ent Steril Service": [
+      "Supervised Otolaryngologic Sterilisation Service"
+    ],
+    "Supervised Msk Dial Session": [
+      "Supervised Musculoskeletal Dialysis Session"
+    ],
+    "Supervised Msk Dialysis Sess": [
+      "Supervised Musculoskeletal Dialysis Session"
+    ],
+    "Supervised Musculoskeletal Dialysis Sess /NG-6660": [
+      "Supervised Musculoskeletal Dialysis Session"
+    ],
+    "Supp Geriatric Vent /NG-9418": [
+      "Preoperative Geriatric Ventilation Support"
+    ],
+    "Supp Interm Neuro Nutritional /NG-6247": [
+      "Intermittent Neurological Nutritional Support"
+    ],
+    "Supp Postoperative Ortho Nutritional": [],
+    "Support Intens Geriatric Nutritional": [
+      "Intensive Geriatric Nutritional Support"
+    ],
+    "Support Interm Neurological Nutr": [
+      "Intermittent Neurological Nutritional Support"
+    ],
+    "Supv Ent Steril Svc": [
+      "Supervised Otolaryngologic Sterilisation Service"
+    ],
+    "Supv Isol Rm Occupancy": [
+      "Supervised Renal Isolation Room Occupancy"
+    ],
+    "Supv Ren Isol Rm Occupancy": [
+      "Supervised Renal Isolation Room Occupancy"
+    ],
+    "Svc Extended Ren Transp": [
+      "Extended Renal Transport Service"
+    ],
+    "Svc Interm Transf": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Svc Intermittent Derm Transf /NG-9194": [
+      "Intermittent Dermatologic Transfusion Service"
+    ],
+    "Svc Preop Ent Steril": [
+      "Preoperative Otolaryngologic Sterilisation Service"
+    ],
+    "Svc Routine Derm Transf /NG-2484": [
+      "Routine Dermatologic Transfusion Service"
+    ],
+    "Svc Rtn Gi Transfusion": [
+      "Routine Gastrointestinal Transfusion Service"
+    ],
+    "Ther Assisted Ger Infusion": [
+      "Assisted Geriatric Infusion Therapy"
+    ],
+    "Ther Asst Gi Inf": [
+      "Assisted Gastrointestinal Infusion Therapy"
+    ],
+    "Therapy - Assisted Ger Infusion /NG-4561": [
+      "Assisted Geriatric Infusion Therapy"
+    ],
+    "Therapy Asst Ger Inf": [
+      "Assisted Geriatric Infusion Therapy"
+    ],
+    "Therapy Asst Gi Inf": [
+      "Assisted Gastrointestinal Infusion Therapy"
+    ],
+    "Therapy Rtn Haem Inf": [
+      "Routine Haematology Infusion Therapy"
+    ],
+    "Therapy Rtn Haem Infusion /NG-2021": [
+      "Routine Haematology Infusion Therapy"
+    ],
+    "Time Asst Pulm Theatre": [
+      "Assisted Pulmonary Theatre Time"
+    ],
+    "Vasc  Diagnostic Img": [
+      "Inpatient Vascular Diagnostic Imaging",
+      "Preoperative Vascular Diagnostic Imaging"
+    ],
+    "Vasc Diag Img Inpt": [
+      "Inpatient Vascular Diagnostic Imaging"
+    ],
+    "Vasc Diag Img Preop": [
+      "Preoperative Vascular Diagnostic Imaging"
+    ],
+    "Visit - Assisted Urol Home /NG-4509": [
+      "Assisted Urologic Home Visit"
+    ],
+    "Visit Amb Hm": [
+      "Ambulatory Cardiac Home Visit",
+      "Ambulatory Infectious Home Visit"
+    ],
+    "Visit Cardiac Hm": [
+      "Ambulatory Cardiac Home Visit"
+    ]
+  }
+}

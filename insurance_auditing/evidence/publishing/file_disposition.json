@@ -1,0 +1,3158 @@
+[
+  {
+    "baseline_path": ".gitignore",
+    "bytes": 64,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:.gitignore",
+    "publication_location": ".gitignore",
+    "publication_sha256": "bf50811d8ef01205e2482e0bedd0e4e0ceb234c26f8e800ab9924ce86d533888",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "b68df5450c6fe81b2aafd9f58159a822c1957c40a582680dd53ea33b9adbcfe2"
+  },
+  {
+    "baseline_path": ".python-version",
+    "bytes": 8,
+    "disposition": "Retained",
+    "publication_location": ".python-version",
+    "publication_sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b"
+  },
+  {
+    "baseline_path": "README.md",
+    "bytes": 7745,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:README.md",
+    "publication_location": "README.md",
+    "publication_sha256": "b3ea25fb305648c209d055f05ce0b930c010f3b98519f2ad10f3c84e0fed1e2e",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "e4dae31dbce557c39344a276c2e0c6171cb20ff9349b7f7510a7bcbc4467f380"
+  },
+  {
+    "baseline_path": "contracts/H1.bundle.json",
+    "bytes": 929,
+    "disposition": "Retained",
+    "publication_location": "contracts/H1.bundle.json",
+    "publication_sha256": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56"
+  },
+  {
+    "baseline_path": "contracts/H2.bundle.json",
+    "bytes": 927,
+    "disposition": "Retained",
+    "publication_location": "contracts/H2.bundle.json",
+    "publication_sha256": "f90bc694381c2d393dea242c44f0c0e4f353a9f5781d4edbc457b2ec56590295",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f90bc694381c2d393dea242c44f0c0e4f353a9f5781d4edbc457b2ec56590295"
+  },
+  {
+    "baseline_path": "contracts/H3.bundle.json",
+    "bytes": 1178,
+    "disposition": "Retained",
+    "publication_location": "contracts/H3.bundle.json",
+    "publication_sha256": "d91a266777e2957490dfbf40adaf06a1b0cd7d7e3fe25d6d5eb02ae8f7617baa",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d91a266777e2957490dfbf40adaf06a1b0cd7d7e3fe25d6d5eb02ae8f7617baa"
+  },
+  {
+    "baseline_path": "contracts/H4.bundle.json",
+    "bytes": 937,
+    "disposition": "Retained",
+    "publication_location": "contracts/H4.bundle.json",
+    "publication_sha256": "5cc23a0245e1ec48b9bbd5b8236c2d811f6bc80bc992977ad561b6ce39082ea9",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5cc23a0245e1ec48b9bbd5b8236c2d811f6bc80bc992977ad561b6ce39082ea9"
+  },
+  {
+    "baseline_path": "contracts/H5.bundle.json",
+    "bytes": 933,
+    "disposition": "Retained",
+    "publication_location": "contracts/H5.bundle.json",
+    "publication_sha256": "f3781fece3eba15064413e8f46e2fb1cb0252d3093318e5267d2ac6d6535b417",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f3781fece3eba15064413e8f46e2fb1cb0252d3093318e5267d2ac6d6535b417"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H1.bundle.json",
+    "bytes": 929,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H1.bundle.json",
+    "publication_sha256": "9af017ace63bc0f580f96c9fa143bfd71194b8320e5acd3bc3117e9de2e81a5c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "9af017ace63bc0f580f96c9fa143bfd71194b8320e5acd3bc3117e9de2e81a5c"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H1_source_review.json",
+    "bytes": 3653,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H1_source_review.json",
+    "publication_sha256": "3af1b08dd462f90ea4376d65ce3a9f6b1ec987ee0c5715f9ce0e2dfb009b112c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3af1b08dd462f90ea4376d65ce3a9f6b1ec987ee0c5715f9ce0e2dfb009b112c"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H3.bundle.json",
+    "bytes": 1178,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H3.bundle.json",
+    "publication_sha256": "2ecc89f9d439aa0ae4977a4bedd9e7defe114d4b188eeb70e3b9120b35a0f397",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2ecc89f9d439aa0ae4977a4bedd9e7defe114d4b188eeb70e3b9120b35a0f397"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H3_source_review.json",
+    "bytes": 3714,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H3_source_review.json",
+    "publication_sha256": "ffb1d7ab851da5007f1b55dd665b917502668035d492075db726587bbcff140f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ffb1d7ab851da5007f1b55dd665b917502668035d492075db726587bbcff140f"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H4.bundle.json",
+    "bytes": 937,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H4.bundle.json",
+    "publication_sha256": "866631c078cd48a203e7217ba9b5086b41fd341d9dce00be8df80fec78bf0221",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "866631c078cd48a203e7217ba9b5086b41fd341d9dce00be8df80fec78bf0221"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H4_source_review.json",
+    "bytes": 2980,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H4_source_review.json",
+    "publication_sha256": "8ca6b33f75ff7db731096bb8675f116e0ef010ab9fbf3a4304939da5e5871137",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8ca6b33f75ff7db731096bb8675f116e0ef010ab9fbf3a4304939da5e5871137"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H5.bundle.json",
+    "bytes": 933,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H5.bundle.json",
+    "publication_sha256": "f07c97ca5b4e73b484592194a80f550c05b4e06f2abbe9d0e95e12b7fbb3c140",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f07c97ca5b4e73b484592194a80f550c05b4e06f2abbe9d0e95e12b7fbb3c140"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/H5_source_review.json",
+    "bytes": 2904,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/H5_source_review.json",
+    "publication_sha256": "8e8df89ec6fa1223f26ba6dffdada48c08de703725e7f3e1001e28f745a56c12",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8e8df89ec6fa1223f26ba6dffdada48c08de703725e7f3e1001e28f745a56c12"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/hospital_1.raw.json",
+    "bytes": 90299,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/hospital_1.raw.json",
+    "publication_sha256": "bf05bd85e10bb5ee83be2a4c6035765bab66750a45e33cd89370e297e5e545b8",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bf05bd85e10bb5ee83be2a4c6035765bab66750a45e33cd89370e297e5e545b8"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/hospital_3.raw.json",
+    "bytes": 115657,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/hospital_3.raw.json",
+    "publication_sha256": "a52a33478478b1aab63e22199c3d6a903a1fdbcb37f2d6a97d3b4643e9d46b02",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a52a33478478b1aab63e22199c3d6a903a1fdbcb37f2d6a97d3b4643e9d46b02"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/hospital_4.raw.json",
+    "bytes": 92350,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/hospital_4.raw.json",
+    "publication_sha256": "270ef6b39ac500097ecd05d19c027f245a228224f6e0439abeb0f19278fc6ee2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "270ef6b39ac500097ecd05d19c027f245a228224f6e0439abeb0f19278fc6ee2"
+  },
+  {
+    "baseline_path": "contracts/archive/schema1/hospital_5.raw.json",
+    "bytes": 125654,
+    "disposition": "Retained",
+    "publication_location": "contracts/archive/schema1/hospital_5.raw.json",
+    "publication_sha256": "329e281ef6e0319c11a77f8176dde1af90990cfab66d0d3ff3ec32720902688e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "329e281ef6e0319c11a77f8176dde1af90990cfab66d0d3ff3ec32720902688e"
+  },
+  {
+    "baseline_path": "contracts/hospital_1.json",
+    "bytes": 90395,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_1.json",
+    "publication_sha256": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb"
+  },
+  {
+    "baseline_path": "contracts/hospital_1.raw.json",
+    "bytes": 90460,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_1.raw.json",
+    "publication_sha256": "bf37d213c1743668dd0519a3bba416685be8c552da7bfd7c47b864deb51baaeb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bf37d213c1743668dd0519a3bba416685be8c552da7bfd7c47b864deb51baaeb"
+  },
+  {
+    "baseline_path": "contracts/hospital_2.json",
+    "bytes": 117514,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_2.json",
+    "publication_sha256": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578"
+  },
+  {
+    "baseline_path": "contracts/hospital_2.raw.json",
+    "bytes": 117515,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_2.raw.json",
+    "publication_sha256": "bbf65f5af568a093be520b441897604a1bf463b173bc3fd64d55bd2b54bf9803",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bbf65f5af568a093be520b441897604a1bf463b173bc3fd64d55bd2b54bf9803"
+  },
+  {
+    "baseline_path": "contracts/hospital_3.json",
+    "bytes": 115753,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_3.json",
+    "publication_sha256": "b7b7041fb9bd909d85cfa2ee0b06f710028e21e8e3c9a4a1752ee4647994a259",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b7b7041fb9bd909d85cfa2ee0b06f710028e21e8e3c9a4a1752ee4647994a259"
+  },
+  {
+    "baseline_path": "contracts/hospital_3.raw.json",
+    "bytes": 115833,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_3.raw.json",
+    "publication_sha256": "a02bf7362db8c06eace67f8b74adcbbc53b57c06277bd86881f592f7cafeb21a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a02bf7362db8c06eace67f8b74adcbbc53b57c06277bd86881f592f7cafeb21a"
+  },
+  {
+    "baseline_path": "contracts/hospital_4.json",
+    "bytes": 92446,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_4.json",
+    "publication_sha256": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688"
+  },
+  {
+    "baseline_path": "contracts/hospital_4.raw.json",
+    "bytes": 92591,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_4.raw.json",
+    "publication_sha256": "02d44af1bdc4bc689344ec3c421ac47888fdd7e8354a1e08755de6618b3de2b4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "02d44af1bdc4bc689344ec3c421ac47888fdd7e8354a1e08755de6618b3de2b4"
+  },
+  {
+    "baseline_path": "contracts/hospital_5.json",
+    "bytes": 125750,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_5.json",
+    "publication_sha256": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246"
+  },
+  {
+    "baseline_path": "contracts/hospital_5.raw.json",
+    "bytes": 125968,
+    "disposition": "Retained",
+    "publication_location": "contracts/hospital_5.raw.json",
+    "publication_sha256": "57f09dc5932ee9270bc9f90e9da1db982ec7f7911eea0132e71829c21320c051",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "57f09dc5932ee9270bc9f90e9da1db982ec7f7911eea0132e71829c21320c051"
+  },
+  {
+    "baseline_path": "data/source/README.md",
+    "bytes": 5269,
+    "disposition": "Retained",
+    "publication_location": "data/source/README.md",
+    "publication_sha256": "2e2aad0198bdce240619cd6338f6beb41a383dc326eb09a7dc6ef138876f504f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2e2aad0198bdce240619cd6338f6beb41a383dc326eb09a7dc6ef138876f504f"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_1/provider_services_agreement.md",
+    "bytes": 16065,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_1/provider_services_agreement.md",
+    "publication_sha256": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_2/master_services_agreement.md",
+    "bytes": 148215,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_2/master_services_agreement.md",
+    "publication_sha256": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_3/amendment_no_1.md",
+    "bytes": 2490,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_3/amendment_no_1.md",
+    "publication_sha256": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md",
+    "bytes": 10515,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md",
+    "publication_sha256": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_3/base_agreement.md",
+    "bytes": 9452,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_3/base_agreement.md",
+    "publication_sha256": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md",
+    "bytes": 18945,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md",
+    "publication_sha256": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3"
+  },
+  {
+    "baseline_path": "data/source/contracts/hospital_5/network_reimbursement_agreement.md",
+    "bytes": 25426,
+    "disposition": "Retained",
+    "publication_location": "data/source/contracts/hospital_5/network_reimbursement_agreement.md",
+    "publication_sha256": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_1_invoices.csv",
+    "bytes": 93016,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_1_invoices.csv",
+    "publication_sha256": "2943c887c5f4c1e81c01893ff54f0cbac770451259d180040fec45924ee37b5f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2943c887c5f4c1e81c01893ff54f0cbac770451259d180040fec45924ee37b5f"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_1_line_items.csv",
+    "bytes": 1098628,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_1_line_items.csv",
+    "publication_sha256": "ca3a1b8b14a3d8541aa3941563750a4f9447ffb972b730e3dd2e55c2523904cb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ca3a1b8b14a3d8541aa3941563750a4f9447ffb972b730e3dd2e55c2523904cb"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_2_invoices.csv",
+    "bytes": 114758,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_2_invoices.csv",
+    "publication_sha256": "a9e85c63af5e029817c7c812100049027509d17c5143d4b30328662a59afcbc4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a9e85c63af5e029817c7c812100049027509d17c5143d4b30328662a59afcbc4"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_2_line_items.csv",
+    "bytes": 1317770,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_2_line_items.csv",
+    "publication_sha256": "52af82b2b21c47308f0f8b28a229fc479c5b1e3b6c617795125eb301d6c026aa",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "52af82b2b21c47308f0f8b28a229fc479c5b1e3b6c617795125eb301d6c026aa"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_3_invoices.csv",
+    "bytes": 95243,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_3_invoices.csv",
+    "publication_sha256": "6db01aac3097839d3670e6f0afec9d57f9fcce555de9e9664fe78c0c02581f73",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "6db01aac3097839d3670e6f0afec9d57f9fcce555de9e9664fe78c0c02581f73"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_3_line_items.csv",
+    "bytes": 1132140,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_3_line_items.csv",
+    "publication_sha256": "87d467cc96af406ad1636c76e426bf7d8bf7e99c098d59adeb139e2ec2d2bb90",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "87d467cc96af406ad1636c76e426bf7d8bf7e99c098d59adeb139e2ec2d2bb90"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_4_invoices.csv",
+    "bytes": 85083,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_4_invoices.csv",
+    "publication_sha256": "94697b99a6788c87dd80f63aae339fe330d58ad4fdf0aa5ead10591668024fda",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "94697b99a6788c87dd80f63aae339fe330d58ad4fdf0aa5ead10591668024fda"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_4_line_items.csv",
+    "bytes": 1013907,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_4_line_items.csv",
+    "publication_sha256": "c17a6b131bccb5885815ba8e61c110196a849bc49d154ace2d1d8acf6c43c18b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "c17a6b131bccb5885815ba8e61c110196a849bc49d154ace2d1d8acf6c43c18b"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_5_invoices.csv",
+    "bytes": 107914,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_5_invoices.csv",
+    "publication_sha256": "f7c5dc3afb2c4a0e922cf9f4cbff7849427eb9cce5212c58ea3231d9e1a310dc",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f7c5dc3afb2c4a0e922cf9f4cbff7849427eb9cce5212c58ea3231d9e1a310dc"
+  },
+  {
+    "baseline_path": "data/source/invoices/hospital_5_line_items.csv",
+    "bytes": 1256303,
+    "disposition": "Retained",
+    "publication_location": "data/source/invoices/hospital_5_line_items.csv",
+    "publication_sha256": "0fcdf6f2238e4700d4c600a5f465248ea2a35719e0835d50ff512614604dc6d0",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0fcdf6f2238e4700d4c600a5f465248ea2a35719e0835d50ff512614604dc6d0"
+  },
+  {
+    "baseline_path": "data/source/labels/hospital_1_labels.csv",
+    "bytes": 26961,
+    "disposition": "Retained",
+    "publication_location": "data/source/labels/hospital_1_labels.csv",
+    "publication_sha256": "79e7918337b7836d810b1164ec955684454dd7dcdd805ee7e0a7a980d14302b6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "79e7918337b7836d810b1164ec955684454dd7dcdd805ee7e0a7a980d14302b6"
+  },
+  {
+    "baseline_path": "data/source/submission_template.csv",
+    "bytes": 85,
+    "disposition": "Retained",
+    "publication_location": "data/source/submission_template.csv",
+    "publication_sha256": "de358231d184b181c333ba77b927023acc6a722d8a3b64f113e7afb262f73ed8",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "de358231d184b181c333ba77b927023acc6a722d8a3b64f113e7afb262f73ed8"
+  },
+  {
+    "baseline_path": "docs/ai_usage.md",
+    "bytes": 2332,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/ai_usage.md",
+    "publication_location": "docs/ai_usage.md",
+    "publication_sha256": "93abe9844fca0b8e95678b57806e10c07a51df0f991d97664c4a381b6ed48e2d",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "d46dcd4da66b08ce45f1d64d3666ea7005014a95411edee37664b7ada10ab7df"
+  },
+  {
+    "baseline_path": "docs/architecture.md",
+    "bytes": 1914,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/architecture.md",
+    "publication_location": "docs/architecture.md",
+    "publication_sha256": "3ff7f90405408930fd6a77f1371f38be080984d497477b6c92483d53d8b713f8",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "9d75f6946e503b4d364f262e721bde7042769140773f3198f2d1949362381410"
+  },
+  {
+    "baseline_path": "docs/budget.json",
+    "bytes": 795,
+    "disposition": "Retained",
+    "publication_location": "docs/budget.json",
+    "publication_sha256": "2c38e5502f38fd499cf88094ea2d1facfbeae5d0f0b9421da47825d72db9168d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2c38e5502f38fd499cf88094ea2d1facfbeae5d0f0b9421da47825d72db9168d"
+  },
+  {
+    "baseline_path": "docs/cli_contract.md",
+    "bytes": 2057,
+    "disposition": "Retained",
+    "publication_location": "docs/cli_contract.md",
+    "publication_sha256": "911ab3af770b319462231b820f6b1b86a3697c689016f41aeb5caf87365978b7",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "911ab3af770b319462231b820f6b1b86a3697c689016f41aeb5caf87365978b7"
+  },
+  {
+    "baseline_path": "docs/contract_review_protocol.md",
+    "bytes": 1036,
+    "disposition": "Retained",
+    "publication_location": "docs/contract_review_protocol.md",
+    "publication_sha256": "d70281f2e639fdb927c39cc969edc08ca4ea4f5cca06c9decb0f82a173dba249",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d70281f2e639fdb927c39cc969edc08ca4ea4f5cca06c9decb0f82a173dba249"
+  },
+  {
+    "baseline_path": "docs/contract_schema.md",
+    "bytes": 2912,
+    "disposition": "Retained",
+    "publication_location": "docs/contract_schema.md",
+    "publication_sha256": "17897b6cbdc5289f4201248fdaf09fe92cd4a5e5e6cfa8ca63853d24a8d16b2e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "17897b6cbdc5289f4201248fdaf09fe92cd4a5e5e6cfa8ca63853d24a8d16b2e"
+  },
+  {
+    "baseline_path": "docs/decision_register.md",
+    "bytes": 6067,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/decision_register.md",
+    "publication_location": "docs/decision_register.md",
+    "publication_sha256": "2af7220447464b3b7bc267b8ffa6f03164c6bd727b274f95d55920b736936e8f",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "9763e3f7a0eb0d8a7b0c30ffb1d990ee8629027f15aa90bde5976e6e3fbc58c1"
+  },
+  {
+    "baseline_path": "docs/external_readiness.md",
+    "bytes": 1243,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/external_readiness.md",
+    "publication_location": "docs/external_readiness.md",
+    "publication_sha256": "d65ba2a1adc037673ea9801d72839e2fc03ab172a46509cdf624898063297b57",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "23c4a0bf2d0daa44e10d84544a4178a756e6e5fa1426bd416bba40c0f198173e"
+  },
+  {
+    "baseline_path": "docs/implementation_changes.md",
+    "bytes": 10213,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/implementation_changes.md",
+    "publication_location": "docs/implementation_changes.md",
+    "publication_sha256": "b4e2e11d729cc130796c9b6bcd934028f0b76feb0a02bf095458dd1154cee950",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "1fd04f5ff42fcf1b4726ae5602ab9e318b598426adfd1204b2209f865f9a85cf"
+  },
+  {
+    "baseline_path": "docs/input_contract.md",
+    "bytes": 2171,
+    "disposition": "Retained",
+    "publication_location": "docs/input_contract.md",
+    "publication_sha256": "d0faacf12227c6c331afbf65fa30f54b541ede875f93765aa3190900293532f2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d0faacf12227c6c331afbf65fa30f54b541ede875f93765aa3190900293532f2"
+  },
+  {
+    "baseline_path": "docs/scope.md",
+    "bytes": 2616,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/scope.md",
+    "publication_location": "docs/scope.md",
+    "publication_sha256": "330b3db5ab2e6ec373bf8830a617eee60522b0a2a8d72dda23e37586d7f1c999",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "3f71ae1ed43e650554522bfabf980e4c4654a586954b03c7cd9726dfe13d6d96"
+  },
+  {
+    "baseline_path": "docs/snapshot_revisions.md",
+    "bytes": 2068,
+    "disposition": "Retained",
+    "publication_location": "docs/snapshot_revisions.md",
+    "publication_sha256": "25b7ac2c2a5f0f85419dd05a4fd6692a70fd479ddb285b01e51d74d1207a693a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "25b7ac2c2a5f0f85419dd05a4fd6692a70fd479ddb285b01e51d74d1207a693a"
+  },
+  {
+    "baseline_path": "docs/source_manifest.json",
+    "bytes": 4120,
+    "disposition": "Retained",
+    "publication_location": "docs/source_manifest.json",
+    "publication_sha256": "15cdd0e5ddcd04bb90f960e3e10aa45fc212ed3732d522e8dfb14a61efb94fc4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "15cdd0e5ddcd04bb90f960e3e10aa45fc212ed3732d522e8dfb14a61efb94fc4"
+  },
+  {
+    "baseline_path": "docs/work_log.md",
+    "bytes": 4674,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:docs/work_log.md",
+    "publication_location": "docs/work_log.md",
+    "publication_sha256": "76fb713664f4343252f35f4c7830af56bb6bea04e1c23e6c431e5c62ca6af7bd",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "68e352d8ef2e03730b5657d774d0f6d2aaa13b4d401afa70181f0c6e076b07e5"
+  },
+  {
+    "baseline_path": "evaluation/confidence_policy.json",
+    "bytes": 1772,
+    "disposition": "Retained",
+    "publication_location": "evaluation/confidence_policy.json",
+    "publication_sha256": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722"
+  },
+  {
+    "baseline_path": "evaluation/development_policy_evidence.json",
+    "bytes": 315094,
+    "disposition": "Retained",
+    "publication_location": "evaluation/development_policy_evidence.json",
+    "publication_sha256": "11d6b8d78eafc90c46e452bfbc8062e0ebd616cc40e183405dd8b104e919cfdc",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "11d6b8d78eafc90c46e452bfbc8062e0ebd616cc40e183405dd8b104e919cfdc"
+  },
+  {
+    "baseline_path": "evaluation/split_manifest.json",
+    "bytes": 56747,
+    "disposition": "Retained",
+    "publication_location": "evaluation/split_manifest.json",
+    "publication_sha256": "1b3fa0cba11ec7b653b2096dda9dcd6b974aeea321f9cd2eda4ee17ba8e1c428",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1b3fa0cba11ec7b653b2096dda9dcd6b974aeea321f9cd2eda4ee17ba8e1c428"
+  },
+  {
+    "baseline_path": "governance/Insurance_Auditing_Implementation_Ready.xlsx",
+    "bytes": 150187,
+    "disposition": "Retained",
+    "publication_location": "governance/Insurance_Auditing_Implementation_Ready.xlsx",
+    "publication_sha256": "59095b64481e5e1fea2f3af06f8e1bb12d902f972d36efe5397891ce6cc09a45",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "59095b64481e5e1fea2f3af06f8e1bb12d902f972d36efe5397891ce6cc09a45"
+  },
+  {
+    "baseline_path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md",
+    "bytes": 55644,
+    "disposition": "Retained",
+    "publication_location": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md",
+    "publication_sha256": "d5c869c8e76003f108230bfd6377a59387b10b794e3ea7a057ff9ab2580047f4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d5c869c8e76003f108230bfd6377a59387b10b794e3ea7a057ff9ab2580047f4"
+  },
+  {
+    "baseline_path": "governance/gates.json",
+    "bytes": 77398,
+    "disposition": "Retained",
+    "publication_location": "governance/gates.json",
+    "publication_sha256": "df5e87cb22134539fa94aa3abfb0ced73e15b21921dbd0b8c91bf352edef8694",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "df5e87cb22134539fa94aa3abfb0ced73e15b21921dbd0b8c91bf352edef8694"
+  },
+  {
+    "baseline_path": "governance/overrides.md",
+    "bytes": 1277,
+    "disposition": "Retained",
+    "publication_location": "governance/overrides.md",
+    "publication_sha256": "f85a864ba034091dff99f3dd443b4a843bc14879e870572ec744a134ba82489b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f85a864ba034091dff99f3dd443b4a843bc14879e870572ec744a134ba82489b"
+  },
+  {
+    "baseline_path": "governance/plan.json",
+    "bytes": 183743,
+    "disposition": "Retained",
+    "publication_location": "governance/plan.json",
+    "publication_sha256": "67b927e6545b615a2611413fbf1a803d25f94ecc736d7fbc9b482c24e0d451e5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "67b927e6545b615a2611413fbf1a803d25f94ecc736d7fbc9b482c24e0d451e5"
+  },
+  {
+    "baseline_path": "mappings/H1.candidates.raw.json",
+    "bytes": 51905,
+    "disposition": "Retained",
+    "publication_location": "mappings/H1.candidates.raw.json",
+    "publication_sha256": "4ef8af548a22ac2c4cf0a846e3b2171e387027d8f0e7d5538616d55db21e82f1",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "4ef8af548a22ac2c4cf0a846e3b2171e387027d8f0e7d5538616d55db21e82f1"
+  },
+  {
+    "baseline_path": "mappings/H2.candidates.raw.json",
+    "bytes": 50762,
+    "disposition": "Retained",
+    "publication_location": "mappings/H2.candidates.raw.json",
+    "publication_sha256": "e2bfccb43e215fb0a8f8981b5b74b6b2fa47fbe6150369135feb2fb027e61f6d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e2bfccb43e215fb0a8f8981b5b74b6b2fa47fbe6150369135feb2fb027e61f6d"
+  },
+  {
+    "baseline_path": "mappings/H3.candidates.raw.json",
+    "bytes": 57875,
+    "disposition": "Retained",
+    "publication_location": "mappings/H3.candidates.raw.json",
+    "publication_sha256": "ce690bdbe359cac22f855daf108d52bc0fdac0c3819d45953b9bb22f592ae5b4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ce690bdbe359cac22f855daf108d52bc0fdac0c3819d45953b9bb22f592ae5b4"
+  },
+  {
+    "baseline_path": "mappings/H4.candidates.raw.json",
+    "bytes": 55199,
+    "disposition": "Retained",
+    "publication_location": "mappings/H4.candidates.raw.json",
+    "publication_sha256": "70d38eeaeb2d3c68f2c40dad434e7c55e684aae1b2d9a75a54f5a146143df313",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "70d38eeaeb2d3c68f2c40dad434e7c55e684aae1b2d9a75a54f5a146143df313"
+  },
+  {
+    "baseline_path": "mappings/H5.candidates.raw.json",
+    "bytes": 48264,
+    "disposition": "Retained",
+    "publication_location": "mappings/H5.candidates.raw.json",
+    "publication_sha256": "aca055b62faebd4d09281d22571edd6d130a727e6b9c3764324d27f7dbca18b9",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "aca055b62faebd4d09281d22571edd6d130a727e6b9c3764324d27f7dbca18b9"
+  },
+  {
+    "baseline_path": "mappings/archive/H1.accepted.v1.json",
+    "bytes": 242411,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H1.accepted.v1.json",
+    "publication_sha256": "e05b54b8c8595fbddf7618dcb87fd5d83862e32e0f9b5a02977c157eb4fa5bd1",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e05b54b8c8595fbddf7618dcb87fd5d83862e32e0f9b5a02977c157eb4fa5bd1"
+  },
+  {
+    "baseline_path": "mappings/archive/H1.bundle.v1.json",
+    "bytes": 929,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H1.bundle.v1.json",
+    "publication_sha256": "1489d000e38e9260afcf605117081e589d0ba257b45fa398c43543c23731d1bd",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1489d000e38e9260afcf605117081e589d0ba257b45fa398c43543c23731d1bd"
+  },
+  {
+    "baseline_path": "mappings/archive/H1.raw.v1.json",
+    "bytes": 242412,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H1.raw.v1.json",
+    "publication_sha256": "ea357310909a03ff2daedf51cf1fecef97c2c6776818f98fd53bda608d513ca6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ea357310909a03ff2daedf51cf1fecef97c2c6776818f98fd53bda608d513ca6"
+  },
+  {
+    "baseline_path": "mappings/archive/H1.source_review.v1.json",
+    "bytes": 3200,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H1.source_review.v1.json",
+    "publication_sha256": "bb5f21bcfdc53c46ad95a7039865cf1d604b99d75a287055a1513a7d62400386",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bb5f21bcfdc53c46ad95a7039865cf1d604b99d75a287055a1513a7d62400386"
+  },
+  {
+    "baseline_path": "mappings/archive/H3.before_suffix2.H3.candidates.raw.json",
+    "bytes": 57875,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H3.before_suffix2.H3.candidates.raw.json",
+    "publication_sha256": "ce690bdbe359cac22f855daf108d52bc0fdac0c3819d45953b9bb22f592ae5b4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ce690bdbe359cac22f855daf108d52bc0fdac0c3819d45953b9bb22f592ae5b4"
+  },
+  {
+    "baseline_path": "mappings/archive/H3.before_suffix2.hospital_3.raw.json",
+    "bytes": 287393,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H3.before_suffix2.hospital_3.raw.json",
+    "publication_sha256": "1ed9d982c51177831c91e63cbb45cd252013e66a177fe8d1d8a3b192b328ff21",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1ed9d982c51177831c91e63cbb45cd252013e66a177fe8d1d8a3b192b328ff21"
+  },
+  {
+    "baseline_path": "mappings/archive/H4.before_suffix2.H4.candidates.raw.json",
+    "bytes": 39118,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H4.before_suffix2.H4.candidates.raw.json",
+    "publication_sha256": "8ca0ca15e4cb966de6e03bb3cd4fe86bd1429b28dd3aa08c855f8bd81e91e9f6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8ca0ca15e4cb966de6e03bb3cd4fe86bd1429b28dd3aa08c855f8bd81e91e9f6"
+  },
+  {
+    "baseline_path": "mappings/archive/H4.before_suffix2.hospital_4.raw.json",
+    "bytes": 292299,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H4.before_suffix2.hospital_4.raw.json",
+    "publication_sha256": "bcbbbfa7f6d71d2552fc9f8c0910c7c2c68e82e230f9cdc95e4776f125468c59",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bcbbbfa7f6d71d2552fc9f8c0910c7c2c68e82e230f9cdc95e4776f125468c59"
+  },
+  {
+    "baseline_path": "mappings/archive/H5.before_suffix2.H5.candidates.raw.json",
+    "bytes": 37974,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H5.before_suffix2.H5.candidates.raw.json",
+    "publication_sha256": "2f7633fbfd11e593ad143550b7cc1d4567eba425c34457635bc41cd8d2c8b0cc",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2f7633fbfd11e593ad143550b7cc1d4567eba425c34457635bc41cd8d2c8b0cc"
+  },
+  {
+    "baseline_path": "mappings/archive/H5.before_suffix2.hospital_5.raw.json",
+    "bytes": 257303,
+    "disposition": "Retained",
+    "publication_location": "mappings/archive/H5.before_suffix2.hospital_5.raw.json",
+    "publication_sha256": "06144bda0b225f0322ce3407c6ddaa053cbfc238b68115cb25b611edd16a9050",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "06144bda0b225f0322ce3407c6ddaa053cbfc238b68115cb25b611edd16a9050"
+  },
+  {
+    "baseline_path": "mappings/hospital_1.json",
+    "bytes": 322730,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_1.json",
+    "publication_sha256": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1"
+  },
+  {
+    "baseline_path": "mappings/hospital_1.raw.json",
+    "bytes": 324611,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_1.raw.json",
+    "publication_sha256": "05408fbd33fadd1f0c83a4a79d9adb310f7b036b2d36ee215da184f7c22ef81b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "05408fbd33fadd1f0c83a4a79d9adb310f7b036b2d36ee215da184f7c22ef81b"
+  },
+  {
+    "baseline_path": "mappings/hospital_2.json",
+    "bytes": 247508,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_2.json",
+    "publication_sha256": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb"
+  },
+  {
+    "baseline_path": "mappings/hospital_2.raw.json",
+    "bytes": 247509,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_2.raw.json",
+    "publication_sha256": "34640beb878ab86ef3d7568024d8ca5d61c0800a49ca2aac2d4fd772ddbd00f6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "34640beb878ab86ef3d7568024d8ca5d61c0800a49ca2aac2d4fd772ddbd00f6"
+  },
+  {
+    "baseline_path": "mappings/hospital_3.json",
+    "bytes": 287392,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_3.json",
+    "publication_sha256": "a9d418d873c43df617191b9e6d9334cb7f30d034fe37eb7438d445714c732ab6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a9d418d873c43df617191b9e6d9334cb7f30d034fe37eb7438d445714c732ab6"
+  },
+  {
+    "baseline_path": "mappings/hospital_3.raw.json",
+    "bytes": 287393,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_3.raw.json",
+    "publication_sha256": "234f4c2577ec035d4c379de20836ed4d8eb691ec807deb40fd93db8a68230fed",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "234f4c2577ec035d4c379de20836ed4d8eb691ec807deb40fd93db8a68230fed"
+  },
+  {
+    "baseline_path": "mappings/hospital_4.json",
+    "bytes": 275757,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_4.json",
+    "publication_sha256": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d"
+  },
+  {
+    "baseline_path": "mappings/hospital_4.raw.json",
+    "bytes": 275758,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_4.raw.json",
+    "publication_sha256": "7df004292963d96b0291b46bb593741cbeb8333e210d6b48b30d3d9e635dc64f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "7df004292963d96b0291b46bb593741cbeb8333e210d6b48b30d3d9e635dc64f"
+  },
+  {
+    "baseline_path": "mappings/hospital_5.json",
+    "bytes": 239869,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_5.json",
+    "publication_sha256": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34"
+  },
+  {
+    "baseline_path": "mappings/hospital_5.raw.json",
+    "bytes": 239870,
+    "disposition": "Retained",
+    "publication_location": "mappings/hospital_5.raw.json",
+    "publication_sha256": "128b93fbfeed9ca47e3960e887f59751cb7b3fa8ec3b5709c02595be119a8f15",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "128b93fbfeed9ca47e3960e887f59751cb7b3fa8ec3b5709c02595be119a8f15"
+  },
+  {
+    "baseline_path": "mappings/lexicon_v1.json",
+    "bytes": 2113,
+    "disposition": "Retained",
+    "publication_location": "mappings/lexicon_v1.json",
+    "publication_sha256": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454"
+  },
+  {
+    "baseline_path": "prompts/README.md",
+    "bytes": 2425,
+    "disposition": "Retained",
+    "publication_location": "prompts/README.md",
+    "publication_sha256": "38521a980df29da0741b6f8c4b88a14d03e9f0e4415727ef58685ab15069802c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "38521a980df29da0741b6f8c4b88a14d03e9f0e4415727ef58685ab15069802c"
+  },
+  {
+    "baseline_path": "prompts/audit_correction_user_v1.md",
+    "bytes": 1608,
+    "disposition": "Retained",
+    "publication_location": "prompts/audit_correction_user_v1.md",
+    "publication_sha256": "2bd86342506ac0f6f906caaf9790db9633fddb6da4caa13dfd3c85067a40beb8",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2bd86342506ac0f6f906caaf9790db9633fddb6da4caa13dfd3c85067a40beb8"
+  },
+  {
+    "baseline_path": "prompts/extract_v1.md",
+    "bytes": 1050,
+    "disposition": "Retained",
+    "publication_location": "prompts/extract_v1.md",
+    "publication_sha256": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3ba744405afe636395af11b714bbbffd92935e75751f12965cd045de3d13aa3b"
+  },
+  {
+    "baseline_path": "prompts/implementation_user_v1.md",
+    "bytes": 1146,
+    "disposition": "Retained",
+    "publication_location": "prompts/implementation_user_v1.md",
+    "publication_sha256": "483747d276a34ec2f708e9fd217e5ef36f6b1e6fb0cd773dd28437bff90d0c28",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "483747d276a34ec2f708e9fd217e5ef36f6b1e6fb0cd773dd28437bff90d0c28"
+  },
+  {
+    "baseline_path": "prompts/implementation_user_v2.md",
+    "bytes": 1065,
+    "disposition": "Retained",
+    "publication_location": "prompts/implementation_user_v2.md",
+    "publication_sha256": "136a5e060e425d1aeb9cce7d4310201d95f100cc0320b371c3e86b632ee6aa80",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "136a5e060e425d1aeb9cce7d4310201d95f100cc0320b371c3e86b632ee6aa80"
+  },
+  {
+    "baseline_path": "prompts/map_v1.md",
+    "bytes": 837,
+    "disposition": "Retained",
+    "publication_location": "prompts/map_v1.md",
+    "publication_sha256": "4529b354b762d858d69fbf1a6edd688070172b492f16d04349185b1ec5726029",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "4529b354b762d858d69fbf1a6edd688070172b492f16d04349185b1ec5726029"
+  },
+  {
+    "baseline_path": "prompts/map_v2.md",
+    "bytes": 1209,
+    "disposition": "Retained",
+    "publication_location": "prompts/map_v2.md",
+    "publication_sha256": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "33e4ac604aad96479b8da45ab7f186e4ed911c5aa24d02d49988a0f1ed36007b"
+  },
+  {
+    "baseline_path": "prompts/review_v1.md",
+    "bytes": 797,
+    "disposition": "Retained",
+    "publication_location": "prompts/review_v1.md",
+    "publication_sha256": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b66c072253ef59abe155f2ac5e8cd15d63c90824dc94710db0fe2e44e74d677a"
+  },
+  {
+    "baseline_path": "reports/H1_candidate_closure.json",
+    "bytes": 17605,
+    "disposition": "Retained",
+    "publication_location": "reports/H1_candidate_closure.json",
+    "publication_sha256": "5aaad8b7a933e776a23552950e15c00c69220f9f97aa11bfa73c177975adce45",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5aaad8b7a933e776a23552950e15c00c69220f9f97aa11bfa73c177975adce45"
+  },
+  {
+    "baseline_path": "reports/H1_mapping_change_v2.json",
+    "bytes": 11468,
+    "disposition": "Retained",
+    "publication_location": "reports/H1_mapping_change_v2.json",
+    "publication_sha256": "78f86958e48bcd6e5580e6ace999aabd8b30f694779524579c0115cb0ea0fc41",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "78f86958e48bcd6e5580e6ace999aabd8b30f694779524579c0115cb0ea0fc41"
+  },
+  {
+    "baseline_path": "reports/H1_source_review.json",
+    "bytes": 3870,
+    "disposition": "Retained",
+    "publication_location": "reports/H1_source_review.json",
+    "publication_sha256": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181"
+  },
+  {
+    "baseline_path": "reports/H2_acquisition_manifest.json",
+    "bytes": 1142,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_acquisition_manifest.json",
+    "publication_sha256": "eea65176212f71667bbdcae0009a2270079450f0dc689119577c0182e6b6fdb9",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "eea65176212f71667bbdcae0009a2270079450f0dc689119577c0182e6b6fdb9"
+  },
+  {
+    "baseline_path": "reports/H2_candidate_closure.json",
+    "bytes": 2152,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_candidate_closure.json",
+    "publication_sha256": "e830289e2237801437e81a5ec4e5f71da2e1c0ce1dc31b668c74b558a432204e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e830289e2237801437e81a5ec4e5f71da2e1c0ce1dc31b668c74b558a432204e"
+  },
+  {
+    "baseline_path": "reports/H2_mapping_review.md",
+    "bytes": 14674,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_mapping_review.md",
+    "publication_sha256": "0b6c137257fcb1aa7f2bddf2af2c87eb639e55932f21f0a40833876ce7a81eac",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0b6c137257fcb1aa7f2bddf2af2c87eb639e55932f21f0a40833876ce7a81eac"
+  },
+  {
+    "baseline_path": "reports/H2_reading_index.json",
+    "bytes": 121809,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_reading_index.json",
+    "publication_sha256": "24b6228c66acf51d085bb40fbd242d0c4e333d76494ff9d632433c85f5a31fed",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "24b6228c66acf51d085bb40fbd242d0c4e333d76494ff9d632433c85f5a31fed"
+  },
+  {
+    "baseline_path": "reports/H2_reading_remaining.txt",
+    "bytes": 78742,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_reading_remaining.txt",
+    "publication_sha256": "36e2f3de843de2aa6c87e3faabebd9ae7320794ce4850cef92af382e7313bfcb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "36e2f3de843de2aa6c87e3faabebd9ae7320794ce4850cef92af382e7313bfcb"
+  },
+  {
+    "baseline_path": "reports/H2_source_review.json",
+    "bytes": 2755,
+    "disposition": "Retained",
+    "publication_location": "reports/H2_source_review.json",
+    "publication_sha256": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae"
+  },
+  {
+    "baseline_path": "reports/H3_acquisition_manifest.json",
+    "bytes": 1514,
+    "disposition": "Retained",
+    "publication_location": "reports/H3_acquisition_manifest.json",
+    "publication_sha256": "42bbeb50b82fd71185dfeee4261af1bc6347b5c5351cc12b9f190141a924d5b7",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "42bbeb50b82fd71185dfeee4261af1bc6347b5c5351cc12b9f190141a924d5b7"
+  },
+  {
+    "baseline_path": "reports/H3_candidate_closure.json",
+    "bytes": 4812,
+    "disposition": "Retained",
+    "publication_location": "reports/H3_candidate_closure.json",
+    "publication_sha256": "417c637399724e842f51fe19c5019f3a3c6d887a6cec140496b6be5c09fac088",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "417c637399724e842f51fe19c5019f3a3c6d887a6cec140496b6be5c09fac088"
+  },
+  {
+    "baseline_path": "reports/H3_mapping_review.md",
+    "bytes": 21491,
+    "disposition": "Retained",
+    "publication_location": "reports/H3_mapping_review.md",
+    "publication_sha256": "0ded169bcad4bb471c35547b217871b5357be2569b840900d18595fc82a5f097",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0ded169bcad4bb471c35547b217871b5357be2569b840900d18595fc82a5f097"
+  },
+  {
+    "baseline_path": "reports/H3_source_review.json",
+    "bytes": 3935,
+    "disposition": "Retained",
+    "publication_location": "reports/H3_source_review.json",
+    "publication_sha256": "46ddb510cbde4f3384447b370bbb8e98679762f42c5c949f79e97f1db31da47a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "46ddb510cbde4f3384447b370bbb8e98679762f42c5c949f79e97f1db31da47a"
+  },
+  {
+    "baseline_path": "reports/H4_acquisition_manifest.json",
+    "bytes": 1110,
+    "disposition": "Retained",
+    "publication_location": "reports/H4_acquisition_manifest.json",
+    "publication_sha256": "4686cf695ad87acd1a11a2ed9715d2cd7bbc9da8785ce246be6ef51063c2bcdb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "4686cf695ad87acd1a11a2ed9715d2cd7bbc9da8785ce246be6ef51063c2bcdb"
+  },
+  {
+    "baseline_path": "reports/H4_candidate_closure.json",
+    "bytes": 2669,
+    "disposition": "Retained",
+    "publication_location": "reports/H4_candidate_closure.json",
+    "publication_sha256": "665d432750d48a18855e06d2a706c40827df25e3d4fcbad0be1519c879192733",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "665d432750d48a18855e06d2a706c40827df25e3d4fcbad0be1519c879192733"
+  },
+  {
+    "baseline_path": "reports/H4_mapping_review.md",
+    "bytes": 18816,
+    "disposition": "Retained",
+    "publication_location": "reports/H4_mapping_review.md",
+    "publication_sha256": "906e5aada6ac0b7ce8f55f8f4139b8d634d812602f243d1e544c0be87a70ae15",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "906e5aada6ac0b7ce8f55f8f4139b8d634d812602f243d1e544c0be87a70ae15"
+  },
+  {
+    "baseline_path": "reports/H4_source_review.json",
+    "bytes": 3209,
+    "disposition": "Retained",
+    "publication_location": "reports/H4_source_review.json",
+    "publication_sha256": "a0b3440da192b8be601780adcd828d42003f1fdff3d4edac43584bc35bf4e112",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "a0b3440da192b8be601780adcd828d42003f1fdff3d4edac43584bc35bf4e112"
+  },
+  {
+    "baseline_path": "reports/H5_acquisition_manifest.json",
+    "bytes": 1244,
+    "disposition": "Retained",
+    "publication_location": "reports/H5_acquisition_manifest.json",
+    "publication_sha256": "f748b5bd81d4149625a27ebeb00f603d6d54ea6c19c82f3deb1738e3ced1533a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f748b5bd81d4149625a27ebeb00f603d6d54ea6c19c82f3deb1738e3ced1533a"
+  },
+  {
+    "baseline_path": "reports/H5_candidate_closure.json",
+    "bytes": 4328,
+    "disposition": "Retained",
+    "publication_location": "reports/H5_candidate_closure.json",
+    "publication_sha256": "cc68d799e15284af0b1c52e8993ad9917117d0cbf98926b3b872a3e5d53aa011",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "cc68d799e15284af0b1c52e8993ad9917117d0cbf98926b3b872a3e5d53aa011"
+  },
+  {
+    "baseline_path": "reports/H5_mapping_review.md",
+    "bytes": 16730,
+    "disposition": "Retained",
+    "publication_location": "reports/H5_mapping_review.md",
+    "publication_sha256": "d6facd1b90e4a0ab21cbb00cc5b0b48d63c07a04c05c7abfee619b651cd1da48",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d6facd1b90e4a0ab21cbb00cc5b0b48d63c07a04c05c7abfee619b651cd1da48"
+  },
+  {
+    "baseline_path": "reports/H5_source_review.json",
+    "bytes": 3137,
+    "disposition": "Retained",
+    "publication_location": "reports/H5_source_review.json",
+    "publication_sha256": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7"
+  },
+  {
+    "baseline_path": "reports/baseline_h1.json",
+    "bytes": 3648,
+    "disposition": "Retained",
+    "publication_location": "reports/baseline_h1.json",
+    "publication_sha256": "bfec496982b8598830a23dd50f5f995710e92a69d6ccf312bd6a4f4d57a79089",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "bfec496982b8598830a23dd50f5f995710e92a69d6ccf312bd6a4f4d57a79089"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/aud01_malformed_conflict.json",
+    "bytes": 10153,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/after/aud01_malformed_conflict.json",
+    "publication_sha256": "cef473568de09c16377d44e6452415e97d33b836c64a3dc28cbc877c3c0056b0",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "cef473568de09c16377d44e6452415e97d33b836c64a3dc28cbc877c3c0056b0"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/aud01_valid_conflict.json",
+    "bytes": 6377,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/after/aud01_valid_conflict.json",
+    "publication_sha256": "ecdbaf7320b58602f59c8b9ff8d2940d4c87d328167f0643caf863658f9a9b83",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ecdbaf7320b58602f59c8b9ff8d2940d4c87d328167f0643caf863658f9a9b83"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/aud02_H4_example.json",
+    "bytes": 22131,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/after/aud02_H4_example.json",
+    "publication_sha256": "0ad6dd26ef912fcf87ca6a8e9af18f97987b7c137fc00d935a00a212e8e9abee",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0ad6dd26ef912fcf87ca6a8e9af18f97987b7c137fc00d935a00a212e8e9abee"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/auditor_aud01_reproduction.txt",
+    "bytes": 323,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/after/auditor_aud01_reproduction.txt",
+    "publication_sha256": "57bfe9092c3c3ea3bbef749b942afec0b01b26948e0e0f1f4421e03376acbd2a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "57bfe9092c3c3ea3bbef749b942afec0b01b26948e0e0f1f4421e03376acbd2a"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/bundle_trace_inventory.json",
+    "bytes": 671862,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/after/bundle_trace_inventory.json",
+    "publication_sha256": "d750908c24eee3fd6ab72fa14f96319a0fcdebcb40178c6c242bc2d081df20e5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d750908c24eee3fd6ab72fa14f96319a0fcdebcb40178c6c242bc2d081df20e5"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/document_pages/decision_log-1.png",
+    "bytes": 308583,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/corrections/audit_1/after/document_pages/decision_log-1.png",
+    "reason": "Historical storage observation or document-render image; retained in original Git history rather than current documentation.",
+    "sha256": "44c66c0f3a7bd12a1f045876c4d73a66aa08b0d1393bf7c2cec9924775d0a11a"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/document_pages/submission_writeup-1.png",
+    "bytes": 260129,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/corrections/audit_1/after/document_pages/submission_writeup-1.png",
+    "reason": "Historical storage observation or document-render image; retained in original Git history rather than current documentation.",
+    "sha256": "c69967b6ef33a818edc97e0ec332997cb4772eff38436f1abc72225a243764cd"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/after/document_pages/submission_writeup-2.png",
+    "bytes": 333461,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/corrections/audit_1/after/document_pages/submission_writeup-2.png",
+    "reason": "Historical storage observation or document-render image; retained in original Git history rather than current documentation.",
+    "sha256": "03de92d6d7c4c7b0f38808d0e823d7f1661b6093c64f1ebe4ef180cdf749ae54"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/auditor_aud01_reproduction.py",
+    "bytes": 2971,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/auditor_aud01_reproduction.py",
+    "publication_sha256": "34145a3d07b9c113bc82a77fafcbce5a59ba388c2c0ab1e7664bcf8f368518ce",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "34145a3d07b9c113bc82a77fafcbce5a59ba388c2c0ab1e7664bcf8f368518ce"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/auditor_aud01_reproduction.txt",
+    "bytes": 867,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/auditor_aud01_reproduction.txt",
+    "publication_sha256": "55ecfe2c188e4a47e78b02559ef7d937751f2ac48fb35b760a6a984e6166654c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "55ecfe2c188e4a47e78b02559ef7d937751f2ac48fb35b760a6a984e6166654c"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/baseline_manifest.json",
+    "bytes": 4647,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/baseline_manifest.json",
+    "publication_sha256": "fbb12a3e9bdd330d4a2a9e785820d30bbf3262d2bd7689fb5d90d9531e8f0d21",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "fbb12a3e9bdd330d4a2a9e785820d30bbf3262d2bd7689fb5d90d9531e8f0d21"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/bundle_trace_inventory.json",
+    "bytes": 476031,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/bundle_trace_inventory.json",
+    "publication_sha256": "742f30f8ee86a62d8ac22de9c3dfaf8baea3c65edfc6619406cbc1446e931beb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "742f30f8ee86a62d8ac22de9c3dfaf8baea3c65edfc6619406cbc1446e931beb"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/current_candidate_closure.json",
+    "bytes": 16607,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/current_candidate_closure.json",
+    "publication_sha256": "64bb5bc6c222ddbc5d044c217ea1bc4623a5cf7510e6a64628acbf31934969e2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "64bb5bc6c222ddbc5d044c217ea1bc4623a5cf7510e6a64628acbf31934969e2"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/decision_log.md",
+    "bytes": 3380,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/decision_log.md",
+    "publication_sha256": "3c5d9e3b4b9f2fd5caf155bafc50aec02f7634ad94eae712c9471b215c9c7ff4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3c5d9e3b4b9f2fd5caf155bafc50aec02f7634ad94eae712c9471b215c9c7ff4"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/decision_log.pdf",
+    "bytes": 44087,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/decision_log.pdf",
+    "publication_sha256": "f3e87ecb2f6b59c5791e215a11ed86518bb39a064d24cc7238c6ed47d3a3ddce",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f3e87ecb2f6b59c5791e215a11ed86518bb39a064d24cc7238c6ed47d3a3ddce"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/document_checks.json",
+    "bytes": 1009,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/document_checks.json",
+    "publication_sha256": "3a0341dd5e739c45d2ca8669d427d5bb0ca72105be1d5806906362f42240a080",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3a0341dd5e739c45d2ca8669d427d5bb0ca72105be1d5806906362f42240a080"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/final_regression.json",
+    "bytes": 5413,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/final_regression.json",
+    "publication_sha256": "d7a2f944db269dd6e93b89c07c3ad04210bcbe6741b1412e115705746dce5ea2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d7a2f944db269dd6e93b89c07c3ad04210bcbe6741b1412e115705746dce5ea2"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/gate_status.json",
+    "bytes": 24815,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/gate_status.json",
+    "publication_sha256": "27e9a4b99fa05a7fe782351f3d2dc1c5f57b0c3c26f7cdc8afd0be033b1fb628",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "27e9a4b99fa05a7fe782351f3d2dc1c5f57b0c3c26f7cdc8afd0be033b1fb628"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/guarded_reproduction.json",
+    "bytes": 1160,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/guarded_reproduction.json",
+    "publication_sha256": "213a0e9e477e2ab0c547c0ad29e98c00792027a95dcda1a0d34f79c989b60de3",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "213a0e9e477e2ab0c547c0ad29e98c00792027a95dcda1a0d34f79c989b60de3"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/implementation_completion.json",
+    "bytes": 1140,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/implementation_completion.json",
+    "publication_sha256": "0d69522d4730ffa6124769145f16ffa23b3da1e81e29617882f841caf3e63f48",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0d69522d4730ffa6124769145f16ffa23b3da1e81e29617882f841caf3e63f48"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/implementation_report.md",
+    "bytes": 7761,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/implementation_report.md",
+    "publication_sha256": "3febf8eb9b0084f13ae4532f42b97caaf9fbe6b2922f1d695e739c24f592b63d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3febf8eb9b0084f13ae4532f42b97caaf9fbe6b2922f1d695e739c24f592b63d"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/implementation_status.json",
+    "bytes": 49520,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/implementation_status.json",
+    "publication_sha256": "0f99282d40a1e61fab92774ee151529a350215680bc63d2280e5dd096bba17ff",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0f99282d40a1e61fab92774ee151529a350215680bc63d2280e5dd096bba17ff"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/metrics.json",
+    "bytes": 22332,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/metrics.json",
+    "publication_sha256": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/release_manifest.json",
+    "bytes": 13335,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/release_manifest.json",
+    "publication_sha256": "47d11c03384edff6f18455f46b0ee91bd7fb14ee045ad25b69afb1f621a7504f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "47d11c03384edff6f18455f46b0ee91bd7fb14ee045ad25b69afb1f621a7504f"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/reproduction_check.json",
+    "bytes": 15416,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/reproduction_check.json",
+    "publication_sha256": "f8d9a07ff4c6f687555644c6d9d85c872867695191bf112d3dde8abbd7d40d8e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f8d9a07ff4c6f687555644c6d9d85c872867695191bf112d3dde8abbd7d40d8e"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/submission.csv",
+    "bytes": 13130,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/submission.csv",
+    "publication_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/submission_writeup.md",
+    "bytes": 6752,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/submission_writeup.md",
+    "publication_sha256": "1d1ce292a3d73487aa620ba7f8645e54b765dab952cf9d83d749c03066a353ae",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1d1ce292a3d73487aa620ba7f8645e54b765dab952cf9d83d749c03066a353ae"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/submission_writeup.pdf",
+    "bytes": 47053,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/submission_writeup.pdf",
+    "publication_sha256": "d09245c0d69e09b312946a3c2aff8ef2bdb39cf360928bb2042eef55700fd02b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d09245c0d69e09b312946a3c2aff8ef2bdb39cf360928bb2042eef55700fd02b"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/tests_final.json",
+    "bytes": 2786,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/tests_final.json",
+    "publication_sha256": "805f4f2f9af5c75e31b85af039a330f6387bdc97a7637c92f657c9695c985b8a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "805f4f2f9af5c75e31b85af039a330f6387bdc97a7637c92f657c9695c985b8a"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/tests_final.txt",
+    "bytes": 7901,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/tests_final.txt",
+    "publication_sha256": "ff2b5a53d1909b60e52e9c327bf361ee8fc113846987abad4e721e86009c9057",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ff2b5a53d1909b60e52e9c327bf361ee8fc113846987abad4e721e86009c9057"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/before/workload.json",
+    "bytes": 6207,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/before/workload.json",
+    "publication_sha256": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/correction_verification.json",
+    "bytes": 20513,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/correction_verification.json",
+    "publication_sha256": "ff990f680f9ac51bdd124fc4eed8e2cbd0053d66c56c22bd257024795cbe63db",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ff990f680f9ac51bdd124fc4eed8e2cbd0053d66c56c22bd257024795cbe63db"
+  },
+  {
+    "baseline_path": "reports/corrections/audit_1/report_consistency.json",
+    "bytes": 602,
+    "disposition": "Retained",
+    "publication_location": "reports/corrections/audit_1/report_consistency.json",
+    "publication_sha256": "1f9e559638e7868cf80603097538eb0c11bf986ca55bda49a86e56928ab54a5d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1f9e559638e7868cf80603097538eb0c11bf986ca55bda49a86e56928ab54a5d"
+  },
+  {
+    "baseline_path": "reports/current_candidate_closure.json",
+    "bytes": 16607,
+    "disposition": "Retained",
+    "publication_location": "reports/current_candidate_closure.json",
+    "publication_sha256": "ef968877847ff973c5b375dee5cfd567fdf87961d10b212649e93f6661ca21f7",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ef968877847ff973c5b375dee5cfd567fdf87961d10b212649e93f6661ca21f7"
+  },
+  {
+    "baseline_path": "reports/decision_log.md",
+    "bytes": 3499,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/decision_log.md",
+    "publication_location": "reports/decision_log.md",
+    "publication_sha256": "0d6610e8f88e3d1143a7f4dc5c71ef023e0b1e11cfa91f36f98d85086fdd21e2",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "8c3264c37f3709859aa3f38fac3296a53dd8a54e1315ccb20701fb2425109878"
+  },
+  {
+    "baseline_path": "reports/decision_log.pdf",
+    "bytes": 44122,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/decision_log.pdf",
+    "publication_location": "reports/decision_log.pdf",
+    "publication_sha256": "b4ef0fc0c7fc126224c80a9ea18ede26b778bc7cb46e7ca38ae1fb50daefe466",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "d259d2379aa557736693cc6579f4ba53c3e2c5716fb15b4475dff25fcee6a64f"
+  },
+  {
+    "baseline_path": "reports/document_checks.json",
+    "bytes": 1449,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/document_checks.json",
+    "publication_location": "reports/document_checks.json",
+    "publication_sha256": "f32654ac91807f8675f44cb7100e10f0001bba2dd0146de1e591ee6957794374",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "3d81d362c67af0a54c893306707fa4aa4e34e08082ecd2f6b80de4f7a04874eb"
+  },
+  {
+    "baseline_path": "reports/evaluation_check.json",
+    "bytes": 162579,
+    "disposition": "Retained",
+    "publication_location": "reports/evaluation_check.json",
+    "publication_sha256": "ec3e64924d9b181b14edf0617977593a90ba5b82b81d764c2f19bfdfffeedd67",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ec3e64924d9b181b14edf0617977593a90ba5b82b81d764c2f19bfdfffeedd67"
+  },
+  {
+    "baseline_path": "reports/evaluation_development.json",
+    "bytes": 338162,
+    "disposition": "Retained",
+    "publication_location": "reports/evaluation_development.json",
+    "publication_sha256": "714df0faa32f4f9751d9a4acb2b023164cd062045bcc9e73f98e571c6af66c74",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "714df0faa32f4f9751d9a4acb2b023164cd062045bcc9e73f98e571c6af66c74"
+  },
+  {
+    "baseline_path": "reports/evaluation_full.json",
+    "bytes": 493553,
+    "disposition": "Retained",
+    "publication_location": "reports/evaluation_full.json",
+    "publication_sha256": "5e007a6dd0fa804681e081a6890e7d40d1dee4dc5d9486764c00e8e3e8e81fa7",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5e007a6dd0fa804681e081a6890e7d40d1dee4dc5d9486764c00e8e3e8e81fa7"
+  },
+  {
+    "baseline_path": "reports/evaluation_report.md",
+    "bytes": 7773,
+    "disposition": "Retained",
+    "publication_location": "reports/evaluation_report.md",
+    "publication_sha256": "849ac2f02bd063335694859ba2471ed4561438cbaab2ee10e00dd85b4ff54ddb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "849ac2f02bd063335694859ba2471ed4561438cbaab2ee10e00dd85b4ff54ddb"
+  },
+  {
+    "baseline_path": "reports/execution.json",
+    "bytes": 526,
+    "disposition": "Retained",
+    "publication_location": "reports/execution.json",
+    "publication_sha256": "be599f1ce302e4dccc29dc1682c51246b5424b4fcd80fccd870c29c98e29fe81",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "be599f1ce302e4dccc29dc1682c51246b5424b4fcd80fccd870c29c98e29fe81"
+  },
+  {
+    "baseline_path": "reports/final_delivery_check.json",
+    "bytes": 1114,
+    "disposition": "Retained",
+    "publication_location": "reports/final_delivery_check.json",
+    "publication_sha256": "6fddff50b6718ed5b93681f83e708eaf6dd9673d875f8a31cf68d5e73e31f899",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "6fddff50b6718ed5b93681f83e708eaf6dd9673d875f8a31cf68d5e73e31f899"
+  },
+  {
+    "baseline_path": "reports/final_regression.json",
+    "bytes": 5831,
+    "disposition": "Retained",
+    "publication_location": "reports/final_regression.json",
+    "publication_sha256": "b6891d56b699b6e44ebd03a713ff98e8f4aa5fd33bdf12ac22f3470b6d7a34da",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b6891d56b699b6e44ebd03a713ff98e8f4aa5fd33bdf12ac22f3470b6d7a34da"
+  },
+  {
+    "baseline_path": "reports/gate_status.json",
+    "bytes": 26893,
+    "disposition": "Retained",
+    "publication_location": "reports/gate_status.json",
+    "publication_sha256": "155d813b6a69416b0be21faf6ef37340a8e5e67d08b936e6ebf63ad8838ad09c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "155d813b6a69416b0be21faf6ef37340a8e5e67d08b936e6ebf63ad8838ad09c"
+  },
+  {
+    "baseline_path": "reports/guarded_reproduction.json",
+    "bytes": 1160,
+    "disposition": "Retained",
+    "publication_location": "reports/guarded_reproduction.json",
+    "publication_sha256": "ea855a214a33b1e0c2453cbb89bebfcf73c3a5f4c2e814ecdc6e880c1024ef7e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "ea855a214a33b1e0c2453cbb89bebfcf73c3a5f4c2e814ecdc6e880c1024ef7e"
+  },
+  {
+    "baseline_path": "reports/h1_acquisition_manifest.json",
+    "bytes": 976,
+    "disposition": "Retained",
+    "publication_location": "reports/h1_acquisition_manifest.json",
+    "publication_sha256": "827570078796da9d7e095d26a55ebc039625bf622406f3bb9cab8acf675173a5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "827570078796da9d7e095d26a55ebc039625bf622406f3bb9cab8acf675173a5"
+  },
+  {
+    "baseline_path": "reports/implementation_completion.json",
+    "bytes": 1528,
+    "disposition": "Retained",
+    "publication_location": "reports/implementation_completion.json",
+    "publication_sha256": "e044ae16074fab13990d834f11900dc3c109ac0a8d2ad2f3709b9f887d53cdb2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e044ae16074fab13990d834f11900dc3c109ac0a8d2ad2f3709b9f887d53cdb2"
+  },
+  {
+    "baseline_path": "reports/implementation_report.md",
+    "bytes": 14393,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/implementation_report.md",
+    "publication_location": "reports/implementation_report.md",
+    "publication_sha256": "eb7f46e22640aeb45d236e71c012603cb1f6d0e5df7a15957c7a12e252b9b4a3",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "950da8b3322ae0cd1b9ea2b6038341d12336fed981d9b0f93402dae4213b9b20"
+  },
+  {
+    "baseline_path": "reports/implementation_status.json",
+    "bytes": 52325,
+    "disposition": "Retained",
+    "publication_location": "reports/implementation_status.json",
+    "publication_sha256": "10d9a4d7e03f6a2c9f7db43e48fd92ad29e75fefa35303ae4050ca4f4b241286",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "10d9a4d7e03f6a2c9f7db43e48fd92ad29e75fefa35303ae4050ca4f4b241286"
+  },
+  {
+    "baseline_path": "reports/input_quality.json",
+    "bytes": 31612,
+    "disposition": "Retained",
+    "publication_location": "reports/input_quality.json",
+    "publication_sha256": "f9daf88d86f81dcf12fc8fe8728ff5606339e3accceb43f3f607fa925471e37b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f9daf88d86f81dcf12fc8fe8728ff5606339e3accceb43f3f607fa925471e37b"
+  },
+  {
+    "baseline_path": "reports/inventory_H1.json",
+    "bytes": 672126,
+    "disposition": "Retained",
+    "publication_location": "reports/inventory_H1.json",
+    "publication_sha256": "5257aa6d69e7433804871940bcfec0553a33e8bfa1cb2e5e5909784098ee2538",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5257aa6d69e7433804871940bcfec0553a33e8bfa1cb2e5e5909784098ee2538"
+  },
+  {
+    "baseline_path": "reports/inventory_H2.json",
+    "bytes": 822441,
+    "disposition": "Retained",
+    "publication_location": "reports/inventory_H2.json",
+    "publication_sha256": "0fca8a6e603d0764d8030528f9a500c9099376aa88cab2c88b1a3dafc35cbc22",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0fca8a6e603d0764d8030528f9a500c9099376aa88cab2c88b1a3dafc35cbc22"
+  },
+  {
+    "baseline_path": "reports/inventory_H3.json",
+    "bytes": 695490,
+    "disposition": "Retained",
+    "publication_location": "reports/inventory_H3.json",
+    "publication_sha256": "379eae47c74bfa69ba18b2035ba723194577006c8a8817302d3ec2a4f51aadff",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "379eae47c74bfa69ba18b2035ba723194577006c8a8817302d3ec2a4f51aadff"
+  },
+  {
+    "baseline_path": "reports/inventory_H4.json",
+    "bytes": 637872,
+    "disposition": "Retained",
+    "publication_location": "reports/inventory_H4.json",
+    "publication_sha256": "65678fc1176fe9d5e7decedcd54b39647c5a0e98f92496758eea1b7f224b6b42",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "65678fc1176fe9d5e7decedcd54b39647c5a0e98f92496758eea1b7f224b6b42"
+  },
+  {
+    "baseline_path": "reports/inventory_H5.json",
+    "bytes": 760355,
+    "disposition": "Retained",
+    "publication_location": "reports/inventory_H5.json",
+    "publication_sha256": "297cf245c5b8b5f8a87040854d95d0afda45cd81d6f010264e0979e94c82c5d4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "297cf245c5b8b5f8a87040854d95d0afda45cd81d6f010264e0979e94c82c5d4"
+  },
+  {
+    "baseline_path": "reports/metrics.json",
+    "bytes": 22332,
+    "disposition": "Retained",
+    "publication_location": "reports/metrics.json",
+    "publication_sha256": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d10353d837cb44a812ad407c89b74b1932f40d1b7f871053b84182290d02d808"
+  },
+  {
+    "baseline_path": "reports/provenance_check.json",
+    "bytes": 3487,
+    "disposition": "Retained",
+    "publication_location": "reports/provenance_check.json",
+    "publication_sha256": "b653eab4cad4202ec2fb7a5c0402686ff8d87cf488ade4f6dde340033a7eae1d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b653eab4cad4202ec2fb7a5c0402686ff8d87cf488ade4f6dde340033a7eae1d"
+  },
+  {
+    "baseline_path": "reports/recovery_initial.json",
+    "bytes": 376,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/recovery_initial.json",
+    "reason": "Historical storage observation or document-render image; retained in original Git history rather than current documentation.",
+    "sha256": "1233eaccaa82b7c69043847a74bf33091b95861a9672471ad9baec765374f7f5"
+  },
+  {
+    "baseline_path": "reports/recovery_latest.json",
+    "bytes": 232,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/checkpoint_recovery_latest.json",
+    "reason": "Exact checkpoint recovery note differs from HEAD; retain separately as historical storage evidence.",
+    "sha256": "25fae449dd015319861c3c383f2534a9f41eaeb458ae8b8ca7d6332dd833951b"
+  },
+  {
+    "baseline_path": "reports/regression_initial_failure.json",
+    "bytes": 930,
+    "disposition": "Retained",
+    "publication_location": "reports/regression_initial_failure.json",
+    "publication_sha256": "b703c7e4677f65d7d14ded233753b76e70d0b2ee13e16ba3093f5ca8c90c5601",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b703c7e4677f65d7d14ded233753b76e70d0b2ee13e16ba3093f5ca8c90c5601"
+  },
+  {
+    "baseline_path": "reports/release_manifest.json",
+    "bytes": 13625,
+    "disposition": "Retained",
+    "publication_location": "reports/release_manifest.json",
+    "publication_sha256": "b6a52c763c3964fc105241f9993d352c4d0b5bb102897d1f5882eb399c4868c0",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b6a52c763c3964fc105241f9993d352c4d0b5bb102897d1f5882eb399c4868c0"
+  },
+  {
+    "baseline_path": "reports/reproduction_check.json",
+    "bytes": 20391,
+    "disposition": "Retained",
+    "publication_location": "reports/reproduction_check.json",
+    "publication_sha256": "cb13a8be9deb1c2afc5d8e5cf5448fd11555227f6997a0a7a3154f645c91391a",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "cb13a8be9deb1c2afc5d8e5cf5448fd11555227f6997a0a7a3154f645c91391a"
+  },
+  {
+    "baseline_path": "reports/reproduction_commands.txt",
+    "bytes": 11893,
+    "disposition": "Retained",
+    "publication_location": "reports/reproduction_commands.txt",
+    "publication_sha256": "dc0860ce073b70d71c93df23f28983b56ac5b06df2a3e098547b115aa6bbb18f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "dc0860ce073b70d71c93df23f28983b56ac5b06df2a3e098547b115aa6bbb18f"
+  },
+  {
+    "baseline_path": "reports/storage_observation.json",
+    "bytes": 438,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/storage_observation.json",
+    "reason": "Historical storage observation or document-render image; retained in original Git history rather than current documentation.",
+    "sha256": "6521e8e901d734eadde17283de3f84c1cb72f984e6981d7faf10a1ed42d28243"
+  },
+  {
+    "baseline_path": "reports/submission_writeup.md",
+    "bytes": 6925,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/submission_writeup.md",
+    "publication_location": "reports/submission_writeup.md",
+    "publication_sha256": "c7a484e9666ec6a6b122549eb98918878fee2b3c3e8c133c7aedb77c1a707017",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "12bfa78061b573b17362e70a738cccebb7985d25e2487ad7a85514f6bfdeb41a"
+  },
+  {
+    "baseline_path": "reports/submission_writeup.pdf",
+    "bytes": 47132,
+    "disposition": "Updated documentation/metadata",
+    "original_history_location": "evidence/history/audited_implementation.bundle at ebc3f05:reports/submission_writeup.pdf",
+    "publication_location": "reports/submission_writeup.pdf",
+    "publication_sha256": "746f68291284bdb36bd77524c9f4e3bd20745a56b3dc384e21499b4da57853ad",
+    "reason": "Publication status, presentation or Git packaging only; original bytes retained in audited history and selected baseline copies.",
+    "sha256": "28a0840ca13aa5f0322110ae83b95a69260ca4bceb82bc6473ebaac2e6d25506"
+  },
+  {
+    "baseline_path": "reports/tests_all_hospitals_initial.json",
+    "bytes": 2362,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_all_hospitals_initial.json",
+    "publication_sha256": "1a475842351b9e1bfd0305e0fc068db7a8bc0cf426b871d501d5e1f300f037f5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1a475842351b9e1bfd0305e0fc068db7a8bc0cf426b871d501d5e1f300f037f5"
+  },
+  {
+    "baseline_path": "reports/tests_all_hospitals_initial.txt",
+    "bytes": 7049,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_all_hospitals_initial.txt",
+    "publication_sha256": "b7c32d4da25063c9f6dd59ed41483c8bd53868c1842ff8104ece53b8907b549c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b7c32d4da25063c9f6dd59ed41483c8bd53868c1842ff8104ece53b8907b549c"
+  },
+  {
+    "baseline_path": "reports/tests_audit_corrections_first.json",
+    "bytes": 2894,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_audit_corrections_first.json",
+    "publication_sha256": "8f8bf7c91c12444a601a5d500d6d3c73023403127bae1963a8aca5e0f4a03123",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8f8bf7c91c12444a601a5d500d6d3c73023403127bae1963a8aca5e0f4a03123"
+  },
+  {
+    "baseline_path": "reports/tests_audit_corrections_first.txt",
+    "bytes": 10438,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_audit_corrections_first.txt",
+    "publication_sha256": "8aed46c49e0fd635816b879f4c58047eb47d6e891cbd13037f927bb9884bcc61",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8aed46c49e0fd635816b879f4c58047eb47d6e891cbd13037f927bb9884bcc61"
+  },
+  {
+    "baseline_path": "reports/tests_batch.json",
+    "bytes": 1755,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_batch.json",
+    "publication_sha256": "e78d3850668b4553ba1b251c3c807f3aad6528e81935e8559060b5ca8b97e3b5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e78d3850668b4553ba1b251c3c807f3aad6528e81935e8559060b5ca8b97e3b5"
+  },
+  {
+    "baseline_path": "reports/tests_batch.txt",
+    "bytes": 3917,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_batch.txt",
+    "publication_sha256": "489be6febe44a0ac64cd9c886100db0d491b974c6567df74a16b88d920fe3f0d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "489be6febe44a0ac64cd9c886100db0d491b974c6567df74a16b88d920fe3f0d"
+  },
+  {
+    "baseline_path": "reports/tests_final.json",
+    "bytes": 2894,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_final.json",
+    "publication_sha256": "c756f1bf48a527859df03bbbb1999526de6eef70e8c975039525f587ca6e4828",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "c756f1bf48a527859df03bbbb1999526de6eef70e8c975039525f587ca6e4828"
+  },
+  {
+    "baseline_path": "reports/tests_final.txt",
+    "bytes": 10438,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_final.txt",
+    "publication_sha256": "8272ad5faecbd3a30f4d928f81b8329d8d60637c1c4beeaebe4d8d8f0884cbf3",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8272ad5faecbd3a30f4d928f81b8329d8d60637c1c4beeaebe4d8d8f0884cbf3"
+  },
+  {
+    "baseline_path": "reports/tests_h1_freeze.json",
+    "bytes": 2173,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_h1_freeze.json",
+    "publication_sha256": "3f3f3e1c406783d694480bdc952d816c96493622fe706c26be4335f101aa720d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3f3f3e1c406783d694480bdc952d816c96493622fe706c26be4335f101aa720d"
+  },
+  {
+    "baseline_path": "reports/tests_h1_freeze.txt",
+    "bytes": 4739,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_h1_freeze.txt",
+    "publication_sha256": "0afd583dce6d767a0c927a16c6e21d0d0013ae2bd7b3ca42c41a1c2e3379b83d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0afd583dce6d767a0c927a16c6e21d0d0013ae2bd7b3ca42c41a1c2e3379b83d"
+  },
+  {
+    "baseline_path": "reports/tests_inputs.json",
+    "bytes": 623,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_inputs.json",
+    "publication_sha256": "22300d722294fab27cb17442e54f8e2aee57100a5d427d9c138dfa3813b62f27",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "22300d722294fab27cb17442e54f8e2aee57100a5d427d9c138dfa3813b62f27"
+  },
+  {
+    "baseline_path": "reports/tests_inputs.txt",
+    "bytes": 950,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_inputs.txt",
+    "publication_sha256": "31e0502247c52c05c04c0d077238e19da3df17b201a4958a48fd71f5473dd603",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "31e0502247c52c05c04c0d077238e19da3df17b201a4958a48fd71f5473dd603"
+  },
+  {
+    "baseline_path": "reports/tests_inputs_initial_failure.json",
+    "bytes": 623,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_inputs_initial_failure.json",
+    "publication_sha256": "7fc84b1f8b8d2f9d80cd7275c7985bc7acfe558dca946dc5f36f93d5d191829c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "7fc84b1f8b8d2f9d80cd7275c7985bc7acfe558dca946dc5f36f93d5d191829c"
+  },
+  {
+    "baseline_path": "reports/tests_pre_release.json",
+    "bytes": 2786,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_pre_release.json",
+    "publication_sha256": "b52c4be96d5eea37d5d43e14ba0813dbf2b4bb8f293f4907ef28c98cf87d17ab",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b52c4be96d5eea37d5d43e14ba0813dbf2b4bb8f293f4907ef28c98cf87d17ab"
+  },
+  {
+    "baseline_path": "reports/tests_pre_release.txt",
+    "bytes": 7768,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_pre_release.txt",
+    "publication_sha256": "af59e91d24014fdb91a65bcbb30d2a505a4bd95f3705e8db30865bf79dd55b54",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "af59e91d24014fdb91a65bcbb30d2a505a4bd95f3705e8db30865bf79dd55b54"
+  },
+  {
+    "baseline_path": "reports/tests_pricing_first.json",
+    "bytes": 1449,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_pricing_first.json",
+    "publication_sha256": "d05fd4c98d72a2127470b9d715cf4fc9e78b5765c0e403cfdc56f13f85f85955",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d05fd4c98d72a2127470b9d715cf4fc9e78b5765c0e403cfdc56f13f85f85955"
+  },
+  {
+    "baseline_path": "reports/tests_pricing_first.txt",
+    "bytes": 3808,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_pricing_first.txt",
+    "publication_sha256": "634e54dc7b1d0d4ddd5be93343bf88d5955a9df72ea5965b6f4194b50927526b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "634e54dc7b1d0d4ddd5be93343bf88d5955a9df72ea5965b6f4194b50927526b"
+  },
+  {
+    "baseline_path": "reports/tests_schema.json",
+    "bytes": 931,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_schema.json",
+    "publication_sha256": "0e3e90f6b6c7313c358be67294b4c781b6a24f0b82c83c030701e074b0940037",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0e3e90f6b6c7313c358be67294b4c781b6a24f0b82c83c030701e074b0940037"
+  },
+  {
+    "baseline_path": "reports/tests_schema.txt",
+    "bytes": 2004,
+    "disposition": "Retained",
+    "publication_location": "reports/tests_schema.txt",
+    "publication_sha256": "5329d266d333b9c34c844d4092c3e9a0512f60a0d6294276cb859606d0d9dd50",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5329d266d333b9c34c844d4092c3e9a0512f60a0d6294276cb859606d0d9dd50"
+  },
+  {
+    "baseline_path": "reports/viability_H1.json",
+    "bytes": 14375,
+    "disposition": "Retained",
+    "publication_location": "reports/viability_H1.json",
+    "publication_sha256": "017e268f77282a3dceb322d8b1dec8c2f3f9f015000b0c0afd63421007aea2b3",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "017e268f77282a3dceb322d8b1dec8c2f3f9f015000b0c0afd63421007aea2b3"
+  },
+  {
+    "baseline_path": "reports/viability_H3.json",
+    "bytes": 17440,
+    "disposition": "Retained",
+    "publication_location": "reports/viability_H3.json",
+    "publication_sha256": "fb8961ed528c764087ae090f08e944935f58576fd4cf8bf5ced2837adc9074ba",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "fb8961ed528c764087ae090f08e944935f58576fd4cf8bf5ced2837adc9074ba"
+  },
+  {
+    "baseline_path": "reports/workload.json",
+    "bytes": 6207,
+    "disposition": "Retained",
+    "publication_location": "reports/workload.json",
+    "publication_sha256": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0e0f912676daae5d0c95020891abd8da2cee988a304b6ab100fd7ae72fd50b6c"
+  },
+  {
+    "baseline_path": "requirements-docs.txt",
+    "bytes": 158,
+    "disposition": "Retained",
+    "publication_location": "requirements-docs.txt",
+    "publication_sha256": "31e70b05a44abc0cd2d554ca5c6b483e0dada9f83b4beb68f5df8ab84edc55a3",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "31e70b05a44abc0cd2d554ca5c6b483e0dada9f83b4beb68f5df8ab84edc55a3"
+  },
+  {
+    "baseline_path": "requirements.txt",
+    "bytes": 113,
+    "disposition": "Retained",
+    "publication_location": "requirements.txt",
+    "publication_sha256": "2615db816e2f776a128df36577ff116166c5f0773bdf0d686d08d936d6e52def",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2615db816e2f776a128df36577ff116166c5f0773bdf0d686d08d936d6e52def"
+  },
+  {
+    "baseline_path": "runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/H2.input_quality.json",
+    "bytes": 9345,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/H2.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f"
+  },
+  {
+    "baseline_path": "runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/H2.json",
+    "bytes": 59848332,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/checkpoint_differences.zip:runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/H2.json",
+    "reason": "Checkpoint historical H2 JSON is valid and matches its status hash, but the committed Git copy is truncated. Preserve exact checkpoint bytes here and the original Git copy separately. Neither is a current prediction input.",
+    "sha256": "d27b0462e8f1ec4562f12e2b14cc5c144d90e1db23cc70447a6e109f5d053a41"
+  },
+  {
+    "baseline_path": "runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/status.json",
+    "bytes": 3432,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/0f10a3b2ecb245b7bda5230c379067bb/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "dfcde4ca81890e89fe39c705cb4031a640ff1e714adfabcf17650ac6ce747974"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.check.json",
+    "bytes": 162579,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.check.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "120d637ae54fcc74c5d6bfc084d7cbfc30e9b8a448d4afa1f092bd897b5fc118"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.development.json",
+    "bytes": 338162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b3acfc57a6fae88b2b1e9009195df330c9499be17ba55cebe9a1ea7d3b2ec18c"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.full.json",
+    "bytes": 493553,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.evaluation.full.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "c67272c977f6b56e77418b830d67561ef8edec25a832150a5442779435e73dbd"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.json",
+    "bytes": 41402617,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "95fcfc052bf2970a915f0e4c83d2dda2538cfc3a49ffac3311b90301b5c8351e"
+  },
+  {
+    "baseline_path": "runs/attempts/21de44a39e574fcab93b00230f9ffdc5/status.json",
+    "bytes": 3763,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/21de44a39e574fcab93b00230f9ffdc5/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "8c009f467c9b064a90cec3de64be77a4bdaad5c34fce1280bd4712780369dd1e"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H3.input_quality.json",
+    "bytes": 8634,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H3.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H3.json",
+    "bytes": 42837856,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H3.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "0fb85850b73a1ba737b22a531f730fa39121cb8d0942d0aca31be7ef69f1c020"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H4.input_quality.json",
+    "bytes": 7162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H4.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H4.json",
+    "bytes": 38218147,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H4.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "7aa49a3c9cccf275c47c22982c3567f20e6e717fa3828c9bfae14afc33295d81"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H5.input_quality.json",
+    "bytes": 9399,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H5.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H5.json",
+    "bytes": 60049452,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "6462f839d5299f25d623e576c3c1735e3a79a2f26a8193cf24a25d955c223275"
+  },
+  {
+    "baseline_path": "runs/attempts/42c1e03dfefc4b619879270f78f6d30a/status.json",
+    "bytes": 6447,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/42c1e03dfefc4b619879270f78f6d30a/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "67e303b43e1d2d1f13dd70bd36fe9db9fe4a2a3601d307c21e43d22d91283f33"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H2.input_quality.json",
+    "bytes": 9345,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H2.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H2.json",
+    "bytes": 68055944,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H2.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "0fdf96982a5a7fb57287704abd393a3e24e78b4569fd97b2efed09e5b2105ac1"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H3.input_quality.json",
+    "bytes": 8634,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H3.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H3.json",
+    "bytes": 46752105,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H3.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "0d05535d8f7369d717861956802f330250f4365208b2e9b2fee730da6aae6484"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H4.input_quality.json",
+    "bytes": 7162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H4.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H4.json",
+    "bytes": 42413660,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H4.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "c084a1a8dfa7d74979deb76f101d4314a9a248ffaaab7c8997c26c08248fa36e"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H5.input_quality.json",
+    "bytes": 9399,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H5.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H5.json",
+    "bytes": 62362620,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "7d5759d59fc0557838118edc7e5d93df6bbcd88f68749ba9cfa71263cf95d119"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/status.json",
+    "bytes": 8151,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "ed47bf2fefa9c212e9cb54f8936952765b0bb54959983da5f652ff6471836546"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H2.input_quality.json",
+    "bytes": 9345,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H2.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H2.json",
+    "bytes": 59848332,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H2.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "d27b0462e8f1ec4562f12e2b14cc5c144d90e1db23cc70447a6e109f5d053a41"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H3.input_quality.json",
+    "bytes": 8634,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H3.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H3.json",
+    "bytes": 42837856,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H3.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "0fb85850b73a1ba737b22a531f730fa39121cb8d0942d0aca31be7ef69f1c020"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H4.input_quality.json",
+    "bytes": 7162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H4.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H4.json",
+    "bytes": 38218147,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H4.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "7aa49a3c9cccf275c47c22982c3567f20e6e717fa3828c9bfae14afc33295d81"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H5.input_quality.json",
+    "bytes": 9399,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H5.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/H5.json",
+    "bytes": 60049452,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "6462f839d5299f25d623e576c3c1735e3a79a2f26a8193cf24a25d955c223275"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/status.json",
+    "bytes": 8151,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/521a93eae8af41ad94469b9968c36633/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "4acd5fe4f00996464242646c9a10c7cb4c1c1d308ea99a950f76c621c15465bb"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H2.input_quality.json",
+    "bytes": 9345,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H2.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H2.json",
+    "bytes": 59848332,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H2.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "d27b0462e8f1ec4562f12e2b14cc5c144d90e1db23cc70447a6e109f5d053a41"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H3.input_quality.json",
+    "bytes": 8634,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H3.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H3.json",
+    "bytes": 42837856,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H3.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "0fb85850b73a1ba737b22a531f730fa39121cb8d0942d0aca31be7ef69f1c020"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H4.input_quality.json",
+    "bytes": 7162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H4.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H4.json",
+    "bytes": 38218147,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H4.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "7aa49a3c9cccf275c47c22982c3567f20e6e717fa3828c9bfae14afc33295d81"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H5.input_quality.json",
+    "bytes": 9399,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H5.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/H5.json",
+    "bytes": 60049452,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "6462f839d5299f25d623e576c3c1735e3a79a2f26a8193cf24a25d955c223275"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/status.json",
+    "bytes": 8151,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/62185590ffef4e1a9cdb340db050470e/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "199253f495a05e1f08e43bdba106233c0740ee90f04290eb15c3e3d6016d8eea"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.check.json",
+    "bytes": 162579,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.check.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "c273a716d2a2ad606d74c02a5ab7f1d34bb79b59345e6c7eed24d8c291511f0c"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.development.json",
+    "bytes": 338162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "6d1b4e3075edb1259533f8d9ed55dc849814e1cd7939a7ebbfaf63d647c981a5"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.full.json",
+    "bytes": 493553,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/H1.evaluation.full.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2344ab06aa304368863efc821da95706f201859e7e0b6808e3cb4c1204f71d9f"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/H1.json",
+    "bytes": 41402617,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "95fcfc052bf2970a915f0e4c83d2dda2538cfc3a49ffac3311b90301b5c8351e"
+  },
+  {
+    "baseline_path": "runs/attempts/71235716c8c145048f0db2c68240ade9/status.json",
+    "bytes": 3763,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/71235716c8c145048f0db2c68240ade9/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "16242eb60e2f05b8b75851c09522fe7482487349fbf0afb9c007a25b9b8a89a1"
+  },
+  {
+    "baseline_path": "runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/H1.json",
+    "bytes": 42718172,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2296db0829cf075728c8c5dc8742540de5c86688c6c2bee245090f5260780da4"
+  },
+  {
+    "baseline_path": "runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/status.json",
+    "bytes": 3097,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "22c1cad08362b50397a574006d9cc0b820b7dafc11a6cd71d1b9d1f3d0a1e403"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.check.json",
+    "bytes": 162579,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.check.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "ec3e64924d9b181b14edf0617977593a90ba5b82b81d764c2f19bfdfffeedd67"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.development.json",
+    "bytes": 338162,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "714df0faa32f4f9751d9a4acb2b023164cd062045bcc9e73f98e571c6af66c74"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.full.json",
+    "bytes": 493553,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.evaluation.full.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "5e007a6dd0fa804681e081a6890e7d40d1dee4dc5d9486764c00e8e3e8e81fa7"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.json",
+    "bytes": 45384943,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "3c01ab7f295ee6bfc73c362b60e90509d8f39d8fc0366b33a2bcd811f872aa02"
+  },
+  {
+    "baseline_path": "runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/status.json",
+    "bytes": 3763,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a1ee1b9f209f4f41913349e165fe8a26/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "14f18a8cfb20a7a4c3a286761bbc83edcd0656f6a2a0b6122807e341297c0122"
+  },
+  {
+    "baseline_path": "runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.evaluation.development.json",
+    "bytes": 315094,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "11d6b8d78eafc90c46e452bfbc8062e0ebd616cc40e183405dd8b104e919cfdc"
+  },
+  {
+    "baseline_path": "runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.json",
+    "bytes": 41001175,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "9d45d2dcfa5dc0b7c1860314f150d95114929f613e632da023aa6edc67fd0e5d"
+  },
+  {
+    "baseline_path": "runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/status.json",
+    "bytes": 3211,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "ca5d18177f1792b37333429744aed5a4384868832d60822f852a4d596a331f17"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.check.json",
+    "bytes": 158878,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.check.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "d50ccfe8fd06c18cc93d981a82e22d1da37b2e623e5dd0a500dbb63c6e977489"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.development.json",
+    "bytes": 330557,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "93903a779ec33990d6513d876fc2a4e134722436689ad5ddbdcad7a846ce4e5c"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.full.json",
+    "bytes": 482303,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.evaluation.full.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "c0ca91ffd25d787b0da9b64bae1b4974f59f4d0be2dbde9e96ec374432a05d14"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.json",
+    "bytes": 41045649,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "00f3d80b436594e6be0b7e1ede57a1326c027efa8baeb8a6f34a129aceb25aae"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/status.json",
+    "bytes": 3433,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/b62dc53945c74386b17c3279636d94c6/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "7eff2c9768e645cd0a5ae0ac2f951ac5492404481d061f6704712af31376051d"
+  },
+  {
+    "baseline_path": "runs/attempts/c18fd65cf16d44a9b4fa86b34d2dcc4a/status.json",
+    "bytes": 2593,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/c18fd65cf16d44a9b4fa86b34d2dcc4a/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "51bf9ecd119480315550877d2c6ea833cd2868b2e14369edf5247bab4d2bfd88"
+  },
+  {
+    "baseline_path": "runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.evaluation.development.json",
+    "bytes": 405404,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.evaluation.development.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "037639bd1578ad94560b607cb32afcb59ab2349f2cf7dc74a9f919f7343cefb6"
+  },
+  {
+    "baseline_path": "runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.input_quality.json",
+    "bytes": 7223,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.input_quality.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089"
+  },
+  {
+    "baseline_path": "runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.json",
+    "bytes": 42718172,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/d0804aaa2af64ce2a8991289a9af941b/H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2296db0829cf075728c8c5dc8742540de5c86688c6c2bee245090f5260780da4"
+  },
+  {
+    "baseline_path": "runs/attempts/d0804aaa2af64ce2a8991289a9af941b/status.json",
+    "bytes": 3211,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/attempts/d0804aaa2af64ce2a8991289a9af941b/status.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "a440932241ced6450c897608fa211e212c4e6ca866b345999347b8f7da685fa9"
+  },
+  {
+    "baseline_path": "runs/current-H1.json",
+    "bytes": 210,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/current-H1.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "771a6e75dc0e5b172b9fd9dce2025b870c9fd763b6d70210500ca491fcbc3e41"
+  },
+  {
+    "baseline_path": "runs/current-H2-H3-H4-H5.json",
+    "bytes": 210,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/current-H2-H3-H4-H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "ebff7981754149be8927e066b47d8246c39484d5130d04dbb762e50f7626bffa"
+  },
+  {
+    "baseline_path": "runs/current-H2.json",
+    "bytes": 210,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/current-H2.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "b9d5270b0cccfce6fae676c17a323f595a9bc0ef647d1d0e0c9c9d2491821dd0"
+  },
+  {
+    "baseline_path": "runs/current-H3-H4-H5.json",
+    "bytes": 210,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/current-H3-H4-H5.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "fa08abdaeca09af849a0d3652cafd7fa93307ae807cac57cb06b1f85bb98725f"
+  },
+  {
+    "baseline_path": "runs/current-submission.json",
+    "bytes": 301,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/current-submission.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "56ff9f720a0a29bf0e9d1689446c86b6d62e7b935a1d472a0f1c5f3d49cbc95e"
+  },
+  {
+    "baseline_path": "runs/releases/269eb3e02e89a06cb35538f705a2559cc8dac39c8b8dbeefea42571fb0f1108c/f5ea80591b4444778e73ba915b79780e/manifest.json",
+    "bytes": 2353,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/269eb3e02e89a06cb35538f705a2559cc8dac39c8b8dbeefea42571fb0f1108c/f5ea80591b4444778e73ba915b79780e/manifest.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "d786662ee1b88a6495600819bc276fa22b5423af08e7a0dbf59ce410e757120b"
+  },
+  {
+    "baseline_path": "runs/releases/269eb3e02e89a06cb35538f705a2559cc8dac39c8b8dbeefea42571fb0f1108c/f5ea80591b4444778e73ba915b79780e/submission.csv",
+    "bytes": 13130,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/269eb3e02e89a06cb35538f705a2559cc8dac39c8b8dbeefea42571fb0f1108c/f5ea80591b4444778e73ba915b79780e/submission.csv",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  {
+    "baseline_path": "runs/releases/919df7857edc5789baf7b210aec28e28e5aafb4e2908b1710a88d505bac0e948/6f880fd12ac545daa5396e0d0242f022/manifest.json",
+    "bytes": 2353,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/919df7857edc5789baf7b210aec28e28e5aafb4e2908b1710a88d505bac0e948/6f880fd12ac545daa5396e0d0242f022/manifest.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "81368a271142ba4051676a43e409f0653e6309163087630dedb91dd299d01ba5"
+  },
+  {
+    "baseline_path": "runs/releases/919df7857edc5789baf7b210aec28e28e5aafb4e2908b1710a88d505bac0e948/6f880fd12ac545daa5396e0d0242f022/submission.csv",
+    "bytes": 13130,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/919df7857edc5789baf7b210aec28e28e5aafb4e2908b1710a88d505bac0e948/6f880fd12ac545daa5396e0d0242f022/submission.csv",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  {
+    "baseline_path": "runs/releases/eb9558712fbd688567dc102a65ed069ca54d1016378a1795909f998dca9d83b2/925bf2a285db410b85d57e7b9738d177/manifest.json",
+    "bytes": 2353,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/eb9558712fbd688567dc102a65ed069ca54d1016378a1795909f998dca9d83b2/925bf2a285db410b85d57e7b9738d177/manifest.json",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "a177cd61dab4a3d299c9ffd44a6cc54f67685554ca403b3ac2b7644b4ee72d40"
+  },
+  {
+    "baseline_path": "runs/releases/eb9558712fbd688567dc102a65ed069ca54d1016378a1795909f998dca9d83b2/925bf2a285db410b85d57e7b9738d177/submission.csv",
+    "bytes": 13130,
+    "disposition": "Archived",
+    "publication_location": "evidence/history/audited_implementation.bundle at ebc3f05:runs/releases/eb9558712fbd688567dc102a65ed069ca54d1016378a1795909f998dca9d83b2/925bf2a285db410b85d57e7b9738d177/submission.csv",
+    "reason": "Historical/current attempt payload, pointer or release; exact tracked bytes retained in history, regenerated for normal replay.",
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  {
+    "baseline_path": "src/insurance_audit/__init__.py",
+    "bytes": 93,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/__init__.py",
+    "publication_sha256": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f"
+  },
+  {
+    "baseline_path": "src/insurance_audit/__main__.py",
+    "bytes": 1978,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/__main__.py",
+    "publication_sha256": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "8c0c54d2afff0da5fdff22d802736180af17dae03375bc129f83663804cb0931"
+  },
+  {
+    "baseline_path": "src/insurance_audit/audit.py",
+    "bytes": 6579,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/audit.py",
+    "publication_sha256": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "16faac9c6550fc71cb18e0d56bc30b1d64d2e3f56bb3e2ea1513363556ba377c"
+  },
+  {
+    "baseline_path": "src/insurance_audit/batch.py",
+    "bytes": 5403,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/batch.py",
+    "publication_sha256": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2ae818162360cee12dcc1fd62013b8c12d7bf48835627b5b608c09c0cad637b1"
+  },
+  {
+    "baseline_path": "src/insurance_audit/checks.py",
+    "bytes": 2583,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/checks.py",
+    "publication_sha256": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86"
+  },
+  {
+    "baseline_path": "src/insurance_audit/confidence.py",
+    "bytes": 1747,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/confidence.py",
+    "publication_sha256": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e"
+  },
+  {
+    "baseline_path": "src/insurance_audit/context.py",
+    "bytes": 9961,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/context.py",
+    "publication_sha256": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096"
+  },
+  {
+    "baseline_path": "src/insurance_audit/evaluation.py",
+    "bytes": 8909,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/evaluation.py",
+    "publication_sha256": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0d236511f4ca96a0961d0cef8812640c067f5046c634139d112b89dc5b23a4cb"
+  },
+  {
+    "baseline_path": "src/insurance_audit/inventory.py",
+    "bytes": 3161,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/inventory.py",
+    "publication_sha256": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2deaa47a8758fffd4732a29f8a4d5a4f36c682c9617b2e8b096b273318cc4547"
+  },
+  {
+    "baseline_path": "src/insurance_audit/io.py",
+    "bytes": 9041,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/io.py",
+    "publication_sha256": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "9acf4fea49a85069f231ece30708f1722415159eaa2ae84254821a968d00e8ae"
+  },
+  {
+    "baseline_path": "src/insurance_audit/pipeline.py",
+    "bytes": 1549,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/pipeline.py",
+    "publication_sha256": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b88a7d22e603d277f2f7d53eaf520f2464c31559e9cfb86beea00f251d9cb67b"
+  },
+  {
+    "baseline_path": "src/insurance_audit/pricing.py",
+    "bytes": 6666,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/pricing.py",
+    "publication_sha256": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "628e852f9937ca7d279ac2046e16bfd643b7d72e3eb840c3885ad47c2913b2c9"
+  },
+  {
+    "baseline_path": "src/insurance_audit/reporting.py",
+    "bytes": 11680,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/reporting.py",
+    "publication_sha256": "e9e6070565007506499624bdeff09a0f4ed7f943546baafec4776457caeee725",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e9e6070565007506499624bdeff09a0f4ed7f943546baafec4776457caeee725"
+  },
+  {
+    "baseline_path": "src/insurance_audit/resolve.py",
+    "bytes": 1072,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/resolve.py",
+    "publication_sha256": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022"
+  },
+  {
+    "baseline_path": "src/insurance_audit/schema.py",
+    "bytes": 12415,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/schema.py",
+    "publication_sha256": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f56f4f97f0a289fe9f4092a100dc44489646631d541cd2f877192fb4a2d475a1"
+  },
+  {
+    "baseline_path": "src/insurance_audit/submission.py",
+    "bytes": 9453,
+    "disposition": "Retained",
+    "publication_location": "src/insurance_audit/submission.py",
+    "publication_sha256": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d4f84cc96a5826441d9f74976468a773555201157f53e7b0912396b146d1c485"
+  },
+  {
+    "baseline_path": "submission.csv",
+    "bytes": 13130,
+    "disposition": "Retained",
+    "publication_location": "submission.csv",
+    "publication_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+  },
+  {
+    "baseline_path": "tests/fixtures/h1_contract_examples.json",
+    "bytes": 4184,
+    "disposition": "Retained",
+    "publication_location": "tests/fixtures/h1_contract_examples.json",
+    "publication_sha256": "f95b1686f21c77c93f4241d004b8c5fdd8814dc868bbe2b6ccc244ec23f94209",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f95b1686f21c77c93f4241d004b8c5fdd8814dc868bbe2b6ccc244ec23f94209"
+  },
+  {
+    "baseline_path": "tests/test_audit_corrections.py",
+    "bytes": 14374,
+    "disposition": "Retained",
+    "publication_location": "tests/test_audit_corrections.py",
+    "publication_sha256": "125426cd6a9c5444810fa497fdf4f5dcd531e41acdf8a994a04f113c6774c5f8",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "125426cd6a9c5444810fa497fdf4f5dcd531e41acdf8a994a04f113c6774c5f8"
+  },
+  {
+    "baseline_path": "tests/test_batch.py",
+    "bytes": 1609,
+    "disposition": "Retained",
+    "publication_location": "tests/test_batch.py",
+    "publication_sha256": "5cdb7ae04e53a3a349d27838b42810def56f661c657166d661643820628f7593",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "5cdb7ae04e53a3a349d27838b42810def56f661c657166d661643820628f7593"
+  },
+  {
+    "baseline_path": "tests/test_confidence.py",
+    "bytes": 1357,
+    "disposition": "Retained",
+    "publication_location": "tests/test_confidence.py",
+    "publication_sha256": "b80e97deff2205fb171693e2a4672a7794a324f006b78d4d32569003d952f675",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b80e97deff2205fb171693e2a4672a7794a324f006b78d4d32569003d952f675"
+  },
+  {
+    "baseline_path": "tests/test_evaluation.py",
+    "bytes": 1981,
+    "disposition": "Retained",
+    "publication_location": "tests/test_evaluation.py",
+    "publication_sha256": "d79733cae90c52f63e23701aba47bb5bc9ce0267e8272d3597f64d8393426c9e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d79733cae90c52f63e23701aba47bb5bc9ce0267e8272d3597f64d8393426c9e"
+  },
+  {
+    "baseline_path": "tests/test_h2.py",
+    "bytes": 3633,
+    "disposition": "Retained",
+    "publication_location": "tests/test_h2.py",
+    "publication_sha256": "186f6de400acdbb93b9c378dc6ba5f28aaf25ea205ea9b53038b861a4165996e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "186f6de400acdbb93b9c378dc6ba5f28aaf25ea205ea9b53038b861a4165996e"
+  },
+  {
+    "baseline_path": "tests/test_inputs.py",
+    "bytes": 3768,
+    "disposition": "Retained",
+    "publication_location": "tests/test_inputs.py",
+    "publication_sha256": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134"
+  },
+  {
+    "baseline_path": "tests/test_pricing.py",
+    "bytes": 11082,
+    "disposition": "Retained",
+    "publication_location": "tests/test_pricing.py",
+    "publication_sha256": "484a6de121be430a88d6cd3382c35195a204b68f387258074951917a66df8370",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "484a6de121be430a88d6cd3382c35195a204b68f387258074951917a66df8370"
+  },
+  {
+    "baseline_path": "tests/test_schema.py",
+    "bytes": 6034,
+    "disposition": "Retained",
+    "publication_location": "tests/test_schema.py",
+    "publication_sha256": "7f3132dc193c10eee154115fd601c293cd6cf49024d28552f3c0972ebf113e82",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "7f3132dc193c10eee154115fd601c293cd6cf49024d28552f3c0972ebf113e82"
+  },
+  {
+    "baseline_path": "tests/test_submission.py",
+    "bytes": 3786,
+    "disposition": "Retained",
+    "publication_location": "tests/test_submission.py",
+    "publication_sha256": "59a581482afc6a6ae399854ecc0aaaeade85f7bafb1604a78c842ce68bb61e54",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "59a581482afc6a6ae399854ecc0aaaeade85f7bafb1604a78c842ce68bb61e54"
+  },
+  {
+    "baseline_path": "tests/test_targets.py",
+    "bytes": 5607,
+    "disposition": "Retained",
+    "publication_location": "tests/test_targets.py",
+    "publication_sha256": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
+  },
+  {
+    "baseline_path": "tools/accept_bundle.py",
+    "bytes": 2312,
+    "disposition": "Retained",
+    "publication_location": "tools/accept_bundle.py",
+    "publication_sha256": "147ba6e6c42aef6957640a50207fbc5747a3f37cfb2d710dec8fed739caa067d",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "147ba6e6c42aef6957640a50207fbc5747a3f37cfb2d710dec8fed739caa067d"
+  },
+  {
+    "baseline_path": "tools/acquire_h1.py",
+    "bytes": 9514,
+    "disposition": "Retained",
+    "publication_location": "tools/acquire_h1.py",
+    "publication_sha256": "59b6f7a015b76084254214c6955356960721de0b3ca8d3992b845c3b355bfc98",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "59b6f7a015b76084254214c6955356960721de0b3ca8d3992b845c3b355bfc98"
+  },
+  {
+    "baseline_path": "tools/acquire_h2.py",
+    "bytes": 7489,
+    "disposition": "Retained",
+    "publication_location": "tools/acquire_h2.py",
+    "publication_sha256": "345a8e6a55fae2570d0a5f497ad176db21fa2797be65aab4f2409fe70cbd0644",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "345a8e6a55fae2570d0a5f497ad176db21fa2797be65aab4f2409fe70cbd0644"
+  },
+  {
+    "baseline_path": "tools/acquire_targets.py",
+    "bytes": 11404,
+    "disposition": "Retained",
+    "publication_location": "tools/acquire_targets.py",
+    "publication_sha256": "08264f15d57d316ca2abeb6352f42e046e2b83e1239a209a2d8574c8c8610644",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "08264f15d57d316ca2abeb6352f42e046e2b83e1239a209a2d8574c8c8610644"
+  },
+  {
+    "baseline_path": "tools/check_clean_reproduction.py",
+    "bytes": 5384,
+    "disposition": "Retained",
+    "publication_location": "tools/check_clean_reproduction.py",
+    "publication_sha256": "f8553cfdbf686c6b9b00e482ca6332f039e070e6877460e273f75b551049f2f6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f8553cfdbf686c6b9b00e482ca6332f039e070e6877460e273f75b551049f2f6"
+  },
+  {
+    "baseline_path": "tools/checkpoint.py",
+    "bytes": 3374,
+    "disposition": "Retained",
+    "publication_location": "tools/checkpoint.py",
+    "publication_sha256": "076c5acb30415760fb0495fcd1f19758ee1ca46d3fbfba6aa4e667b708c2b314",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "076c5acb30415760fb0495fcd1f19758ee1ca46d3fbfba6aa4e667b708c2b314"
+  },
+  {
+    "baseline_path": "tools/freeze_confidence.py",
+    "bytes": 2246,
+    "disposition": "Retained",
+    "publication_location": "tools/freeze_confidence.py",
+    "publication_sha256": "e1cc5cbc491098ec6ba9b2ed72652ea3ad5481ad4425b394cc7b6ca2fcbc0f40",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e1cc5cbc491098ec6ba9b2ed72652ea3ad5481ad4425b394cc7b6ca2fcbc0f40"
+  },
+  {
+    "baseline_path": "tools/inspect_bundle_traces.py",
+    "bytes": 6470,
+    "disposition": "Retained",
+    "publication_location": "tools/inspect_bundle_traces.py",
+    "publication_sha256": "e8a1d724d972f0008c31b48fcd947f8141fa8989f2387d65aa80da46aaaef3db",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "e8a1d724d972f0008c31b48fcd947f8141fa8989f2387d65aa80da46aaaef3db"
+  },
+  {
+    "baseline_path": "tools/mapping_policy.py",
+    "bytes": 1057,
+    "disposition": "Retained",
+    "publication_location": "tools/mapping_policy.py",
+    "publication_sha256": "3a261a8206803100fad0afba3873e4d311dd48bda81a044302649ca8ad7232e6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "3a261a8206803100fad0afba3873e4d311dd48bda81a044302649ca8ad7232e6"
+  },
+  {
+    "baseline_path": "tools/prepare_inventory.py",
+    "bytes": 3722,
+    "disposition": "Retained",
+    "publication_location": "tools/prepare_inventory.py",
+    "publication_sha256": "d84a23030a85f9d36e9d46bf3ea825f527e8bee0c20a7e88ec7be63ac68563d0",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "d84a23030a85f9d36e9d46bf3ea825f527e8bee0c20a7e88ec7be63ac68563d0"
+  },
+  {
+    "baseline_path": "tools/record_target_reviews.py",
+    "bytes": 4895,
+    "disposition": "Retained",
+    "publication_location": "tools/record_target_reviews.py",
+    "publication_sha256": "7540a50d9019cae25362c249e14d4efb8cd8c7e286af2ad730a627470f5bfdd5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "7540a50d9019cae25362c249e14d4efb8cd8c7e286af2ad730a627470f5bfdd5"
+  },
+  {
+    "baseline_path": "tools/render_documents.py",
+    "bytes": 14276,
+    "disposition": "Retained",
+    "publication_location": "tools/render_documents.py",
+    "publication_sha256": "fad5d47708e0b98520ffd9ba9f09785e79c0a30807cc7d79d0c44afafeb0829e",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "fad5d47708e0b98520ffd9ba9f09785e79c0a30807cc7d79d0c44afafeb0829e"
+  },
+  {
+    "baseline_path": "tools/render_implementation_report.py",
+    "bytes": 17865,
+    "disposition": "Retained",
+    "publication_location": "tools/render_implementation_report.py",
+    "publication_sha256": "cd0e059392cdfd5b0fd9beade7a2007245ff43289233697347bdbd1136050ae4",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "cd0e059392cdfd5b0fd9beade7a2007245ff43289233697347bdbd1136050ae4"
+  },
+  {
+    "baseline_path": "tools/reproduce_with_evidence.py",
+    "bytes": 2485,
+    "disposition": "Retained",
+    "publication_location": "tools/reproduce_with_evidence.py",
+    "publication_sha256": "1108839f503b2e7f537247180e23c7ee894d2f31d2e681c905beccbccd89a5f6",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1108839f503b2e7f537247180e23c7ee894d2f31d2e681c905beccbccd89a5f6"
+  },
+  {
+    "baseline_path": "tools/review_h1_mapping_v2.py",
+    "bytes": 2888,
+    "disposition": "Retained",
+    "publication_location": "tools/review_h1_mapping_v2.py",
+    "publication_sha256": "0b3789e2fb37400bfcbdc3f393ce0779e20c03015192126cdfc2216ec96d01b5",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "0b3789e2fb37400bfcbdc3f393ce0779e20c03015192126cdfc2216ec96d01b5"
+  },
+  {
+    "baseline_path": "tools/run_checks.py",
+    "bytes": 1366,
+    "disposition": "Retained",
+    "publication_location": "tools/run_checks.py",
+    "publication_sha256": "40b04f31f44f6700518ab14a2f1d9a7e67a2adc23527981205325e5b780350b2",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "40b04f31f44f6700518ab14a2f1d9a7e67a2adc23527981205325e5b780350b2"
+  },
+  {
+    "baseline_path": "tools/update_implementation_status.py",
+    "bytes": 20320,
+    "disposition": "Retained",
+    "publication_location": "tools/update_implementation_status.py",
+    "publication_sha256": "301bf42446e7ff6ffe2ddd7993916c759c3b4a16c86c6add14bbe827c56b37fa",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "301bf42446e7ff6ffe2ddd7993916c759c3b4a16c86c6add14bbe827c56b37fa"
+  },
+  {
+    "baseline_path": "tools/verify_audit_corrections.py",
+    "bytes": 9474,
+    "disposition": "Retained",
+    "publication_location": "tools/verify_audit_corrections.py",
+    "publication_sha256": "1901a8f596a3d8362a8b3a067d0c5cbd97b9ef873c593b513a5927faf1661755",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "1901a8f596a3d8362a8b3a067d0c5cbd97b9ef873c593b513a5927faf1661755"
+  },
+  {
+    "baseline_path": "tools/verify_correction_delivery.py",
+    "bytes": 4625,
+    "disposition": "Retained",
+    "publication_location": "tools/verify_correction_delivery.py",
+    "publication_sha256": "f1f70ae414e90228649d8f4492b558e3d7640e987184ef2720b548d6bf12f056",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "f1f70ae414e90228649d8f4492b558e3d7640e987184ef2720b548d6bf12f056"
+  },
+  {
+    "baseline_path": "tools/verify_current_evidence.py",
+    "bytes": 6264,
+    "disposition": "Retained",
+    "publication_location": "tools/verify_current_evidence.py",
+    "publication_sha256": "fc404cc2ed0383c12fb6f134d60ae50431a04267028d073d4f2643db10666937",
+    "reason": "Required source, execution, reproducibility, challenge deliverable or implementation history evidence.",
+    "sha256": "fc404cc2ed0383c12fb6f134d60ae50431a04267028d073d4f2643db10666937"
+  },
+  {
+    "baseline_path": "runs/attempts/4d449a6fc6fc49399da2cd567bdb1b51/.H4.json.rZ4xE3",
+    "bytes": 22806528,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "aad1c32ebbf3a15e8b73ea4205f427f57f4482b7d81b6ea023d2df4a5d930aa6"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/.H4.json.AQNWpZ",
+    "bytes": 7602176,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "aaea470172bc338a3486488cfdef292d70ab96194a7c663c1d83e1999eaa7c8d"
+  },
+  {
+    "baseline_path": "runs/attempts/521a93eae8af41ad94469b9968c36633/.H5.json.rdywfl",
+    "bytes": 26214400,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "0167f6aa5277840394f55cd05b67a1d67a42b991ef3b21f8d875c08ca91e9fa8"
+  },
+  {
+    "baseline_path": "runs/attempts/62185590ffef4e1a9cdb340db050470e/.H3.json.0jpqZO",
+    "bytes": 34865152,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "fa332a6586f1b314935191a1f3f2c280a9abe08b0c2fed5c90274198dbf8e08d"
+  },
+  {
+    "baseline_path": "runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/.H1.json.jeAsBY",
+    "bytes": 36175872,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "1362b9583bb82ba6639c901c0ebcb32289459dffb0665424456e60fef6ac4592"
+  },
+  {
+    "baseline_path": "runs/attempts/9499061ad782412a8d7dd4a1b51ac82a/.H1.json.jeAsBY.b1WGk2",
+    "bytes": 34340864,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "0759efabeeaf51a160b3b57d8c3403b33dc4923208bb818270c20a4ae469968d"
+  },
+  {
+    "baseline_path": "runs/attempts/a3888ce3064c4df78cae76fa2222f6ec/.H1.json.I4mUeD",
+    "bytes": 11272192,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "9f23d3d4a1ac769f39c77b37f9094a9c20d544bbd9d38a494dfc81e959147c5e"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/.H1.json.YHeSIR",
+    "bytes": 37224448,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "4e5abfaba6a40dd2a8df63cf5ce77d626a29abb34bc87cea43c0ccf1d724d82f"
+  },
+  {
+    "baseline_path": "runs/attempts/b62dc53945c74386b17c3279636d94c6/.H1.json.r1oIJv",
+    "bytes": 24117248,
+    "disposition": "Excluded",
+    "publication_location": null,
+    "reason": "Untracked incomplete atomic-write temporary file; not named by any attempt output map or runtime/test/gate dependency.",
+    "sha256": "94b1b2ecad4a43c5bde54c4e5d02c0c97a2d068e933ee003f931013b4640570a"
+  }
+]

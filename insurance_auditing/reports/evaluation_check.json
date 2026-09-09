@@ -1,0 +1,5847 @@
+{
+  "abstained": 210,
+  "ambiguity_sensitive_support": 0,
+  "amount_accuracy_covered": 1.0,
+  "amount_mae_cents_covered": 0.0,
+  "confidence_groups": {
+    "h1_supported:elided:0": {
+      "brier_score": 0.009999999999999995,
+      "mean_confidence": 0.9,
+      "n": 34,
+      "successes": 34,
+      "whole_row_accuracy": 1.0
+    },
+    "h1_supported:explicit:0": {
+      "brier_score": 0.0025000000000000044,
+      "mean_confidence": 0.95,
+      "n": 46,
+      "successes": 46,
+      "whole_row_accuracy": 1.0
+    },
+    "sparse:elided:1": {
+      "brier_score": 0.12249999999999998,
+      "mean_confidence": 0.65,
+      "n": 1,
+      "successes": 1,
+      "whole_row_accuracy": 1.0
+    }
+  },
+  "coverage": 0.27835051546391754,
+  "covered": 81,
+  "details": [
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000001",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2475525,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000001"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000005",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 573375,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000005"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000006",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1746150,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000006"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000009",
+      "prediction": {
+        "billed_total_cents": 2637550,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2637550,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000009",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000009"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2637550,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000009"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000012",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 901100,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000012"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000014",
+      "prediction": {
+        "billed_total_cents": 1635750,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1635750,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000014",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000014"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1635750,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000014"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000015",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "daily_cap_exceeded"
+        ],
+        "expected_total_cents": 1195825,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000015"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000019",
+      "prediction": {
+        "billed_total_cents": 4591275,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 4591275,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000019",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000019"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4591275,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000019"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000024",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1939625,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000024"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000028",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3658525,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000028"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000029",
+      "prediction": {
+        "billed_total_cents": 2568375,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2568375,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000029",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000029"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2568375,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000029"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000031",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4818309,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000031"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000035",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2663790,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000035"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000036",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "malformed_service_date",
+          "unknown_service"
+        ],
+        "expected_total_cents": 2836375,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000036"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000042",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5287775,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000042"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000047",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 716400,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000047"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000052",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5011000,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000052"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000058",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 6086853,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000058"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000060",
+      "prediction": {
+        "billed_total_cents": 4774375,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 4774375,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000060",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000060"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4774375,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000060"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000062",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2191605,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000062"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000063",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4216210,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000063"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000064",
+      "prediction": {
+        "billed_total_cents": 2719375,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2719375,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000064",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000064"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2719375,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000064"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000067",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3920858,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000067"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000069",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "invoice_total_mismatch",
+          "line_total_arithmetic",
+          "malformed_service_date"
+        ],
+        "expected_total_cents": 1703845,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000069"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000070",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3435390,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000070"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000071",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4095286,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000071"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000074",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2893525,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000074"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000077",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2125563,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000077"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000079",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 917295,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000079"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000081",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2222295,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000081"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000082",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3250327,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000082"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000085",
+      "prediction": {
+        "billed_total_cents": 2377573,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2377573,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000085",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000085"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2377573,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000085"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000088",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2198135,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000088"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000091",
+      "prediction": {
+        "billed_total_cents": 4143318,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 4143318,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000091",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000091"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4143318,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000091"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000095",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3862246,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000095"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000097",
+      "prediction": {
+        "billed_total_cents": 1908619,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1908619,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000097",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000097"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1908619,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000097"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000098",
+      "prediction": {
+        "billed_total_cents": 1485218,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1485218,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000098",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000098"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1485218,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000098"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000099",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2059682,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000099"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000102",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "unit_price_mismatch",
+          "volume_discount_incorrectly_applied"
+        ],
+        "expected_total_cents": 2663314,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000102"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000103",
+      "prediction": {
+        "billed_total_cents": 1299446,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1299446,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000103",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000103"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1299446,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000103"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000111",
+      "prediction": {
+        "billed_total_cents": 3071279,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 3071279,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000111",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000111"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3071279,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000111"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000113",
+      "prediction": {
+        "billed_total_cents": 2172980,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2172980,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000113",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000113"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2172980,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000113"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000114",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1878330,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000114"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000117",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1754196,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000117"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000121",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3190886,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000121"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000122",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1717175,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000122"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000128",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3552483,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000128"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000129",
+      "prediction": {
+        "billed_total_cents": 1630054,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1630054,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000129",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000129"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1630054,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000129"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000133",
+      "prediction": {
+        "billed_total_cents": 1524655,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1524655,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000133",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000133"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1524655,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000133"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000137",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5091453,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000137"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000145",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3707925,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000145"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000146",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2709500,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000146"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000153",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4539542,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000153"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000160",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3094372,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000160"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000161",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4172207,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000161"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000162",
+      "prediction": {
+        "billed_total_cents": 3728407,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 3728407,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000162",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000162"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3728407,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000162"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000165",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2989711,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000165"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000166",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2630702,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000166"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000171",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1489231,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000171"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000184",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1557865,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000184"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000191",
+      "prediction": {
+        "billed_total_cents": 1850955,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1850955,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000191",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000191"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1850955,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000191"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000193",
+      "prediction": {
+        "billed_total_cents": 1199225,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1199225,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000193",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000193"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1199225,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000193"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000194",
+      "prediction": {
+        "billed_total_cents": 3257237,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 3257237,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000194",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000194"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3257237,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000194"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000198",
+      "prediction": {
+        "billed_total_cents": 1574800,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1574800,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000198",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000198"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1574800,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000198"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000201",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "bundle_not_applied",
+          "contract_number_mismatch"
+        ],
+        "expected_total_cents": 2958995,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000201"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000202",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1151081,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000202"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000209",
+      "prediction": {
+        "billed_total_cents": 2770297,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2770297,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000209",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000209"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2770297,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000209"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000211",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "exclusion_window_violation",
+          "wrong_unit_basis"
+        ],
+        "expected_total_cents": 1471325,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000211"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000220",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3949434,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000220"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000223",
+      "prediction": {
+        "billed_total_cents": 2992640,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2992640,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000223",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000223"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2992640,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000223"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000225",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1912774,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000225"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000228",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5703033,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000228"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000231",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "cross_invoice_duplicate"
+        ],
+        "expected_total_cents": 1857000,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000231"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000232",
+      "prediction": {
+        "billed_total_cents": 1776500,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1776500,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000232",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000232"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1776500,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000232"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000233",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1342604,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000233"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000238",
+      "prediction": {
+        "billed_total_cents": 2497748,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2497748,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000238",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000238"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2497748,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000238"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000242",
+      "prediction": {
+        "billed_total_cents": 4382326,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 4382326,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000242",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000242"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4382326,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000242"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000243",
+      "prediction": {
+        "billed_total_cents": 1323865,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1323865,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000243",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000243"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1323865,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000243"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000244",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2047736,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000244"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000249",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3013610,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000249"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000250",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4872236,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000250"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000252",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 863125,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000252"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000253",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4520236,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000253"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000254",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3814367,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000254"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000255",
+      "prediction": {
+        "billed_total_cents": 2420053,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2420053,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000255",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000255"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2420053,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000255"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000257",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "line_total_arithmetic",
+          "wrong_unit_basis"
+        ],
+        "expected_total_cents": 2633795,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000257"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000261",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4458808,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000261"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000263",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2241675,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000263"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000264",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3573037,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000264"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000272",
+      "prediction": {
+        "billed_total_cents": 1597704,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1597704,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000272",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000272"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1597704,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000272"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000276",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1799385,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000276"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000284",
+      "prediction": {
+        "billed_total_cents": 4714099,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 4714099,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000284",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000284"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4714099,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000284"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000286",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1729332,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000286"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000287",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 6027372,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000287"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000288",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2537184,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000288"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000293",
+      "prediction": {
+        "billed_total_cents": 1998575,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1998575,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000293",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000293"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1998575,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000293"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000295",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2470884,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000295"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000298",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4323122,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000298"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000302",
+      "prediction": {
+        "billed_total_cents": 2047225,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2047225,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000302",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000302"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2047225,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000302"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000309",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3586962,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000309"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000319",
+      "prediction": {
+        "billed_total_cents": 1087921,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1087921,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000319",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000319"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1087921,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000319"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000322",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5109300,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000322"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000323",
+      "prediction": {
+        "billed_total_cents": 3047421,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 3047421,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000323",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000323"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3047421,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000323"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000328",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1134870,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000328"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000331",
+      "prediction": {
+        "billed_total_cents": 3391248,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 3391248,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000331",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000331"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3391248,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000331"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000333",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1720900,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000333"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000337",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2136588,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000337"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000339",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3912969,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000339"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000345",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4950257,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000345"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000346",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3645988,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000346"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000349",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3901242,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000349"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000350",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3941391,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000350"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000353",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4603398,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000353"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000354",
+      "prediction": {
+        "billed_total_cents": 1285121,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1285121,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000354",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000354"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1285121,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000354"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000359",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1190493,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000359"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000362",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "premium_incorrectly_applied",
+          "unit_price_mismatch"
+        ],
+        "expected_total_cents": 2585375,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000362"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000364",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2135850,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000364"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000365",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 851758,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000365"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000366",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3533188,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000366"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000367",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5712533,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000367"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000370",
+      "prediction": {
+        "billed_total_cents": 5129544,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 5129544,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000370",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000370"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5129544,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000370"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000371",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4868595,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000371"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000373",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4111730,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000373"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000378",
+      "prediction": {
+        "billed_total_cents": 4478725,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 4478725,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000378",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000378"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4478725,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000378"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000379",
+      "prediction": {
+        "billed_total_cents": 1597325,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1597325,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000379",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000379"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1597325,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000379"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000388",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1449822,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000388"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000390",
+      "prediction": {
+        "billed_total_cents": 3234713,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 3234713,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000390",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000390"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3234713,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000390"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000393",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1456650,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000393"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000397",
+      "prediction": {
+        "billed_total_cents": 545155,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 545155,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000397",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000397"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 545155,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000397"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000398",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2007470,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000398"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000399",
+      "prediction": {
+        "billed_total_cents": 2366250,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2366250,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000399",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000399"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2366250,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000399"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000401",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5262007,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000401"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000406",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2423583,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000406"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000408",
+      "prediction": {
+        "billed_total_cents": 2481807,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2481807,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000408",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000408"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2481807,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000408"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000411",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5180539,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000411"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000414",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2722135,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000414"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000421",
+      "prediction": {
+        "billed_total_cents": 2719245,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2719245,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000421",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000421"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2719245,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000421"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000423",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1024610,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000423"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000426",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3325694,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000426"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000431",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3632283,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000431"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000440",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4267224,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000440"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000442",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2907688,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000442"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000452",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3922869,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000452"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000456",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 448050,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000456"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000457",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "duplicate_invoice_id",
+          "wrong_unit_basis"
+        ],
+        "expected_total_cents": 1922972,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000457"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000461",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1580476,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000461"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000468",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2322788,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000468"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000469",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3459640,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000469"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000470",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1483021,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000470"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000471",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3544700,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000471"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000474",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4779128,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000474"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000475",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5031578,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000475"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000476",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2133950,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000476"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000477",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5055131,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000477"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000481",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1713420,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000481"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000485",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3268863,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000485"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000488",
+      "prediction": {
+        "billed_total_cents": 2827787,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2827787,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000488",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000488"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2827787,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000488"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000489",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2573703,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000489"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000495",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4051133,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000495"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000496",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2393178,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000496"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000498",
+      "prediction": {
+        "billed_total_cents": 2472768,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2472768,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000498",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000498"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2472768,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000498"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000502",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2888275,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000502"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000506",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2647008,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000506"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000508",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3881260,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000508"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000517",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2876061,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000517"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000518",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2667704,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000518"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000529",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4992173,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000529"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000530",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3123234,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000530"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000532",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3725016,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000532"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000535",
+      "prediction": {
+        "billed_total_cents": 1985850,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1985850,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000535",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000535"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1985850,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000535"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000541",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4089849,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000541"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000551",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4689193,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000551"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000554",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2363230,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000554"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000559",
+      "prediction": {
+        "billed_total_cents": 871783,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 871783,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000559",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000559"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 871783,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000559"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000561",
+      "prediction": {
+        "billed_total_cents": 1946700,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1946700,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000561",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000561"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1946700,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000561"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000564",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3763741,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000564"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000565",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3445946,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000565"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000566",
+      "prediction": {
+        "billed_total_cents": 2069575,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2069575,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000566",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000566"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2069575,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000566"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000571",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "line_total_arithmetic",
+          "unknown_service"
+        ],
+        "expected_total_cents": 1534690,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000571"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000577",
+      "prediction": {
+        "billed_total_cents": 1738976,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1738976,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000577",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000577"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1738976,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000577"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000578",
+      "prediction": {
+        "billed_total_cents": 1106125,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1106125,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000578",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000578"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1106125,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000578"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000579",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1017624,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000579"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000580",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3088095,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000580"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000586",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3849719,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000586"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000588",
+      "prediction": {
+        "billed_total_cents": 2671035,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2671035,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000588",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000588"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2671035,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000588"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000595",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1158720,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000595"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000597",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2187710,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000597"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000598",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1846199,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000598"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000599",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1920921,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000599"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000606",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1176485,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000606"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000608",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3565158,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000608"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000609",
+      "prediction": {
+        "billed_total_cents": 1484300,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1484300,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000609",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000609"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1484300,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000609"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000610",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2375985,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000610"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000614",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1460940,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000614"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000616",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5748500,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000616"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000626",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4994700,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000626"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000631",
+      "prediction": {
+        "billed_total_cents": 1118472,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1118472,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000631",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000631"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1118472,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000631"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000633",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2240596,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000633"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000637",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3005350,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000637"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000638",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1080593,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000638"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000639",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1582634,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000639"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000643",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4148836,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000643"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000652",
+      "prediction": {
+        "billed_total_cents": 1919263,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1919263,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000652",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000652"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1919263,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000652"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000653",
+      "prediction": {
+        "billed_total_cents": 3441128,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 3441128,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000653",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000653"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3441128,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000653"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000655",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5073640,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000655"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000656",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3242574,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000656"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000658",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1292375,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000658"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000659",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "bundle_not_applied",
+          "service_date_out_of_window"
+        ],
+        "expected_total_cents": 3593985,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000659"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000662",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3776025,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000662"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000664",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1051575,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000664"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000665",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3905115,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000665"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000666",
+      "prediction": {
+        "billed_total_cents": 3597600,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 3597600,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000666",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000666"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3597600,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000666"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000668",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3732703,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000668"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000670",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4556525,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000670"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000677",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "cross_invoice_duplicate",
+          "unit_price_mismatch",
+          "wrong_unit_basis"
+        ],
+        "expected_total_cents": 4656053,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000677"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000682",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1825648,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000682"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000683",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1895344,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000683"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000685",
+      "prediction": {
+        "billed_total_cents": 1934580,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1934580,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000685",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000685"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1934580,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000685"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000686",
+      "prediction": {
+        "billed_total_cents": 2965003,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2965003,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000686",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000686"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2965003,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000686"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000700",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1084251,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000700"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000711",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2413074,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000711"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000713",
+      "prediction": {
+        "billed_total_cents": 2411518,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2411518,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000713",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000713"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2411518,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000713"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000716",
+      "prediction": {
+        "billed_total_cents": 1749386,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1749386,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000716",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000716"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1749386,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000716"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000717",
+      "prediction": {
+        "billed_total_cents": 2651162,
+        "confidence": 0.65,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "sparse:elided:1",
+        "error_category": "unit_basis_mismatch",
+        "expected_total_cents": 2651162,
+        "flagged": 1,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000717",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000717"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "wrong_unit_basis"
+        ],
+        "expected_total_cents": 2651162,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000717"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000720",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3139824,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000720"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000722",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1594886,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000722"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000723",
+      "prediction": {
+        "billed_total_cents": 1427400,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1427400,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000723",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000723"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1427400,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000723"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000724",
+      "prediction": {
+        "billed_total_cents": 2600041,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2600041,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000724",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000724"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2600041,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000724"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000725",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "daily_cap_exceeded"
+        ],
+        "expected_total_cents": 1624750,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000725"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000727",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2700630,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000727"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000732",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4161065,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000732"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000735",
+      "prediction": {
+        "billed_total_cents": 1067857,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1067857,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000735",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000735"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1067857,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000735"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000736",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2087322,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000736"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000738",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1219150,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000738"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000740",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3197252,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000740"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000743",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1134176,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000743"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000753",
+      "prediction": {
+        "billed_total_cents": 1630750,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1630750,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000753",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000753"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1630750,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000753"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000759",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2822035,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000759"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000760",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2064095,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000760"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000767",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4651455,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000767"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000771",
+      "prediction": {
+        "billed_total_cents": 5299935,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 5299935,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000771",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000771"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5299935,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000771"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000780",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2770225,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000780"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000785",
+      "prediction": {
+        "billed_total_cents": 1849775,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1849775,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000785",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000785"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1849775,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000785"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000786",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2993000,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000786"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000788",
+      "prediction": {
+        "billed_total_cents": 1059825,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 1059825,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000788",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000788"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1059825,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000788"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000791",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3490975,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000791"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000795",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2554725,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000795"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000796",
+      "prediction": {
+        "billed_total_cents": 4969812,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 4969812,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000796",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000796"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4969812,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000796"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000798",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2549162,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000798"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000801",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1984773,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000801"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000804",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3265145,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000804"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000805",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2615344,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000805"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000806",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3064055,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000806"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000807",
+      "prediction": {
+        "billed_total_cents": 1638523,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1638523,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000807",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000807"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1638523,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000807"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000811",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [
+          "unknown_service",
+          "volume_discount_omitted"
+        ],
+        "expected_total_cents": 3629745,
+        "flagged": 1,
+        "invoice_id": "INV-H1-000811"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000812",
+      "prediction": {
+        "billed_total_cents": 1387250,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1387250,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000812",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000812"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1387250,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000812"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000813",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3977875,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000813"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000817",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4033379,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000817"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000821",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3330606,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000821"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000823",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1875655,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000823"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000826",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2789238,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000826"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000829",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3151440,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000829"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000833",
+      "prediction": {
+        "billed_total_cents": 1669100,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1669100,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000833",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000833"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1669100,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000833"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000838",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2223931,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000838"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000844",
+      "prediction": {
+        "billed_total_cents": 663386,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 663386,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000844",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000844"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 663386,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000844"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000845",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3290314,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000845"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000848",
+      "prediction": {
+        "billed_total_cents": 3271454,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 3271454,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000848",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000848"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3271454,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000848"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000860",
+      "prediction": {
+        "billed_total_cents": 4432235,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 4432235,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000860",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000860"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4432235,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000860"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000861",
+      "prediction": {
+        "billed_total_cents": 2483775,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 2483775,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000861",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000861"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2483775,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000861"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000862",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1902331,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000862"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000865",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3607964,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000865"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000867",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 5888095,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000867"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000868",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3802873,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000868"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000869",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3752925,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000869"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000872",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1783506,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000872"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000879",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1409079,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000879"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000881",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 4549164,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000881"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000884",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3351299,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000884"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000887",
+      "prediction": {
+        "billed_total_cents": 561050,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 561050,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000887",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000887"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 561050,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000887"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000888",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3334135,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000888"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000889",
+      "prediction": {
+        "billed_total_cents": 1408665,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1408665,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000889",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000889"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1408665,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000889"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000892",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1028425,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000892"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000898",
+      "prediction": {
+        "billed_total_cents": 2237689,
+        "confidence": 0.9,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:elided:0",
+        "error_category": "",
+        "expected_total_cents": 2237689,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000898",
+        "mapping_evidence": "elided",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000898"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2237689,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000898"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000906",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 857575,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000906"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000908",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3268266,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000908"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000910",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3954572,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000910"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000911",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1781766,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000911"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000912",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 3012993,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000912"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": true,
+      "covered": true,
+      "flag_correct": true,
+      "invoice_id": "INV-H1-000913",
+      "prediction": {
+        "billed_total_cents": 1484675,
+        "confidence": 0.95,
+        "confidence_state": "development_supported_or_policy_judgment; not target-calibrated",
+        "confidence_tier": "h1_supported:explicit:0",
+        "error_category": "",
+        "expected_total_cents": 1484675,
+        "flagged": 0,
+        "hospital": "H1",
+        "interpretation_qualifications": [],
+        "invoice_id": "INV-H1-000913",
+        "mapping_evidence": "explicit",
+        "outcome_invariant_uncertainty": false,
+        "trace_key": "INV-H1-000913"
+      },
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1484675,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000913"
+      },
+      "whole_row_success": true
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000915",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 1610819,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000915"
+      },
+      "whole_row_success": false
+    },
+    {
+      "amount_exact": false,
+      "covered": false,
+      "flag_correct": false,
+      "invoice_id": "INV-H1-000918",
+      "prediction": null,
+      "truth": {
+        "ambiguity_sensitive": 0,
+        "categories": [],
+        "expected_total_cents": 2565249,
+        "flagged": 0,
+        "invoice_id": "INV-H1-000918"
+      },
+      "whole_row_success": false
+    }
+  ],
+  "flag_accuracy_covered": 1.0,
+  "flag_metrics_all": {
+    "f1": 0.11764705882352941,
+    "fn_including_abstentions": 15,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 0.0625,
+    "support": 16,
+    "tn_emitted": 80,
+    "tp": 1
+  },
+  "flag_metrics_covered": {
+    "f1": 1.0,
+    "fn_including_abstentions": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 1,
+    "tn_emitted": 80,
+    "tp": 1
+  },
+  "per_category_family": {
+    "date": {
+      "f1": 0.0,
+      "fn_including_abstentions": 3,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 3,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "duplicate": {
+      "f1": 0.0,
+      "fn_including_abstentions": 2,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 2,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "eligibility": {
+      "f1": 0.0,
+      "fn_including_abstentions": 1,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 1,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "identity": {
+      "f1": 0.0,
+      "fn_including_abstentions": 2,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 2,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "invoice_arithmetic": {
+      "f1": 0.0,
+      "fn_including_abstentions": 1,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 1,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "line_arithmetic": {
+      "f1": 0.0,
+      "fn_including_abstentions": 3,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 3,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "mapping": {
+      "f1": 0.0,
+      "fn_including_abstentions": 3,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 3,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "pricing": {
+      "f1": 0.0,
+      "fn_including_abstentions": 6,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 6,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "quantity": {
+      "f1": 0.0,
+      "fn_including_abstentions": 2,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "support": 2,
+      "tn_emitted": 81,
+      "tp": 0
+    },
+    "unit": {
+      "f1": 0.3333333333333333,
+      "fn_including_abstentions": 4,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.2,
+      "support": 5,
+      "tn_emitted": 80,
+      "tp": 1
+    }
+  },
+  "per_original_label_detection": {
+    "bundle_not_applied": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 2,
+      "whole_row_success": 0
+    },
+    "contract_number_mismatch": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "cross_invoice_duplicate": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 2,
+      "whole_row_success": 0
+    },
+    "daily_cap_exceeded": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 2,
+      "whole_row_success": 0
+    },
+    "duplicate_invoice_id": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "exclusion_window_violation": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "invoice_total_mismatch": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "line_total_arithmetic": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 3,
+      "whole_row_success": 0
+    },
+    "malformed_service_date": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 2,
+      "whole_row_success": 0
+    },
+    "premium_incorrectly_applied": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "service_date_out_of_window": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "unit_price_mismatch": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 3,
+      "whole_row_success": 0
+    },
+    "unknown_service": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 3,
+      "whole_row_success": 0
+    },
+    "volume_discount_incorrectly_applied": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "volume_discount_omitted": {
+      "amount_exact": 0,
+      "covered": 0,
+      "detection_recall_all": 0.0,
+      "flagged": 0,
+      "support": 1,
+      "whole_row_success": 0
+    },
+    "wrong_unit_basis": {
+      "amount_exact": 1,
+      "covered": 1,
+      "detection_recall_all": 0.2,
+      "flagged": 1,
+      "support": 5,
+      "whole_row_success": 1
+    }
+  },
+  "population": 291,
+  "provenance": {
+    "abstention_policy": "Not treated as correct negatives. Included as missed positives in all-population recall; excluded from conditional accuracy.",
+    "attempt": "a1ee1b9f209f4f41913349e165fe8a26",
+    "category_policy": "Families use the explicit many-to-one crosswalk in evaluation.py; original-label table reports detection, not invented category-specific precision.",
+    "confidence_scope": "H1 is development data; target transfer accuracy is not established.",
+    "group": "check",
+    "labels_sha256": "79e7918337b7836d810b1164ec955684454dd7dcdd805ee7e0a7a980d14302b6",
+    "role": "regression after reserved-check exposure; not a fresh holdout",
+    "run_id": "bdbdacb0da2df2bfe3ecf34be1ea195ce722c7bdb9cd04ff01af865c288280cf",
+    "split_sha256": "1b3fa0cba11ec7b653b2096dda9dcd6b974aeea321f9cd2eda4ee17ba8e1c428",
+    "whole_row_event": "Correct binary flag AND exact expected cents. Billed cents/identity validated separately; free-text category correctness is reported by family, not included in this event."
+  },
+  "unmapped_truth_categories": [],
+  "whole_row_accuracy_covered": 1.0,
+  "whole_row_success_count": 81
+}

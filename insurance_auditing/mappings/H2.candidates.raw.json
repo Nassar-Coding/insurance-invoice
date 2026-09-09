@@ -1,0 +1,1590 @@
+{
+  "catalog": [
+    "Advanced Dermatologic Specimen Analysis",
+    "Advanced Endocrine Case Conference",
+    "Advanced Gastrointestinal Endoscopic Procedure",
+    "Advanced Infectious Isolation Room Occupancy",
+    "Advanced Rheumatologic Isolation Room Occupancy",
+    "Ambulatory Haematology Nutritional Support",
+    "Ambulatory Vascular Infusion Therapy",
+    "Assisted Gastrointestinal Biopsy Procedure",
+    "Assisted Infectious Telemetry Monitoring",
+    "Assisted Musculoskeletal Diagnostic Imaging",
+    "Bedside Obstetric Physiotherapy Session",
+    "Bedside Ophthalmic Radiotherapy Fraction",
+    "Bedside Pulmonary Pharmaceutical Dispensing",
+    "Comprehensive Haematology Transport Service",
+    "Comprehensive Otolaryngologic Case Conference",
+    "Continuous Otolaryngologic Discharge Planning",
+    "Continuous Renal Ventilation Support",
+    "Elective Cardiac Nursing Observation",
+    "Elective Cardiac Transport Service",
+    "Emergency Haematology Transport Service",
+    "Emergency Paediatric Theatre Time",
+    "Emergency Pulmonary Ventilation Support",
+    "Emergency Renal Infusion Therapy",
+    "Extended Dermatologic Specimen Analysis",
+    "Extended Orthopaedic Radiotherapy Fraction",
+    "Extended Otolaryngologic Nutritional Support",
+    "Extended Vascular Home Visit",
+    "Focused Cardiac Dialysis Session",
+    "Focused Ophthalmic Laboratory Panel",
+    "Focused Palliative Recovery Room Occupancy",
+    "Focused Pulmonary Pharmaceutical Dispensing",
+    "Focused Vascular Transfusion Service",
+    "Inpatient Ophthalmic Recovery Room Occupancy",
+    "Inpatient Orthopaedic Recovery Room Occupancy",
+    "Inpatient Paediatric Isolation Room Occupancy",
+    "Intensive Infectious Physiotherapy Session",
+    "Intensive Neurological Rehabilitation Programme",
+    "Intensive Otolaryngologic Rehabilitation Programme",
+    "Intensive Paediatric Infusion Therapy",
+    "Intensive Palliative Ward Bed Occupancy",
+    "Intermittent Cardiac Specimen Analysis",
+    "Intermittent Ophthalmic Anaesthesia Administration",
+    "Intermittent Orthopaedic Recovery Room Occupancy",
+    "Intermittent Otolaryngologic Rehabilitation Programme",
+    "Intermittent Psychiatric Laboratory Panel",
+    "Outpatient Haematology Biopsy Procedure",
+    "Postoperative Cardiac Physiotherapy Session",
+    "Postoperative Neurological Rehabilitation Programme",
+    "Postoperative Ophthalmic Anaesthesia Administration",
+    "Postoperative Orthopaedic Isolation Room Occupancy",
+    "Postoperative Paediatric Theatre Time",
+    "Postoperative Pulmonary Infusion Therapy",
+    "Postoperative Vascular Transport Service",
+    "Preoperative Cardiac Specimen Analysis",
+    "Preoperative Neurological Isolation Room Occupancy",
+    "Preoperative Obstetric Home Visit",
+    "Preoperative Obstetric Physiotherapy Session",
+    "Preoperative Orthopaedic Ventilation Support",
+    "Preoperative Vascular Imaging Interpretation",
+    "Routine Geriatric Physiotherapy Session",
+    "Routine Infectious Isolation Room Occupancy",
+    "Routine Neurological Imaging Interpretation",
+    "Routine Ophthalmic Laboratory Panel",
+    "Specialist Psychiatric Sterilisation Service",
+    "Standard Metabolic Telemetry Monitoring",
+    "Standard Musculoskeletal Recovery Room Occupancy",
+    "Standard Neurological Isolation Room Occupancy",
+    "Standard Orthopaedic Isolation Room Occupancy",
+    "Standard Paediatric Infusion Therapy",
+    "Standard Psychiatric Transfusion Service",
+    "Supervised Haematology Biopsy Procedure",
+    "Supervised Hepatic Endoscopic Procedure",
+    "Supervised Metabolic Laboratory Panel",
+    "Supervised Musculoskeletal Diagnostic Imaging",
+    "Supervised Neurological Imaging Interpretation",
+    "Supervised Rheumatologic Critical Care Occupancy"
+  ],
+  "hospital": "H2",
+  "proposals": {
+    "ADMIN OPHTH ANAES /SA-6486": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "ADMIN POSTOP OPHTH ANAES": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "ADV  ENDO CASE CONFERENCE": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "ADV  GI ENDOSC PROC": [
+      "Advanced Gastrointestinal Endoscopic Procedure"
+    ],
+    "ADV  GI ENDOSC PROC /SA-3924": [
+      "Advanced Gastrointestinal Endoscopic Procedure"
+    ],
+    "ADV  GI PROC": [
+      "Advanced Gastrointestinal Endoscopic Procedure"
+    ],
+    "ADV  RHEUM ISOL RM OCC /SA-5213": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "ADV - INFECT ISOL RM OCC /SA-7043": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "ADV DERM ANLY": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ADV DERM SPCM ANALYSIS /SA-4468": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ADV DERM SPCM ANLY /SA-9302": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ADV ENDO CS CONF /SA-1948": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "ADV ENDOSCOPIC PROC /SA-6974": [
+      "Advanced Gastrointestinal Endoscopic Procedure"
+    ],
+    "ADV INFECT ISOL RM OCC": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "ADV RHEUM ISOL RM OCCUPANCY": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "ADV RHEUM ISOLATION OCC": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "ADV RHEUM RM OCC": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "ADV RHEUM RM OCCUPANCY": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "ADVANCED INFECT RM OCC": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "ADVANCED RHEUM ISOL RM /SA-1731": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "AMB - PALL DIAGNOSTIC IMG /SA-7135": [],
+    "AMB HAEM NUTR SUPP": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "AMB NUTRITIONAL SUPP /SA-7761": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "AMB VASC INF THER": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "AMB VASC INF THER /SA-1352": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "AMB VASC INFUSION THER": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "AMBULATORY - OPHTH VENTILATION SUPP": [],
+    "AMBULATORY VASC INF THERAPY": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "ANALYSIS CARD SPCM": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "ANALYSIS EXT DERM SPCM": [
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "ANLY - DERM SPCM": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "ANLY ADV DERM SPCM /SA-1886": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ANLY ADV DERM SPCM /SA-3043": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ANLY ADV DERMATOLOGIC SPECIMEN /SA-3586": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "ANLY INTERM CARD SPCM": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "ANLY INTERM CARD SPCM /SA-2727": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "ANLY PREOP CARD SPCM": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "ANLY PREOPERATIVE CARD SPECIMEN": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "ASST - INFECT TELEM": [
+      "Assisted Infectious Telemetry Monitoring"
+    ],
+    "ASST - INFECT TELEM MONIT": [
+      "Assisted Infectious Telemetry Monitoring"
+    ],
+    "ASST BIOP PROC": [
+      "Assisted Gastrointestinal Biopsy Procedure"
+    ],
+    "ASST DIAG IMAGING": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "ASST DIAG IMG /SA-7926": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "ASST INFECT MONIT /SA-6965": [
+      "Assisted Infectious Telemetry Monitoring"
+    ],
+    "ASST INFECT TELEM MONIT /SA-9090": [
+      "Assisted Infectious Telemetry Monitoring"
+    ],
+    "ASST MSK DIAG IMG /SA-4432": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "BEDS  OBST PHYSIO SESS": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "BEDS OBST PHYSIOTHERAPY SESSION": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "BEDS OBSTETRIC PHYSIO SESS /SA-6964": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "BEDS OPHTH RADIOTHER FRACT /SA-1831": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "BEDS PHARM DISP": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "BEDS PULM DISP /SA-7949": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "BEDS PULMONARY PHARM DISP": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "BEDSIDE OPHTH RADIOTHER FRACT /SA-4563": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "BIOPSY ASST GI /SA-6156": [
+      "Assisted Gastrointestinal Biopsy Procedure"
+    ],
+    "CARD  NURS OBS": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "CARD SPCM ANLY INTERM": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "CARD SPCM ANLY PREOP": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "CARDIAC  TRANSP SERVICE": [
+      "Elective Cardiac Transport Service"
+    ],
+    "COMPR  HAEM SVC /SA-2722": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "COMPR  HAEM TRANSP SVC": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "COMPR ENT CASE CONF": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "COMPR ENT CS CONF": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "COMPR ENT CS CONF /SA-8008": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "COMPR HAEM TRANSP SERVICE /SA-1740": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "COMPR HAEM TRANSPORT SVC": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "COMPREHENSIVE  HAEM TRANSP SVC /SA-3116": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "CONF  COMPR ENT CS": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "CONF ADV ENDO CASE": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "CONF ADV ENDO CS": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "CONT  REN SUPP": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "CONT - OTOLARYNGOLOGIC DISCH PLNG": [
+      "Continuous Otolaryngologic Discharge Planning"
+    ],
+    "CONT - REN VENT SUPP": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "CONT ENT DISCH PLNG": [
+      "Continuous Otolaryngologic Discharge Planning"
+    ],
+    "CONT ENT DISCH PLNG /SA-8811": [
+      "Continuous Otolaryngologic Discharge Planning"
+    ],
+    "CONT OTOLARYNGOLOGIC DISCH PLNG /SA-3899": [
+      "Continuous Otolaryngologic Discharge Planning"
+    ],
+    "CONT REN VENT SUPP /SA-2853": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "CONT REN VENT SUPPORT": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "CS  ADV ENDO /SA-1786": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "DERM SPCM ANLY ADV": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "DERM SPCM ANLY EXT": [
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "DIAG SUPERVISED MSK": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "DIAGNOSTIC SUPV MSK /SA-5988": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "DISP - BEDS PULM PHARM": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "DISP BEDS PULMONARY PHARM": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "DISP FOC PHARM": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "DISP FOC PULM PHARM /SA-1272": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "ELECT  CARD NURS OBSERVATION /SA-6459": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "ELECT - CARD NURSING OBS": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "ELECT CARD NURS OBS": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "ELECT CARD NURS OBS /SA-1894": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "ELECT CARD NURS OBS /SA-5886": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "ELECT CARD SVC": [
+      "Elective Cardiac Transport Service"
+    ],
+    "ELECT CARD TRANSP SVC /SA-5251": [
+      "Elective Cardiac Transport Service"
+    ],
+    "ELECT TRANSP SVC": [
+      "Elective Cardiac Transport Service"
+    ],
+    "EMER  PULM VENT SUPP /SA-9029": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "EMER  REN INF THER /SA-7213": [
+      "Emergency Renal Infusion Therapy"
+    ],
+    "EMER  REN THER": [
+      "Emergency Renal Infusion Therapy"
+    ],
+    "EMER  TRANSP SERVICE /SA-9292": [
+      "Emergency Haematology Transport Service"
+    ],
+    "EMER  TRANSP SVC /SA-1419": [
+      "Emergency Haematology Transport Service"
+    ],
+    "EMER - PAED THTR TM /SA-9306": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "EMER HAEM SVC /SA-3156": [
+      "Emergency Haematology Transport Service"
+    ],
+    "EMER HAEM TRANSP SVC /SA-2115": [
+      "Emergency Haematology Transport Service"
+    ],
+    "EMER MSK PROG /SA-4534": [],
+    "EMER PAED THTR TIME /SA-3798": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "EMER PAED THTR TM /SA-9377": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "EMER PULM VENT": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "EMER PULM VENT SUPP /SA-6819": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "EMER PULMONARY VENT SUPP /SA-3137": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "EMER REN INF THER": [
+      "Emergency Renal Infusion Therapy"
+    ],
+    "EMER REN INF THER /SA-8878": [
+      "Emergency Renal Infusion Therapy"
+    ],
+    "EMER REN INFUSION THER": [
+      "Emergency Renal Infusion Therapy"
+    ],
+    "EMER THTR TM /SA-2118": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "EMERGENCY PAED THTR TM /SA-2205": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "ENDO  CS CONF": [
+      "Advanced Endocrine Case Conference"
+    ],
+    "ENT CS CONF /SA-5963": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "ENT CS CONF /SA-6459": [
+      "Comprehensive Otolaryngologic Case Conference"
+    ],
+    "ENT REHAB PROG": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "ENT REHAB PROG INTENS": [
+      "Intensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "ENT REHAB PROG INTERM": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "EXT  DERM SPCM ANLY /SA-4005": [
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "EXT  ORTHO RADIOTHER FRACT": [
+      "Extended Orthopaedic Radiotherapy Fraction"
+    ],
+    "EXT  VASC HM VST": [
+      "Extended Vascular Home Visit"
+    ],
+    "EXT  VASC HOME": [
+      "Extended Vascular Home Visit"
+    ],
+    "EXT DERM ANLY /SA-1680": [
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "EXT ENT NUTR SUPP": [
+      "Extended Otolaryngologic Nutritional Support"
+    ],
+    "EXT ENT NUTR SUPP /SA-9610": [
+      "Extended Otolaryngologic Nutritional Support"
+    ],
+    "EXT ORTHO RADIOTHERAPY FRACT": [
+      "Extended Orthopaedic Radiotherapy Fraction"
+    ],
+    "EXT ORTHOPAEDIC RADIOTHER FRACT /SA-4235": [
+      "Extended Orthopaedic Radiotherapy Fraction"
+    ],
+    "EXT RADIOTHER FRACT": [
+      "Extended Orthopaedic Radiotherapy Fraction"
+    ],
+    "EXT VASC HM": [
+      "Extended Vascular Home Visit"
+    ],
+    "EXT VASC VST": [
+      "Extended Vascular Home Visit"
+    ],
+    "EXTENDED  DERM SPCM ANLY": [
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "EXTENDED - HM VST": [
+      "Extended Vascular Home Visit"
+    ],
+    "EXTENDED ENT NUTR": [
+      "Extended Otolaryngologic Nutritional Support"
+    ],
+    "EXTENDED VASC VST /SA-2084": [
+      "Extended Vascular Home Visit"
+    ],
+    "FOC  CARD DIAL SESS /SA-1981": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "FOC  OPHTH LAB PNL /SA-9997": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "FOC  OPHTH LABORATORY PNL /SA-6975": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "FOC  PALL RECOV RM OCC /SA-5934": [
+      "Focused Palliative Recovery Room Occupancy"
+    ],
+    "FOC  PALL RECOV ROOM OCCUPANCY /SA-9540": [
+      "Focused Palliative Recovery Room Occupancy"
+    ],
+    "FOC  PULM PHARM DISP": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "FOC  PULM PHARM DISP /SA-2738": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "FOC  PULM PHARM DISP /SA-8680": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "FOC  VASC PHARM DISP /SA-5164": [],
+    "FOC  VASC TRANSF SVC": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "FOC - CARD DIAL SESS": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "FOC CARDIAC DIAL SESS /SA-9422": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "FOC OPHTH LAB PNL /SA-4929": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "FOC OPHTH LAB PNL /SA-5900": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "FOC PALL RECOVERY RM OCC /SA-8419": [
+      "Focused Palliative Recovery Room Occupancy"
+    ],
+    "FOC VASC TRANSFUSION SVC": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "FOCUSED OPHTH LAB PNL /SA-1953": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "FOCUSED PULMONARY PHARM DISP": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "FRACT  BEDS OPHTH RADIOTHER /SA-8930": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "FRACT  BEDSIDE OPHTH RADIOTHER": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "FRACT BEDS RADIOTHER /SA-5851": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "FRACT EXT ORTHO RADIOTHER": [
+      "Extended Orthopaedic Radiotherapy Fraction"
+    ],
+    "FRACTION BEDS OPHTH RADIOTHER /SA-7880": [
+      "Bedside Ophthalmic Radiotherapy Fraction"
+    ],
+    "HAEM BIOP PROC /SA-6522": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "HAEM BIOP PROC OUTPT": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "HAEM BIOP PROC SUPV": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "HAEM TRANSP SVC COMPR": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "HAEM TRANSP SVC EMER": [
+      "Emergency Haematology Transport Service"
+    ],
+    "IMAGING ASST MSK DIAG /SA-2758": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "IMG - SUPV MSK DIAG /SA-2439": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "IMG ASST DIAG": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "IMG CONT CARD DIAG /SA-4810": [],
+    "IMG PREOP VASC": [
+      "Preoperative Vascular Imaging Interpretation"
+    ],
+    "IMG SUPV MSK DIAG": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "INFECT ISOL RM OCC ADV": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "INFECT ISOL RM OCC RTN": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "INPATIENT OPHTH RECOV RM": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "INPATIENT ORTHO RECOV RM OCC /SA-8038": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "INPT  ORTHO RECOV RM OCC /SA-8297": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "INPT ISOL RM OCC": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "INPT OPHTH RECOV OCCUPANCY /SA-8706": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "INPT OPHTH RECOV RM OCC": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "INPT OPHTH RECOV ROOM OCC": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "INPT ORTHO RECOV OCC": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "INPT PAED ISOL RM OCC": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "INPT PAED ISOL ROOM OCC": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "INTENS  - METAB RECOV RM OCC": [],
+    "INTENS  - PALLIATIVE WD BD OCC /SA-6765": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "INTENS  ENT REHAB PROG": [
+      "Intensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTENS  ENT REHABILITATION PROG /SA-2959": [
+      "Intensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTENS  PAED INF THER": [
+      "Intensive Paediatric Infusion Therapy"
+    ],
+    "INTENS  PALL WD BD /SA-1182": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "INTENS - ENT REHAB PROG /SA-6734": [
+      "Intensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTENS - NEURO REHABILITATION PROG /SA-8220": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "INTENS INFECT PHYSIO SESS": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "INTENS INFECTIOUS PHYSIO SESS /SA-3027": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "INTENS NEURO PROG /SA-3375": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "INTENS NEURO REHAB PROG": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "INTENS PAED INF THER /SA-4770": [
+      "Intensive Paediatric Infusion Therapy"
+    ],
+    "INTENS PALL BD OCCUPANCY": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "INTENS PALL WD BD OCC /SA-8184": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "INTENS PALLIATIVE WD BD OCC": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "INTENSIVE  INFECT PHYSIO SESS": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "INTENSIVE  PAED INF THER": [
+      "Intensive Paediatric Infusion Therapy"
+    ],
+    "INTENSIVE INFECT PHYSIO SESS /SA-6814": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "INTERM  OPHTHALMIC ADMIN": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERM  ORTHO RECOV RM OCC /SA-8516": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "INTERM  ORTHO RECOVERY RM OCC /SA-8653": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "INTERM  PSYCH LAB PANEL /SA-3427": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "INTERM  REHAB PROG": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTERM - CARD SPCM ANLY": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "INTERM - MSK DIAL SESSION /SA-9704": [],
+    "INTERM - OPHTH ANAES ADMIN /SA-3116": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERM CARD ANLY": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "INTERM CARD SPCM": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "INTERM ENT REHAB /SA-8030": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTERM ENT REHAB PROG": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "INTERM OPHTH ADMIN": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERM OPHTH ANAES ADMIN": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERM ORTHO RECOV OCC": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "INTERM ORTHO RECOV RM OCC": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "INTERM PSYCH LAB PNL": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "INTERM PSYCHIATRIC LAB PNL /SA-4231": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "INTERMITTENT OPHTH ANAES ADMIN": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERMITTENT OPHTH ANAESTHESIA ADMIN": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "INTERMITTENT PSYCH LAB": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "INTERMITTENT PSYCH LAB PNL /SA-4633": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "INTERP  RTN NEURO IMG": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "INTERP  SUPERVISED IMG /SA-6042": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "INTERP  SUPV NEURO IMG /SA-3334": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "INTERP RTN NEURO IMG /SA-3711": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "INTERPRETATION  ROUTINE NEURO": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "INTERPRETATION NEURO IMG /SA-5989": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "INTERPRETATION SUPERVISED NEURO IMG": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "LAB SUPV METAB": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "METAB LAB PANEL": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "MONIT  STD METAB TELEM /SA-3090": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "MONIT STD METAB TELEM": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "MONITORING ASST INFECT TELEMETRY": [
+      "Assisted Infectious Telemetry Monitoring"
+    ],
+    "MSK  DIAG IMG": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "MSK DIAG IMG ASST": [
+      "Assisted Musculoskeletal Diagnostic Imaging"
+    ],
+    "MSK DIAG IMG SUPV": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "MSK RECOVERY RM OCC": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "NEURO  REHAB PROG": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "NEURO IMG INTERP RTN": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "NEURO IMG INTERP SUPV": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "NEURO ISOL RM OCC PREOP": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "NEURO ISOL RM OCC STD": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "NEURO REHAB PROG INTENS": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "NEURO REHAB PROG POSTOP": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "NEUROLOGICAL REHAB PROG /SA-9661": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "OBSERVATION  CARD NURSING": [
+      "Elective Cardiac Nursing Observation"
+    ],
+    "OBST PHYSIO SESS BEDS": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "OBST PHYSIO SESS PREOP": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "OCC  - FOC PALL RECOV ROOM": [
+      "Focused Palliative Recovery Room Occupancy"
+    ],
+    "OCC  ADV RHEUM ISOL": [
+      "Advanced Rheumatologic Isolation Room Occupancy"
+    ],
+    "OCC  INPATIENT ORTHO RECOV RM /SA-2313": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "OCC  INPT PAED ISOL RM": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "OCC  INPT PAED ISOL RM /SA-6138": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "OCC  INPT PAED ISOLATION ROOM": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "OCC  PREOP NEUROLOGICAL ISOL RM /SA-3078": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "OCC - PREOPERATIVE NEURO ISOL RM": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "OCC ADV INFECT ISOL /SA-7328": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "OCC ADV INFECT ISOL ROOM /SA-3253": [
+      "Advanced Infectious Isolation Room Occupancy"
+    ],
+    "OCC INPATIENT OPHTH RECOV /SA-5374": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "OCC INPATIENT ORTHO RECOV RM /SA-7665": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "OCC INPT OPHTH RECOV RM": [
+      "Inpatient Ophthalmic Recovery Room Occupancy"
+    ],
+    "OCC INPT PAED ISOL RM /SA-7229": [
+      "Inpatient Paediatric Isolation Room Occupancy"
+    ],
+    "OCC INTENS PALL WD BD": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "OCC INTENS WD BD": [
+      "Intensive Palliative Ward Bed Occupancy"
+    ],
+    "OCC INTERM ORTHOPAEDIC RECOV RM /SA-4391": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "OCC POSTOP ORTHO ISOL ROOM": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "OCC POSTOP ORTHO ISOLATION RM": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "OCC PREOP ISOL RM": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "OCC PREOP NEUROLOGICAL ISOL RM": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "OCC PREOPERATIVE NEURO ISOL RM": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "OCC STD MSK RECOV RM": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "OCC STD MSK RECOV ROOM": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "OCC STD NEURO ISOL": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "OCC STD NEURO ISOL RM": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "OCC STD NEUROLOGICAL ISOL ROOM /SA-6421": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "OCC STD ORTHO ISOL RM": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "OCC STD RECOV RM": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "OCC SUPV RHEUM CRIT CR": [
+      "Supervised Rheumatologic Critical Care Occupancy"
+    ],
+    "OCCUPANCY SUPV RHEUM CRIT CR /SA-3411": [
+      "Supervised Rheumatologic Critical Care Occupancy"
+    ],
+    "ONC WD BD OCC /SA-5889": [],
+    "OPHTH - ANAESTHESIA ADMIN /SA-3643": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "OPHTH ANAES ADMIN INTERM": [
+      "Intermittent Ophthalmic Anaesthesia Administration"
+    ],
+    "OPHTH ANAES ADMIN POSTOP": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "OPHTH LAB PNL": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "OPHTH LAB PNL FOC": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "OPHTH LAB PNL RTN": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "ORTHO ISOL RM OCC POSTOP": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "ORTHO ISOL RM OCC STD": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "ORTHO RECOV RM OCC INPT": [
+      "Inpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "ORTHO RECOV RM OCC INTERM": [
+      "Intermittent Orthopaedic Recovery Room Occupancy"
+    ],
+    "ORTHOPAEDIC ISOL RM OCC": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "OTOLARYNGOLOGIC  DISCH PLNG /SA-6235": [
+      "Continuous Otolaryngologic Discharge Planning"
+    ],
+    "OUTPT HAEM BIOP PROC /SA-1755": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "OUTPT HAEM BIOPSY PROC": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "OUTPT HAEMATOLOGY BIOP PROC /SA-7396": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "PAED  INF THER": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "PAED INF THER INTENS": [
+      "Intensive Paediatric Infusion Therapy"
+    ],
+    "PAED INF THER STD": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "PAED THEATRE TM /SA-1156": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "PAED THTR TM EMER": [
+      "Emergency Paediatric Theatre Time"
+    ],
+    "PAED THTR TM POSTOP": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "PAEDIATRIC  INF THER": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "PALL RECOV ROOM OCC": [
+      "Focused Palliative Recovery Room Occupancy"
+    ],
+    "PANEL  RTN OPHTH LAB": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "PHARM FOC PULM": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "PHYSIOTHERAPY  BEDS OBST": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "PLNG  BEDS GERIATRIC DISCH": [],
+    "PNL  RTN OPHTH LABORATORY": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "PNL FOC LAB /SA-4377": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "PNL FOCUSED OPHTH LAB /SA-2998": [
+      "Focused Ophthalmic Laboratory Panel"
+    ],
+    "PNL INTERM PSYCH LAB": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "PNL INTERM PSYCH LAB /SA-5413": [
+      "Intermittent Psychiatric Laboratory Panel"
+    ],
+    "PNL RTN OPHTH LAB": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "POSTOP  CARD PHYSIO": [
+      "Postoperative Cardiac Physiotherapy Session"
+    ],
+    "POSTOP  CARD PHYSIO SESS /SA-4818": [
+      "Postoperative Cardiac Physiotherapy Session"
+    ],
+    "POSTOP  OPHTH ANAES ADMINISTRATION /SA-5379": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "POSTOP  ORTHO ISOL OCC": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "POSTOP  PULMONARY INF THER": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "POSTOP  VASC TRANSP SVC": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "POSTOP - NEURO PROG /SA-8363": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP - NEURO REHAB PROG": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP ANAES ADMIN": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "POSTOP CARD PHYSIO SESS /SA-2508": [
+      "Postoperative Cardiac Physiotherapy Session"
+    ],
+    "POSTOP CARD SESS": [
+      "Postoperative Cardiac Physiotherapy Session"
+    ],
+    "POSTOP INF THER": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "POSTOP NEURO PROG /SA-1044": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP NEURO REHAB PROG /SA-1572": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP NEURO REHAB PROG /SA-6939": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP NEURO REHABILITATION PROG": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "POSTOP OPHTH ANAESTHESIA /SA-4633": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "POSTOP ORTHO ISOL RM OCC": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "POSTOP ORTHO ISOLATION RM OCC": [
+      "Postoperative Orthopaedic Isolation Room Occupancy"
+    ],
+    "POSTOP PAED THTR TM": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "POSTOP PULM INF THER /SA-6470": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "POSTOP PULM INF THER /SA-9058": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "POSTOP PULM INFUSION THER": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "POSTOP THTR TM": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "POSTOP VASC TRANSP SERVICE": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "POSTOP VASC TRANSP SVC /SA-5049": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "POSTOP VASCULAR TRANSPORT SVC": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "POSTOPERATIVE OPHTH ANAES ADMIN": [
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "POSTOPERATIVE PAED THTR TM": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "PREOP  OBST HOME VST /SA-4776": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "PREOP  OBST PHYSIO SESS": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "PREOP  OBST PHYSIO SESS /SA-5105": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "PREOP  ORTHO SUPP /SA-5284": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "PREOP  VASC INTERP": [
+      "Preoperative Vascular Imaging Interpretation"
+    ],
+    "PREOP - ORTHO VENT SUPP": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "PREOP - ORTHO VENT SUPP /SA-6661": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "PREOP CARD ANALYSIS": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "PREOP CARD SPCM ANLY": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "PREOP CARD SPECIMEN ANLY /SA-9557": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "PREOP CARDIAC SPCM ANLY /SA-9127": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "PREOP NEURO ISOL RM": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "PREOP NEURO ISOL RM OCC": [
+      "Preoperative Neurological Isolation Room Occupancy"
+    ],
+    "PREOP OBST HM VST /SA-3879": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "PREOP OBST PHYSIO SESS /SA-6179": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "PREOP OBSTETRIC HM VISIT": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "PREOP OBSTETRIC HM VST": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "PREOP ORTHO VENTILATION SUPP /SA-6583": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "PREOP SPCM ANLY /SA-5067": [
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "PREOP VASC IMG INTERP": [
+      "Preoperative Vascular Imaging Interpretation"
+    ],
+    "PREOP VASC INTERP /SA-3692": [
+      "Preoperative Vascular Imaging Interpretation"
+    ],
+    "PREOPERATIVE  OBST PHYSIO SESSION": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "PREOPERATIVE  OBST SESS /SA-3810": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "PREOPERATIVE OBST HM VST": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "PREOPERATIVE ORTHOPAEDIC VENTILATION SUPP /SA-9857": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "PROC  - SUPV HEP": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "PROC  SUPV HAEM BIOP /SA-6944": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "PROC ADV GI ENDOSCOPIC /SA-3753": [
+      "Advanced Gastrointestinal Endoscopic Procedure"
+    ],
+    "PROC ASST GASTROINTESTINAL": [
+      "Assisted Gastrointestinal Biopsy Procedure"
+    ],
+    "PROC HEP ENDOSC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "PROC OUTPT HAEM BIOP": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "PROC OUTPT HAEM BIOPSY /SA-9926": [
+      "Outpatient Haematology Biopsy Procedure"
+    ],
+    "PROCEDURE ASST GI BIOP": [
+      "Assisted Gastrointestinal Biopsy Procedure"
+    ],
+    "PROCEDURE ASST GI BIOPSY /SA-5378": [
+      "Assisted Gastrointestinal Biopsy Procedure"
+    ],
+    "PROCEDURE SUPV HEP ENDOSC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "PROG  INTENS ENT REHAB": [
+      "Intensive Otolaryngologic Rehabilitation Programme"
+    ],
+    "PROG INTENS NEURO REHAB": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "PROG INTERM OTOLARYNGOLOGIC REHAB": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "PROGRAMME INTENS NEURO REHAB": [
+      "Intensive Neurological Rehabilitation Programme"
+    ],
+    "PSYCH TRANSF SVC": [
+      "Standard Psychiatric Transfusion Service"
+    ],
+    "PULM INF THER /SA-9868": [
+      "Postoperative Pulmonary Infusion Therapy"
+    ],
+    "PULM PHARM DISP /SA-2727": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "PULM PHARM DISP BEDS": [
+      "Bedside Pulmonary Pharmaceutical Dispensing"
+    ],
+    "PULM PHARM DISP FOC": [
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "REHABILITATION INTERM ENT": [
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "REHABILITATION POSTOP NEURO /SA-3507": [
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "ROUTINE HEP CS CONF": [],
+    "ROUTINE INFECT RM OCC": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "ROUTINE LAB PNL /SA-5904": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "RTN  INFECT ISOL RM": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "RTN  INFECT ISOL RM OCC /SA-1394": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "RTN  INFECT RM OCC /SA-3020": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "RTN  NEUROLOGICAL IMG INTERP": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "RTN GER PHYSIO SESS": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "RTN GER SESS": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "RTN INFECT ISOL RM OCC /SA-6375": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "RTN INFECT RM OCC": [
+      "Routine Infectious Isolation Room Occupancy"
+    ],
+    "RTN NEURO IMG INTERP /SA-2009": [
+      "Routine Neurological Imaging Interpretation"
+    ],
+    "RTN OPHTH LAB PNL /SA-1969": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "RTN OPHTHALMIC LAB PNL": [
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "RTN PHYSIO SESS": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "SERVICE - ELECT CARD TRANSP": [
+      "Elective Cardiac Transport Service"
+    ],
+    "SERVICE FOC VASC TRANSFUSION /SA-8463": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "SESS  INTENS INFECT PHYSIO": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "SESS CARD DIAL": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "SESS FOC CARD DIAL": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "SESS FOC CARD DIAL /SA-1863": [
+      "Focused Cardiac Dialysis Session"
+    ],
+    "SESS INTENS INFECT PHYSIO /SA-4043": [
+      "Intensive Infectious Physiotherapy Session"
+    ],
+    "SESS PREOP OBST PHYSIO": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "SESS PREOP PHYSIO": [
+      "Preoperative Obstetric Physiotherapy Session"
+    ],
+    "SESS ROUTINE GERIATRIC PHYSIO /SA-3246": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "SESS RTN GER PHYSIO /SA-5953": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "SESS RTN GER PHYSIO /SA-7008": [
+      "Routine Geriatric Physiotherapy Session"
+    ],
+    "SESSION  BEDS OBST PHYSIO /SA-5920": [
+      "Bedside Obstetric Physiotherapy Session"
+    ],
+    "SESSION POSTOP CARD PHYSIO": [
+      "Postoperative Cardiac Physiotherapy Session"
+    ],
+    "SPCLST HEP NUTR SUPP": [],
+    "SPCLST PSYCH STERIL SERVICE": [
+      "Specialist Psychiatric Sterilisation Service"
+    ],
+    "SPCLST PSYCH STERILISATION SVC /SA-1201": [
+      "Specialist Psychiatric Sterilisation Service"
+    ],
+    "SPCLST STERILISATION SVC": [
+      "Specialist Psychiatric Sterilisation Service"
+    ],
+    "SPCM  - INTERM CARD /SA-3094": [
+      "Intermittent Cardiac Specimen Analysis"
+    ],
+    "SPCM ADV DERM /SA-5608": [
+      "Advanced Dermatologic Specimen Analysis"
+    ],
+    "SPECIALIST PSYCH STERIL SERVICE": [
+      "Specialist Psychiatric Sterilisation Service"
+    ],
+    "STANDARD  - ORTHO ISOL RM OCC": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "STD  - TELEM MONIT": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "STD  GI TELEM MONIT": [],
+    "STD  MSK RECOV RM OCC": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "STD  NEURO ISOL RM OCC": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "STD - ORTHO ISOL RM OCC /SA-1562": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "STD - PAED INF THER /SA-9927": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "STD - TELEM MONIT /SA-8775": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "STD ENT ANAES ADMIN /SA-3414": [],
+    "STD ISOL RM OCC": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "STD METAB TELEM MONIT": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "STD METAB TELEM MONIT /SA-4721": [
+      "Standard Metabolic Telemetry Monitoring"
+    ],
+    "STD MSK RECOV RM /SA-7054": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "STD NEURO ISOL RM OCCUPANCY /SA-5454": [
+      "Standard Neurological Isolation Room Occupancy"
+    ],
+    "STD ORTHO ISOL RM OCC /SA-8236": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "STD ORTHO ISOL ROOM OCCUPANCY /SA-3231": [
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "STD PAED INF THER": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "STD PSYCHIATRIC TRANSF SVC": [
+      "Standard Psychiatric Transfusion Service"
+    ],
+    "STD RECOV RM OCC": [
+      "Standard Musculoskeletal Recovery Room Occupancy"
+    ],
+    "SUPERVISED  METAB LAB PANEL /SA-4441": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "SUPERVISED BIOPSY PROC": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "SUPERVISED HAEM BIOP PROCEDURE": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "SUPERVISED NEUROLOGICAL IMG INTERP /SA-6293": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "SUPP  - EXT ENT NUTR": [
+      "Extended Otolaryngologic Nutritional Support"
+    ],
+    "SUPP  AMB HAEM NUTR /SA-4369": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "SUPP  AMB HAEMATOLOGY": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "SUPP - CONT REN VENT": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "SUPP AMB HAEM NUTR": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "SUPP EMER PULM VENT": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "SUPP EMER PULM VENTILATION /SA-8204": [
+      "Emergency Pulmonary Ventilation Support"
+    ],
+    "SUPP EXT ENT NUTR /SA-9016": [
+      "Extended Otolaryngologic Nutritional Support"
+    ],
+    "SUPP PREOP ORTHO VENT": [
+      "Preoperative Orthopaedic Ventilation Support"
+    ],
+    "SUPPORT  AMB HAEM NUTR": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "SUPPORT AMBULATORY HAEM NUTR": [
+      "Ambulatory Haematology Nutritional Support"
+    ],
+    "SUPPORT CONTINUOUS REN VENT": [
+      "Continuous Renal Ventilation Support"
+    ],
+    "SUPV  HEP ENDOSC PROC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "SUPV  IMG INTERP": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "SUPV - NEURO IMG": [
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "SUPV HAEM BIOP PROC": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "SUPV HAEM BIOP PROC /SA-6547": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "SUPV HAEM BIOP PROC /SA-9038": [
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "SUPV HEP ENDOSC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "SUPV HEP ENDOSCOPIC PROC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "SUPV HEPATIC ENDOSC PROC": [
+      "Supervised Hepatic Endoscopic Procedure"
+    ],
+    "SUPV METAB LAB PNL /SA-3376": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "SUPV METAB LABORATORY PANEL /SA-8571": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "SUPV METAB LABORATORY PNL /SA-3629": [
+      "Supervised Metabolic Laboratory Panel"
+    ],
+    "SUPV MSK DIAG /SA-7067": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "SUPV MSK DIAG IMG": [
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "SUPV OPHTH IMG": [],
+    "SUPV RHEUM CRIT CR OCC": [
+      "Supervised Rheumatologic Critical Care Occupancy"
+    ],
+    "SUPV RHEUM CRIT CR OCC /SA-8848": [
+      "Supervised Rheumatologic Critical Care Occupancy"
+    ],
+    "SUPV RHEUMATOLOGIC CRIT CR OCC": [
+      "Supervised Rheumatologic Critical Care Occupancy"
+    ],
+    "SVC  SPCLST PSYCH STERIL": [
+      "Specialist Psychiatric Sterilisation Service"
+    ],
+    "SVC - ELECT CARDIAC TRANSP": [
+      "Elective Cardiac Transport Service"
+    ],
+    "SVC COMPR HAEM TRANSP /SA-1408": [
+      "Comprehensive Haematology Transport Service"
+    ],
+    "SVC ELECT CARD TRANSP": [
+      "Elective Cardiac Transport Service"
+    ],
+    "SVC EMER TRANSP": [
+      "Emergency Haematology Transport Service"
+    ],
+    "SVC FOC VASC /SA-2989": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "SVC FOC VASC TRANSF /SA-2946": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "SVC FOC VASC TRANSF /SA-8656": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "SVC FOCUSED VASC TRANSFUSION /SA-5676": [
+      "Focused Vascular Transfusion Service"
+    ],
+    "SVC POSTOP VASC TRANSP /SA-7367": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "SVC STD PSYCH TRANSF": [
+      "Standard Psychiatric Transfusion Service"
+    ],
+    "SVC STD PSYCH TRANSF /SA-3868": [
+      "Standard Psychiatric Transfusion Service"
+    ],
+    "SVC STD PSYCH TRANSF /SA-9672": [
+      "Standard Psychiatric Transfusion Service"
+    ],
+    "THER  - STD PAEDIATRIC INF /SA-9454": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "THER  INTENS PAED INF": [
+      "Intensive Paediatric Infusion Therapy"
+    ],
+    "THER  STANDARD INF": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "THER  STD PAED INF": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "THER AMB VASC": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "THER AMBULATORY VASC INF": [
+      "Ambulatory Vascular Infusion Therapy"
+    ],
+    "THER STD PAED INFUSION": [
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "TM  POSTOP PAED THTR": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "TM POSTOP PAEDIATRIC /SA-5370": [
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "TRANSP EMERGENCY HAEM /SA-4837": [
+      "Emergency Haematology Transport Service"
+    ],
+    "VASC IMAGING INTERP": [
+      "Preoperative Vascular Imaging Interpretation"
+    ],
+    "VASC TRANSP SVC": [
+      "Postoperative Vascular Transport Service"
+    ],
+    "VST PREOP OBST HM /SA-4486": [
+      "Preoperative Obstetric Home Visit"
+    ],
+    "VST VASCULAR HM /SA-8814": [
+      "Extended Vascular Home Visit"
+    ]
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "catalog": [
+    "Advanced Oncology Ward Bed Occupancy",
+    "Advanced Orthopaedic Ward Bed Occupancy",
+    "Advanced Paediatric Theatre Time",
+    "Advanced Palliative Home Visit",
+    "Advanced Vascular Endoscopic Procedure",
+    "Ambulatory Cardiac Ward Bed Occupancy",
+    "Ambulatory Gastrointestinal Nutritional Support",
+    "Ambulatory Haematology Transfusion Service",
+    "Ambulatory Immunologic Ward Bed Occupancy",
+    "Ambulatory Musculoskeletal Specimen Analysis",
+    "Ambulatory Musculoskeletal Ventilation Support",
+    "Ambulatory Obstetric Case Conference",
+    "Ambulatory Paediatric Critical Care Occupancy",
+    "Ambulatory Rheumatologic Rehabilitation Programme",
+    "Assisted Cardiac Ventilation Support",
+    "Assisted Gastrointestinal Anaesthesia Administration",
+    "Assisted Obstetric Specimen Analysis",
+    "Assisted Paediatric Physiotherapy Session",
+    "Assisted Paediatric Theatre Time",
+    "Assisted Renal Nutritional Support",
+    "Assisted Urologic Nursing Observation",
+    "Bedside Cardiac Home Visit",
+    "Bedside Gastrointestinal Biopsy Procedure",
+    "Bedside Obstetric Imaging Interpretation",
+    "Comprehensive Neurological Endoscopic Procedure",
+    "Comprehensive Ophthalmic Laboratory Panel",
+    "Comprehensive Urologic Imaging Interpretation",
+    "Continuous Gastrointestinal Transfusion Service",
+    "Continuous Infectious Critical Care Occupancy",
+    "Continuous Psychiatric Rehabilitation Programme",
+    "Elective Gastrointestinal Nursing Observation",
+    "Elective Neurological Ward Bed Occupancy",
+    "Elective Obstetric Transfusion Service",
+    "Elective Ophthalmic Radiotherapy Fraction",
+    "Emergency Cardiac Physiotherapy Session",
+    "Emergency Metabolic Radiotherapy Fraction",
+    "Emergency Rheumatologic Rehabilitation Programme",
+    "Extended Hepatic Discharge Planning",
+    "Extended Hepatic Transfusion Service",
+    "Extended Obstetric Case Conference",
+    "Extended Psychiatric Endoscopic Procedure",
+    "Extended Renal Ward Bed Occupancy",
+    "Extended Rheumatologic Nursing Observation",
+    "Extended Urologic Telemetry Monitoring",
+    "Focused Metabolic Biopsy Procedure",
+    "Focused Urologic Case Conference",
+    "Focused Vascular Infusion Therapy",
+    "Focused Vascular Transport Service",
+    "Inpatient Orthopaedic Anaesthesia Administration",
+    "Inpatient Psychiatric Home Visit",
+    "Intensive Geriatric Case Conference",
+    "Intensive Paediatric Consultation",
+    "Intensive Rheumatologic Radiotherapy Fraction",
+    "Intensive Urologic Specimen Analysis",
+    "Intensive Vascular Sterilisation Service",
+    "Intermittent Neurological Laboratory Panel",
+    "Intermittent Oncology Home Visit",
+    "Intermittent Psychiatric Rehabilitation Programme",
+    "Intermittent Renal Anaesthesia Administration",
+    "Intermittent Rheumatologic Dialysis Session",
+    "Intermittent Urologic Telemetry Monitoring",
+    "Outpatient Cardiac Physiotherapy Session",
+    "Outpatient Geriatric Diagnostic Imaging",
+    "Outpatient Obstetric Dialysis Session",
+    "Outpatient Orthopaedic Recovery Room Occupancy",
+    "Outpatient Rheumatologic Anaesthesia Administration",
+    "Outpatient Urologic Endoscopic Procedure",
+    "Outpatient Urologic Theatre Time",
+    "Postoperative Cardiac Wound Care",
+    "Postoperative Geriatric Case Conference",
+    "Postoperative Geriatric Imaging Interpretation",
+    "Postoperative Oncology Diagnostic Imaging",
+    "Postoperative Otolaryngologic Telemetry Monitoring",
+    "Postoperative Paediatric Imaging Interpretation",
+    "Postoperative Paediatric Sterilisation Service",
+    "Postoperative Palliative Recovery Room Occupancy",
+    "Postoperative Rheumatologic Nursing Observation",
+    "Preoperative Geriatric Diagnostic Imaging",
+    "Preoperative Haematology Imaging Interpretation",
+    "Preoperative Musculoskeletal Recovery Room Occupancy",
+    "Preoperative Oncology Diagnostic Imaging",
+    "Routine Cardiac Home Visit",
+    "Specialist Cardiac Ventilation Support",
+    "Specialist Gastrointestinal Imaging Interpretation",
+    "Specialist Hepatic Discharge Planning",
+    "Specialist Immunologic Consultation",
+    "Standard Hepatic Infusion Therapy",
+    "Standard Oncology Ward Bed Occupancy",
+    "Standard Ophthalmic Laboratory Panel",
+    "Standard Orthopaedic Critical Care Occupancy",
+    "Standard Paediatric Dialysis Session",
+    "Standard Vascular Home Visit",
+    "Supervised Gastrointestinal Nursing Observation",
+    "Supervised Immunologic Ward Bed Occupancy",
+    "Supervised Pulmonary Anaesthesia Administration",
+    "Supervised Pulmonary Home Visit",
+    "Supervised Rheumatologic Dialysis Session",
+    "Supervised Vascular Radiotherapy Fraction"
+  ],
+  "hospital": "H4",
+  "proposals": {
+    "ADMIN  - gi ANAES /CW-1500": [],
+    "ADMIN - outpt RHEUM": [
+      "Outpatient Rheumatologic Anaesthesia Administration"
+    ],
+    "ADMIN - outpt RHEUM anaes": [
+      "Outpatient Rheumatologic Anaesthesia Administration"
+    ],
+    "ADMIN - outpt RHEUM anaes /CW-8338": [],
+    "ADMIN spclst NEURO anaes /CW-6871": [],
+    "ADV - ortho WD bd OCC": [
+      "Advanced Orthopaedic Ward Bed Occupancy"
+    ],
+    "ADV ortho WD bd OCCUPANCY": [
+      "Advanced Orthopaedic Ward Bed Occupancy"
+    ],
+    "ADVANCED - onc WARD bd OCC": [
+      "Advanced Oncology Ward Bed Occupancy"
+    ],
+    "ADVANCED - ortho WD bd OCCUPANCY /CW-3359": [],
+    "AMB  - gi NUTRITIONAL support /CW-3607": [],
+    "AMB  msk VENT supp": [
+      "Ambulatory Musculoskeletal Ventilation Support"
+    ],
+    "AMB - gastrointestinal NUTR supp /CW-3413": [],
+    "AMB - paed CRIT cr OCC /CW-3496": [],
+    "AMB - rheum REHAB prog /CW-9454": [],
+    "AMB - rheum REHAB programme /CW-8508": [],
+    "AMB - rheumatologic REHAB prog": [
+      "Ambulatory Rheumatologic Rehabilitation Programme"
+    ],
+    "AMB gi NUTR supp": [
+      "Ambulatory Gastrointestinal Nutritional Support"
+    ],
+    "AMB haem ENDOSC proc /CW-9607": [],
+    "AMB musculoskeletal VENT supp /CW-8775": [],
+    "AMB obst CONF /CW-5695": [],
+    "AMB obst CS conf": [
+      "Ambulatory Obstetric Case Conference"
+    ],
+    "AMB paed CRIT cr OCCUPANCY /CW-5795": [],
+    "AMBULATORY - obst CS conf": [
+      "Ambulatory Obstetric Case Conference"
+    ],
+    "AMBULATORY - paed CRITICAL cr OCC": [
+      "Ambulatory Paediatric Critical Care Occupancy"
+    ],
+    "AMBULATORY obst CS conf /CW-4745": [],
+    "AMBULATORY obst CS conf /CW-8021": [],
+    "ANLY assisted OBST spcm": [
+      "Assisted Obstetric Specimen Analysis"
+    ],
+    "ASSISTED  - paed THTR tm /CW-7552": [],
+    "ASSISTED card VENTILATION supp /CW-6226": [],
+    "ASSISTED gi ANAES admin /CW-1036": [],
+    "ASSISTED spcm ANALYSIS /CW-2232": [],
+    "ASSISTED urol NURS obs /CW-3340": [],
+    "ASST  card VENT supp /CW-7623": [],
+    "ASST  urol OBSERVATION /CW-2070": [],
+    "ASST - card VENT supp": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "ASST - gastrointestinal ANAES admin /CW-6527": [],
+    "ASST - gi ANAES admin": [
+      "Assisted Gastrointestinal Anaesthesia Administration"
+    ],
+    "ASST - gi ANAES administration": [
+      "Assisted Gastrointestinal Anaesthesia Administration"
+    ],
+    "ASST - obst SPCM anly /CW-7565": [],
+    "ASST - obstetric TRANSP svc /CW-7850": [],
+    "ASST - paed TM /CW-5883": [],
+    "ASST - paediatric THEATRE tm /CW-7535": [],
+    "ASST - urol NURS obs /CW-2623": [],
+    "ASST obst SPCM anly": [
+      "Assisted Obstetric Specimen Analysis"
+    ],
+    "ASST urol NURS obs /CW-5982": [],
+    "BEDS  gi BIOPSY proc /CW-1241": [],
+    "BEDS - oncology TRANSF /CW-9855": [],
+    "BEDSIDE - gi BIOP proc /CW-7056": [],
+    "CARD hm VST BEDS": [
+      "Bedside Cardiac Home Visit"
+    ],
+    "CARD hm VST RTN": [
+      "Routine Cardiac Home Visit"
+    ],
+    "CARD physio SESS EMER": [
+      "Emergency Cardiac Physiotherapy Session"
+    ],
+    "CARD physio SESS OUTPT": [
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "CARDIAC physio SESS /CW-4455": [],
+    "CARE - postop CARDIAC wnd /CW-2116": [],
+    "CARE postop CARDIAC wnd": [
+      "Postoperative Cardiac Wound Care"
+    ],
+    "COMPR neuro ENDOSCOPIC proc": [
+      "Comprehensive Neurological Endoscopic Procedure"
+    ],
+    "COMPR neurological ENDOSC proc /CW-4675": [],
+    "CONF  intens GER case": [
+      "Intensive Geriatric Case Conference"
+    ],
+    "CONF ger CS": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "CONF intens GER cs /CW-3922": [],
+    "CONSULT intens PAED /CW-3137": [],
+    "CONSULT rtn NEURO /CW-8916": [],
+    "CONT  infect CRIT care OCC": [
+      "Continuous Infectious Critical Care Occupancy"
+    ],
+    "CONT - gi TRANSFUSION svc": [
+      "Continuous Gastrointestinal Transfusion Service"
+    ],
+    "CONT infectious CRIT cr OCCUPANCY": [
+      "Continuous Infectious Critical Care Occupancy"
+    ],
+    "CONTINUOUS gi TRANSF svc": [
+      "Continuous Gastrointestinal Transfusion Service"
+    ],
+    "CONTINUOUS infectious CRITICAL occ": [
+      "Continuous Infectious Critical Care Occupancy"
+    ],
+    "CR std ORTHOPAEDIC crit": [
+      "Standard Orthopaedic Critical Care Occupancy"
+    ],
+    "ELECT - nurs OBS": [
+      "Elective Gastrointestinal Nursing Observation"
+    ],
+    "ELECT - ophth RADIOTHER /CW-6461": [],
+    "ELECT - ophthalmic RADIOTHER fract /CW-9522": [],
+    "ELECT - ophthalmic RADIOTHERAPY fract /CW-3532": [],
+    "ELECT ophth RADIOTHER fract /CW-4480": [],
+    "ELECTIVE gi NURS obs /CW-7280": [],
+    "EMER - card PHYSIO sess /CW-1742": [],
+    "EMERGENCY - card PHYSIOTHERAPY sess": [
+      "Emergency Cardiac Physiotherapy Session"
+    ],
+    "ENDOSC - ext PSYCHIATRIC /CW-9075": [],
+    "ENDOSC - outpatient UROLOGIC /CW-5618": [],
+    "EXT  - psych ENDOSC proc /CW-4756": [],
+    "EXT - psychiatric ENDOSC procedure": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "EXT psych ENDOSC proc": [
+      "Extended Psychiatric Endoscopic Procedure"
+    ],
+    "EXT ren BD occupancy /CW-7024": [],
+    "EXT ren WD occ /CW-7113": [],
+    "EXT renal WD bed OCC": [
+      "Extended Renal Ward Bed Occupancy"
+    ],
+    "FOC - metab BIOP procedure /CW-1579": [],
+    "FOC - metab BIOPSY proc /CW-9462": [],
+    "FOCUSED biop PROC": [
+      "Focused Metabolic Biopsy Procedure"
+    ],
+    "FOCUSED metab BIOP proc /CW-3728": [],
+    "FOCUSED metabolic BIOP proc /CW-3860": [],
+    "FRACT - elect OPHTH radiother /CW-4974": [],
+    "FRACT - elect OPHTH radiotherapy /CW-2057": [],
+    "GER cs CONF INTENS": [
+      "Intensive Geriatric Case Conference"
+    ],
+    "GER cs CONF POSTOP": [
+      "Postoperative Geriatric Case Conference"
+    ],
+    "GER diag IMG OUTPT": [
+      "Outpatient Geriatric Diagnostic Imaging"
+    ],
+    "GER diag IMG PREOP": [
+      "Preoperative Geriatric Diagnostic Imaging"
+    ],
+    "GI - transfusion SVC /CW-9161": [],
+    "HEP - inf THERAPY": [
+      "Standard Hepatic Infusion Therapy"
+    ],
+    "IMG - preop GER diag /CW-8799": [],
+    "IMG - preop ONC diag /CW-7126": [],
+    "IMG - preoperative ONC": [
+      "Preoperative Oncology Diagnostic Imaging"
+    ],
+    "IMG preoperative ONCOLOGY /CW-9430": [],
+    "IMMUN - spclst /CW-9956": [],
+    "IMMUN wd BD occ AMB": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "IMMUN wd BD occ SUPV": [
+      "Supervised Immunologic Ward Bed Occupancy"
+    ],
+    "INFECT - critical CARE occ": [
+      "Continuous Infectious Critical Care Occupancy"
+    ],
+    "INPATIENT - psych HM vst /CW-9305": [],
+    "INPATIENT psychiatric HM visit /CW-6666": [],
+    "INPT  psych HM vst /CW-4923": [],
+    "INPT - psych HM visit /CW-4170": [],
+    "INPT - psych HOME vst": [
+      "Inpatient Psychiatric Home Visit"
+    ],
+    "INPT psych HOME vst /CW-1371": [],
+    "INTENS  - paed CONSULTATION /CW-2377": [],
+    "INTENS  neurological DIAG img /CW-9312": [],
+    "INTENS - ger CASE conf": [
+      "Intensive Geriatric Case Conference"
+    ],
+    "INTENS - geriatric CS conference /CW-7622": [],
+    "INTENS - paed CONSULT": [
+      "Intensive Paediatric Consultation"
+    ],
+    "INTENSIVE  - paediatric CONSULT /CW-8569": [],
+    "INTERM  - rheum DIAL sess /CW-1055": [],
+    "INTERM  - urol TELEM monit /CW-1964": [],
+    "INTERM  psych REHAB prog /CW-7902": [],
+    "INTERM - psych REHAB prog": [
+      "Intermittent Psychiatric Rehabilitation Programme"
+    ],
+    "INTERM - rheum SESS /CW-7476": [],
+    "INTERM - urol TELEM monit": [
+      "Intermittent Urologic Telemetry Monitoring"
+    ],
+    "INTERM - urol TELEMETRY /CW-3304": [],
+    "INTERM urol TELEM monit": [
+      "Intermittent Urologic Telemetry Monitoring"
+    ],
+    "INTERM urologic TELEM monit /CW-6015": [],
+    "INTERMITTENT - rheum DIAL sess /CW-4841": [],
+    "INTERMITTENT psych REHAB prog": [
+      "Intermittent Psychiatric Rehabilitation Programme"
+    ],
+    "INTERMITTENT rheum DIALYSIS session /CW-3359": [],
+    "INTERP - postop PAEDIATRIC img /CW-8778": [],
+    "INTERP preoperative HAEM img": [
+      "Preoperative Haematology Imaging Interpretation"
+    ],
+    "INTERPRETATION - postop PAED imaging /CW-8171": [],
+    "LAB  - emer DERM /CW-2124": [],
+    "MONIT  interm UROLOGIC telemetry /CW-1251": [],
+    "NURS - elect GASTROINTESTINAL /CW-1281": [],
+    "OBS - gi NURS /CW-2992": [],
+    "OBS postop RHEUMATOLOGIC nurs": [
+      "Postoperative Rheumatologic Nursing Observation"
+    ],
+    "OBSERVATION  postop RHEUM nurs": [
+      "Postoperative Rheumatologic Nursing Observation"
+    ],
+    "OBST cs CONF AMB": [
+      "Ambulatory Obstetric Case Conference"
+    ],
+    "OBST cs CONF EXT": [
+      "Extended Obstetric Case Conference"
+    ],
+    "OCC  - amb PAED crit CR": [
+      "Ambulatory Paediatric Critical Care Occupancy"
+    ],
+    "OCC  - ambulatory PAEDIATRIC critical CR": [
+      "Ambulatory Paediatric Critical Care Occupancy"
+    ],
+    "OCC  - outpt ORTHO recov ROOM /CW-6062": [],
+    "OCC  - outpt ORTHOPAEDIC recov ROOM": [
+      "Outpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "OCC  - standard ORTHO cr /CW-6124": [],
+    "OCC - std CRIT cr /CW-1779": [],
+    "OCC - supv IMMUN wd BED /CW-6089": [],
+    "OCC adv ONC ward BD /CW-1103": [],
+    "OCC adv ONC wd BD /CW-8074": [],
+    "OCC advanced ORTHO wd": [
+      "Advanced Orthopaedic Ward Bed Occupancy"
+    ],
+    "OCC amb PAED crit CARE /CW-9108": [],
+    "OCC cont INFECTIOUS crit CR /CW-4807": [],
+    "OCC supv IMMUN wd BED /CW-7552": [],
+    "OCCUPANCY  adv ONC bd /CW-4545": [],
+    "OCCUPANCY - adv ORTHO wd BD /CW-5531": [],
+    "OCCUPANCY - advanced ONC wd BD /CW-2874": [],
+    "OCCUPANCY - outpt ORTHO recov ROOM /CW-9263": [],
+    "OCCUPANCY - std ORTHOPAEDIC crit CR /CW-7040": [],
+    "OCCUPANCY - supv IMMUN wd BD /CW-8876": [],
+    "OCCUPANCY adv ONC wd BD": [
+      "Advanced Oncology Ward Bed Occupancy"
+    ],
+    "ONC wd BD occ ADV": [
+      "Advanced Oncology Ward Bed Occupancy"
+    ],
+    "ONC wd BD occ STD": [
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "ORTHOPAEDIC recov RM occupancy /CW-4525": [],
+    "OUTPATIENT - obst DIAL sess": [
+      "Outpatient Obstetric Dialysis Session"
+    ],
+    "OUTPATIENT - rheum ADMINISTRATION /CW-5971": [],
+    "OUTPT  urol ENDOSCOPIC proc": [
+      "Outpatient Urologic Endoscopic Procedure"
+    ],
+    "OUTPT - obst DIAL /CW-3474": [],
+    "OUTPT - obst DIAL sess /CW-7015": [],
+    "OUTPT - obst DIAL sess /CW-9914": [],
+    "OUTPT - obst DIALYSIS sess": [
+      "Outpatient Obstetric Dialysis Session"
+    ],
+    "OUTPT - urologic ENDOSC proc": [
+      "Outpatient Urologic Endoscopic Procedure"
+    ],
+    "OUTPT metabolic PHARM disp": [],
+    "OUTPT recov RM occ": [
+      "Outpatient Orthopaedic Recovery Room Occupancy"
+    ],
+    "OUTPT rheum ANAES admin /CW-4096": [],
+    "OUTPT urol ENDOSC proc /CW-9583": [],
+    "PLANNING spclst HEP disch": [
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "PLNG cont OTOLARYNGOLOGIC disch": [],
+    "POSTOP  - rheumatologic NURSING observation /CW-6924": [],
+    "POSTOP  paed IMG interp": [
+      "Postoperative Paediatric Imaging Interpretation"
+    ],
+    "POSTOP - card WND care /CW-5796": [],
+    "POSTOP - ger IMG interp": [
+      "Postoperative Geriatric Imaging Interpretation"
+    ],
+    "POSTOP - ger IMG interpretation /CW-5101": [],
+    "POSTOP - ger INTERP /CW-6488": [],
+    "POSTOP - paediatric IMAGING interp": [
+      "Postoperative Paediatric Imaging Interpretation"
+    ],
+    "POSTOP - rheum NURS obs": [
+      "Postoperative Rheumatologic Nursing Observation"
+    ],
+    "POSTOP ger IMAGING interp": [
+      "Postoperative Geriatric Imaging Interpretation"
+    ],
+    "POSTOP ger IMG interp /CW-1229": [],
+    "POSTOP ger IMG interpretation": [
+      "Postoperative Geriatric Imaging Interpretation"
+    ],
+    "POSTOP paed IMG interp /CW-2275": [],
+    "POSTOP paed IMG interpretation /CW-2645": [],
+    "POSTOPERATIVE card CR": [
+      "Postoperative Cardiac Wound Care"
+    ],
+    "POSTOPERATIVE rheum NURS obs /CW-2573": [],
+    "PREOP - ger DIAG /CW-2259": [],
+    "PREOP - haem IMG interp /CW-1749": [],
+    "PREOP - haem IMG interpretation /CW-4475": [],
+    "PREOP - haem INTERP": [
+      "Preoperative Haematology Imaging Interpretation"
+    ],
+    "PREOP - haematology IMG": [
+      "Preoperative Haematology Imaging Interpretation"
+    ],
+    "PREOP - msk RECOVERY rm OCCUPANCY /CW-6079": [],
+    "PREOP - msk RECOVERY room OCCUPANCY /CW-7703": [],
+    "PREOP - musculoskeletal RECOV rm OCC": [
+      "Preoperative Musculoskeletal Recovery Room Occupancy"
+    ],
+    "PREOP - onc DIAG /CW-5837": [],
+    "PREOP - onc DIAGNOSTIC img /CW-1315": [],
+    "PREOP ger DIAGNOSTIC img": [
+      "Preoperative Geriatric Diagnostic Imaging"
+    ],
+    "PREOP geriatric IMG /CW-3234": [],
+    "PREOP msk RECOV rm OCC": [
+      "Preoperative Musculoskeletal Recovery Room Occupancy"
+    ],
+    "PREOP msk ROOM occ": [
+      "Preoperative Musculoskeletal Recovery Room Occupancy"
+    ],
+    "PREOPERATIVE - haematology IMG interp /CW-7886": [],
+    "PREOPERATIVE ger DIAG img /CW-7580": [],
+    "PROC - beds GASTROINTESTINAL biop /CW-9191": [],
+    "PROC - ext PSYCH /CW-9029": [],
+    "PROC - foc METABOLIC biopsy /CW-1566": [],
+    "PROC - outpt UROL endosc /CW-2734": [],
+    "PROC compr NEURO endoscopic /CW-6452": [],
+    "PROCEDURE  - outpt UROL endosc /CW-5587": [],
+    "PROCEDURE - beds GI biopsy /CW-5425": [],
+    "PROCEDURE - comprehensive NEURO endosc": [
+      "Comprehensive Neurological Endoscopic Procedure"
+    ],
+    "PROG - amb RHEUM rehabilitation /CW-6302": [],
+    "PROG - interm PSYCH": [
+      "Intermittent Psychiatric Rehabilitation Programme"
+    ],
+    "PROG - interm PSYCH rehabilitation /CW-1715": [],
+    "PROG - intermittent PSYCH rehab /CW-3340": [],
+    "PSYCH rehab PROG CONT": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "PSYCH rehab PROG INTERM": [
+      "Intermittent Psychiatric Rehabilitation Programme"
+    ],
+    "REN - wd BD occ /CW-4382": [],
+    "RHEUM dial SESS INTERM": [
+      "Intermittent Rheumatologic Dialysis Session"
+    ],
+    "RHEUM dial SESS SUPV": [
+      "Supervised Rheumatologic Dialysis Session"
+    ],
+    "RHEUM rehabilitation PROGRAMME /CW-4700": [],
+    "RTN - card HM visit": [
+      "Routine Cardiac Home Visit"
+    ],
+    "RTN - card HM vst /CW-5145": [],
+    "RTN - ortho TRANSF service /CW-3818": [],
+    "RTN card HM vst /CW-6536": [],
+    "RTN cardiac HM visit": [
+      "Routine Cardiac Home Visit"
+    ],
+    "SESS  outpt OBST dial /CW-7039": [],
+    "SESS - emergency CARD physio /CW-9661": [],
+    "SESS - emergency CARDIAC physio": [
+      "Emergency Cardiac Physiotherapy Session"
+    ],
+    "SESS interm RHEUM dial /CW-5468": [],
+    "SESS intermittent RHEUM dial": [
+      "Intermittent Rheumatologic Dialysis Session"
+    ],
+    "SPCLST  - hep DISCH planning /CW-7438": [],
+    "SPCLST - consult": [
+      "Specialist Immunologic Consultation"
+    ],
+    "SPCLST - hep DISCH planning": [
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "SPCLST - hep DISCHARGE plng": [
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "SPCLST - immunologic CONSULT": [
+      "Specialist Immunologic Consultation"
+    ],
+    "SPCLST - immunologic CONSULTATION /CW-3950": [],
+    "SPCLST immunologic /CW-6493": [],
+    "SPCLST wnd CR /CW-6542": [],
+    "SPCM  - asst OBST /CW-9843": [],
+    "SPECIALIST immunologic CONSULT /CW-1309": [],
+    "STD - hep INF ther /CW-6477": [],
+    "STD - ophth LAB pnl": [
+      "Standard Ophthalmic Laboratory Panel"
+    ],
+    "STD - ophth LAB pnl /CW-2452": [],
+    "STD - ophth LAB pnl /CW-8684": [],
+    "STD - ophthalmic LAB pnl": [
+      "Standard Ophthalmic Laboratory Panel"
+    ],
+    "STD - orthopaedic CRIT care OCC /CW-2102": [],
+    "STD - orthopaedic CRIT cr OCC /CW-7769": [],
+    "STD ophthalmic LAB pnl": [
+      "Standard Ophthalmic Laboratory Panel"
+    ],
+    "SUPERVISED  - vasc RADIOTHER": [
+      "Supervised Vascular Radiotherapy Fraction"
+    ],
+    "SUPERVISED - pulmonary HM vst /CW-3719": [],
+    "SUPERVISED pulm HM vst /CW-7359": [],
+    "SUPERVISED pulmonary HM visit /CW-7640": [],
+    "SUPP  ambulatory GI nutr /CW-8509": [],
+    "SUPP - amb MSK vent /CW-6725": [],
+    "SUPP amb MSK vent /CW-8558": [],
+    "SUPP asst VENTILATION /CW-3888": [],
+    "SUPPORT - amb MSK vent": [
+      "Ambulatory Musculoskeletal Ventilation Support"
+    ],
+    "SUPV - immun WARD bd OCC": [
+      "Supervised Immunologic Ward Bed Occupancy"
+    ],
+    "SUPV - vascular RADIOTHER fract /CW-4865": [],
+    "SUPV - vascular RADIOTHERAPY fract": [
+      "Supervised Vascular Radiotherapy Fraction"
+    ],
+    "SUPV immun WD bd OCC /CW-1811": [],
+    "SUPV vascular RADIOTHER fract /CW-1727": [],
+    "SVC - ortho STERILISATION": [],
+    "SVC cont GI transfusion /CW-1126": [],
+    "THER - standard HEP inf /CW-8309": [],
+    "THER std HEP inf": [
+      "Standard Hepatic Infusion Therapy"
+    ],
+    "THER std HEP inf /CW-1052": [],
+    "TM asst PAEDIATRIC thtr /CW-4279": [],
+    "TRANSF - cont GI": [
+      "Continuous Gastrointestinal Transfusion Service"
+    ],
+    "VST  foc NEURO /CW-8682": [],
+    "VST - supv PULMONARY /CW-3511": [],
+    "VST - supv PULMONARY hm /CW-6997": [],
+    "VST supv PULMONARY home /CW-3675": [],
+    "admin - INPATIENT ortho ANAES": [
+      "Inpatient Orthopaedic Anaesthesia Administration"
+    ],
+    "admin - INTERM ren ANAES /CW-9520": [],
+    "admin - SUPV pulm ANAES": [
+      "Supervised Pulmonary Anaesthesia Administration"
+    ],
+    "admin REN anaesthesia": [
+      "Intermittent Renal Anaesthesia Administration"
+    ],
+    "administration INTERM ren ANAES /CW-3269": [],
+    "adv  - PAED thtr /CW-9651": [],
+    "adv  - PAED thtr TM": [
+      "Advanced Paediatric Theatre Time"
+    ],
+    "adv  VASC endosc PROC /CW-5904": [],
+    "adv - PALL hm VST /CW-2046": [],
+    "adv - PALL hm VST /CW-4754": [],
+    "adv - PALLIATIVE hm VISIT /CW-4841": [],
+    "adv - VASC endosc PROCEDURE /CW-2084": [],
+    "adv - VASC proc": [
+      "Advanced Vascular Endoscopic Procedure"
+    ],
+    "adv PAED thtr TM": [
+      "Advanced Paediatric Theatre Time"
+    ],
+    "adv PALL hm VST /CW-7657": [],
+    "adv VASC endosc PROC /CW-8230": [],
+    "advanced PAED thtr TM /CW-5259": [],
+    "advanced VASC endosc PROC /CW-6163": [],
+    "amb  - HAEM transfusion SVC /CW-5631": [],
+    "amb - HAEMATOLOGY transf SVC /CW-5136": [],
+    "amb - IMMUN ward BD occupancy /CW-2184": [],
+    "amb - MSK spcm ANLY": [
+      "Ambulatory Musculoskeletal Specimen Analysis"
+    ],
+    "amb IMMUN ward BD occ": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "amb IMMUN wd BD occ /CW-7522": [],
+    "amb MSK spcm": [
+      "Ambulatory Musculoskeletal Specimen Analysis"
+    ],
+    "amb MSK spcm ANLY": [
+      "Ambulatory Musculoskeletal Specimen Analysis"
+    ],
+    "amb MSK spcm ANLY /CW-5350": [],
+    "amb WD bed OCC /CW-2964": [],
+    "anly INTENS spcm": [
+      "Intensive Urologic Specimen Analysis"
+    ],
+    "assisted - NUTR supp": [
+      "Assisted Renal Nutritional Support"
+    ],
+    "assisted - PAED physio SESS /CW-5564": [],
+    "assisted - REN nutr SUPP /CW-6761": [],
+    "asst - PAED physio SESS": [
+      "Assisted Paediatric Physiotherapy Session"
+    ],
+    "asst - PAEDIATRIC physio SESS /CW-1557": [],
+    "asst - RENAL nutritional SUPP": [
+      "Assisted Renal Nutritional Support"
+    ],
+    "asst REN nutr SUPP /CW-3943": [],
+    "asst RENAL nutr /CW-4158": [],
+    "beds - OBST img INTERP": [
+      "Bedside Obstetric Imaging Interpretation"
+    ],
+    "beds - OBST img INTERPRETATION": [
+      "Bedside Obstetric Imaging Interpretation"
+    ],
+    "beds CARD hm /CW-4363": [],
+    "beds CARD hm VST": [
+      "Bedside Cardiac Home Visit"
+    ],
+    "bedside OBST img": [
+      "Bedside Obstetric Imaging Interpretation"
+    ],
+    "card  - HOME vst": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "card VENT supp asst": [
+      "Assisted Cardiac Ventilation Support"
+    ],
+    "card VENT supp spclst": [
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "card VENT support": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "compr - OPHTH lab PANEL /CW-3670": [],
+    "compr - OPHTH lab PNL": [
+      "Comprehensive Ophthalmic Laboratory Panel"
+    ],
+    "compr - OPHTH laboratory PNL /CW-7966": [],
+    "compr - UROL img INTERP": [
+      "Comprehensive Urologic Imaging Interpretation"
+    ],
+    "compr UROL img INTERPRETATION": [
+      "Comprehensive Urologic Imaging Interpretation"
+    ],
+    "comprehensive - OPHTH lab PNL /CW-3198": [],
+    "conf  - EXT obst CS /CW-8663": [],
+    "conf - EXT obstetric CS": [
+      "Extended Obstetric Case Conference"
+    ],
+    "conf - UROL cs /CW-3094": [],
+    "conference - POSTOPERATIVE ger CS /CW-6353": [],
+    "cont PSYCHIATRIC rehabilitation PROG": [
+      "Continuous Psychiatric Rehabilitation Programme"
+    ],
+    "elect  OBSTETRIC transf SVC /CW-6472": [],
+    "elect OBST transf SVC /CW-1798": [],
+    "elect OBSTETRIC transf SVC /CW-6737": [],
+    "elective - NEURO ward BED occ": [
+      "Elective Neurological Ward Bed Occupancy"
+    ],
+    "elective - NEURO wd BD occ": [
+      "Elective Neurological Ward Bed Occupancy"
+    ],
+    "elective - NEURO wd BED occ": [
+      "Elective Neurological Ward Bed Occupancy"
+    ],
+    "elective - OBST transf SERVICE /CW-5652": [],
+    "emer  - METAB radiother": [
+      "Emergency Metabolic Radiotherapy Fraction"
+    ],
+    "emer - RHEUMATOLOGIC prog /CW-1178": [],
+    "emer METAB radiother FRACT": [
+      "Emergency Metabolic Radiotherapy Fraction"
+    ],
+    "emer METABOLIC radiotherapy FRACTION /CW-3320": [],
+    "emergency - RHEUM rehabilitation PROG /CW-2482": [],
+    "ext  HEP disch PLNG /CW-1975": [],
+    "ext  UROLOGIC telem": [
+      "Extended Urologic Telemetry Monitoring"
+    ],
+    "ext - HEP disch PLANNING": [
+      "Extended Hepatic Discharge Planning"
+    ],
+    "ext - HEP disch PLANNING /CW-9770": [],
+    "ext - HEP transf SVC /CW-5339": [],
+    "ext - HEP transf SVC /CW-9407": [],
+    "ext - HEPATIC transfusion SVC /CW-2178": [],
+    "ext - OBST cs CONFERENCE /CW-3448": [],
+    "ext - OBSTETRIC conf": [
+      "Extended Obstetric Case Conference"
+    ],
+    "ext - RHEUMATOLOGIC observation /CW-5150": [],
+    "ext - UROL telem MONIT /CW-1191": [],
+    "ext HEPATIC disch PLNG": [
+      "Extended Hepatic Discharge Planning"
+    ],
+    "ext HEPATIC transfusion SVC /CW-8250": [],
+    "ext RHEUM nurs OBS": [
+      "Extended Rheumatologic Nursing Observation"
+    ],
+    "ext RHEUM obs": [
+      "Extended Rheumatologic Nursing Observation"
+    ],
+    "extended  HEP transfusion SVC": [
+      "Extended Hepatic Transfusion Service"
+    ],
+    "foc  - VASC transport SVC /CW-9116": [],
+    "foc - UROL cs CONF": [
+      "Focused Urologic Case Conference"
+    ],
+    "foc - VASC inf THERAPY /CW-8936": [],
+    "foc - VASC transp SVC": [
+      "Focused Vascular Transport Service"
+    ],
+    "foc - VASC transport SERVICE": [
+      "Focused Vascular Transport Service"
+    ],
+    "foc UROL cs CONF /CW-2324": [],
+    "foc UROL cs CONF /CW-7956": [],
+    "foc UROLOGIC cs CONFERENCE": [
+      "Focused Urologic Case Conference"
+    ],
+    "foc VASC infusion THER": [
+      "Focused Vascular Infusion Therapy"
+    ],
+    "foc VASCULAR transp SERVICE /CW-7821": [],
+    "foc VASCULAR transport SVC": [
+      "Focused Vascular Transport Service"
+    ],
+    "focused UROL cs CONFERENCE": [
+      "Focused Urologic Case Conference"
+    ],
+    "fract - INTENS rheum RADIOTHER /CW-1555": [],
+    "fract - INTENSIVE rheum RADIOTHERAPY /CW-4214": [],
+    "fract EMER metabolic RADIOTHER": [
+      "Emergency Metabolic Radiotherapy Fraction"
+    ],
+    "ger - CASE conf": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "gi - IMG interp": [
+      "Specialist Gastrointestinal Imaging Interpretation"
+    ],
+    "gi NURS obs elect": [
+      "Elective Gastrointestinal Nursing Observation"
+    ],
+    "gi NURS obs supv": [
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "haematology - TRANSF svc": [
+      "Ambulatory Haematology Transfusion Service"
+    ],
+    "hep - DISCHARGE plng /CW-2290": [],
+    "hep DISCH plng ext": [
+      "Extended Hepatic Discharge Planning"
+    ],
+    "hep DISCH plng spclst": [
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "hm - ADV palliative": [
+      "Advanced Palliative Home Visit"
+    ],
+    "imaging  OUTPT ger DIAG /CW-9918": [],
+    "img  COMPREHENSIVE urologic /CW-6158": [],
+    "img - OUTPT ger": [
+      "Outpatient Geriatric Diagnostic Imaging"
+    ],
+    "img - POSTOP onc DIAG": [
+      "Postoperative Oncology Diagnostic Imaging"
+    ],
+    "inpatient - ORTHOPAEDIC anaes ADMIN /CW-3173": [],
+    "inpt - ORTHO anaes ADMINISTRATION": [
+      "Inpatient Orthopaedic Anaesthesia Administration"
+    ],
+    "intens  UROLOGIC spcm ANALYSIS /CW-5532": [],
+    "intens - RHEUM radiotherapy /CW-4273": [],
+    "intens - UROL spcm ANALYSIS /CW-2272": [],
+    "intens - UROL specimen ANLY /CW-8319": [],
+    "intens - VASC steril SVC /CW-4993": [],
+    "intens - VASCULAR steril SVC /CW-7067": [],
+    "intensive  - VASCULAR steril SVC /CW-1594": [],
+    "interm - NEUROLOGICAL lab PNL /CW-3443": [],
+    "interm - ONC hm VST": [
+      "Intermittent Oncology Home Visit"
+    ],
+    "interm - ONCOLOGY hm VST /CW-7658": [],
+    "interm NEURO lab PNL": [
+      "Intermittent Neurological Laboratory Panel"
+    ],
+    "interm ONC home VST /CW-1380": [],
+    "intermittent  NEURO lab PNL /CW-9905": [],
+    "intermittent - NEURO laboratory PNL": [
+      "Intermittent Neurological Laboratory Panel"
+    ],
+    "intermittent - REN anaes": [
+      "Intermittent Renal Anaesthesia Administration"
+    ],
+    "interp - BEDS obst IMG /CW-9860": [],
+    "interp - BEDSIDE obst IMG": [
+      "Bedside Obstetric Imaging Interpretation"
+    ],
+    "interp - COMPR urol IMG /CW-7467": [],
+    "interp BEDSIDE obst IMG /CW-4098": [],
+    "interp COMPR img /CW-6998": [],
+    "interpretation - COMPR img /CW-2951": [],
+    "monit  - POSTOP otolaryngologic TELEM /CW-5715": [],
+    "monit  POSTOPERATIVE otolaryngologic TELEMETRY": [
+      "Postoperative Otolaryngologic Telemetry Monitoring"
+    ],
+    "monit - EXT urol TELEM /CW-7204": [],
+    "monit EXT urol TELEM": [
+      "Extended Urologic Telemetry Monitoring"
+    ],
+    "monit POSTOP otolaryngologic TELEM /CW-4406": [],
+    "msk - SPCM analysis": [
+      "Ambulatory Musculoskeletal Specimen Analysis"
+    ],
+    "obs - EXT rheum NURS /CW-3692": [],
+    "obs SUPERVISED gi NURSING /CW-4223": [],
+    "occ  - AMB card WARD bed /CW-8690": [],
+    "occ  - AMB card WD bd": [
+      "Ambulatory Cardiac Ward Bed Occupancy"
+    ],
+    "occ - AMBULATORY immun WD bd": [
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "occ - ELECT neuro WD bd /CW-3182": [],
+    "occ - ELECT neuro WD bd /CW-9688": [],
+    "occ - POSTOP pall RECOVERY rm": [
+      "Postoperative Palliative Recovery Room Occupancy"
+    ],
+    "occ AMB card WARD /CW-1077": [],
+    "occ AMB cardiac WD bd": [
+      "Ambulatory Cardiac Ward Bed Occupancy"
+    ],
+    "occ ELECTIVE neuro WARD bd": [
+      "Elective Neurological Ward Bed Occupancy"
+    ],
+    "occ PALLIATIVE recov RM": [
+      "Postoperative Palliative Recovery Room Occupancy"
+    ],
+    "occupancy  - AMBULATORY card WD bd": [
+      "Ambulatory Cardiac Ward Bed Occupancy"
+    ],
+    "occupancy ONC wd BD": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "onc DIAG img postop": [
+      "Postoperative Oncology Diagnostic Imaging"
+    ],
+    "onc DIAG img preop": [
+      "Preoperative Oncology Diagnostic Imaging"
+    ],
+    "ophth LAB pnl compr": [
+      "Comprehensive Ophthalmic Laboratory Panel"
+    ],
+    "ophth LAB pnl std": [
+      "Standard Ophthalmic Laboratory Panel"
+    ],
+    "ortho  - ANAES admin /CW-7356": [],
+    "ortho - ANAES admin /CW-8548": [],
+    "ortho - ANAES administration": [
+      "Inpatient Orthopaedic Anaesthesia Administration"
+    ],
+    "outpatient  - GER diag /CW-5691": [],
+    "outpt - CARDIAC physio": [
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "outpt - GER diagnostic IMG": [
+      "Outpatient Geriatric Diagnostic Imaging"
+    ],
+    "outpt - GERIATRIC diagnostic IMG /CW-5122": [],
+    "outpt CARD physio SESSION /CW-1340": [],
+    "outpt CARD sess": [
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "outpt CARDIAC physiotherapy SESS /CW-3911": [],
+    "outpt GER diag IMG /CW-6232": [],
+    "paed THTR tm adv": [
+      "Advanced Paediatric Theatre Time"
+    ],
+    "paed THTR tm asst": [
+      "Assisted Paediatric Theatre Time"
+    ],
+    "panel  INTERM neuro LAB": [
+      "Intermittent Neurological Laboratory Panel"
+    ],
+    "plng EXT disch /CW-9928": [],
+    "pnl - INTERM neuro LABORATORY /CW-8821": [],
+    "postop  - ONC img": [
+      "Postoperative Oncology Diagnostic Imaging"
+    ],
+    "postop  - PALLIATIVE recov ROOM occupancy /CW-6043": [],
+    "postop  PAED sterilisation SVC": [
+      "Postoperative Paediatric Sterilisation Service"
+    ],
+    "postop - PALL recovery RM occupancy": [
+      "Postoperative Palliative Recovery Room Occupancy"
+    ],
+    "postop - PALLIATIVE recov RM occ /CW-4182": [],
+    "postop GERIATRIC cs CONF /CW-2720": [],
+    "postop ONC diagnostic IMG": [
+      "Postoperative Oncology Diagnostic Imaging"
+    ],
+    "postop ONC img /CW-9715": [],
+    "postop ONCOLOGY imaging /CW-3721": [],
+    "postop PAED steril SVC": [
+      "Postoperative Paediatric Sterilisation Service"
+    ],
+    "postop PAED steril SVC /CW-1683": [],
+    "postoperative - ENT telem MONIT /CW-9058": [],
+    "postoperative - PALL recov ROOM occupancy": [
+      "Postoperative Palliative Recovery Room Occupancy"
+    ],
+    "postoperative CS conference /CW-1435": [],
+    "proc ADV vasc ENDOSC /CW-8189": [],
+    "prog  - CONT psych REHABILITATION /CW-5824": [],
+    "prog - EMER rheum REHAB /CW-5035": [],
+    "prog CONT psych REHAB /CW-9206": [],
+    "prog CONT rehab /CW-3359": [],
+    "prog EMER rheum REHABILITATION /CW-3222": [],
+    "renal ANAES admin": [
+      "Intermittent Renal Anaesthesia Administration"
+    ],
+    "rheum - RADIOTHERAPY fract /CW-5238": [],
+    "rheum NURS obs ext": [
+      "Extended Rheumatologic Nursing Observation"
+    ],
+    "rheum NURS obs postop": [
+      "Postoperative Rheumatologic Nursing Observation"
+    ],
+    "rheum REHAB prog amb": [
+      "Ambulatory Rheumatologic Rehabilitation Programme"
+    ],
+    "rheum REHAB prog emer": [
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "service - INTENS steril /CW-8257": [],
+    "service - POSTOP paed STERIL": [
+      "Postoperative Paediatric Sterilisation Service"
+    ],
+    "service POSTOP paediatric STERIL": [
+      "Postoperative Paediatric Sterilisation Service"
+    ],
+    "sess  - STD paediatric DIAL /CW-3203": [],
+    "sess - SUPV rheum DIALYSIS": [
+      "Supervised Rheumatologic Dialysis Session"
+    ],
+    "sess ASSISTED paed PHYSIO /CW-7619": [],
+    "sess STANDARD paed DIAL": [
+      "Standard Paediatric Dialysis Session"
+    ],
+    "spclst  - CARD vent SUPP": [
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "spclst - CARD ventilation SUPP /CW-4904": [],
+    "spclst - CARDIAC vent SUPPORT /CW-5757": [],
+    "spclst - GI img INTERP /CW-7861": [],
+    "spclst GI img INTERP /CW-5639": [],
+    "specialist - GI imaging INTERPRETATION /CW-3195": [],
+    "standard - ONC bd OCC": [
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "standard - ONC ward BD occ /CW-4538": [],
+    "standard - VASC home VST /CW-2287": [],
+    "std - DIAL sess /CW-2606": [],
+    "std - ONC wd BED occ /CW-1173": [],
+    "std - PAED dial SESS /CW-6582": [],
+    "std - VASC hm VST /CW-7377": [],
+    "std - VASC vst": [
+      "Standard Vascular Home Visit"
+    ],
+    "supervised  PULMONARY anaes ADMIN": [
+      "Supervised Pulmonary Anaesthesia Administration"
+    ],
+    "supervised  RHEUM dial SESSION /CW-9091": [],
+    "supervised - PULM admin": [
+      "Supervised Pulmonary Anaesthesia Administration"
+    ],
+    "supervised PULM anaes ADMIN": [
+      "Supervised Pulmonary Anaesthesia Administration"
+    ],
+    "supervised RHEUM dial SESS": [
+      "Supervised Rheumatologic Dialysis Session"
+    ],
+    "supp  SPCLST cardiac VENT /CW-8694": [],
+    "supp - ASSISTED renal NUTR /CW-6071": [],
+    "supp SPCLST card VENT /CW-2599": [],
+    "supv  - DIAL sess /CW-1782": [],
+    "supv  - GASTROINTESTINAL nurs OBS": [
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "supv  NURSING obs": [
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "supv - GI nurs OBS /CW-9063": [],
+    "supv PULM anaes ADMINISTRATION": [
+      "Supervised Pulmonary Anaesthesia Administration"
+    ],
+    "supv RHEUM sess /CW-6316": [],
+    "svc - EXT hep TRANSF": [
+      "Extended Hepatic Transfusion Service"
+    ],
+    "svc - INTENS vasc STERILISATION": [
+      "Intensive Vascular Sterilisation Service"
+    ],
+    "svc AMB haem TRANSFUSION /CW-4630": [],
+    "svc FOC vasc TRANSPORT": [
+      "Focused Vascular Transport Service"
+    ],
+    "ther - FOC vasc INF /CW-4721": [],
+    "therapy  - FOC vasc INFUSION /CW-1063": [],
+    "tm - OUTPT urol THEATRE /CW-3657": [],
+    "tm - OUTPT urol THTR /CW-8902": [],
+    "tm OUTPATIENT urol /CW-9136": [],
+    "tm OUTPT urol THTR": [
+      "Outpatient Urologic Theatre Time"
+    ],
+    "urol TELEM monit ext": [
+      "Extended Urologic Telemetry Monitoring"
+    ],
+    "urol TELEM monit interm": [
+      "Intermittent Urologic Telemetry Monitoring"
+    ],
+    "visit - BEDSIDE card HM": [
+      "Bedside Cardiac Home Visit"
+    ],
+    "visit BEDS cardiac HM": [
+      "Bedside Cardiac Home Visit"
+    ],
+    "visit STD vasc": [
+      "Standard Vascular Home Visit"
+    ],
+    "vst - INTERM onc HM": [
+      "Intermittent Oncology Home Visit"
+    ],
+    "vst BEDS card HM": [
+      "Bedside Cardiac Home Visit"
+    ],
+    "vst STD vasc HM /CW-9701": []
+  }
+}
