@@ -75,6 +75,6 @@ test_h5_usage_does_not_reset_by_patient_facility_or_tier (test_targets.TargetTes
 test_hospital_source_system_suffixes_and_qualifiers (test_targets.TargetTests.test_hospital_source_system_suffixes_and_qualifiers) ... ok
 
 ----------------------------------------------------------------------
-Ran 75 tests in 15.865s
+Ran 75 tests in 15.397s
 
 OK

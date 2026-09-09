@@ -1,5 +1,5 @@
 {
-  "elapsed_seconds": 15.93975,
+  "elapsed_seconds": 15.596168,
   "errors": 0,
   "failures": 0,
   "python": "3.12.13",
@@ -34,5 +34,5 @@
     "tests/test_targets.py": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
   },
   "tests_run": 75,
-  "utc": "2026-09-09T17:46:56.950461+00:00"
+  "utc": "2026-09-09T17:56:28.005951+00:00"
 }

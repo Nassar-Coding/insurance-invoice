@@ -1,5 +1,5 @@
 {
-  "clone_commit": "ec26e2560cb75850e56e49f2bb4fb4ffa904836d",
+  "clone_commit": "86b83b07a1d2ffec133e48213e67573682bfd74b",
   "commands": [
     {
       "argv": [
@@ -7,7 +7,7 @@
         "rev-parse",
         "HEAD"
       ],
-      "elapsed_seconds": 0.014512,
+      "elapsed_seconds": 0.004433,
       "log": "source_commit.log",
       "name": "source_commit",
       "returncode": 0
@@ -19,9 +19,9 @@
         "--quiet",
         "--no-local",
         "/workspace/scratch/43a4aea2353c/insurance-invoice",
-        "/tmp/insurance-publication-3yzvtng5/project"
+        "/tmp/insurance-publication-uj91off1/project"
       ],
-      "elapsed_seconds": 0.94467,
+      "elapsed_seconds": 2.102202,
       "log": "clone.log",
       "name": "clone",
       "returncode": 0
@@ -32,7 +32,7 @@
         "rev-parse",
         "HEAD"
       ],
-      "elapsed_seconds": 0.002615,
+      "elapsed_seconds": 0.003176,
       "log": "clone_commit.log",
       "name": "clone_commit",
       "returncode": 0
@@ -42,26 +42,26 @@
         "/workspace/scratch/43a4aea2353c/verify-env/bin/python",
         "-m",
         "venv",
-        "/tmp/insurance-publication-3yzvtng5/venv"
+        "/tmp/insurance-publication-uj91off1/venv"
       ],
-      "elapsed_seconds": 2.536564,
+      "elapsed_seconds": 3.995846,
       "log": "venv.log",
       "name": "venv",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "--version"
       ],
-      "elapsed_seconds": 0.003304,
+      "elapsed_seconds": 0.006377,
       "log": "version.log",
       "name": "version",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "pip",
         "install",
@@ -69,109 +69,109 @@
         "-r",
         "requirements.txt"
       ],
-      "elapsed_seconds": 0.559945,
+      "elapsed_seconds": 1.344756,
       "log": "dependency_install.log",
       "name": "dependency_install",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "pip",
         "check"
       ],
-      "elapsed_seconds": 0.476227,
+      "elapsed_seconds": 0.289975,
       "log": "dependency_check.log",
       "name": "dependency_check",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "pip",
         "list",
         "--format=json"
       ],
-      "elapsed_seconds": 0.219335,
+      "elapsed_seconds": 0.492724,
       "log": "dependency_list.log",
       "name": "dependency_list",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "insurance_audit",
         "reproduce"
       ],
-      "elapsed_seconds": 50.956188,
+      "elapsed_seconds": 53.539982,
       "log": "reproduce.log",
       "name": "reproduce",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "insurance_audit",
         "verify-submission"
       ],
-      "elapsed_seconds": 3.838925,
+      "elapsed_seconds": 3.682072,
       "log": "verify_submission.log",
       "name": "verify_submission",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "tools/run_checks.py",
         "local"
       ],
-      "elapsed_seconds": 16.057837,
+      "elapsed_seconds": 15.798752,
       "log": "tests.log",
       "name": "tests",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "insurance_audit",
         "evaluate",
         "--partition",
         "development"
       ],
-      "elapsed_seconds": 0.609444,
+      "elapsed_seconds": 0.552414,
       "log": "evaluate_development.log",
       "name": "evaluate_development",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "insurance_audit",
         "evaluate",
         "--partition",
         "check"
       ],
-      "elapsed_seconds": 0.735206,
+      "elapsed_seconds": 1.921474,
       "log": "evaluate_check.log",
       "name": "evaluate_check",
       "returncode": 0
     },
     {
       "argv": [
-        "/tmp/insurance-publication-3yzvtng5/venv/bin/python",
+        "/tmp/insurance-publication-uj91off1/venv/bin/python",
         "-m",
         "insurance_audit",
         "evaluate",
         "--partition",
         "full"
       ],
-      "elapsed_seconds": 0.850938,
+      "elapsed_seconds": 0.583179,
       "log": "evaluate_full.log",
       "name": "evaluate_full",
       "returncode": 0
@@ -182,10 +182,10 @@
     "development": true,
     "full": true
   },
-  "elapsed_seconds": 82.022123,
+  "elapsed_seconds": 88.013478,
   "execution": {
-    "elapsed_seconds": 50.833728,
-    "h1_attempt": "010fc7c877e7422988617213a6c66f05",
+    "elapsed_seconds": 53.417427,
+    "h1_attempt": "1a8aa3ccce224386adf11c9e7ffd7033",
     "hospital_opinions": {
       "H1": 250,
       "H2": 0,
@@ -200,7 +200,7 @@
     "status": "success",
     "submission_rows": 340,
     "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
-    "target_attempt": "090e72e7510c48e2881231dfc148bf12"
+    "target_attempt": "3b7fd5d69048405eaeb457841096e547"
   },
   "frozen_file_matches": {
     ".python-version": true,
@@ -1356,9 +1356,9 @@
   },
   "new_attempt_status": {
     "H1": {
-      "attempt": "010fc7c877e7422988617213a6c66f05",
-      "elapsed_seconds": 5.191755,
-      "finished_utc": "2026-09-09T17:45:51.423170+00:00",
+      "attempt": "1a8aa3ccce224386adf11c9e7ffd7033",
+      "elapsed_seconds": 4.994829,
+      "finished_utc": "2026-09-09T17:55:20.096229+00:00",
       "hospitals": [
         "H1"
       ],
@@ -1416,13 +1416,13 @@
         }
       },
       "run_id": "32fe22a5f6818f171da5dfe8e1b4b62c31279c23c9429a83963e4610777f17d9",
-      "started_utc": "2026-09-09T17:45:46.231406+00:00",
+      "started_utc": "2026-09-09T17:55:15.101328+00:00",
       "status": "success"
     },
     "H2-H3-H4-H5": {
-      "attempt": "090e72e7510c48e2881231dfc148bf12",
-      "elapsed_seconds": 24.741539,
-      "finished_utc": "2026-09-09T17:46:16.279548+00:00",
+      "attempt": "3b7fd5d69048405eaeb457841096e547",
+      "elapsed_seconds": 23.619343,
+      "finished_utc": "2026-09-09T17:55:43.826622+00:00",
       "hospitals": [
         "H2",
         "H3",
@@ -1557,11 +1557,11 @@
         }
       },
       "run_id": "0f1f089974462951e0bd40af8aa6b87519a05fb9e2c97744933b4d782596bc1e",
-      "started_utc": "2026-09-09T17:45:51.538001+00:00",
+      "started_utc": "2026-09-09T17:55:20.207171+00:00",
       "status": "success"
     }
   },
-  "peak_child_process_rss_kib": 480244,
+  "peak_child_process_rss_kib": 480328,
   "python": "3.12.13",
   "release_bound_file_matches": {
     ".python-version": true,
@@ -1730,9 +1730,9 @@
     "sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
     "unique_ids": 340
   },
-  "tested_commit": "ec26e2560cb75850e56e49f2bb4fb4ffa904836d",
+  "tested_commit": "86b83b07a1d2ffec133e48213e67573682bfd74b",
   "tests": {
-    "elapsed_seconds": 15.93975,
+    "elapsed_seconds": 15.596168,
     "errors": 0,
     "failures": 0,
     "python": "3.12.13",
@@ -1767,7 +1767,7 @@
       "tests/test_targets.py": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
     },
     "tests_run": 75,
-    "utc": "2026-09-09T17:46:56.950461+00:00"
+    "utc": "2026-09-09T17:56:28.005951+00:00"
   },
-  "utc": "2026-09-09T17:45:41.304083+00:00"
+  "utc": "2026-09-09T17:55:06.727378+00:00"
 }

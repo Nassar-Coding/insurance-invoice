@@ -4,7 +4,7 @@
 
 | Check | Result |
 |---|---|
-| Tested source/document commit | `ec26e2560cb75850e56e49f2bb4fb4ffa904836d` |
+| Tested source/document commit | `86b83b07a1d2ffec133e48213e67573682bfd74b` |
 | Dependency installation | Fresh virtual environment; `pip install --no-index -r requirements.txt` and `pip check` passed |
 | Full test suite | 75 passed; zero failures, errors or skips; test files and assertions unchanged |
 | Replay | All five hospitals recomputed from source inputs and reviewed artifacts |
@@ -27,6 +27,6 @@ Submission SHA-256:
 2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c
 ```
 
-The pipeline took 50.96 seconds in the clean clone. The full check took 82.02 seconds and its maximum child-process RSS was 480,244 KiB on Linux. Generated run files occupied 266,033,447 bytes. These are observed measurements, not deployment capacity guarantees.
+The pipeline took 53.54 seconds in the clean clone. The full check took 88.01 seconds and its maximum child-process RSS was 480,328 KiB on Linux. Generated run files occupied 266,033,447 bytes. These are observed measurements, not deployment capacity guarantees.
 
-[Technical preservation checks](../evidence/publishing/cleanup_verification/technical_preservation.json) compare the revised documentation state with the original numerical and trace references. [Clean-clone results and logs](../evidence/publishing/cleanup_verification/clean_reproduction/result.json) record commands, return codes, hashes, complete metrics and the tested commit. Subsequent evidence files and the example-pointer metadata update do not change any file guarded by those 137/37 checks, comparison algorithm, required expected result hash or executable behavior.
+[Technical preservation checks](../evidence/publishing/cleanup_verification/technical_preservation.json) compare the revised documentation state with the original numerical and trace references. [Clean-clone results and logs](../evidence/publishing/cleanup_verification/clean_reproduction/result.json) record commands, return codes, hashes, complete metrics and the tested commit. Subsequent verification receipts and this report update do not change any file guarded by those 137/37 checks, comparison algorithm, required expected result hash or executable behavior.
