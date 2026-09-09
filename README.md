@@ -117,18 +117,3 @@ H2 has admission/discharge dates, but lacks actual submission dates, detailed ep
 Essential service qualifiers cannot be guessed from a unique catalog match or billed price. H1 development exposed a 43,650-cent over-correction; all 39 analogous mapping keys were withdrawn. Unknown quantity dimensions, conflicting IDs, missing context and nonunique allocations remain omissions. H3/H5 exclusion direction and exact boundaries remain qualified; H3 settlement protection uses the recorded chronology reading. H4 cumulative patient scope is bounded. H5 projects invoice facility onto lines as an explicit assumption; all 128 emitted H5 opinions have **0.65** confidence.
 
 Confidence attaches to a complete supported opinion. H1 correct-row tiers use 0.95/0.90; sparse error tiers use 0.65 judgment. Reviewed targets use 0.80/0.70, with relevant interpretation or invariant-uncertainty caps. These are not demonstrated target probabilities. Lowering a score cannot replace a missing fact.
-
-## History and document status
-
-Frozen replay is reproducible from retained schemas/mappings. Fresh LLM acquisition is a distinct source-reviewed process; it is not promised to regenerate identical records. Historical acquisition, mapping, freeze, status and rendering helpers under `tools/` remain for traceability and are not prediction-reproduction commands.
-
-The audited `prompts/README.md`, generated `reports/evaluation_report.md` and release-manifest scope still contain their original “closure pending” wording. Those bytes are retained to preserve the independently audited release. This README, the preparation report and the unchanged closure report establish the later status. Historical test/gate ledgers describe their dated checkpoints. Preparation does not falsely mark the four external BT11 tasks complete.
-
-PDFs are provided and are not required for pricing/tests. Optional rendering of current Markdown uses unchanged pins in `requirements-docs.txt`:
-
-```bash
-python -m pip install -r requirements-docs.txt
-python publishing/render_delivery_documents.py
-```
-
-The original exercise instructions and the later effort-limit override remain recorded without claiming compliance with the original cap. This is a synthetic-data batch prototype. Repository publication, assessor access and actual email delivery require later authorization; none has occurred. See [remaining external actions](docs/external_readiness.md).
