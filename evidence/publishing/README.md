@@ -4,4 +4,6 @@
 
 `final_reproduction/`, `document_checks.json`, `file_disposition.json` and `history_verification.json` are historical records of the original repository packaging and archive recovery. Their commits, file sets and paths identify that earlier state. They are retained unchanged for traceability and must not be read as current operational status or current document checks. Original archives referenced by those records remain in `evidence/history/`.
 
+Fresh archive verification corrected one inaccurate historical claim: the old H2 JSON in the Git bundle is complete and identical to its ZIP copy. The truncation claim in `history_verification.json` and `file_disposition.json` is superseded by the [current recovery findings](../history/README.md#verified-archive-contents) and [byte-level verification](../history/integrity_verification.json). The original receipts and archives are preserved unchanged.
+
 The current results are explained in [final_reproduction_result.md](../../reports/final_reproduction_result.md); current PDF checks are in `reports/document_checks.json`.
