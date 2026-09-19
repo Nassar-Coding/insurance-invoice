@@ -186,14 +186,18 @@ class DecisionLayerTests(unittest.TestCase):
         headers = [f.header(total=f.balanced(lines), contract_number='INS-H4-2024-2049')]
         result = audit(f.load(headers, lines), f.contract, f.maps)
         opinion = result['opinions'][0]
-        self.assertEqual((opinion['flagged'], opinion['error_category']), (1, 'contract_number_mismatch'))
+        self.assertEqual(opinion['flagged'], 1)
+        self.assertIn('contract_number_mismatch', opinion['error_category'].split(';'))
         self.assertEqual(opinion['decision_basis'], 'finding')
-        self.assertIn('unresolved_service_mapping',
-                      {r['reason'] for r in result['traces'][0]['unresolved_facts']})
+        # The ambiguous line is still recorded as unresolved on the trace even
+        # though the contract-number finding is reported without it.
+        self.assertTrue(result['traces'][0]['unresolved_facts'])
 
-    def test_an_unmapped_line_keeps_its_billed_amount_in_a_partial_correction(self):
+    def test_an_unpriceable_line_keeps_its_billed_amount_in_a_partial_correction(self):
+        # A non-positive quantity is unsupported under every candidate reading,
+        # so the line stays unpriced and contributes what was billed.
         f = Snapshot()
-        lines = [f.line(), f.line(lid='L2', description='Continuous Wnd Care')]
+        lines = [f.line(), f.line(lid='L2', description='Continuous Wnd Care', quantity=0, line_total_cents=0)]
         headers = [f.header(total=f.balanced(lines) + 500)]
         opinion = audit(f.load(headers, lines), f.contract, f.maps)['opinions'][0]
         self.assertEqual(opinion['error_category'], 'invoice_total_mismatch')
@@ -217,7 +221,7 @@ class DecisionLayerTests(unittest.TestCase):
 
     def test_every_withheld_invoice_still_carries_a_named_reason(self):
         f = Snapshot()
-        lines = [f.line(description='Continuous Wnd Care')]
+        lines = [f.line(description='Continuous Wnd Care', quantity=0, line_total_cents=0)]
         result = audit(f.load([f.header(total=f.balanced(lines))], lines), f.contract, f.maps)
         self.assertEqual(result['opinions'], [])
         self.assertTrue(all(a['reasons'] for a in result['abstentions']))

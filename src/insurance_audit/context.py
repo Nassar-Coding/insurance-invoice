@@ -27,6 +27,7 @@ class Context:
         self.contract=contract
         self.services={s['id']:s for s in contract['services']}
         self.index=mapping_index(mappings)
+        self.lexicon=mappings.get('lexicon',{})
         self.headers=defaultdict(list)
         for row in data.invoices:self.headers[row.invoice_id].append(row)
         # Typed headers determine whether their own invoice can be audited. Raw

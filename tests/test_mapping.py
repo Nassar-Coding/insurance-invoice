@@ -127,3 +127,48 @@ class PriceIsNeverEvidenceTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class EveryReadingTests(unittest.TestCase):
+    """A line whose wording names more than one service is audited under each."""
+
+    def setUp(self):
+        from insurance_audit.audit import reconcile
+        self.reconcile = reconcile
+
+    def priced(self, categories, amount):
+        return {'service_id': 'X', 'status': 'priced', 'error_categories': categories,
+                'expected_total_cents': amount}
+
+    def test_every_reading_faulty_is_a_confident_error_on_the_shared_categories(self):
+        result = self.reconcile([self.priced(['effective_rate_mismatch', 'wrong_unit_basis'], 100),
+                                 self.priced(['effective_rate_mismatch'], 100)])
+        self.assertEqual(result['verdict'], 'error')
+        self.assertEqual(result['error_fraction'], 1.0)
+        self.assertEqual(result['error_categories'], ['effective_rate_mismatch'])
+        self.assertEqual(result['expected_total_cents'], 100)
+
+    def test_a_shared_fault_with_disagreeing_amounts_keeps_the_fault_and_drops_the_amount(self):
+        result = self.reconcile([self.priced(['effective_rate_mismatch'], 100),
+                                 self.priced(['effective_rate_mismatch'], 250)])
+        self.assertEqual(result['verdict'], 'error')
+        self.assertIsNone(result['expected_total_cents'])
+
+    def test_no_reading_faulty_is_clean(self):
+        result = self.reconcile([self.priced([], 100), self.priced([], 100)])
+        self.assertEqual((result['verdict'], result['error_fraction']), ('clean', 0.0))
+
+    def test_a_mixed_verdict_is_ambiguous_and_records_the_share(self):
+        result = self.reconcile([self.priced(['effective_rate_mismatch'], 100), self.priced([], 100)])
+        self.assertEqual(result['verdict'], 'ambiguous')
+        self.assertEqual(result['error_fraction'], 0.5)
+        self.assertEqual(result['error_categories'], [])
+
+    def test_an_unpriceable_reading_makes_the_whole_line_unresolved(self):
+        result = self.reconcile([self.priced(['effective_rate_mismatch'], 100),
+                                 {'service_id': 'Y', 'status': 'uncertain', 'reason': 'unresolved_exclusion'}])
+        self.assertEqual(result['verdict'], 'unresolved')
+        self.assertIsNone(result['error_fraction'])
+
+    def test_no_candidates_at_all_is_unresolved(self):
+        self.assertEqual(self.reconcile([])['verdict'], 'unresolved')

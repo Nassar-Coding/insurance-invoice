@@ -10,6 +10,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 from .context import Context
 from .findings import Findings, order
+from .mapping import classify
 from .resolve import resolve
 from .pricing import rate_for, Uncertain
 from .checks import validate_line_facts, line_result
@@ -59,6 +60,61 @@ def corrected_total(facts, priced, categories):
         total += line['line_total_cents']
         contributions.append(dict(entry, contribution_cents=line['line_total_cents'], basis='billed'))
     return total, 'full_correction' if full else 'partial_correction', contributions
+
+
+def every_reading(line, invoice, candidates, contract, context):
+    """Audit one ambiguous line once per candidate service.
+
+    A line whose wording names more than one contracted service still has an
+    audit result under each of them. Where every reading reaches the same
+    verdict the ambiguity does not matter, and the verdict can be reported.
+    """
+    outcomes = []
+    for service_id in candidates:
+        service = context.services.get(service_id)
+        if service is None:
+            continue
+        try:
+            validate_line_facts(line, invoice, service, contract, context)
+            price = rate_for(line, invoice, service, contract, context)
+            result = line_result(line, service, price)
+            categories = list(result['error_categories'])
+            if line.unit_basis_as_billed != service['unit']:
+                categories.append('wrong_unit_basis')
+            outcomes.append({'service_id': service_id, 'status': 'priced',
+                             'error_categories': sorted(set(categories)),
+                             'expected_total_cents': result['expected_total_cents']})
+        except Uncertain as error:
+            outcomes.append({'service_id': service_id, 'status': 'uncertain', 'reason': error.reason})
+    return outcomes
+
+
+def reconcile(outcomes):
+    """Turn the per-reading outcomes into one verdict for the line.
+
+    `error` only when every reading is priced and every one of them finds a
+    fault; `clean` only when every reading is priced and none does. Anything
+    else is `ambiguous`, and carries the share of readings that found a fault
+    so Gate 6 can set a threshold on it.
+    """
+    if not outcomes or any(o['status'] != 'priced' for o in outcomes):
+        return {'verdict': 'unresolved', 'error_fraction': None, 'error_categories': [],
+                'expected_total_cents': None, 'readings': outcomes}
+    faulty = [o for o in outcomes if o['error_categories']]
+    fraction = len(faulty) / len(outcomes)
+    amounts = {o['expected_total_cents'] for o in outcomes}
+    agreed = amounts.pop() if len(amounts) == 1 else None
+    if fraction == 1.0:
+        shared = set(outcomes[0]['error_categories'])
+        for other in outcomes[1:]:
+            shared &= set(other['error_categories'])
+        return {'verdict': 'error', 'error_fraction': 1.0, 'error_categories': sorted(shared),
+                'expected_total_cents': agreed, 'readings': outcomes}
+    if fraction == 0.0:
+        return {'verdict': 'clean', 'error_fraction': 0.0, 'error_categories': [],
+                'expected_total_cents': agreed, 'readings': outcomes}
+    return {'verdict': 'ambiguous', 'error_fraction': fraction, 'error_categories': [],
+            'expected_total_cents': agreed, 'readings': outcomes}
 
 
 def audit(data, contract, mappings):
@@ -117,6 +173,7 @@ def audit(data, contract, mappings):
             qualifications.add('unobserved_submission_deadline_and_waiver')
         priced = {}
         categories = []
+        reading_findings = []
         grades = set()
         invariant = False
         complete = canonical is not None and not facts['reused_invoice_id'] and bool(facts['lines'])
@@ -132,10 +189,47 @@ def audit(data, contract, mappings):
                          'quantity': line.quantity, 'billed_unit': line.unit_basis_as_billed,
                          'billed_unit_price_cents': line.unit_price_cents,
                          'billed_line_total_cents': line.line_total_cents}
+                if sid is None:
+                    reading = classify(line.description, contract['services'], context.lexicon)
+                    verdict = reconcile(every_reading(line, invoice, reading['candidates'], contract, context))
+                    entry.update(mapping_state=reading['state'], every_reading=verdict['readings'],
+                                 error_fraction=verdict['error_fraction'])
+                    if verdict['verdict'] in {'error', 'clean'} and verdict['expected_total_cents'] is not None:
+                        result = {'expected_total_cents': verdict['expected_total_cents'],
+                                  'error_categories': verdict['error_categories']}
+                        entry.update(status='supported_under_every_reading', result=result)
+                        priced[key] = result
+                        categories.extend(verdict['error_categories'])
+                        grades.add('elided')
+                        trace['lines'].append(entry)
+                        continue
+                    if verdict['verdict'] == 'error':
+                        # Every reading finds a fault and they disagree only on the
+                        # corrected amount. The fault is established; the amount is
+                        # not, so the line keeps what was billed.
+                        named = verdict['error_categories'] or ['ambiguous_service_pricing']
+                        reading_findings.extend(named)
+                        entry.update(status='faulty_under_every_reading',
+                                     result={'error_categories': named, 'expected_total_cents': None})
+                        line_reasons.append({'reason': 'ambiguous_corrected_amount', 'line_id': line.line_id,
+                                             'detail': {'candidates': reading['candidates'],
+                                                        'expected_totals': sorted(
+                                                            {o['expected_total_cents'] for o in verdict['readings']})}})
+                        complete = False
+                        trace['lines'].append(entry)
+                        continue
+                    reason = {'reason': 'ambiguous_service_mapping' if verdict['verdict'] == 'ambiguous'
+                                        else 'unresolved_service_mapping',
+                              'line_id': line.line_id,
+                              'detail': {'description': line.description, 'candidates': reading['candidates'],
+                                         'matcher_state': reading['state'],
+                                         'error_fraction': verdict['error_fraction']}}
+                    line_reasons.append(reason)
+                    entry.update(status='uncertain', reason=reason)
+                    complete = False
+                    trace['lines'].append(entry)
+                    continue
                 try:
-                    if sid is None:
-                        raise Uncertain('unresolved_service_mapping',
-                                        {'description': line.description, 'candidates': sorted(possible)})
                     service = context.services[sid]
                     entry['source_refs'] = service['refs']
                     entry['duplicate_check'] = validate_line_facts(line, invoice, service, contract, context)
@@ -156,7 +250,9 @@ def audit(data, contract, mappings):
         if any(l['status'] == 'quarantined' for l in facts['lines']):
             complete = False
         reasons.extend(line_reasons)
-        findings = facts['categories']
+        # A fault every candidate reading agrees on is established evidence, so
+        # it joins the findings and is reported whatever else is unresolved.
+        findings = order(list(dict.fromkeys(facts['categories'] + sorted(set(reading_findings)))))
         # No accepted header record means no billed total to report against, so
         # even a named finding cannot be emitted as a row.
         if canonical is not None and (findings or (complete and categories)):

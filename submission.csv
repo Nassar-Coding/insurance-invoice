@@ -1142,7 +1142,7 @@ INV-H4-000570,0,,2001370,2001370,0.8
 INV-H4-000571,0,,3271200,3271200,0.8
 INV-H4-000572,0,,3946500,3946500,0.7
 INV-H4-000574,0,,2526375,2526375,0.8
-INV-H4-000576,1,malformed_service_date;daily_quantity_cap;line_amount_mismatch,5831530,5976355,0.8
+INV-H4-000576,1,malformed_service_date;daily_quantity_cap;effective_rate_mismatch;line_amount_mismatch,5831530,5976355,0.8
 INV-H4-000578,0,,2235025,2235025,0.8
 INV-H4-000580,0,,1117339,1117339,0.8
 INV-H4-000583,1,effective_rate_mismatch;invoice_amount_mismatch;line_amount_mismatch,819575,947375,0.7
@@ -1562,7 +1562,7 @@ INV-H5-000568,0,,2250229,2250229,0.65
 INV-H5-000571,0,,906632,906632,0.65
 INV-H5-000572,0,,4563454,4563454,0.65
 INV-H5-000573,0,,1534116,1534116,0.65
-INV-H5-000574,1,service_date_out_of_window;wrong_unit_basis,5517874,5517874,0.65
+INV-H5-000574,1,service_date_out_of_window;wrong_unit_basis;effective_rate_mismatch;line_amount_mismatch,5517874,5517874,0.65
 INV-H5-000575,1,invoice_total_mismatch,1067381,1167381,0.65
 INV-H5-000578,0,,3099289,3099289,0.65
 INV-H5-000580,0,,5763303,5763303,0.65

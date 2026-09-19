@@ -1,27 +1,28 @@
 {
   "H1": {
     "abstention_invoice_counts_by_reason": {
+      "ambiguous_service_mapping": 204,
       "duplicate_service_day_allocation": 4,
       "multiple_supported_rate_outcomes": 50,
       "possible_duplicate_service_day": 14,
       "unresolved_exclusion": 3,
-      "unresolved_service_mapping": 220
+      "unresolved_service_mapping": 21
     },
-    "abstentions": 273,
+    "abstentions": 272,
     "accepted_invoice_records": 918,
     "accepted_line_records": 11409,
     "confidence_tiers": {
       "h1_supported:elided:0": 210,
       "h1_supported:explicit:0": 378,
-      "sparse:elided:1": 16,
+      "sparse:elided:1": 17,
       "sparse:explicit:1": 36
     },
     "context_records": 11415,
     "correct_opinions": 588,
-    "coverage": 0.7009857612267251,
+    "coverage": 0.7020810514786419,
     "distinct_mapping_keys": 470,
-    "flagged_opinions": 52,
-    "opinions": 640,
+    "flagged_opinions": 53,
+    "opinions": 641,
     "orphan_line_count": 0,
     "qualified_opinions": 0,
     "quarantined_records": 6,
@@ -33,11 +34,12 @@
   },
   "H2": {
     "abstention_invoice_counts_by_reason": {
+      "ambiguous_service_mapping": 175,
       "composite_dimension_unobserved": 147,
       "multiple_supported_rate_outcomes": 945,
       "unobserved_service_day_cap_allocation": 155,
       "unresolved_exclusion": 4,
-      "unresolved_service_mapping": 353
+      "unresolved_service_mapping": 209
     },
     "abstentions": 1004,
     "accepted_invoice_records": 1132,
@@ -63,12 +65,13 @@
   },
   "H3": {
     "abstention_invoice_counts_by_reason": {
+      "ambiguous_service_mapping": 105,
       "composite_dimension_unobserved": 81,
       "duplicate_service_day_allocation": 4,
       "multiple_supported_rate_outcomes": 54,
       "possible_duplicate_service_day": 6,
       "unresolved_exclusion": 3,
-      "unresolved_service_mapping": 118
+      "unresolved_service_mapping": 18
     },
     "abstentions": 243,
     "accepted_invoice_records": 939,
@@ -94,12 +97,13 @@
   },
   "H4": {
     "abstention_invoice_counts_by_reason": {
+      "ambiguous_service_mapping": 111,
       "composite_dimension_unobserved": 94,
       "duplicate_service_day_allocation": 3,
       "multiple_supported_rate_outcomes": 219,
       "possible_duplicate_service_day": 19,
       "unresolved_exclusion": 12,
-      "unresolved_service_mapping": 155
+      "unresolved_service_mapping": 47
     },
     "abstentions": 376,
     "accepted_invoice_records": 840,
@@ -125,12 +129,13 @@
   },
   "H5": {
     "abstention_invoice_counts_by_reason": {
+      "ambiguous_service_mapping": 218,
       "composite_dimension_unobserved": 106,
       "duplicate_service_day_allocation": 2,
       "multiple_supported_rate_outcomes": 192,
       "possible_duplicate_service_day": 29,
       "unresolved_exclusion": 4,
-      "unresolved_service_mapping": 260
+      "unresolved_service_mapping": 48
     },
     "abstentions": 447,
     "accepted_invoice_records": 1057,
