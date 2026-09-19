@@ -1,5 +1,7 @@
 # Executed command interface
 
+Gate 0 update: historical fingerprints are provenance only and no longer gate replay. Prediction requires no label file or split manifest; optional development evaluation uses `tests/evaluation/split_manifest.json`. Follow the current README for execution.
+
 Use Python 3.12.13 with `PYTHONPATH=src` from the project root. The global `--project PATH` precedes the command. The commands below describe the implemented interface.
 
 | Command | Actual behavior |

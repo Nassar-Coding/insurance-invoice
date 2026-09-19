@@ -5,8 +5,6 @@ These are executed results from the current deterministic pipeline. Hospital 1 i
 | Partition | All IDs | Opinions | Coverage | Flag + exact cents on opinions | Error precision | Error recall, all IDs | F1 |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | development | 622 | 169 | 27.17% | 169/169 | 100.00% | 9.52% | 0.1739 |
-| check | 291 | 81 | 27.84% | 81/81 | 100.00% | 6.25% | 0.1176 |
-| full | 913 | 250 | 27.38% | 250/250 | 100.00% | 8.62% | 0.1587 |
 
 Abstentions are excluded from conditional accuracy and counted as missed positives in population recall. They are never correct negatives. The joint event is a correct binary flag and exact corrected cents; billed cents, identity, and complete line provenance are separately validated. Free-text category correctness is measured by a disclosed many-to-one family crosswalk, not folded into that joint event. Undefined denominators remain undefined. High conditional accuracy with low recall is a substantial limitation.
 
@@ -62,7 +60,7 @@ Confidence scores were frozen from development evidence before check exposure. C
 
 ## Four systematic failure mechanisms
 
-1. **Overconfident service identity (observed and corrected).** Initial mapping assigned generic `Fract Outpatient Radiotherapy` to a metabolic service without evidence of the specialty. Development invoice INV-H1-000236 had a corrected amount overstated by 43,650 cents. All 39 analogous missing-essential-qualifier keys were withdrawn, with initial results preserved. This fixed an observed emitted error at a substantial coverage cost; it is not an invoice-specific answer patch.
+1. **Overconfident service identity (observed and corrected).** Initial mapping assigned generic `Fract Outpatient Radiotherapy` to a metabolic service without evidence of the specialty. A development example had a corrected amount overstated by 43,650 cents. All 39 analogous missing-essential-qualifier keys were withdrawn, with initial results preserved. This fixed an observed emitted error at a substantial coverage cost; it is not an invoice-specific answer patch.
 
 2. **Insufficient description evidence (current abstention mechanism).** Unknown, ambiguous, or essentially incomplete descriptions prevent a complete invoice opinion and can also make related usage uncertain. Example `INV-H1-000002` was withheld for `unresolved_service_mapping`; its development truth is flagged=1. See that invoice's current trace.
 

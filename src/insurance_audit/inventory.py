@@ -55,6 +55,6 @@ def build_inventory(project: Path) -> dict:
         data=load_hospital(project/'data/source',hospital)
         reports[hospital]=data.quality()
         write_json(project/f'reports/inventory_{hospital}.json',inventory(data))
-        if hospital=='H1':write_json(project/'evaluation/split_manifest.json',split_h1(data))
+        if hospital=='H1':write_json(project/'tests/evaluation/split_manifest.json',split_h1(data))
     write_json(project/'reports/input_quality.json',reports)
     return reports

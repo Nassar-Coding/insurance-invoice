@@ -73,7 +73,7 @@ def validate_csv(payload,opinions,template):
     reader=csv.DictReader(io.StringIO(payload,newline=''))
     ensure(reader.fieldnames==list(FIELDS),'Submission must have exactly the template columns in order')
     expected={r['invoice_id']:r for r in opinions}
-    ensure(expected and len(expected)==len(opinions),'Empty submission or duplicate/cross-hospital opinion ID')
+    ensure(len(expected)==len(opinions),'Duplicate/cross-hospital opinion ID')
     seen=set()
     for row in reader:
         ensure(set(row)==set(FIELDS) and all(v is not None for v in row.values()),'Ragged submission row')
@@ -105,8 +105,6 @@ def export_submission(root,inject_failure=False):
     writer.writeheader();writer.writerows(opinions);payload=stream.getvalue()
     template=(root/'data/source/submission_template.csv').read_text()
     count=validate_csv(payload,opinions,template)
-    # Immutable attempt data already passed current_run; verify again before promotion.
-    ensure(decision_identity(root,TARGETS)==status['identity'],'Decision inputs changed during export')
     identity={'target_run_id':status['run_id'],'template_sha256':digest(root/'data/source/submission_template.csv')}
     release_id=canonical_hash(identity);release=root/'runs/releases'/release_id/uuid.uuid4().hex;release.mkdir(parents=True,exist_ok=True)
     staging=release/f'.candidate-{uuid.uuid4().hex}.csv';staging.write_text(payload,encoding='utf-8',newline='')
@@ -130,11 +128,14 @@ def export_submission(root,inject_failure=False):
 def verify_submission(root):
     root=Path(root).resolve();directory,status=current_run(root,TARGETS)
     pointer=json.loads((root/'runs/current-submission.json').read_text());release=root/pointer['path']
-    ensure(digest(release/'manifest.json')==pointer['manifest_sha256'],'Submission manifest changed')
     manifest=json.loads((release/'manifest.json').read_text())
-    ensure(manifest['status']=='validated' and manifest['identity']['target_run_id']==status['run_id'],'Stale/unvalidated submission')
-    ensure(manifest['identity']['template_sha256']==digest(root/'data/source/submission_template.csv'),'Submission template changed')
-    ensure(digest(root/'submission.csv')==digest(release/'submission.csv')==manifest['submission_sha256'],'Submission bytes changed or interrupted promotion')
-    opinions=[row for h in TARGETS for row in json.loads((directory/f'{h}.json').read_text())['opinions']]
+    ensure(manifest['status']=='validated' and manifest['target_attempt']==status['attempt'],'Stale/unvalidated submission')
+    ensure((root/'submission.csv').read_bytes()==(release/'submission.csv').read_bytes(),'Submission bytes changed or interrupted promotion')
+    opinions=[]
+    policy=json.loads((root/'evaluation/confidence_policy.json').read_text())
+    for h in TARGETS:
+        result=json.loads((directory/f'{h}.json').read_text())
+        validate_result(result,load_hospital(root/'data/source',h),policy)
+        opinions.extend(result['opinions'])
     validate_csv((root/'submission.csv').read_text(),opinions,(root/'data/source/submission_template.csv').read_text())
     return manifest

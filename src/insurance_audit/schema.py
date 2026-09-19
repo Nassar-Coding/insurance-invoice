@@ -61,7 +61,7 @@ def validate_contract(c):
     require(isinstance(c['source_hashes'],dict) and c['source_hashes'],'Source hashes required')
     for path,h in c['source_hashes'].items():
         require(path.startswith('data/source/contracts/') and '..' not in Path(path).parts,'Invalid source path')
-        require(isinstance(h,str) and len(h)==64 and all(x in '0123456789abcdef' for x in h),'Invalid source hash')
+        # Historical fingerprints are metadata, never an execution precondition.
     s=c['semantics']
     keys(s,{'rounding','adjustment_order','service_day','exclusion_direction','exclusion_boundary','duplicate_policy',
             'cap_policy','facility_source','volume_basis','version_precedence','invoice_eligibility','service_date_not_after_invoice','refs'},'semantics')
@@ -174,11 +174,10 @@ def load_bundle(project: Path,hospital: str):
     references(manifest['review_evidence'],'bundle review evidence')
     for rel,sha in (manifest['artifacts']|manifest['source_hashes']).items():
         require(not Path(rel).is_absolute() and '..' not in Path(rel).parts,'Unsafe artifact path')
-        require((project/rel).is_file() and digest(project/rel)==sha,f'Unreviewed/stale/incompatible bytes: {rel}')
+        # Review records and their historical hashes are optional replay evidence.
     require(manifest['contract_path'] in manifest['artifacts'] and manifest['mapping_path'] in manifest['artifacts'],'Unbound contract/mapping path')
     contract=validate_contract(json.loads((project/manifest['contract_path']).read_text()))
     mappings=validate_mappings(json.loads((project/manifest['mapping_path']).read_text()),contract)
     require(contract['hospital']==hospital,'Cross-hospital contract')
     require(contract['review_state']=='accepted' and mappings['review_state']=='accepted','Contract or mappings not reviewed')
-    require(contract['source_hashes']==manifest['source_hashes'],'Governing source binding mismatch')
     return contract,mappings,manifest

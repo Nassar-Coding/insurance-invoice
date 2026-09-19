@@ -1,5 +1,7 @@
 # Declarative record specification v2
 
+Gate 0 update: historical fingerprints are provenance only and no longer gate replay. Prediction requires no label file or split manifest; optional development evaluation uses `tests/evaluation/split_manifest.json`. Follow the current README for execution.
+
 Finite data records describe hospital/contract identity, term, service-day and exclusion interpretation, reviewed source hashes, explicit review state, service names and IDs, unit basis, versioned rates with priority, daily thresholds/caps, weekend multipliers, volume thresholds, facility/tier multipliers, bundle substitutions and exclusions. References identify controlling clauses. Rate/threshold/multiplier values are integers or integer ratios; no floating money or executable expressions exist.
 
 The fixed interpreter supports: service-date version precedence; calendar grouping; exact half-up per adjustment; bundle → facility → tier → premium/uplift → deepest strict-prior volume discount → billed quantity; caps where the invoice amount can be established; unit, arithmetic and contract-reference checks; exclusion applicability; duplicate/unknown-fact abstention. Unsupported composite measurements and ambiguous temporal/directional cases stay explicit. Additional source-supported operations require a versioned interpreter/schema change and affected regression evidence.

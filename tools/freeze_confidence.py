@@ -30,5 +30,5 @@ policy={'version':'1','minimum_empirical_n':30,'h1_groups':groups,'target_judgme
                       'H1 patient groups share legitimate global utilisation; the check is not an independent external test.',
                       'Rare errors and explicit ambiguity are weakly supported even when emitted-row accuracy is high.']}
 write_json(ROOT/'evaluation/confidence_policy.json',policy)
-write_json(ROOT/'evaluation/development_policy_evidence.json',r)
+write_json(ROOT/'tests/evaluation/development_policy_evidence.json',r)
 print(json.dumps(policy,indent=2))

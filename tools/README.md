@@ -7,3 +7,7 @@ Current execution uses `python -m insurance_audit reproduce`, `verify-submission
 The acquisition, mapping revision, review recording, acceptance and confidence-freeze scripts preserve how the saved artifacts were produced. They are historical acquisition utilities, not steps in ordinary replay. Their descriptive strings reflect the original acquisition records. Running them may replace reviewed artifacts and would require a new technical review; do not run them just to reproduce the submission.
 
 `verify_current_evidence.py`, `verify_audit_corrections.py` and `check_clean_reproduction.py` retain historical regression checks whose original attempt paths are in the [history archive](../evidence/history/README.md). Use a separate restored historical checkout for those comparisons. The current 75-test suite and clean-clone checker require no history restoration.
+
+## Gate 0 update
+
+The current prediction commands and supported Python range are in the root README. Use `generalize.py` for label-free portability checks. The original publishing and clean-clone scripts above describe the prior baseline and are not current portability gates. Invoice-specific historical revision/diagnostic scripts `review_h1_mapping_v2.py` and `verify_audit_corrections.py` have moved to `tests/historical_tools/`. They are not called by prediction replay.

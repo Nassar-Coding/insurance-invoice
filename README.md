@@ -1,31 +1,12 @@
-# Insurance auditing
+# Insurance invoice auditing
 
-**LLM contract-to-schema with deterministic pricing**, implemented against the supplied synthetic five-hospital challenge. AI-assisted contract interpretation and source review produced finite schemas and service mappings. Standard-library Python replays saved, reviewed JSON through a fixed interpreter. Prediction execution makes no model calls.
+LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU. This is the Gate 0 fallback: execution portability has improved; detection, pricing, mapping and confidence rules have not been expanded.
 
-The implementation has 75 tests and independent verification of clean replay and the two corrected defects. See [implementation details](reports/implementation_report.md) and [reproduction results](reports/final_reproduction_result.md).
+## Reproduce
 
-## Results and coverage
-
-| Hospital | Unique invoice IDs | Complete opinions | Predicted errors | Withheld |
-|---|---:|---:|---:|---:|
-| H1 — labelled development | 913 | 250 | 5 | 663 |
-| H2 | 1,125 | 0 | 0 | 1,125 |
-| H3 | 932 | 148 | 5 | 784 |
-| H4 | 835 | 64 | 1 | 771 |
-| H5 | 1,050 | 128 | 0 | 922 |
-
-The submission contains **340 target opinions: six predicted erroneous and 334 predicted correct**. Target accuracy is unknown. All five contracts and observed description keys were examined; inspected services do not imply complete invoice coverage.
-
-H1 has **250/250 correct flag-and-exact-amount matches on emitted opinions**, **27.38% coverage**, and **5/58 = 8.62% population error recall**. The other 53 labelled errors are withheld. Development emits 169/622; the exposed check group emits 81/291. The check is now regression evidence, not a fresh holdout. [Evaluation](reports/evaluation_report.md) includes per-category metrics, denominators, confidence support and four systematic failure mechanisms with actual examples.
-
-## Install and reproduce
-
-After cloning the submitted repository, enter its root. Use **CPython 3.12.13**, recorded in `.python-version` and included in execution identity. There are **no third-party runtime or test packages**. `requirements.txt` is intentionally comments only. No API credentials, GPU, database, network service or archived prediction is needed.
-
-Linux/macOS shell:
+Use **Python >=3.12,<3.13**. `.python-version` records the original 3.12.13 reference only; another patch version produces a warning, not a failure. Core execution and tests have no third-party dependencies.
 
 ```bash
-python --version
 python -m venv .venv
 . .venv/bin/activate
 python -m pip install --no-index -r requirements.txt
@@ -35,86 +16,56 @@ PYTHONPATH=src python -m insurance_audit verify-submission
 python tools/run_checks.py local
 ```
 
-Windows PowerShell: after selecting Python 3.12.13 and running `python -m venv .venv`, use:
+`reproduce` audits all five hospitals and exports complete opinions for H2–H5 to `submission.csv`. It reads the current files in `data/source/invoices/`; no invoice-ID list, recorded input fingerprint, label file or partition manifest is required. Hashes remain provenance metadata. Finite-schema, source-row accounting, complete-line and monetary validation remain enforced. A batch with no supported target opinions produces a valid header-only CSV rather than crashing or inventing clean rows.
 
-```powershell
-.venv\Scripts\python.exe --version
-.venv\Scripts\python.exe -m pip install --no-index -r requirements.txt
-.venv\Scripts\python.exe -m pip check
-$env:PYTHONPATH = 'src'
-.venv\Scripts\python.exe -m insurance_audit reproduce
-.venv\Scripts\python.exe -m insurance_audit verify-submission
-.venv\Scripts\python.exe tools/run_checks.py local
+For another dataset, copy the project and replace the CSV inputs under `data/source/invoices/`, retaining the supplied contract Markdown, reviewed contract JSON and mappings. The public command also accepts `--project /absolute/project/path` before `reproduce`.
+
+Windows PowerShell: use `.venv\Scripts\python.exe` for `python` and set `$env:PYTHONPATH = 'src'` before the CLI commands. This spelling is documented; execution verification is on Linux.
+
+## Evaluation boundary
+
+Prediction replay does not open labels or the partition manifest. Development evaluation is explicit:
+
+```bash
+PYTHONPATH=src python -m insurance_audit reproduce --evaluate-development
 ```
 
-The final verification was executed on Linux; the PowerShell spelling was not executed on Windows. Other Python versions are unverified and change execution identity.
+The optional development step skips missing labels or the manifest and reports evaluation failures without failing the successful prediction run. The preserved partition manifest and original calibration evidence live under `tests/evaluation/`; they are evaluation evidence, not prediction inputs. The confidence policy remains under `evaluation/` and its numerical values are unchanged.
 
-`reproduce` recomputes **all five hospitals**, exports complete H2–H5 opinions and evaluates all three H1 partitions. It does not copy `submission.csv` or refit confidence. `verify-submission` needs a successful current run and release manifest, so run reproduction first in a new clone. The full suite contains **75 tests** and writes `reports/tests_local.json` and `.txt`.
+During the improvement gates, do not run evaluation with `--partition check` or `--partition full` until the Final Gate. The earlier implementation had already exposed check; no claim of a newly untouched holdout is made. The revisit does not reopen it before the Final Gate.
 
-Expected submission SHA-256:
+## Generalization survival check
+
+```bash
+python tools/generalize.py
+```
+
+The harness uses a temporary project with unchanged executable code, contract records and mappings, without labels or a split manifest. For every hospital it re-IDs invoices, keeps approximately 70% of patients with their full histories, shuffles rows and perturbs 30% of descriptions. Reused-ID connected patient groups stay together. Perturbations include case, whitespace, abbreviation swaps, separator/token order and one-character non-code typos; service-code preservation/removal is balanced across perturbed rows.
+
+It executes the public reproduction command and validates output schema, identity accounting, traces, money, confidence and submission contents. Gate 0 requires execution/schema survival; a recall-tolerance assertion belongs to Gate 3 onward. Results are written to `reports/generalization_gate0.json` and its log.
+
+## Fallback results and limitations
+
+The source snapshot's target submission remains 340 opinions: H2 0, H3 148, H4 64 and H5 128; six flagged invoices in total. Withholding remains extensive. H2 diagnostic pricing cannot establish complete payable opinions under the current rules. Newly worded descriptions generally remain unresolved; the generalization survival check does not establish detection quality.
+
+Expected original-snapshot submission SHA-256:
 
 ```text
 2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c
 ```
 
-The 340 data rows use exactly these columns, in this order:
+This checksum is a verification reference, never an execution requirement on new inputs. Contracts, mappings, pricing order, confidence scores and uncertainty handling are unchanged at Gate 0. Later gates have not been implemented.
 
-```text
-invoice_id,flagged,error_category,expected_total_cents,billed_total_cents,confidence
-```
+## Project and evidence
 
-To rerun H1 evaluation after reproduction:
+- `src/insurance_audit/`: fixed interpreter, validation, export and optional evaluation.
+- `contracts/`, `mappings/`: reviewed records, original candidates and revisions.
+- `data/source/`: original challenge contracts, CSV inputs, H1 labels and template.
+- `prompts/`: original versioned technical prompts and assistance disclosure links.
+- `tests/`: regression fixtures; `tests/evaluation/` contains evaluation-only ID lists; `tests/historical_tools/` preserves earlier invoice-specific diagnostic utilities.
+- `evaluation/gate_reports.md`: current gate decisions, measured results and discrepancies.
+- `reports/`: generated metrics, coverage and technical evidence. Earlier reports/PDFs describe their dated audited implementation; Gate 0 changes are recorded in the gate report.
+- `docs/decision_register.md`: contract interpretations and unresolved facts.
+- `evidence/history/`, `governance/audits/`: original history and independent audits; not replay dependencies.
 
-```bash
-PYTHONPATH=src python -m insurance_audit evaluate --partition development
-PYTHONPATH=src python -m insurance_audit evaluate --partition check
-PYTHONPATH=src python -m insurance_audit evaluate --partition full
-```
-
-Use `--project /absolute/project/path` before a subcommand when invoking elsewhere. [CLI details](docs/cli_contract.md) cover inventory, audit and export.
-
-## Clean-state verification and generated files
-
-The clean-clone check creates a fresh local Git clone and virtual environment, installs the empty dependency set, removes saved predictions and archived history from the clone, executes the documented pipeline and all 75 tests, and compares complete hospital results and input-quality files with the recorded reference hashes. It also compares the CSV, metrics, workload, evaluation report and release manifest. From a committed checkout:
-
-```bash
-python publishing/check_reproduction.py
-```
-
-Normal reproduction needs neither this helper nor historical restoration. Its output goes to `evidence/publishing/latest_reproduction/`; the latest verified result is retained under `evidence/publishing/cleanup_verification/`.
-
-Before ordinary replay you may remove `runs/`, `submission.csv`, and generated `reports/metrics.json`, `reports/workload.json`, `reports/evaluation_*.json`, `reports/evaluation_report.md`, `reports/execution.json` and `reports/release_manifest.json`. **Keep the other review evidence:** accepted bundles require the exact five `reports/H*_source_review.json` files. New attempts live in `runs/attempts/`; `runs/current-H1.json` and `runs/current-H2-H3-H4-H5.json` locate them. Traces record opinions, omissions, services, dated rates, controlling clauses, arithmetic and uncertain context. Export checks full line coverage and policy consistency; failed or stale output cannot be promoted silently.
-
-Predictions, metrics, workload and complete hospital traces match the reference. Documentation fingerprints identify the current report templates; attempt IDs and timing are fresh. Each replay retains several hundred MB of detailed JSON; disk use grows with retained attempts. The final report records observed runtime and memory, not a scale guarantee.
-
-## Project guide
-
-| Path | Purpose |
-|---|---|
-| `data/source/` | Unchanged source CSV, Markdown, H1 labels and template; original challenge README retained |
-| `src/insurance_audit/`, `tests/` | Fixed interpreter, data/uncertainty checks, evaluation/export and 75 tests |
-| `contracts/`, `mappings/` | Finite rules, source-bound acceptance bundles, raw candidates and earlier revisions |
-| `evaluation/` | Frozen patient-connected split, confidence policy and development support |
-| `prompts/` | Original versioned extraction, mapping v1/v2 and source-review prompts |
-| `docs/decision_register.md`, `docs/implementation_changes.md` | Interpretation history, failed expectations and corrections |
-| `docs/ai_usage.md`, `docs/reproducibility.md` | Assistance disclosure, reproduction and artifact dependencies |
-| `reports/evaluation_report.md`, `metrics.json`, `workload.json` | Performance, failure examples, abstention workload and limitations |
-| `reports/decision_log.md` / `.pdf` | Current one-page decision summary |
-| `reports/submission_writeup.md` / `.pdf` | Current two-page accompanying write-up |
-| `reports/implementation_report.md` | Method, technical corrections, verification and limitations |
-| `reports/corrections/audit_1/` | Counterexamples, before/after evidence and regression results |
-| `governance/audits/` | Unchanged independent technical audits and their execution evidence |
-| `evidence/audited_baseline/`, `evidence/publishing/` | Reference artifacts, checksums and clean-clone evidence |
-| `evidence/history/` | Compact original seven-commit history, including failures and full audited traces; see its README |
-| `publishing/` | Clean-clone verification and PDF rendering; not imported by prediction code |
-
-The source snapshot is commit `6fee1da60b74512156637a22be15d996a36627e1` of `majedzahrani3/insurance_auditing`. CSV and Markdown are the chosen supplied formats. OCR and a second JSONL loader are not ingestion requirements. All 66,097 source occurrences, including 35 quarantined lines, are accounted for.
-
-## Interpretation and confidence limits
-
-H2 has admission/discharge dates, but lacks actual submission dates, detailed episode/leave facts and possible written exceptions needed for invoice effectiveness. Invoice date is not assumed to be submission date. Its 07:00 Service Day is not proved by calendar dates. Pricing remains diagnostic and all full opinions are withheld.
-
-Essential service qualifiers cannot be guessed from a unique catalog match or billed price. H1 development exposed a 43,650-cent over-correction; all 39 analogous mapping keys were withdrawn. Unknown quantity dimensions, conflicting IDs, missing context and nonunique allocations remain omissions. H3/H5 exclusion direction and exact boundaries remain qualified; H3 settlement protection uses the recorded chronology reading. H4 cumulative patient scope is bounded. H5 projects invoice facility onto lines as an explicit assumption; all 128 emitted H5 opinions have **0.65** confidence.
-
-Confidence attaches to a complete supported opinion. H1 correct-row tiers use 0.95/0.90; sparse error tiers use 0.65 judgment. Reviewed targets use 0.80/0.70, with relevant interpretation or invariant-uncertainty caps. These are not demonstrated target probabilities. Lowering a score cannot replace a missing fact.
-
+Original publishing/closure scripts compare exact historical files, Python versions and already exposed check results. They are historical verification tools, not the current Gate 0 reproduction commands. Optional PDF dependencies in `requirements-docs.txt` remain separate from the dependency-free prediction runtime.

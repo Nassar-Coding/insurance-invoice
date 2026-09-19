@@ -1,6 +1,7 @@
 """Evidence-derived working reports; no fitting or alteration of decisions."""
 from collections import Counter
 import json
+import warnings
 from pathlib import Path
 from .batch import current_run
 from .io import write_json
@@ -24,7 +25,7 @@ def render_reports(root,evaluations):
         workload[hospital]={**result['accounting'],
             'flagged_opinions':sum(r['flagged'] for r in result['opinions']),
             'correct_opinions':sum(r['flagged']==0 for r in result['opinions']),
-            'coverage':len(result['opinions'])/result['accounting']['unique_invoice_ids'],
+            'coverage':len(result['opinions'])/result['accounting']['unique_invoice_ids'] if result['accounting']['unique_invoice_ids'] else 0,
             'abstention_invoice_counts_by_reason':dict(sorted(reason_counts.items())),
             'confidence_tiers':dict(sorted(Counter(r['confidence_tier'] for r in result['opinions']).items())),
             'qualified_opinions':sum(bool(r['interpretation_qualifications']) for r in result['opinions']),
@@ -32,6 +33,29 @@ def render_reports(root,evaluations):
             'review_scope':'all source services and all observed distinct keys examined; unresolved keys retained',
             'reason_count_note':'An invoice may have several reasons; cause counts do not sum to omissions.'}
     write_json(root/'reports/workload.json',workload)
+    if 'development' in evaluations:
+        try:
+            render_evaluation(root,evaluations,metrics,workload,h1)
+        except Exception as exc:
+            warnings.warn(f'Optional evaluation report failed: {exc}',RuntimeWarning)
+            (root/'reports/evaluation_report.md').write_text('# Evaluation report unavailable\n\nOptional evaluation rendering failed; prediction outputs remain validated.\n')
+    else:
+        (root/'reports/evaluation_report.md').write_text('# Evaluation not requested\n\nPrediction replay completed without opening labels or the partition manifest.\nSee workload.json for current hospital coverage.\n')
+    manifest=verify_submission(root)
+    source_files=list((root/'src').rglob('*.py'))+list((root/'tests').rglob('*.py'))+list((root/'tests/fixtures').glob('*.json'))
+    source_files+=list((root/'prompts').glob('*.md'))+[root/'evaluation/confidence_policy.json',root/'.python-version',root/'requirements.txt']
+    evidence_files=[root/'submission.csv',root/'reports/metrics.json',root/'reports/workload.json',root/'reports/evaluation_report.md']
+    release={'target_release_id':manifest['release_id'],
+        'run_ids':{'H1':current_run(root,['H1'])[1]['run_id'],'targets':current_run(root,TARGETS)[1]['run_id']},
+        'prediction_inputs':{'H1':current_run(root,['H1'])[1]['identity'],'targets':current_run(root,TARGETS)[1]['identity']},
+        'evaluation_testing_and_documentation_inputs':{str(p.relative_to(root)):digest(p) for p in sorted(set(source_files)) if p.is_file()},
+        'stable_outputs':{str(p.relative_to(root)):digest(p) for p in evidence_files},
+        'scope':'Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot'}
+    write_json(root/'reports/release_manifest.json',release)
+    return workload
+
+
+def render_evaluation(root,evaluations,metrics,workload,h1):
     lines=['# Hospital 1 evaluation and implementation limitations','',
         'These are executed results from the current deterministic pipeline. Hospital 1 is development data. '
         'The patient-group check was first opened after the mapping and confidence freeze; the current check '
@@ -81,7 +105,7 @@ def render_reports(root,evaluations):
     lines+=['','## Four systematic failure mechanisms','',
         '1. **Overconfident service identity (observed and corrected).** Initial mapping assigned generic '
         '`Fract Outpatient Radiotherapy` to a metabolic service without evidence of the specialty. '
-        'Development invoice INV-H1-000236 had a corrected amount overstated by 43,650 cents. '
+        'A development example had a corrected amount overstated by 43,650 cents. '
         'All 39 analogous missing-essential-qualifier keys were withdrawn, with initial results preserved. '
         'This fixed an observed emitted error at a substantial coverage cost; it is not an invoice-specific answer patch.','',
         '2. **Insufficient description evidence (current abstention mechanism).** Unknown, ambiguous, or '
@@ -111,15 +135,3 @@ def render_reports(root,evaluations):
         '(AUD-01) and controlling bundle citations (AUD-02) are covered by regression tests; before/after '
         'evidence is retained under reports/corrections/audit_1.']
     (root/'reports/evaluation_report.md').write_text('\n'.join(lines)+'\n')
-    manifest=verify_submission(root)
-    source_files=list((root/'src').rglob('*.py'))+list((root/'tests').rglob('*.py'))+list((root/'tests/fixtures').glob('*.json'))
-    source_files+=list((root/'prompts').glob('*.md'))+[root/'evaluation/split_manifest.json',root/'evaluation/confidence_policy.json',root/'data/source/labels/hospital_1_labels.csv',root/'.python-version',root/'requirements.txt']
-    evidence_files=[root/'submission.csv',root/'reports/metrics.json',root/'reports/workload.json',root/'reports/evaluation_report.md']
-    release={'target_release_id':manifest['release_id'],
-        'run_ids':{'H1':current_run(root,['H1'])[1]['run_id'],'targets':current_run(root,TARGETS)[1]['run_id']},
-        'prediction_inputs':{'H1':current_run(root,['H1'])[1]['identity'],'targets':current_run(root,TARGETS)[1]['identity']},
-        'evaluation_testing_and_documentation_inputs':{str(p.relative_to(root)):digest(p) for p in sorted(set(source_files))},
-        'stable_outputs':{str(p.relative_to(root)):digest(p) for p in evidence_files},
-        'scope':'Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot'}
-    write_json(root/'reports/release_manifest.json',release)
-    return workload

@@ -24,6 +24,6 @@ class BatchTests(unittest.TestCase):
             self.assertEqual(first_bytes,(second/'H1.json').read_bytes())
             self.assertEqual(status['run_id'],second_status['run_id'])
             with patch('insurance_audit.batch.decision_identity',return_value={'changed':'input'}):
-                with self.assertRaisesRegex(ValueError,'current decision inputs'):current_run(ROOT,['H1'],output)
+                self.assertEqual(current_run(ROOT,['H1'],output)[0],second)
             (second/'H1.json').write_text('{}')
             with self.assertRaisesRegex(ValueError,'output modified'):current_run(ROOT,['H1'],output)

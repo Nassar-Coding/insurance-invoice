@@ -14,3 +14,5 @@
 Historical source-review records and technical evidence are retained verbatim. Their model/session descriptions and earlier status wording are not current operational statements. Earlier viability and mapping counts describe their recorded versions. Current coverage comes from `metrics.json` and `workload.json` after reproduction.
 
 Old attempts and documents referenced by historical records are recoverable in a separate checkout using [the history archive](../evidence/history/README.md). Current reproduction uses neither those outputs nor the old test receipts. The clean-clone checks and current comparison manifest are under `evidence/publishing/`; the original pre-cleanup reference is under `evidence/audited_baseline/`.
+
+Gate 0: current `metrics.json` and `evaluation_development.json` contain development-only evaluation. Existing check/full reports and original PDFs are historical, have not been reopened for this revisit, and are not consumed by reproduction. See `evaluation/gate_reports.md` for current portability results.

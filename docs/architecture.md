@@ -1,5 +1,7 @@
 # Implementation boundary
 
+Gate 0 update: historical fingerprints are provenance only and no longer gate replay. Prediction requires no label file or split manifest; optional development evaluation uses `tests/evaluation/split_manifest.json`. Follow the current README for execution.
+
 Selected solution: **LLM contract-to-schema with deterministic pricing**.
 
 LLM-assisted acquisition interprets supplied Markdown and description inventories into finite declarative records. Technical prompts, raw candidates, source references, review changes and accepted artifacts are retained. Table transcription can use deterministic parsing as an acquisition aid; semantics and mappings still require explicit source review. No claim is made that structural validation proves semantic completeness or that the schema covers every possible contract.

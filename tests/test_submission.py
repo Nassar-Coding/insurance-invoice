@@ -49,7 +49,7 @@ class SubmissionTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError,'before promotion'):export_submission(root,inject_failure=True)
                 self.assertEqual(pointer,(root/'runs/current-submission.json').read_bytes());self.assertEqual(csv_bytes,(root/'submission.csv').read_bytes())
                 self.assertEqual(verify_submission(root)['release_id'],first['release_id'])
-                status['run_id']='fixture-2'
+                status['attempt']='fixture-2'
                 with self.assertRaisesRegex(ValueError,'Stale'):verify_submission(root)
-                status['run_id']='fixture-1';(root/'submission.csv').write_text(TEMPLATE)
+                status['attempt']='fixture';(root/'submission.csv').write_text(TEMPLATE)
                 with self.assertRaisesRegex(ValueError,'bytes changed'):verify_submission(root)

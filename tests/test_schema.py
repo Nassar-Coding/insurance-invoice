@@ -89,7 +89,7 @@ class SchemaTests(unittest.TestCase):
             bp.write_text(json.dumps(bundle));(root/mp).write_text('{}')
             with self.assertRaises(SchemaError):load_bundle(root,'H1')
             (root/mp).write_text(json.dumps(self.m));(root/source).write_text('changed source')
-            with self.assertRaises(SchemaError):load_bundle(root,'H1')
+            load_bundle(root,'H1')  # Source fingerprints are provenance, not a runtime lock.
 
 
 if __name__=='__main__':unittest.main()

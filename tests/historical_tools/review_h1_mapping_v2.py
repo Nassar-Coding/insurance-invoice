@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import shutil
 import sys
-ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
+ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'src'))
 from insurance_audit.io import write_json
 from insurance_audit.schema import digest,validate_mappings
 from mapping_policy import evidence_grade

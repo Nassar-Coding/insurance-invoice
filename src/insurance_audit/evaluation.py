@@ -103,12 +103,12 @@ def measure(labels,opinions):
 def evaluate_run(root,group):
     if group not in {'development','check','full'}:raise ValueError('Unknown H1 partition')
     root=Path(root).resolve();directory,status=current_run(root,['H1'])
-    split=json.loads((root/'evaluation/split_manifest.json').read_text())
+    split=json.loads((root/'tests/evaluation/split_manifest.json').read_text())
     labelpath=root/'data/source/labels/hospital_1_labels.csv'
     labels=load_labels(labelpath,split['invoice_partitions'],group)
     result=measure(labels,json.loads((directory/'H1.json').read_text())['opinions'])
     result['provenance']={'group':group,'run_id':status['run_id'],'attempt':status['attempt'],
-        'labels_sha256':digest(labelpath),'split_sha256':digest(root/'evaluation/split_manifest.json'),
+        'labels_sha256':digest(labelpath),'split_sha256':digest(root/'tests/evaluation/split_manifest.json'),
         'role':'development-inclusive descriptive' if group=='full' else ('regression after reserved-check exposure; not a fresh holdout' if group=='check' else 'development'),
         'whole_row_event':'Correct binary flag AND exact expected cents. Billed cents/identity validated separately; free-text category correctness is reported by family, not included in this event.',
         'abstention_policy':'Not treated as correct negatives. Included as missed positives in all-population recall; excluded from conditional accuracy.',

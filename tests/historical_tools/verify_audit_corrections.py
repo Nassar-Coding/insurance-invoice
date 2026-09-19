@@ -10,7 +10,7 @@ from pathlib import Path
 import subprocess
 import sys
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'src'));sys.path.insert(0,str(ROOT/'tests'))
 from insurance_audit.batch import current_run,canonical_hash
 from insurance_audit.io import load_hospital,write_json

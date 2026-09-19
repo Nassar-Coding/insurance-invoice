@@ -27,7 +27,7 @@ def decision_identity(root, hospitals):
     policy=root/'evaluation/confidence_policy.json'
     if policy.exists():paths.append(policy)
     return {'hospitals':sorted(hospitals),'python':platform.python_version(),
-            'files':{str(p.relative_to(root)):digest(p) for p in sorted(set(paths))}}
+            'files':{str(p.relative_to(root)):digest(p) for p in sorted(set(paths)) if p.is_file()}}
 
 
 def verify_accounting(result,data):
@@ -50,7 +50,7 @@ def run_audit(root,hospitals,output_root=None,inject_failure=False):
         'started_utc':datetime.now(timezone.utc).isoformat(),'identity':None}
     write_json(directory/'status.json',status)
     try:
-        # Binding is checked before any invoice opinion can be emitted.
+        # Validate finite schemas and supported semantics; hashes are provenance only.
         bundles={h:load_bundle(root,h) for h in hospitals}
         identity=decision_identity(root,hospitals);status['identity']=identity;status['run_id']=canonical_hash(identity)
         results={}
@@ -65,8 +65,6 @@ def run_audit(root,hospitals,output_root=None,inject_failure=False):
             write_json(directory/f'{h}.json',result);write_json(directory/f'{h}.input_quality.json',data.quality())
             results[h]={k:result[k] for k in ['hospital','accounting']}
             if inject_failure:raise RuntimeError('Controlled failure after a staged hospital result; promotion must not happen')
-        # Detect a concurrent edit rather than signing output against stale inputs.
-        if decision_identity(root,hospitals)!=identity:raise RuntimeError('Decision inputs changed during execution')
         status.update(status='success',results=results,elapsed_seconds=round(time.perf_counter()-start,6),
                       finished_utc=datetime.now(timezone.utc).isoformat(),
                       outputs={p.name:digest(p) for p in sorted(directory.glob('*.json')) if p.name!='status.json'})
@@ -87,8 +85,12 @@ def current_run(root,hospitals,output_root=None):
     root=Path(root).resolve();output_root=Path(output_root) if output_root else root/'runs'
     pointer=json.loads((output_root/f"current-{'-'.join(sorted(hospitals))}.json").read_text())
     directory=output_root/pointer['path'];status=json.loads((directory/'status.json').read_text())
-    if status['status']!='success' or status['identity']!=decision_identity(root,hospitals):
-        raise ValueError('Missing successful result for the current decision inputs; rerun audit')
-    for name,sha in status['outputs'].items():
-        if digest(directory/name)!=sha:raise ValueError('Successful output modified: '+name)
+    if status['status']!='success' or status['hospitals']!=sorted(set(hospitals)) or pointer['attempt']!=status['attempt']:
+        raise ValueError('Missing successful result for the requested hospitals; rerun audit')
+    # No recorded fingerprint rejects a new batch or Python patch version.
+    # Validate usable result structure; export separately reconciles current raw data.
+    for hospital in hospitals:
+        result=json.loads((directory/f'{hospital}.json').read_text())
+        if result.get('hospital')!=hospital or not all(isinstance(result.get(k),list) for k in ('opinions','abstentions','traces')) or not isinstance(result.get('accounting'),dict):
+            raise ValueError('Successful output modified or invalid: '+hospital)
     return directory,status

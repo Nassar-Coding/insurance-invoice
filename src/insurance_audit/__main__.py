@@ -14,7 +14,8 @@ def main():
     for name in ['inventory','audit']:
         p=sub.add_parser(name);p.add_argument('--hospitals',nargs='+',choices=[f'H{i}' for i in range(1,6)],required=True)
     p=sub.add_parser('evaluate');p.add_argument('--partition',choices=['development','check','full'],required=True)
-    for name in ('export','verify-submission','reproduce'):sub.add_parser(name)
+    for name in ('export','verify-submission'):sub.add_parser(name)
+    sub.add_parser('reproduce').add_argument('--evaluate-development',action='store_true')
     args=parser.parse_args();root=args.project.resolve()
     if args.command=='audit':
         path,status=run_audit(root,args.hospitals)
@@ -34,7 +35,7 @@ def main():
         print(json.dumps({k:result[k] for k in ('release_id','rows','submission_sha256')},indent=2))
     elif args.command=='reproduce':
         from .pipeline import reproduce
-        print(json.dumps(reproduce(root),indent=2))
+        print(json.dumps(reproduce(root,evaluate_development=args.evaluate_development),indent=2))
 
 
 if __name__=='__main__':main()
