@@ -158,6 +158,7 @@ def main():
     parser.add_argument('--partition',choices=['development','check','full'],default='development')
     parser.add_argument('--allow-heldout-baseline',action='store_true')
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--trace',type=Path,help='Observe all current hospital runs; supports .jsonl or deterministic .jsonl.gz')
     args = parser.parse_args(); project = args.project.resolve()
     if args.partition != 'development' and not args.allow_heldout_baseline:
         parser.error('Check/full restricted to the explicitly authorized baseline or Final Gate')
@@ -173,6 +174,10 @@ def main():
     result = score(labels,predictions,families)
     result.update(partition=args.partition,hospitals_in_supplied_csv=hospital_report(project,predictions),
                   predictions_sha256=sha(path),submission_sha256=before)
+    if args.trace:
+        from decision_trace import write_trace
+        result['trace'] = write_trace(project,args.trace.resolve(),args.labels or project/'data/source/labels/hospital_1_labels.csv',
+            args.families or project/'tests/evaluation/h1_primary_family_coding.csv')
     save(args.output,result)
     if sha(project/'submission.csv') != before:
         raise ValueError('Measurement changed the challenge submission')

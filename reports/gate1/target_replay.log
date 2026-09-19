@@ -1,0 +1,62 @@
+{
+  "path": "/workspace/scratch/43a4aea2353c/insurance-invoice/runs/attempts/fe801300a36248a082fbc0ecd37f230b",
+  "run_id": "2f0f24d0c0ef9f8f93473d9f98c8ffde20759cba71817a93d23d47fb90e381e2",
+  "results": {
+    "H2": {
+      "hospital": "H2",
+      "accounting": {
+        "raw_records": 15492,
+        "accepted_invoice_records": 1132,
+        "accepted_line_records": 14352,
+        "quarantined_records": 8,
+        "unique_invoice_ids": 1125,
+        "opinions": 0,
+        "abstentions": 1125,
+        "context_records": 14360,
+        "orphan_line_count": 0
+      }
+    },
+    "H3": {
+      "hospital": "H3",
+      "accounting": {
+        "raw_records": 12594,
+        "accepted_invoice_records": 939,
+        "accepted_line_records": 11648,
+        "quarantined_records": 7,
+        "unique_invoice_ids": 932,
+        "opinions": 148,
+        "abstentions": 784,
+        "context_records": 11655,
+        "orphan_line_count": 0
+      }
+    },
+    "H4": {
+      "hospital": "H4",
+      "accounting": {
+        "raw_records": 11400,
+        "accepted_invoice_records": 840,
+        "accepted_line_records": 10554,
+        "quarantined_records": 6,
+        "unique_invoice_ids": 835,
+        "opinions": 64,
+        "abstentions": 771,
+        "context_records": 10560,
+        "orphan_line_count": 0
+      }
+    },
+    "H5": {
+      "hospital": "H5",
+      "accounting": {
+        "raw_records": 14278,
+        "accepted_invoice_records": 1057,
+        "accepted_line_records": 13213,
+        "quarantined_records": 8,
+        "unique_invoice_ids": 1050,
+        "opinions": 128,
+        "abstentions": 922,
+        "context_records": 13221,
+        "orphan_line_count": 0
+      }
+    }
+  }
+}

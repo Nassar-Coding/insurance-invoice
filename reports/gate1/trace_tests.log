@@ -1,0 +1,9 @@
+test_early_withholding_retains_quarantined_line_and_posthoc_provenance (test_decision_trace.TraceTests.test_early_withholding_retains_quarantined_line_and_posthoc_provenance) ... ok
+test_histograms_and_crosstab_use_exclusive_first_reason (test_decision_trace.TraceTests.test_histograms_and_crosstab_use_exclusive_first_reason) ... ok
+test_partial_is_diagnostic_and_does_not_emit (test_decision_trace.TraceTests.test_partial_is_diagnostic_and_does_not_emit) ... ok
+test_states_do_not_treat_runtime_all_service_fallback_as_tie (test_decision_trace.TraceTests.test_states_do_not_treat_runtime_all_service_fallback_as_tie) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

@@ -1,0 +1,145 @@
+{
+  "H1": {
+    "category_mix": {
+      "contract_reference_mismatch": 1,
+      "effective_rate_mismatch": 2,
+      "invoice_amount_mismatch": 3,
+      "invoice_arithmetic_mismatch": 1,
+      "line_amount_mismatch": 3,
+      "line_arithmetic_mismatch": 1,
+      "unit_basis_mismatch": 3
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      5,
+      245
+    ],
+    "flag_rate_all_invoices": 0.00547645125958379,
+    "flags": 5,
+    "investigate_below_3_percent": true,
+    "rows": 250,
+    "unique_invoices": 913,
+    "warning": "below_4_percent",
+    "withheld": 663
+  },
+  "H2": {
+    "category_mix": {},
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "flag_rate_all_invoices": 0.0,
+    "flags": 0,
+    "investigate_below_3_percent": true,
+    "rows": 0,
+    "unique_invoices": 1125,
+    "warning": "below_4_percent",
+    "withheld": 1125
+  },
+  "H3": {
+    "category_mix": {
+      "daily_quantity_cap": 1,
+      "effective_rate_mismatch": 5,
+      "invoice_amount_mismatch": 5,
+      "line_amount_mismatch": 5,
+      "unit_basis_mismatch": 1
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      27,
+      121
+    ],
+    "flag_rate_all_invoices": 0.00536480686695279,
+    "flags": 5,
+    "investigate_below_3_percent": true,
+    "rows": 148,
+    "unique_invoices": 932,
+    "warning": "below_4_percent",
+    "withheld": 784
+  },
+  "H4": {
+    "category_mix": {
+      "effective_rate_mismatch": 1,
+      "invoice_amount_mismatch": 1,
+      "line_amount_mismatch": 1
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      14,
+      50
+    ],
+    "flag_rate_all_invoices": 0.0011976047904191617,
+    "flags": 1,
+    "investigate_below_3_percent": true,
+    "rows": 64,
+    "unique_invoices": 835,
+    "warning": "below_4_percent",
+    "withheld": 771
+  },
+  "H5": {
+    "category_mix": {},
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      128,
+      0
+    ],
+    "flag_rate_all_invoices": 0.0,
+    "flags": 0,
+    "investigate_below_3_percent": true,
+    "rows": 128,
+    "unique_invoices": 1050,
+    "warning": "below_4_percent",
+    "withheld": 922
+  }
+}

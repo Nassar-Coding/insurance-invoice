@@ -1,0 +1,360 @@
+{
+  "any_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "mapping",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 6,
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 2,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 8,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 4,
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 4,
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "count": 1,
+      "primary_family": "structural",
+      "withheld_reason": "duplicate_service_day_allocation"
+    },
+    {
+      "count": 1,
+      "primary_family": "structural",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 4,
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "count": 4,
+      "primary_family": "structural",
+      "withheld_reason": "service_date_after_invoice"
+    },
+    {
+      "count": 1,
+      "primary_family": "structural",
+      "withheld_reason": "service_date_outside_term"
+    },
+    {
+      "count": 10,
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "term_window",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 2,
+      "primary_family": "term_window",
+      "withheld_reason": "service_date_outside_term"
+    },
+    {
+      "count": 2,
+      "primary_family": "term_window",
+      "withheld_reason": "unresolved_service_mapping"
+    }
+  ],
+  "details": [
+    {
+      "invoice_id": "INV-H1-000002",
+      "primary_family": "structural",
+      "withheld_reason": "service_date_after_invoice"
+    },
+    {
+      "invoice_id": "INV-H1-000004",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000049",
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000068",
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "invoice_id": "INV-H1-000072",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000132",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000148",
+      "primary_family": "term_window",
+      "withheld_reason": "service_date_outside_term"
+    },
+    {
+      "invoice_id": "INV-H1-000151",
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "invoice_id": "INV-H1-000152",
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "invoice_id": "INV-H1-000179",
+      "primary_family": "term_window",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000186",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000219",
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "invoice_id": "INV-H1-000227",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000236",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000271",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000274",
+      "primary_family": "structural",
+      "withheld_reason": "service_date_after_invoice"
+    },
+    {
+      "invoice_id": "INV-H1-000281",
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "invoice_id": "INV-H1-000283",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000304",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000348",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000369",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000410",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000429",
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "invoice_id": "INV-H1-000458",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000548",
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "invoice_id": "INV-H1-000552",
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "invoice_id": "INV-H1-000619",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000646",
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "invoice_id": "INV-H1-000650",
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "invoice_id": "INV-H1-000657",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000667",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000674",
+      "primary_family": "structural",
+      "withheld_reason": "service_date_after_invoice"
+    },
+    {
+      "invoice_id": "INV-H1-000675",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000748",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000820",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000847",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "invoice_id": "INV-H1-000852",
+      "primary_family": "structural",
+      "withheld_reason": "service_date_outside_term"
+    },
+    {
+      "invoice_id": "INV-H1-000873",
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    }
+  ],
+  "exclusive_total": 38,
+  "missed": 38,
+  "primary_reason_crosstab": [
+    {
+      "count": 5,
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 1,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 3,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 4,
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 4,
+      "primary_family": "structural",
+      "withheld_reason": "conflicting_reused_invoice_id"
+    },
+    {
+      "count": 4,
+      "primary_family": "structural",
+      "withheld_reason": "quarantined_required_source_record"
+    },
+    {
+      "count": 3,
+      "primary_family": "structural",
+      "withheld_reason": "service_date_after_invoice"
+    },
+    {
+      "count": 1,
+      "primary_family": "structural",
+      "withheld_reason": "service_date_outside_term"
+    },
+    {
+      "count": 8,
+      "primary_family": "structural",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "term_window",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 1,
+      "primary_family": "term_window",
+      "withheld_reason": "service_date_outside_term"
+    }
+  ]
+}

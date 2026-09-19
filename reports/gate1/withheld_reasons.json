@@ -1,0 +1,127 @@
+{
+  "H1_development": {
+    "any_reason_invoice_incidence": {
+      "conflicting_reused_invoice_id": 4,
+      "duplicate_service_day_allocation": 2,
+      "multiple_supported_rate_outcomes": 76,
+      "possible_duplicate_service_day": 15,
+      "quarantined_required_source_record": 4,
+      "service_date_after_invoice": 4,
+      "service_date_outside_term": 3,
+      "unresolved_exclusion": 4,
+      "unresolved_service_mapping": 433
+    },
+    "primary_reason": {
+      "conflicting_reused_invoice_id": 4,
+      "duplicate_service_day_allocation": 1,
+      "multiple_supported_rate_outcomes": 31,
+      "possible_duplicate_service_day": 6,
+      "quarantined_required_source_record": 4,
+      "service_date_after_invoice": 3,
+      "service_date_outside_term": 2,
+      "unresolved_exclusion": 2,
+      "unresolved_service_mapping": 400
+    },
+    "withheld": 453
+  },
+  "H2": {
+    "any_reason_invoice_incidence": {
+      "composite_dimension_unobserved": 87,
+      "conflicting_reused_invoice_id": 7,
+      "multiple_supported_rate_outcomes": 953,
+      "quarantined_required_source_record": 8,
+      "service_date_outside_term": 4,
+      "unobserved_service_day_cap_allocation": 126,
+      "unobserved_submission_deadline_and_waiver": 1110,
+      "unresolved_exclusion": 13,
+      "unresolved_service_mapping": 1057
+    },
+    "primary_reason": {
+      "conflicting_reused_invoice_id": 7,
+      "quarantined_required_source_record": 8,
+      "unobserved_submission_deadline_and_waiver": 1110
+    },
+    "withheld": 1125
+  },
+  "H3": {
+    "any_reason_invoice_incidence": {
+      "composite_dimension_unobserved": 63,
+      "conflicting_reused_invoice_id": 7,
+      "duplicate_service_day_allocation": 5,
+      "multiple_supported_rate_outcomes": 196,
+      "possible_duplicate_service_day": 17,
+      "quarantined_required_source_record": 7,
+      "service_date_after_invoice": 7,
+      "service_date_outside_term": 4,
+      "unresolved_exclusion": 6,
+      "unresolved_service_mapping": 731
+    },
+    "primary_reason": {
+      "composite_dimension_unobserved": 21,
+      "conflicting_reused_invoice_id": 7,
+      "duplicate_service_day_allocation": 3,
+      "multiple_supported_rate_outcomes": 95,
+      "possible_duplicate_service_day": 9,
+      "quarantined_required_source_record": 6,
+      "service_date_after_invoice": 3,
+      "service_date_outside_term": 3,
+      "unresolved_exclusion": 2,
+      "unresolved_service_mapping": 635
+    },
+    "withheld": 784
+  },
+  "H4": {
+    "any_reason_invoice_incidence": {
+      "composite_dimension_unobserved": 81,
+      "conflicting_reused_invoice_id": 5,
+      "duplicate_service_day_allocation": 4,
+      "multiple_supported_rate_outcomes": 312,
+      "possible_duplicate_service_day": 23,
+      "quarantined_required_source_record": 6,
+      "service_date_after_invoice": 4,
+      "service_date_outside_term": 4,
+      "unresolved_exclusion": 17,
+      "unresolved_service_mapping": 733
+    },
+    "primary_reason": {
+      "composite_dimension_unobserved": 28,
+      "conflicting_reused_invoice_id": 5,
+      "duplicate_service_day_allocation": 2,
+      "multiple_supported_rate_outcomes": 97,
+      "possible_duplicate_service_day": 8,
+      "quarantined_required_source_record": 6,
+      "service_date_after_invoice": 1,
+      "service_date_outside_term": 1,
+      "unresolved_exclusion": 5,
+      "unresolved_service_mapping": 618
+    },
+    "withheld": 771
+  },
+  "H5": {
+    "any_reason_invoice_incidence": {
+      "composite_dimension_unobserved": 68,
+      "conflicting_reused_invoice_id": 7,
+      "duplicate_service_day_allocation": 5,
+      "multiple_supported_rate_outcomes": 318,
+      "possible_duplicate_service_day": 35,
+      "quarantined_required_source_record": 8,
+      "service_date_after_invoice": 5,
+      "service_date_outside_term": 5,
+      "unresolved_exclusion": 7,
+      "unresolved_service_mapping": 863
+    },
+    "primary_reason": {
+      "composite_dimension_unobserved": 22,
+      "conflicting_reused_invoice_id": 7,
+      "duplicate_service_day_allocation": 1,
+      "multiple_supported_rate_outcomes": 146,
+      "possible_duplicate_service_day": 17,
+      "quarantined_required_source_record": 8,
+      "service_date_after_invoice": 2,
+      "service_date_outside_term": 1,
+      "unresolved_exclusion": 1,
+      "unresolved_service_mapping": 717
+    },
+    "withheld": 922
+  }
+}

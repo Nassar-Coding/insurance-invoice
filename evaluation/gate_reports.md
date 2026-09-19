@@ -85,3 +85,18 @@ Gate 0 is closed by user instruction; A3 is waived, not newly passed. The prior 
 - Decoy-proxy flags: not measured; the proxy set belongs to Gate 2.6.
 
 Evidence: `reports/gate1/step1_verification.json`, `cost_development.json`, `cost_full.json`, `scorer_tests.log`. Later rebuild steps add traces/histograms and register the baseline.
+
+
+### Gate 1 lean rebuild — step 2
+
+Step 1 published as `7c20498d09311f92ee9ddac1f816b03fc03849b0`.
+
+- PASS: 4,855 invoice decision traces; all 4,265 withheld invoices have named reasons, and all linked physical source lines are retained in the observational trace.
+- PASS: exclusive histograms total H1 development 453, H2 1,125, H3 784, H4 771, H5 922. Multi-reason incidence is separately labelled.
+- PASS: primary-family × primary-withheld-reason cross-tab accounts for all 38 development misses.
+- PASS: all ten hospital result/input-quality outputs match Gate 0 byte-for-byte; submission remains unchanged. Four additional synthetic trace tests pass.
+- H2 zero rows: 1,110 eligibility-uncertain invoices, 7 conflicting reused IDs, 8 quarantined required records. H3–H5 low-rate causes are recorded in the full reason histograms; no policy is altered to increase flag rates.
+- Target flags / unique invoices: H2 0/1,125 (0%); H3 5/932 (0.5365%); H4 1/835 (0.1198%); H5 0/1,050 (0%). All below-3% investigations are complete for this measurement gate.
+- Development cost remains 190; clean-development FP remains 0. Decoy proxies remain undefined until Gate 2.6.
+
+Evidence: `reports/gate1/trace_summary.json`, `decision_trace.jsonl.gz`, `withheld_reasons.json`, `missed_development_crosstab.json`, `hospital_distributions.json`, `trace_tests.log`.
