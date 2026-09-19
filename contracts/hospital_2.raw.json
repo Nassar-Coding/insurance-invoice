@@ -26,211 +26,211 @@
   "coverage": [
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article I — Recitals and Term — Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "representation": "Article I \u2014 Recitals and Term \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L13",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article II — Definitions and Interpretation — 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
+      "representation": "Article II \u2014 Definitions and Interpretation \u2014 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L23",
       "state": "unresolved"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article III — Calculation Conventions — Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "representation": "Article III \u2014 Calculation Conventions \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L41",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article IV — Contracted Services (One Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article IV \u2014 Contracted Services (One Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L55",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article V — Notices and Communications — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article V \u2014 Notices and Communications \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L69",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article VI — Contracted Services (Two Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article VI \u2014 Contracted Services (Two Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L101",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article VII — Records and Retention — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article VII \u2014 Records and Retention \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L115",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article VIII — Contracted Services (Three Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article VIII \u2014 Contracted Services (Three Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L147",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article IX — Audit Rights — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article IX \u2014 Audit Rights \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L161",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article X — Contracted Services (Four Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article X \u2014 Contracted Services (Four Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L193",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XI — Recovery of Overpayments — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XI \u2014 Recovery of Overpayments \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L207",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XII — Contracted Services (Five Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XII \u2014 Contracted Services (Five Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L239",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XIII — Invoice Submission — 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
+      "representation": "Article XIII \u2014 Invoice Submission \u2014 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L253",
       "state": "unresolved"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XIV — Contracted Services (Six Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XIV \u2014 Contracted Services (Six Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L285",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XV — Disputed Amounts — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XV \u2014 Disputed Amounts \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L299",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XVI — Contracted Services (Seven Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XVI \u2014 Contracted Services (Seven Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L331",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XVII — Confidentiality — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XVII \u2014 Confidentiality \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L345",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XVIII — Contracted Services (Eight Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XVIII \u2014 Contracted Services (Eight Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L377",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XIX — Data Protection — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XIX \u2014 Data Protection \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L391",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XX — Contracted Services (Nine Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XX \u2014 Contracted Services (Nine Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L423",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXI — Clinical Governance — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXI \u2014 Clinical Governance \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L437",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXII — Contracted Services (Ten Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XXII \u2014 Contracted Services (Ten Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L469",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXIII — Coding and Description Practice — Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "representation": "Article XXIII \u2014 Coding and Description Practice \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L483",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXIV — Contracted Services (Eleven Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XXIV \u2014 Contracted Services (Eleven Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L515",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXV — Change Control — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXV \u2014 Change Control \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L529",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXVI — Contracted Services (Twelve Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XXVI \u2014 Contracted Services (Twelve Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L561",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXVII — Assignment and Subcontracting — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXVII \u2014 Assignment and Subcontracting \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L575",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXVIII — Contracted Services (Thirteen Group) — Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "representation": "Article XXVIII \u2014 Contracted Services (Thirteen Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L607",
       "state": "accepted"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXIX — Force Majeure — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXIX \u2014 Force Majeure \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L617",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXX — Insurance — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXX \u2014 Insurance \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L649",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXXI — Termination — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXXI \u2014 Termination \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L681",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXXII — Governing Law and Jurisdiction — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXXII \u2014 Governing Law and Jurisdiction \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L713",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXXIII — Entire Agreement — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXXIII \u2014 Entire Agreement \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L745",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXXIV — Severance and Waiver — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXXIV \u2014 Severance and Waiver \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L777",
       "state": "outside_scope"
     },
     {
       "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
-      "representation": "Article XXXV — Execution — Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "representation": "Article XXXV \u2014 Execution \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
       "source": "data/source/contracts/hospital_2/master_services_agreement.md#L809",
       "state": "outside_scope"
     },
@@ -743,12 +743,12 @@
     ],
     "cap_policy": "single_line_cap_otherwise_abstain",
     "duplicate_policy": "no_explicit_service_date_prohibition",
-    "exclusion_boundary": "uncertain_at_equal",
+    "exclusion_boundary": "inclusive_at_equal",
     "exclusion_direction": "both",
     "facility_source": "none",
     "invoice_eligibility": "unobserved_submission_deadline_and_waiver",
     "refs": [
-      "data/source/contracts/hospital_2/master_services_agreement.md Articles I–III, XIII, XXIII"
+      "data/source/contracts/hospital_2/master_services_agreement.md Articles I\u2013III, XIII, XXIII"
     ],
     "rounding": "half_up_cent",
     "service_date_not_after_invoice": false,

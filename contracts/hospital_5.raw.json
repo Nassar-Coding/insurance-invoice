@@ -167,7 +167,7 @@
     ],
     "cap_policy": "single_line_cap_otherwise_abstain",
     "duplicate_policy": "abstain_repeated_service_day",
-    "exclusion_boundary": "uncertain_at_equal",
+    "exclusion_boundary": "inclusive_at_equal",
     "exclusion_direction": "uncertain_direction",
     "facility_source": "invoice_projection_reviewed",
     "invoice_eligibility": "supplied_invoice_facts",

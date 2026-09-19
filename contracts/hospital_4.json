@@ -53,73 +53,73 @@
   "contract_number": "INS-H4-2024-2049",
   "coverage": [
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "Conditional Reimbursement Agreement",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L1",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "1. Definitions",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L13",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "2. Term and Scope",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L25",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "3. Base Rates",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L33",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "4. Order of Adjustments",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L140",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "5. Threshold Premiums",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L150",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "6. Daily Quantity Limits",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L179",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "7. Bundled Delivery",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L206",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "8. Discounts",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L222",
       "state": "unresolved"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "9. Exclusion Windows",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L241",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "10. Non-Business-Day Uplifts",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L263",
       "state": "accepted"
     },
     {
-      "qualification": "§1.4 instance equals one unit. §8 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. §9 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "11. Invoicing",
       "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L269",
       "state": "accepted"
@@ -237,7 +237,7 @@
     ],
     "cap_policy": "single_line_cap_otherwise_abstain",
     "duplicate_policy": "abstain_repeated_service_day",
-    "exclusion_boundary": "uncertain_at_equal",
+    "exclusion_boundary": "inclusive_at_equal",
     "exclusion_direction": "both",
     "facility_source": "none",
     "invoice_eligibility": "supplied_invoice_facts",

@@ -27,67 +27,67 @@
     {
       "qualification": "No external clinical eligibility inferred.",
       "representation": "contract identity/term, identity facility and tier multipliers",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §1",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a71",
       "state": "accepted"
     },
     {
       "qualification": "Invalid dates remain unknown, never repaired.",
       "representation": "calendar service day; weekend; stated units; prior-only billed usage",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §2",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a72",
       "state": "accepted"
     },
     {
       "qualification": "A wrong billed unit label does not authorize an invented quantity conversion.",
       "representation": "ordered exact half-up adjustments then billed quantity; invoice sum",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §3",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a73",
       "state": "accepted"
     },
     {
       "qualification": "Mapping identity is reviewed separately.",
       "representation": "all 108 transcribed names, unit bases, rates and table caps",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §4",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a74",
       "state": "accepted"
     },
     {
       "qualification": "Unknown same-patient/service/day quantities propagate.",
       "representation": "9 strict daily aggregate threshold premiums",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §5",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a75",
       "state": "accepted"
     },
     {
       "qualification": "Service date required.",
       "representation": "7 weekend uplifts",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §6",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a76",
       "state": "accepted"
     },
     {
       "qualification": "Known billed quantities remain in history even for omitted invoices; uncertain identity/date has bounded/unbounded possible contribution.",
       "representation": "11 discount thresholds; deepest qualifying tier; all-patient/term strict-prior date/line-ID order",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §7",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a77",
       "state": "accepted"
     },
     {
       "qualification": "Only single-line allocation is claimed; repeated service/day billing is withheld.",
       "representation": "7 daily caps",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §8",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a78",
       "state": "accepted"
     },
     {
       "qualification": "Unknown partner presence is propagated.",
       "representation": "3 patient-day bundle pairs before further adjustments",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §9",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a79",
       "state": "accepted"
     },
     {
-      "qualification": "Same-patient scope is the adopted contractual-context interpretation; exact “within N days” equality is withheld. Missing date/anchor facts block only relevant opinions.",
+      "qualification": "Same-patient scope is the adopted contractual-context interpretation; exact \u201cwithin N days\u201d equality is withheld. Missing date/anchor facts block only relevant opinions.",
       "representation": "6 exclusions, explicitly both temporal directions",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §10",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a710",
       "state": "unresolved"
     },
     {
       "qualification": "Conflicting-ID totals, missing corrected dates and duplicate allocation are withheld rather than guessed.",
       "representation": "contract quote, unique invoice ID, service/term/invoice dates, repeated service/patient/day check",
-      "source": "data/source/contracts/hospital_1/provider_services_agreement.md §11",
+      "source": "data/source/contracts/hospital_1/provider_services_agreement.md \u00a711",
       "state": "accepted"
     }
   ],
@@ -143,12 +143,12 @@
     ],
     "cap_policy": "single_line_cap_otherwise_abstain",
     "duplicate_policy": "abstain_repeated_service_day",
-    "exclusion_boundary": "uncertain_at_equal",
+    "exclusion_boundary": "inclusive_at_equal",
     "exclusion_direction": "both",
     "facility_source": "none",
     "invoice_eligibility": "supplied_invoice_facts",
     "refs": [
-      "data/source/contracts/hospital_1/provider_services_agreement.md §§1–3, 5.1, 7.1–7.2, 9.1, 10.1, 11"
+      "data/source/contracts/hospital_1/provider_services_agreement.md \u00a7\u00a71\u20133, 5.1, 7.1\u20137.2, 9.1, 10.1, 11"
     ],
     "rounding": "half_up_cent",
     "service_date_not_after_invoice": true,

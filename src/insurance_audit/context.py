@@ -131,6 +131,28 @@ class Context:
             else:possible.append(item);high+=item.quantity
         return self.evidence('unobserved_service_day_envelope' if unobserved else 'patient_service_day',{'service_id':service_id,'patient':patient,'day':day},known,possible,low,high)
 
+    def service_day_total(self,service_id,patient,day):
+        """Quantity of one service billed to one patient on one Service Day, across invoices.
+
+        Hospital 2 defines a Service Day as 07:00 to 06:59 the next calendar day,
+        but the snapshots record dates and no times, so nothing can be shown to
+        cross that boundary; clause 2.2 puts a service delivered wholly within a
+        calendar day on the Service Day bearing that date. The calendar date is
+        therefore used as the Service Day everywhere, which is the same reading
+        the after-invoice check already relies on.
+        """
+        known=[];possible=[];low=0;high=0
+        for item in self.by_service[service_id]:
+            if not self.possibly_owned(item,patient):continue
+            if item.day!=day:continue
+            certain=item.service_id==service_id and self.certainly_owned(item,patient)
+            if item.quantity is None or item.quantity<=0:
+                possible.append(item)
+                return self.evidence('service_day_total',{'service_id':service_id,'patient':patient,'day':day},known,possible,None,None)
+            if certain:known.append(item);low+=item.quantity;high+=item.quantity
+            else:possible.append(item);high+=item.quantity
+        return self.evidence('service_day_total',{'service_id':service_id,'patient':patient,'day':day},known,possible,low,high)
+
     def presence(self,service_id,patient,day):
         detail=self.daily(service_id,patient,day)
         state=True if detail['certain_records'] else None if detail['possible_records'] else False
@@ -153,9 +175,16 @@ class Context:
             if not self.possibly_owned(item,patient):continue
             if item.day is None:possible.append(item);continue
             delta=(date.fromisoformat(day)-date.fromisoformat(item.day)).days
-            if abs(delta)>window:continue
+            if abs(delta)>window:continue  # outside the window under every reading
+            # "Not billable within N days" includes a Service Date exactly N days
+            # away: that is the ordinary meaning of "within", and the boundary day
+            # is the last day the window covers rather than the first day outside it.
             is_certain=(item.service_id==rule['anchor'] and self.certainly_owned(item,patient)
-                        and item.quantity is not None and item.quantity>0 and abs(delta)<window)
+                        and item.quantity is not None and item.quantity>0 and abs(delta)<=window)
+            # Where the clause does not fix which way the window runs, the line is
+            # audited under every reading of it: a reading that excludes the
+            # service only under some directions leaves the question open, and
+            # only an anchor on the Service Date itself is excluded under all.
             if direction=='uncertain_before_or_both' and delta<0:is_certain=False
             if direction=='uncertain_direction' and delta!=0:is_certain=False
             (known if is_certain else possible).append(item)

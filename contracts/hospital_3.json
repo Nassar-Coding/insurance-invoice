@@ -39,115 +39,115 @@
   "contract_number": "INS-H3-2024-0562",
   "coverage": [
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "Base Agreement",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L1",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "1. Parties, Term and Structure",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L13",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "2. Interpretation",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L25",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "3. Calculation Conventions",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L35",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "4. Threshold Premiums",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L43",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "5. Non-Business-Day Uplifts",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L64",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "6. Cumulative Volume Discounts",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L81",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "7. Daily Quantity Caps",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L107",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "8. Bundled Services",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L124",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "9. Exclusion Windows",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L136",
       "state": "unresolved"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "10. Invoicing",
       "source": "data/source/contracts/hospital_3/base_agreement.md#L151",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
-      "representation": "Appendix B — Rate Schedule",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Appendix B \u2014 Rate Schedule",
       "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L1",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "B.1 Rates",
       "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L13",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "B.2 Application",
       "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L138",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "Amendment No. 1",
       "source": "data/source/contracts/hospital_3/amendment_no_1.md#L1",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "A1.1 Effective Date",
       "source": "data/source/contracts/hospital_3/amendment_no_1.md#L13",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "A1.2 Substituted Rates",
       "source": "data/source/contracts/hospital_3/amendment_no_1.md#L19",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "A1.3 Additional Services",
       "source": "data/source/contracts/hospital_3/amendment_no_1.md#L33",
       "state": "accepted"
     },
     {
-      "qualification": "§9 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
       "representation": "A1.4 Other Terms Unaffected",
       "source": "data/source/contracts/hospital_3/amendment_no_1.md#L42",
       "state": "unresolved"
@@ -235,7 +235,7 @@
     ],
     "cap_policy": "single_line_cap_otherwise_abstain",
     "duplicate_policy": "abstain_repeated_service_day",
-    "exclusion_boundary": "uncertain_at_equal",
+    "exclusion_boundary": "inclusive_at_equal",
     "exclusion_direction": "uncertain_direction",
     "facility_source": "none",
     "invoice_eligibility": "supplied_invoice_facts",

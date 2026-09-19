@@ -1,5 +1,6 @@
 {
   "amendment_note": "Amendment No. 1 clause A1.4.1 states that the caps, exclusion windows and calculation conventions of the Base Agreement are unchanged and apply to the substituted rates in the same way, so every rule here is effective for the whole contract term.",
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
   "contract_number": "INS-H3-2024-0562",
   "contract_term": [
     "2024-01-01",
@@ -141,7 +142,8 @@
       "service_name": "Routine Psychiatric Consultation"
     }
   ],
-  "exclusion_boundary": "uncertain_at_equal",
+  "direction_reading": "The clause does not fix the direction at all, so the line is audited under every reading; only an anchor on the Service Date itself is excluded under all of them.",
+  "exclusion_boundary": "inclusive_at_equal",
   "exclusion_direction": "uncertain_direction",
   "exclusion_windows": [
     {

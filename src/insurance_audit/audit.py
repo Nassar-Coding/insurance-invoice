@@ -117,6 +117,39 @@ def reconcile(outcomes):
             'expected_total_cents': agreed, 'readings': outcomes}
 
 
+def contract_rule_findings(line, invoice, service, contract, context):
+    """Daily caps and exclusion windows, reported without needing a priced line.
+
+    Both are read from the contract's own reviewed rules and from the retained
+    history, so they hold whatever the rest of the invoice leaves unresolved.
+    """
+    found = []
+    if service['daily_cap'] is not None:
+        total = context.service_day_total(service['id'], invoice.patient_id, line.service_date)
+        if total['lower'] is not None and total['lower'] > service['daily_cap']:
+            found.append({'finding': 'daily_cap_exceeded', 'line_id': line.line_id,
+                          'service_id': service['id'], 'maximum_units_per_patient_per_service_day':
+                              service['daily_cap'], 'billed_this_service_day': total['lower'],
+                          'service_day': line.service_date, 'patient_id': invoice.patient_id,
+                          'evidence': total, 'refs': service['refs'],
+                          'basis': 'Quantity is summed for this patient, service and Service Day across every '
+                                   'invoice in the retained history, not per line.'})
+    direction = contract['semantics']['exclusion_direction']
+    for rule in contract['exclusions']:
+        if rule['service'] != service['id']:
+            continue
+        state, detail = context.exclusion(rule, invoice.patient_id, line.service_date)
+        if state is not True:
+            continue
+        found.append({'finding': 'exclusion_window_violation', 'line_id': line.line_id,
+                      'service_id': service['id'], 'anchor_service_id': rule['anchor'],
+                      'window_days': rule['days'], 'service_date': line.service_date,
+                      'patient_id': invoice.patient_id, 'exclusion_direction': direction,
+                      'boundary': 'a Service Date exactly the window away is inside the window',
+                      'evidence': detail, 'refs': [rule['source']]})
+    return found
+
+
 def audit(data, contract, mappings):
     context = Context(data, contract, mappings)
     structure = Findings(data, contract, mappings)
@@ -174,6 +207,7 @@ def audit(data, contract, mappings):
         priced = {}
         categories = []
         reading_findings = []
+        rule_evidence = []
         grades = set()
         invariant = False
         complete = canonical is not None and not facts['reused_invoice_id'] and bool(facts['lines'])
@@ -189,6 +223,11 @@ def audit(data, contract, mappings):
                          'quantity': line.quantity, 'billed_unit': line.unit_basis_as_billed,
                          'billed_unit_price_cents': line.unit_price_cents,
                          'billed_line_total_cents': line.line_total_cents}
+                identified = structure.matched_service(line.description)
+                if identified is not None:
+                    for found in contract_rule_findings(line, invoice, identified, contract, context):
+                        reading_findings.append(found['finding'])
+                        rule_evidence.append(dict(found, source_row=key))
                 if sid is None:
                     reading = classify(line.description, contract['services'], context.lexicon)
                     verdict = reconcile(every_reading(line, invoice, reading['candidates'], contract, context))
@@ -260,6 +299,7 @@ def audit(data, contract, mappings):
         # A fault every candidate reading agrees on is established evidence, so
         # it joins the findings and is reported whatever else is unresolved.
         findings = order(list(dict.fromkeys(facts['categories'] + sorted(set(reading_findings)))))
+        trace['finding_evidence'].extend(rule_evidence)
         trace['findings'] = findings
         trace['finding_evidence'].sort(key=lambda e: (e['finding'], str(e.get('source_row') or '')))
         # No accepted header record means no billed total to report against, so

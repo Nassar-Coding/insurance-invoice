@@ -1,0 +1,217 @@
+{
+  "H1": {
+    "category_mix": {
+      "contract_number_mismatch": 5,
+      "cross_invoice_duplicate": 4,
+      "daily_cap_exceeded": 4,
+      "daily_quantity_cap": 4,
+      "duplicate_invoice_id": 5,
+      "effective_rate_mismatch": 27,
+      "exclusion_window_violation": 3,
+      "invoice_amount_mismatch": 16,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 34,
+      "line_arithmetic_mismatch": 5,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 6,
+      "nonbillable_service": 3,
+      "service_date_after_invoice_date": 7,
+      "service_date_out_of_window": 5,
+      "unknown_service": 11,
+      "wrong_unit_basis": 16
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      56,
+      588
+    ],
+    "flag_rate_all_invoices": 0.06133625410733844,
+    "flags": 56,
+    "investigate_below_3_percent": false,
+    "rows": 644,
+    "unique_invoices": 913,
+    "warning": null,
+    "withheld": 269
+  },
+  "H2": {
+    "category_mix": {
+      "contract_number_mismatch": 7,
+      "cross_invoice_duplicate": 7,
+      "daily_cap_exceeded": 8,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 19,
+      "exclusion_window_violation": 5,
+      "invoice_amount_mismatch": 1,
+      "invoice_total_mismatch": 8,
+      "line_amount_mismatch": 21,
+      "line_arithmetic_mismatch": 5,
+      "line_total_arithmetic": 7,
+      "malformed_service_date": 8,
+      "nonbillable_service": 5,
+      "service_date_after_invoice_date": 9,
+      "service_date_out_of_window": 7,
+      "unknown_service": 13,
+      "wrong_unit_basis": 20
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      128,
+      0
+    ],
+    "flag_rate_all_invoices": 0.056,
+    "flags": 63,
+    "investigate_below_3_percent": false,
+    "rows": 128,
+    "unique_invoices": 1125,
+    "warning": null,
+    "withheld": 997
+  },
+  "H3": {
+    "category_mix": {
+      "contract_number_mismatch": 6,
+      "cross_invoice_duplicate": 4,
+      "daily_cap_exceeded": 7,
+      "daily_quantity_cap": 6,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 33,
+      "invoice_amount_mismatch": 20,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 38,
+      "line_arithmetic_mismatch": 6,
+      "line_total_arithmetic": 7,
+      "malformed_service_date": 7,
+      "service_date_after_invoice_date": 10,
+      "service_date_out_of_window": 7,
+      "unknown_service": 13,
+      "wrong_unit_basis": 16
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      131,
+      559
+    ],
+    "flag_rate_all_invoices": 0.07188841201716738,
+    "flags": 67,
+    "investigate_below_3_percent": false,
+    "rows": 690,
+    "unique_invoices": 932,
+    "warning": null,
+    "withheld": 242
+  },
+  "H4": {
+    "category_mix": {
+      "contract_number_mismatch": 6,
+      "cross_invoice_duplicate": 3,
+      "daily_cap_exceeded": 6,
+      "daily_quantity_cap": 6,
+      "duplicate_invoice_id": 5,
+      "effective_rate_mismatch": 21,
+      "exclusion_window_violation": 4,
+      "invoice_amount_mismatch": 12,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 31,
+      "line_arithmetic_mismatch": 6,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 6,
+      "nonbillable_service": 5,
+      "service_date_after_invoice_date": 8,
+      "service_date_out_of_window": 5,
+      "unknown_service": 9,
+      "wrong_unit_basis": 12
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      122,
+      338
+    ],
+    "flag_rate_all_invoices": 0.06467065868263473,
+    "flags": 54,
+    "investigate_below_3_percent": false,
+    "rows": 460,
+    "unique_invoices": 835,
+    "warning": null,
+    "withheld": 375
+  },
+  "H5": {
+    "category_mix": {
+      "contract_number_mismatch": 8,
+      "cross_invoice_duplicate": 3,
+      "daily_cap_exceeded": 7,
+      "daily_quantity_cap": 6,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 27,
+      "invoice_amount_mismatch": 15,
+      "invoice_total_mismatch": 7,
+      "line_amount_mismatch": 37,
+      "line_arithmetic_mismatch": 5,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 8,
+      "service_date_after_invoice_date": 11,
+      "service_date_out_of_window": 8,
+      "unknown_service": 12,
+      "wrong_unit_basis": 13
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      594,
+      9
+    ],
+    "flag_rate_all_invoices": 0.06,
+    "flags": 63,
+    "investigate_below_3_percent": false,
+    "rows": 603,
+    "unique_invoices": 1050,
+    "warning": null,
+    "withheld": 447
+  }
+}

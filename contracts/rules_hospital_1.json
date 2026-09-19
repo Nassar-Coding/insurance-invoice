@@ -1,4 +1,5 @@
 {
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
   "contract_number": "INS-H1-2024-0417",
   "contract_term": [
     "2024-01-01",
@@ -83,7 +84,8 @@
       "service_name": "Standard Endocrine Dialysis Session"
     }
   ],
-  "exclusion_boundary": "uncertain_at_equal",
+  "direction_reading": "The clause states the window is measured in either direction.",
+  "exclusion_boundary": "inclusive_at_equal",
   "exclusion_direction": "both",
   "exclusion_windows": [
     {

@@ -1,0 +1,418 @@
+{
+  "category_scope": "Detection on invoices bearing each label, not predicted-category accuracy; primary families are exclusive.",
+  "clean": 580,
+  "cost": 10,
+  "emitted": 435,
+  "erroneous": 42,
+  "false_positives_on_clean": [],
+  "fn": 2,
+  "fn_invoice_ids": [
+    "INV-H1-000151",
+    "INV-H1-000619"
+  ],
+  "fp": 0,
+  "hospitals_in_supplied_csv": {
+    "H1": {
+      "category_mix": {
+        "contract_number_mismatch": 5,
+        "cross_invoice_duplicate": 4,
+        "daily_cap_exceeded": 4,
+        "daily_quantity_cap": 4,
+        "duplicate_invoice_id": 5,
+        "effective_rate_mismatch": 27,
+        "exclusion_window_violation": 3,
+        "invoice_amount_mismatch": 16,
+        "invoice_total_mismatch": 6,
+        "line_amount_mismatch": 34,
+        "line_arithmetic_mismatch": 5,
+        "line_total_arithmetic": 6,
+        "malformed_service_date": 6,
+        "nonbillable_service": 3,
+        "service_date_after_invoice_date": 7,
+        "service_date_out_of_window": 5,
+        "unknown_service": 11,
+        "wrong_unit_basis": 16
+      },
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        56,
+        588
+      ],
+      "flag_rate_all_invoices": 0.06133625410733844,
+      "flags": 56,
+      "investigate_below_3_percent": false,
+      "rows": 644,
+      "unique_invoices": 913,
+      "warning": null,
+      "withheld": 269
+    },
+    "H2": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 0,
+      "unique_invoices": 1125,
+      "warning": "below_4_percent",
+      "withheld": 1125
+    },
+    "H3": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 0,
+      "unique_invoices": 932,
+      "warning": "below_4_percent",
+      "withheld": 932
+    },
+    "H4": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 0,
+      "unique_invoices": 835,
+      "warning": "below_4_percent",
+      "withheld": 835
+    },
+    "H5": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 0,
+      "unique_invoices": 1050,
+      "warning": "below_4_percent",
+      "withheld": 1050
+    }
+  },
+  "partition": "development",
+  "per_category_detection": {
+    "bundle_not_applied": {
+      "amount_exact": 2,
+      "covered": 3,
+      "detection_recall_all": 1.0,
+      "flagged": 3,
+      "support": 3,
+      "whole_row_success": 2
+    },
+    "contract_number_mismatch": {
+      "amount_exact": 4,
+      "covered": 4,
+      "detection_recall_all": 1.0,
+      "flagged": 4,
+      "support": 4,
+      "whole_row_success": 4
+    },
+    "cross_invoice_duplicate": {
+      "amount_exact": 2,
+      "covered": 2,
+      "detection_recall_all": 1.0,
+      "flagged": 2,
+      "support": 2,
+      "whole_row_success": 2
+    },
+    "daily_cap_exceeded": {
+      "amount_exact": 0,
+      "covered": 2,
+      "detection_recall_all": 1.0,
+      "flagged": 2,
+      "support": 2,
+      "whole_row_success": 0
+    },
+    "duplicate_invoice_id": {
+      "amount_exact": 3,
+      "covered": 4,
+      "detection_recall_all": 1.0,
+      "flagged": 4,
+      "support": 4,
+      "whole_row_success": 3
+    },
+    "exclusion_window_violation": {
+      "amount_exact": 2,
+      "covered": 3,
+      "detection_recall_all": 1.0,
+      "flagged": 3,
+      "support": 3,
+      "whole_row_success": 2
+    },
+    "invoice_total_mismatch": {
+      "amount_exact": 4,
+      "covered": 5,
+      "detection_recall_all": 1.0,
+      "flagged": 5,
+      "support": 5,
+      "whole_row_success": 4
+    },
+    "line_total_arithmetic": {
+      "amount_exact": 3,
+      "covered": 3,
+      "detection_recall_all": 1.0,
+      "flagged": 3,
+      "support": 3,
+      "whole_row_success": 3
+    },
+    "malformed_service_date": {
+      "amount_exact": 3,
+      "covered": 4,
+      "detection_recall_all": 1.0,
+      "flagged": 4,
+      "support": 4,
+      "whole_row_success": 3
+    },
+    "premium_incorrectly_applied": {
+      "amount_exact": 3,
+      "covered": 5,
+      "detection_recall_all": 1.0,
+      "flagged": 5,
+      "support": 5,
+      "whole_row_success": 3
+    },
+    "premium_omitted": {
+      "amount_exact": 1,
+      "covered": 2,
+      "detection_recall_all": 0.6666666666666666,
+      "flagged": 2,
+      "support": 3,
+      "whole_row_success": 1
+    },
+    "service_date_after_invoice_date": {
+      "amount_exact": 5,
+      "covered": 5,
+      "detection_recall_all": 1.0,
+      "flagged": 5,
+      "support": 5,
+      "whole_row_success": 5
+    },
+    "service_date_out_of_window": {
+      "amount_exact": 4,
+      "covered": 4,
+      "detection_recall_all": 1.0,
+      "flagged": 4,
+      "support": 4,
+      "whole_row_success": 4
+    },
+    "unit_price_mismatch": {
+      "amount_exact": 5,
+      "covered": 6,
+      "detection_recall_all": 0.8571428571428571,
+      "flagged": 6,
+      "support": 7,
+      "whole_row_success": 5
+    },
+    "unknown_service": {
+      "amount_exact": 3,
+      "covered": 9,
+      "detection_recall_all": 1.0,
+      "flagged": 9,
+      "support": 9,
+      "whole_row_success": 3
+    },
+    "volume_discount_incorrectly_applied": {
+      "amount_exact": 2,
+      "covered": 3,
+      "detection_recall_all": 1.0,
+      "flagged": 3,
+      "support": 3,
+      "whole_row_success": 2
+    },
+    "volume_discount_omitted": {
+      "amount_exact": 2,
+      "covered": 3,
+      "detection_recall_all": 1.0,
+      "flagged": 3,
+      "support": 3,
+      "whole_row_success": 2
+    },
+    "wrong_unit_basis": {
+      "amount_exact": 6,
+      "covered": 6,
+      "detection_recall_all": 1.0,
+      "flagged": 6,
+      "support": 6,
+      "whole_row_success": 6
+    }
+  },
+  "per_primary_family": {
+    "mapping": {
+      "cumulative_detected": 35,
+      "cumulative_recall_all_errors": 0.8333333333333334,
+      "cumulative_support": 35,
+      "detected": 10,
+      "recall": 1.0,
+      "support": 10
+    },
+    "pricing": {
+      "cumulative_detected": 40,
+      "cumulative_recall_all_errors": 0.9523809523809523,
+      "cumulative_support": 42,
+      "detected": 3,
+      "recall": 0.6,
+      "support": 5
+    },
+    "rule": {
+      "cumulative_detected": 37,
+      "cumulative_recall_all_errors": 0.8809523809523809,
+      "cumulative_support": 37,
+      "detected": 2,
+      "recall": 1.0,
+      "support": 2
+    },
+    "structural": {
+      "cumulative_detected": 23,
+      "cumulative_recall_all_errors": 0.5476190476190477,
+      "cumulative_support": 23,
+      "detected": 23,
+      "recall": 1.0,
+      "support": 23
+    },
+    "term_window": {
+      "cumulative_detected": 25,
+      "cumulative_recall_all_errors": 0.5952380952380952,
+      "cumulative_support": 25,
+      "detected": 2,
+      "recall": 1.0,
+      "support": 2
+    }
+  },
+  "population": 622,
+  "predictions_sha256": "24def12ace9f5d3077182364133789d5d6094b563165cfb6c70641771c24800f",
+  "recall": 0.9523809523809523,
+  "reliability": {
+    "bins": [
+      {
+        "absolute_gap": null,
+        "count": 0,
+        "joint_success_rate": null,
+        "lower": 0.0,
+        "mean_confidence": null,
+        "upper": 0.2,
+        "upper_inclusive": false
+      },
+      {
+        "absolute_gap": null,
+        "count": 0,
+        "joint_success_rate": null,
+        "lower": 0.2,
+        "mean_confidence": null,
+        "upper": 0.4,
+        "upper_inclusive": false
+      },
+      {
+        "absolute_gap": null,
+        "count": 0,
+        "joint_success_rate": null,
+        "lower": 0.4,
+        "mean_confidence": null,
+        "upper": 0.6,
+        "upper_inclusive": false
+      },
+      {
+        "absolute_gap": 0.12500000000000044,
+        "count": 40,
+        "joint_success_rate": 0.775,
+        "lower": 0.6,
+        "mean_confidence": 0.6499999999999996,
+        "upper": 0.8,
+        "upper_inclusive": false
+      },
+      {
+        "absolute_gap": 0.0663291139240566,
+        "count": 395,
+        "joint_success_rate": 1.0,
+        "lower": 0.8,
+        "mean_confidence": 0.9336708860759434,
+        "upper": 1.0,
+        "upper_inclusive": true
+      }
+    ],
+    "ece": 0.07172413793103995,
+    "event": "Correct flag AND exact expected cents; not P(error). Emitted opinions only."
+  },
+  "submission_sha256": "d3a6e6cff2ec72671fd508320c874d4b98817ff6d4457a8d034e6de09d89f081",
+  "tp": 40,
+  "tp_amount": {
+    "count": 40,
+    "exact": 31,
+    "exact_match_rate": 0.775,
+    "mae_cents": 24440.375
+  },
+  "trace": {
+    "every_withheld_has_named_reason": true,
+    "path": "reports/gate4/decision_trace.jsonl.gz",
+    "rows": 4855,
+    "sha256": "4fd67f0c1a50c7840be68bf77dd597d66140c40e4d56b8445f46ce51a7ffaa1d"
+  },
+  "withheld": 187
+}

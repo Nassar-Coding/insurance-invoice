@@ -87,8 +87,11 @@ class PricingTests(unittest.TestCase):
         self.assertEqual(len(audit(data,CONTRACT,maps)['opinions']),2)
 
     def test_exclusion_past_future_interior_and_equality(self):
+        # H1 clause 10.1 measures the window in either direction, and "not
+        # billable within 7 days" covers a Service Date exactly 7 days away, so
+        # both boundary days are inside the window rather than uncertain.
         target='Advanced Metabolic Anaesthesia Administration';anchor='Standard Endocrine Endoscopic Procedure'
-        for day,excluded in [('2024-01-04',True),('2024-01-16',True),('2024-01-03',None),('2024-01-17',None),('2024-01-18',False)]:
+        for day,excluded in [('2024-01-04',True),('2024-01-16',True),('2024-01-03',True),('2024-01-17',True),('2024-01-18',False)]:
             with self.subTest(day=day):
                 rows=[line(target,day='2024-01-10'),line(anchor,'I2','L2',day)];headers=[invoice(),invoice('I2')]
                 _,_,ctx=setup(headers,rows)

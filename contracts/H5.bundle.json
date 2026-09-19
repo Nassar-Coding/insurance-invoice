@@ -1,7 +1,7 @@
 {
   "artifacts": {
-    "contracts/hospital_5.json": "2a11c47bc6730d9ae338bc80496dc1c95ae1121c5cbbdb57c31ef675bf025246",
-    "contracts/rules_hospital_5.json": "cab8586e82193940cc60d36ab5d761a90ac453ddbfdcebea12bf37c49d3660e4",
+    "contracts/hospital_5.json": "7e1cbf1f07901f36da8b1e0c00962c9e47faf50f069057c8ae6995541a4dd70c",
+    "contracts/rules_hospital_5.json": "0b65a30af1a73a9a6d110008b961e2c02bd4f3996692c1be8647d143d7597a92",
     "mappings/hospital_5.json": "7e912a083b2d1e915cf87e4d781e1eb27cc66a92cc2005a2ca692eaac4e52fcb",
     "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
     "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7"

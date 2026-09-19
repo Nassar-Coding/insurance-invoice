@@ -70,7 +70,9 @@ def validate_contract(c):
     require(s['adjustment_order']==OPERATIONS,'Unknown operation/order; no executable expressions allowed')
     require(s['service_day'] in {'calendar','seven_am_unobserved'},'Unsupported service-day semantics')
     require(s['exclusion_direction'] in {'both','uncertain_before_or_both','uncertain_direction'},'Unsupported exclusion direction')
-    require(s['exclusion_boundary']=='uncertain_at_equal','Unsupported boundary interpretation')
+    # "Not billable within N days" covers a Service Date exactly N days away:
+    # the boundary day is the last day inside the window, not the first outside it.
+    require(s['exclusion_boundary']=='inclusive_at_equal','Unsupported boundary interpretation')
     require(s['duplicate_policy'] in {'abstain_repeated_service_day','no_explicit_service_date_prohibition'},'Unsupported duplicate allocation')
     require(type(s['service_date_not_after_invoice']) is bool,'Date/invoice requirement must be explicit boolean')
     require(s['invoice_eligibility'] in {'supplied_invoice_facts','unobserved_submission_deadline_and_waiver'},'Unsupported invoice eligibility')
@@ -168,12 +170,15 @@ def validate_rules(rules,contract):
     """Check the reviewed cap and exclusion file against the contract it cites."""
     keys(rules,{'hospital','schema_version','review_state','contract_number','contract_term','service_day',
                 'exclusion_direction','exclusion_boundary','daily_caps','exclusion_windows','scope',
-                'amendment_note'},'rules',optional={'amendment_note'})
+                'amendment_note','boundary_reading','direction_reading'},'rules',optional={'amendment_note'})
     require(rules['schema_version']=='1','Unsupported rules schema')
     require(rules['review_state']=='accepted','Rules file is unaccepted')
     require(rules['hospital']==contract['hospital'],'Cross-hospital rules file')
     require(rules['contract_number']==contract['contract_number'],'Rules cite a different contract')
     require(rules['contract_term']==list(contract['term']),'Rules cite a different term')
+    for field in ('service_day','exclusion_direction','exclusion_boundary'):
+        require(rules[field]==contract['semantics'][field],'Rules state a different '+field)
+    require(rules['boundary_reading'] and rules['direction_reading'],'Rules must record both readings')
     services={s['id']:s for s in contract['services']}
     term=contract['term']
     for row in rules['daily_caps']:
