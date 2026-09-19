@@ -1,7 +1,7 @@
 {
   "artifacts": {
     "contracts/hospital_4.json": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688",
-    "mappings/hospital_4.json": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d",
+    "mappings/hospital_4.json": "3139e9cacbd51e51facb912a91f82d54d0eca1e9ba03533a1c4fe023b89f6a4e",
     "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
     "reports/H4_source_review.json": "a0b3440da192b8be601780adcd828d42003f1fdff3d4edac43584bc35bf4e112"
   },

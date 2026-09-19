@@ -1,27 +1,27 @@
 {
   "H1": {
     "abstention_invoice_counts_by_reason": {
-      "duplicate_service_day_allocation": 3,
-      "multiple_supported_rate_outcomes": 116,
-      "possible_duplicate_service_day": 16,
+      "duplicate_service_day_allocation": 4,
+      "multiple_supported_rate_outcomes": 50,
+      "possible_duplicate_service_day": 14,
       "unresolved_exclusion": 3,
-      "unresolved_service_mapping": 601
+      "unresolved_service_mapping": 220
     },
-    "abstentions": 622,
+    "abstentions": 273,
     "accepted_invoice_records": 918,
     "accepted_line_records": 11409,
     "confidence_tiers": {
-      "h1_supported:elided:0": 77,
-      "h1_supported:explicit:0": 168,
-      "sparse:elided:1": 14,
-      "sparse:explicit:1": 32
+      "h1_supported:elided:0": 210,
+      "h1_supported:explicit:0": 378,
+      "sparse:elided:1": 16,
+      "sparse:explicit:1": 36
     },
     "context_records": 11415,
-    "correct_opinions": 245,
-    "coverage": 0.3187294633077766,
+    "correct_opinions": 588,
+    "coverage": 0.7009857612267251,
     "distinct_mapping_keys": 470,
-    "flagged_opinions": 46,
-    "opinions": 291,
+    "flagged_opinions": 52,
+    "opinions": 640,
     "orphan_line_count": 0,
     "qualified_opinions": 0,
     "quarantined_records": 6,
@@ -29,60 +29,60 @@
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
     "review_scope": "all source services and all observed distinct keys examined; unresolved keys retained",
     "unique_invoice_ids": 913,
-    "unresolved_mapping_keys": 63
+    "unresolved_mapping_keys": 22
   },
   "H2": {
     "abstention_invoice_counts_by_reason": {
-      "composite_dimension_unobserved": 86,
-      "multiple_supported_rate_outcomes": 917,
-      "unobserved_service_day_cap_allocation": 120,
-      "unresolved_exclusion": 3,
-      "unresolved_service_mapping": 1017
+      "composite_dimension_unobserved": 147,
+      "multiple_supported_rate_outcomes": 945,
+      "unobserved_service_day_cap_allocation": 155,
+      "unresolved_exclusion": 4,
+      "unresolved_service_mapping": 353
     },
-    "abstentions": 1062,
+    "abstentions": 1004,
     "accepted_invoice_records": 1132,
     "accepted_line_records": 14352,
     "confidence_tiers": {
-      "novel_reviewed:elided:qualified": 19,
-      "novel_reviewed:explicit:qualified": 44
+      "novel_reviewed:elided:qualified": 40,
+      "novel_reviewed:explicit:qualified": 81
     },
     "context_records": 14360,
-    "correct_opinions": 7,
-    "coverage": 0.056,
+    "correct_opinions": 65,
+    "coverage": 0.10755555555555556,
     "distinct_mapping_keys": 441,
     "flagged_opinions": 56,
-    "opinions": 63,
+    "opinions": 121,
     "orphan_line_count": 0,
-    "qualified_opinions": 63,
+    "qualified_opinions": 121,
     "quarantined_records": 8,
     "raw_records": 15492,
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
     "review_scope": "all source services and all observed distinct keys examined; unresolved keys retained",
     "unique_invoice_ids": 1125,
-    "unresolved_mapping_keys": 137
+    "unresolved_mapping_keys": 31
   },
   "H3": {
     "abstention_invoice_counts_by_reason": {
-      "composite_dimension_unobserved": 60,
-      "duplicate_service_day_allocation": 3,
-      "multiple_supported_rate_outcomes": 189,
+      "composite_dimension_unobserved": 81,
+      "duplicate_service_day_allocation": 4,
+      "multiple_supported_rate_outcomes": 54,
       "possible_duplicate_service_day": 6,
-      "unresolved_exclusion": 2,
-      "unresolved_service_mapping": 694
+      "unresolved_exclusion": 3,
+      "unresolved_service_mapping": 118
     },
-    "abstentions": 732,
+    "abstentions": 243,
     "accepted_invoice_records": 939,
     "accepted_line_records": 11648,
     "confidence_tiers": {
-      "novel_reviewed:elided": 32,
-      "novel_reviewed:explicit": 168
+      "novel_reviewed:elided": 129,
+      "novel_reviewed:explicit": 560
     },
     "context_records": 11655,
-    "correct_opinions": 143,
-    "coverage": 0.2145922746781116,
+    "correct_opinions": 623,
+    "coverage": 0.7392703862660944,
     "distinct_mapping_keys": 507,
-    "flagged_opinions": 57,
-    "opinions": 200,
+    "flagged_opinions": 66,
+    "opinions": 689,
     "orphan_line_count": 0,
     "qualified_opinions": 0,
     "quarantined_records": 7,
@@ -90,30 +90,30 @@
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
     "review_scope": "all source services and all observed distinct keys examined; unresolved keys retained",
     "unique_invoice_ids": 932,
-    "unresolved_mapping_keys": 85
+    "unresolved_mapping_keys": 21
   },
   "H4": {
     "abstention_invoice_counts_by_reason": {
-      "composite_dimension_unobserved": 77,
-      "duplicate_service_day_allocation": 2,
-      "multiple_supported_rate_outcomes": 303,
-      "possible_duplicate_service_day": 16,
-      "unresolved_exclusion": 10,
-      "unresolved_service_mapping": 700
+      "composite_dimension_unobserved": 94,
+      "duplicate_service_day_allocation": 3,
+      "multiple_supported_rate_outcomes": 219,
+      "possible_duplicate_service_day": 19,
+      "unresolved_exclusion": 12,
+      "unresolved_service_mapping": 155
     },
-    "abstentions": 723,
+    "abstentions": 376,
     "accepted_invoice_records": 840,
     "accepted_line_records": 10554,
     "confidence_tiers": {
-      "novel_reviewed:elided": 22,
-      "novel_reviewed:explicit": 90
+      "novel_reviewed:elided": 121,
+      "novel_reviewed:explicit": 338
     },
     "context_records": 10560,
-    "correct_opinions": 63,
-    "coverage": 0.1341317365269461,
+    "correct_opinions": 406,
+    "coverage": 0.5497005988023952,
     "distinct_mapping_keys": 488,
-    "flagged_opinions": 49,
-    "opinions": 112,
+    "flagged_opinions": 53,
+    "opinions": 459,
     "orphan_line_count": 0,
     "qualified_opinions": 0,
     "quarantined_records": 6,
@@ -121,38 +121,38 @@
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
     "review_scope": "all source services and all observed distinct keys examined; unresolved keys retained",
     "unique_invoice_ids": 835,
-    "unresolved_mapping_keys": 108
+    "unresolved_mapping_keys": 23
   },
   "H5": {
     "abstention_invoice_counts_by_reason": {
-      "composite_dimension_unobserved": 67,
+      "composite_dimension_unobserved": 106,
       "duplicate_service_day_allocation": 2,
-      "multiple_supported_rate_outcomes": 310,
-      "possible_duplicate_service_day": 27,
+      "multiple_supported_rate_outcomes": 192,
+      "possible_duplicate_service_day": 29,
       "unresolved_exclusion": 4,
-      "unresolved_service_mapping": 828
+      "unresolved_service_mapping": 260
     },
-    "abstentions": 870,
+    "abstentions": 447,
     "accepted_invoice_records": 1057,
     "accepted_line_records": 13213,
     "confidence_tiers": {
-      "novel_reviewed:elided:qualified": 44,
+      "novel_reviewed:elided:qualified": 154,
       "novel_reviewed:explicit": 9,
-      "novel_reviewed:explicit:qualified": 127
+      "novel_reviewed:explicit:qualified": 440
     },
     "context_records": 13221,
-    "correct_opinions": 128,
-    "coverage": 0.17142857142857143,
+    "correct_opinions": 540,
+    "coverage": 0.5742857142857143,
     "distinct_mapping_keys": 424,
-    "flagged_opinions": 52,
-    "opinions": 180,
+    "flagged_opinions": 63,
+    "opinions": 603,
     "orphan_line_count": 0,
-    "qualified_opinions": 171,
+    "qualified_opinions": 594,
     "quarantined_records": 8,
     "raw_records": 14278,
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
     "review_scope": "all source services and all observed distinct keys examined; unresolved keys retained",
     "unique_invoice_ids": 1050,
-    "unresolved_mapping_keys": 76
+    "unresolved_mapping_keys": 20
   }
 }

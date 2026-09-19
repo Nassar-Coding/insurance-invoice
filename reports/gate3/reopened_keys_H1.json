@@ -1,0 +1,391 @@
+{
+  "dev_after": {
+    "decoy": 0,
+    "fp": 0,
+    "tp": 37
+  },
+  "dev_before": {
+    "decoy": 0,
+    "fp": 0,
+    "tp": 34
+  },
+  "kept": [
+    {
+      "key": "advanced critical cr occupancy",
+      "margin": 0.2,
+      "score": 0.8,
+      "service_id": "H1-S003",
+      "tp_after": 34
+    },
+    {
+      "key": "amb infectious visit",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S011",
+      "tp_after": 34
+    },
+    {
+      "key": "ambulatory endosc procedure",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S009",
+      "tp_after": 34
+    },
+    {
+      "key": "beds psych session",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S024",
+      "tp_after": 34
+    },
+    {
+      "key": "consultation adv",
+      "margin": 0.333333,
+      "score": 0.666667,
+      "service_id": "H1-S006",
+      "tp_after": 34
+    },
+    {
+      "key": "cont pharmaceutical disp",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S039",
+      "tp_after": 34
+    },
+    {
+      "key": "elect card supp",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S040",
+      "tp_after": 34
+    },
+    {
+      "key": "emer ortho",
+      "margin": 0.166667,
+      "score": 0.666667,
+      "service_id": "H1-S043",
+      "tp_after": 34
+    },
+    {
+      "key": "ext pall panel",
+      "margin": 0.5,
+      "score": 0.75,
+      "service_id": "H1-S048",
+      "tp_after": 34
+    },
+    {
+      "key": "focused ent cr",
+      "margin": 0.5,
+      "score": 0.75,
+      "service_id": "H1-S053",
+      "tp_after": 34
+    },
+    {
+      "key": "fract outpatient radiotherapy",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S071",
+      "tp_after": 34
+    },
+    {
+      "key": "fract std ent",
+      "margin": 0.5,
+      "score": 0.75,
+      "service_id": "H1-S102",
+      "tp_after": 34
+    },
+    {
+      "key": "img inpatient diag",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S062",
+      "tp_after": 34
+    },
+    {
+      "key": "immun consult",
+      "margin": 0.333333,
+      "score": 0.666667,
+      "service_id": "H1-S070",
+      "tp_after": 34
+    },
+    {
+      "key": "inpt endo session",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S054",
+      "tp_after": 34
+    },
+    {
+      "key": "inpt hepatic session",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S055",
+      "tp_after": 34
+    },
+    {
+      "key": "intens nutr support",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S064",
+      "tp_after": 34
+    },
+    {
+      "key": "interm diag img",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S069",
+      "tp_after": 34
+    },
+    {
+      "key": "interm rehab programme",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S068",
+      "tp_after": 34
+    },
+    {
+      "key": "msk dial sess",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S106",
+      "tp_after": 34
+    },
+    {
+      "key": "neuro nutr supp",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S067",
+      "tp_after": 34
+    },
+    {
+      "key": "obs metab nursing",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S005",
+      "tp_after": 34
+    },
+    {
+      "key": "observation cont nurs",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S032",
+      "tp_after": 35
+    },
+    {
+      "key": "occ inpt isol rm",
+      "margin": 0.2,
+      "score": 0.8,
+      "service_id": "H1-S059",
+      "tp_after": 35
+    },
+    {
+      "key": "ortho transp svc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S052",
+      "tp_after": 35
+    },
+    {
+      "key": "outpt radiother fraction",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S071",
+      "tp_after": 35
+    },
+    {
+      "key": "postop critical cr occupancy",
+      "margin": 0.2,
+      "score": 0.8,
+      "service_id": "H1-S072",
+      "tp_after": 36
+    },
+    {
+      "key": "pulmonary biopsy proc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S025",
+      "tp_after": 36
+    },
+    {
+      "key": "routine biop procedure",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S092",
+      "tp_after": 36
+    },
+    {
+      "key": "routine oncology disch",
+      "margin": 0.416667,
+      "score": 0.75,
+      "service_id": "H1-S089",
+      "tp_after": 37
+    },
+    {
+      "key": "rtn biop proc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S092",
+      "tp_after": 37
+    },
+    {
+      "key": "rtn cardiac specimen",
+      "margin": 0.5,
+      "score": 0.75,
+      "service_id": "H1-S083",
+      "tp_after": 37
+    },
+    {
+      "key": "rtn gi svc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S085",
+      "tp_after": 37
+    },
+    {
+      "key": "std biop proc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S103",
+      "tp_after": 37
+    },
+    {
+      "key": "std endo endoscopic procedure",
+      "margin": 0.25,
+      "score": 1.0,
+      "service_id": "H1-S100",
+      "tp_after": 37
+    },
+    {
+      "key": "std nutritional supp",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S101",
+      "tp_after": 37
+    },
+    {
+      "key": "std paediatric proc",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S103",
+      "tp_after": 37
+    },
+    {
+      "key": "supp geriatric vent",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S077",
+      "tp_after": 37
+    },
+    {
+      "key": "supv isol rm occupancy",
+      "margin": 0.2,
+      "score": 0.8,
+      "service_id": "H1-S108",
+      "tp_after": 37
+    },
+    {
+      "key": "svc interm transf",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S066",
+      "tp_after": 37
+    },
+    {
+      "key": "visit cardiac hm",
+      "margin": 0.25,
+      "score": 0.75,
+      "service_id": "H1-S008",
+      "tp_after": 37
+    }
+  ],
+  "rejected": [
+    {
+      "key": "adv renal consultation",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "amb gastrointestinal discharge plng",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "asst specimen anly",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "cont pulm spcm analysis",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "continuous wnd care",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "cr cont wnd",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "extended haem anaes admin",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "extended ortho ventilation support",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "ger nutr support",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "img vasc diagnostic",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "metabolic lab pnl",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "occ advanced orthopaedic recovery rm",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "outpatient orthopaedic pharm dispensing",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "procedure immun endosc",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "psych rehab programme",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "psychiatric rehab programme",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "ren radiotherapy fract",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "rtn transf svc",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "session interm hep dial",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "supp postoperative ortho nutritional",
+      "reason": "matcher NO_MATCH"
+    },
+    {
+      "key": "vasc diagnostic img",
+      "reason": "matcher TIE"
+    },
+    {
+      "key": "visit amb hm",
+      "reason": "matcher TIE"
+    }
+  ]
+}

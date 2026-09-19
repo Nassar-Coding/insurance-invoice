@@ -51,13 +51,13 @@
   "prediction_inputs": {
     "H1": {
       "files": {
-        "contracts/H1.bundle.json": "49c4b8d85af8c510d30e0eea8fdc14d76a2cb8cf145a2d35e079361a1f85fa56",
+        "contracts/H1.bundle.json": "79c4140e18971a2adf0405d9b462a66fb30aaf2013a6bc6b0150a94e7bd80e9b",
         "contracts/hospital_1.json": "8d7d820fe17ab41e77e708a815838ce10a4f05635da130aefbf07f39c594c6bb",
         "data/source/contracts/hospital_1/provider_services_agreement.md": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853",
         "data/source/invoices/hospital_1_invoices.csv": "2943c887c5f4c1e81c01893ff54f0cbac770451259d180040fec45924ee37b5f",
         "data/source/invoices/hospital_1_line_items.csv": "ca3a1b8b14a3d8541aa3941563750a4f9447ffb972b730e3dd2e55c2523904cb",
         "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
-        "mappings/hospital_1.json": "754c8726a2862dcc533a1c21a817fa9b0f5dbc39a141d6fdc879a5bfa6ebf8e1",
+        "mappings/hospital_1.json": "af9654996a5d87fff25e750f35f2f9c0f512cb43167b299480d3f1f87d3b3fd9",
         "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
         "reports/H1_source_review.json": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
         "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
@@ -86,10 +86,10 @@
     },
     "targets": {
       "files": {
-        "contracts/H2.bundle.json": "f90bc694381c2d393dea242c44f0c0e4f353a9f5781d4edbc457b2ec56590295",
-        "contracts/H3.bundle.json": "d91a266777e2957490dfbf40adaf06a1b0cd7d7e3fe25d6d5eb02ae8f7617baa",
-        "contracts/H4.bundle.json": "5cc23a0245e1ec48b9bbd5b8236c2d811f6bc80bc992977ad561b6ce39082ea9",
-        "contracts/H5.bundle.json": "f3781fece3eba15064413e8f46e2fb1cb0252d3093318e5267d2ac6d6535b417",
+        "contracts/H2.bundle.json": "6229a091312c34601c0952791b316c84631e57450ff0ec070708f5ad55cd3dd8",
+        "contracts/H3.bundle.json": "fc5bb783224fe83dc95601c6290b1fd127f4f595b304fff8870d06d1842b21a0",
+        "contracts/H4.bundle.json": "4ae3ddaecf4be0c0d840da57f225ae88d603b0f9baa948e84b3faedd016860d0",
+        "contracts/H5.bundle.json": "a2daaf65797fdae542cb5520cc614d6301384c2a4e71451afd9fb425db9c7b75",
         "contracts/hospital_2.json": "a3b1ed932f3205c04b53c8e2b7e346b31b2d65c839524a637ff225f6c9432578",
         "contracts/hospital_3.json": "b7b7041fb9bd909d85cfa2ee0b06f710028e21e8e3c9a4a1752ee4647994a259",
         "contracts/hospital_4.json": "b8d36fb1c41b43ef25deab178efea6130e4c86831ab9827f590a33317b46a688",
@@ -109,10 +109,10 @@
         "data/source/invoices/hospital_5_invoices.csv": "f7c5dc3afb2c4a0e922cf9f4cbff7849427eb9cce5212c58ea3231d9e1a310dc",
         "data/source/invoices/hospital_5_line_items.csv": "0fcdf6f2238e4700d4c600a5f465248ea2a35719e0835d50ff512614604dc6d0",
         "evaluation/confidence_policy.json": "65fc2cae1e5332d7f394898e7b83502592c51ba9cdbf40d71fb3e4b4a6c12722",
-        "mappings/hospital_2.json": "933ba484358ad6c5718dbda15e30452230f15f97163c0fe466d590b9a18641fb",
-        "mappings/hospital_3.json": "a9d418d873c43df617191b9e6d9334cb7f30d034fe37eb7438d445714c732ab6",
-        "mappings/hospital_4.json": "f594be192c180d41046a164faa0467a734c6df68e42c22a7289acac00d56511d",
-        "mappings/hospital_5.json": "ed082bbc4c353103fde8c5a3cd229c083432d43e4834343a323fad10fd3d8a34",
+        "mappings/hospital_2.json": "bad0fba1716b2ac459be877c1b65b745e6e8382e57057c5a43fa5dfb3c55634a",
+        "mappings/hospital_3.json": "8dc49710b256e3940914c11a5a9a149bfb1d469557c9cae16a500c1c280a0bc3",
+        "mappings/hospital_4.json": "3139e9cacbd51e51facb912a91f82d54d0eca1e9ba03533a1c4fe023b89f6a4e",
+        "mappings/hospital_5.json": "7e912a083b2d1e915cf87e4d781e1eb27cc66a92cc2005a2ca692eaac4e52fcb",
         "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
         "reports/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae",
         "reports/H3_source_review.json": "46ddb510cbde4f3384447b370bbb8e98679762f42c5c949f79e97f1db31da47a",
@@ -147,15 +147,15 @@
     }
   },
   "run_ids": {
-    "H1": "dcbbbd62fb1dc3d6ada90350ca806383f2e5edfd7acf1d9520536b844979ad1b",
-    "targets": "154461f7486723baed07cfc466041391c44ae82a1b108c05f3cea47fb4ad2122"
+    "H1": "4f0d69660cc555c5f05006ee2d414058def694f0774ff44f58ab517da5d71246",
+    "targets": "37e741ce041b9ecfe9aa75e6911187f198c177151b3695a88f5e8d274fd53f33"
   },
   "scope": "Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot",
   "stable_outputs": {
     "reports/evaluation_report.md": "f936b3866312f9c0288ee5cdd7d3b49c6777ae1676088376ca8cbee9d57298ca",
     "reports/metrics.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-    "reports/workload.json": "124e7dc1237964093608d89df0013bc1b4015ecea011a0ca6dea43c6d563e923",
-    "submission.csv": "a95e5707df97028092a41c917abdcd9691e3c664f77ea4d19efa29dcf3e2949a"
+    "reports/workload.json": "87323e0770c3e3f4fde0a577f50df58739340d5274334385c6d82229688cc549",
+    "submission.csv": "e8dffac992d3a733e02c99454c12b4112d46fe366b8723209205a06be8d1612b"
   },
-  "target_release_id": "585fcb133271f84062c4c66ae9ee445a6b82577395486220e9249feaa912b895"
+  "target_release_id": "44e42da1703b4bf104ec5208325c629127d763e5d50988eecf954e830e6175eb"
 }

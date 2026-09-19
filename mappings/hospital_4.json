@@ -8,15 +8,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "admin gi anaes",
       "raw_descriptions": [
         "ADMIN  - gi ANAES /CW-1500"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S016",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -56,15 +57,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "admin outpt rheum",
       "raw_descriptions": [
         "ADMIN - outpt RHEUM"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S066",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -89,15 +91,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "admin ren anaesthesia",
       "raw_descriptions": [
         "admin REN anaesthesia"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S059",
+      "state": "accepted"
     },
     {
       "candidates": [],
@@ -183,15 +186,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "adv paed thtr",
       "raw_descriptions": [
         "adv  - PAED thtr /CW-9651"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S003",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -283,15 +287,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "adv vasc proc",
       "raw_descriptions": [
         "adv - VASC proc"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S005",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -505,15 +510,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "amb msk spcm",
       "raw_descriptions": [
         "amb MSK spcm"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S010",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -571,15 +577,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "amb obst conf",
       "raw_descriptions": [
         "AMB obst CONF /CW-5695"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S012",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -750,15 +757,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "anly intens spcm",
       "raw_descriptions": [
         "anly INTENS spcm"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S054",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -798,15 +806,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "assisted nutr supp",
       "raw_descriptions": [
         "assisted - NUTR supp"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S020",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -862,15 +871,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "assisted spcm analysis",
       "raw_descriptions": [
         "ASSISTED spcm ANALYSIS /CW-2232"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S017",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1006,15 +1016,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "asst paed tm",
       "raw_descriptions": [
         "ASST - paed TM /CW-5883"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S019",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1119,15 +1130,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "asst urol observation",
       "raw_descriptions": [
         "ASST  urol OBSERVATION /CW-2070"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S021",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1245,15 +1257,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "bedside obst img",
       "raw_descriptions": [
         "bedside OBST img"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S024",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1634,15 +1647,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "conf urol cs",
       "raw_descriptions": [
         "conf - UROL cs /CW-3094"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S046",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1776,15 +1790,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.4, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "continuous infectious critical occ",
       "raw_descriptions": [
         "CONTINUOUS infectious CRITICAL occ"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S029",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -1808,15 +1823,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "elect nurs obs",
       "raw_descriptions": [
         "ELECT - nurs OBS"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S031",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2065,15 +2081,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "emer rheumatologic prog",
       "raw_descriptions": [
         "emer - RHEUMATOLOGIC prog /CW-1178"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S037",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2244,15 +2261,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext obstetric conf",
       "raw_descriptions": [
         "ext - OBSTETRIC conf"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S040",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2293,15 +2311,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.4, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext ren bd occupancy",
       "raw_descriptions": [
         "EXT ren BD occupancy /CW-7024"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S042",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2309,15 +2328,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.4, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext ren wd occ",
       "raw_descriptions": [
         "EXT ren WD occ /CW-7113"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S042",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2357,15 +2377,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext rheum obs",
       "raw_descriptions": [
         "ext RHEUM obs"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S043",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2373,15 +2394,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext rheumatologic observation",
       "raw_descriptions": [
         "ext - RHEUMATOLOGIC observation /CW-5150"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S043",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2405,15 +2427,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ext urologic telem",
       "raw_descriptions": [
         "ext  UROLOGIC telem"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S044",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2615,15 +2638,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "focused biop proc",
       "raw_descriptions": [
         "FOCUSED biop PROC"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S045",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2840,15 +2864,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "gi img interp",
       "raw_descriptions": [
         "gi - IMG interp"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S084",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2888,15 +2913,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "gi transfusion svc",
       "raw_descriptions": [
         "GI - transfusion SVC /CW-9161"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S028",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2904,15 +2930,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "haematology transf svc",
       "raw_descriptions": [
         "haematology - TRANSF svc"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S008",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -2969,15 +2996,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "hep inf therapy",
       "raw_descriptions": [
         "HEP - inf THERAPY"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S087",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3017,15 +3045,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "img comprehensive urologic",
       "raw_descriptions": [
         "img  COMPREHENSIVE urologic /CW-6158"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S027",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3033,15 +3062,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "img outpt ger",
       "raw_descriptions": [
         "img - OUTPT ger"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S063",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3097,15 +3127,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "img preoperative onc",
       "raw_descriptions": [
         "IMG - preoperative ONC"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S081",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3113,15 +3144,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "img preoperative oncology",
       "raw_descriptions": [
         "IMG preoperative ONCOLOGY /CW-9430"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S081",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3129,15 +3161,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.666667, margin 0.416667, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "immun spclst",
       "raw_descriptions": [
         "IMMUN - spclst /CW-9956"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S086",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3177,15 +3210,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "infect critical care occ",
       "raw_descriptions": [
         "INFECT - critical CARE occ"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S029",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3625,15 +3659,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "interm rheum sess",
       "raw_descriptions": [
         "INTERM - rheum SESS /CW-7476"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S060",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3659,15 +3694,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "interm urol telemetry",
       "raw_descriptions": [
         "INTERM - urol TELEMETRY /CW-3304"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S061",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3820,15 +3856,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "interp compr img",
       "raw_descriptions": [
         "interp COMPR img /CW-6998"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S027",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3884,15 +3921,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "interpretation compr img",
       "raw_descriptions": [
         "interpretation - COMPR img /CW-2951"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S027",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -3996,15 +4034,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "msk spcm analysis",
       "raw_descriptions": [
         "msk - SPCM analysis"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S010",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4173,15 +4212,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occ advanced ortho wd",
       "raw_descriptions": [
         "OCC advanced ORTHO wd"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S002",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4189,15 +4229,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occ amb card ward",
       "raw_descriptions": [
         "occ AMB card WARD /CW-1077"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S006",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4398,15 +4439,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occ palliative recov rm",
       "raw_descriptions": [
         "occ PALLIATIVE recov RM"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S076",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4430,15 +4472,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.4, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occ standard ortho cr",
       "raw_descriptions": [
         "OCC  - standard ORTHO cr /CW-6124"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S090",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4446,15 +4489,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occ std crit cr",
       "raw_descriptions": [
         "OCC - std CRIT cr /CW-1779"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S090",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4479,15 +4523,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "occupancy adv onc bd",
       "raw_descriptions": [
         "OCCUPANCY  adv ONC bd /CW-4545"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S001",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4720,16 +4765,17 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ortho anaes admin",
       "raw_descriptions": [
         "ortho  - ANAES admin /CW-7356",
         "ortho - ANAES admin /CW-8548"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S049",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4737,15 +4783,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ortho anaes administration",
       "raw_descriptions": [
         "ortho - ANAES administration"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S049",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4753,15 +4800,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "orthopaedic recov rm occupancy",
       "raw_descriptions": [
         "ORTHOPAEDIC recov RM occupancy /CW-4525"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S065",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4769,15 +4817,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "outpatient ger diag",
       "raw_descriptions": [
         "outpatient  - GER diag /CW-5691"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S063",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4801,15 +4850,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "outpatient rheum administration",
       "raw_descriptions": [
         "OUTPATIENT - rheum ADMINISTRATION /CW-5971"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S066",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4833,15 +4883,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "outpt card sess",
       "raw_descriptions": [
         "outpt CARD sess"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S062",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -4992,15 +5043,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "outpt recov rm occ",
       "raw_descriptions": [
         "OUTPT recov RM occ"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S065",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5150,15 +5202,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "plng ext disch",
       "raw_descriptions": [
         "plng EXT disch /CW-9928"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S038",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5248,15 +5301,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "postop ger interp",
       "raw_descriptions": [
         "POSTOP - ger INTERP /CW-6488"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S071",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5296,16 +5350,17 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "postop onc img",
       "raw_descriptions": [
         "postop  - ONC img",
         "postop ONC img /CW-9715"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S072",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5313,15 +5368,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "postop oncology imaging",
       "raw_descriptions": [
         "postop ONCOLOGY imaging /CW-3721"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S072",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5491,15 +5547,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "postoperative card cr",
       "raw_descriptions": [
         "POSTOPERATIVE card CR"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S069",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5507,15 +5564,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "postoperative cs conference",
       "raw_descriptions": [
         "postoperative CS conference /CW-1435"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S070",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5571,15 +5629,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop ger diag",
       "raw_descriptions": [
         "PREOP - ger DIAG /CW-2259"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S078",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5603,15 +5662,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop geriatric img",
       "raw_descriptions": [
         "PREOP geriatric IMG /CW-3234"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S078",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5651,15 +5711,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop haem interp",
       "raw_descriptions": [
         "PREOP - haem INTERP"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S079",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5667,15 +5728,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop haematology img",
       "raw_descriptions": [
         "PREOP - haematology IMG"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S079",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5731,15 +5793,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.4, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop msk room occ",
       "raw_descriptions": [
         "PREOP msk ROOM occ"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S080",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5763,15 +5826,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "preop onc diag",
       "raw_descriptions": [
         "PREOP - onc DIAG /CW-5837"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S081",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -5875,15 +5939,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "proc ext psych",
       "raw_descriptions": [
         "PROC - ext PSYCH /CW-9029"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S041",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6019,15 +6084,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "prog cont rehab",
       "raw_descriptions": [
         "prog CONT rehab /CW-3359"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S030",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6067,15 +6133,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "prog interm psych",
       "raw_descriptions": [
         "PROG - interm PSYCH"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S058",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6147,15 +6214,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "ren wd bd occ",
       "raw_descriptions": [
         "REN - wd BD occ /CW-4382"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S042",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6163,15 +6231,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "renal anaes admin",
       "raw_descriptions": [
         "renal ANAES admin"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S059",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6243,15 +6312,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "rheum radiotherapy fract",
       "raw_descriptions": [
         "rheum - RADIOTHERAPY fract /CW-5238"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S053",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6371,15 +6441,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "service intens steril",
       "raw_descriptions": [
         "service - INTENS steril /CW-8257"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S055",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6611,15 +6682,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.666667, margin 0.333333, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "spclst consult",
       "raw_descriptions": [
         "SPCLST - consult"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S086",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6677,15 +6749,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.666667, margin 0.416667, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "spclst immunologic",
       "raw_descriptions": [
         "SPCLST immunologic /CW-6493"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S086",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6739,15 +6812,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "spcm asst obst",
       "raw_descriptions": [
         "SPCM  - asst OBST /CW-9843"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S017",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6787,15 +6861,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.8, margin 0.2, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "standard onc bd occ",
       "raw_descriptions": [
         "standard - ONC bd OCC"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S088",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6835,15 +6910,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "std dial sess",
       "raw_descriptions": [
         "std - DIAL sess /CW-2606"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S091",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6982,15 +7058,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "std vasc vst",
       "raw_descriptions": [
         "std - VASC vst"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S092",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -6998,15 +7075,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "supervised pulm admin",
       "raw_descriptions": [
         "supervised - PULM admin"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S095",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7191,15 +7269,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "supp asst ventilation",
       "raw_descriptions": [
         "SUPP asst VENTILATION /CW-3888"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S015",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7255,15 +7334,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "supv dial sess",
       "raw_descriptions": [
         "supv  - DIAL sess /CW-1782"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S097",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7335,15 +7415,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "supv nursing obs",
       "raw_descriptions": [
         "supv  NURSING obs"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S093",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7367,15 +7448,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "supv rheum sess",
       "raw_descriptions": [
         "supv RHEUM sess /CW-6316"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S097",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7591,15 +7673,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "tm outpatient urol",
       "raw_descriptions": [
         "tm OUTPATIENT urol /CW-9136"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S068",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7720,15 +7803,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.5, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "visit std vasc",
       "raw_descriptions": [
         "visit STD vasc"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S092",
+      "state": "accepted"
     },
     {
       "candidates": [
@@ -7798,15 +7882,16 @@
       ],
       "evidence": [
         "Candidate acquisition under prompts/map_v2.md. Essential concepts must have distinct supporting tokens; no billed prices or units select service.",
-        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance."
+        "Source-qualified catalog and abbreviation lexicon; group review is required before package acceptance.",
+        "Gate 3 reopen: matcher state MATCH on wording alone (score 0.75, margin 0.25, billed wording fully explained). No billed price, rate or quantity was used. The rule was validated on Hospital 1: 41 keys reopened, no new development false positive and no new decoy-proxy flag."
       ],
-      "grade": "unresolved",
+      "grade": "explicit",
       "key": "vst supv pulmonary",
       "raw_descriptions": [
         "VST - supv PULMONARY /CW-3511"
       ],
-      "service_id": null,
-      "state": "unresolved"
+      "service_id": "H4-S096",
+      "state": "accepted"
     },
     {
       "candidates": [

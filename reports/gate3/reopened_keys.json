@@ -1,0 +1,781 @@
+{
+  "H1": {
+    "accepted_total": 448,
+    "reopened": 41,
+    "still_unresolved": 22,
+    "unresolved_detail": [
+      {
+        "candidates": [],
+        "key": "adv renal consultation",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "amb gastrointestinal discharge plng",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "asst specimen anly",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "cont pulm spcm analysis",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H1-S034",
+          "H1-S038"
+        ],
+        "key": "continuous wnd care",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S034",
+          "H1-S038"
+        ],
+        "key": "cr cont wnd",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "extended haem anaes admin",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "extended ortho ventilation support",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H1-S064",
+          "H1-S101"
+        ],
+        "key": "ger nutr support",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S062",
+          "H1-S082"
+        ],
+        "key": "img vasc diagnostic",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "metabolic lab pnl",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "occ advanced orthopaedic recovery rm",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "outpatient orthopaedic pharm dispensing",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H1-S009",
+          "H1-S078"
+        ],
+        "key": "procedure immun endosc",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S037",
+          "H1-S091"
+        ],
+        "key": "psych rehab programme",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S037",
+          "H1-S091"
+        ],
+        "key": "psychiatric rehab programme",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S045",
+          "H1-S061"
+        ],
+        "key": "ren radiotherapy fract",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S084",
+          "H1-S085"
+        ],
+        "key": "rtn transf svc",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "session interm hep dial",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "supp postoperative ortho nutritional",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H1-S062",
+          "H1-S082"
+        ],
+        "key": "vasc diagnostic img",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H1-S008",
+          "H1-S011"
+        ],
+        "key": "visit amb hm",
+        "matcher_state": "TIE"
+      }
+    ]
+  },
+  "H2": {
+    "accepted_total": 410,
+    "reopened": 106,
+    "still_unresolved": 31,
+    "unresolved_detail": [
+      {
+        "candidates": [
+          "H2-S007",
+          "H2-S062"
+        ],
+        "key": "admin ophth anaes",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "amb pall diagnostic img",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "ambulatory ophth ventilation supp",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S072",
+          "H2-S074"
+        ],
+        "key": "analysis card spcm",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S012",
+          "H2-S048"
+        ],
+        "key": "anly derm spcm",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "emer msk prog",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S006",
+          "H2-S029"
+        ],
+        "key": "ent rehab prog",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "foc vasc pharm disp",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S011",
+          "H2-S040"
+        ],
+        "key": "haem biop proc",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "img cont card diag",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "intens metab recov rm occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "interm msk dial session",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S066",
+          "H2-S075"
+        ],
+        "key": "interpretation neuro img",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S013",
+          "H2-S055"
+        ],
+        "key": "msk diag img",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S050",
+          "H2-S051"
+        ],
+        "key": "neuro rehab prog",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S050",
+          "H2-S051"
+        ],
+        "key": "neurological rehab prog",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "onc wd bd occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S007",
+          "H2-S062"
+        ],
+        "key": "ophth anaesthesia admin",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S038",
+          "H2-S053"
+        ],
+        "key": "ophth lab pnl",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S008",
+          "H2-S032"
+        ],
+        "key": "orthopaedic isol rm occ",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S028",
+          "H2-S054"
+        ],
+        "key": "paed inf ther",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S069",
+          "H2-S073"
+        ],
+        "key": "paed theatre tm",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H2-S028",
+          "H2-S054"
+        ],
+        "key": "paediatric inf ther",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "plng beds geriatric disch",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S057",
+          "H2-S070"
+        ],
+        "key": "pulm pharm disp",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "routine hep cs conf",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "spclst hep nutr supp",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "std ent anaes admin",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "std gi telem monit",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H2-S021",
+          "H2-S032"
+        ],
+        "key": "std isol rm occ",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "supv ophth img",
+        "matcher_state": "NO_MATCH"
+      }
+    ]
+  },
+  "H3": {
+    "accepted_total": 486,
+    "reopened": 64,
+    "still_unresolved": 21,
+    "unresolved_detail": [
+      {
+        "candidates": [],
+        "key": "administration inpt hepatic anaes",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H3-S001",
+          "H3-S005"
+        ],
+        "key": "adv telemetry monit",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "amb msk disch planning",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "compr oncology wnd cr",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "conf preop paed",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "cont rheum critical cr occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H3-S067",
+          "H3-S080"
+        ],
+        "key": "derm physiotherapy sess",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "elect gastrointestinal disch plng",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "elect vascular physio sess",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "emer msk inf therapy",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "foc rheum consult",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H3-S057",
+          "H3-S058"
+        ],
+        "key": "inpt thtr tm",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "intens steril svc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "intermittent infect cs conf",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "metab diagnostic img",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "monitoring outpt metabolic telem",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H3-S059",
+          "H3-S099"
+        ],
+        "key": "obst diag img",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H3-S031",
+          "H3-S033"
+        ],
+        "key": "occupancy continuous isol room",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H3-S006",
+          "H3-S078"
+        ],
+        "key": "rheum pharm disp",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H3-S002",
+          "H3-S119"
+        ],
+        "key": "supp adv nutr",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "vst intens infectious home",
+        "matcher_state": "NO_MATCH"
+      }
+    ]
+  },
+  "H4": {
+    "accepted_total": 465,
+    "reopened": 85,
+    "still_unresolved": 23,
+    "unresolved_detail": [
+      {
+        "candidates": [],
+        "key": "admin spclst neuro anaes",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "amb haem endosc proc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H4-S006",
+          "H4-S009"
+        ],
+        "key": "amb wd bed occ",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "asst obstetric transp svc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "beds oncology transf",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H4-S022",
+          "H4-S082"
+        ],
+        "key": "card home vst",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H4-S015",
+          "H4-S083"
+        ],
+        "key": "card vent support",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H4-S035",
+          "H4-S062"
+        ],
+        "key": "cardiac physio sess",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H4-S051",
+          "H4-S070"
+        ],
+        "key": "conf ger cs",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "consult rtn neuro",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H4-S051",
+          "H4-S070"
+        ],
+        "key": "ger case conf",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H4-S038",
+          "H4-S085"
+        ],
+        "key": "hep discharge plng",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "intens neurological diag img",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "lab emer derm",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H4-S031",
+          "H4-S093"
+        ],
+        "key": "obs gi nurs",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H4-S001",
+          "H4-S088"
+        ],
+        "key": "occupancy onc wd bd",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "outpt metabolic pharm disp",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "plng cont otolaryngologic disch",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H4-S014",
+          "H4-S037"
+        ],
+        "key": "rheum rehabilitation programme",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "rtn ortho transf service",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "spclst wnd cr",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "svc ortho sterilisation",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "vst foc neuro",
+        "matcher_state": "NO_MATCH"
+      }
+    ]
+  },
+  "H5": {
+    "accepted_total": 404,
+    "reopened": 56,
+    "still_unresolved": 20,
+    "unresolved_detail": [
+      {
+        "candidates": [],
+        "key": "ambulatory hep endosc proc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "assisted geriatric lab pnl",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "asst psych pharm disp",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "cont gastrointestinal isol rm occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H5-S044",
+          "H5-S073"
+        ],
+        "key": "derm nurs observation",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "disp inpt ren pharm",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "elect infect ward bd occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "emer pall steril svc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "ger recov room occ",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H5-S003",
+          "H5-S048"
+        ],
+        "key": "hep cs conf",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H5-S045",
+          "H5-S061"
+        ],
+        "key": "immunologic recov rm occ",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "interm endo nurs obs",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "interm ren steril svc",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H5-S030",
+          "H5-S080"
+        ],
+        "key": "metabolic disch plng",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H5-S044",
+          "H5-S073"
+        ],
+        "key": "obs derm nursing",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H5-S019",
+          "H5-S082"
+        ],
+        "key": "pall consult",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [
+          "H5-S019",
+          "H5-S082"
+        ],
+        "key": "pall consultation",
+        "matcher_state": "TIE"
+      },
+      {
+        "candidates": [],
+        "key": "postoperative otolaryngologic diag img",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [],
+        "key": "spcm std pulmonary",
+        "matcher_state": "NO_MATCH"
+      },
+      {
+        "candidates": [
+          "H5-S028",
+          "H5-S084"
+        ],
+        "key": "vasc diagnostic img",
+        "matcher_state": "TIE"
+      }
+    ]
+  }
+}
