@@ -121,7 +121,7 @@ class PricingTests(unittest.TestCase):
 
     def test_cross_invoice_daily_context_and_duplicate_allocation_fail_closed(self):
         name='Ambulatory Ophthalmic Case Conference';rows=[line(name,quantity=4),line(name,'I2','L2',quantity=3)]
-        data,maps,ctx=setup([invoice(),invoice('I2')],rows)
+        data,maps,ctx=setup([invoice(total=rows[0].line_total_cents),invoice('I2',total=rows[1].line_total_cents)],rows)
         self.assertEqual(ctx.daily(service(name)['id'],'P1','2024-01-02')['lower'],7)
         self.assertEqual(rate_for(rows[0],data.invoices[0],service(name),CONTRACT,ctx)['rate'],20310)
         r=audit(data,CONTRACT,maps);self.assertEqual(len(r['opinions']),0)
@@ -131,7 +131,13 @@ class PricingTests(unittest.TestCase):
         name='Standard Otolaryngologic Radiotherapy Fraction';row=line(name,quantity=61)
         data,maps,ctx=setup([invoice(),invoice(patient='P2')],[row])
         self.assertEqual(ctx.prior(service(name)['id'],'2024-01-03','L2')['lower'],61)
-        self.assertEqual(len(audit(data,CONTRACT,maps)['opinions']),0)
+        # The reuse itself is the error and is reported, but no line can be
+        # attributed between the two physical records, so no amount is corrected.
+        opinion=audit(data,CONTRACT,maps)['opinions'][0]
+        self.assertEqual((opinion['flagged'],opinion['error_category']),(1,'duplicate_invoice_id'))
+        self.assertEqual(opinion['amount_basis'],'reused_identifier_canonical_billed_total')
+        self.assertEqual(opinion['expected_total_cents'],opinion['billed_total_cents'])
+        self.assertEqual(opinion['amount_unchanged_reason'],'finding_does_not_affect_the_payable_amount')
 
     def test_conflicting_header_trace_order_is_canonical(self):
         headers=[invoice(patient='P2',source_row=100),invoice(source_row=2)]
@@ -158,18 +164,33 @@ class PricingTests(unittest.TestCase):
         data,maps,_=setup([invoice(total=14125),invoice('I2','P2')],[row,unknown])
         self.assertIn('I1',[r['invoice_id'] for r in audit(data,CONTRACT,maps)['opinions']])
 
-    def test_partial_invoice_never_emits_partial_total(self):
+    def test_unresolved_line_without_a_finding_still_withholds(self):
         rows=[line('Advanced Neurological Consultation'),line('Advanced Neurological Consultation',lid='L2',description='unrecognized')]
-        data,maps,_=setup([invoice()],rows);r=audit(data,CONTRACT,maps)
+        total=sum(r.line_total_cents for r in rows)
+        data,maps,_=setup([invoice(total=total)],rows);r=audit(data,CONTRACT,maps)
         self.assertEqual(len(r['opinions']),0);self.assertEqual(len(r['abstentions']),1)
+        self.assertIn('unresolved_service_mapping',{x['reason'] for x in r['abstentions'][0]['reasons']})
         self.assertEqual(len(r['traces'][0]['lines']),2)
 
     def test_header_arithmetic_mismatch(self):
         data,maps,_=setup([invoice(total=14126)],[line('Advanced Neurological Consultation')])
         r=audit(data,CONTRACT,maps)['opinions'][0]
-        self.assertEqual(r['expected_total_cents'],14125);self.assertIn('invoice_arithmetic_mismatch',r['error_category'])
+        self.assertEqual(r['expected_total_cents'],14125);self.assertIn('invoice_total_mismatch',r['error_category'])
 
-    def test_invalid_date_and_nonpositive_quantity_abstain(self):
-        for kw in [dict(day='2026-01-01'),dict(quantity=0),dict(quantity=-1),dict(day='2025-12-30')]:
-            data,maps,_=setup([invoice(invoice_date='2025-12-29')],[line('Advanced Neurological Consultation',**kw)])
+    def test_nonpositive_quantity_abstains(self):
+        for kw in [dict(quantity=0),dict(quantity=-1)]:
+            row=line('Advanced Neurological Consultation',**kw)
+            data,maps,_=setup([invoice(total=row.line_total_cents)],[row])
             self.assertEqual(len(audit(data,CONTRACT,maps)['opinions']),0)
+
+    def test_term_window_and_after_invoice_dates_are_reported_without_pricing(self):
+        for kw,category in [(dict(day='2026-01-01'),'service_date_out_of_window'),
+                            (dict(day='2025-12-30'),'service_date_after_invoice_date')]:
+            with self.subTest(**kw):
+                row=line('Advanced Neurological Consultation',**kw)
+                data,maps,_=setup([invoice(invoice_date='2025-12-29',total=row.line_total_cents)],[row])
+                opinion=audit(data,CONTRACT,maps)['opinions'][0]
+                self.assertEqual(opinion['flagged'],1)
+                self.assertEqual(opinion['error_category'].split(';')[0],category)
+                self.assertEqual(opinion['expected_total_cents'],opinion['billed_total_cents'])
+                self.assertEqual(opinion['amount_unchanged_reason'],'finding_does_not_affect_the_payable_amount')

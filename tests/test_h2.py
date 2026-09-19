@@ -38,14 +38,39 @@ class H2Tests(unittest.TestCase):
         validate_line_facts(l,replace(i,invoice_date='2024-01-01'),s,c,ctx)
         self.assertEqual(c['semantics']['duplicate_policy'],'no_explicit_service_date_prohibition')
 
-    def test_missing_submission_evidence_blocks_even_exact_pricing(self):
+    def test_missing_submission_evidence_is_recorded_and_never_blocks_a_check(self):
+        # Article XIII makes effectiveness turn on a submission date the data
+        # does not record. The condition stays unresolved and is logged; it is
+        # not an error, and it does not suppress any other check.
         c,s,l,i,ctx,data,m=fixture('H2','Comprehensive Otolaryngologic Case Conference')
         data.invoices=[replace(i,invoice_total_cents=16525,discharge_date='2025-01-02',invoice_date='2025-01-03')]
         data.lines=[replace(l,unit_price_cents=16525,line_total_cents=16525)]
         r=audit(data,c,m)
-        self.assertEqual(r['opinions'],[])
-        self.assertEqual(r['abstentions'][0]['reasons'][0]['reason'],'unobserved_submission_deadline_and_waiver')
+        self.assertEqual(r['abstentions'],[])
+        opinion=r['opinions'][0]
+        self.assertEqual((opinion['flagged'],opinion['expected_total_cents']),(0,16525))
+        self.assertIn('unobserved_submission_deadline_and_waiver',opinion['interpretation_qualifications'])
+        eligibility=r['traces'][0]['unobserved_eligibility']
+        self.assertEqual(eligibility['provisional_60_day_deadline'],'2025-03-03')
+        self.assertEqual(eligibility['recorded_discharge_date'],'2025-01-02')
         self.assertEqual(r['traces'][0]['lines'][0]['result']['expected_total_cents'],16525)
+
+    def test_hospital_2_reports_a_service_billed_before_it_was_delivered(self):
+        # H2's own contract never defines invoice_date, but a service cannot be
+        # invoiced before it happens; the check is enabled for every hospital.
+        c,s,l,i,ctx,data,m=fixture('H2','Comprehensive Otolaryngologic Case Conference')
+        data.invoices=[replace(i,invoice_total_cents=16525,invoice_date='2025-01-01')]
+        data.lines=[replace(l,service_date='2025-01-05',unit_price_cents=16525,line_total_cents=16525)]
+        opinion=audit(data,c,m)['opinions'][0]
+        self.assertEqual(opinion['flagged'],1)
+        self.assertIn('service_date_after_invoice_date',opinion['error_category'].split(';'))
+
+    def test_hospital_2_withholds_cross_invoice_repeats_its_contract_never_forbids(self):
+        # H1, H3, H4 and H5 each forbid billing a Service twice for one Patient
+        # and Service Date. H2's agreement contains no such clause, so a repeat
+        # is not evidence of an error there.
+        self.assertEqual(fixture('H2','Comprehensive Otolaryngologic Case Conference')[0]
+                         ['semantics']['duplicate_policy'],'no_explicit_service_date_prohibition')
 
     def test_exclusion_uses_explicit_service_date_in_both_directions(self):
         n='Extended Dermatologic Specimen Analysis';anchor='Advanced Endocrine Case Conference'

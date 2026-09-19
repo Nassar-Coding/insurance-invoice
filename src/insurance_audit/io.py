@@ -36,7 +36,11 @@ def iso_date(value: str, field: str, optional: bool = False) -> str | None:
         return None
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
         raise ValueError(f'{field}: expected YYYY-MM-DD')
-    date.fromisoformat(value)
+    try:
+        date.fromisoformat(value)
+    except ValueError as error:
+        # Name the field so a quarantine reason stays attributable to a column.
+        raise ValueError(f'{field}: {error}') from error
     return value
 
 

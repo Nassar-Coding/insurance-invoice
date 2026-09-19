@@ -24,45 +24,81 @@ def ensure(condition,message):
     if not condition:raise ValueError(message)
 
 
+def canonical(headers):
+    """Latest-dated physical header record; the documented choice for a reused identifier."""
+    return max(headers,key=lambda h:(h.invoice_date,h.source,h.source_row))
+
+
 def validate_result(result,data,policy):
-    """Reconcile every opinion with the original rows and complete line trace."""
+    """Reconcile every opinion with the original rows and its complete line trace.
+
+    A complete audit must price every line. A finding row may leave lines
+    unresolved, so it is reconciled against the physical records instead: every
+    physical line of the invoice contributes exactly once to the emitted amount.
+    """
     verify_accounting(result,data)
-    headers=defaultdict(list);lines=defaultdict(list)
+    headers=defaultdict(list);lines=defaultdict(list);raw_lines=defaultdict(list)
     for header in data.invoices:headers[header.invoice_id].append(header)
     for line in data.lines:lines[line.invoice_id].append(line)
+    for record in data.dispositions:
+        if record['kind']=='line_items':
+            ident=record.get('invoice_id')
+            if isinstance(ident,str) and ident.strip():raw_lines[ident].append(record)
     traces={t['invoice_id']:t for t in result['traces']}
     ensure(len(traces)==len(result['traces']) and set(traces)==data.invoice_identities(),'Trace identity accounting failure')
     quarantined={d.get('invoice_id') for d in data.dispositions if d['status']=='quarantined'}
     unlinked_headers=[d for d in data.quarantined_headers() if not isinstance(d.get('invoice_id'),str) or not d['invoice_id'].strip()]
+    complete=findings=0
     for row in result['opinions']:
         ident=row['invoice_id'];hs=headers[ident];trace=traces[ident]
-        ensure(len(hs)==1,'Conflicting invoice identity cannot be emitted')
-        ensure(ident not in quarantined and not unlinked_headers,'Unresolved required source record cannot be emitted')
+        basis=row.get('decision_basis')
+        ensure(basis in {'complete_audit','finding'},'Unknown decision basis')
+        ensure(hs,'Emitted invoice without an accepted header record')
         ensure(row['hospital']==data.hospital,'Cross-hospital output')
         ensure(type(row['flagged']) is int and row['flagged'] in {0,1},'Invalid flag')
         ensure(isinstance(row['error_category'],str) and bool(row['error_category'])==bool(row['flagged']),'Flag/category mismatch')
         for field in ('expected_total_cents','billed_total_cents'):
             ensure(type(row[field]) is int and abs(row[field])<=10**15,'Unsupported monetary output')
         ensure(row['expected_total_cents']>=0,'Negative corrected amount unsupported')
-        ensure(row['billed_total_cents']==hs[0].invoice_total_cents,'Billed total differs from source')
+        ensure(row['billed_total_cents']==canonical(hs).invoice_total_cents,'Billed total differs from the canonical source record')
         ensure(trace['status']=='supported' and trace['opinion']==row,'Incomplete or mismatched invoice trace')
-        raw={(l.source,l.source_row):l for l in lines[ident]}
-        evidence={(l['source'],l['source_row']):l for l in trace['lines']}
-        ensure(raw and len(evidence)==len(trace['lines']) and set(evidence)==set(raw),'Partial/duplicated line trace')
-        total=0
-        for key,line in raw.items():
-            item=evidence[key]
-            ensure(item['status']=='supported' and item['service_id'] and item['source_refs'],'Unresolved required line')
-            for field in ('line_id','description','quantity'):
-                ensure(item[field]==getattr(line,field),'Line provenance mismatch: '+field)
-            ensure(item['billed_line_total_cents']==line.line_total_cents and item['billed_unit_price_cents']==line.unit_price_cents,'Billed line provenance mismatch')
-            amount=item['result']['expected_total_cents']
-            ensure(type(amount) is int,'Non-integer line correction')
-            total+=amount
-        ensure(total==row['expected_total_cents'],'Expected invoice total does not reconcile to all lines')
+        if basis=='complete_audit':
+            complete+=1
+            ensure(len(hs)==1,'Conflicting invoice identity cannot be completely audited')
+            ensure(ident not in quarantined and not unlinked_headers,'Unresolved required source record cannot be completely audited')
+            raw={(l.source,l.source_row):l for l in lines[ident]}
+            evidence={(l['source'],l['source_row']):l for l in trace['lines']}
+            ensure(raw and len(evidence)==len(trace['lines']) and set(evidence)==set(raw),'Partial/duplicated line trace')
+            total=0
+            for key,line in raw.items():
+                item=evidence[key]
+                ensure(item['status']=='supported' and item['service_id'] and item['source_refs'],'Unresolved required line')
+                for field in ('line_id','description','quantity'):
+                    ensure(item[field]==getattr(line,field),'Line provenance mismatch: '+field)
+                ensure(item['billed_line_total_cents']==line.line_total_cents and item['billed_unit_price_cents']==line.unit_price_cents,'Billed line provenance mismatch')
+                amount=item['result']['expected_total_cents']
+                ensure(type(amount) is int,'Non-integer line correction')
+                total+=amount
+            ensure(total==row['expected_total_cents'],'Expected invoice total does not reconcile to all lines')
+        else:
+            findings+=1
+            ensure(row['flagged']==1 and trace['findings'] and trace['finding_evidence'],'A finding row needs named evidence')
+            ensure(set(trace['findings'])<=set(row['error_category'].split(';')),'Finding absent from the emitted category')
+            physical={(l.source,l.source_row) for l in lines[ident]}|{(r['source'],r['source_row']) for r in raw_lines[ident]}
+            contributions=trace['amount_contributions']
+            if row['amount_basis'] in {'reused_identifier_canonical_billed_total','unrecoverable_line_amount_billed_total'}:
+                ensure(not contributions and row['expected_total_cents']==row['billed_total_cents'],'Unreconciled fallback amount')
+            else:
+                keys=[(c['source'],c['source_row']) for c in contributions]
+                ensure(len(keys)==len(set(keys)) and set(keys)==physical,'Every physical line must contribute exactly once')
+                ensure(all(type(c['contribution_cents']) is int for c in contributions),'Non-integer line contribution')
+                ensure(sum(c['contribution_cents'] for c in contributions)==row['expected_total_cents'],'Emitted amount does not reconcile to the physical lines')
+            if row['expected_total_cents']==row['billed_total_cents']:
+                ensure(row['amount_unchanged_reason'],'An unchanged amount on a flagged row needs a recorded reason')
         value,tier=choose(row,policy)
         ensure(value is not None and row['confidence']==value and row['confidence_tier']==tier,'Confidence differs from frozen policy')
     return {'opinions_checked':len(result['opinions']),'traces_checked':len(traces),
+            'complete_audits':complete,'finding_rows':findings,
             'supported_lines_checked':sum(len(traces[r['invoice_id']]['lines']) for r in result['opinions'])}
 
 

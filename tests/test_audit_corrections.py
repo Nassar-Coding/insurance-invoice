@@ -73,11 +73,15 @@ class HeaderOwnershipRegressions(unittest.TestCase):
         for changes in [{},{'invoice_date':'2024-02-30'}]:
             with self.subTest(changes=changes):
                 data,result,validation=f.run(*f.exclusion_fixture(**changes))
-                self.assertEqual(result['opinions'],[])
-                self.assertEqual(validation,{'opinions_checked':0,'traces_checked':2,'supported_lines_checked':0})
+                self.assertEqual([r['invoice_id'] for r in result['opinions']],['I2'])
+                self.assertEqual(validation['traces_checked'],2)
+                self.assertEqual((validation['complete_audits'],validation['finding_rows']),(0,1))
                 traces={t['invoice_id']:t for t in result['traces']}
                 self.assertEqual(traces['I1']['reasons'][0]['reason'],'unresolved_exclusion')
-                self.assertEqual(traces['I2']['status'],'abstained')
+                # I2's identifier is on two physical records: that reuse is itself
+                # the error and is reported although its exclusion state is unknown.
+                self.assertEqual(traces['I2']['status'],'supported')
+                self.assertIn('duplicate_invoice_id',traces['I2']['findings'])
                 if changes:
                     detail=traces['I1']['reasons'][0]['detail']
                     self.assertEqual((detail['certain_records'],detail['possible_records']),(0,1))
@@ -94,7 +98,7 @@ class HeaderOwnershipRegressions(unittest.TestCase):
                         {'discharge_date':'2024-02-30'}]:
             with self.subTest(changes=changes):
                 _,result,_=f.run(*f.exclusion_fixture(**changes),reverse_columns=True)
-                self.assertEqual(result['opinions'],[])
+                self.assertEqual([r['invoice_id'] for r in result['abstentions']],['I1'])
                 self.assertEqual(result['abstentions'][0]['reasons'][0]['reason'],'unresolved_exclusion')
 
     def test_missing_patient_is_unbounded_not_a_false_singleton(self):
@@ -106,7 +110,7 @@ class HeaderOwnershipRegressions(unittest.TestCase):
             self.assertIsNone(present)
             self.assertEqual(detail['header_ownership_evidence'][0]['candidate_patients'],['P2'])
             self.assertTrue(detail['header_ownership_evidence'][0]['unbounded_patient_identity'])
-        self.assertEqual(result['opinions'],[])
+        self.assertEqual([r['invoice_id'] for r in result['abstentions']],['I1'])
 
     def test_only_quarantined_header_retains_identity_and_own_omission(self):
         f=Snapshot();headers,lines=f.exclusion_fixture(invoice_date='2024-02-30')
@@ -129,14 +133,17 @@ class HeaderOwnershipRegressions(unittest.TestCase):
         state,detail=ctx.presence('H1-S100','P1','2024-01-02')
         self.assertIs(state,True)
         self.assertEqual(detail['header_ownership_evidence'][0]['candidate_patients'],['P1'])
-        self.assertEqual(result['opinions'][0]['expected_total_cents'],0)
-        self.assertEqual(result['abstentions'][0]['invoice_id'],'I2')
+        opinions={r['invoice_id']:r for r in result['opinions']}
+        self.assertEqual(opinions['I1']['expected_total_cents'],0)
+        self.assertIn('duplicate_invoice_id',opinions['I2']['error_category'].split(';'))
+        self.assertEqual(result['abstentions'],[])
 
     def test_unrelated_recoverable_patients_do_not_block_other_invoice(self):
         f=Snapshot();headers,lines=f.exclusion_fixture(invoice_date='2024-02-30',patient_id='P3')
         headers[1]['patient_id']='P2'
         _,result,_=f.run(headers,lines)
-        self.assertEqual([(r['invoice_id'],r['flagged']) for r in result['opinions']],[('I1',0)])
+        self.assertEqual([(r['invoice_id'],r['flagged']) for r in result['opinions']],[('I1',0),('I2',1)])
+        self.assertEqual(result['abstentions'],[])
 
     def test_daily_premium_and_duplicate_context_remain_possible(self):
         f=Snapshot();sid=next(s['id'] for s in f.services.values() if s['name']=='Ambulatory Ophthalmic Case Conference')
@@ -147,7 +154,8 @@ class HeaderOwnershipRegressions(unittest.TestCase):
         self.assertEqual((daily['lower'],daily['upper']),(4,7))
         other=ctx.competitors(sid,'P1','2024-01-02','L1')
         self.assertEqual((other['certain_records'],other['possible_records']),(0,1))
-        self.assertEqual(result['abstentions'][0]['reasons'][0]['reason'],'possible_duplicate_service_day')
+        trace={t['invoice_id']:t for t in result['traces']}['I1']
+        self.assertEqual([r['reason'] for r in trace['unresolved_facts']],['possible_duplicate_service_day'])
         with self.assertRaisesRegex(Uncertain,'multiple_supported_rate_outcomes'):
             rate_for(data.lines[0],data.invoices[0],f.services[sid],f.contract,ctx)
 
@@ -169,7 +177,7 @@ class HeaderOwnershipRegressions(unittest.TestCase):
     def test_unrecoverable_invoice_identity_is_explicitly_fail_closed(self):
         f=Snapshot();headers,lines=f.exclusion_fixture(invoice_id='',invoice_date='2024-02-30')
         data,result,_=f.run(headers,lines)
-        self.assertEqual(result['opinions'],[])
+        self.assertEqual([r['invoice_id'] for r in result['opinions']],[])
         self.assertEqual(len(data.quarantined_headers()),1)
         self.assertTrue(all('unlinked_quarantined_invoice_header' in {r['reason'] for r in a['reasons']} for a in result['abstentions']))
 
@@ -212,8 +220,9 @@ class BundleTraceRegressions(unittest.TestCase):
         f=Snapshot();headers=[f.header('I1','P1'),f.header('I2','P1'),f.header('I2','P2',invoice_date='2024-02-30')]
         lines=[f.line('I1','L1','H1-S001'),f.line('I2','L2','H1-S083')]
         data,result,_=f.run(headers,lines)
-        self.assertEqual(result['opinions'],[])
-        reason=result['abstentions'][0]['reasons'][0]
+        # I1's header total does not match its own line, so it is reported; the
+        # bundle's unresolved rate stays recorded on the trace either way.
+        reason={t['invoice_id']:t for t in result['traces']}['I1']['unresolved_facts'][0]
         self.assertEqual(reason['reason'],'multiple_supported_rate_outcomes')
         stage=reason['detail']['stages'][0];rule=stage['rules'][0]
         self.assertIsNone(rule['presence'])
