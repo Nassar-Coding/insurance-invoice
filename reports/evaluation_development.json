@@ -12115,7 +12115,7 @@
   "population": 622,
   "provenance": {
     "abstention_policy": "Not treated as correct negatives. Included as missed positives in all-population recall; excluded from conditional accuracy.",
-    "attempt": "ddf7ad918a7347d3b6e2d2d78e98ae32",
+    "attempt": "aaf16ac69d824168aad3baa50d7fc6a7",
     "category_policy": "Families use the explicit many-to-one crosswalk in evaluation.py; original-label table reports detection, not invented category-specific precision.",
     "confidence_scope": "H1 is development data; target transfer accuracy is not established.",
     "group": "development",

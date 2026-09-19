@@ -1,0 +1,70 @@
+{
+  "all_five_hospital_outputs_and_input_quality_match_audited_baseline": true,
+  "baseline_commit": "b3291da61658a8781f351622c249ab42da98659a",
+  "check_evaluation_performed": false,
+  "decoy_proxies": {
+    "reason": "The frozen proxy set is Gate 2.6; Gate 0 does not claim a measured zero.",
+    "status": "not_yet_defined"
+  },
+  "development": {
+    "clean": 580,
+    "cost": 190,
+    "emitted": 169,
+    "erroneous": 42,
+    "fn": 38,
+    "fp": 0,
+    "population": 622,
+    "tp": 4
+  },
+  "hospitals": {
+    "H1": {
+      "flag_rate_all_invoices": 0.00547645125958379,
+      "flags": 5,
+      "rows": 250,
+      "unique_invoices": 913,
+      "withheld": 663
+    },
+    "H2": {
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "rows": 0,
+      "unique_invoices": 1125,
+      "withheld": 1125
+    },
+    "H3": {
+      "flag_rate_all_invoices": 0.00536480686695279,
+      "flags": 5,
+      "rows": 148,
+      "unique_invoices": 932,
+      "withheld": 784
+    },
+    "H4": {
+      "flag_rate_all_invoices": 0.0011976047904191617,
+      "flags": 1,
+      "rows": 64,
+      "unique_invoices": 835,
+      "withheld": 771
+    },
+    "H5": {
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "rows": 128,
+      "unique_invoices": 1050,
+      "withheld": 922
+    }
+  },
+  "matched_output_sha256": {
+    "H1.input_quality.json": "e7c71c36fc176f26eaf085784c0fb81c3c577c1340408b1eb6a1cf28e86d8089",
+    "H1.json": "3c01ab7f295ee6bfc73c362b60e90509d8f39d8fc0366b33a2bcd811f872aa02",
+    "H2.input_quality.json": "dad10e065731f4ff2d23c485d9372258bda296cf47a7462ba36c9b6e35ff750f",
+    "H2.json": "0fdf96982a5a7fb57287704abd393a3e24e78b4569fd97b2efed09e5b2105ac1",
+    "H3.input_quality.json": "3dfec13042e52bfb2d8783be15175c5ba1ed2c03b128b2c17945dcec913f8c37",
+    "H3.json": "0d05535d8f7369d717861956802f330250f4365208b2e9b2fee730da6aae6484",
+    "H4.input_quality.json": "b08620c904706262f9499371ee7234b0a7c48fb56117768de3c950157dc431ca",
+    "H4.json": "c084a1a8dfa7d74979deb76f101d4314a9a248ffaaab7c8997c26c08248fa36e",
+    "H5.input_quality.json": "14c015714d530162ffd5445953fc05aa4d31d662758dec9cae599d9403ccfca8",
+    "H5.json": "7d5759d59fc0557838118edc7e5d93df6bbcd88f68749ba9cfa71263cf95d119"
+  },
+  "protected_source_contract_mapping_pricing_and_confidence_files_changed": [],
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"
+}

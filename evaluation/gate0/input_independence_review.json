@@ -1,0 +1,1996 @@
+{
+  "files_scanned": 81,
+  "findings": {
+    "assert_len": [
+      {
+        "line": 35,
+        "path": "tools/acquire_targets.py"
+      },
+      {
+        "line": 40,
+        "path": "tools/acquire_targets.py"
+      },
+      {
+        "line": 19,
+        "path": "tools/inspect_bundle_traces.py"
+      },
+      {
+        "line": 29,
+        "path": "tools/inspect_bundle_traces.py"
+      },
+      {
+        "line": 67,
+        "path": "tools/verify_gate0.py"
+      }
+    ],
+    "fingerprint_reference": [
+      {
+        "line": 15,
+        "path": "src/insurance_audit/batch.py"
+      },
+      {
+        "line": 19,
+        "path": "src/insurance_audit/batch.py"
+      },
+      {
+        "line": 25,
+        "path": "src/insurance_audit/batch.py"
+      },
+      {
+        "line": 55,
+        "path": "src/insurance_audit/batch.py"
+      },
+      {
+        "line": 46,
+        "path": "src/insurance_audit/inventory.py"
+      },
+      {
+        "line": 82,
+        "path": "src/insurance_audit/io.py"
+      },
+      {
+        "line": 52,
+        "path": "src/insurance_audit/schema.py"
+      },
+      {
+        "line": 61,
+        "path": "src/insurance_audit/schema.py"
+      },
+      {
+        "line": 62,
+        "path": "src/insurance_audit/schema.py"
+      },
+      {
+        "line": 170,
+        "path": "src/insurance_audit/schema.py"
+      },
+      {
+        "line": 175,
+        "path": "src/insurance_audit/schema.py"
+      },
+      {
+        "line": 14,
+        "path": "src/insurance_audit/submission.py"
+      },
+      {
+        "line": 109,
+        "path": "src/insurance_audit/submission.py"
+      },
+      {
+        "line": 18,
+        "path": "tools/accept_bundle.py"
+      },
+      {
+        "line": 26,
+        "path": "tools/accept_bundle.py"
+      },
+      {
+        "line": 66,
+        "path": "tools/acquire_h1.py"
+      },
+      {
+        "line": 107,
+        "path": "tools/acquire_h1.py"
+      },
+      {
+        "line": 46,
+        "path": "tools/acquire_h2.py"
+      },
+      {
+        "line": 73,
+        "path": "tools/acquire_h2.py"
+      },
+      {
+        "line": 109,
+        "path": "tools/acquire_targets.py"
+      },
+      {
+        "line": 143,
+        "path": "tools/acquire_targets.py"
+      },
+      {
+        "line": 41,
+        "path": "tools/record_target_reviews.py"
+      },
+      {
+        "line": 10,
+        "path": "tools/verify_current_evidence.py"
+      },
+      {
+        "line": 37,
+        "path": "tools/verify_current_evidence.py"
+      },
+      {
+        "line": 55,
+        "path": "tools/verify_current_evidence.py"
+      },
+      {
+        "line": 61,
+        "path": "tools/verify_current_evidence.py"
+      },
+      {
+        "line": 19,
+        "path": "mappings/archive/H1.bundle.v1.json"
+      },
+      {
+        "line": 131,
+        "path": "mappings/archive/H1.source_review.v1.json"
+      }
+    ],
+    "invoice_literal": [
+      {
+        "line": 73,
+        "path": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 73,
+        "path": "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 131,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 142,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 153,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 164,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 175,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 186,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 197,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 208,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 219,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 230,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 241,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 252,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 263,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 274,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 285,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 296,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 307,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 318,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 329,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 340,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 351,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 362,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 373,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 384,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 395,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 406,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 417,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 428,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 439,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 450,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 461,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 472,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 483,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 494,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 505,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 516,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 527,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 538,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 549,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 560,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 571,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 582,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 593,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 604,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 615,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 626,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 637,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 648,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 659,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 670,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 681,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 692,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 703,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 714,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 725,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 736,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 747,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 758,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 769,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 780,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 791,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 802,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 813,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 824,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 835,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 846,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 857,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 868,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 879,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 890,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 901,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 912,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 923,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 934,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 945,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 956,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 967,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 978,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 989,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1000,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1011,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1022,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1033,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1044,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1055,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1066,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1077,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1088,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1099,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1110,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1121,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1132,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1143,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1154,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1165,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1176,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1187,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1198,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1209,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1220,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1231,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1242,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1253,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1264,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1275,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1286,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1297,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1308,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1319,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1330,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1341,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1352,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1363,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1374,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1385,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1396,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1407,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1418,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1429,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1440,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1451,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1462,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1473,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1484,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1495,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1506,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1517,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1528,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1539,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1550,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1561,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1572,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1583,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1594,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1605,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1616,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1627,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1638,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1649,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1660,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1671,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1682,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1693,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1704,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1715,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1726,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1737,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1748,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1759,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1770,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1781,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1792,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1803,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1814,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1825,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1836,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1847,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1858,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1869,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1880,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1891,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1902,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1913,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1924,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1935,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1946,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1957,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1968,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1979,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 1990,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2001,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2012,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2023,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2034,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2045,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2056,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2067,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2078,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2089,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2100,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2111,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2122,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2133,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2144,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2155,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2166,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2177,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2188,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2199,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2210,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2221,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2232,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2243,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2254,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2265,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2276,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2287,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2298,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2309,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2320,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2331,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2342,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2353,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2364,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2375,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2386,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2397,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2408,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2419,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2430,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2441,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2452,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2463,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2474,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2485,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2496,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2507,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2518,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2529,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2540,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2551,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2562,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2573,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2584,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2595,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2606,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2617,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2628,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2639,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2650,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2661,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2672,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2683,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2694,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2705,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2716,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2727,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2738,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2749,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2760,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2771,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2782,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2793,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2804,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2815,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2826,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2837,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2848,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2859,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2870,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2881,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2892,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2903,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2914,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2925,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2936,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2947,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2958,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2969,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2980,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 2991,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3002,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3013,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3024,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3035,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3046,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3057,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3068,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3079,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3090,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3101,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3112,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3123,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3134,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3145,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3156,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3167,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3178,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3189,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3200,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3211,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3222,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3233,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3244,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3255,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3266,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3277,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3288,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3299,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3310,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3321,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3332,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3343,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3354,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3365,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3376,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3387,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3398,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3409,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3420,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3431,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3442,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3453,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3464,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3475,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3486,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3497,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3508,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3519,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3530,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3541,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3552,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3563,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3574,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3585,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3596,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3607,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3618,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3629,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3640,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3651,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3662,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3673,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3684,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3695,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3706,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3717,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3728,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3739,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3750,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3761,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3772,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3783,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3794,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3805,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3816,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3827,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3838,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3849,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3860,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3871,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3882,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3893,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3904,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3915,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3926,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3937,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3948,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3959,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3970,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3981,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3992,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 193,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 194,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 195,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 196,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 213,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 230,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 231,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 232,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 233,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 234,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 251,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 259,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 267,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 275,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 283,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 291,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 19,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 20,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 21,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 22,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 39,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 56,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 57,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 58,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 59,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 60,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 77,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 85,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 93,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 101,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 109,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 117,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 98,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 173,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 174,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 175,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 176,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 177,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 178,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      }
+    ],
+    "listed_record_count": [
+      {
+        "line": 121,
+        "path": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 122,
+        "path": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 123,
+        "path": "governance/audits/independent_closure/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 121,
+        "path": "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 122,
+        "path": "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 123,
+        "path": "governance/audits/independent_closure/package/Insurance_Auditing_Independent_Closure_Reaudit.md"
+      },
+      {
+        "line": 49,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 4033,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.json"
+      },
+      {
+        "line": 3,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_closure_checks.log"
+      },
+      {
+        "line": 5,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 7,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 16,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 17,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 41,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 43,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 46,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 48,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 49,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 73,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 75,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 83,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 84,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 108,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 110,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 118,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 119,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 143,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 145,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 152,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 153,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 180,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 200,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 217,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 221,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.json"
+      },
+      {
+        "line": 6,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 26,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 43,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 47,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 148,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 150,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 159,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 160,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 163,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 165,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 168,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 170,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 171,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 174,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 176,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 184,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 185,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 188,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 190,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 198,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 199,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 202,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 204,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 211,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 212,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/independent_output_checks.log"
+      },
+      {
+        "line": 82,
+        "path": "governance/audits/independent_closure/package/closure_reaudit/execution/working_tests.log"
+      },
+      {
+        "line": 213,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 214,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 215,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 217,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 228,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 254,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      },
+      {
+        "line": 255,
+        "path": "governance/audits/independent_implementation_1/Insurance_Auditing_Independent_Implementation_Audit.md"
+      }
+    ]
+  },
+  "resolution": {
+    "assert_len": "Remaining assertions concern single-source clause parsing, trace consistency and two-interpreter test setup, not fixed invoice/population counts.",
+    "counts_in_artifacts": "Static summaries and mapping service values are evidence or contract content, not runtime dataset cardinality locks.",
+    "evaluation_lists": "Preserved partition manifest and calibration evidence moved to tests/evaluation; no prediction dependency.",
+    "historical_audits": "Invoice references in governance audits retained as history; fresh replay succeeds with governance removed.",
+    "historical_verifiers": "tools/check_clean_reproduction.py and tools/verify_current_evidence.py preserve prior snapshot/check-partition verification, are explicitly historical and were not executed. Current Gate 0 verification is tools/verify_gate0.py.",
+    "invoice_specific_tools": "Historical mapping-review and correction verifier moved to tests/historical_tools.",
+    "offline_acquisition": "tools/accept_bundle.py checks review-to-artifact provenance during explicit author acceptance, not current-input prediction. It is not invoked by replay or generalization.",
+    "prediction_runtime": "No invoice-ID literals or listed dataset-count gates. Hashes are recorded, not compared to require input identity. Semantic validation and dynamic accounting remain."
+  },
+  "scope": "Requested directory scan. Only path/line metadata retained; no labels or held-out evaluation opened. Runtime-generated runs are outputs, excluded except runs/README.md."
+}
