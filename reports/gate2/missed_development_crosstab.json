@@ -1,0 +1,165 @@
+{
+  "any_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "mapping",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 6,
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 2,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 8,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 4,
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    }
+  ],
+  "details": [
+    {
+      "invoice_id": "INV-H1-000004",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000049",
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000132",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000151",
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "invoice_id": "INV-H1-000236",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000271",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000304",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000348",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000369",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000410",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000458",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000619",
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000646",
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "invoice_id": "INV-H1-000657",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000667",
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "invoice_id": "INV-H1-000847",
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    }
+  ],
+  "exclusive_total": 16,
+  "missed": 16,
+  "primary_reason_crosstab": [
+    {
+      "count": 5,
+      "primary_family": "mapping",
+      "withheld_reason": "possible_duplicate_service_day"
+    },
+    {
+      "count": 1,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 3,
+      "primary_family": "mapping",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 4,
+      "primary_family": "pricing",
+      "withheld_reason": "unresolved_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_service_mapping"
+    }
+  ]
+}

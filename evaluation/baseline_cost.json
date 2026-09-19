@@ -1,7 +1,7 @@
 {
   "access_boundary": "Full/check baseline explicitly authorized in Gate 1. Do not read or report check again until Final Gate.",
-  "decoy_proxy_flags": null,
-  "decoy_proxy_status": "Not defined until Gate 2.6; zero clean-development FP is not a decoy measurement.",
+  "decoy_proxy_flags": 0,
+  "decoy_proxy_status": "Frozen at Gate 2.6 from clean development invoices; zero flags required and observed.",
   "entries": [
     {
       "clean_development_fp": 0,
@@ -20,6 +20,39 @@
         "H4": 64,
         "H5": 128
       }
+    },
+    {
+      "clean_development_fp": 0,
+      "decoy_proxy_flags": 0,
+      "decoy_proxy_members": 184,
+      "development_amount_exact_match_rate": 0.8461538461538461,
+      "development_cost": 80,
+      "development_fn": 16,
+      "development_tp": 26,
+      "gate": "gate2",
+      "generalization_result_source": "not_rerun_deferred_to_final_gate_by_instruction",
+      "structural_and_term_window_primary_detected": 25,
+      "structural_and_term_window_primary_support": 25,
+      "submission_rows": 512,
+      "submission_sha256": "ed65b5f7c6407a733111802f3d4d3f4ce1c80182e3fb113bb5afbbb83773d140",
+      "target_flag_rates": {
+        "H2": 0.03911111111111111,
+        "H3": 0.04935622317596566,
+        "H4": 0.045508982035928146,
+        "H5": 0.040952380952380955
+      },
+      "target_flags": {
+        "H2": 44,
+        "H3": 46,
+        "H4": 38,
+        "H5": 43
+      },
+      "target_rows": {
+        "H2": 51,
+        "H3": 189,
+        "H4": 101,
+        "H5": 171
+      }
     }
   ],
   "evidence": {
@@ -29,9 +62,16 @@
     "reports/gate1/hospital_distributions.json": "308e22b79b16f541c172c29e2c53421373f7948437bcf3b1e4d5fc2226c41de0",
     "reports/gate1/missed_development_crosstab.json": "c408afd91d1d818fed234101b798ec99d5f3684cd1392b0de70b4b6c36fc8e1a",
     "reports/gate1/trace_summary.json": "0f0a0478949ca4943732feb9a02f7f8a5924c0bab4da197ed71a6d68006dd58e",
-    "reports/gate1/withheld_reasons.json": "3818efd97a578c7e89c2c0498aa583e7196927c4575ecbfe65388d40e070a486"
+    "reports/gate1/withheld_reasons.json": "3818efd97a578c7e89c2c0498aa583e7196927c4575ecbfe65388d40e070a486",
+    "reports/gate2/cost_development.json": "5ca7514e4cd5f8da065a97f0917528a04e9faee5874e8f657eada6c5713d9332",
+    "reports/gate2/decision_trace.jsonl.gz": "9224949119388c8d6027d0891629a58d91d47e48c7adc61b9acf863e1b5e9ee1",
+    "reports/gate2/hospital_distributions.json": "270c9c8f647f817cff752007d850803e46f7890113d6160cb10e136f54d734e4",
+    "reports/gate2/missed_development_crosstab.json": "e9a3826ba5e62cecb6855f3e788c1a265118f13e757fb787d6c729d193e1f489",
+    "reports/gate2/trace_summary.json": "626d7171b0e38c60043f509122c1ef88668c1036f19e04896cbb05e8f948cc76",
+    "reports/gate2/withheld_reasons.json": "42d5db47c48c37529f6f8666da0b20050edd82888eb59a46334cdfb4ebb8293b",
+    "tests/evaluation/decoy_proxies.json": "6d07e99ff3ebc476e88f06ac6ab703b4edeb7a29070b5b9d33ca04a2b5782d70"
   },
-  "gate": "gate1",
+  "gate": "gate2",
   "generalization_baseline": {
     "erroneous": 42,
     "gate1_scope": "Record baseline only; the <=10% relative loss criterion begins at Gate 3.",
@@ -995,8 +1035,8 @@
     "scored_h2_h5": 0.07229832572298325
   },
   "schema_version": 1,
-  "submission_rows": 340,
-  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "submission_rows": 512,
+  "submission_sha256": "ed65b5f7c6407a733111802f3d4d3f4ce1c80182e3fb113bb5afbbb83773d140",
   "verification_boundaries": {
     "a3": "waived by user; Gate 0 closed",
     "clean_checkout_run": false,

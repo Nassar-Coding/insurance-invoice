@@ -38,10 +38,13 @@ def observe(result, data, index):
         ident = original['invoice_id']; opinion = opinions.get(ident)
         decision = ('flag' if opinion['flagged'] else 'clean') if opinion else 'withhold'
         reasons = original.get('reasons', [])
+        # A reported invoice can still carry unresolved facts; they are recorded
+        # separately from the reasons that withheld an invoice outright.
+        unresolved = original.get('unresolved_facts', []) if opinion else reasons
         if decision == 'withhold' and not reasons:
             raise ValueError('Withheld invoice lacks a named reason')
         facts = [{'reason':r['reason'], 'line_ids':[r['line_id']] if r.get('line_id') else [],
-                  'scope':'line' if r.get('line_id') else 'invoice', 'detail':r.get('detail')} for r in reasons]
+                  'scope':'line' if r.get('line_id') else 'invoice', 'detail':r.get('detail')} for r in unresolved]
         actual = {(r['source'],r['source_row']):r for r in original.get('lines', [])}
         lines = []
         for raw in raw_lines[ident]:
@@ -55,7 +58,8 @@ def observe(result, data, index):
             if raw['status'] == 'quarantined':
                 facts.append({'reason':'quarantined_source_line','line_ids':[raw['line_id']],
                               'scope':'line','detail':raw['reason'],'source_row':raw['source_row']})
-        checks = set(original.get('definite_error_categories', []))
+        findings = original.get('findings', [])
+        checks = set(original.get('definite_error_categories', [])) | set(findings)
         if opinion: checks.update(filter(None,opinion['error_category'].split(';')))
         for line in lines: checks.update(line['checks_fired'])
         supported = sum(r['execution_status']=='supported' for r in lines)
@@ -63,7 +67,10 @@ def observe(result, data, index):
             'checks_fired':sorted(checks), 'unresolved_facts':facts, 'lines':lines,
             'withheld_reasons':[r['reason'] for r in reasons],
             'primary_withheld_reason':reasons[0]['reason'] if reasons else None,
-            'amount_status':'full' if opinion else ('partial' if supported else 'none'),
+            'findings':findings, 'decision_basis':opinion.get('decision_basis') if opinion else None,
+            'amount_basis':opinion.get('amount_basis') if opinion else None,
+            'amount_status':('full' if opinion['amount_basis'] in {'full_correction'} else 'partial') if opinion
+                            else ('partial' if supported else 'none'),
             'supported_line_count':supported, 'physical_line_count':len(lines),
             'confidence':opinion['confidence'] if opinion else None}
 
@@ -131,10 +138,13 @@ def write_trace(project, path, labels_path, families_path):
         'amount_scope':'Partial means diagnostic supported-line pricing, never a partial emitted correction. Full means an emitted total.',
         'histogram_scope':'Primary reason is the first runtime reason, exclusive; any-reason incidence counts distinct invoices and overlaps.',
         'orphans':'Lines without a recoverable header identity remain in original input-quality accounting.'}
+    # Measurement must not touch the submission; the Gate 0 comparison is
+    # reported rather than enforced, because Gate 2 changes predictions by design.
     expected=json.loads((project/'evaluation/gate0/development_and_preservation.json').read_text())['matched_output_sha256']
-    if hashes!=expected or sha(project/'submission.csv')!=before:
-        raise ValueError('Gate 1 prediction invariant failed')
-    summary['all_ten_runtime_outputs_identical_to_gate0']=True
+    if sha(project/'submission.csv')!=before:
+        raise ValueError('Measurement changed the challenge submission')
+    summary['runtime_outputs_identical_to_gate0']=hashes==expected
+    summary['runtime_outputs_changed_since_gate0']=sorted(k for k,v in hashes.items() if expected.get(k)!=v)
     save(out/'trace_summary.json',summary)
     return {'rows':len(traces),'path':str(path.relative_to(project)) if path.is_relative_to(project) else str(path),
             'sha256':sha(path),'every_withheld_has_named_reason':summary['every_withheld_invoice_has_named_reason']}

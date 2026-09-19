@@ -35,6 +35,7 @@
     "tests/test_confidence.py": "b80e97deff2205fb171693e2a4672a7794a324f006b78d4d32569003d952f675",
     "tests/test_cost_scorer.py": "2aef43fe9a4c083da80b572e1c57d71ab410366c212d4118ce7ad14971782184",
     "tests/test_decision_trace.py": "f731a7702ebd1417ba8f7bff3bd1c705c66d3aa62e3374a645431ef3bde4813f",
+    "tests/test_decoy_proxies.py": "9a0db5b94f5511a6bae499ce0382c3731ad3925ddc71f4ed1620bd73f6c538bb",
     "tests/test_evaluation.py": "d79733cae90c52f63e23701aba47bb5bc9ce0267e8272d3597f64d8393426c9e",
     "tests/test_findings.py": "44506fb5b6fd74373010ace2ad2db44958c9b8113854ef049b5ef0691927d07d",
     "tests/test_gate0.py": "3b9326a7d4c7d3e3cfbac8b011a463b239db3e5ca0398b014a3431a4507f2402",

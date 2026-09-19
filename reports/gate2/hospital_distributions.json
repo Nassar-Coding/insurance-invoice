@@ -1,0 +1,198 @@
+{
+  "H1": {
+    "category_mix": {
+      "contract_number_mismatch": 5,
+      "cross_invoice_duplicate": 4,
+      "daily_quantity_cap": 1,
+      "duplicate_invoice_id": 5,
+      "effective_rate_mismatch": 9,
+      "invoice_amount_mismatch": 2,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 14,
+      "line_arithmetic_mismatch": 4,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 6,
+      "service_date_after_invoice_date": 7,
+      "service_date_out_of_window": 5,
+      "unit_basis_mismatch": 6
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      36,
+      245
+    ],
+    "flag_rate_all_invoices": 0.03943044906900329,
+    "flags": 36,
+    "investigate_below_3_percent": false,
+    "rows": 281,
+    "unique_invoices": 913,
+    "warning": "below_4_percent",
+    "withheld": 632
+  },
+  "H2": {
+    "category_mix": {
+      "contract_number_mismatch": 7,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 5,
+      "invoice_total_mismatch": 8,
+      "line_amount_mismatch": 8,
+      "line_arithmetic_mismatch": 4,
+      "line_total_arithmetic": 7,
+      "malformed_service_date": 8,
+      "service_date_after_invoice_date": 9,
+      "service_date_out_of_window": 7,
+      "unit_basis_mismatch": 5
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      51,
+      0
+    ],
+    "flag_rate_all_invoices": 0.03911111111111111,
+    "flags": 44,
+    "investigate_below_3_percent": false,
+    "rows": 51,
+    "unique_invoices": 1125,
+    "warning": "below_4_percent",
+    "withheld": 1074
+  },
+  "H3": {
+    "category_mix": {
+      "contract_number_mismatch": 6,
+      "cross_invoice_duplicate": 4,
+      "daily_quantity_cap": 2,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 14,
+      "invoice_amount_mismatch": 5,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 18,
+      "line_arithmetic_mismatch": 5,
+      "line_total_arithmetic": 7,
+      "malformed_service_date": 7,
+      "service_date_after_invoice_date": 10,
+      "service_date_out_of_window": 7,
+      "unit_basis_mismatch": 6
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      30,
+      159
+    ],
+    "flag_rate_all_invoices": 0.04935622317596566,
+    "flags": 46,
+    "investigate_below_3_percent": false,
+    "rows": 189,
+    "unique_invoices": 932,
+    "warning": null,
+    "withheld": 743
+  },
+  "H4": {
+    "category_mix": {
+      "contract_number_mismatch": 6,
+      "cross_invoice_duplicate": 3,
+      "daily_quantity_cap": 4,
+      "duplicate_invoice_id": 5,
+      "effective_rate_mismatch": 6,
+      "invoice_amount_mismatch": 1,
+      "invoice_total_mismatch": 6,
+      "line_amount_mismatch": 15,
+      "line_arithmetic_mismatch": 6,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 6,
+      "service_date_after_invoice_date": 8,
+      "service_date_out_of_window": 5,
+      "unit_basis_mismatch": 3
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      19,
+      82
+    ],
+    "flag_rate_all_invoices": 0.045508982035928146,
+    "flags": 38,
+    "investigate_below_3_percent": false,
+    "rows": 101,
+    "unique_invoices": 835,
+    "warning": null,
+    "withheld": 734
+  },
+  "H5": {
+    "category_mix": {
+      "contract_number_mismatch": 8,
+      "cross_invoice_duplicate": 3,
+      "daily_quantity_cap": 2,
+      "duplicate_invoice_id": 7,
+      "effective_rate_mismatch": 11,
+      "invoice_total_mismatch": 7,
+      "line_amount_mismatch": 18,
+      "line_arithmetic_mismatch": 5,
+      "line_total_arithmetic": 6,
+      "malformed_service_date": 8,
+      "service_date_after_invoice_date": 11,
+      "service_date_out_of_window": 8,
+      "unit_basis_mismatch": 5
+    },
+    "confidence_bin_bounds": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "confidence_histogram": [
+      0,
+      0,
+      0,
+      163,
+      8
+    ],
+    "flag_rate_all_invoices": 0.040952380952380955,
+    "flags": 43,
+    "investigate_below_3_percent": false,
+    "rows": 171,
+    "unique_invoices": 1050,
+    "warning": null,
+    "withheld": 879
+  }
+}
