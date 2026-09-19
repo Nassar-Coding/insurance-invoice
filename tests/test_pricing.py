@@ -70,7 +70,7 @@ class PricingTests(unittest.TestCase):
         row=line(name,quantity=2,unit_basis_as_billed='per_hour');data,maps,_=setup([invoice(total=28250)],[row])
         result=audit(data,CONTRACT,maps)['opinions'][0]
         self.assertEqual((result['flagged'],result['expected_total_cents']),(1,28250))
-        self.assertEqual(result['error_category'],'unit_basis_mismatch')
+        self.assertEqual(result['error_category'],'wrong_unit_basis')
 
     def test_single_line_cap(self):
         name='Advanced Rheumatologic Laboratory Panel';row=line(name,quantity=5)

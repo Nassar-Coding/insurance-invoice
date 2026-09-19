@@ -14,11 +14,11 @@
     "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
     "src/insurance_audit/audit.py": "b1c41a9f6600e2b1c3f00a6d627e1f595274ef0907da7694aef47788ccbc03f7",
     "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-    "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+    "src/insurance_audit/checks.py": "8144a2b3dd4e9550385c080c32f714690880413d37a40c644901a12f15343927",
     "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
     "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
     "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
-    "src/insurance_audit/findings.py": "0293ccb6789d7e706f8b9821deea379128c8894a6e30a3e566deca2c97b5e2a1",
+    "src/insurance_audit/findings.py": "f3ba468c1df82bb6b1cdf7575d7be82fcc0537eeeab791f34586830f92c0e4b3",
     "src/insurance_audit/inventory.py": "b5666b02ec96fb974a4d5f818304db1c9d5f0f6d107ac8c3b0b8dd9615bd504a",
     "src/insurance_audit/io.py": "de14c23d544520e1c67bec1aa174bbdabdbce98e1671ec562703cac840ed7548",
     "src/insurance_audit/mapping.py": "ab43514705f5ea4c4f5a7e911c9d0637b52bcfd7d2558f746ef4aae0a85a340e",
@@ -43,7 +43,7 @@
     "tests/test_h2.py": "858c9c732479f44e90f00254a484bb4c61497ee29ab813da3862374eb347723a",
     "tests/test_inputs.py": "b54e992feaba93c96cfb257fd7b9487c302cf198bfe124d6a18278a82600f134",
     "tests/test_mapping.py": "d06a1e0bc44d5d2e565eea8941a7592c9325598a30d9456d3ea7953e9b81dbc7",
-    "tests/test_pricing.py": "4cb5b5e210c1e6167fdbb9da93c302d6741d8f39b0d1ba90449593d66470b1f6",
+    "tests/test_pricing.py": "04d1a90f0f182c4b7a407d919f8f1f7c9055d02081eb3c5b4f0fb86830363036",
     "tests/test_schema.py": "dd3a3ca598626fa78f432cc514332fd842ae296093d2d4d1f9585617eeed31bf",
     "tests/test_submission.py": "d73f8b6007ed0639525fbbbde546c8863873c795606407786005e99b608ccae7",
     "tests/test_targets.py": "17652cf3a7ceb915189bf87c291eb204a90e38e87f9cb82087413405f94fe5ea"
@@ -64,11 +64,11 @@
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
         "src/insurance_audit/audit.py": "b1c41a9f6600e2b1c3f00a6d627e1f595274ef0907da7694aef47788ccbc03f7",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-        "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+        "src/insurance_audit/checks.py": "8144a2b3dd4e9550385c080c32f714690880413d37a40c644901a12f15343927",
         "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
         "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
-        "src/insurance_audit/findings.py": "0293ccb6789d7e706f8b9821deea379128c8894a6e30a3e566deca2c97b5e2a1",
+        "src/insurance_audit/findings.py": "f3ba468c1df82bb6b1cdf7575d7be82fcc0537eeeab791f34586830f92c0e4b3",
         "src/insurance_audit/inventory.py": "b5666b02ec96fb974a4d5f818304db1c9d5f0f6d107ac8c3b0b8dd9615bd504a",
         "src/insurance_audit/io.py": "de14c23d544520e1c67bec1aa174bbdabdbce98e1671ec562703cac840ed7548",
         "src/insurance_audit/mapping.py": "ab43514705f5ea4c4f5a7e911c9d0637b52bcfd7d2558f746ef4aae0a85a340e",
@@ -122,11 +122,11 @@
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
         "src/insurance_audit/audit.py": "b1c41a9f6600e2b1c3f00a6d627e1f595274ef0907da7694aef47788ccbc03f7",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-        "src/insurance_audit/checks.py": "3bd10974fd4a733ab04549f09d28c88ff7b94cdb7884625588ccb848305ecf86",
+        "src/insurance_audit/checks.py": "8144a2b3dd4e9550385c080c32f714690880413d37a40c644901a12f15343927",
         "src/insurance_audit/confidence.py": "21a2f54184d61fe2ac46150a0ba410bb0822a0cc65639d1f95ecd8f4adfefc4e",
         "src/insurance_audit/context.py": "25f0d363228d7aba0eb5b68b1e3cdcbae3387430a0e6fb561893ae27eccfe096",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
-        "src/insurance_audit/findings.py": "0293ccb6789d7e706f8b9821deea379128c8894a6e30a3e566deca2c97b5e2a1",
+        "src/insurance_audit/findings.py": "f3ba468c1df82bb6b1cdf7575d7be82fcc0537eeeab791f34586830f92c0e4b3",
         "src/insurance_audit/inventory.py": "b5666b02ec96fb974a4d5f818304db1c9d5f0f6d107ac8c3b0b8dd9615bd504a",
         "src/insurance_audit/io.py": "de14c23d544520e1c67bec1aa174bbdabdbce98e1671ec562703cac840ed7548",
         "src/insurance_audit/mapping.py": "ab43514705f5ea4c4f5a7e911c9d0637b52bcfd7d2558f746ef4aae0a85a340e",
@@ -147,15 +147,15 @@
     }
   },
   "run_ids": {
-    "H1": "49827c382cf667e5d7d85ba3b5aa2e37cf00144a5422c1ea6ada81a0f5bfa089",
-    "targets": "9be03e0233fd9fd40e7953570bd4479dc9b93521ad416cf19d5fbab6045cb294"
+    "H1": "dcbbbd62fb1dc3d6ada90350ca806383f2e5edfd7acf1d9520536b844979ad1b",
+    "targets": "154461f7486723baed07cfc466041391c44ae82a1b108c05f3cea47fb4ad2122"
   },
   "scope": "Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot",
   "stable_outputs": {
     "reports/evaluation_report.md": "f936b3866312f9c0288ee5cdd7d3b49c6777ae1676088376ca8cbee9d57298ca",
     "reports/metrics.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-    "reports/workload.json": "0b7e4168f0362470c7bd18a98c24def00dcfd133e10547b4413ec7e4b192b3cc",
-    "submission.csv": "3ab0e8151814898faa9f9b529e0650b6fac7fc505f6197f0ab27f0f8504f1cb3"
+    "reports/workload.json": "124e7dc1237964093608d89df0013bc1b4015ecea011a0ca6dea43c6d563e923",
+    "submission.csv": "a95e5707df97028092a41c917abdcd9691e3c664f77ea4d19efa29dcf3e2949a"
   },
-  "target_release_id": "601aeb9566fcae8c27603755324b83f211bfce0c5da3f9c4d93a9f86eda311ae"
+  "target_release_id": "585fcb133271f84062c4c66ae9ee445a6b82577395486220e9249feaa912b895"
 }

@@ -22,7 +22,9 @@ def validate_line_facts(line,invoice,service,contract,context):
 def line_result(line,service,price):
     quantity=line.quantity
     categories=[]
-    if line.unit_basis_as_billed!=service['unit']:categories.append('unit_basis_mismatch')
+    # The unit basis is reported by the findings layer, which checks every
+    # identified line whether or not it could be priced. Naming it again here
+    # would put the same defect on a row twice.
     if line.line_total_cents!=line.quantity*line.unit_price_cents:categories.append('line_arithmetic_mismatch')
     if service['daily_cap'] is not None and quantity>service['daily_cap']:
         quantity=service['daily_cap'];categories.append('daily_quantity_cap')

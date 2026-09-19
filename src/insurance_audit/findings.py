@@ -9,7 +9,7 @@ never suppress evidence that is itself the error.
 from collections import defaultdict
 
 from .io import INVOICE_COLUMNS, LINE_COLUMNS, integer, iso_date
-from .mapping import names_no_contracted_service
+from .mapping import classify, names_no_contracted_service
 from .resolve import normalize
 
 # Category naming order for one invoice. The plan's date/identifier precedence
@@ -17,11 +17,12 @@ from .resolve import normalize
 # remaining findings follow in a fixed order so output is deterministic.
 PRECEDENCE = ('service_date_out_of_window', 'duplicate_invoice_id', 'service_date_after_invoice_date',
               'malformed_service_date', 'malformed_invoice_date', 'malformed_amount',
-              'cross_invoice_duplicate', 'unknown_service', 'contract_number_mismatch',
+              'cross_invoice_duplicate', 'unknown_service', 'wrong_unit_basis', 'contract_number_mismatch',
               'hospital_reference_mismatch', 'line_total_arithmetic', 'invoice_total_mismatch')
 
 # Findings that do not, by themselves, change the payable amount.
 AMOUNT_NEUTRAL = frozenset({'duplicate_invoice_id', 'contract_number_mismatch', 'hospital_reference_mismatch',
+                            'wrong_unit_basis',
                             'service_date_after_invoice_date', 'service_date_out_of_window',
                             'malformed_service_date', 'malformed_invoice_date'})
 
@@ -76,7 +77,11 @@ class Findings:
         # A key the reviewers accepted is never called unknown: their decision
         # stands over the matcher's.
         self.reviewed_keys = {r['key'] for r in mappings.get('records', []) if r['state'] == 'accepted'}
+        self.reviewed_service = {r['key']: r['service_id'] for r in mappings.get('records', [])
+                                 if r['state'] == 'accepted'}
+        self.services = {s['id']: s for s in contract['services']}
         self.unknown_cache = {}
+        self.match_cache = {}
         self.duplicate_clause = (
             'The same Service may not be billed twice for one Patient and Service Date, whether on one '
             'invoice or across several.' if contract['semantics']['duplicate_policy'] == 'abstain_repeated_service_day'
@@ -146,6 +151,21 @@ class Findings:
             unknown, evidence = names_no_contracted_service(description, self.contract['services'], self.lexicon)
             self.unknown_cache[key] = (unknown, evidence)
         return self.unknown_cache[key]
+
+    def matched_service(self, description):
+        """The one service this wording names, or None if it names more than one.
+
+        A key the reviewers accepted keeps their service. Otherwise the matcher
+        must return MATCH: a TIE or a WEAK reading does not identify a service,
+        and no check that needs the contracted terms may run on it.
+        """
+        key = normalize(description)
+        if key in self.reviewed_service:
+            return self.services.get(self.reviewed_service[key])
+        if key not in self.match_cache:
+            result = classify(description, self.contract['services'], self.lexicon)
+            self.match_cache[key] = result['service_id'] if result['state'] == 'MATCH' else None
+        return self.services.get(self.match_cache[key])
 
     def canonical_header(self, invoice_id):
         """Latest-dated accepted header record; the documented choice for a reused identifier."""
@@ -262,6 +282,16 @@ class Findings:
                                      'quantity': line['quantity'], 'unit_price_cents': line['unit_price_cents'],
                                      'billed_line_total_cents': line['line_total_cents'],
                                      'arithmetic_line_total_cents': line['quantity'] * line['unit_price_cents']})
+            service = None if line['status'] == 'quarantined' else self.matched_service(line['description'])
+            billed_unit = line['record'].unit_basis_as_billed if line['record'] is not None else None
+            if service is not None and billed_unit is not None and billed_unit != service['unit']:
+                categories.add('wrong_unit_basis')
+                line['defects'].append('wrong_unit_basis')
+                evidence.append({'finding': 'wrong_unit_basis', 'source_row': key, 'line_id': line['line_id'],
+                                 'service_id': service['id'], 'billed_unit_basis': billed_unit,
+                                 'contracted_unit_basis': service['unit'], 'refs': service['refs'],
+                                 'basis': 'The unit basis is read from the identified service only; a tie or a '
+                                          'weak reading identifies no service and is not checked.'})
             unknown, unknown_evidence = self.unknown_service(line['description'])
             if unknown:
                 categories.add('unknown_service')
