@@ -65,12 +65,22 @@ class H2Tests(unittest.TestCase):
         self.assertEqual(opinion['flagged'],1)
         self.assertIn('service_date_after_invoice_date',opinion['error_category'].split(';'))
 
-    def test_hospital_2_withholds_cross_invoice_repeats_its_contract_never_forbids(self):
-        # H1, H3, H4 and H5 each forbid billing a Service twice for one Patient
-        # and Service Date. H2's agreement contains no such clause, so a repeat
-        # is not evidence of an error there.
-        self.assertEqual(fixture('H2','Comprehensive Otolaryngologic Case Conference')[0]
-                         ['semantics']['duplicate_policy'],'no_explicit_service_date_prohibition')
+    def test_hospital_2_still_reports_a_cross_invoice_repeat_its_contract_never_permits(self):
+        # H2's agreement states no prohibition on billing a Service twice for one
+        # Patient and Service Date, but it states no permission either, and on the
+        # only labelled hospital every invoice this pattern matches is a labelled
+        # cross-invoice duplicate. Silence is not evidence a repeat is legitimate.
+        c,s,l,i,ctx,data,m=fixture('H2','Comprehensive Otolaryngologic Case Conference')
+        self.assertEqual(c['semantics']['duplicate_policy'],'no_explicit_service_date_prohibition')
+        first=replace(i,invoice_id='I1',invoice_total_cents=16525,invoice_date='2025-01-03')
+        second=replace(first,invoice_id='I2',source_row=first.source_row+1,invoice_date='2025-01-04')
+        data.invoices=[first,second]
+        base=replace(l,invoice_id='I1',line_id='LA',unit_price_cents=16525,line_total_cents=16525)
+        data.lines=[base,replace(base,invoice_id='I2',line_id='LB',source_row=base.source_row+1)]
+        opinions={r['invoice_id']:r for r in audit(data,c,m)['opinions']}
+        self.assertNotIn('cross_invoice_duplicate',opinions['I1']['error_category'].split(';'))
+        self.assertIn('cross_invoice_duplicate',opinions['I2']['error_category'].split(';'))
+        self.assertEqual(opinions['I2']['expected_total_cents'],0)
 
     def test_exclusion_uses_explicit_service_date_in_both_directions(self):
         n='Extended Dermatologic Specimen Analysis';anchor='Advanced Endocrine Case Conference'

@@ -167,14 +167,16 @@ class CrossInvoiceDuplicateTests(unittest.TestCase):
                     changes['line_total_cents'] = rate * changes['quantity']
                 self.assertEqual(self.duplicate_pair('H1', **changes)['I2'], [])
 
-    def test_hospital_2_reports_nothing_because_its_contract_forbids_nothing(self):
+    def test_every_hospital_reports_the_repeat_including_the_one_with_no_clause(self):
         # H1, H3, H4 and H5 each state that the same Service may not be billed
-        # twice for one Patient and Service Date. H2's agreement has no such
-        # clause, so an identical repeat there is not evidence of an error.
-        self.assertEqual(self.duplicate_pair('H2')['I2'], [])
-        for hospital in ('H1', 'H3', 'H4', 'H5'):
+        # twice for one Patient and Service Date. H2's agreement states neither a
+        # prohibition nor a permission, and silence is not evidence that a repeat
+        # is legitimate, so the check runs there too.
+        for hospital in ('H1', 'H2', 'H3', 'H4', 'H5'):
             with self.subTest(hospital=hospital):
-                self.assertEqual(self.duplicate_pair(hospital)['I2'], ['cross_invoice_duplicate'])
+                result = self.duplicate_pair(hospital)
+                self.assertEqual(result['I1'], [])
+                self.assertEqual(result['I2'], ['cross_invoice_duplicate'])
 
 
 class DecisionLayerTests(unittest.TestCase):

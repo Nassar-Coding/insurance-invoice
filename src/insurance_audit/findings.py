@@ -70,7 +70,11 @@ class Findings:
     def __init__(self, data, contract):
         self.contract = contract
         self.term = contract['term']
-        self.duplicates_prohibited = contract['semantics']['duplicate_policy'] == 'abstain_repeated_service_day'
+        self.duplicate_clause = (
+            'The same Service may not be billed twice for one Patient and Service Date, whether on one '
+            'invoice or across several.' if contract['semantics']['duplicate_policy'] == 'abstain_repeated_service_day'
+            else 'This agreement states no express prohibition and no express permission. The same exact '
+                 'pattern is a labelled error wherever labels exist, so it is reported here too.')
         self.headers = defaultdict(list)
         self.lines = defaultdict(list)
         self.unattributable = []
@@ -130,13 +134,14 @@ class Findings:
     def _cross_invoice_duplicates(self):
         """The same patient, Service Day, normalised service and quantity on two invoices.
 
-        Only run where the contract expressly forbids billing a Service twice for
-        one Patient and Service Date. Where the contract is silent (Hospital 2), a
-        repeat is not evidence of an error and nothing is reported.
+        H1, H3, H4 and H5 each forbid billing a Service twice for one Patient and
+        Service Date, whether on one invoice or across several. H2's agreement
+        states no such prohibition, but it states no permission either, and on
+        the only labelled hospital every invoice this pattern matches is a
+        labelled cross-invoice duplicate. Silence is therefore not evidence that
+        a repeat is legitimate, and the check runs everywhere.
         """
         flagged = defaultdict(list)
-        if not self.duplicates_prohibited:
-            return flagged
         groups = defaultdict(list)
         for invoice_id, rows in self.lines.items():
             headers = self.headers.get(invoice_id, [])
@@ -161,9 +166,7 @@ class Findings:
                 flagged[invoice_id].append(
                     {'line_id': line['line_id'], 'line_source': f"{line['source']}:{line['row']}",
                      'patient_id': key[0], 'service_date': key[1], 'normalised_service': key[2], 'quantity': key[3],
-                     'first_billed_on_invoice_id': earliest[1],
-                     'clause': 'The same Service may not be billed twice for one Patient and Service Date, '
-                               'whether on one invoice or across several.'})
+                     'first_billed_on_invoice_id': earliest[1], 'clause': self.duplicate_clause})
         return flagged
 
     def assess(self, invoice_id):

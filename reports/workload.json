@@ -34,26 +34,26 @@
   "H2": {
     "abstention_invoice_counts_by_reason": {
       "composite_dimension_unobserved": 87,
-      "multiple_supported_rate_outcomes": 927,
-      "unobserved_service_day_cap_allocation": 122,
-      "unresolved_exclusion": 6,
-      "unresolved_service_mapping": 1029
+      "multiple_supported_rate_outcomes": 924,
+      "unobserved_service_day_cap_allocation": 121,
+      "unresolved_exclusion": 5,
+      "unresolved_service_mapping": 1024
     },
-    "abstentions": 1074,
+    "abstentions": 1069,
     "accepted_invoice_records": 1132,
     "accepted_line_records": 14352,
     "confidence_tiers": {
-      "novel_reviewed:elided:qualified": 12,
-      "novel_reviewed:explicit:qualified": 39
+      "novel_reviewed:elided:qualified": 16,
+      "novel_reviewed:explicit:qualified": 40
     },
     "context_records": 14360,
     "correct_opinions": 7,
-    "coverage": 0.04533333333333334,
+    "coverage": 0.049777777777777775,
     "distinct_mapping_keys": 441,
-    "flagged_opinions": 44,
-    "opinions": 51,
+    "flagged_opinions": 49,
+    "opinions": 56,
     "orphan_line_count": 0,
-    "qualified_opinions": 51,
+    "qualified_opinions": 56,
     "quarantined_records": 8,
     "raw_records": 15492,
     "reason_count_note": "An invoice may have several reasons; cause counts do not sum to omissions.",
