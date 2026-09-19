@@ -31,3 +31,13 @@ Amount status `full` means an emitted total; `partial` means diagnostic supporte
 `withheld_reasons.json` supplies exclusive first-runtime-reason histograms and overlapping distinct-invoice incidence for H1 development and H2–H5. `missed_development_crosstab.json` joins the 38 development misses to the supplied family coding; it supplies both versions and development IDs. `hospital_distributions.json` uses every unique source invoice as the flag-rate denominator.
 
 H2 has zero rows: 1,110 invoices reach the existing submission-deadline/waiver uncertainty; 7 stop for conflicting reused IDs and 8 for quarantined required records. The existing policy does not regard invoice date as proof of actual submission or episode/waiver facts (H2 Article XIII.1–5 and Article II.5; `src/insurance_audit/audit.py`). This is an explanation of existing behavior, not a new contract interpretation. All H2–H5 rates remain below 3%; their named withholding reasons are recorded as the plan requires. Gate 1 investigates those rates without changing prediction behavior.
+
+## Step 3: baseline register
+
+```bash
+python tools/register_baseline.py
+```
+
+This reads the committed scoring reports and registers `evaluation/baseline_cost.json`. It does not run prediction or generalization. Generalization is the explicitly carried-forward **full-history description control: 4 → 1 development detections, zero new false positives, 75% relative recall loss**. The original unpublished experiment logs were lost during workspace maintenance; the record labels the numbers as prior observations reaffirmed by the user, not new executed evidence. Its preserved protocol is in the baseline file. The experiment is not rerun here.
+
+Later gates append entries rather than overwrite the baseline; the registration script refuses to overwrite later entries. Clean-checkout verification is deferred to the Final Gate. Tags are user-managed. The current implementation and measurement tests run with `python tools/run_checks.py gate1_rebuild`; all prediction modules, source data, mappings, schemas, confidence policy and the submission remain unchanged.

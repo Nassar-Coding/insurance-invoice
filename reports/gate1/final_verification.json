@@ -1,0 +1,19 @@
+{
+  "clean_checkout": "Not performed; deferred to Final Gate.",
+  "clean_development_fp": 0,
+  "development_cost": 190,
+  "full_h1_cost": 265,
+  "gate2_started": false,
+  "generalization": "Recorded prior 4 -> 1 detections; 0 new FP. Not rerun.",
+  "named_withheld": 4265,
+  "protected_files_changed": [],
+  "runtime_outputs_identical_to_gate0": true,
+  "status": "PASS",
+  "submission_byte_identical": true,
+  "submission_flags": 6,
+  "submission_rows": 340,
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "tags": "Skipped per user instruction",
+  "tests_passed": 92,
+  "trace_invoices": 4855
+}

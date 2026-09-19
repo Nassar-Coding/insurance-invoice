@@ -1,0 +1,1006 @@
+{
+  "access_boundary": "Full/check baseline explicitly authorized in Gate 1. Do not read or report check again until Final Gate.",
+  "decoy_proxy_flags": null,
+  "decoy_proxy_status": "Not defined until Gate 2.6; zero clean-development FP is not a decoy measurement.",
+  "entries": [
+    {
+      "clean_development_fp": 0,
+      "development_cost": 190,
+      "gate": "gate1",
+      "generalization_result_source": "carried_forward_prior_observation_not_rerun",
+      "target_flags": {
+        "H2": 0,
+        "H3": 5,
+        "H4": 1,
+        "H5": 0
+      },
+      "target_rows": {
+        "H2": 0,
+        "H3": 148,
+        "H4": 64,
+        "H5": 128
+      }
+    }
+  ],
+  "evidence": {
+    "reports/gate1/cost_check.json": "76d6a45f212f95d75d4eee248a00fc2930f869ee6b71676636ab374314bf2cc3",
+    "reports/gate1/cost_development.json": "bbf3367824a83a0f9f2a0a440d6181703d0de1b566c4f811c405b8262b998dec",
+    "reports/gate1/cost_full.json": "971688d8dcb78cd794b5b63e4fa2386b3be863b5d5049281d0da1be027543dcd",
+    "reports/gate1/hospital_distributions.json": "308e22b79b16f541c172c29e2c53421373f7948437bcf3b1e4d5fc2226c41de0",
+    "reports/gate1/missed_development_crosstab.json": "c408afd91d1d818fed234101b798ec99d5f3684cd1392b0de70b4b6c36fc8e1a",
+    "reports/gate1/trace_summary.json": "0f0a0478949ca4943732feb9a02f7f8a5924c0bab4da197ed71a6d68006dd58e",
+    "reports/gate1/withheld_reasons.json": "3818efd97a578c7e89c2c0498aa583e7196927c4575ecbfe65388d40e070a486"
+  },
+  "gate": "gate1",
+  "generalization_baseline": {
+    "erroneous": 42,
+    "gate1_scope": "Record baseline only; the <=10% relative loss criterion begins at Gate 3.",
+    "gate3_tolerance_met": false,
+    "new_false_positives": 0,
+    "original_logs_status": "Original unpublished experiment logs were lost in workspace maintenance; values are preserved from the recorded conversation, not fabricated as new execution evidence.",
+    "partition": "development",
+    "perturbed": {
+      "fn": 41,
+      "fp": 0,
+      "recall": 0.023809523809523808,
+      "tp": 1
+    },
+    "population": 622,
+    "protocol": {
+      "descriptions": "Select round(0.30 * line_count) row indices with random.Random(seed).sample; first half preserve codes; apply existing tools/generalize.py perturb(description, keep_code, row_index).",
+      "distinction": "Not the 70%-patient re-ID stress test, whose sampling can change hospital-wide utilisation and invalidate original labels.",
+      "evaluation": "Development labels only; retain all unlabelled H1 context.",
+      "history": "Keep original H1 IDs, physical row order and all patients/history.",
+      "kind": "full_history_description_only_control",
+      "seed": 20260919
+    },
+    "relative_recall_degradation": 0.75,
+    "source": "Prior Gate 1 full-history description control, explicitly reaffirmed in the user instruction to rebuild Gate 1 lean.",
+    "status": "carried_forward_prior_observation_not_rerun",
+    "unperturbed": {
+      "fn": 38,
+      "fp": 0,
+      "recall": 0.09523809523809523,
+      "tp": 4
+    }
+  },
+  "h1": {
+    "check": {
+      "clean": 275,
+      "cost": 75,
+      "emitted": 81,
+      "erroneous": 16,
+      "fn": 15,
+      "fp": 0,
+      "per_category_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 1,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        }
+      },
+      "per_primary_family": {
+        "mapping": {
+          "cumulative_detected": 1,
+          "cumulative_recall_all_errors": 0.0625,
+          "cumulative_support": 12,
+          "detected": 1,
+          "recall": 0.3333333333333333,
+          "support": 3
+        },
+        "pricing": {
+          "cumulative_detected": 1,
+          "cumulative_recall_all_errors": 0.0625,
+          "cumulative_support": 16,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 2
+        },
+        "rule": {
+          "cumulative_detected": 1,
+          "cumulative_recall_all_errors": 0.0625,
+          "cumulative_support": 14,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 2
+        },
+        "structural": {
+          "cumulative_detected": 0,
+          "cumulative_recall_all_errors": 0.0,
+          "cumulative_support": 8,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 8
+        },
+        "term_window": {
+          "cumulative_detected": 0,
+          "cumulative_recall_all_errors": 0.0,
+          "cumulative_support": 9,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 1
+        }
+      },
+      "population": 291,
+      "recall": 0.0625,
+      "reliability": {
+        "bins": [
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.0,
+            "mean_confidence": null,
+            "upper": 0.2,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.2,
+            "mean_confidence": null,
+            "upper": 0.4,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.4,
+            "mean_confidence": null,
+            "upper": 0.6,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.35,
+            "count": 1,
+            "joint_success_rate": 1.0,
+            "lower": 0.6,
+            "mean_confidence": 0.65,
+            "upper": 0.8,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.07125000000000004,
+            "count": 80,
+            "joint_success_rate": 1.0,
+            "lower": 0.8,
+            "mean_confidence": 0.92875,
+            "upper": 1.0,
+            "upper_inclusive": true
+          }
+        ],
+        "ece": 0.07469135802469139,
+        "event": "Correct flag AND exact expected cents; not P(error). Emitted opinions only."
+      },
+      "tp": 1,
+      "tp_amount": {
+        "count": 1,
+        "exact": 1,
+        "exact_match_rate": 1.0,
+        "mae_cents": 0.0
+      },
+      "withheld": 210
+    },
+    "development": {
+      "clean": 580,
+      "cost": 190,
+      "emitted": 169,
+      "erroneous": 42,
+      "fn": 38,
+      "fp": 0,
+      "per_category_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.25,
+          "flagged": 1,
+          "support": 4,
+          "whole_row_success": 1
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 2,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.3333333333333333,
+          "flagged": 1,
+          "support": 3,
+          "whole_row_success": 1
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "premium_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "service_date_after_invoice_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.14285714285714285,
+          "flagged": 1,
+          "support": 7,
+          "whole_row_success": 1
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 9,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 2,
+          "covered": 2,
+          "detection_recall_all": 0.3333333333333333,
+          "flagged": 2,
+          "support": 6,
+          "whole_row_success": 2
+        }
+      },
+      "per_primary_family": {
+        "mapping": {
+          "cumulative_detected": 4,
+          "cumulative_recall_all_errors": 0.09523809523809523,
+          "cumulative_support": 35,
+          "detected": 1,
+          "recall": 0.1,
+          "support": 10
+        },
+        "pricing": {
+          "cumulative_detected": 4,
+          "cumulative_recall_all_errors": 0.09523809523809523,
+          "cumulative_support": 42,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 5
+        },
+        "rule": {
+          "cumulative_detected": 4,
+          "cumulative_recall_all_errors": 0.09523809523809523,
+          "cumulative_support": 37,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 2
+        },
+        "structural": {
+          "cumulative_detected": 3,
+          "cumulative_recall_all_errors": 0.07142857142857142,
+          "cumulative_support": 23,
+          "detected": 3,
+          "recall": 0.13043478260869565,
+          "support": 23
+        },
+        "term_window": {
+          "cumulative_detected": 3,
+          "cumulative_recall_all_errors": 0.07142857142857142,
+          "cumulative_support": 25,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 2
+        }
+      },
+      "population": 622,
+      "recall": 0.09523809523809523,
+      "reliability": {
+        "bins": [
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.0,
+            "mean_confidence": null,
+            "upper": 0.2,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.2,
+            "mean_confidence": null,
+            "upper": 0.4,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.4,
+            "mean_confidence": null,
+            "upper": 0.6,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.35,
+            "count": 4,
+            "joint_success_rate": 1.0,
+            "lower": 0.6,
+            "mean_confidence": 0.65,
+            "upper": 0.8,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.0630303030303031,
+            "count": 165,
+            "joint_success_rate": 1.0,
+            "lower": 0.8,
+            "mean_confidence": 0.9369696969696969,
+            "upper": 1.0,
+            "upper_inclusive": true
+          }
+        ],
+        "ece": 0.06982248520710067,
+        "event": "Correct flag AND exact expected cents; not P(error). Emitted opinions only."
+      },
+      "tp": 4,
+      "tp_amount": {
+        "count": 4,
+        "exact": 4,
+        "exact_match_rate": 1.0,
+        "mae_cents": 0.0
+      },
+      "withheld": 453
+    },
+    "full": {
+      "clean": 855,
+      "cost": 265,
+      "emitted": 250,
+      "erroneous": 58,
+      "fn": 53,
+      "fp": 0,
+      "per_category_detection": {
+        "bundle_not_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "contract_number_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.2,
+          "flagged": 1,
+          "support": 5,
+          "whole_row_success": 1
+        },
+        "cross_invoice_duplicate": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "daily_cap_exceeded": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "duplicate_invoice_id": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "exclusion_window_violation": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "invoice_total_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "line_total_arithmetic": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "malformed_service_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 6,
+          "whole_row_success": 0
+        },
+        "premium_incorrectly_applied": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.16666666666666666,
+          "flagged": 1,
+          "support": 6,
+          "whole_row_success": 1
+        },
+        "premium_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 3,
+          "whole_row_success": 0
+        },
+        "service_date_after_invoice_date": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "service_date_out_of_window": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 5,
+          "whole_row_success": 0
+        },
+        "unit_price_mismatch": {
+          "amount_exact": 1,
+          "covered": 1,
+          "detection_recall_all": 0.1,
+          "flagged": 1,
+          "support": 10,
+          "whole_row_success": 1
+        },
+        "unknown_service": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 12,
+          "whole_row_success": 0
+        },
+        "volume_discount_incorrectly_applied": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "volume_discount_omitted": {
+          "amount_exact": 0,
+          "covered": 0,
+          "detection_recall_all": 0.0,
+          "flagged": 0,
+          "support": 4,
+          "whole_row_success": 0
+        },
+        "wrong_unit_basis": {
+          "amount_exact": 3,
+          "covered": 3,
+          "detection_recall_all": 0.2727272727272727,
+          "flagged": 3,
+          "support": 11,
+          "whole_row_success": 3
+        }
+      },
+      "per_primary_family": {
+        "mapping": {
+          "cumulative_detected": 5,
+          "cumulative_recall_all_errors": 0.08620689655172414,
+          "cumulative_support": 47,
+          "detected": 2,
+          "recall": 0.15384615384615385,
+          "support": 13
+        },
+        "pricing": {
+          "cumulative_detected": 5,
+          "cumulative_recall_all_errors": 0.08620689655172414,
+          "cumulative_support": 58,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 7
+        },
+        "rule": {
+          "cumulative_detected": 5,
+          "cumulative_recall_all_errors": 0.08620689655172414,
+          "cumulative_support": 51,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 4
+        },
+        "structural": {
+          "cumulative_detected": 3,
+          "cumulative_recall_all_errors": 0.05172413793103448,
+          "cumulative_support": 31,
+          "detected": 3,
+          "recall": 0.0967741935483871,
+          "support": 31
+        },
+        "term_window": {
+          "cumulative_detected": 3,
+          "cumulative_recall_all_errors": 0.05172413793103448,
+          "cumulative_support": 34,
+          "detected": 0,
+          "recall": 0.0,
+          "support": 3
+        }
+      },
+      "population": 913,
+      "recall": 0.08620689655172414,
+      "reliability": {
+        "bins": [
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.0,
+            "mean_confidence": null,
+            "upper": 0.2,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.2,
+            "mean_confidence": null,
+            "upper": 0.4,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": null,
+            "count": 0,
+            "joint_success_rate": null,
+            "lower": 0.4,
+            "mean_confidence": null,
+            "upper": 0.6,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.35,
+            "count": 5,
+            "joint_success_rate": 1.0,
+            "lower": 0.6,
+            "mean_confidence": 0.65,
+            "upper": 0.8,
+            "upper_inclusive": false
+          },
+          {
+            "absolute_gap": 0.06571428571428573,
+            "count": 245,
+            "joint_success_rate": 1.0,
+            "lower": 0.8,
+            "mean_confidence": 0.9342857142857143,
+            "upper": 1.0,
+            "upper_inclusive": true
+          }
+        ],
+        "ece": 0.0714,
+        "event": "Correct flag AND exact expected cents; not P(error). Emitted opinions only."
+      },
+      "tp": 5,
+      "tp_amount": {
+        "count": 5,
+        "exact": 5,
+        "exact_match_rate": 1.0,
+        "mae_cents": 0.0
+      },
+      "withheld": 663
+    }
+  },
+  "hospitals": {
+    "H1": {
+      "category_mix": {
+        "contract_reference_mismatch": 1,
+        "effective_rate_mismatch": 2,
+        "invoice_amount_mismatch": 3,
+        "invoice_arithmetic_mismatch": 1,
+        "line_amount_mismatch": 3,
+        "line_arithmetic_mismatch": 1,
+        "unit_basis_mismatch": 3
+      },
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        5,
+        245
+      ],
+      "flag_rate_all_invoices": 0.00547645125958379,
+      "flags": 5,
+      "investigate_below_3_percent": true,
+      "rows": 250,
+      "unique_invoices": 913,
+      "warning": "below_4_percent",
+      "withheld": 663
+    },
+    "H2": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 0,
+      "unique_invoices": 1125,
+      "warning": "below_4_percent",
+      "withheld": 1125
+    },
+    "H3": {
+      "category_mix": {
+        "daily_quantity_cap": 1,
+        "effective_rate_mismatch": 5,
+        "invoice_amount_mismatch": 5,
+        "line_amount_mismatch": 5,
+        "unit_basis_mismatch": 1
+      },
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        27,
+        121
+      ],
+      "flag_rate_all_invoices": 0.00536480686695279,
+      "flags": 5,
+      "investigate_below_3_percent": true,
+      "rows": 148,
+      "unique_invoices": 932,
+      "warning": "below_4_percent",
+      "withheld": 784
+    },
+    "H4": {
+      "category_mix": {
+        "effective_rate_mismatch": 1,
+        "invoice_amount_mismatch": 1,
+        "line_amount_mismatch": 1
+      },
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        14,
+        50
+      ],
+      "flag_rate_all_invoices": 0.0011976047904191617,
+      "flags": 1,
+      "investigate_below_3_percent": true,
+      "rows": 64,
+      "unique_invoices": 835,
+      "warning": "below_4_percent",
+      "withheld": 771
+    },
+    "H5": {
+      "category_mix": {},
+      "confidence_bin_bounds": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "confidence_histogram": [
+        0,
+        0,
+        0,
+        128,
+        0
+      ],
+      "flag_rate_all_invoices": 0.0,
+      "flags": 0,
+      "investigate_below_3_percent": true,
+      "rows": 128,
+      "unique_invoices": 1050,
+      "warning": "below_4_percent",
+      "withheld": 922
+    }
+  },
+  "leaderboard_cost": 1395,
+  "leaderboard_scope": "Previously reported external H2-H5 score; target labels are unavailable locally.",
+  "low_rate_investigation": {
+    "H2": {
+      "histogram": "reports/gate1/withheld_reasons.json",
+      "resolution": "Causes accounted for; prediction behavior remains unchanged in this measurement gate.",
+      "status": "investigated"
+    },
+    "H3": {
+      "histogram": "reports/gate1/withheld_reasons.json",
+      "resolution": "Causes accounted for; prediction behavior remains unchanged in this measurement gate.",
+      "status": "investigated"
+    },
+    "H4": {
+      "histogram": "reports/gate1/withheld_reasons.json",
+      "resolution": "Causes accounted for; prediction behavior remains unchanged in this measurement gate.",
+      "status": "investigated"
+    },
+    "H5": {
+      "histogram": "reports/gate1/withheld_reasons.json",
+      "resolution": "Causes accounted for; prediction behavior remains unchanged in this measurement gate.",
+      "status": "investigated"
+    }
+  },
+  "reference_base_rates": {
+    "h1": 0.06352683461117196,
+    "scored_h2_h5": 0.07229832572298325
+  },
+  "schema_version": 1,
+  "submission_rows": 340,
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "verification_boundaries": {
+    "a3": "waived by user; Gate 0 closed",
+    "clean_checkout_run": false,
+    "generalization_rerun": false,
+    "tags": "user-managed"
+  }
+}

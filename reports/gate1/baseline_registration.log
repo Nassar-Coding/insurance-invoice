@@ -1,0 +1,1 @@
+{"status": "PASS", "development_cost": 190, "full_cost": 265, "generalization": "Carried forward 4 -> 1 detections, zero new FP; NOT rerun.", "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c"}

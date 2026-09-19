@@ -1,6 +1,6 @@
 # Insurance invoice auditing
 
-LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU. This is the Gate 0 fallback: execution portability has improved; detection, pricing, mapping and confidence rules have not been expanded.
+LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU. Gate 1 adds measurement and decision-trace reports to the Gate 0 fallback; detection, pricing, mapping and confidence rules have not been expanded.
 
 ## Reproduce
 
@@ -32,7 +32,7 @@ PYTHONPATH=src python -m insurance_audit reproduce --evaluate-development
 
 The optional development step skips missing labels or the manifest and reports evaluation failures without failing the successful prediction run. The preserved partition manifest and original calibration evidence live under `tests/evaluation/`; they are evaluation evidence, not prediction inputs. The confidence policy remains under `evaluation/` and its numerical values are unchanged.
 
-During the improvement gates, do not run evaluation with `--partition check` or `--partition full` until the Final Gate. The earlier implementation had already exposed check; no claim of a newly untouched holdout is made. The revisit does not reopen it before the Final Gate.
+Gate 1 has explicit authorization for the known full/check baseline. After Gate 1, do not read or report the check partition again until the Final Gate. The earlier implementation had already exposed check; no claim of a newly untouched holdout is made.
 
 ## Generalization survival check
 
@@ -54,7 +54,7 @@ Expected original-snapshot submission SHA-256:
 2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c
 ```
 
-This checksum is a verification reference, never an execution requirement on new inputs. Contracts, mappings, pricing order, confidence scores and uncertainty handling are unchanged at Gate 0. Later gates have not been implemented.
+This checksum is a verification reference, never an execution requirement on new inputs. Contracts, mappings, pricing order, confidence scores and uncertainty handling remain unchanged through Gate 1. Gates 2 onward have not been implemented.
 
 ## Project and evidence
 
@@ -69,3 +69,9 @@ This checksum is a verification reference, never an execution requirement on new
 - `evidence/history/`, `governance/audits/`: original history and independent audits; not replay dependencies.
 
 Original publishing/closure scripts compare exact historical files, Python versions and already exposed check results. They are historical verification tools, not the current Gate 0 reproduction commands. Optional PDF dependencies in `requirements-docs.txt` remain separate from the dependency-free prediction runtime.
+
+## Gate 1 measurement
+
+See [measurement commands and interpretation](docs/gate1_measurement.md), [gate report](evaluation/gate_reports.md), and [baseline register](evaluation/baseline_cost.json). The cost scorer reproduces development 4 TP / 38 FN / 0 FP (cost 190) and full H1 5 TP / 53 FN / 0 FP (cost 265). Decision traces, withheld-reason histograms and the 38-miss family cross-tab are under `reports/gate1/`. The root `submission.csv` remains the challenge deliverable; `reports/gate1/h1_predictions.csv` is evaluation-only.
+
+The generalization baseline is carried forward from the recorded prior full-history control (4 → 1 development detections, zero new FP), explicitly not rerun during this rebuild. Clean-checkout verification is deferred to the Final Gate, and tags are user-managed.
