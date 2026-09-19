@@ -1,0 +1,58 @@
+{
+  "all_physical_linked_lines_represented": true,
+  "amount_scope": "Partial means diagnostic supported-line pricing, never a partial emitted correction. Full means an emitted total.",
+  "amount_status": {
+    "full": 2299,
+    "partial": 2556
+  },
+  "by_hospital": {
+    "H1": 913,
+    "H2": 1125,
+    "H3": 932,
+    "H4": 835,
+    "H5": 1050
+  },
+  "decisions": {
+    "clean": 2222,
+    "flag": 291,
+    "withhold": 2342
+  },
+  "every_withheld_invoice_has_named_reason": true,
+  "histogram_scope": "Primary reason is the first runtime reason, exclusive; any-reason incidence counts distinct invoices and overlaps.",
+  "invoices": 4855,
+  "mapping_scope": "Frozen reviewed records only: MATCH accepted; TIE multiple candidates; WEAK one unresolved candidate or absent description; NO_MATCH no reviewed candidate. No scored matcher or confident unknown_service finding is introduced.",
+  "mapping_states": {
+    "MATCH": 59838,
+    "NO_MATCH": 64,
+    "TIE": 1309
+  },
+  "orphans": "Lines without a recoverable header identity remain in original input-quality accounting.",
+  "physical_linked_lines": 61211,
+  "runtime_output_sha256": {
+    "H1.input_quality.json": "4722867b41be80887cbf821481d6b8e537adb0a96820a3a95cb4f5d6648ef747",
+    "H1.json": "5f797875a5cdbc111d3310e3c13a4c55f1191dbc990d815ea5eb03d65501af01",
+    "H2.input_quality.json": "cc978d64c42131f3a2571444415ee2f6a9a520bcc0b85c9e94a056fceab39596",
+    "H2.json": "09cd0ac4664b6497d361db82210c622a1398c1dd0405d1056c558466852254d9",
+    "H3.input_quality.json": "e9c1f5a434f949d757390c7dff5e31fe36faa6d032d092fdd5e3f272c79a75bb",
+    "H3.json": "63fd359af3e262a93af3d616a9895254e18c349aae51f22a0749a41aec49bbf7",
+    "H4.input_quality.json": "2b89cde4d492c2e29a03c9113855fa40eb52d272589f3f4588a75c7da14a6833",
+    "H4.json": "5d611f945c3d23c5e64351e27f7eacf28bad770b7ba64d4a06acf7aba844421e",
+    "H5.input_quality.json": "bae6a32cd17b22fa514dc2ac18147b799f29601f0b955f0ed501a885d5d42701",
+    "H5.json": "a76e8ae54913367a3e9272140f4bb0df73a6a25baaa1aab88e9f947c7ff9721b"
+  },
+  "runtime_outputs_changed_since_gate0": [
+    "H1.input_quality.json",
+    "H1.json",
+    "H2.input_quality.json",
+    "H2.json",
+    "H3.input_quality.json",
+    "H3.json",
+    "H4.input_quality.json",
+    "H4.json",
+    "H5.input_quality.json",
+    "H5.json"
+  ],
+  "runtime_outputs_identical_to_gate0": false,
+  "submission_sha256": "1c93d6d7b2ee064f9bf6e4f1ce41eb10b4d780d2092a16230440c42f69a3dfbf",
+  "trace_sha256": "f90453c4d11e888cacbd15d1788bc11fe13ea4dc73de2fa6d903cd3186c515d8"
+}

@@ -209,6 +209,13 @@ def audit(data, contract, mappings):
                         # not, so the line keeps what was billed.
                         named = verdict['error_categories'] or ['ambiguous_service_pricing']
                         reading_findings.extend(named)
+                        trace['finding_evidence'].append(
+                            {'finding': named[0], 'also_named': named[1:], 'source_row': key,
+                             'line_id': line.line_id, 'billed_description': line.description,
+                             'candidates': reading['candidates'], 'matcher_state': reading['state'],
+                             'expected_totals': sorted({o['expected_total_cents'] for o in verdict['readings']}),
+                             'basis': 'Every candidate reading of this wording finds the same fault; they '
+                                      'disagree only on the corrected amount.'})
                         entry.update(status='faulty_under_every_reading',
                                      result={'error_categories': named, 'expected_total_cents': None})
                         line_reasons.append({'reason': 'ambiguous_corrected_amount', 'line_id': line.line_id,
@@ -253,6 +260,8 @@ def audit(data, contract, mappings):
         # A fault every candidate reading agrees on is established evidence, so
         # it joins the findings and is reported whatever else is unresolved.
         findings = order(list(dict.fromkeys(facts['categories'] + sorted(set(reading_findings)))))
+        trace['findings'] = findings
+        trace['finding_evidence'].sort(key=lambda e: (e['finding'], str(e.get('source_row') or '')))
         # No accepted header record means no billed total to report against, so
         # even a named finding cannot be emitted as a row.
         if canonical is not None and (findings or (complete and categories)):

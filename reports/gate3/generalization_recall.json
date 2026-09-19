@@ -1,0 +1,25 @@
+{
+  "detected_after": 33,
+  "detected_before": 38,
+  "development_clean": 580,
+  "development_errors": 42,
+  "false_positives_after": [],
+  "false_positives_before": [],
+  "gained_invoice_ids": [],
+  "lines_perturbed": 3424,
+  "lines_total": 11415,
+  "lost_invoice_ids": [
+    "INV-H1-000004",
+    "INV-H1-000271",
+    "INV-H1-000348",
+    "INV-H1-000657",
+    "INV-H1-000675"
+  ],
+  "new_false_positives": [],
+  "perturbed_fraction_requested": 0.3,
+  "recall_after": 0.785714,
+  "recall_before": 0.904762,
+  "relative_recall_drop": 0.131579,
+  "scope": "Hospital 1 development partition. Wording is perturbed; every identifier, quantity, date and amount is left exactly as it is, so the difference is attributable to description drift alone.",
+  "seed": 20260919
+}

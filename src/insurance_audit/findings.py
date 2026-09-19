@@ -9,7 +9,7 @@ never suppress evidence that is itself the error.
 from collections import defaultdict
 
 from .io import INVOICE_COLUMNS, LINE_COLUMNS, integer, iso_date
-from .mapping import classify, names_no_contracted_service
+from .mapping import canonical_multiset, classify, names_no_contracted_service
 from .resolve import normalize
 
 # Category naming order for one invoice. The plan's date/identifier precedence
@@ -77,6 +77,11 @@ class Findings:
         # A key the reviewers accepted is never called unknown: their decision
         # stands over the matcher's.
         self.reviewed_keys = {r['key'] for r in mappings.get('records', []) if r['state'] == 'accepted'}
+        # Recognise a reviewed wording however its words are ordered or
+        # abbreviated: the reviewers accepted the description, not its spelling.
+        self.reviewed_wordings = {canonical_multiset(text, self.lexicon)
+                                  for r in mappings.get('records', []) if r['state'] == 'accepted'
+                                  for text in r.get('raw_descriptions', [])}
         self.reviewed_service = {r['key']: r['service_id'] for r in mappings.get('records', [])
                                  if r['state'] == 'accepted'}
         self.services = {s['id']: s for s in contract['services']}
@@ -147,6 +152,8 @@ class Findings:
         key = normalize(description)
         if key in self.reviewed_keys or not description:
             return False, None
+        if canonical_multiset(description, self.lexicon) in self.reviewed_wordings:
+            return False, None
         if key not in self.unknown_cache:
             unknown, evidence = names_no_contracted_service(description, self.contract['services'], self.lexicon)
             self.unknown_cache[key] = (unknown, evidence)
@@ -196,7 +203,10 @@ class Findings:
             for line in rows:
                 if line['service_date'] is None or not line['quantity'] or line['quantity'] <= 0:
                     continue
-                key = (header['patient_id'], line['service_date'], normalize(line['description']), line['quantity'])
+                # Match on the canonical wording, so reordering the words or
+                # swapping an abbreviation cannot hide a repeat.
+                key = (header['patient_id'], line['service_date'],
+                       canonical_multiset(line['description'], self.lexicon), line['quantity'])
                 groups[key].append((header['invoice_date'] or '', invoice_id, line))
         for key, items in groups.items():
             invoices = {i[1] for i in items}
@@ -208,7 +218,8 @@ class Findings:
                     continue
                 flagged[invoice_id].append(
                     {'line_id': line['line_id'], 'line_source': f"{line['source']}:{line['row']}",
-                     'patient_id': key[0], 'service_date': key[1], 'normalised_service': key[2], 'quantity': key[3],
+                     'patient_id': key[0], 'service_date': key[1], 'normalised_service': ' '.join(key[2]),
+                     'quantity': key[3],
                      'first_billed_on_invoice_id': earliest[1], 'clause': self.duplicate_clause})
         return flagged
 

@@ -123,6 +123,90 @@ def rank(description, services, lexicon):
     return scored
 
 
+def canonical_multiset(description, lexicon):
+    """The description's words, expanded and sorted, so wording order is irrelevant.
+
+    Reviewers accepted a wording, not a spelling of it. Reordering the words or
+    swapping an abbreviation for the word it stands for does not make it a
+    different description, so the reviewed decision must survive both.
+    """
+    expanded = []
+    for token in tokens(description):
+        forms = lexicon.get(token)
+        expanded.append(forms[0] if forms else token)
+    return tuple(sorted(expanded))
+
+
+def vocabulary(services, lexicon):
+    """Every word the contract itself uses, plus the reviewed abbreviations."""
+    words = {token for service in services for token in tokens(service['name'])}
+    words.update(lexicon)
+    words.update(form for forms in lexicon.values() for form in forms)
+    return words
+
+
+def one_edit_neighbours(token, words):
+    """Words that differ from this token by a single character.
+
+    Unlike `one_edit_apart` this has no length floor: it is used to ask whether
+    a word could be a mistyping of a contract word, not whether two words mean
+    the same thing.
+    """
+    found = set()
+    for word in words:
+        if abs(len(word) - len(token)) > 1 or len(token) < 3:
+            continue
+        if word == token:
+            continue
+        if len(word) == len(token):
+            if sum(a != b for a, b in zip(word, token)) == 1:
+                found.add(word)
+        else:
+            short, long_ = (token, word) if len(token) < len(word) else (word, token)
+            if any(long_[:i] + long_[i + 1:] == short for i in range(len(long_))):
+                found.add(word)
+    return found
+
+
+def repairable(description, services, lexicon, floor=NO_MATCH_FLOOR):
+    """Whether changing one character of one word would explain the description.
+
+    A description the contract cannot account for may be a claim about a service
+    that does not exist, or it may be a mistyping of one that does. Where a
+    single character separates it from a description the contract fully
+    explains, it is read as the mistyping.
+    """
+    billed = tokens(description)
+    words = vocabulary(services, lexicon)
+    names = [tokens(service['name']) for service in services]
+    for position, token in enumerate(billed):
+        for candidate in one_edit_neighbours(token, words):
+            repaired = billed[:position] + [candidate] + billed[position + 1:]
+            if any(coverage(repaired, name, lexicon) >= floor for name in names):
+                return True, {'position': position, 'billed_token': token, 'contract_word': candidate}
+    return False, None
+
+
+def unexplained(description, services, lexicon):
+    """The billed tokens the closest contracted service cannot account for."""
+    billed = tokens(description)
+    if not billed or not services:
+        return billed
+    best, _ = max(((coverage(billed, tokens(s['name']), lexicon), s['id']) for s in services),
+                  key=lambda pair: (pair[0], pair[1]))
+    closest = max(services, key=lambda s: (coverage(billed, tokens(s['name']), lexicon), s['id']))
+    remaining = list(tokens(closest['name']))
+    left = []
+    for token in billed:
+        for index, contracted in enumerate(remaining):
+            if token_matches(token, contracted, lexicon):
+                remaining.pop(index)
+                break
+        else:
+            left.append(token)
+    return left
+
+
 def best_coverage(description, services, lexicon):
     """The most of this description any single contracted service can explain."""
     billed = tokens(description)
@@ -134,10 +218,37 @@ def best_coverage(description, services, lexicon):
 
 
 def names_no_contracted_service(description, services, lexicon, floor=NO_MATCH_FLOOR):
-    """True when no service in the contract accounts for what was billed."""
+    """True when no service in the contract accounts for what was billed.
+
+    A word left unexplained only counts when the contract uses that word
+    somewhere else. "Adv Renal Consultation" leaves "renal" unexplained, and
+    renal is a specialty this contract sells in other combinations, so the
+    provider has named a service the contract does not offer. A word the
+    contract never uses anywhere is far more likely to be a corrupted or
+    reworded description than a claim about a service, and reporting it would
+    turn ordinary wording drift into a false positive.
+    """
     share, service_id = best_coverage(description, services, lexicon)
-    return share < floor, {'best_explained_share': round(share, 6), 'closest_service_id': service_id,
-                           'no_match_floor': floor}
+    if share >= floor:
+        return False, {'best_explained_share': round(share, 6), 'closest_service_id': service_id,
+                       'no_match_floor': floor, 'unexplained_tokens': []}
+    left = unexplained(description, services, lexicon)
+    known = vocabulary(services, lexicon)
+    foreign = sorted(set(left) - known)
+    evidence = {'best_explained_share': round(share, 6), 'closest_service_id': service_id,
+                'no_match_floor': floor, 'unexplained_tokens': sorted(set(left)),
+                'tokens_the_contract_never_uses': foreign}
+    if foreign:
+        evidence['withheld_reason'] = ('A word the contract never uses is wording drift, not a claim about a '
+                                       'service the contract lacks.')
+        return False, evidence
+    mistyped, repair = repairable(description, services, lexicon, floor)
+    if mistyped:
+        evidence['withheld_reason'] = ('One character separates this from a description the contract fully '
+                                       'explains, so it is read as a mistyping.')
+        evidence['single_character_repair'] = repair
+        return False, evidence
+    return True, evidence
 
 
 def classify(description, services, lexicon, min_score=MIN_SCORE, min_margin=MIN_MARGIN,
@@ -152,7 +263,11 @@ def classify(description, services, lexicon, min_score=MIN_SCORE, min_margin=MIN
     tied = [ident for value, ident in scored if value >= min_score and best - value < min_margin]
     explained, _ = best_coverage(description, services, lexicon)
     if explained < floor:
-        state, service_id, candidates = 'NO_MATCH', None, []
+        # Even a description the contract cannot account for has readings worth
+        # pricing: if every one of them finds the same fault, the fault holds
+        # whichever service was meant.
+        state, service_id = 'NO_MATCH', None
+        candidates = [ident for value, ident in scored if value >= CANDIDATE_FLOOR][:8]
     elif best < min_score:
         state, service_id, candidates = 'WEAK', None, [ident for value, ident in scored if value >= CANDIDATE_FLOOR][:8]
     elif margin >= min_margin:

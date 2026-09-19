@@ -1,0 +1,70 @@
+{
+  "any_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    }
+  ],
+  "details": [
+    {
+      "invoice_id": "INV-H1-000049",
+      "primary_family": "rule",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000151",
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "invoice_id": "INV-H1-000619",
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "invoice_id": "INV-H1-000646",
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    }
+  ],
+  "exclusive_total": 4,
+  "missed": 4,
+  "primary_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "rule",
+      "withheld_reason": "unresolved_exclusion"
+    }
+  ]
+}
