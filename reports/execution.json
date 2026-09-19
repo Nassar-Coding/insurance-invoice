@@ -1,23 +1,23 @@
 {
-  "elapsed_seconds": 71.470449,
+  "elapsed_seconds": 68.485521,
   "evaluation": {
     "check_partition_read": false,
     "status": "not_requested"
   },
-  "h1_attempt": "365ef45b49bc4150bb26b790e1eb5ef4",
+  "h1_attempt": "1880a317f1eb4d81b5ec485eb7529090",
   "hospital_opinions": {
-    "H1": 644,
-    "H2": 128,
-    "H3": 690,
+    "H1": 661,
+    "H2": 133,
+    "H3": 720,
     "H4": 460,
-    "H5": 603
+    "H5": 664
   },
   "model_calls": 0,
   "network_calls": 0,
   "python": "3.11.15",
   "scope": "prediction replay; optional development-only evaluation; no fresh LLM extraction",
   "status": "success",
-  "submission_rows": 1881,
-  "submission_sha256": "d3a6e6cff2ec72671fd508320c874d4b98817ff6d4457a8d034e6de09d89f081",
-  "target_attempt": "47a4462f6ab04217ae4e771264e7f24e"
+  "submission_rows": 1977,
+  "submission_sha256": "a230b72e5d857a4bfa4370ade75280534293e026815bc3a17d825282a8461f63",
+  "target_attempt": "3734dfa8b89644f7bd6c2228e4a3576a"
 }

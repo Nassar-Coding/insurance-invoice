@@ -30,14 +30,14 @@ def corrected_total(facts, priced, categories):
     """
     canonical = facts['canonical_header']
     billed = canonical['invoice_total_cents']
-    if facts['reused_invoice_id']:
-        # Lines cannot be attributed between the physical records sharing the
-        # identifier, so no line-level correction is supportable.
+    if facts['reused_invoice_id'] and facts['attribution'] is None:
+        # Nothing separates the lines of the records sharing the identifier, so
+        # no line-level correction is supportable.
         return billed, 'reused_identifier_canonical_billed_total', []
     total = 0
     contributions = []
     full = True
-    for line in facts['lines']:
+    for line in facts['payable_lines']:
         key = line_key(line['source'], line['row'])
         entry = {'source': line['source'], 'source_row': line['row'], 'line_id': line['line_id']}
         if 'cross_invoice_duplicate' in line['defects']:
@@ -59,7 +59,10 @@ def corrected_total(facts, priced, categories):
             return billed, 'unrecoverable_line_amount_billed_total', []
         total += line['line_total_cents']
         contributions.append(dict(entry, contribution_cents=line['line_total_cents'], basis='billed'))
-    return total, 'full_correction' if full else 'partial_correction', contributions
+    basis = 'full_correction' if full else 'partial_correction'
+    if facts['reused_invoice_id']:
+        basis = 'attributed_' + basis
+    return total, basis, contributions
 
 
 def every_reading(line, invoice, candidates, contract, context):
@@ -210,11 +213,14 @@ def audit(data, contract, mappings):
         rule_evidence = []
         grades = set()
         invariant = False
-        complete = canonical is not None and not facts['reused_invoice_id'] and bool(facts['lines'])
+        separable = not facts['reused_invoice_id'] or facts['attribution'] is not None
+        complete = canonical is not None and separable and bool(facts['payable_lines'])
         line_reasons = []
-        if canonical is not None and not facts['reused_invoice_id']:
+        if canonical is not None and separable:
             invoice = canonical['record']
-            for line in sorted(by_invoice[invoice_id], key=lambda l: (l.line_no, l.line_id, l.source_row)):
+            payable_ids = {l['line_id'] for l in facts['payable_lines']}
+            for line in sorted((l for l in by_invoice[invoice_id] if l.line_id in payable_ids),
+                               key=lambda l: (l.line_no, l.line_id, l.source_row)):
                 key = line_key(line.source, line.source_row)
                 sid, possible, grade = resolve(line.description, context.index, context.services)
                 entry = {'line_id': line.line_id, 'source': line.source, 'source_row': line.source_row,
@@ -229,6 +235,18 @@ def audit(data, contract, mappings):
                         reading_findings.append(found['finding'])
                         rule_evidence.append(dict(found, source_row=key))
                 if sid is None:
+                    # A description that names no contracted service has no
+                    # contracted rate either. Pricing it against whichever service
+                    # it resembles would put a fabricated figure on the row, so the
+                    # billed amount stands and only the naming is reported.
+                    if structure.unknown_service(line.description)[0]:
+                        reason = {'reason': 'unknown_service_has_no_contracted_rate', 'line_id': line.line_id,
+                                  'detail': {'description': line.description}}
+                        line_reasons.append(reason)
+                        entry.update(status='uncertain', reason=reason)
+                        complete = False
+                        trace['lines'].append(entry)
+                        continue
                     reading = classify(line.description, contract['services'], context.lexicon)
                     verdict = reconcile(every_reading(line, invoice, reading['candidates'], contract, context))
                     entry.update(mapping_state=reading['state'], every_reading=verdict['readings'],
@@ -283,6 +301,8 @@ def audit(data, contract, mappings):
                     result = line_result(line, service, price)
                     entry.update(status='supported', pricing=price, result=result)
                     priced[key] = result
+                    if 'daily_cap_exceeded' in result['error_categories']:
+                        qualifications.add('capped_quantity_substituted_for_an_unobserved_one')
                     categories.extend(result['error_categories'])
                     grades.add(grade)
                     invariant |= price['outcome_invariant_uncertainty']
@@ -293,7 +313,7 @@ def audit(data, contract, mappings):
                     entry.update(status='uncertain', reason=reason)
                     complete = False
                 trace['lines'].append(entry)
-        if any(l['status'] == 'quarantined' for l in facts['lines']):
+        if any(l['status'] == 'quarantined' for l in facts['payable_lines']):
             complete = False
         reasons.extend(line_reasons)
         # A fault every candidate reading agrees on is established evidence, so
@@ -353,7 +373,7 @@ def audit(data, contract, mappings):
                          amount_contributions=[{'source': l['source'], 'source_row': l['row'],
                                                 'line_id': l['line_id'],
                                                 'contribution_cents': priced[line_key(l['source'], l['row'])]['expected_total_cents'],
-                                                'basis': 'corrected'} for l in facts['lines']],
+                                                'basis': 'corrected'} for l in facts['payable_lines']],
                          unresolved_facts=[])
         traces.append(trace)
     return {'hospital': data.hospital, 'opinions': opinions, 'abstentions': abstentions, 'traces': traces,

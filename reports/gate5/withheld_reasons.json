@@ -1,0 +1,98 @@
+{
+  "H1_development": {
+    "any_reason_invoice_incidence": {
+      "ambiguous_service_mapping": 150,
+      "duplicate_service_day_allocation": 2,
+      "multiple_supported_rate_outcomes": 20,
+      "possible_duplicate_service_day": 6,
+      "unresolved_service_mapping": 13
+    },
+    "primary_reason": {
+      "ambiguous_service_mapping": 147,
+      "duplicate_service_day_allocation": 2,
+      "multiple_supported_rate_outcomes": 20,
+      "unresolved_service_mapping": 9
+    },
+    "withheld": 178
+  },
+  "H2": {
+    "any_reason_invoice_incidence": {
+      "ambiguous_service_mapping": 178,
+      "composite_dimension_unobserved": 146,
+      "multiple_supported_rate_outcomes": 934,
+      "unobserved_service_day_cap_allocation": 142,
+      "unresolved_service_mapping": 203
+    },
+    "primary_reason": {
+      "ambiguous_service_mapping": 60,
+      "composite_dimension_unobserved": 45,
+      "multiple_supported_rate_outcomes": 773,
+      "unobserved_service_day_cap_allocation": 41,
+      "unresolved_service_mapping": 73
+    },
+    "withheld": 992
+  },
+  "H3": {
+    "any_reason_invoice_incidence": {
+      "ambiguous_service_mapping": 106,
+      "composite_dimension_unobserved": 81,
+      "duplicate_service_day_allocation": 4,
+      "multiple_supported_rate_outcomes": 20,
+      "possible_duplicate_service_day": 6,
+      "unresolved_exclusion": 2,
+      "unresolved_service_mapping": 17
+    },
+    "primary_reason": {
+      "ambiguous_service_mapping": 98,
+      "composite_dimension_unobserved": 74,
+      "duplicate_service_day_allocation": 4,
+      "multiple_supported_rate_outcomes": 18,
+      "possible_duplicate_service_day": 6,
+      "unresolved_exclusion": 2,
+      "unresolved_service_mapping": 10
+    },
+    "withheld": 212
+  },
+  "H4": {
+    "any_reason_invoice_incidence": {
+      "ambiguous_service_mapping": 111,
+      "composite_dimension_unobserved": 93,
+      "duplicate_service_day_allocation": 3,
+      "multiple_supported_rate_outcomes": 217,
+      "possible_duplicate_service_day": 19,
+      "unresolved_exclusion": 11,
+      "unresolved_service_mapping": 47
+    },
+    "primary_reason": {
+      "ambiguous_service_mapping": 80,
+      "composite_dimension_unobserved": 72,
+      "duplicate_service_day_allocation": 3,
+      "multiple_supported_rate_outcomes": 177,
+      "possible_duplicate_service_day": 8,
+      "unresolved_exclusion": 8,
+      "unresolved_service_mapping": 27
+    },
+    "withheld": 375
+  },
+  "H5": {
+    "any_reason_invoice_incidence": {
+      "ambiguous_service_mapping": 220,
+      "composite_dimension_unobserved": 106,
+      "duplicate_service_day_allocation": 5,
+      "multiple_supported_rate_outcomes": 89,
+      "possible_duplicate_service_day": 26,
+      "unresolved_exclusion": 4,
+      "unresolved_service_mapping": 46
+    },
+    "primary_reason": {
+      "ambiguous_service_mapping": 183,
+      "composite_dimension_unobserved": 78,
+      "duplicate_service_day_allocation": 5,
+      "multiple_supported_rate_outcomes": 78,
+      "possible_duplicate_service_day": 14,
+      "unresolved_exclusion": 2,
+      "unresolved_service_mapping": 26
+    },
+    "withheld": 386
+  }
+}

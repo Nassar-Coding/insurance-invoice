@@ -5,6 +5,8 @@ from dataclasses import dataclass
 from datetime import date
 import hashlib
 import json
+from .findings import record_number
+from .mapping import CANDIDATE_FLOOR, rank
 from .io import INVOICE_COLUMNS, LINE_COLUMNS, integer, iso_date
 from .resolve import mapping_index,resolve
 
@@ -49,6 +51,34 @@ class Context:
             else:self.unlinked_headers.append(evidence)
         for entries in [*self.header_evidence.values(),self.unlinked_headers]:
             entries.sort(key=lambda h:(h['source'],h['row']))
+        # Where two records share an invoice identifier, the record number inside
+        # each line identifier says which one raised the line. The split is used
+        # only when every group's billed total matches a header's exactly, so a
+        # line's owning patient is then known rather than merely possible.
+        self._candidate_cache={}
+        self.line_owner={}
+        by_invoice=defaultdict(list)
+        for line in data.lines:by_invoice[line.invoice_id].append(line)
+        for invoice_id,rows in self.headers.items():
+            if len(rows)<2:continue
+            lines=by_invoice.get(invoice_id,[])
+            groups=defaultdict(list)
+            broken=False
+            for line in lines:
+                number=record_number(line.line_id)
+                if number is None:broken=True;break
+                groups[number].append(line)
+            if broken or len(groups)!=len(rows):continue
+            if sorted(sum(l.line_total_cents for l in g) for g in groups.values())!=sorted(r.invoice_total_cents for r in rows):continue
+            remaining=dict(groups);assignment={}
+            for header in sorted(rows,key=lambda r:(r.source,r.source_row)):
+                match=next((n for n,g in remaining.items() if sum(l.line_total_cents for l in g)==header.invoice_total_cents),None)
+                if match is None:assignment=None;break
+                assignment[(header.source,header.source_row)]=remaining.pop(match)
+            if not assignment:continue
+            for header in rows:
+                for line in assignment[(header.source,header.source_row)]:
+                    self.line_owner[line.line_id]=header.patient_id
         self.items=[];self.by_service=defaultdict(list)
         self.duplicate_line_ids=set(data.quality()['duplicate_line_ids'])
         self.quarantined_invoices={x['invoice_id'] for x in data.dispositions if x['status']=='quarantined'}
@@ -68,11 +98,32 @@ class Context:
                      f"{record['source']}:{record['source_row']}")
         for entries in self.by_service.values():entries.sort(key=lambda x:(x.day or '',x.line_id,x.key))
 
+    def plausible(self,description,candidates):
+        """Narrow an unresolved description to the services it could actually name.
+
+        A reviewed record that lists candidates keeps them. Otherwise the wording
+        is scored against the contracted names and only services it plausibly
+        denotes are kept. Treating an unrecognised description as though it could
+        be any service in the contract made every line on the patient's Service
+        Day a possible duplicate of it, which withheld whole invoices over a
+        single unreadable line.
+        """
+        if len(candidates)<len(self.services):return candidates
+        key=description or ''
+        if key not in self._candidate_cache:
+            scored=[i for value,i in rank(key,self.contract['services'],self.lexicon) if value>=CANDIDATE_FLOOR]
+            self._candidate_cache[key]=set(scored[:8]) if scored else set(self.services)
+        return self._candidate_cache[key]
+
     def add(self,line_id,invoice_id,description,day,quantity,key):
         sid,candidates,_=resolve(description,self.index,self.services)
+        if sid is None:candidates=self.plausible(description,candidates)
         headers=self.header_evidence.get(invoice_id,[])
         patients=frozenset(h['patient_id'] for h in headers if h['patient_id'] is not None)
         unknown=not headers or any(h['patient_id'] is None for h in headers) or bool(self.unlinked_headers)
+        owner=self.line_owner.get(line_id)
+        if owner is not None and not self.unlinked_headers:
+            patients=frozenset([owner]);unknown=False
         item=Item(key,line_id,invoice_id,sid,frozenset(candidates),patients,day,quantity,unknown)
         self.items.append(item)
         for service in candidates:self.by_service[service].append(item)

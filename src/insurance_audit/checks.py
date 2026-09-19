@@ -1,5 +1,5 @@
 """Supported non-price checks and explicit correction/abstention boundaries."""
-from .pricing import Uncertain
+from .pricing import Uncertain, half_up
 
 
 def validate_line_facts(line,invoice,service,contract,context):
@@ -19,6 +19,43 @@ def validate_line_facts(line,invoice,service,contract,context):
     return other
 
 
+def adjustment_ratios(service):
+    """Every adjustment this service's own clauses could apply, with its name."""
+    found=[]
+    if service.get('daily_premium'):found.append(('premium',service['daily_premium']['multiplier']))
+    weekend=service.get('weekend_multiplier')
+    if weekend and tuple(weekend)!=(1,1):found.append(('premium',weekend))
+    for table in ('facility_multipliers','tier_multipliers'):
+        for ratio in (service.get(table) or {}).values():
+            if tuple(ratio)!=(1,1):found.append(('unit_price',ratio))
+    for discount in service.get('volume_discounts') or []:found.append(('volume_discount',discount['multiplier']))
+    return found
+
+
+def rate_difference_category(price,billed_rate,service):
+    """Name the adjustment that accounts for a wrong unit rate.
+
+    A rate that disagrees with the contract is attributed to the step that
+    explains the difference: if applying one of this service's own adjustments
+    to the billed rate reaches the contracted rate, the provider left that
+    adjustment out; if applying it to the contracted rate reaches the billed
+    rate, they applied one the contract does not give. Anything no adjustment
+    explains stays a plain unit-price mismatch.
+    """
+    expected=price['rate']
+    if expected==billed_rate:return None
+    for stage in price.get('stages',[]):
+        if stage['operation']!='bundle':continue
+        base=(stage.get('base_rate') or {}).get('cents')
+        if base is not None and billed_rate==base and expected!=base:return 'bundle_not_applied'
+        if base is not None and expected==base and billed_rate!=base:return 'bundle_incorrectly_applied'
+    for name,ratio in adjustment_ratios(service):
+        if half_up(billed_rate,ratio)==expected:return name+'_omitted' if name!='unit_price' else 'unit_price_mismatch'
+        if half_up(expected,ratio)==billed_rate:
+            return name+'_incorrectly_applied' if name!='unit_price' else 'unit_price_mismatch'
+    return 'unit_price_mismatch'
+
+
 def line_result(line,service,price):
     quantity=line.quantity
     categories=[]
@@ -27,9 +64,14 @@ def line_result(line,service,price):
     # would put the same defect on a row twice.
     if line.line_total_cents!=line.quantity*line.unit_price_cents:categories.append('line_arithmetic_mismatch')
     if service['daily_cap'] is not None and quantity>service['daily_cap']:
-        quantity=service['daily_cap'];categories.append('daily_quantity_cap')
+        # The contract caps what is billable, but nothing in the record shows how
+        # many units were actually delivered below that cap, so the corrected
+        # amount is the capped quantity and the row carries a confidence penalty.
+        # One rule, applied everywhere: never guess a quantity the data omits.
+        quantity=service['daily_cap'];categories.append('daily_cap_exceeded')
     expected=price['rate']*quantity
-    if line.unit_price_cents!=price['rate']:categories.append('effective_rate_mismatch')
+    if line.unit_price_cents!=price['rate']:
+        categories.append(rate_difference_category(price,line.unit_price_cents,service) or 'unit_price_mismatch')
     if line.line_total_cents!=expected:categories.append('line_amount_mismatch')
     if price['excluded'] and (line.unit_price_cents!=0 or line.line_total_cents!=0):categories.append('nonbillable_service')
     return {'expected_total_cents':expected,'expected_unit_rate_cents':price['rate'],'billable_quantity':quantity,

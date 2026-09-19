@@ -75,7 +75,7 @@ class PricingTests(unittest.TestCase):
     def test_single_line_cap(self):
         name='Advanced Rheumatologic Laboratory Panel';row=line(name,quantity=5)
         data,maps,_=setup([invoice(total=row.line_total_cents)],[row]);r=audit(data,CONTRACT,maps)['opinions'][0]
-        self.assertEqual(r['expected_total_cents'],59100);self.assertIn('daily_quantity_cap',r['error_category'])
+        self.assertEqual(r['expected_total_cents'],59100);self.assertIn('daily_cap_exceeded',r['error_category'])
 
     def test_bundle_across_invoices_same_patient_day(self):
         names=['Advanced Cardiac Recovery Room Occupancy','Routine Cardiac Specimen Analysis']

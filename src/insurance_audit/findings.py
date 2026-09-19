@@ -6,6 +6,7 @@ finding therefore survives an unresolved service mapping, an ambiguous rate or
 an unobservable submission date: those uncertainties are recorded, but they
 never suppress evidence that is itself the error.
 """
+import re
 from collections import defaultdict
 
 from .io import INVOICE_COLUMNS, LINE_COLUMNS, integer, iso_date
@@ -24,10 +25,59 @@ PRECEDENCE = ('service_date_out_of_window', 'duplicate_invoice_id', 'service_dat
 AMOUNT_NEUTRAL = frozenset({'duplicate_invoice_id', 'contract_number_mismatch', 'hospital_reference_mismatch',
                             'wrong_unit_basis',
                             'service_date_after_invoice_date', 'service_date_out_of_window',
-                            'malformed_service_date', 'malformed_invoice_date'})
+                            'malformed_service_date', 'malformed_invoice_date',
+                            # The contract has no rate for a service it does not sell,
+                            # so naming one does not by itself change the amount due.
+                            'unknown_service'})
 
 AMOUNT_FIELDS = frozenset({'quantity', 'unit_price_cents', 'line_total_cents', 'invoice_total_cents', 'line_no'})
 DATE_FIELDS = frozenset({'invoice_date', 'admission_date', 'discharge_date'})
+
+
+RECORD_NUMBER = re.compile(r'^[A-Za-z0-9]+-L(\d+)-\d+$')
+
+
+def record_number(line_id):
+    """The physical record number a line identifier embeds, or None.
+
+    These snapshots number a line after the invoice record it belongs to, so a
+    line identifier says which physical record raised it even when two records
+    share one invoice identifier.
+    """
+    found = RECORD_NUMBER.match(line_id or '')
+    return found.group(1) if found else None
+
+
+def attribute(headers, lines):
+    """Split the lines of a reused identifier between its physical records.
+
+    The split is only used when it proves itself: the billed totals of the
+    groups must match the billed totals of the headers exactly, one for one. A
+    split that does not reconcile is discarded and the identifier stays
+    unattributable, because a wrong attribution would correct the wrong
+    invoice's amount.
+    """
+    groups = defaultdict(list)
+    for line in lines:
+        number = record_number(line['line_id'])
+        if number is None or line['line_total_cents'] is None:
+            return None
+        groups[number].append(line)
+    totals = sorted(h['invoice_total_cents'] for h in headers if h['invoice_total_cents'] is not None)
+    if len(totals) != len(headers) or len(groups) != len(headers):
+        return None
+    sums = sorted(sum(l['line_total_cents'] for l in rows) for rows in groups.values())
+    if sums != totals:
+        return None
+    remaining = dict(groups)
+    assignment = {}
+    for header in sorted(headers, key=lambda h: (h['source'], h['row'])):
+        match = next((number for number, rows in remaining.items()
+                      if sum(l['line_total_cents'] for l in rows) == header['invoice_total_cents']), None)
+        if match is None:
+            return None
+        assignment[(header['source'], header['row'])] = remaining.pop(match)
+    return assignment
 
 
 def quarantine_category(reason):
@@ -327,7 +377,22 @@ class Findings:
                 categories.add('invoice_total_mismatch')
                 evidence.append({'finding': 'invoice_total_mismatch', 'billed_line_total_sum_cents': billed_total,
                                  'billed_invoice_total_cents': canonical['invoice_total_cents']})
+        payable = lines
+        attribution = None
+        if reused and canonical is not None:
+            assignment = attribute(headers, lines)
+            if assignment is not None:
+                payable = assignment[(canonical['source'], canonical['row'])]
+                attribution = {'method': 'record number embedded in the line identifier',
+                               'validated_by': 'each group of lines totals exactly one header record',
+                               'canonical_source_row': f"{canonical['source']}:{canonical['row']}",
+                               'lines_attributed': [l['line_id'] for l in payable],
+                               'lines_on_the_other_records': [l['line_id'] for l in lines
+                                                              if l not in payable]}
+                evidence.append(dict(attribution, finding='duplicate_invoice_id',
+                                     note='The reuse is reported; the lines it confuses are separable here.'))
         evidence.sort(key=lambda e: (e['finding'], str(e.get('source_row') or ''), str(e.get('line_id') or '')))
         return {'categories': order(categories), 'evidence': evidence, 'canonical_header': canonical,
-                'lines': lines, 'headers': headers, 'reused_invoice_id': reused,
+                'lines': lines, 'payable_lines': payable, 'attribution': attribution,
+                'headers': headers, 'reused_invoice_id': reused,
                 'amount_affecting': sorted(set(categories) - AMOUNT_NEUTRAL)}

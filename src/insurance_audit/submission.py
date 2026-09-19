@@ -90,7 +90,13 @@ def validate_result(result,data,policy):
                 ensure(not contributions and row['expected_total_cents']==row['billed_total_cents'],'Unreconciled fallback amount')
             else:
                 keys=[(c['source'],c['source_row']) for c in contributions]
-                ensure(len(keys)==len(set(keys)) and set(keys)==physical,'Every physical line must contribute exactly once')
+                ensure(len(keys)==len(set(keys)),'A line may contribute only once')
+                if row['amount_basis'].startswith('attributed_'):
+                    # A reused identifier's lines are split between its physical
+                    # records, so only the canonical record's own lines contribute.
+                    ensure(set(keys)<=physical and keys,'Attributed lines must come from this identity')
+                else:
+                    ensure(set(keys)==physical,'Every physical line must contribute exactly once')
                 ensure(all(type(c['contribution_cents']) is int for c in contributions),'Non-integer line contribution')
                 ensure(sum(c['contribution_cents'] for c in contributions)==row['expected_total_cents'],'Emitted amount does not reconcile to the physical lines')
             if row['expected_total_cents']==row['billed_total_cents']:

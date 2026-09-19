@@ -1,0 +1,40 @@
+{
+  "any_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    }
+  ],
+  "details": [
+    {
+      "invoice_id": "INV-H1-000151",
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    },
+    {
+      "invoice_id": "INV-H1-000619",
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    }
+  ],
+  "exclusive_total": 2,
+  "missed": 2,
+  "primary_reason_crosstab": [
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "ambiguous_service_mapping"
+    },
+    {
+      "count": 1,
+      "primary_family": "pricing",
+      "withheld_reason": "multiple_supported_rate_outcomes"
+    }
+  ]
+}
