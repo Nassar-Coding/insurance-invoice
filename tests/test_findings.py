@@ -53,7 +53,7 @@ class Snapshot:
 
     def assess(self, headers, lines, invoice_id='I1'):
         data = self.load(headers, lines)
-        return Findings(data, self.contract).assess(invoice_id)
+        return Findings(data, self.contract, self.maps).assess(invoice_id)
 
     def balanced(self, lines):
         return sum(l['line_total_cents'] for l in lines)
@@ -146,7 +146,7 @@ class CrossInvoiceDuplicateTests(unittest.TestCase):
         headers = [f.header('I1', 'P1', total=f.balanced(first), invoice_date='2025-06-01'),
                    f.header('I2', 'P1', total=f.balanced(second), invoice_date='2025-06-02')]
         data = f.load(headers, first + second)
-        found = Findings(data, f.contract)
+        found = Findings(data, f.contract, f.maps)
         return {i: found.assess(i)['categories'] for i in ('I1', 'I2')}
 
     def test_the_later_invoice_is_reported_and_the_earlier_one_is_not(self):
@@ -156,7 +156,7 @@ class CrossInvoiceDuplicateTests(unittest.TestCase):
 
     def test_a_different_day_quantity_or_service_is_not_a_duplicate(self):
         for changes in [{'service_date': '2025-05-02'}, {'quantity': 2, 'line_total_cents': None},
-                        {'description': 'Some Other Wording Entirely'}]:
+                        {'description': 'Continuous Wnd Care'}]:
             with self.subTest(changes=changes):
                 changes = dict(changes)
                 if changes.get('line_total_cents') is None and 'quantity' in changes:
@@ -182,7 +182,7 @@ class CrossInvoiceDuplicateTests(unittest.TestCase):
 class DecisionLayerTests(unittest.TestCase):
     def test_a_finding_is_reported_although_another_line_is_unmapped(self):
         f = Snapshot()
-        lines = [f.line(), f.line(lid='L2', description='a description no contract contains')]
+        lines = [f.line(), f.line(lid='L2', description='Continuous Wnd Care')]
         headers = [f.header(total=f.balanced(lines), contract_number='INS-H4-2024-2049')]
         result = audit(f.load(headers, lines), f.contract, f.maps)
         opinion = result['opinions'][0]
@@ -193,7 +193,7 @@ class DecisionLayerTests(unittest.TestCase):
 
     def test_an_unmapped_line_keeps_its_billed_amount_in_a_partial_correction(self):
         f = Snapshot()
-        lines = [f.line(), f.line(lid='L2', description='a description no contract contains')]
+        lines = [f.line(), f.line(lid='L2', description='Continuous Wnd Care')]
         headers = [f.header(total=f.balanced(lines) + 500)]
         opinion = audit(f.load(headers, lines), f.contract, f.maps)['opinions'][0]
         self.assertEqual(opinion['error_category'], 'invoice_total_mismatch')
@@ -202,7 +202,7 @@ class DecisionLayerTests(unittest.TestCase):
 
     def test_an_arithmetic_line_is_recomputed_from_its_own_quantity_and_price(self):
         f = Snapshot()
-        lines = [f.line(description='a description no contract contains', quantity=3, line_total_cents=7)]
+        lines = [f.line(description='Continuous Wnd Care', quantity=3, line_total_cents=7)]
         opinion = audit(f.load([f.header(total=7)], lines), f.contract, f.maps)['opinions'][0]
         self.assertIn('line_total_arithmetic', opinion['error_category'].split(';'))
         self.assertEqual(opinion['expected_total_cents'], 3 * lines[0]['unit_price_cents'])
@@ -217,7 +217,7 @@ class DecisionLayerTests(unittest.TestCase):
 
     def test_every_withheld_invoice_still_carries_a_named_reason(self):
         f = Snapshot()
-        lines = [f.line(description='a description no contract contains')]
+        lines = [f.line(description='Continuous Wnd Care')]
         result = audit(f.load([f.header(total=f.balanced(lines))], lines), f.contract, f.maps)
         self.assertEqual(result['opinions'], [])
         self.assertTrue(all(a['reasons'] for a in result['abstentions']))

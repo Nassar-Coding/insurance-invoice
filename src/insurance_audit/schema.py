@@ -180,4 +180,9 @@ def load_bundle(project: Path,hospital: str):
     mappings=validate_mappings(json.loads((project/manifest['mapping_path']).read_text()),contract)
     require(contract['hospital']==hospital,'Cross-hospital contract')
     require(contract['review_state']=='accepted' and mappings['review_state']=='accepted','Contract or mappings not reviewed')
-    return contract,mappings,manifest
+    # The reviewed abbreviation lexicon travels with the bundle; the matcher
+    # needs it, and it carries no price, rate or label.
+    lexicon_path=next((rel for rel in manifest['artifacts'] if rel.endswith('lexicon_v1.json')),None)
+    lexicon=json.loads((project/lexicon_path).read_text()) if lexicon_path else {}
+    require(all(isinstance(k,str) and isinstance(v,list) for k,v in lexicon.items()),'Malformed lexicon')
+    return contract,dict(mappings,lexicon=lexicon),manifest

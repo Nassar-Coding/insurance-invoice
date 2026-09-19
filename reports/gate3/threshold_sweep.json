@@ -1,0 +1,63 @@
+{
+  "scope": "Hospital 1 development partition only. NO_MATCH_FLOOR applies to the share of billed tokens the closest contracted service name explains.",
+  "chosen": 0.9,
+  "reason": "Every floor from 0.85 to 1.00 gives the same development result: 8 of 9 unknown_service invoices reported with no false positive on the 580 clean development invoices. 0.90 is taken from the middle of that interval, so one unexplained token in a ten-token description is tolerated while the closest real unknown service, explained to 0.80, still reports.",
+  "sweep": [
+    {
+      "no_match_floor": 0.34,
+      "invoices_flagged": 0,
+      "unknown_service_detected": 0,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.5,
+      "invoices_flagged": 0,
+      "unknown_service_detected": 0,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.6,
+      "invoices_flagged": 6,
+      "unknown_service_detected": 6,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.7,
+      "invoices_flagged": 7,
+      "unknown_service_detected": 7,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.8,
+      "invoices_flagged": 7,
+      "unknown_service_detected": 7,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.85,
+      "invoices_flagged": 8,
+      "unknown_service_detected": 8,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 0.9,
+      "invoices_flagged": 8,
+      "unknown_service_detected": 8,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    },
+    {
+      "no_match_floor": 1.0,
+      "invoices_flagged": 8,
+      "unknown_service_detected": 8,
+      "unknown_service_support": 9,
+      "false_positives_on_clean_development": 0
+    }
+  ]
+}

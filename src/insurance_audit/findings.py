@@ -9,6 +9,7 @@ never suppress evidence that is itself the error.
 from collections import defaultdict
 
 from .io import INVOICE_COLUMNS, LINE_COLUMNS, integer, iso_date
+from .mapping import names_no_contracted_service
 from .resolve import normalize
 
 # Category naming order for one invoice. The plan's date/identifier precedence
@@ -16,8 +17,8 @@ from .resolve import normalize
 # remaining findings follow in a fixed order so output is deterministic.
 PRECEDENCE = ('service_date_out_of_window', 'duplicate_invoice_id', 'service_date_after_invoice_date',
               'malformed_service_date', 'malformed_invoice_date', 'malformed_amount',
-              'cross_invoice_duplicate', 'contract_number_mismatch', 'hospital_reference_mismatch',
-              'line_total_arithmetic', 'invoice_total_mismatch')
+              'cross_invoice_duplicate', 'unknown_service', 'contract_number_mismatch',
+              'hospital_reference_mismatch', 'line_total_arithmetic', 'invoice_total_mismatch')
 
 # Findings that do not, by themselves, change the payable amount.
 AMOUNT_NEUTRAL = frozenset({'duplicate_invoice_id', 'contract_number_mismatch', 'hospital_reference_mismatch',
@@ -67,9 +68,15 @@ def recover_date(raw, field):
 class Findings:
     """Per-hospital structural and term-window evidence, computed once."""
 
-    def __init__(self, data, contract):
+    def __init__(self, data, contract, mappings=None):
         self.contract = contract
         self.term = contract['term']
+        mappings = mappings or {}
+        self.lexicon = mappings.get('lexicon', {})
+        # A key the reviewers accepted is never called unknown: their decision
+        # stands over the matcher's.
+        self.reviewed_keys = {r['key'] for r in mappings.get('records', []) if r['state'] == 'accepted'}
+        self.unknown_cache = {}
         self.duplicate_clause = (
             'The same Service may not be billed twice for one Patient and Service Date, whether on one '
             'invoice or across several.' if contract['semantics']['duplicate_policy'] == 'abstain_repeated_service_day'
@@ -123,6 +130,22 @@ class Findings:
         for rows in self.lines.values():
             rows.sort(key=lambda r: (r['source'], r['row']))
         self.cross_invoice = self._cross_invoice_duplicates()
+
+    def unknown_service(self, description):
+        """Whether this description names no service the contract sells.
+
+        A confident no-match is the error, not a reason to abstain. The billed
+        wording is compared against every contracted service name, including the
+        ones added or restated by an amendment, since the contract bundle folds
+        amendments into one service list with effective dates.
+        """
+        key = normalize(description)
+        if key in self.reviewed_keys or not description:
+            return False, None
+        if key not in self.unknown_cache:
+            unknown, evidence = names_no_contracted_service(description, self.contract['services'], self.lexicon)
+            self.unknown_cache[key] = (unknown, evidence)
+        return self.unknown_cache[key]
 
     def canonical_header(self, invoice_id):
         """Latest-dated accepted header record; the documented choice for a reused identifier."""
@@ -239,6 +262,14 @@ class Findings:
                                      'quantity': line['quantity'], 'unit_price_cents': line['unit_price_cents'],
                                      'billed_line_total_cents': line['line_total_cents'],
                                      'arithmetic_line_total_cents': line['quantity'] * line['unit_price_cents']})
+            unknown, unknown_evidence = self.unknown_service(line['description'])
+            if unknown:
+                categories.add('unknown_service')
+                line['defects'].append('unknown_service')
+                evidence.append(dict(unknown_evidence, finding='unknown_service', source_row=key,
+                                     line_id=line['line_id'], billed_description=line['description'],
+                                     basis='No contracted service for this hospital accounts for every word '
+                                           'billed, across the whole service list including amendments.'))
             if key in duplicate_keys:
                 line['defects'].append('cross_invoice_duplicate')
             if line['line_total_cents'] is None:

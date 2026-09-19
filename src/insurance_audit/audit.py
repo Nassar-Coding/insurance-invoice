@@ -63,7 +63,7 @@ def corrected_total(facts, priced, categories):
 
 def audit(data, contract, mappings):
     context = Context(data, contract, mappings)
-    structure = Findings(data, contract)
+    structure = Findings(data, contract, mappings)
     by_invoice = defaultdict(list)
     for line in data.lines:
         by_invoice[line.invoice_id].append(line)

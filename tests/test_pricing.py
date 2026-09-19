@@ -160,12 +160,12 @@ class PricingTests(unittest.TestCase):
         self.assertEqual(interval_discounts(svc,{'lower':181,'upper':100000}),[(70,100)])
         self.assertEqual(interval_discounts(svc,{'lower':0,'upper':60}),[(1,1)])
         self.assertEqual(set(interval_discounts(svc,{'lower':60,'upper':61})),{(1,1),(88,100)})
-        row=line('Advanced Neurological Consultation');unknown=line(name,'I2','L2',description='unrecognized service')
+        row=line('Advanced Neurological Consultation');unknown=line(name,'I2','L2',description='Consultation Adv')
         data,maps,_=setup([invoice(total=14125),invoice('I2','P2')],[row,unknown])
         self.assertIn('I1',[r['invoice_id'] for r in audit(data,CONTRACT,maps)['opinions']])
 
     def test_unresolved_line_without_a_finding_still_withholds(self):
-        rows=[line('Advanced Neurological Consultation'),line('Advanced Neurological Consultation',lid='L2',description='unrecognized')]
+        rows=[line('Advanced Neurological Consultation'),line('Advanced Neurological Consultation',lid='L2',description='Consultation Adv')]
         total=sum(r.line_total_cents for r in rows)
         data,maps,_=setup([invoice(total=total)],rows);r=audit(data,CONTRACT,maps)
         self.assertEqual(len(r['opinions']),0);self.assertEqual(len(r['abstentions']),1)
