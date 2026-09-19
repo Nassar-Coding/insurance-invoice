@@ -1,0 +1,9 @@
+test_clean_omission_and_empty_confidence (test_cost_scorer.CostTests.test_clean_omission_and_empty_confidence) ... ok
+test_cost_omissions_and_clean_fp (test_cost_scorer.CostTests.test_cost_omissions_and_clean_fp) ... ok
+test_csv_duplicate_nonfinite_and_fraction_rejected (test_cost_scorer.CostTests.test_csv_duplicate_nonfinite_and_fraction_rejected) ... ok
+test_joint_reliability_and_tp_only_amounts (test_cost_scorer.CostTests.test_joint_reliability_and_tp_only_amounts) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK

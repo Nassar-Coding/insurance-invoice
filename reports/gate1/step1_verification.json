@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "development": {
+    "tp": 4,
+    "fn": 38,
+    "fp": 0,
+    "cost": 190
+  },
+  "full": {
+    "tp": 5,
+    "fn": 53,
+    "fp": 0,
+    "cost": 265
+  },
+  "submission_sha256": "2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c",
+  "h1_output_matches_gate0": true,
+  "scorer_unit_tests": 4,
+  "generalization_rerun": false,
+  "clean_checkout_run": false
+}

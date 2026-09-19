@@ -1,0 +1,3 @@
+{"partition": "development", "tp": 4, "fn": 38, "fp": 0, "cost": 190, "emitted": 169, "withheld": 453}
+{"partition": "full", "tp": 5, "fn": 53, "fp": 0, "cost": 265, "emitted": 250, "withheld": 663}
+{"partition": "check", "tp": 1, "fn": 15, "fp": 0, "cost": 75, "emitted": 81, "withheld": 210}

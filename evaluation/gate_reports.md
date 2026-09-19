@@ -73,3 +73,15 @@ Sampling rounds 70% to whole patients. Patients linked through a reused invoice 
 5. Delivery capability: the GitHub integration can create commits and update branches, but exposes no tag-creation operation; shell `git push --dry-run` fails because GitHub HTTPS credentials are unavailable. The local `gate0` tag is prepared on the final delivery commit. Publishing that tag to GitHub requires an authenticated `git push origin refs/tags/gate0` or equivalent user action. This does not invalidate the executed 0.1–0.5 results; it is an outstanding remote-tag delivery step.
 
 No Gate 1 scorer, decision layer, structural detector, mapping threshold, rule or pricing expansion has been implemented. Stop after this Gate 0 delivery and wait for the user's instruction to continue.
+
+
+## Gate 1 lean rebuild — step 1
+
+Gate 0 is closed by user instruction; A3 is waived, not newly passed. The prior unpublished Gate 1 checkpoint was lost during workspace maintenance. This rebuild publishes each step before proceeding. Clean-checkout verification is deferred to the Final Gate; no generalization experiment is rerun.
+
+- PASS: development 4 TP / 38 FN / 0 FP, cost 190; full H1 5 TP / 53 FN / 0 FP, cost 265. The authorized one-time check baseline is 1 TP / 15 FN / 0 FP, cost 75.
+- PASS: four synthetic scorer tests; regenerated H1 output matches the Gate 0 SHA-256.
+- PASS: submission SHA-256 remains `2a208c622dd60391b1aaa3d28ee2413103f02268707fb28079aac6c32ba5c99c`, byte-identical to `7a020c2`.
+- Decoy-proxy flags: not measured; the proxy set belongs to Gate 2.6.
+
+Evidence: `reports/gate1/step1_verification.json`, `cost_development.json`, `cost_full.json`, `scorer_tests.log`. Later rebuild steps add traces/histograms and register the baseline.

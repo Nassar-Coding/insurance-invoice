@@ -1,0 +1,20 @@
+{
+  "path": "/workspace/scratch/43a4aea2353c/insurance-invoice/runs/attempts/854446e41efe477da6db5b20c2e0ce42",
+  "run_id": "3e5db00c4a6bb38389d39d34a739cf87928027e0d8e6d23ea0a19a02e78fb156",
+  "results": {
+    "H1": {
+      "hospital": "H1",
+      "accounting": {
+        "raw_records": 12333,
+        "accepted_invoice_records": 918,
+        "accepted_line_records": 11409,
+        "quarantined_records": 6,
+        "unique_invoice_ids": 913,
+        "opinions": 250,
+        "abstentions": 663,
+        "context_records": 11415,
+        "orphan_line_count": 0
+      }
+    }
+  }
+}
