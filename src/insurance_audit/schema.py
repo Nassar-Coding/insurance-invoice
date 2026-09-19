@@ -19,9 +19,10 @@ def require(condition,message):
     if not condition:raise SchemaError(message)
 
 
-def keys(obj,expected,label):
+def keys(obj,expected,label,optional=frozenset()):
     require(isinstance(obj,dict),f'{label}: object required')
-    require(set(obj)==set(expected),f'{label}: unexpected/missing fields {set(obj)^set(expected)}')
+    missing=set(expected)-set(optional)-set(obj);extra=set(obj)-set(expected)
+    require(not missing and not extra,f'{label}: unexpected/missing fields {missing|extra}')
 
 
 def integer(v,label,low=0,high=10**15):
@@ -162,6 +163,42 @@ def validate_mappings(m,c):
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+
+def validate_rules(rules,contract):
+    """Check the reviewed cap and exclusion file against the contract it cites."""
+    keys(rules,{'hospital','schema_version','review_state','contract_number','contract_term','service_day',
+                'exclusion_direction','exclusion_boundary','daily_caps','exclusion_windows','scope',
+                'amendment_note'},'rules',optional={'amendment_note'})
+    require(rules['schema_version']=='1','Unsupported rules schema')
+    require(rules['review_state']=='accepted','Rules file is unaccepted')
+    require(rules['hospital']==contract['hospital'],'Cross-hospital rules file')
+    require(rules['contract_number']==contract['contract_number'],'Rules cite a different contract')
+    require(rules['contract_term']==list(contract['term']),'Rules cite a different term')
+    services={s['id']:s for s in contract['services']}
+    term=contract['term']
+    for row in rules['daily_caps']:
+        keys(row,{'service_id','service_name','maximum_units_per_patient_per_service_day','effective_from',
+                  'effective_to','refs'},'daily cap')
+        service=services.get(row['service_id'])
+        require(service is not None,'Cap names an unknown service')
+        require(service['daily_cap']==row['maximum_units_per_patient_per_service_day'],'Cap differs from the contract')
+        require(isinstance(row['maximum_units_per_patient_per_service_day'],int)
+                and row['maximum_units_per_patient_per_service_day']>0,'Cap must be a positive whole number')
+        require(term[0]<=row['effective_from']<=row['effective_to']<=term[1],'Cap effective range leaves the term')
+        require(row['refs'],'Cap without a clause citation')
+    capped={r['service_id'] for r in rules['daily_caps']}
+    require(capped=={s['id'] for s in contract['services'] if s['daily_cap'] is not None},'Cap coverage differs')
+    for row in rules['exclusion_windows']:
+        keys(row,{'service_id','service_name','anchor_service_id','anchor_service_name','window_days',
+                  'effective_from','effective_to','refs'},'exclusion window')
+        require(row['service_id'] in services and row['anchor_service_id'] in services,'Exclusion names an unknown service')
+        require(isinstance(row['window_days'],int) and row['window_days']>0,'Exclusion window must be positive whole days')
+        require(term[0]<=row['effective_from']<=row['effective_to']<=term[1],'Exclusion range leaves the term')
+        require(row['refs'],'Exclusion without a clause citation')
+    declared={(r['service_id'],r['anchor_service_id'],r['window_days']) for r in rules['exclusion_windows']}
+    require(declared=={(r['service'],r['anchor'],r['days']) for r in contract['exclusions']},'Exclusion coverage differs')
+    return rules
+
 def load_bundle(project: Path,hospital: str):
     require(hospital in {'H1','H2','H3','H4','H5'},'Unknown hospital')
     path=project/f'contracts/{hospital}.bundle.json'
@@ -182,6 +219,9 @@ def load_bundle(project: Path,hospital: str):
     require(contract['review_state']=='accepted' and mappings['review_state']=='accepted','Contract or mappings not reviewed')
     # The reviewed abbreviation lexicon travels with the bundle; the matcher
     # needs it, and it carries no price, rate or label.
+    rules_path=project/f"contracts/rules_{Path(manifest['contract_path']).stem}.json"
+    rules=validate_rules(json.loads(rules_path.read_text()),contract) if rules_path.is_file() else None
+    contract['rules']=rules
     lexicon_path=next((rel for rel in manifest['artifacts'] if rel.endswith('lexicon_v1.json')),None)
     lexicon=json.loads((project/lexicon_path).read_text()) if lexicon_path else {}
     require(all(isinstance(k,str) and isinstance(v,list) for k,v in lexicon.items()),'Malformed lexicon')
