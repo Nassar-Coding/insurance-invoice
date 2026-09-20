@@ -18,7 +18,7 @@ Where a line's wording names more than one service, it is priced under every can
 
 ## Ambiguities left unresolved
 
-H4's clause never says whether volume utilisation aggregates across patients. The better reading accounts for 94.4% of its lines, below the 98% bar, so the stage stays ambiguous. H5's two facility readings are indistinguishable at 97.2% each, so its billing does not choose between them. Both leave those invoices withheld rather than decided on a guess. Where a billed quantity exceeds a daily cap the delivered quantity is unobservable: the corrected amount is the capped quantity, and the row is penalised in confidence rather than guessed.
+H4's clause never says whether volume utilisation aggregates across patients. The better reading accounts for 94.4% of its lines, below the 98% bar, so the stage stays ambiguous. H5's facility comparison is vacuous: facility_source only sets a label, so the alternative reading was never exercised and both score 97.2%. The stage is not adopted and those invoices stay withheld; making the comparison real is the first next step. Where a billed quantity exceeds a daily cap the delivered quantity is unobservable: the corrected amount is the capped quantity, and the row is penalised in confidence rather than guessed.
 
 ## Standing rules
 

@@ -1,24 +1,24 @@
 # AI assistance
 
-AI assistance was used throughout: to interpret all five contracts, propose and
-review service mappings, design the finite schema and interpreter, write code and
-tests, investigate failures, evaluate results, and prepare documentation.
-Deterministic table and description processing assisted acquisition. Contract and
-mapping review during acquisition was part of implementation; it was not an
-independent review.
+AI assistance was used throughout — **OpenAI and Anthropic models, for research
+and diagnosis, planning, contract interpretation, code and tests**. Deterministic
+table and description processing assisted acquisition. Contract and mapping
+review during acquisition was part of implementation; it was not an independent
+review.
 
-## Which assistant did what
+## Which phase used which
 
-| Phase | Assistant | Work |
+| Phase | Model | Work |
 |---|---|---|
-| Acquisition, Gates 0–1 | **Codex** | Contract extraction and review, service mapping and its v2 revision, the schema and interpreter, the original submission, then the portability/independence invariants and the measurement rebuild. |
-| Gates 2–9 | **Claude Code** | The structural and term-window layer, the four-state matcher, contract-rule checks, the pricing engine, confidence tiers, the decoy and distribution audit, the held-out read and freeze, the population-consistency resolution, and this documentation refresh. |
-| Throughout | **Research assistance** (conversational) | Diagnosing why the original submission scored as it did, reading the leaderboard and cost metric, and drafting the plan that the gates implement. It wrote no code and touched no artifact in this repository. |
+| Acquisition, Gates 0–1 | an **OpenAI** model, through its coding agent | Contract extraction and review, service mapping and its v2 revision, the schema and interpreter, the original submission, then the portability/independence invariants and the measurement rebuild. |
+| Gates 2–10 | an **Anthropic** model, through its coding agent | The structural and term-window layer, the four-state matcher, contract-rule checks, the pricing engine, confidence tiers, the decoy and distribution audit, the held-out read and freeze, the population-consistency resolution, the documentation refresh and the repository cleanup. |
+| Throughout | an **Anthropic** model, conversationally | Research and diagnosis: why the original submission scored as it did, reading the cost metric, and drafting the plan the gates implement. It wrote no code and touched no artifact in this repository. |
 
 ## How the work was run
 
-The original submission placed 29th at a cost of 1395. The organisers granted a
-revisit window afterwards, and everything from Gate 2 onward was done inside it.
+The original submission was completed by the original deadline and placed 29th
+at a cost of 1395. The organisers granted a revisit window afterwards, and
+everything from Gate 2 onward was done inside it.
 That work followed one loop, repeated per gate:
 
 1. **Plan.** [docs/Revised_Plan_Rank29_to_Top3.md](Revised_Plan_Rank29_to_Top3.md)

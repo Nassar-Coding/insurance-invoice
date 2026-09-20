@@ -8,23 +8,23 @@
   "documents": {
     "decision_log": {
       "body_point_size": 10.4,
-      "extracted_text_characters": 3604,
+      "extracted_text_characters": 3679,
       "extracted_text_check": "passed",
-      "markdown_sha256": "b6f88ef69c6e6796342ecb51f7cf2eb8eb981a30d228c77dc3470fda522cc779",
+      "markdown_sha256": "1fca9a032389a3540ad10a240b38ebd52844be7ed0fac001e9eb367a0938eb3a",
       "page_limit": 1,
       "pages": 1,
       "path": "reports/decision_log.pdf",
-      "sha256": "1698f38658fe1f420945c8e4e12dab835fc0b3c75fbf4bb02dac2271be29c386"
+      "sha256": "d94753dd1e04a500baefdaca7497e0daac63004c634bb2fef49c03b9291fa1b9"
     },
     "submission_writeup": {
       "body_point_size": 10.0,
-      "extracted_text_characters": 8621,
+      "extracted_text_characters": 8574,
       "extracted_text_check": "passed",
-      "markdown_sha256": "b15dbe66721018f190799d4f42d7415df9687232f77bb0ed5cc5520d840f8f10",
+      "markdown_sha256": "879374a01158350fd3a3fc9be8c4871006abe4090c8238e9e5b1864cde2855c4",
       "page_limit": 2,
       "pages": 2,
       "path": "reports/submission_writeup.pdf",
-      "sha256": "0f0e09cdf7620921c3e1bd16b6e255a07693854b1d05cf923ae5ce5869adcacb"
+      "sha256": "a9c2b78b539dc6b1b023965649a1bb53996979e53d3525a76a0b14cb5e53def7"
     }
   },
   "status": "page-count and text checks passed"
