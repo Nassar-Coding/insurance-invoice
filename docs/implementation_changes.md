@@ -50,4 +50,4 @@ All 1,132 H2 headers contain admission/discharge dates. Missing facts are actual
 
 ## Historical result recovery
 
-One older diagnostic H2 output differs between the original Git history and the recovered archive: the Git copy is truncated; the archive copy parses and matches that attempt's recorded checksum. An initial interpretation reversed these locations and was corrected after separate parse/hash checks. Both versions remain identified in [the history index](../evidence/history/README.md). Neither is a current result; no historical output was repaired or used to replace current evidence.
+One older diagnostic H2 output differs between the original Git history and the recovered archive: the Git copy is truncated; the archive copy parses and matches that attempt's recorded checksum. An initial interpretation reversed these locations and was corrected after separate parse/hash checks. Both versions were identified in the history archive, which was removed at the Gate 10 cleanup and remains recoverable at the `gate9` tag. Neither is a current result; no historical output was repaired or used to replace current evidence.
