@@ -1,6 +1,8 @@
 # Insurance invoice auditing
 
-LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU. Gate 1 adds measurement and decision-trace reports to the Gate 0 fallback; detection, pricing, mapping and confidence rules have not been expanded.
+LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU.
+
+On Hospital 1, the only labelled hospital, the audit reaches **40 of 42 development errors and 16 of 16 check errors with no false positive on either partition** (cost 10 and 0 under the ranking metric `5·FN + FP`), amount exact match 0.925 and 0.875, and no flag on any of the 184 frozen decoy proxies. `submission.csv` carries 1,977 rows for Hospitals 2-5 with 249 flags. See **[EVALUATION_REPORT.md](EVALUATION_REPORT.md)** for per-category results, the four systematic failure modes, every contract reading the audit relies on, what was not attempted, and an honest account of the coverage shortfall against the ~285 errors the scored set is stated to contain.
 
 ## Reproduce
 
@@ -14,7 +16,10 @@ python -m pip check
 PYTHONPATH=src python -m insurance_audit reproduce
 PYTHONPATH=src python -m insurance_audit verify-submission
 python tools/run_checks.py local
+python tools/validate_submission.py
 ```
+
+`validate_submission.py` re-reads the source invoices and checks `submission.csv` independently of the exporter, so a fault in the exporter cannot hide behind its own accounting: column order, flag domain, confidence range, integer cents, one row per identifier, Hospitals 2-5 only, and billed totals against the source.
 
 `reproduce` audits all five hospitals and exports complete opinions for H2–H5 to `submission.csv`. It reads the current files in `data/source/invoices/`; no invoice-ID list, recorded input fingerprint, label file or partition manifest is required. Hashes remain provenance metadata. Finite-schema, source-row accounting, complete-line and monetary validation remain enforced. A batch with no supported target opinions produces a valid header-only CSV rather than crashing or inventing clean rows.
 
