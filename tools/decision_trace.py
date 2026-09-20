@@ -140,7 +140,7 @@ def write_trace(project, path, labels_path, families_path):
         'orphans':'Lines without a recoverable header identity remain in original input-quality accounting.'}
     # Measurement must not touch the submission; the Gate 0 comparison is
     # reported rather than enforced, because Gate 2 changes predictions by design.
-    expected=json.loads((project/'evaluation/gate0/development_and_preservation.json').read_text())['matched_output_sha256']
+    expected=json.loads((project/'reports/gates/gate0/development_and_preservation.json').read_text())['matched_output_sha256']
     if sha(project/'submission.csv')!=before:
         raise ValueError('Measurement changed the challenge submission')
     summary['runtime_outputs_identical_to_gate0']=hashes==expected

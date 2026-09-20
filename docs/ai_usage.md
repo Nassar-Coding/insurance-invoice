@@ -57,7 +57,9 @@ acquisition is separate from deterministic reproduction and is not guaranteed to
 recreate identical schemas. An exact API model identifier and token usage were not
 recorded.
 
-Independent technical audit reports and their execution evidence are preserved
-unchanged under [governance/audits/](../governance/audits/README.md). Their
-findings and the resulting corrections are summarized in
-[implementation_report.md](../reports/implementation_report.md).
+Two independent technical audits were run against the original implementation,
+and their findings were corrected and verified before the gated rebuild began.
+What they found and what changed is recorded in
+[implementation_changes.md](implementation_changes.md); their own report packages
+and execution logs described an implementation that no longer exists, so they
+were removed at the Gate 10 cleanup and remain recoverable at the `gate9` tag.

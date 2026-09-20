@@ -20,7 +20,7 @@ introductory wording. Acquisition manifests in `reports/` record prompt/source
 hashes. Raw contract and mapping candidates, source reviews, accepted bundles and
 earlier schema/mapping versions preserve the relationship from instruction to
 accepted artifact. The H1 revision is documented in
-`reports/H1_mapping_change_v2.json` and D007 in `docs/decision_register.md`.
+`reports/acquisition/H1_mapping_change_v2.json` and D007 in `docs/decision_register.md`.
 
 ## The gate sequence
 

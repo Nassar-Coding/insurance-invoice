@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "charset-normalizer": "3.4.4",
+    "pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "reportlab": "4.4.9"
+  },
+  "document": {
+    "extracted_text_characters": null,
+    "markdown_sha256": "b6f88ef69c6e6796342ecb51f7cf2eb8eb981a30d228c77dc3470fda522cc779",
+    "page_limit": 1,
+    "pages": 1,
+    "path": "reports/decision_log.pdf",
+    "sha256": "45e3ede97ba8ba1ed42eb36961ec4368547af49a0f889872d5444fcd51ec1a9c"
+  },
+  "extracted_text_check": "skipped: pypdf did not import",
+  "status": "page-count check passed"
+}

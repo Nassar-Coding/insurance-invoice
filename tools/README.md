@@ -1,13 +1,24 @@
 # Utilities
 
-Current execution uses `python -m insurance_audit reproduce`, `verify-submission` and `tools/run_checks.py local`. The additional clean-clone checker is `publishing/check_reproduction.py`; current PDF rendering uses `publishing/render_delivery_documents.py`.
+Everything the root [README](../README.md) asks you to run:
 
-`reproduce_with_evidence.py` verifies that prediction/export cannot read labels and that replay makes no network calls. `inspect_bundle_traces.py` checks bundle source and partner evidence.
+| Tool | What it does |
+|---|---|
+| `run_checks.py` | Runs the whole test suite and records its result. `python tools/run_checks.py local` |
+| `validate_submission.py` | Re-reads the source invoices and checks `submission.csv` independently of the exporter. |
+| `cost_scorer.py` | Scores Hospital 1 against its labels: true positives, misses, false positives, cost, amount exact match and calibration error. |
+| `generalize.py` | Label-free portability: re-identified invoices, subsampled patients and perturbed descriptions must still produce a valid submission. |
+| `generalize_recall.py` | The same perturbation, measured for recall loss and new false positives. |
+| `decision_trace.py` | Per-invoice decision traces, withheld-reason histograms and the miss cross-tab. |
+| `mine_decoy_proxies.py` | Mines and freezes the decoy proxy set that every gate is checked against. |
+| `fit_confidence.py` | Fits the confidence tiers; its output is reviewed before it is frozen into `evaluation/confidence_policy.json`. |
+| `register_baseline.py` | Appends a measured cost to `evaluation/baseline_cost.json`. Later gates append; it refuses to overwrite. |
+| `render_decision_log.py` | Renders `reports/decision_log.md` to a one-page PDF. Optional, and the only tool here that needs `requirements-docs.txt`. |
 
-The acquisition, mapping revision, review recording, acceptance and confidence-freeze scripts preserve how the saved artifacts were produced. They are historical acquisition utilities, not steps in ordinary replay. Their descriptive strings reflect the original acquisition records. Running them may replace reviewed artifacts and would require a new technical review; do not run them just to reproduce the submission.
+## Acquisition
 
-`verify_current_evidence.py`, `verify_audit_corrections.py` and `check_clean_reproduction.py` retain historical regression checks whose original attempt paths are in the [history archive](../evidence/history/README.md). Use a separate restored historical checkout for those comparisons. The current 75-test suite and clean-clone checker require no history restoration.
-
-## Gate 0 update
-
-The current prediction commands and supported Python range are in the root README. Use `generalize.py` for label-free portability checks. The original publishing and clean-clone scripts above describe the prior baseline and are not current portability gates. Invoice-specific historical revision/diagnostic scripts `review_h1_mapping_v2.py` and `verify_audit_corrections.py` have moved to `tests/historical_tools/`. They are not called by prediction replay.
+`acquisition/` preserves how the saved contract and mapping artifacts were
+produced — extraction, review recording, acceptance, the mapping revision and
+the confidence freeze. They are provenance, not steps in ordinary replay.
+Running one may replace a reviewed artifact and would require a fresh technical
+review, so do not run them to reproduce the submission.

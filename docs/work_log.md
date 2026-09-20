@@ -2,7 +2,7 @@
 
 ## Input handling and initial execution
 
-The first ingestion test incorrectly assumed every H1 line had a valid date. It was corrected to reconcile accepted and quarantined records: 11,409 typed H1 lines plus six malformed dates, with 35 malformed-date lines across all hospitals. Raw invalid values remain available to uncertainty handling. The initial CLI run also exposed a three-value bundle return unpacked into two variables; fixing the caller allowed execution of all 913 H1 identities. The failed attempt is retained in the historical Git bundle.
+The first ingestion test incorrectly assumed every H1 line had a valid date. It was corrected to reconcile accepted and quarantined records: 11,409 typed H1 lines plus six malformed dates, with 35 malformed-date lines across all hospitals. Raw invalid values remain available to uncertainty handling. The initial CLI run also exposed a three-value bundle return unpacked into two variables; fixing the caller allowed execution of all 913 H1 identities. The failed attempt is recorded here; its artifacts were removed at the Gate 10 cleanup and remain recoverable in the Git history.
 
 ## Mapping revision and evaluation
 
@@ -18,4 +18,4 @@ AUD-01 preserves quarantined-header patient ownership in cross-invoice context; 
 
 ## Reproducibility
 
-Independent verification confirmed 75 passing tests, clean replay and an unchanged 340-row CSV. Guarded execution observed no label access during prediction/export and no network access. Full-hospital permutation and result-hash comparisons passed. [final_reproduction_result.md](../reports/final_reproduction_result.md) records the latest documented-command verification. Earlier failures, mapping versions and audit records remain historical evidence, including the older H2 archive discrepancy explained in [the history index](../evidence/history/README.md).
+Independent verification confirmed 75 passing tests, clean replay and an unchanged 340-row CSV. Guarded execution observed no label access during prediction/export and no network access. Full-hospital permutation and result-hash comparisons passed. That describes the original implementation. The current verification — fresh clone, reproduction, 175 tests, submission hash and the independent submission validator — is in [EVALUATION_REPORT.md](../EVALUATION_REPORT.md) and under [reports/gates/](../reports/gates/).

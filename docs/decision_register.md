@@ -16,7 +16,7 @@ This register records source interpretations and technical revisions. Decision i
 
 - Expected: the first implementation test incorrectly assumed all 11,415 raw H1 lines would become accepted typed lines.
 - Observed: 11,409 accepted H1 lines + six malformed dates, including `2025-06-31` and `not-a-date`; 35 date-malformed lines across all hospitals. No rows were lost. Reused IDs have different patients/totals rather than identical headers.
-- Evidence: `reports/tests_inputs_initial_failure.json`, `reports/input_quality.json`.
+- Evidence: `reports/acquisition/input_quality.json`.
 - Decision: fix the test to reconcile accepted + quarantined counts; preserve raw invalid dates and their possible contextual influence. Omit conflicting-ID invoice opinions because one output total cannot be established. Do not guess patient ownership from line-ID formatting or silently normalize impossible dates.
 - Required invariant: accepted and quarantined records together account for every raw occurrence.
 

@@ -16,4 +16,4 @@ H2 emitted no complete opinion at all until Gate 2, because a single unresolved 
 
 Unresolved mappings, compound quantity dimensions, conflicting identities, context uncertainty and nonunique correction allocations remain explicit omissions. H3/H5 exclusion direction and boundaries, H3 settlement chronology, H4 patient scope and H5 invoice-facility projection retain the qualifications in the [decision log](../reports/decision_log.md).
 
-The repository includes runnable code and pinned dependencies, `submission.csv`, H1 evaluation and failure analysis, versioned technical prompts, a one-page decision log and a two-page write-up. [Reproduction instructions](../README.md) regenerate the predictions from saved reviewed artifacts.
+The repository includes runnable code and pinned dependencies, `submission.csv`, Hospital 1 evaluation and failure analysis in [EVALUATION_REPORT.md](../EVALUATION_REPORT.md), every versioned technical prompt under [prompts/](../prompts/README.md), and the one-page [decision log](../reports/decision_log.md). [Reproduction instructions](../README.md) regenerate the predictions from saved reviewed artifacts.

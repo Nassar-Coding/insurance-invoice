@@ -6,20 +6,20 @@ This gate observes the unchanged Gate 0 predictor. User instructions close Gate 
 
 ```bash
 PYTHONPATH=src python -m insurance_audit audit --hospitals H1
-python tools/cost_scorer.py --export-current-h1 reports/gate1/h1_predictions.csv --partition development --output reports/gate1/cost_development.json
+python tools/cost_scorer.py --export-current-h1 reports/gates/gate1/h1_predictions.csv --partition development --output reports/gates/gate1/cost_development.json
 ```
 
 The evaluation export includes H1 only; it must never replace the root `submission.csv`. `--submission FILE`, `--labels FILE` and `--families FILE` accept explicit inputs. Full/check partitions require `--allow-heldout-baseline` and are authorized only for this Gate 1 baseline or the Final Gate. After Gate 1, do not reopen check/full until the Final Gate.
 
 Omitted errors count as false negatives. Clean omissions cost zero and carry no confidence. Amount metrics use true positives only. Five-bin reliability measures the existing correct-flag AND exact-amount event, not P(error). Category tables measure detection on invoices carrying each label; primary families are mutually exclusive. Hospital distributions describe only the supplied CSV, never secretly borrow predictions from other runs.
 
-Measured results, input predictions and scorer test output are under `reports/gate1/`. No detection, mapping, pricing, confidence or withholding change is made.
+Measured results, input predictions and scorer test output are under `reports/gates/gate1/`. No detection, mapping, pricing, confidence or withholding change is made.
 
 ## Step 2: decision trace and withholding
 
 ```bash
 PYTHONPATH=src python -m insurance_audit audit --hospitals H2 H3 H4 H5
-python tools/cost_scorer.py --submission reports/gate1/h1_predictions.csv --partition development --output reports/gate1/trace_development_score.json --trace reports/gate1/decision_trace.jsonl.gz
+python tools/cost_scorer.py --submission reports/gates/gate1/h1_predictions.csv --partition development --output reports/gates/gate1/trace_development_score.json --trace reports/gates/gate1/decision_trace.jsonl.gz
 ```
 
 `--trace` observes all five current hospital runs, independently of the CSV being scored. The compressed JSONL has one decision per recoverable invoice identity and includes every linked physical source line. Quarantined or early-skipped lines have explicit posthoc lookup provenance. An orphan without a header stays in original input-quality accounting.

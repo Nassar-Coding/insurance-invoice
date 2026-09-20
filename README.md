@@ -47,7 +47,7 @@ python tools/generalize.py
 
 The harness uses a temporary project with unchanged executable code, contract records and mappings, without labels or a split manifest. For every hospital it re-IDs invoices, keeps approximately 70% of patients with their full histories, shuffles rows and perturbs 30% of descriptions. Reused-ID connected patient groups stay together. Perturbations include case, whitespace, abbreviation swaps, separator/token order and one-character non-code typos; service-code preservation/removal is balanced across perturbed rows.
 
-It executes the public reproduction command and validates output schema, identity accounting, traces, money, confidence and submission contents. Results are written to `reports/generalization_gate0.json` and its log.
+It executes the public reproduction command and validates output schema, identity accounting, traces, money, confidence and submission contents. Results are written to `reports/generalize.json` and its log.
 
 Recall under the same perturbations is measured separately:
 
@@ -75,15 +75,22 @@ The original pre-Gate-2 snapshot hashed to `2a208c62…5c99c` and produced 340 o
 
 - `src/insurance_audit/`: fixed interpreter, validation, export and optional evaluation.
 - `contracts/`, `mappings/`: reviewed records, original candidates and revisions.
-- `data/source/`: original challenge contracts, CSV inputs, H1 labels and template.
+- `data/source/`: the challenge's own contracts, CSV inputs, Hospital 1 labels and submission template, unmodified.
+- `runs/`: written by a reproduction, never read by one; a fresh clone holds only its README.
 - `prompts/`: every prompt the work was done under, verbatim — the four acquisition prompts and one per gate — with the sequence and what changed between iterations in [prompts/README.md](prompts/README.md).
-- `tests/`: regression fixtures; `tests/evaluation/` contains evaluation-only ID lists; `tests/historical_tools/` preserves earlier invoice-specific diagnostic utilities.
-- `evaluation/gate_reports.md`: current gate decisions, measured results and discrepancies.
-- `reports/`: generated metrics, coverage and technical evidence, with one summary per gate under `reports/gate<N>/`. [reports/decision_log.md](reports/decision_log.md) is the one-page record of every contract ambiguity and what was decided. Earlier reports describe their dated audited implementation.
-- `docs/decision_register.md`: contract interpretations and unresolved facts.
-- `evidence/history/`, `governance/audits/`: original history and independent audits; not replay dependencies.
+- `tests/`: the 175-test suite; `tests/evaluation/` holds the partition manifest, frozen decoy proxies and family coding — evaluation evidence, never prediction inputs.
+- `evaluation/`: the two files the runtime itself reads — `confidence_policy.json`, frozen and read by the exporter, and `baseline_cost.json`, the append-only cost register.
+- `reports/`: [decision_log.md](reports/decision_log.md), the one-page record of every contract ambiguity and what was decided; [gates/](reports/gates/), one folder of evidence per gate plus the Final Gate's scorer, validator and generalization output; and `acquisition/`, how the reviewed contract and mapping artifacts were produced. [reports/README.md](reports/README.md) indexes it.
+- `docs/`: [ai_usage.md](docs/ai_usage.md) (which assistant did what, and how the work was run), [architecture.md](docs/architecture.md), [decision_register.md](docs/decision_register.md), the input/CLI contracts, and [the plan](docs/Revised_Plan_Rank29_to_Top3.md) the gate prompts implement.
 
-Original publishing/closure scripts compare exact historical files, Python versions and already exposed check results. They are historical verification tools, not the current reproduction commands. Optional PDF dependencies in `requirements-docs.txt` remain separate from the dependency-free prediction runtime, and `reportlab` is not available in this environment: `reports/decision_log.pdf` therefore still renders the pre-Gate-9 decision log. **The markdown is authoritative**; regenerating the PDF needs `pip install -r requirements-docs.txt` and `python publishing/render_delivery_documents.py`.
+`reports/decision_log.pdf` is rendered from `reports/decision_log.md`, and `reports/decision_log_render.json` records the page count and both files' hashes so a reader can confirm the two match. The markdown is authoritative. Re-render with:
+
+```bash
+python -m pip install -r requirements-docs.txt
+python tools/render_decision_log.py
+```
+
+That is the only command in the project with a dependency: prediction, evaluation and the test suite run on the standard library alone.
 
 ## How it got here
 
@@ -99,4 +106,4 @@ The first submission placed 29th at a cost of 1395. The work since was run in ga
 | 8 | ambiguous clauses settled by how the parties performed them | **0** |
 | 9 | deliverables refreshed; no code and no prediction change | 0 |
 
-See [measurement commands and interpretation](docs/gate1_measurement.md), [gate report](evaluation/gate_reports.md), [baseline register](evaluation/baseline_cost.json), and the per-gate summaries under `reports/`. The cost scorer reproduces the Gate 1 baseline of development 4 TP / 38 FN / 0 FP (cost 190) and full H1 5 TP / 53 FN / 0 FP (cost 265) from that commit; the root `submission.csv` remains the challenge deliverable, and `reports/gate1/h1_predictions.csv` is evaluation-only. Tags are user-managed.
+See [measurement commands and interpretation](docs/gate1_measurement.md), [gate report](reports/gates/gate_reports.md), [baseline register](evaluation/baseline_cost.json), and the per-gate summaries under [reports/gates/](reports/gates/). The cost scorer reproduces the Gate 1 baseline of development 4 TP / 38 FN / 0 FP (cost 190) and full H1 5 TP / 53 FN / 0 FP (cost 265) from that commit; the root `submission.csv` remains the challenge deliverable, and `reports/gates/gate1/h1_predictions.csv` is evaluation-only. Tags are user-managed.

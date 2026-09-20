@@ -150,6 +150,6 @@ if __name__=='__main__':
     parser.add_argument('--project',type=Path,default=ROOT)
     parser.add_argument('--python',default=sys.executable)
     parser.add_argument('--seed',type=int,default=20260919)
-    parser.add_argument('--report',type=Path,default=ROOT/'reports/generalization_gate0.json')
+    parser.add_argument('--report',type=Path,default=ROOT/'reports/generalize.json')
     args=parser.parse_args();result=run(args.project.resolve(),args.python,args.seed,args.report.resolve())
     print(json.dumps(result,indent=2));sys.exit(0 if result['status']=='passed' else 1)

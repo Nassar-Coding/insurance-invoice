@@ -4,14 +4,14 @@
     "contracts/rules_hospital_2.json": "fc97cbc7281ce4859bde95670d2a5752bafdb2473c2deac8ad73cc8b3e5a08f1",
     "mappings/hospital_2.json": "bad0fba1716b2ac459be877c1b65b745e6e8382e57057c5a43fa5dfb3c55634a",
     "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
-    "reports/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae"
+    "reports/acquisition/H2_source_review.json": "6bd3f120a0102c8e6860188f117762ef9a35356188dd75f72ee626f1fddb23ae"
   },
   "contract_path": "contracts/hospital_2.json",
   "hospital": "H2",
   "mapping_path": "mappings/hospital_2.json",
   "review_evidence": [
-    "reports/H2_source_review.json",
-    "reports/H2_candidate_closure.json",
+    "reports/acquisition/H2_source_review.json",
+    "reports/acquisition/H2_candidate_closure.json",
     "docs/decision_register.md"
   ],
   "review_state": "accepted",

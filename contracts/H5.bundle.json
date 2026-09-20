@@ -4,14 +4,14 @@
     "contracts/rules_hospital_5.json": "0b65a30af1a73a9a6d110008b961e2c02bd4f3996692c1be8647d143d7597a92",
     "mappings/hospital_5.json": "7e912a083b2d1e915cf87e4d781e1eb27cc66a92cc2005a2ca692eaac4e52fcb",
     "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454",
-    "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7"
+    "reports/acquisition/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7"
   },
   "contract_path": "contracts/hospital_5.json",
   "hospital": "H5",
   "mapping_path": "mappings/hospital_5.json",
   "review_evidence": [
-    "reports/H5_source_review.json",
-    "reports/H5_candidate_closure.json",
+    "reports/acquisition/H5_source_review.json",
+    "reports/acquisition/H5_candidate_closure.json",
     "docs/decision_register.md"
   ],
   "review_state": "accepted",

@@ -1,18 +1,28 @@
 # Report index
 
-| Files | Purpose |
+Everything here is evidence for a number stated in the root [README](../README.md)
+or in [EVALUATION_REPORT.md](../EVALUATION_REPORT.md), or provenance for how the
+reviewed contract and mapping artifacts were produced. Nothing here is read by a
+prediction: `python -m insurance_audit reproduce` writes into this folder and
+never depends on what it finds.
+
+| Path | Purpose |
 |---|---|
-| `implementation_report.md` | Implemented method, audit corrections, observed effects and limitations |
-| `final_reproduction_result.md` | Latest documented-command verification |
-| `metrics.json`, `workload.json`, `evaluation_*.json`, `evaluation_report.md`, `release_manifest.json`, `execution.json` | Regenerated results and their input identities; fresh attempt/timing fields vary |
-| `decision_log.md` / `.pdf`, `submission_writeup.md` / `.pdf`, `document_checks.json` | Current page-limited deliverables and rendering checks |
-| `H*_source_review.json`, `H*_candidate_closure.json` | Original reviewed package inputs/evidence; exact paths and bytes are required by accepted bundles |
-| Acquisition, inventory, viability and mapping-review reports | Historical evidence of source examination, candidate decisions and mapping revisions |
-| `corrections/audit_1/` | Original counterexamples, before/after artifacts and regression results for AUD-01/AUD-02 |
-| Earlier `tests_*.json` / `.txt`, regression, provenance and reproduction checks | Historical verification records, identified by their recorded file hashes and attempts |
+| `decision_log.md` | **Graded deliverable.** One page: every contract ambiguity found and what was decided. |
+| `decision_log.pdf` | The same log rendered by `tools/render_decision_log.py`; `decision_log_render.json` records the page count and both files' hashes so a reader can tell the two match. The markdown is authoritative. |
+| `gates/gate_reports.md` | Gate decisions, measured results and discrepancies across the whole sequence. |
+| `gates/gate<N>/` | One folder per gate: the scorer output, withheld-reason histogram, miss cross-tab, decision-trace summary and a short written summary for that gate. |
+| `gates/final/` | The Final Gate: development and check scorer output, submission validation, generalization and its recall measurement, withheld reasons. The check figures quoted in the evaluation report come from here. |
+| `gates/gate8/` | The population-consistency tables behind the adopted Service Day reading, and the tie-line diagnostic that was measured and deliberately not used. |
+| `gates/gate0/` | Prediction-input independence and label-free preservation findings; `development_and_preservation.json` is read by `tools/decision_trace.py`. |
+| `acquisition/` | How the reviewed artifacts were produced: source reviews, candidate closures, acquisition manifests, inventories, viability and mapping-review records, and the H1 mapping revision behind `prompts/map_v2.md`. |
 
-Historical source-review records and technical evidence are retained verbatim. Their model/session descriptions and earlier status wording are not current operational statements. Earlier viability and mapping counts describe their recorded versions. Current coverage comes from `metrics.json` and `workload.json` after reproduction.
+Records under `acquisition/` are retained as written. Their status wording and
+counts describe the version they were recorded against, not the current run.
+Current coverage comes from the evaluation report and from `workload.json` and
+`metrics.json` after a reproduction.
 
-Old attempts and documents referenced by historical records are recoverable in a separate checkout using [the history archive](../evidence/history/README.md). Current reproduction uses neither those outputs nor the old test receipts. The clean-clone checks and current comparison manifest are under `evidence/publishing/`; the original pre-cleanup reference is under `evidence/audited_baseline/`.
-
-Gate 0: current `metrics.json` and `evaluation_development.json` contain development-only evaluation. Existing check/full reports and original PDFs are historical, have not been reopened for this revisit, and are not consumed by reproduction. See `evaluation/gate_reports.md` for current portability results.
+Generated outputs of a reproduction — `metrics.json`, `workload.json`,
+`evaluation_*.json`, `evaluation_report.md`, `release_manifest.json`,
+`execution.json`, `inventory_*.json`, `input_quality*.json` and `tests_*` — are
+not committed: the frozen inputs reproduce them exactly.

@@ -2,13 +2,25 @@ __pycache__/
 *.py[cod]
 .venv/
 .coverage
-reports/runs/*/staging/
+.pytest_cache/
 
-# Audited attempt history is retained in a bundle; new runs are regenerated.
+# Written by `python -m insurance_audit reproduce`; the frozen inputs
+# reproduce them exactly, so none of it is committed.
 /runs/*
 !/runs/README.md
-/reports/tests_local.*
-/reports/tests_clean_clone.*
-/evidence/publishing/latest_reproduction/
-/evidence/publishing/document_checks_latest.json
+/reports/metrics.json
+/reports/workload.json
+/reports/execution.json
+/reports/release_manifest.json
+/reports/release_manifest_*.json
+/reports/evaluation_*.json
+/reports/evaluation_report.md
+/reports/inventory_*.json
+/reports/input_quality*.json
+/reports/generalize.json
+/reports/generalize.log
+/reports/generalization_recall.json
+/reports/tests_*.json
+/reports/tests_*.txt
+/reports/*/staging/
 /tmp/
