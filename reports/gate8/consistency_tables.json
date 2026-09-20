@@ -1,0 +1,94 @@
+{
+  "H1": {},
+  "H2": {
+    "service_day": {
+      "adopted": "calendar",
+      "declared": "seven_am_unobserved",
+      "minimum_lines": 50,
+      "minimum_share": 0.98,
+      "outcome": "adopted",
+      "readings": {
+        "calendar": {
+          "accounted_for": 5004,
+          "clause": "A Service delivered wholly within a single calendar day is delivered on the Service Day bearing that calendar date (H2 clause 2.2).",
+          "differing": 32,
+          "left_ambiguous": 58,
+          "lines_priced_to_one_rate": 5036,
+          "relevant_lines": 5094,
+          "share": 0.982332
+        },
+        "seven_am_unobserved": {
+          "accounted_for": 2175,
+          "clause": "A Service Day is the 24 hours from 07:00, so a service may fall in the Service Day beginning on the previous calendar date (H2 clause 2.2).",
+          "differing": 7,
+          "left_ambiguous": 2912,
+          "lines_priced_to_one_rate": 2182,
+          "relevant_lines": 5094,
+          "share": 0.426973
+        }
+      },
+      "stages": "weekend uplift, daily premium, bundle partner presence and daily cap allocation"
+    }
+  },
+  "H3": {},
+  "H4": {
+    "volume_basis": {
+      "adopted": null,
+      "declared": "contract_term_patient_scope_unspecified",
+      "minimum_lines": 50,
+      "minimum_share": 0.98,
+      "outcome": "the best reading accounts for 0.944, below 0.98",
+      "readings": {
+        "contract_term_all_patients_strict_prior_billed_units": {
+          "accounted_for": 304,
+          "clause": "Cumulative utilisation is aggregated across all patients over the term.",
+          "differing": 8,
+          "left_ambiguous": 10,
+          "lines_priced_to_one_rate": 312,
+          "relevant_lines": 322,
+          "share": 0.944099
+        },
+        "contract_term_patient_scope_unspecified": {
+          "accounted_for": 82,
+          "clause": "The clause does not say whether utilisation aggregates across patients, so only the same patient's prior utilisation is certain.",
+          "differing": 2,
+          "left_ambiguous": 238,
+          "lines_priced_to_one_rate": 84,
+          "relevant_lines": 322,
+          "share": 0.254658
+        }
+      },
+      "stages": "cumulative volume discount"
+    }
+  },
+  "H5": {
+    "facility_source": {
+      "adopted": null,
+      "declared": "invoice_projection_reviewed",
+      "minimum_lines": 50,
+      "minimum_share": 0.98,
+      "outcome": "the best reading accounts for 0.972, below 0.98",
+      "readings": {
+        "invoice_projection_reviewed": {
+          "accounted_for": 12542,
+          "clause": "The invoice's facility code is projected onto its lines.",
+          "differing": 124,
+          "left_ambiguous": 234,
+          "lines_priced_to_one_rate": 12666,
+          "relevant_lines": 12900,
+          "share": 0.972248
+        },
+        "none": {
+          "accounted_for": 12542,
+          "clause": "No facility multiplier is applied.",
+          "differing": 124,
+          "left_ambiguous": 234,
+          "lines_priced_to_one_rate": 12666,
+          "relevant_lines": 12900,
+          "share": 0.972248
+        }
+      },
+      "stages": "facility multiplier"
+    }
+  }
+}

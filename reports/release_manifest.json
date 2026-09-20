@@ -12,10 +12,11 @@
     "requirements.txt": "0457008c187ad11ba51402762eb4c3b2472cb790b06e7bb27a35a0d79cfa5f3b",
     "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
     "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-    "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
+    "src/insurance_audit/audit.py": "2c3eb0fc401b765f1af3c9e9e582282b1b0093d2a7b03781675608115f86c30d",
     "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
     "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
     "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
+    "src/insurance_audit/consistency.py": "9060d36d834908b19e6c529b6452baff24b0fab0c58facf493e0a0999ae285dd",
     "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
     "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
     "src/insurance_audit/findings.py": "fedc21c533d904c5345fb4680851ad1de0ccfda4f5fa9579f7ce8318c51494a8",
@@ -65,10 +66,11 @@
         "reports/H1_source_review.json": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
         "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-        "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
+        "src/insurance_audit/audit.py": "2c3eb0fc401b765f1af3c9e9e582282b1b0093d2a7b03781675608115f86c30d",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
         "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
         "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
+        "src/insurance_audit/consistency.py": "9060d36d834908b19e6c529b6452baff24b0fab0c58facf493e0a0999ae285dd",
         "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
         "src/insurance_audit/findings.py": "fedc21c533d904c5345fb4680851ad1de0ccfda4f5fa9579f7ce8318c51494a8",
@@ -127,10 +129,11 @@
         "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7",
         "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-        "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
+        "src/insurance_audit/audit.py": "2c3eb0fc401b765f1af3c9e9e582282b1b0093d2a7b03781675608115f86c30d",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
         "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
         "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
+        "src/insurance_audit/consistency.py": "9060d36d834908b19e6c529b6452baff24b0fab0c58facf493e0a0999ae285dd",
         "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
         "src/insurance_audit/findings.py": "fedc21c533d904c5345fb4680851ad1de0ccfda4f5fa9579f7ce8318c51494a8",
@@ -154,15 +157,15 @@
     }
   },
   "run_ids": {
-    "H1": "7b33c5068c5f5df6dddc79b6b0caf24ef2c0452c70bc3b2159b20e9c7eff09fd",
-    "targets": "1efb9757abfab2106a8343e162c20e17fe91043c4ef23277dc4c8e969ee93202"
+    "H1": "86f29f62dee5ef03f97117691c08fdce4f622b69e46d7ca37a5393bae9b6a2a7",
+    "targets": "f7c6583158eb7ad1a7235b98bc774c783918cf3e9ce564da52b6ad5729a8fb7b"
   },
   "scope": "Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot",
   "stable_outputs": {
     "reports/evaluation_report.md": "f936b3866312f9c0288ee5cdd7d3b49c6777ae1676088376ca8cbee9d57298ca",
     "reports/metrics.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-    "reports/workload.json": "3c1e7c76475a03b54c0cc557e38cd6c80c46e5a38544e7eab832e224528ac7b6",
-    "submission.csv": "c94dc630882dbbfc66b34fbc31dc7d6f2a5a2a52aa1fe6f2c8d8c90a0d53574a"
+    "reports/workload.json": "6f52e11787415f629ddc8bfe25cc377c83f41fd6e901e89ba2700196fd4342f9",
+    "submission.csv": "09a48b06852eda729cb7171044901bf0afd480de6298b2ee0a283bfe9ea4ca0f"
   },
-  "target_release_id": "209f6f09f2d5a9cde8bc7817d6bcea265aadfc2db45e07494d7c8373d99bd7db"
+  "target_release_id": "c95c4ffce25ad70a80e4888d0ea811d8b7bd13ec1ec982ed41836dd9d15dd013"
 }

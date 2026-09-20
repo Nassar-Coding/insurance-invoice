@@ -8,6 +8,7 @@ invoice carries a named unresolved fact.
 """
 from collections import defaultdict
 from datetime import date, timedelta
+from . import consistency
 from .context import Context
 from .findings import Findings, order
 from .mapping import classify
@@ -184,6 +185,12 @@ def evidence_tier(flagged, categories, amount_basis, reasons):
 
 
 def audit(data, contract, mappings):
+    # Where the agreement admits more than one reading of a pricing stage, test
+    # each against this hospital's own billing before auditing anything: a
+    # reading the parties plainly worked to settles the stage, and the lines it
+    # cannot account for become findings instead of withheld invoices.
+    readings = consistency.assess(data, contract, mappings, Context)
+    contract = consistency.apply(contract, readings)
     context = Context(data, contract, mappings)
     structure = Findings(data, contract, mappings)
     by_invoice = defaultdict(list)
@@ -333,6 +340,12 @@ def audit(data, contract, mappings):
                     priced[key] = result
                     if 'daily_cap_exceeded' in result['error_categories']:
                         qualifications.add('capped_quantity_substituted_for_an_unobserved_one')
+                    # A line that resolved to one service and priced to one rate
+                    # under the adopted readings carries its own evidence. An
+                    # unrelated unresolved line elsewhere on the invoice does not
+                    # make that difference any less established, so it is reported
+                    # rather than withheld with the rest of the invoice.
+                    reading_findings.extend(result['error_categories'])
                     for named in result['error_categories']:
                         rule_evidence.append({
                             'finding': named, 'source_row': key, 'line_id': line.line_id,
@@ -422,6 +435,7 @@ def audit(data, contract, mappings):
                          unresolved_facts=[])
         traces.append(trace)
     return {'hospital': data.hospital, 'opinions': opinions, 'abstentions': abstentions, 'traces': traces,
+            'adopted_readings': readings,
             'accounting': {'raw_records': len(data.dispositions), 'accepted_invoice_records': len(data.invoices),
                            'accepted_line_records': len(data.lines),
                            'quarantined_records': sum(d['status'] == 'quarantined' for d in data.dispositions),
