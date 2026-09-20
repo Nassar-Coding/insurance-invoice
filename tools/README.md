@@ -13,7 +13,7 @@ Everything the root [README](../README.md) asks you to run:
 | `mine_decoy_proxies.py` | Mines and freezes the decoy proxy set that every gate is checked against. |
 | `fit_confidence.py` | Fits the confidence tiers; its output is reviewed before it is frozen into `evaluation/confidence_policy.json`. |
 | `register_baseline.py` | Appends a measured cost to `evaluation/baseline_cost.json`. Later gates append; it refuses to overwrite. |
-| `render_decision_log.py` | Renders `reports/decision_log.md` to a one-page PDF. Optional, and the only tool here that needs `requirements-docs.txt`. |
+| `render_documents.py` | Renders the decision log and the write-up to PDF and asserts each fits its page limit. Optional, and the only tool here that needs `requirements-docs.txt`. |
 
 ## Acquisition
 

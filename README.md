@@ -80,14 +80,14 @@ The original pre-Gate-2 snapshot hashed to `2a208c62…5c99c` and produced 340 o
 - `prompts/`: every prompt the work was done under, verbatim — the four acquisition prompts and one per gate — with the sequence and what changed between iterations in [prompts/README.md](prompts/README.md).
 - `tests/`: the 175-test suite; `tests/evaluation/` holds the partition manifest, frozen decoy proxies and family coding — evaluation evidence, never prediction inputs.
 - `evaluation/`: the two files the runtime itself reads — `confidence_policy.json`, frozen and read by the exporter, and `baseline_cost.json`, the append-only cost register.
-- `reports/`: [decision_log.md](reports/decision_log.md), the one-page record of every contract ambiguity and what was decided; [gates/](reports/gates/), one folder of evidence per gate plus the Final Gate's scorer, validator and generalization output; and `acquisition/`, how the reviewed contract and mapping artifacts were produced. [reports/README.md](reports/README.md) indexes it.
+- `reports/`: [submission_writeup.md](reports/submission_writeup.md), the two-page write-up of how results were measured, where the work was uncertain and what another week would go on; [decision_log.md](reports/decision_log.md), the one-page record of every contract ambiguity and what was decided; [gates/](reports/gates/), one folder of evidence per gate plus the Final Gate's scorer, validator and generalization output; and `acquisition/`, how the reviewed contract and mapping artifacts were produced. [reports/README.md](reports/README.md) indexes it.
 - `docs/`: [ai_usage.md](docs/ai_usage.md) (which assistant did what, and how the work was run), [architecture.md](docs/architecture.md), [decision_register.md](docs/decision_register.md), the input/CLI contracts, and [the plan](docs/Revised_Plan_Rank29_to_Top3.md) the gate prompts implement.
 
-`reports/decision_log.pdf` is rendered from `reports/decision_log.md`, and `reports/decision_log_render.json` records the page count and both files' hashes so a reader can confirm the two match. The markdown is authoritative. Re-render with:
+The two page-limited deliverables — the one-page [decision log](reports/decision_log.md) and the two-page [write-up](reports/submission_writeup.md) — are also rendered to PDF beside their markdown. `reports/document_render.json` records each PDF's page count, its body point size and both files' hashes, so a reader can confirm a PDF matches the markdown it was made from. The markdown is authoritative. Re-render with:
 
 ```bash
 python -m pip install -r requirements-docs.txt
-python tools/render_decision_log.py
+python tools/render_documents.py
 ```
 
 That is the only command in the project with a dependency: prediction, evaluation and the test suite run on the standard library alone.

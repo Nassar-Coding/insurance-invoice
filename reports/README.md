@@ -9,7 +9,8 @@ never depends on what it finds.
 | Path | Purpose |
 |---|---|
 | `decision_log.md` | **Graded deliverable.** One page: every contract ambiguity found and what was decided. |
-| `decision_log.pdf` | The same log rendered by `tools/render_decision_log.py`; `decision_log_render.json` records the page count and both files' hashes so a reader can tell the two match. The markdown is authoritative. |
+| `submission_writeup.md` | **Graded deliverable.** Two pages: how results were measured, where the work was uncertain and why, and what another week would go on. |
+| `decision_log.pdf`, `submission_writeup.pdf` | The same two documents rendered by `tools/render_documents.py`; `document_render.json` records each one's page count, body point size and both files' hashes, so a reader can tell a PDF matches its markdown. The markdown is authoritative. |
 | `gates/gate_reports.md` | Gate decisions, measured results and discrepancies across the whole sequence. |
 | `gates/gate<N>/` | One folder per gate: the scorer output, withheld-reason histogram, miss cross-tab, decision-trace summary and a short written summary for that gate. |
 | `gates/final/` | The Final Gate: development and check scorer output, submission validation, generalization and its recall measurement, withheld reasons. The check figures quoted in the evaluation report come from here. |
