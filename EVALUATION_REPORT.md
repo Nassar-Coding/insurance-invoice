@@ -18,10 +18,20 @@ labelled and unscored; it is the only place accuracy can be measured at all.
 | False positives | **0** | **0** |
 | **Cost (5·FN + FP)** | **0** | **0** |
 | Amount exact match on TPs | 0.929 | 0.875 |
-| Expected calibration error | 0.0322 | 0.0293 |
+| Expected calibration error | 0.0332 | 0.0293 |
 
-The check partition was read **once**, at this gate, and nothing was changed as
-a result, so it remains genuinely held out rather than regression evidence.
+The development column is measured on the current code. **The check column is
+the Final Gate measurement**, taken before the consistency change below, and has
+not been re-measured: the check partition is authorised to be read at the Final
+Gate only, and Gate 9 changed no code, so re-reading it would buy nothing and
+spend the discipline. Its figures therefore describe the code as it stood at the
+Final Gate, not as it stands now.
+
+Nor is the check partition an untouched holdout in the first place. The earlier
+implementation opened it after mapping revision 2 and the confidence freeze, so
+it is regression evidence. What can be said of the gated rebuild is narrower and
+still worth saying: it was read once, at the Final Gate, and nothing was changed
+as a result.
 
 Every labelled error in both partitions is reported, with no false positive on
 either. Rows emitted: 446 of 622 development, 217 of 291 check. 0 flags on all 184
@@ -80,14 +90,25 @@ sees a price, and its own tests assert that.
 | H3 | — | no ambiguous stage declared | — | — |
 | H4 | cumulative volume discount | utilisation across all patients | 304 / 322 = 94.41% | no — below 98% |
 | H4 | " | same patient only (clause silent) | 82 / 322 = 25.47% | no |
-| H5 | facility multiplier | no facility multiplier | 12,542 / 12,900 = 97.22% | no — tied |
-| H5 | " | invoice facility projected onto lines | 12,542 / 12,900 = 97.22% | no — tied |
+| H5 | facility multiplier | no facility multiplier | 12,542 / 12,900 = 97.22% | no — below 98%, and see the caveat |
+| H5 | " | invoice facility projected onto lines | 12,542 / 12,900 = 97.22% | no — below 98%, and see the caveat |
 
 Only Hospital 2's Service Day clears the bar. Hospital 4's better reading falls
-short at 94.4%; Hospital 5's two readings are indistinguishable, so its billing
-does not choose between them. Both stay ambiguous and those invoices stay
-withheld. Adopting the calendar Service Day settles four Hospital 2 stages at
-once and cuts its withheld invoices from 992 to 457.
+short at 94.4%, so its stage stays ambiguous and those invoices stay withheld.
+Adopting the calendar Service Day settles four Hospital 2 stages at once and
+cuts Hospital 2's withheld invoices from 992 to 451.
+
+**Hospital 5's row does not mean what it appears to mean, and is reported here
+rather than quietly left.** Its two readings score identically in *every* cell —
+same matched, same differing, same left-ambiguous — because `facility_source`
+only sets a qualification label in the pricing engine; the multiplier keyed by
+the invoice's facility code is applied under both readings alike. The "no
+facility multiplier" reading was therefore never actually exercised, so what the
+table shows is not two readings the billing cannot separate but one reading
+measured twice. The outcome is unaffected — the stage was not adopted, and those
+invoices stay withheld either way — but the *reason* recorded is below-the-bar,
+not tied, and the comparison itself is vacuous. Fixing it is the first item
+under **What I would do next**.
 
 A line that resolved to one service and priced to one rate under the adopted
 readings now carries its own finding, on the same principle Gate 2 applied to
@@ -98,7 +119,10 @@ not make an established rate difference any less established.
 
 **1. A description that names more than one contracted service.** Now the
 largest remaining source of withheld invoices: 925 ambiguous lines across
-Hospitals 2-5. Each is priced under every candidate reading; where the readings
+Hospitals 2-5. A Hospital 2 line reading `admin ophth anaes` is the shape of it:
+the agreement contracts both *Intermittent* and *Postoperative* Ophthalmic
+Anaesthesia Administration, at different rates, and the abbreviation drops the
+one word that would separate them. Each is priced under every candidate reading; where the readings
 agree the verdict is reported, where they disagree the invoice is withheld. On
 development, 143 invoices sit at an error fraction of exactly 0.5 and **142 of
 them are clean**, which is why flagging a split reading was measured and
@@ -113,9 +137,11 @@ error disappear. The one signal that would close this gap is the one that would
 silently hide the errors being looked for.
 
 **2. A rate still ambiguous after the consistency test.** Hospital 4's volume
-discount and Hospital 5's facility multiplier stay unresolved because their own
-billing does not choose between the readings. These invoices are withheld rather
-than decided on a guess.
+discount stays unresolved because its better reading accounts for 94.4%, below
+the 98% bar. Hospital 5's facility multiplier stays unresolved too, but for the
+weaker reason set out above: its alternative reading was never exercised, so
+nothing has yet been shown about whether its billing chooses. These invoices are
+withheld rather than decided on a guess.
 
 **3. An amount the record cannot determine.** Where a billed quantity exceeds a
 daily cap, the contract fixes what is billable but nothing shows how many units
@@ -125,7 +151,10 @@ development cap invoices are detected and both keep an inexact amount by design.
 
 **4. A composite dimension the record does not observe.** 339 invoices across
 Hospitals 2-5 are withheld for `composite_dimension_unobserved`, where a rate
-depends on a dimension the snapshot does not carry at all. No reading of the
+depends on a dimension the snapshot does not carry at all. Telemetry Monitoring
+is the case in every hospital: it is contracted **per hour per item**, and each
+line carries a single quantity, so hours and items cannot be separated and no
+expected amount follows from the record. No reading of the
 contract resolves this; it is an evidence limit rather than a missing check.
 
 The full withheld picture across the scored hospitals, 1,405 invoices:
@@ -155,16 +184,48 @@ recorded in the traces.
 
 ## What was not attempted
 
-- **The two remaining development misses.** Both need a rate the engine cannot
-  reduce to one outcome. Forcing a choice would trade 2 misses for an unknown
-  number of false positives, and the measured cost ratio does not support it.
+- **Flagging a split reading.** Where the candidate readings of a line disagree
+  exactly evenly, the invoice is withheld rather than flagged. On development
+  143 invoices sit at that split and 142 of them are clean, so flagging them
+  would cost 147 to save 10 at the measured 5:1 ratio.
 - **Hospital-specific tuning.** No rule keys off an invoice identifier, a record
   count or an input fingerprint; every fix is a general rule.
 - **Calibration beyond the stated bar.** Calibration is measured by the
   organisers but is not part of the ranking cost, so fitting stopped once
   confidence was monotone with accuracy and ECE ≤ 0.08.
-- **Resolving H2's Service Day.** It would need service times the records do not
-  contain. Inferring them would be invention.
+- **Observing H2's Service Day directly.** The clause was settled by how the
+  parties performed it, not by reading the boundary off the records: the records
+  carry no service times, and inferring them would be invention.
+
+## What I would do next
+
+**1. Make Hospital 5's facility comparison real.** `facility_source` currently
+only attaches a qualification; the `none` reading needs to actually suppress the
+multiplier before the consistency test can say anything about Hospital 5. The
+test then either separates the readings or honestly reports a tie, and the fix is
+small and local. This is the one known defect in the work, and it is first for
+that reason.
+
+**2. Resolve TIE lines without price evidence.** 925 lines, the largest single
+block of withheld invoices. The Gate 8 idea transfers from pricing to mapping:
+where an abbreviation is ambiguous, ask whether the hospital's *unabbreviated*
+lines name only one of the candidates over the term, and adopt that candidate on
+the same decisive-margin test. `admin ophth anaes` resolves if the hospital only
+ever writes out *Postoperative Ophthalmic Anaesthesia Administration*. It uses
+the population of descriptions, never a price, so it does not reintroduce the
+shortcut rejected above — and, like the pricing test, it must count a line it
+cannot settle against itself.
+
+**3. Hospital 4's patient scope: enumerate more readings, not more lines.** The
+bar is a share, so additional lines will not lift 94.4%. Only two readings were
+tried — all patients over the term, and same patient only. The clause also admits
+aggregation reset per contract year, and aggregation across patients within an
+admission. If one of those accounts for ≥98% where neither of the tried readings
+does, the stage resolves on the same test with no new machinery.
+
+Each is measurable on development before it ships, against the standing rule that
+anything adding a false positive on clean development or on the frozen decoy
+proxies is reverted.
 
 ## Coverage
 

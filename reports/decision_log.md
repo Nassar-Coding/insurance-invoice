@@ -1,20 +1,27 @@
-# Insurance auditing - decision log
-Audited implementation | Source commit 6fee1da60b74512156637a22be15d996a36627e1
+# Decision log
 
-## Evidence and execution boundary
-LLM-assisted extraction and source review produced finite JSON rules and fixed service mappings. Python replays saved records without an LLM/API. Accepted bundles bind source, schema, mapping and review identities. Bundle traces identify the controlling clause and partner context. Unknown operators and incompatible packages fail before pricing.
+Every contract ambiguity found, and what was decided. Each decision is applied uniformly to all five hospitals and recorded in the decision traces. Development stands at 42 of 42 errors with no false positive; the check partition at 16 of 16, also with none.
 
-## Service identity and incomplete opinions
-Contract catalogs are not proof that an incomplete description identifies their only similar service. H1 development exposed one wrong specialty assignment (INV-H1-000236, 43,650 cents); all 39 analogous mapping keys were withdrawn. Essential qualifiers need independent description evidence; only generic noun elision retains a lower evidence grade. Billed rates/units never select service identity. If any necessary fact is unresolved, withhold the complete row; a known error alone does not establish the corrected total.
+## Ambiguities resolved
 
-## Quantities, history and allocation
-Use supplied billed quantities under the contracts' pricing rules; a wrong unit label does not authorize a guessed conversion. Composite hour/item quantities lack a second dimension and remain unsupported. Prior usage is strictly ordered by service date and line ID, over the supplied term; quarantined headers retain patient candidates, and missing identity stays uncertain. Conflicting ownership and duplicate service/day allocation have no invented split. A supported single capped line can be limited to the contractual maximum. Round integer cents half-up after each adjustment.
+H2 clause 2.2 defines a Service Day as 07:00 to 06:59, but the records carry dates and no times, and the same clause places a service delivered wholly within a calendar day on that date. Both readings are admissible, so each was tested against H2's own billing: the calendar reading accounts for 5,004 of 5,094 relevant lines (98.23%), the 07:00 envelope for 2,175 (42.70%). The calendar reading is adopted, settling the weekend uplift, daily premium, bundle presence and cap allocation together. The denominator is every relevant line, not the subset a reading chooses to price; scored the other way the envelope appears to win by declining to price 2,912 lines.
 
-## Exclusions and amendments
-H1/H2/H4 explicitly support bidirectional exclusions; H3/H5 direction is unresolved at nonzero distances. Use same-patient scope as the recorded contextual reading and withhold exactly-N-day boundary cases. H3 A1.1 applies seven repricings and two additions from service date 2025-01-01 despite the broad amendment header. A1.4.2 settlement protection uses the explicit interpretation that a valid invoice cannot settle before issue/service; no settlement field is fabricated.
+Volume discounts are line-level in all five agreements. H2 clause 8.3 says "each subsequent Unit", but clause 3.5, in the calculation article, applies the discount to a line item on utilisation prior to that line. The calculation clause governs, so no line straddles a threshold. H1 2.4, H3 6.1 and H4 8.3-8.5 state the same rule directly.
 
-## Hospital-specific missing facts
-H4 section 1.4 defines instance as unit, but section 8 leaves patient aggregation unclear: bound same-patient through all-patient usage and emit only invariant outcomes. H5 line facility is absent; adopt invoice facility from the supplied relational shape and section 10.1, as an explicit assumption. Outcome-relevant opinions are capped at .65 confidence. H2 supplies admission/discharge dates but lacks actual submission, detailed episode/leave and possible exception evidence; invoice date is not submission. All H2 full opinions are withheld. Its 07:00 Service Day is not established by calendar dates; day-dependent diagnostics remain bounded or uncertain.
+"Not billable within N days" includes a service date exactly N days away, the ordinary meaning of "within". Where a clause does not fix the direction of an exclusion window (H3, H5) the line is audited under every reading and only an anchor all readings agree on is reported.
 
-## Confidence and evaluation
-H1 patient groups were fixed before label development; the reserved check is now exposed and later checks are regressions. H1 sparse-error and target confidence are policy judgments, not demonstrated target calibration. Missing necessary facts cannot be repaired by a low score. Final mappings/rules, error history and omissions are retained. See evaluation_report.md and docs/implementation_changes.md. Independent closure re-audit passed: both findings closed, no material regressions.
+H2 never defines invoice_date, yet a service cannot be invoiced before it happens, so the after-invoice check stays enabled there. On H1 all twelve invoices with a line dated after the invoice date are labelled erroneous.
+
+A reused invoice identifier's lines are attributed by the record number inside each line identifier, used only where every group's billed total reconciles to one header exactly. That holds for 29 of 31 reused identifiers; the other two report the canonical billed total unchanged.
+
+Where a line's wording names more than one service, it is priced under every candidate and reported only when more than half the readings find a fault. Swept on development, any lower threshold flags 143 invoices of which 142 are clean.
+
+## Ambiguities left unresolved
+
+H4's clause never says whether volume utilisation aggregates across patients. The better reading accounts for 94.4% of its lines, below the 98% bar, so the stage stays ambiguous. H5's two facility readings are indistinguishable at 97.2% each, so its billing does not choose between them. Both leave those invoices withheld rather than decided on a guess. Where a billed quantity exceeds a daily cap the delivered quantity is unobservable: the corrected amount is the capped quantity, and the row is penalised in confidence rather than guessed.
+
+## Standing rules
+
+A billed price is never evidence of which service a line names. Every one of the 925 ambiguous lines in H2-H5 has exactly one candidate whose contracted rate equals the billed rate, and that signal is deliberately unused: on a line whose rate is wrong it would select the service that makes the error vanish. Using the billed population to choose between readings of a clause is a different thing, and is disclosed above.
+
+A description naming no contracted service has no contracted rate, so its billed amount stands and only the naming is reported. Confidence is confidence in the whole emitted row, flag and corrected amount together, not in the flag alone.
