@@ -12,9 +12,9 @@
     "requirements.txt": "0457008c187ad11ba51402762eb4c3b2472cb790b06e7bb27a35a0d79cfa5f3b",
     "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
     "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-    "src/insurance_audit/audit.py": "6ca789ee3fc037a2557195496c992b377843009c9214f47220db6b953803c588",
+    "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
     "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-    "src/insurance_audit/checks.py": "e7c260efd28c29d3fe6d05906a543e7f28d70bb73cceb060f03643bd60dff158",
+    "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
     "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
     "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
     "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
@@ -65,9 +65,9 @@
         "reports/H1_source_review.json": "98ce9b2ad44c9386019780d6896ed3d07810b4878c96843cc0f93f5a79ef6181",
         "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-        "src/insurance_audit/audit.py": "6ca789ee3fc037a2557195496c992b377843009c9214f47220db6b953803c588",
+        "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-        "src/insurance_audit/checks.py": "e7c260efd28c29d3fe6d05906a543e7f28d70bb73cceb060f03643bd60dff158",
+        "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
         "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
         "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
@@ -127,9 +127,9 @@
         "reports/H5_source_review.json": "0b953b42e362c09447e539c8ab707cb86fc9b2722160cfe31950d73effc8dbf7",
         "src/insurance_audit/__init__.py": "f162c4898d55837b553e7c5dcb3aa8ae78502ccef50adb1f65c6fcfba3f1516f",
         "src/insurance_audit/__main__.py": "c85930d465374754390eb00000f73d95e43b19c3d504ff73d229084577a70af1",
-        "src/insurance_audit/audit.py": "6ca789ee3fc037a2557195496c992b377843009c9214f47220db6b953803c588",
+        "src/insurance_audit/audit.py": "ba5b52981d7e8d36d6fbecee828b7ccef4dd9d5d116eb34f496f3c108468964e",
         "src/insurance_audit/batch.py": "7077d1a7b1cecef2e29b3def81462b9ae88a996fa57e369be950d5ad292fa230",
-        "src/insurance_audit/checks.py": "e7c260efd28c29d3fe6d05906a543e7f28d70bb73cceb060f03643bd60dff158",
+        "src/insurance_audit/checks.py": "b0b139e4d05bdf509d435fe7cc439e4a4fbba1c25dac144cf746883fc438e7a5",
         "src/insurance_audit/confidence.py": "10fd0c6356169a88ff927a9d5e5acb7247892893e5737ca9dde0258cfff9146f",
         "src/insurance_audit/context.py": "7a644411a8489e0d60a750233cd86ec1d31f5ef97c1f37e85490f90afb9133f6",
         "src/insurance_audit/evaluation.py": "d12b963d63eac0429b082c3dbbdcd1eb3a13948253d69f02d911abf98cf6ca36",
@@ -154,15 +154,15 @@
     }
   },
   "run_ids": {
-    "H1": "d3a3ad46821823271d6e7e364912a34ec3af3a655de634feff2e8ac331ba033b",
-    "targets": "1c6ca65f22d4a428323ff1a77173ec73863970054d35105034508c17f3d2b95e"
+    "H1": "f8265929755c234d0ca929f27170a45ef48e60b49418f35d6637c415a57078ac",
+    "targets": "ddff22c1c0d8a7aa9bfe13e7b9cae8c47e1d123e4bafdfe0b41ea14f16cefa1f"
   },
   "scope": "Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot",
   "stable_outputs": {
     "reports/evaluation_report.md": "f936b3866312f9c0288ee5cdd7d3b49c6777ae1676088376ca8cbee9d57298ca",
     "reports/metrics.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
     "reports/workload.json": "3c1e7c76475a03b54c0cc557e38cd6c80c46e5a38544e7eab832e224528ac7b6",
-    "submission.csv": "e7c5a4ce6da2d8d4154ab657033ba8d109dd869c9b3e56890354525bd8b9ed95"
+    "submission.csv": "c94dc630882dbbfc66b34fbc31dc7d6f2a5a2a52aa1fe6f2c8d8c90a0d53574a"
   },
-  "target_release_id": "1a37eedde0dde0d317348f77e00dadd65e5d48c4908d81bcbffec3e3be1d5d6c"
+  "target_release_id": "2586b99163f59af9ada8816a6956b44cecdfedf529764d73706906c58ffc5358"
 }

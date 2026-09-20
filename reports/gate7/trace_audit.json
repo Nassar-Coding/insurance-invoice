@@ -1,0 +1,58 @@
+{
+  "H2": {
+    "evidence_items_min": 1,
+    "flags_without_named_evidence": 0,
+    "sampled_flagged": 15,
+    "sampled_withheld": 15,
+    "withheld_reason_mix": {
+      "composite_dimension_unobserved": 2,
+      "multiple_supported_rate_outcomes": 11,
+      "unobserved_service_day_cap_allocation": 2
+    },
+    "withheld_with_a_definite_category": 0,
+    "withheld_without_a_named_reason": 0
+  },
+  "H3": {
+    "evidence_items_min": 1,
+    "flags_without_named_evidence": 0,
+    "sampled_flagged": 15,
+    "sampled_withheld": 15,
+    "withheld_reason_mix": {
+      "ambiguous_service_mapping": 5,
+      "composite_dimension_unobserved": 8,
+      "multiple_supported_rate_outcomes": 1,
+      "possible_duplicate_service_day": 1
+    },
+    "withheld_with_a_definite_category": 0,
+    "withheld_without_a_named_reason": 0
+  },
+  "H4": {
+    "evidence_items_min": 1,
+    "flags_without_named_evidence": 0,
+    "sampled_flagged": 15,
+    "sampled_withheld": 15,
+    "withheld_reason_mix": {
+      "ambiguous_service_mapping": 5,
+      "composite_dimension_unobserved": 3,
+      "multiple_supported_rate_outcomes": 5,
+      "unresolved_service_mapping": 2
+    },
+    "withheld_with_a_definite_category": 0,
+    "withheld_without_a_named_reason": 0
+  },
+  "H5": {
+    "evidence_items_min": 1,
+    "flags_without_named_evidence": 0,
+    "sampled_flagged": 15,
+    "sampled_withheld": 15,
+    "withheld_reason_mix": {
+      "ambiguous_service_mapping": 5,
+      "composite_dimension_unobserved": 4,
+      "multiple_supported_rate_outcomes": 3,
+      "possible_duplicate_service_day": 1,
+      "unresolved_service_mapping": 2
+    },
+    "withheld_with_a_definite_category": 0,
+    "withheld_without_a_named_reason": 0
+  }
+}

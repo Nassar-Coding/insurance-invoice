@@ -333,6 +333,17 @@ def audit(data, contract, mappings):
                     priced[key] = result
                     if 'daily_cap_exceeded' in result['error_categories']:
                         qualifications.add('capped_quantity_substituted_for_an_unobserved_one')
+                    for named in result['error_categories']:
+                        rule_evidence.append({
+                            'finding': named, 'source_row': key, 'line_id': line.line_id,
+                            'service_id': service['id'], 'billed_unit_price_cents': line.unit_price_cents,
+                            'contracted_unit_rate_cents': price['rate'],
+                            'billed_line_total_cents': line.line_total_cents,
+                            'expected_line_total_cents': result['expected_total_cents'],
+                            'adjustments': [s['operation'] for s in price['stages']],
+                            'refs': service['refs'],
+                            'basis': 'The contracted rate is rebuilt from the clauses in the order the '
+                                     'agreement fixes, and compared with what was billed.'})
                     categories.extend(result['error_categories'])
                     grades.add(grade)
                     invariant |= price['outcome_invariant_uncertainty']

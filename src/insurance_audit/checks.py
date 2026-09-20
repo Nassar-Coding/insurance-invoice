@@ -62,7 +62,9 @@ def line_result(line,service,price):
     # The unit basis is reported by the findings layer, which checks every
     # identified line whether or not it could be priced. Naming it again here
     # would put the same defect on a row twice.
-    if line.line_total_cents!=line.quantity*line.unit_price_cents:categories.append('line_arithmetic_mismatch')
+    # The findings layer already reports this defect as line_total_arithmetic on
+    # every physical line, priced or not. Naming it again here would put the same
+    # defect on a row twice.
     if service['daily_cap'] is not None and quantity>service['daily_cap']:
         # The contract caps what is billable, but nothing in the record shows how
         # many units were actually delivered below that cap, so the corrected
