@@ -1,0 +1,36 @@
+{
+  "checks": [
+    "column order",
+    "flag is 0 or 1 with a matching category",
+    "confidence in [0,1]",
+    "integer cents",
+    "one row per invoice_id",
+    "identifiers from Hospitals 2 to 5 only",
+    "billed total matches the source data"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "flagged": 281,
+  "per_hospital": {
+    "H2": {
+      "flags": 76,
+      "rows": 674
+    },
+    "H3": {
+      "flags": 69,
+      "rows": 722
+    },
+    "H4": {
+      "flags": 61,
+      "rows": 467
+    },
+    "H5": {
+      "flags": 75,
+      "rows": 674
+    }
+  },
+  "rows": 2537,
+  "sha256": "09a48b06852eda729cb7171044901bf0afd480de6298b2ee0a283bfe9ea4ca0f",
+  "status": "passed",
+  "unique_invoice_ids": 2537
+}

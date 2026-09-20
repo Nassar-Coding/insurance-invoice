@@ -2,7 +2,7 @@
 
 LLM-assisted contract-to-schema extraction with deterministic Python pricing. Saved, reviewed contract records and service mappings drive replay without model calls, API keys or a GPU.
 
-On Hospital 1, the only labelled hospital, the audit reaches **40 of 42 development errors and 16 of 16 check errors with no false positive on either partition** (cost 10 and 0 under the ranking metric `5·FN + FP`), amount exact match 0.925 and 0.875, and no flag on any of the 184 frozen decoy proxies. `submission.csv` carries 1,977 rows for Hospitals 2-5 with 249 flags. See **[EVALUATION_REPORT.md](EVALUATION_REPORT.md)** for per-category results, the four systematic failure modes, every contract reading the audit relies on, what was not attempted, and an honest account of the coverage shortfall against the ~285 errors the scored set is stated to contain.
+On Hospital 1, the only labelled hospital, the audit reaches **42 of 42 development errors and 16 of 16 check errors with no false positive on either partition** (cost 0 under the ranking metric `5·FN + FP`), amount exact match 0.929 and 0.875, and no flag on any of the 184 frozen decoy proxies. `submission.csv` carries 2,537 rows for Hospitals 2-5 with 281 flags, against a scored set stated to hold about 285 errors. See **[EVALUATION_REPORT.md](EVALUATION_REPORT.md)** for per-category results, the four systematic failure modes, every contract reading the audit relies on, what was not attempted, and an honest account of the coverage shortfall against the ~285 errors the scored set is stated to contain.
 
 ## Reproduce
 

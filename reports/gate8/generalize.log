@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "python": "3.11.15",
+  "elapsed_seconds": 120.71501,
+  "h1_attempt": "df5d4531c426430b8d7f3beefd471ea8",
+  "target_attempt": "a9c8c3406e9a45e49d50bf69354c353b",
+  "hospital_opinions": {
+    "H1": 116,
+    "H2": 97,
+    "H3": 101,
+    "H4": 74,
+    "H5": 92
+  },
+  "submission_rows": 364,
+  "submission_sha256": "ad2f93080c00e8fd2de18df830690c862246afd012d83b21466ca08ae9f5f496",
+  "network_calls": 0,
+  "model_calls": 0,
+  "evaluation": {
+    "status": "not_requested",
+    "check_partition_read": false
+  },
+  "scope": "prediction replay; optional development-only evaluation; no fresh LLM extraction"
+}
+/tmp/insurance-generalization-nswk9jmt/project/src/insurance_audit/pipeline.py:18: RuntimeWarning: Reference runtime is Python 3.12.13; running 3.11.15. Supported range: >=3.12,<3.13.
+  warnings.warn(f'Reference runtime is Python 3.12.13; running {platform.python_version()}. Supported range: >=3.12,<3.13.',RuntimeWarning)

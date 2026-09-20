@@ -1,0 +1,34 @@
+{
+  "H2": {
+    "ambiguous_service_mapping": 301,
+    "composite_dimension_unobserved": 118,
+    "multiple_supported_rate_outcomes": 31,
+    "unresolved_service_mapping": 1
+  },
+  "H3": {
+    "ambiguous_service_mapping": 98,
+    "composite_dimension_unobserved": 73,
+    "duplicate_service_day_allocation": 4,
+    "multiple_supported_rate_outcomes": 18,
+    "possible_duplicate_service_day": 6,
+    "unresolved_exclusion": 1,
+    "unresolved_service_mapping": 10
+  },
+  "H4": {
+    "ambiguous_service_mapping": 79,
+    "composite_dimension_unobserved": 71,
+    "duplicate_service_day_allocation": 3,
+    "multiple_supported_rate_outcomes": 173,
+    "possible_duplicate_service_day": 8,
+    "unresolved_exclusion": 8,
+    "unresolved_service_mapping": 26
+  },
+  "H5": {
+    "ambiguous_service_mapping": 179,
+    "composite_dimension_unobserved": 77,
+    "duplicate_service_day_allocation": 4,
+    "multiple_supported_rate_outcomes": 77,
+    "possible_duplicate_service_day": 14,
+    "unresolved_service_mapping": 25
+  }
+}

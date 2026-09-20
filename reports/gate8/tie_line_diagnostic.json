@@ -1,0 +1,26 @@
+{
+  "H2": {
+    "ambiguous_lines": 429,
+    "exactly_one_candidate_matches_billed_rate": 429,
+    "more_than_one_matches": 0,
+    "none_matches": 0
+  },
+  "H3": {
+    "ambiguous_lines": 119,
+    "exactly_one_candidate_matches_billed_rate": 119,
+    "more_than_one_matches": 0,
+    "none_matches": 0
+  },
+  "H4": {
+    "ambiguous_lines": 132,
+    "exactly_one_candidate_matches_billed_rate": 132,
+    "more_than_one_matches": 0,
+    "none_matches": 0
+  },
+  "H5": {
+    "ambiguous_lines": 245,
+    "exactly_one_candidate_matches_billed_rate": 245,
+    "more_than_one_matches": 0,
+    "none_matches": 0
+  }
+}

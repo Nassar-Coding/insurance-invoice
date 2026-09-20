@@ -13,17 +13,18 @@ labelled and unscored; it is the only place accuracy can be measured at all.
 |---|---|---|
 | Erroneous invoices | 42 | 16 |
 | Clean invoices | 580 | 275 |
-| True positives | **40** | **16** |
-| False negatives | 2 | 0 |
+| True positives | **42** | **16** |
+| False negatives | **0** | **0** |
 | False positives | **0** | **0** |
-| **Cost (5·FN + FP)** | **10** | **0** |
-| Amount exact match on TPs | 0.925 | 0.875 |
+| **Cost (5·FN + FP)** | **0** | **0** |
+| Amount exact match on TPs | 0.929 | 0.875 |
 | Expected calibration error | 0.0322 | 0.0293 |
 
 The check partition was read **once**, at this gate, and nothing was changed as
 a result, so it remains genuinely held out rather than regression evidence.
 
-Rows emitted: 444 of 622 development, 217 of 291 check. 0 flags on all 184
+Every labelled error in both partitions is reported, with no false positive on
+either. Rows emitted: 446 of 622 development, 217 of 291 check. 0 flags on all 184
 frozen decoy proxies, and 0 on every pattern taken separately.
 
 ## Per-category results
@@ -40,47 +41,96 @@ frozen decoy proxies, and 0 on every pattern taken separately.
 | line_total_arithmetic | 3/3 | 3/3 |
 | malformed_service_date | 4/4 | 2/2 |
 | premium_incorrectly_applied | 5/5 | 1/1 |
-| **premium_omitted** | **2/3** | — |
+| premium_omitted | 3/3 | — |
 | service_date_after_invoice_date | 5/5 | — |
 | service_date_out_of_window | 4/4 | 1/1 |
-| **unit_price_mismatch** | **6/7** | 3/3 |
+| unit_price_mismatch | 7/7 | 3/3 |
 | unknown_service | 9/9 | 3/3 |
 | volume_discount_incorrectly_applied | 3/3 | 1/1 |
 | volume_discount_omitted | 3/3 | 1/1 |
 | wrong_unit_basis | 6/6 | 5/5 |
 
-By primary family: development structural 23/23, term_window 2/2, mapping 10/10,
-rule 2/2, **pricing 3/5**; check is complete in every family.
+By primary family: both partitions are complete in every family.
+
+## Settling an ambiguous clause by course of dealing
+
+Several agreements admit more than one reading of a pricing stage. Recording
+every supported outcome and withholding the invoice is right when the readings
+genuinely disagree about a hospital's billing, and wasteful when they do not.
+
+Each admissible reading is therefore tested against the hospital's **own
+supported lines**, and adopted only when the contract text admits it, the stage
+covers at least 50 lines, it accounts for at least **98%** of every relevant
+line, and every other reading accounts for strictly less. The denominator is
+every relevant line, not the subset a reading chooses to price: a reading that
+leaves a line ambiguous has not accounted for it either. That distinction
+decides the test — scored only on the lines it settles, Hospital 2's unobserved
+envelope reaches 99.7% by declining to price 2,912 of 5,094 lines.
+
+This uses the billed **population** to choose between readings of a clause,
+which is how a course of dealing settles an ambiguous term. It is not the billed
+price being used as evidence of which service a line names: the matcher never
+sees a price, and its own tests assert that.
+
+| Hospital | Stage | Reading | Accounted for | Adopted |
+|---|---|---|---|---|
+| H1 | — | no ambiguous stage declared | — | — |
+| **H2** | weekend uplift, daily premium, bundle presence, cap allocation | **calendar Service Day** (clause 2.2) | **5,004 / 5,094 = 98.23%** | **yes** |
+| H2 | " | 07:00 envelope (clause 2.2) | 2,175 / 5,094 = 42.70% | no |
+| H3 | — | no ambiguous stage declared | — | — |
+| H4 | cumulative volume discount | utilisation across all patients | 304 / 322 = 94.41% | no — below 98% |
+| H4 | " | same patient only (clause silent) | 82 / 322 = 25.47% | no |
+| H5 | facility multiplier | no facility multiplier | 12,542 / 12,900 = 97.22% | no — tied |
+| H5 | " | invoice facility projected onto lines | 12,542 / 12,900 = 97.22% | no — tied |
+
+Only Hospital 2's Service Day clears the bar. Hospital 4's better reading falls
+short at 94.4%; Hospital 5's two readings are indistinguishable, so its billing
+does not choose between them. Both stay ambiguous and those invoices stay
+withheld. Adopting the calendar Service Day settles four Hospital 2 stages at
+once and cuts its withheld invoices from 992 to 457.
+
+A line that resolved to one service and priced to one rate under the adopted
+readings now carries its own finding, on the same principle Gate 2 applied to
+structural evidence: an unrelated unresolved line elsewhere on the invoice does
+not make an established rate difference any less established.
 
 ## Systematic failure modes
 
-**1. A pricing error alone, on an invoice with nothing else wrong.** Both
-remaining development misses are here: one `unit_price_mismatch` and one
-`premium_omitted`, each the only error on its invoice and each on a line the
-engine could not price to a single outcome, so the invoice is withheld rather
-than reported. Every other family is complete on both partitions. This is the
-narrowest remaining gap and the only one that costs anything.
+**1. A description that names more than one contracted service.** Now the
+largest remaining source of withheld invoices: 925 ambiguous lines across
+Hospitals 2-5. Each is priced under every candidate reading; where the readings
+agree the verdict is reported, where they disagree the invoice is withheld. On
+development, 143 invoices sit at an error fraction of exactly 0.5 and **142 of
+them are clean**, which is why flagging a split reading was measured and
+rejected.
 
-**2. A rate that is ambiguous under the contract's own terms.** By far the
-largest source of withheld invoices. Hospital 2 alone withholds 773 invoices for
-`multiple_supported_rate_outcomes`, because its Service Day begins at 07:00 and
-the records carry dates without times, so whether a service falls on a Business
-Day cannot be settled and both the uplifted and un-uplifted rate remain
-supportable. The audit reports the uncertainty instead of choosing.
+*A tempting shortcut, deliberately not taken.* Every one of those 925 lines has
+**exactly one** candidate whose contracted rate equals the billed rate — a
+perfect disambiguation signal on its face. It is not used. Picking the service
+whose rate matches what was billed is precisely using price as mapping evidence,
+and on a line whose rate is *wrong* it would select the service that makes the
+error disappear. The one signal that would close this gap is the one that would
+silently hide the errors being looked for.
 
-**3. A description that names more than one contracted service.** 421 invoices
-across Hospitals 2–5 are withheld for `ambiguous_service_mapping`. Each line is
-priced under every candidate reading; where the readings agree the verdict is
-reported, and where they disagree the invoice is withheld. On development, 143
-invoices sit at an error fraction of exactly 0.5 and **142 of them are clean**,
-which is why flagging a split reading was measured and rejected.
+**2. A rate still ambiguous after the consistency test.** Hospital 4's volume
+discount and Hospital 5's facility multiplier stay unresolved because their own
+billing does not choose between the readings. These invoices are withheld rather
+than decided on a guess.
 
-**4. An amount the record cannot determine.** Where a billed quantity exceeds a
+**3. An amount the record cannot determine.** Where a billed quantity exceeds a
 daily cap, the contract fixes what is billable but nothing shows how many units
 were actually delivered below the cap. The corrected amount is the capped
 quantity, the row is qualified, and the quantity is never guessed. Both
-development cap invoices are detected and both keep an inexact amount by design;
-they are 2 of the 3 remaining amount misses.
+development cap invoices are detected and both keep an inexact amount by design.
+
+**4. A composite dimension the record does not observe.** 339 invoices across
+Hospitals 2-5 are withheld for `composite_dimension_unobserved`, where a rate
+depends on a dimension the snapshot does not carry at all. No reading of the
+contract resolves this; it is an evidence limit rather than a missing check.
+
+The full withheld picture across the scored hospitals, 1,405 invoices:
+ambiguous service mapping 657, composite dimension unobserved 339, rate still
+ambiguous 299, unresolved mapping 62, same-day allocation 39, exclusion 9.
 
 ## Assumptions, per hospital
 
@@ -94,7 +144,7 @@ recorded in the traces.
 | The canonical record of a reused identifier is the **latest-dated** one | all five | Every labelled development case agrees, for both the billed and the expected total. |
 | An exclusion window **includes** its boundary day | all five | "Not billable within N days" covers a Service Date exactly N days away: the ordinary meaning of "within", making the boundary the last day inside the window. |
 | Exclusion direction, where the clause is silent, uses **every reading** | H2, H3, H5 | H1 10.1 and H4 measure in either direction. Where the clause does not fix the direction, only an anchor the readings agree on is reported — for H3 and H5, an anchor on the Service Date itself. |
-| **Service Day = the calendar date** | H2 | H2 2.2 defines 07:00–06:59, but the records carry no times, so nothing can be shown to cross the boundary, and 2.2 places a service delivered wholly within a calendar day on that date. Used for caps and for the after-invoice check. |
+| **Service Day = the calendar date** | H2 | H2 2.2 defines 07:00–06:59, but the records carry no times, so nothing can be shown to cross the boundary, and 2.2 places a service delivered wholly within a calendar day on that date. **Adopted by the consistency test above at 98.23% against 42.70%**, and applied to the weekend uplift, daily premium, bundle presence, cap allocation and the after-invoice check. |
 | The **submission deadline is unobservable**, and blocks nothing | H2 | Article XIII conditions effectiveness on a submission date the data never records. Logged as unresolved; it suppresses no other check. |
 | A **cross-invoice repeat is reported even where no clause forbids it** | H2 | H1 11.4, H3 10.3, H4 11.3 and H5 10.3 forbid billing a Service twice for one Patient and Service Date. H2's agreement is silent, but silence is not permission, and on the only labelled hospital every invoice this exact pattern matches is a labelled error. |
 | A service date **after** the invoice date is reported | H2 | H2 never defines `invoice_date`, but a service cannot be invoiced before it happens. |
@@ -116,22 +166,23 @@ recorded in the traces.
 - **Resolving H2's Service Day.** It would need service times the records do not
   contain. Inferring them would be invention.
 
-## Coverage: an honest limitation
+## Coverage
 
-The submission flags **249** invoices across Hospitals 2–5 (H2 63, H3 67, H4 54,
-H5 65). The scored set is stated to contain about **285** erroneous invoices, so
-on the face of it roughly **36 errors are not being reported** — about 13% of
-them, costing about 180 under 5·FN + FP if the shortfall is real.
+The submission flags **281** invoices across Hospitals 2–5 (H2 76, H3 69, H4 61,
+H5 75) against a scored set stated to contain about **285** erroneous invoices.
+Before this gate it flagged 249; settling Hospital 2's Service Day and reporting
+established rate differences on partially resolved invoices added 32.
 
-Two things qualify that figure, in opposite directions. Flag rates are 5.60%,
-7.19%, 6.47% and 6.19% against a scored base rate near 7.2%, so the shortfall is
-concentrated rather than uniform — Hospital 2 is the outlier, and its 992
-withheld invoices are dominated by the Service Day ambiguity above. Against
-that, Hospital 1 is the only hospital where accuracy is measurable at all, and
-the assumption that the other four share its error mix is untested; the true
-shortfall could be larger or smaller. No attempt was made to close the gap by
-lowering the evidence bar, because on development every such attempt that was
-measured cost more in false positives than it saved in misses.
+Flag rates are **6.76%, 7.40%, 7.31% and 7.14%** against a scored base rate near
+7.2%, all inside the 4–12% band and now tightly clustered around it.
+
+That closeness is worth stating carefully rather than claiming as a result. The
+counts agreeing does not mean the *same* invoices agree: some flags may be false
+positives offsetting misses elsewhere, and Hospital 1 remains the only hospital
+where any of this can be checked. What can be said is that on Hospital 1 both
+partitions are now complete with no false positive, that no decoy proxy is
+flagged, and that the count and the rate on all four scored hospitals are
+consistent with the stated base rate rather than short of it.
 
 ## Reproduction
 
@@ -142,12 +193,12 @@ warns rather than fails):
 - `python -m insurance_audit verify-submission` — exit **0**
 - `python tools/run_checks.py local` — **175 tests, 0 failures**
 - `submission.csv` byte-identical to the working copy,
-  SHA-256 `c94dc630882dbbfc66b34fbc31dc7d6f2a5a2a52aa1fe6f2c8d8c90a0d53574a`,
-  1,977 rows
+  SHA-256 `09a48b06852eda729cb7171044901bf0afd480de6298b2ee0a283bfe9ea4ca0f`,
+  2,537 rows
 
 `tools/generalize.py` exits 0 with a valid schema on all five hospitals under
 re-identified invoices, subsampled patients and perturbed descriptions.
-`tools/generalize_recall.py` measures a **10.0% relative recall drop with 0 new
+`tools/generalize_recall.py` measures a **9.5% relative recall drop with 0 new
 false positives** when 30% of Hospital 1's descriptions are perturbed and every
 identifier, quantity, date and amount is left untouched.
 
