@@ -1,0 +1,66 @@
+{
+  "scope": "Hospital 1 development partition. Invoices whose only unresolved reason is an ambiguous reading.",
+  "ambiguous_development_invoices": 143,
+  "erroneous_among_them": 1,
+  "sweep": [
+    {
+      "threshold": 0.1667,
+      "newly_flagged": 143,
+      "fn": 1,
+      "fp": 142,
+      "cost": 147
+    },
+    {
+      "threshold": 0.25,
+      "newly_flagged": 143,
+      "fn": 1,
+      "fp": 142,
+      "cost": 147
+    },
+    {
+      "threshold": 0.34,
+      "newly_flagged": 143,
+      "fn": 1,
+      "fp": 142,
+      "cost": 147
+    },
+    {
+      "threshold": 0.5,
+      "newly_flagged": 143,
+      "fn": 1,
+      "fp": 142,
+      "cost": 147
+    },
+    {
+      "threshold": 0.51,
+      "newly_flagged": 0,
+      "fn": 2,
+      "fp": 0,
+      "cost": 10
+    },
+    {
+      "threshold": 0.67,
+      "newly_flagged": 0,
+      "fn": 2,
+      "fp": 0,
+      "cost": 10
+    },
+    {
+      "threshold": 0.75,
+      "newly_flagged": 0,
+      "fn": 2,
+      "fp": 0,
+      "cost": 10
+    },
+    {
+      "threshold": 1.0,
+      "newly_flagged": 0,
+      "fn": 2,
+      "fp": 0,
+      "cost": 10
+    }
+  ],
+  "observed_error_fractions": [
+    0.5
+  ]
+}

@@ -1,50 +1,73 @@
 {
+  "ambiguity_error_fraction_threshold": 0.5,
+  "ambiguity_threshold_rule": "Flag on ambiguity alone only when strictly more than half the candidate readings find a fault. Swept on development from one sixth to one: every threshold at or below 0.5 flags all 143 ambiguity-only invoices, of which 142 are clean, for a cost of 147 against 10. Every observed error fraction is exactly 0.5, so the sweep is decided at that point and the chosen rule coincides with the plan's stated default of a majority of readings.",
   "check_labels_used": false,
-  "development_report_sha256": "11d6b8d78eafc90c46e452bfbc8062e0ebd616cc40e183405dd8b104e919cfdc",
-  "development_run_id": "f45f7f6a283ebdf6128bba41a7b453728078daf45fa904b952c732b7929fd8b5",
-  "event": "flag correct and expected cents exact, with separately verified source billed total and traceable free-text diagnostics",
-  "h1_groups": {
-    "elided:0": {
-      "basis": "conservative lower-bound score, not a proven probability calibration",
-      "confidence": 0.9,
-      "n": 43,
-      "successes": 43,
-      "wilson_95_lower": 0.9179874299767727
+  "event": "flag correct and expected cents exact, on the development partition of Hospital 1",
+  "limitations": [
+    "No Hospital 2-5 labels exist. Their confidence is the fitted Hospital 1 value reduced by a tenth, which is a policy judgment and never transferred empirical accuracy.",
+    "A tier seen fewer than 30 times on development is held at the level of the weaker tier rather than fitted to its own small sample.",
+    "The development partition shares global utilisation with the check partition, so it is not an independent external test."
+  ],
+  "minimum_empirical_n": 30,
+  "qualification_caps": {
+    "capped_quantity_substituted_for_an_unobserved_one": 0.45,
+    "interpretation": 0.65,
+    "outcome_invariant": 0.65
+  },
+  "target_discount": [
+    9,
+    10
+  ],
+  "tiers": {
+    "ambiguous": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.09,
+      "development_accuracy": 0.5,
+      "n": 2,
+      "successes": 1,
+      "wilson_95_lower": 0.094529
     },
-    "elided:1": {
-      "basis": "sparse policy judgment, not empirically calibrated",
-      "confidence": 0.65,
+    "clean": {
+      "basis": "fitted to development accuracy",
+      "confidence": 0.99,
+      "development_accuracy": 1.0,
+      "n": 404,
+      "successes": 404,
+      "wilson_95_lower": 0.990581
+    },
+    "match_fully_priced": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.6,
+      "development_accuracy": 0.857143,
+      "n": 7,
+      "successes": 6,
+      "wilson_95_lower": 0.486865
+    },
+    "no_match": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.6,
+      "development_accuracy": 1.0,
+      "n": 6,
+      "successes": 6,
+      "wilson_95_lower": 0.609657
+    },
+    "partial_amount": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.5,
+      "development_accuracy": null,
       "n": 0,
       "successes": 0,
       "wilson_95_lower": null
     },
-    "explicit:0": {
-      "basis": "conservative lower-bound score, not a proven probability calibration",
-      "confidence": 0.95,
-      "n": 122,
-      "successes": 122,
-      "wilson_95_lower": 0.9694727339766817
-    },
-    "explicit:1": {
-      "basis": "sparse policy judgment, not empirically calibrated",
-      "confidence": 0.65,
-      "n": 4,
-      "successes": 4,
-      "wilson_95_lower": 0.5100999795960008
+    "structural": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.8,
+      "development_accuracy": 0.96,
+      "n": 25,
+      "successes": 24,
+      "wilson_95_lower": 0.804555
     }
   },
-  "limitations": [
-    "No H2–5 labels exist; novel confidence values are policy judgments, never transferred empirical accuracy.",
-    "H1 patient groups share legitimate global utilisation; the check is not an independent external test.",
-    "Rare errors and explicit ambiguity are weakly supported even when emitted-row accuracy is high."
-  ],
-  "minimum_empirical_n": 30,
-  "outcome_invariant_cap": 0.65,
-  "interpretation_cap": 0.65,
-  "target_judgment": {
-    "elided": 0.7,
-    "explicit": 0.8
-  },
   "unresolved": "omit entire row",
-  "version": "1"
+  "version": "2"
 }

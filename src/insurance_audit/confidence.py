@@ -3,25 +3,37 @@ import math
 
 
 def choose(row,policy):
+    """Confidence for one emitted row, from its evidence tier.
+
+    Hospital 1's values are fitted to its development accuracy. The other four
+    have no labels at all, so each takes the fitted value reduced by a tenth: a
+    judgment that they are no better understood than Hospital 1, never a claim
+    that the measured accuracy carries across.
+    """
     if row.get('unresolved') or row.get('expected_total_cents') is None:return None,'unresolved'
-    grade=row['mapping_evidence'];flag=row['flagged']
-    if grade not in {'explicit','elided'}:raise ValueError('Unknown confidence evidence tier')
+    tier=row.get('evidence_tier')
+    group=policy['tiers'].get(tier)
+    if group is None:raise ValueError('Unknown confidence evidence tier')
+    value=group['confidence']
     if row['hospital']=='H1':
-        group=policy['h1_groups'][f'{grade}:{flag}']
-        value=group['confidence'];tier='h1_supported' if group['n']>=policy['minimum_empirical_n'] else 'sparse'
-        tier+=':'+grade+':'+str(flag)
-    else:value=policy['target_judgment'][grade];tier='novel_reviewed:'+grade
+        label=('h1_fitted:' if group['n']>=policy['minimum_empirical_n'] else 'h1_sparse:')+tier
+    else:
+        numerator,denominator=policy['target_discount']
+        value=math.floor(value*numerator/denominator*100)/100
+        label='novel_reviewed:'+tier
+    caps=policy['qualification_caps']
     if row.get('outcome_invariant_uncertainty'):
-        value=min(value,policy['outcome_invariant_cap']);tier+=':invariant'
-    if row.get('interpretation_qualifications'):
-        value=min(value,policy['interpretation_cap']);tier+=':qualified'
+        value=min(value,caps['outcome_invariant']);label+=':invariant'
+    for qualification in row.get('interpretation_qualifications') or []:
+        value=min(value,caps.get(qualification,caps['interpretation']))
+        label+=':qualified'
     if not isinstance(value,(int,float)) or isinstance(value,bool) or not math.isfinite(value) or not 0<=value<=1:
         raise ValueError('Confidence must be finite and in [0,1]')
-    return value,tier
+    return round(value,4),label
 
 
 def assign_confidence(result,policy):
-    if policy.get('version')!='1':raise ValueError('Unsupported confidence policy')
+    if policy.get('version')!='2':raise ValueError('Unsupported confidence policy')
     for row in result['opinions']:
         value,tier=choose(row,policy)
         if value is None:raise ValueError('Unresolved row leaked into complete opinions')

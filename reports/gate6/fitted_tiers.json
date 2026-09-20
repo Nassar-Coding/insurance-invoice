@@ -1,0 +1,50 @@
+{
+  "ambiguous": {
+    "basis": "sparse: held at the level of the weaker tier, not fitted",
+    "confidence": 0.09,
+    "development_accuracy": 0.5,
+    "n": 2,
+    "successes": 1,
+    "wilson_95_lower": 0.094529
+  },
+  "clean": {
+    "basis": "fitted to development accuracy",
+    "confidence": 0.99,
+    "development_accuracy": 1.0,
+    "n": 404,
+    "successes": 404,
+    "wilson_95_lower": 0.990581
+  },
+  "match_fully_priced": {
+    "basis": "sparse: held at the level of the weaker tier, not fitted",
+    "confidence": 0.6,
+    "development_accuracy": 0.857143,
+    "n": 7,
+    "successes": 6,
+    "wilson_95_lower": 0.486865
+  },
+  "no_match": {
+    "basis": "sparse: held at the level of the weaker tier, not fitted",
+    "confidence": 0.6,
+    "development_accuracy": 1.0,
+    "n": 6,
+    "successes": 6,
+    "wilson_95_lower": 0.609657
+  },
+  "partial_amount": {
+    "basis": "sparse: held at the level of the weaker tier, not fitted",
+    "confidence": 0.5,
+    "development_accuracy": null,
+    "n": 0,
+    "successes": 0,
+    "wilson_95_lower": null
+  },
+  "structural": {
+    "basis": "sparse: held at the level of the weaker tier, not fitted",
+    "confidence": 0.8,
+    "development_accuracy": 0.96,
+    "n": 25,
+    "successes": 24,
+    "wilson_95_lower": 0.804555
+  }
+}

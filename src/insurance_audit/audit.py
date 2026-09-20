@@ -153,6 +153,36 @@ def contract_rule_findings(line, invoice, service, contract, context):
     return found
 
 
+AMBIGUITY_REASONS = frozenset({'ambiguous_service_mapping', 'ambiguous_corrected_amount'})
+# A finding that rests on the records and the contract's own identifiers, dates
+# and arithmetic, rather than on identifying a service and pricing it.
+STRUCTURAL_FINDINGS = frozenset({'duplicate_invoice_id', 'cross_invoice_duplicate', 'contract_number_mismatch',
+                                 'hospital_reference_mismatch', 'service_date_after_invoice_date',
+                                 'service_date_out_of_window', 'malformed_service_date',
+                                 'malformed_invoice_date', 'malformed_amount', 'line_total_arithmetic',
+                                 'invoice_total_mismatch'})
+
+
+def evidence_tier(flagged, categories, amount_basis, reasons):
+    """Which kind of evidence an emitted row rests on.
+
+    The tiers are ordered by how much has to be true for the row to be right,
+    strongest first, and each row takes the first that applies.
+    """
+    if not flagged:
+        return 'clean'
+    named = set(categories)
+    if named & STRUCTURAL_FINDINGS:
+        return 'structural'
+    if 'unknown_service' in named:
+        return 'no_match'
+    if any(r['reason'] in AMBIGUITY_REASONS for r in reasons):
+        return 'ambiguous'
+    if amount_basis != 'full_correction':
+        return 'partial_amount'
+    return 'match_fully_priced'
+
+
 def audit(data, contract, mappings):
     context = Context(data, contract, mappings)
     structure = Findings(data, contract, mappings)
@@ -344,6 +374,7 @@ def audit(data, contract, mappings):
                        'interpretation_qualifications': sorted(qualifications),
                        'decision_basis': 'complete_audit' if complete and not findings else 'finding',
                        'amount_basis': basis, 'amount_unchanged_reason': unchanged,
+                       'evidence_tier': evidence_tier(1, named, basis, reasons),
                        'trace_key': invoice_id}
             trace.update(status='supported', opinion=opinion, amount_contributions=contributions,
                          unresolved_facts=reasons)
@@ -364,10 +395,13 @@ def audit(data, contract, mappings):
                        'confidence_state': 'not_assigned_before_policy',
                        'interpretation_qualifications': sorted(qualifications),
                        'decision_basis': 'complete_audit', 'amount_basis': 'full_correction',
-                       'amount_unchanged_reason': None, 'trace_key': invoice_id}
+                       'amount_unchanged_reason': None, 'evidence_tier': 'clean',
+                       'trace_key': invoice_id}
             if opinion['expected_total_cents'] != opinion['billed_total_cents']:
                 opinion.update(flagged=1, error_category='invoice_amount_mismatch',
-                               amount_unchanged_reason=None)
+                               amount_unchanged_reason=None,
+                               evidence_tier=evidence_tier(1, ['invoice_amount_mismatch'],
+                                                           'full_correction', reasons))
             opinions.append(opinion)
             trace.update(status='supported', opinion=opinion,
                          amount_contributions=[{'source': l['source'], 'source_row': l['row'],

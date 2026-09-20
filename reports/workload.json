@@ -11,12 +11,14 @@
     "accepted_invoice_records": 918,
     "accepted_line_records": 11409,
     "confidence_tiers": {
-      "h1_supported:elided:0": 219,
-      "h1_supported:explicit:0": 386,
-      "sparse:elided:1": 19,
-      "sparse:elided:1:qualified": 2,
-      "sparse:explicit:1": 33,
-      "sparse:explicit:1:qualified": 2
+      "h1_fitted:clean": 605,
+      "h1_sparse:ambiguous": 1,
+      "h1_sparse:ambiguous:qualified": 2,
+      "h1_sparse:match_fully_priced": 11,
+      "h1_sparse:match_fully_priced:qualified": 1,
+      "h1_sparse:no_match": 7,
+      "h1_sparse:structural": 33,
+      "h1_sparse:structural:qualified": 1
     },
     "context_records": 11415,
     "correct_opinions": 605,
@@ -45,8 +47,11 @@
     "accepted_invoice_records": 1132,
     "accepted_line_records": 14352,
     "confidence_tiers": {
-      "novel_reviewed:elided:qualified": 48,
-      "novel_reviewed:explicit:qualified": 85
+      "novel_reviewed:ambiguous:qualified": 1,
+      "novel_reviewed:clean:qualified": 70,
+      "novel_reviewed:no_match:qualified": 5,
+      "novel_reviewed:partial_amount:qualified": 8,
+      "novel_reviewed:structural:qualified": 49
     },
     "context_records": 14360,
     "correct_opinions": 70,
@@ -77,10 +82,14 @@
     "accepted_invoice_records": 939,
     "accepted_line_records": 11648,
     "confidence_tiers": {
-      "novel_reviewed:elided": 135,
-      "novel_reviewed:elided:qualified": 4,
-      "novel_reviewed:explicit": 578,
-      "novel_reviewed:explicit:qualified": 3
+      "novel_reviewed:clean": 653,
+      "novel_reviewed:match_fully_priced": 17,
+      "novel_reviewed:match_fully_priced:qualified": 3,
+      "novel_reviewed:no_match": 4,
+      "novel_reviewed:no_match:qualified": 1,
+      "novel_reviewed:partial_amount:qualified": 1,
+      "novel_reviewed:structural": 39,
+      "novel_reviewed:structural:qualified": 2
     },
     "context_records": 11655,
     "correct_opinions": 653,
@@ -111,9 +120,15 @@
     "accepted_invoice_records": 840,
     "accepted_line_records": 10554,
     "confidence_tiers": {
-      "novel_reviewed:elided": 121,
-      "novel_reviewed:explicit": 333,
-      "novel_reviewed:explicit:qualified": 6
+      "novel_reviewed:ambiguous": 2,
+      "novel_reviewed:clean": 406,
+      "novel_reviewed:match_fully_priced": 7,
+      "novel_reviewed:match_fully_priced:qualified": 1,
+      "novel_reviewed:no_match": 5,
+      "novel_reviewed:partial_amount": 1,
+      "novel_reviewed:partial_amount:qualified": 1,
+      "novel_reviewed:structural": 33,
+      "novel_reviewed:structural:qualified": 4
     },
     "context_records": 10560,
     "correct_opinions": 406,
@@ -144,8 +159,15 @@
     "accepted_invoice_records": 1057,
     "accepted_line_records": 13213,
     "confidence_tiers": {
-      "novel_reviewed:elided:qualified": 181,
-      "novel_reviewed:explicit:qualified": 483
+      "novel_reviewed:ambiguous:qualified": 1,
+      "novel_reviewed:clean:qualified": 599,
+      "novel_reviewed:match_fully_priced:qualified": 11,
+      "novel_reviewed:match_fully_priced:qualified:qualified": 4,
+      "novel_reviewed:no_match:qualified": 4,
+      "novel_reviewed:no_match:qualified:qualified": 1,
+      "novel_reviewed:partial_amount:qualified": 1,
+      "novel_reviewed:structural:qualified": 41,
+      "novel_reviewed:structural:qualified:qualified": 2
     },
     "context_records": 13221,
     "correct_opinions": 599,
