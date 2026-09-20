@@ -1,10 +1,10 @@
 {
-  "elapsed_seconds": 67.236295,
+  "elapsed_seconds": 59.269304,
   "evaluation": {
     "check_partition_read": false,
     "status": "not_requested"
   },
-  "h1_attempt": "8c0201e5419846ed9af1bedc794a89d8",
+  "h1_attempt": "e1c8ff3e7b7e485aa65b47d3126ea67e",
   "hospital_opinions": {
     "H1": 661,
     "H2": 133,
@@ -19,5 +19,5 @@
   "status": "success",
   "submission_rows": 1977,
   "submission_sha256": "c94dc630882dbbfc66b34fbc31dc7d6f2a5a2a52aa1fe6f2c8d8c90a0d53574a",
-  "target_attempt": "e18b134aecb84fa1aee1d992b0637416"
+  "target_attempt": "4b38758febd14bf0875198e00c79fd13"
 }

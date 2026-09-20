@@ -27,7 +27,7 @@
     "src/insurance_audit/reporting.py": "6677f5bbf5bdd2925e945100d05d01c32b8a3b628c0c9f70b31f969972c97944",
     "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
     "src/insurance_audit/schema.py": "e4642f5d3a4600e2b9cfccf877b55a753ccde6bd08ccea081307fba3519b4e22",
-    "src/insurance_audit/submission.py": "2d1a506d4e429a15e515d44a13ba0a67fe1144628cb8c163c1dae703c7eb4509",
+    "src/insurance_audit/submission.py": "b3c53e84d917897566d7c2c63efc93d788157019e1bcbc962f5918bada4a5059",
     "tests/fixtures/h1_contract_examples.json": "f95b1686f21c77c93f4241d004b8c5fdd8814dc868bbe2b6ccc244ec23f94209",
     "tests/historical_tools/review_h1_mapping_v2.py": "2e34a22e5c2b30bce1b66e87a37fc01302b35e9886c0f7be2051ef2697a2ab99",
     "tests/historical_tools/verify_audit_corrections.py": "960530aba5db184137bfb0f770d19ac3930b77d4b795415dc4bfb1c14a78f981",
@@ -80,7 +80,7 @@
         "src/insurance_audit/reporting.py": "6677f5bbf5bdd2925e945100d05d01c32b8a3b628c0c9f70b31f969972c97944",
         "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
         "src/insurance_audit/schema.py": "e4642f5d3a4600e2b9cfccf877b55a753ccde6bd08ccea081307fba3519b4e22",
-        "src/insurance_audit/submission.py": "2d1a506d4e429a15e515d44a13ba0a67fe1144628cb8c163c1dae703c7eb4509"
+        "src/insurance_audit/submission.py": "b3c53e84d917897566d7c2c63efc93d788157019e1bcbc962f5918bada4a5059"
       },
       "hospitals": [
         "H1"
@@ -142,7 +142,7 @@
         "src/insurance_audit/reporting.py": "6677f5bbf5bdd2925e945100d05d01c32b8a3b628c0c9f70b31f969972c97944",
         "src/insurance_audit/resolve.py": "b82aba63c89c9d82926e230a33b407d3f1fd54d7582aab6e72f6ca717908a022",
         "src/insurance_audit/schema.py": "e4642f5d3a4600e2b9cfccf877b55a753ccde6bd08ccea081307fba3519b4e22",
-        "src/insurance_audit/submission.py": "2d1a506d4e429a15e515d44a13ba0a67fe1144628cb8c163c1dae703c7eb4509"
+        "src/insurance_audit/submission.py": "b3c53e84d917897566d7c2c63efc93d788157019e1bcbc962f5918bada4a5059"
       },
       "hospitals": [
         "H2",
@@ -154,8 +154,8 @@
     }
   },
   "run_ids": {
-    "H1": "f8265929755c234d0ca929f27170a45ef48e60b49418f35d6637c415a57078ac",
-    "targets": "ddff22c1c0d8a7aa9bfe13e7b9cae8c47e1d123e4bafdfe0b41ea14f16cefa1f"
+    "H1": "7b33c5068c5f5df6dddc79b6b0caf24ef2c0452c70bc3b2159b20e9c7eff09fd",
+    "targets": "1efb9757abfab2106a8343e162c20e17fe91043c4ef23277dc4c8e969ee93202"
   },
   "scope": "Deterministic invoice audit, evaluation and reproducibility evidence for the supplied snapshot",
   "stable_outputs": {
@@ -164,5 +164,5 @@
     "reports/workload.json": "3c1e7c76475a03b54c0cc557e38cd6c80c46e5a38544e7eab832e224528ac7b6",
     "submission.csv": "c94dc630882dbbfc66b34fbc31dc7d6f2a5a2a52aa1fe6f2c8d8c90a0d53574a"
   },
-  "target_release_id": "2586b99163f59af9ada8816a6956b44cecdfedf529764d73706906c58ffc5358"
+  "target_release_id": "209f6f09f2d5a9cde8bc7817d6bcea265aadfc2db45e07494d7c8373d99bd7db"
 }

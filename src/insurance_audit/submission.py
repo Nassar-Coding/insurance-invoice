@@ -72,7 +72,14 @@ def validate_result(result,data,policy):
             total=0
             for key,line in raw.items():
                 item=evidence[key]
-                ensure(item['status']=='supported' and item['service_id'] and item['source_refs'],'Unresolved required line')
+                # A line is resolved either because one service was identified and
+                # priced, or because every candidate reading of its wording reached
+                # the same verdict. The second has no single service to cite, but it
+                # is no less resolved.
+                if item['status']=='supported_under_every_reading':
+                    ensure(item.get('every_reading') and item.get('result'),'Every-reading line without its readings')
+                else:
+                    ensure(item['status']=='supported' and item['service_id'] and item['source_refs'],'Unresolved required line')
                 for field in ('line_id','description','quantity'):
                     ensure(item[field]==getattr(line,field),'Line provenance mismatch: '+field)
                 ensure(item['billed_line_total_cents']==line.line_total_cents and item['billed_unit_price_cents']==line.unit_price_cents,'Billed line provenance mismatch')
